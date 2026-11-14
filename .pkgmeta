@@ -9,3 +9,4 @@ ignore:
   - build
   - SPEC.md
   - README.md
+  - CLAUDE.md
