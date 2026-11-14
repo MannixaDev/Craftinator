@@ -1,2 +1,4 @@
 tools/db2/
 tools/sources/
+dist/
+build/

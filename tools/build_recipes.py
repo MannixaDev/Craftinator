@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Craftinator/Data/Recipes_<Profession>.lua from DB2 exports.
+"""Build Data/Recipes_<Profession>.lua from DB2 exports.
 
 Usage (from the repo root):
     python tools/build_recipes.py --build 1.60.1.70938 --profession Tailoring
@@ -282,7 +282,7 @@ def write_lua(build, profession, recipes, skipped, skill_line):
     lines.append("}")
     if skipped:
         lines += ["", "-- Skipped:"] + [f"--   {spell} {name}: {why}" for spell, name, why in skipped]
-    path = ROOT / "Craftinator" / "Data" / f"Recipes_{profession.replace(' ', '')}.lua"
+    path = ROOT / "Data" / f"Recipes_{profession.replace(' ', '')}.lua"
     path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
     return path
 

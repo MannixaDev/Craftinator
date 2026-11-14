@@ -1,6 +1,6 @@
 std = "lua51"
 max_line_length = 140
-exclude_files = { ".luarocks", "lua_modules" }
+exclude_files = { ".luarocks", "lua_modules", "dist", "build" }
 
 -- Globals the addon defines.
 globals = {
@@ -34,8 +34,8 @@ read_globals = {
 files["spec"] = { std = "+busted" }
 
 -- Pure-Lua modules: no WoW globals allowed, so an API call here fails the lint.
-files["Craftinator/Optimiser.lua"] = { new_read_globals = {}, new_globals = {} }
-files["Craftinator/Pricing.lua"] = { new_read_globals = {}, new_globals = {} }
+files["Optimiser.lua"] = { new_read_globals = {}, new_globals = {} }
+files["Pricing.lua"] = { new_read_globals = {}, new_globals = {} }
 
 -- Generated data: long lines are fine.
-files["Craftinator/Data/Recipes_*.lua"] = { max_line_length = false }
+files["Data/Recipes_*.lua"] = { max_line_length = false }

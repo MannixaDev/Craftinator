@@ -12,12 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check the tag matches the .toc version
         run: |
-          version=$(grep -oP '^## Version: \K.*' Craftinator/Craftinator.toc | tr -d '\r')
+          version=$(grep -oP '^## Version: \K.*' Craftinator.toc | tr -d '\r')
           test "v$version" = "$GITHUB_REF_NAME" || { echo "Tag $GITHUB_REF_NAME does not match .toc version $version"; exit 1; }
       - name: Build the zip
+        # The addon is the .toc, the Lua files beside it, and the Data and UI folders.
         run: |
-          cp LICENSE Craftinator/LICENSE.txt
-          zip -r "Craftinator-$GITHUB_REF_NAME.zip" Craftinator
+          mkdir -p build/Craftinator
+          cp -r Craftinator.toc *.lua Data UI build/Craftinator/
+          cp LICENSE build/Craftinator/LICENSE.txt
+          cd build && zip -r "../Craftinator-$GITHUB_REF_NAME.zip" Craftinator
       - name: Create the release
         env:
           GH_TOKEN: ${{ github.token }}

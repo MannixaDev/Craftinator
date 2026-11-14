@@ -82,7 +82,7 @@ def parse_saved_variables(text):
 def recipe_spells():
     """{spell ID: profession} from the generated data files."""
     spells = {}
-    for path in (ROOT / "Craftinator" / "Data").glob("Recipes_*.lua"):
+    for path in (ROOT / "Data").glob("Recipes_*.lua"):
         text = path.read_text(encoding="utf-8")
         profession = re.search(r'ns\.Data\.Recipes\["([^"]+)"\]', text).group(1)
         for spell in re.findall(r"^  \[(\d+)\] = \{", text, re.M):

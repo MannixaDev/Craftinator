@@ -19,9 +19,9 @@ Leatherworking and Tailoring.
 
 ## Install
 
-1. Download the latest zip from [Releases](https://github.com/MannixaDev/Craftinator/releases),
-   or use Code > Download ZIP on this page.
-2. Copy the `Craftinator` folder (the one containing `Craftinator.toc`) into
+1. Download the latest `Craftinator-v*.zip` from [Releases](https://github.com/MannixaDev/Craftinator/releases).
+   (Do not use Code > Download ZIP: that is the development copy, with tests and tools mixed in.)
+2. Unzip it and copy the `Craftinator` folder into
    `World of Warcraft\_forever_\Interface\AddOns\`.
 3. Restart the game. [Auctionator](https://www.curseforge.com/wow/addons/auctionator) is
    optional but strongly recommended: without it only vendor prices are known.
@@ -73,7 +73,7 @@ Horde trainers and vendors are the biggest gap.
 
 ```
 busted
-luacheck Craftinator spec
+luacheck .
 ```
 
 See `tools/README.md` for regenerating the data after a game patch, and `SPEC.md` for the design.

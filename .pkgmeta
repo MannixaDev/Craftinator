@@ -1,0 +1,11 @@
+package-as: Craftinator
+
+# Development files that are not part of the addon.
+ignore:
+  - spec
+  - tools
+  - media
+  - dist
+  - build
+  - SPEC.md
+  - README.md
