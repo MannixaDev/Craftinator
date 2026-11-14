@@ -1,0 +1,3 @@
+# Keep line endings as LF everywhere: the game and the tools both read them fine.
+* text=auto eol=lf
+*.png binary
