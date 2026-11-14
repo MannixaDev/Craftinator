@@ -405,7 +405,7 @@ local function locationLine(plan)
   local where = ("%s, %s"):format(tostring(location.mapName), tostring(faction))
   local left = plan.target - plan.skill
   if left <= 5 then
-    where = where .. (left <= 0 and ". At your cap: train the next rank."
+    where = where .. (left <= 0 and ". At your cap."
       or (". %d point%s from your cap."):format(left, left == 1 and "" or "s"))
   end
   local shops = {}
@@ -413,16 +413,29 @@ local function locationLine(plan)
     if #shops < 2 then shops[#shops + 1] = ("%s (%s)"):format(vendor.name, vendor.title) end
   end
   local supplies = #shops > 0 and ("\nSupplies here: " .. table.concat(shops, ", ")) or ""
-  local npc = ns.Navigation.BestTrainer(here, plan.target)
-  if npc then
+  -- A trainer only helps with the cap if they train past it.
+  local cap = plan.target
+  local npc = ns.Navigation.BestTrainer(here, cap)
+  local away = ns.Navigation.BestTrainer(elsewhere, cap)
+  if npc and npc.maxSkill > cap then
     return ("%s\nTrainer here: %s (%s). Click for a map pin.%s"):format(where, npc.name, npc.rank, supplies), npc
   end
-  npc = ns.Navigation.BestTrainer(elsewhere, plan.target)
-  if npc then
-    return ("%s\nNo %s trainer listed here. Try %s (%s) in %s. Click for a pin.%s"):format(
-      where, plan.profession, npc.name, npc.rank, ns.Navigation.CityName(npc.mapID), supplies), npc
+  if away and away.maxSkill > cap then
+    local lead = npc and (npc.name .. " here cannot raise your cap.") or ("No %s trainer listed here."):format(plan.profession)
+    return ("%s\n%s Try %s in %s. Click for a pin.%s"):format(
+      where, lead, away.name, ns.Navigation.CityName(away.mapID), supplies), away
   end
-  return where .. "\nNo trainer data for this profession and faction." .. supplies, nil
+  if not npc and not away then
+    return where .. "\nNo trainer data for this profession and faction." .. supplies, nil
+  end
+  -- No listed trainer goes past this cap: some ranks come from a book instead.
+  local book = ns.Data.RankBooks and ns.Data.RankBooks[plan.profession] and ns.Data.RankBooks[plan.profession][cap]
+  local seller = book and book[faction]
+  if seller then
+    return ("%s\nPast %d: buy %s (%s) from %s in %s.%s"):format(where, cap, book.item,
+      Pricing.FormatMoney(book.cost), seller[1], seller[2], supplies), nil
+  end
+  return ("%s\nNo trainer is known to raise your cap past %d.%s"):format(where, cap, supplies), nil
 end
 
 function Panel.Refresh()
@@ -462,7 +475,7 @@ function Panel.Refresh()
   setRows(entries)
 
   if plan.skill >= plan.target then
-    frame.message:SetText(("You are at your skill cap (%d). Visit a trainer to raise it."):format(plan.target))
+    frame.message:SetText(("You are at your skill cap (%d). The line above says how to raise it."):format(plan.target))
   elseif #route.steps == 0 then
     frame.message:SetText("No usable recipe found for your current skill.")
   else

@@ -27,6 +27,19 @@ local RANK = { J = { "Journeyman", 150 }, E = { "Expert", 225 }, A = { "Artisan"
 
 ns.Data.NPCs = {}
 
+-- Ranks that are learned from a book, not a trainer: [profession][cap the book raises you from].
+-- Sellers as listed for Forever by foreverdb.net ("seen in WoW Forever"); cost in copper.
+ns.Data.RankBooks = {
+  Cooking = {
+    [150] = { item = "Expert Cookbook", itemID = 16072, cost = 10000, needsSkill = 125,
+              Alliance = { "Shandrina", "Ashenvale" }, Horde = { "Wulan", "Desolace" } },
+  },
+  ["First Aid"] = {
+    [150] = { item = "Expert First Aid - Under Wraps", itemID = 16084, cost = 10000, needsSkill = 125,
+              Alliance = { "Deneb Walker", "Arathi Highlands" }, Horde = { "Balai Lok'Wein", "Dustwallow Marsh" } },
+  },
+}
+
 -- Each entry: name, rank letter, city code, x, y (map percentages), and optionally the skill
 -- cap the trainer was seen to train to in game, which on Forever can be lower than the rank suggests.
 local function trainers(profession, list)
