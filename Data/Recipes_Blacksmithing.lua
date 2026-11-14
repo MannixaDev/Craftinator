@@ -6,6 +6,7 @@
 -- learn = nil: still unknown. source = "item" / "unknown": taught by an item, origin unknown.
 -- sourceCost (copper) = trainer fee seen in game, or the vendor price; nil when unknown or not gold.
 -- station = the object you must stand next to (Anvil, Forge, Cooking Fire), when there is one.
+-- tools = item IDs of tools you must carry (a better tool of the same kind also works).
 
 local _, ns = ...
 
@@ -22,6 +23,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 1, orange = 1, yellow = 10, green = 12, grey = 15,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [2660] = { -- 1x Rough Stone
     name = "Rough Sharpening Stone", skillLineAbilityID = 1631,
@@ -44,6 +46,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 1, orange = 1, yellow = 15, green = 35, grey = 55,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1230171] = { -- 1x Rough Stone, 1x Copper Bar
     name = "Sharpening Wheel", skillLineAbilityID = 52645,
@@ -61,6 +64,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 1, orange = 1, yellow = 20, green = 40, grey = 60,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252229] = { -- 2x Copper Bar, 2x Tigerseye, 2x Malachite, 4x Light Leather
     name = "Gemmed Copper Boots", skillLineAbilityID = 54692,
@@ -69,6 +73,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 35, orange = 35, yellow = 40, green = 40, grey = 40,
     source = "trainer", sourceCost = nil, recipeItem = 251332, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252230] = { -- 2x Copper Bar, 4x Strange Dust, 2x Light Leather
     name = "Strange Copper Boots", skillLineAbilityID = 54693,
@@ -77,6 +82,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 35, orange = 35, yellow = 40, green = 40, grey = 40,
     source = "trainer", sourceCost = nil, recipeItem = 251333, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252231] = { -- 2x Copper Bar, 4x Lesser Magic Essence, 2x Light Leather
     name = "Glowing Copper Boots", skillLineAbilityID = 54694,
@@ -85,6 +91,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 35, orange = 35, yellow = 40, green = 40, grey = 40,
     source = "trainer", sourceCost = nil, recipeItem = 251334, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [2665] = { -- 1x Coarse Stone
     name = "Coarse Sharpening Stone", skillLineAbilityID = 1636,
@@ -116,6 +123,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 15, orange = 15, yellow = 50, green = 70, grey = 90,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3326] = { -- 2x Coarse Stone
     name = "Coarse Grinding Stone", skillLineAbilityID = 1861,
@@ -132,6 +140,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 50, orange = 50, yellow = 55, green = 57, grey = 60,
     source = "item", sourceCost = nil, recipeItem = 276929, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1301424] = { -- 6x Copper Bar
     name = "Cloudy Skyforged Chain", skillLineAbilityID = 58706,
@@ -140,6 +149,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 50, orange = 50, yellow = 55, green = 57, grey = 60,
     source = "item", sourceCost = nil, recipeItem = 276931, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1301446] = { -- 5x Copper Bar
     name = "Azure Skyforged Wristguards", skillLineAbilityID = 58710,
@@ -148,6 +158,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 50, orange = 50, yellow = 55, green = 57, grey = 60,
     source = "item", sourceCost = nil, recipeItem = 276953, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1301448] = { -- 6x Copper Bar
     name = "Azure Skyforged Chain", skillLineAbilityID = 58712,
@@ -156,6 +167,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 50, orange = 50, yellow = 55, green = 57, grey = 60,
     source = "item", sourceCost = nil, recipeItem = 276955, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [2737] = { -- 6x Copper Bar, 1x Weak Flux, 2x Linen Cloth
     name = "Copper Mace", skillLineAbilityID = 1646,
@@ -164,6 +176,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 15, orange = 15, yellow = 55, green = 75, grey = 95,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1301423] = { -- 7x Copper Bar
     name = "Cloudy Skyforged Gauntlets", skillLineAbilityID = 58705,
@@ -172,6 +185,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 55, orange = 55, yellow = 60, green = 62, grey = 65,
     source = "item", sourceCost = nil, recipeItem = 276930, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1301426] = { -- 7x Copper Bar
     name = "Cloudy Skyforged Greaves", skillLineAbilityID = 58708,
@@ -180,6 +194,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 55, orange = 55, yellow = 60, green = 62, grey = 65,
     source = "item", sourceCost = nil, recipeItem = 276933, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1301447] = { -- 7x Copper Bar
     name = "Azure Skyforged Gauntlets", skillLineAbilityID = 58711,
@@ -188,6 +203,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 55, orange = 55, yellow = 60, green = 62, grey = 65,
     source = "item", sourceCost = nil, recipeItem = 276954, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1301450] = { -- 7x Copper Bar
     name = "Azure Skyforged Greaves", skillLineAbilityID = 58714,
@@ -196,6 +212,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 55, orange = 55, yellow = 60, green = 62, grey = 65,
     source = "item", sourceCost = nil, recipeItem = 276957, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1302598] = { -- 9x Copper Bar
     name = "Rough Copper Chain Boots", skillLineAbilityID = 58811,
@@ -204,6 +221,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 50, orange = 50, yellow = 60, green = 65, grey = 70,
     source = "quest", sourceCost = nil, recipeItem = 277673, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Rough Copper Chain Boots Quest: The Quarry's Smith Quest: This Is Spinal Axe",
   },
   [2738] = { -- 6x Copper Bar, 1x Weak Flux, 2x Linen Cloth
@@ -213,6 +231,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 20, orange = 20, yellow = 60, green = 80, grey = 100,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3319] = { -- 8x Copper Bar
     name = "Copper Chain Boots", skillLineAbilityID = 1855,
@@ -221,6 +240,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 20, orange = 20, yellow = 60, green = 80, grey = 100,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1301421] = { -- 8x Copper Bar, 1x Weak Flux
     name = "Cloudy Skyforged Chainmail", skillLineAbilityID = 58703,
@@ -237,6 +257,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 60, orange = 60, yellow = 65, green = 67, grey = 70,
     source = "item", sourceCost = nil, recipeItem = 276932, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1301445] = { -- 8x Copper Bar, 1x Weak Flux
     name = "Azure Skyforged Chainmail", skillLineAbilityID = 58709,
@@ -245,6 +266,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 60, orange = 60, yellow = 65, green = 67, grey = 70,
     source = "item", sourceCost = nil, recipeItem = 276952, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1301449] = { -- 8x Copper Bar, 1x Weak Flux
     name = "Azure Skyforged Legguards", skillLineAbilityID = 58713,
@@ -253,6 +275,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 60, orange = 60, yellow = 65, green = 67, grey = 70,
     source = "item", sourceCost = nil, recipeItem = 276956, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [2739] = { -- 6x Copper Bar, 1x Weak Flux, 2x Linen Cloth
     name = "Copper Shortsword", skillLineAbilityID = 1652,
@@ -261,6 +284,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 25, orange = 25, yellow = 65, green = 85, grey = 105,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [8880] = { -- 6x Copper Bar, 1x Weak Flux, 1x Rough Grinding Stone, 1x Light Leather
     name = "Copper Dagger", skillLineAbilityID = 4910,
@@ -269,6 +293,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 25, orange = 25, yellow = 65, green = 85, grey = 105,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9983] = { -- 10x Copper Bar, 2x Weak Flux, 1x Rough Grinding Stone, 1x Light Leather
     name = "Copper Claymore", skillLineAbilityID = 5338,
@@ -277,6 +302,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 25, orange = 25, yellow = 65, green = 85, grey = 105,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [2661] = { -- 6x Copper Bar
     name = "Copper Chain Belt", skillLineAbilityID = 1632,
@@ -285,6 +311,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 30, orange = 30, yellow = 70, green = 90, grey = 110,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3293] = { -- 12x Copper Bar, 2x Weak Flux, 2x Malachite, 2x Rough Grinding Stone, 2x Light Leather
     name = "Copper Battle Axe", skillLineAbilityID = 1850,
@@ -293,6 +320,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 30, orange = 30, yellow = 70, green = 90, grey = 110,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3321] = { -- 8x Copper Bar, 1x Malachite, 2x Rough Grinding Stone
     name = "Copper Chain Vest", skillLineAbilityID = 1857,
@@ -301,6 +329,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 30, orange = 30, yellow = 70, green = 90, grey = 110,
     source = "quest", sourceCost = nil, recipeItem = 3609, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Copper Chain Vest Drop: Wetlands, Alterac Mountains, Westfall, Redridge Mountains, Silverp...",
   },
   [19666] = { -- 1x Silver Bar, 1x Rough Grinding Stone
@@ -311,6 +340,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3323] = { -- 8x Copper Bar, 2x Rough Grinding Stone
     name = "Runed Copper Gauntlets", skillLineAbilityID = 1858,
@@ -319,6 +349,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 35, orange = 35, yellow = 75, green = 95, grey = 115,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3324] = { -- 8x Copper Bar, 3x Coarse Thread, 3x Rough Grinding Stone
     name = "Runed Copper Pants", skillLineAbilityID = 1859,
@@ -327,6 +358,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 35, orange = 35, yellow = 75, green = 95, grey = 115,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3325] = { -- 8x Copper Bar, 1x Tigerseye, 1x Malachite
     name = "Gemmed Copper Gauntlets", skillLineAbilityID = 1860,
@@ -335,6 +367,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 35, orange = 35, yellow = 75, green = 95, grey = 115,
     source = "drop", sourceCost = nil, recipeItem = 3610, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Gemmed Copper Gauntlets Drop: Wetlands, Westfall, Redridge Mountains, Silverpine Forest, H...",
   },
   [7818] = { -- 1x Silver Bar, 2x Rough Grinding Stone
@@ -344,6 +377,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 75, orange = 75, yellow = 80, green = 82, grey = 85,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [7408] = { -- 12x Copper Bar, 2x Weak Flux, 2x Light Leather
     name = "Heavy Copper Maul", skillLineAbilityID = 4285,
@@ -352,6 +386,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 40, orange = 40, yellow = 80, green = 100, grey = 120,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [8366] = { -- 12x Copper Bar, 2x Malachite, 2x Rough Grinding Stone
     name = "Ironforge Chain", skillLineAbilityID = 4628,
@@ -360,6 +395,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = nil, orange = nil, yellow = 80, green = 100, grey = 120,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252237] = { -- 4x Bronze Bar, 2x Rough Grinding Stone, 2x Small Lustrous Pearl
     name = "Veteran's Chain Shirt", skillLineAbilityID = 54700,
@@ -368,6 +404,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 80, orange = 80, yellow = 85, green = 85, grey = 85,
     source = "drop", sourceCost = nil, recipeItem = 251340, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Veteran's Chain Shirt World drop (level 16–21)",
   },
   [1252238] = { -- 4x Bronze Bar, 2x Rough Grinding Stone, 2x Shadowgem
@@ -377,6 +414,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 80, orange = 80, yellow = 85, green = 85, grey = 85,
     source = "drop", sourceCost = nil, recipeItem = 251341, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Guard's Chain Shirt Drop: Shadowfang Keep (Fel Steed / Shadow Charger)",
   },
   [1252239] = { -- 4x Bronze Bar, 2x Rough Grinding Stone, 2x Tigerseye
@@ -386,6 +424,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 80, orange = 80, yellow = 85, green = 85, grey = 85,
     source = "drop", sourceCost = nil, recipeItem = 251342, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Protector's Chain Shirt World drop (level 16–21)",
   },
   [1252240] = { -- 4x Bronze Bar, 2x Rough Grinding Stone, 2x Strange Dust
@@ -395,6 +434,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 80, orange = 80, yellow = 85, green = 85, grey = 85,
     source = "drop", sourceCost = nil, recipeItem = 251343, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Acolyte's Chain Shirt World drop (level 16–21)",
   },
   [1252241] = { -- 4x Bronze Bar, 2x Rough Grinding Stone, 2x Lesser Magic Essence
@@ -404,6 +444,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 80, orange = 80, yellow = 85, green = 85, grey = 85,
     source = "drop", sourceCost = nil, recipeItem = 251344, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Crusader's Chain Shirt World drop (level 16–21)",
   },
   [2666] = { -- 10x Copper Bar
@@ -413,6 +454,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 45, orange = 45, yellow = 85, green = 105, grey = 125,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3294] = { -- 10x Copper Bar, 2x Weak Flux, 2x Silver Bar, 2x Rough Grinding Stone, 2x Light Leather
     name = "Thick War Axe", skillLineAbilityID = 1851,
@@ -421,6 +463,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 45, orange = 45, yellow = 85, green = 105, grey = 125,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252262] = { -- 12x Copper Bar, 4x Rough Grinding Stone, 2x Pristine Leather, 2x Small Lustrous Pearl
     name = "Veteran's Chain Belt", skillLineAbilityID = 54725,
@@ -429,6 +472,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 45, orange = 45, yellow = 85, green = 105, grey = 125,
     source = "vendor", sourceCost = nil, recipeItem = 251365, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Veteran's Chain Belt Vendor (30 Merchant's Favor )",
   },
   [1252263] = { -- 12x Copper Bar, 4x Rough Grinding Stone, 2x Pristine Leather, 2x Shadowgem
@@ -438,6 +482,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 45, orange = 45, yellow = 85, green = 105, grey = 125,
     source = "vendor", sourceCost = nil, recipeItem = 251366, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Guard's Chain Belt Vendor (30 Merchant's Favor )",
   },
   [1252264] = { -- 12x Copper Bar, 4x Rough Grinding Stone, 2x Pristine Leather, 2x Tigerseye
@@ -447,6 +492,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 45, orange = 45, yellow = 85, green = 105, grey = 125,
     source = "vendor", sourceCost = nil, recipeItem = 251367, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Protector's Chain Belt Vendor (30 Merchant's Favor )",
   },
   [1252265] = { -- 12x Copper Bar, 4x Rough Grinding Stone, 2x Pristine Leather, 2x Strange Dust
@@ -456,6 +502,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 45, orange = 45, yellow = 85, green = 105, grey = 125,
     source = "vendor", sourceCost = nil, recipeItem = 251368, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Acolyte's Chain Belt Vendor (30 Merchant's Favor )",
   },
   [1252266] = { -- 12x Copper Bar, 4x Rough Grinding Stone, 2x Pristine Leather, 2x Lesser Magic Essence
@@ -465,6 +512,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 45, orange = 45, yellow = 85, green = 105, grey = 125,
     source = "vendor", sourceCost = nil, recipeItem = 251369, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Crusader's Chain Belt Vendor (30 Merchant's Favor )",
   },
   [2664] = { -- 10x Copper Bar, 3x Rough Grinding Stone
@@ -474,6 +522,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 65, orange = 65, yellow = 90, green = 102, grey = 115,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [2667] = { -- 12x Copper Bar, 1x Shadowgem, 2x Rough Grinding Stone
     name = "Runed Copper Breastplate", skillLineAbilityID = 1638,
@@ -482,6 +531,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 55, orange = 55, yellow = 95, green = 115, grey = 135,
     source = "drop", sourceCost = nil, recipeItem = 2881, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Runed Copper Breastplate World drop (level 11–26)",
   },
   [1252242] = { -- 6x Bronze Bar, 2x Coarse Grinding Stone, 4x Small Lustrous Pearl
@@ -491,6 +541,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 95, orange = 95, yellow = 100, green = 100, grey = 100,
     source = "drop", sourceCost = nil, recipeItem = 251345, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Veteran's Chain Leggings World drop (level 20–26)",
   },
   [1252243] = { -- 6x Bronze Bar, 2x Coarse Grinding Stone, 4x Shadowgem
@@ -500,6 +551,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 95, orange = 95, yellow = 100, green = 100, grey = 100,
     source = "drop", sourceCost = nil, recipeItem = 251346, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Guard's Chain Leggings World drop (level 20–26)",
   },
   [1252244] = { -- 6x Bronze Bar, 2x Coarse Grinding Stone, 4x Tigerseye
@@ -509,6 +561,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 95, orange = 95, yellow = 100, green = 100, grey = 100,
     source = "drop", sourceCost = nil, recipeItem = 251347, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Protector's Chain Leggings World drop (level 20–26)",
   },
   [1252245] = { -- 6x Bronze Bar, 2x Coarse Grinding Stone, 4x Strange Dust
@@ -518,6 +571,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 95, orange = 95, yellow = 100, green = 100, grey = 100,
     source = "drop", sourceCost = nil, recipeItem = 251348, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Acolyte's Chain Leggings World drop (level 20–26)",
   },
   [1252246] = { -- 6x Bronze Bar, 2x Coarse Grinding Stone, 4x Lesser Magic Essence
@@ -527,6 +581,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 95, orange = 95, yellow = 100, green = 100, grey = 100,
     source = "drop", sourceCost = nil, recipeItem = 251349, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Crusader's Chain Leggings World drop (level 20–26)",
   },
   [2674] = { -- 1x Heavy Stone
@@ -567,6 +622,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 70, orange = 70, yellow = 100, green = 115, grey = 130,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3491] = { -- 6x Bronze Bar, 4x Weak Flux, 2x Rough Grinding Stone, 1x Tigerseye, 1x Medium Leather
     name = "Big Bronze Knife", skillLineAbilityID = 1984,
@@ -575,6 +631,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 80, orange = 80, yellow = 110, green = 125, grey = 140,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252257] = { -- 10x Bronze Bar, 4x Rough Grinding Stone, 2x Sulfuric Acid, 3x Small Lustrous Pearl
     name = "Veteran's Gloves", skillLineAbilityID = 54720,
@@ -583,6 +640,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 80, orange = 80, yellow = 110, green = 125, grey = 140,
     source = "vendor", sourceCost = 2000, recipeItem = 251360, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Veteran's Gloves Drop: Deadmines (Sneed, Cookie) Drop: Ragefire Chasm (Jergosh the Invoker...",
   },
   [1252258] = { -- 10x Bronze Bar, 4x Rough Grinding Stone, 2x Sulfuric Acid, 3x Shadowgem
@@ -592,6 +650,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 80, orange = 80, yellow = 110, green = 125, grey = 140,
     source = "vendor", sourceCost = nil, recipeItem = 251361, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Guard's Gloves Drop: Ragefire Chasm (Taragaman the Hungerer) Vendor (30 Merchant's Favor )",
   },
   [1252259] = { -- 10x Bronze Bar, 4x Rough Grinding Stone, 2x Sulfuric Acid, 3x Tigerseye
@@ -601,6 +660,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 80, orange = 80, yellow = 110, green = 125, grey = 140,
     source = "vendor", sourceCost = 2000, recipeItem = 251362, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Protector's Gloves Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Rha...",
   },
   [1252260] = { -- 10x Bronze Bar, 4x Rough Grinding Stone, 2x Sulfuric Acid, 3x Strange Dust
@@ -610,6 +670,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 80, orange = 80, yellow = 110, green = 125, grey = 140,
     source = "vendor", sourceCost = 2000, recipeItem = 251363, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Acolyte's Gloves Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Rhahk...",
   },
   [1252261] = { -- 10x Bronze Bar, 4x Rough Grinding Stone, 2x Sulfuric Acid, 3x Lesser Magic Essence
@@ -619,6 +680,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 80, orange = 80, yellow = 110, green = 125, grey = 140,
     source = "vendor", sourceCost = 2000, recipeItem = 251364, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Crusader's Gloves Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Rhah...",
   },
   [1252351] = { -- 6x Bronze Bar, 4x Weak Flux, 2x Rough Grinding Stone, 2x Shadowgem, 1x Medium Leather
@@ -628,6 +690,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 80, orange = 80, yellow = 110, green = 125, grey = 140,
     source = "drop", sourceCost = nil, recipeItem = 251454, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Brass Knuckles Drop: Stonetalon Mountains ( Gogger Rock Keeper )",
   },
   [3292] = { -- 14x Copper Bar, 2x Weak Flux, 2x Tigerseye, 2x Medium Leather
@@ -637,6 +700,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 70, orange = 70, yellow = 110, green = 130, grey = 150,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1317962] = { -- 18x Bronze Bar, 2x Silver Bar, 1x Tigerseye
     name = "Cracked Blacksmith Hammer", skillLineAbilityID = 59489,
@@ -654,6 +718,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = nil, orange = nil, yellow = 115, green = 130, grey = 145,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [2740] = { -- 6x Bronze Bar, 4x Weak Flux, 1x Medium Leather
     name = "Bronze Mace", skillLineAbilityID = 1649,
@@ -662,6 +727,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 85, orange = 85, yellow = 115, green = 130, grey = 145,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3328] = { -- 5x Bronze Bar, 1x Shadowgem, 1x Coarse Grinding Stone
     name = "Rough Bronze Shoulders", skillLineAbilityID = 1862,
@@ -670,6 +736,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 85, orange = 85, yellow = 115, green = 130, grey = 145,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [6517] = { -- 6x Bronze Bar, 1x Strong Flux, 2x Small Lustrous Pearl, 2x Coarse Grinding Stone
     name = "Pearl-handled Dagger", skillLineAbilityID = 3972,
@@ -678,6 +745,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 85, orange = 85, yellow = 115, green = 130, grey = 145,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252252] = { -- 12x Bronze Bar, 2x Coarse Grinding Stone, 4x Pristine Leather, 5x Small Lustrous Pearl
     name = "Veteran's Boots", skillLineAbilityID = 54715,
@@ -686,6 +754,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 85, orange = 85, yellow = 115, green = 130, grey = 145,
     source = "vendor", sourceCost = nil, recipeItem = 251355, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Veteran's Boots Vendor (30 Merchant's Favor )",
   },
   [1252253] = { -- 12x Bronze Bar, 2x Coarse Grinding Stone, 4x Pristine Leather, 5x Shadowgem
@@ -695,6 +764,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 85, orange = 85, yellow = 115, green = 130, grey = 145,
     source = "vendor", sourceCost = nil, recipeItem = 251356, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Guard's Boots Vendor (30 Merchant's Favor )",
   },
   [1252254] = { -- 12x Bronze Bar, 2x Coarse Grinding Stone, 4x Pristine Leather, 5x Tigerseye
@@ -704,6 +774,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 85, orange = 85, yellow = 115, green = 130, grey = 145,
     source = "vendor", sourceCost = nil, recipeItem = 251357, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Protector's Boots Vendor (30 Merchant's Favor )",
   },
   [1252255] = { -- 12x Bronze Bar, 2x Coarse Grinding Stone, 4x Pristine Leather, 5x Strange Dust
@@ -713,6 +784,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 85, orange = 85, yellow = 115, green = 130, grey = 145,
     source = "vendor", sourceCost = nil, recipeItem = 251358, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Acolyte's Boots Vendor (30 Merchant's Favor )",
   },
   [1252256] = { -- 12x Bronze Bar, 2x Coarse Grinding Stone, 4x Pristine Leather, 5x Lesser Magic Essence
@@ -722,6 +794,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 85, orange = 85, yellow = 115, green = 130, grey = 145,
     source = "vendor", sourceCost = nil, recipeItem = 251359, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Crusader's Boots Vendor (30 Merchant's Favor )",
   },
   [8367] = { -- 16x Copper Bar, 2x Tigerseye, 3x Rough Grinding Stone
@@ -731,6 +804,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 100, orange = 100, yellow = 115, green = 135, grey = 155,
     source = "quest", sourceCost = nil, recipeItem = 6735, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Ironforge Breastplate Quest: Gearing Redridge",
   },
   [2668] = { -- 6x Bronze Bar
@@ -740,6 +814,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 80, orange = 80, yellow = 120, green = 135, grey = 150,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [2670] = { -- 7x Bronze Bar
     name = "Rough Bronze Cuirass", skillLineAbilityID = 1640,
@@ -748,6 +823,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 80, orange = 80, yellow = 120, green = 135, grey = 150,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [2741] = { -- 7x Bronze Bar, 4x Weak Flux, 1x Medium Leather
     name = "Bronze Axe", skillLineAbilityID = 1650,
@@ -756,6 +832,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 90, orange = 90, yellow = 120, green = 135, grey = 150,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [8768] = { -- 1x Iron Bar
     name = "Iron Buckle", skillLineAbilityID = 4847,
@@ -765,6 +842,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [19667] = { -- 1x Gold Bar, 1x Heavy Grinding Stone
     name = "Golden Skeleton Key", skillLineAbilityID = 11184,
@@ -774,6 +852,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [2672] = { -- 5x Bronze Bar, 2x Coarse Grinding Stone
     name = "Patterned Bronze Bracers", skillLineAbilityID = 1642,
@@ -782,6 +861,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 95, orange = 95, yellow = 125, green = 140, grey = 155,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [2742] = { -- 5x Bronze Bar, 4x Weak Flux, 2x Medium Leather
     name = "Bronze Shortsword", skillLineAbilityID = 1653,
@@ -790,6 +870,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 95, orange = 95, yellow = 125, green = 140, grey = 155,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252277] = { -- 15x Bronze Bar, 6x Coarse Grinding Stone, 4x Silver Bar, 4x Pristine Leather, 6x Small Lustrous Pearl
     name = "Veteran's Silvered Chain Helm", skillLineAbilityID = 54740,
@@ -798,6 +879,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 95, orange = 95, yellow = 125, green = 140, grey = 155,
     source = "vendor", sourceCost = 2375, recipeItem = 251380, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Veteran's Silvered Chain Helm Drop: Shadowfang Keep (Fenrus the Devourer) Drop: Stormwind ...",
   },
   [1252278] = { -- 15x Bronze Bar, 6x Coarse Grinding Stone, 4x Silver Bar, 4x Pristine Leather, 6x Shadowgem
@@ -807,6 +889,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 95, orange = 95, yellow = 125, green = 140, grey = 155,
     source = "vendor", sourceCost = 2375, recipeItem = 251381, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Guard's Silvered Chain Helm Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Vendor (30 ...",
   },
   [1252279] = { -- 15x Bronze Bar, 6x Coarse Grinding Stone, 4x Silver Bar, 4x Pristine Leather, 6x Tigerseye
@@ -816,6 +899,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 95, orange = 95, yellow = 125, green = 140, grey = 155,
     source = "vendor", sourceCost = 2375, recipeItem = 251382, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Protector's Silvered Chain Helm Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: S...",
   },
   [1252280] = { -- 15x Bronze Bar, 6x Coarse Grinding Stone, 4x Silver Bar, 4x Pristine Leather, 6x Strange Dust
@@ -825,6 +909,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 95, orange = 95, yellow = 125, green = 140, grey = 155,
     source = "vendor", sourceCost = 2375, recipeItem = 251383, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Acolyte's Silvered Chain Helm Drop: Blackfathom Deeps (Lady Sarevess) Vendor (30 Merchant'...",
   },
   [1252281] = { -- 15x Bronze Bar, 6x Coarse Grinding Stone, 4x Silver Bar, 4x Pristine Leather, 6x Lesser Magic Essence
@@ -834,6 +919,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 95, orange = 95, yellow = 125, green = 140, grey = 155,
     source = "vendor", sourceCost = 2375, recipeItem = 251384, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Crusader's Silvered Chain Helm Drop: Wailing Caverns ( Verdan the Everliving ) Vendor (30 ...",
   },
   [1252352] = { -- 8x Bronze Bar, 4x Weak Flux, 1x Medium Leather
@@ -843,6 +929,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 95, orange = 95, yellow = 125, green = 140, grey = 155,
     source = "drop", sourceCost = nil, recipeItem = 251455, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Bronze Dory Drop: Ashenvale ( Dark Strand Enforcer )",
   },
   [1252247] = { -- 8x Bronze Bar, 2x Coarse Grinding Stone, 6x Small Lustrous Pearl
@@ -852,6 +939,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 125, orange = 125, yellow = 130, green = 130, grey = 130,
     source = "drop", sourceCost = nil, recipeItem = 251350, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Veteran's Chain Helm World drop (level 26–34)",
   },
   [1252248] = { -- 8x Bronze Bar, 2x Coarse Grinding Stone, 6x Shadowgem
@@ -861,6 +949,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 125, orange = 125, yellow = 130, green = 130, grey = 130,
     source = "drop", sourceCost = nil, recipeItem = 251351, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Guard's Chain Helm World drop (level 26–34)",
   },
   [1252249] = { -- 8x Bronze Bar, 2x Coarse Grinding Stone, 6x Tigerseye
@@ -870,6 +959,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 125, orange = 125, yellow = 130, green = 130, grey = 130,
     source = "drop", sourceCost = nil, recipeItem = 251352, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Protector's Chain Helm World drop (level 26–34)",
   },
   [1252250] = { -- 8x Bronze Bar, 2x Coarse Grinding Stone, 6x Strange Dust
@@ -879,6 +969,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 125, orange = 125, yellow = 130, green = 130, grey = 130,
     source = "drop", sourceCost = nil, recipeItem = 251353, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Acolyte's Chain Helm World drop (level 26–34)",
   },
   [1252251] = { -- 8x Bronze Bar, 2x Coarse Grinding Stone, 6x Lesser Magic Essence
@@ -888,6 +979,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 125, orange = 125, yellow = 130, green = 130, grey = 130,
     source = "drop", sourceCost = nil, recipeItem = 251354, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Crusader's Chain Helm World drop (level 26–34)",
   },
   [14379] = { -- 1x Gold Bar, 2x Coarse Grinding Stone
@@ -897,6 +989,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 125, orange = 125, yellow = 130, green = 132, grey = 135,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3295] = { -- 4x Bronze Bar, 1x Strong Flux, 1x Swiftness Potion, 2x Shadowgem, 2x Coarse Grinding Stone, 2x Medium Leather
     name = "Deadly Bronze Poniard", skillLineAbilityID = 1852,
@@ -905,6 +998,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 100, orange = 100, yellow = 130, green = 145, grey = 160,
     source = "drop", sourceCost = nil, recipeItem = 2883, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Deadly Bronze Poniard World drop (level 16–30)",
   },
   [3330] = { -- 8x Bronze Bar, 2x Silver Bar, 2x Coarse Grinding Stone
@@ -914,6 +1008,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 100, orange = 100, yellow = 130, green = 145, grey = 160,
     source = "drop", sourceCost = nil, recipeItem = 2882, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Silvered Bronze Shoulders World drop (level 16–30)",
   },
   [1252232] = { -- 6x Silver Bar, 2x Copper Bar, 2x Coarse Grinding Stone, 2x Medium Leather
@@ -923,6 +1018,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 100, orange = 100, yellow = 130, green = 145, grey = 160,
     source = "drop", sourceCost = nil, recipeItem = 251335, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Sterling Silver Boots Drop: Hillsbrad Foothills ( Syndicate Watchman )",
   },
   [2673] = { -- 10x Bronze Bar, 2x Silver Bar, 2x Coarse Grinding Stone, 1x Lesser Moonstone
@@ -932,6 +1028,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 105, orange = 105, yellow = 135, green = 150, grey = 165,
     source = "drop", sourceCost = nil, recipeItem = 5578, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Silvered Bronze Breastplate World drop (level 16–30)",
   },
   [3296] = { -- 8x Bronze Bar, 1x Strong Flux, 1x Moss Agate, 1x Shadowgem, 2x Coarse Grinding Stone, 2x Medium Leather
@@ -941,6 +1038,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 105, orange = 105, yellow = 135, green = 150, grey = 165,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3331] = { -- 6x Bronze Bar, 1x Silver Bar, 2x Coarse Grinding Stone
     name = "Silvered Bronze Boots", skillLineAbilityID = 1864,
@@ -949,6 +1047,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 105, orange = 105, yellow = 135, green = 150, grey = 165,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9986] = { -- 12x Bronze Bar, 2x Strong Flux, 2x Medium Leather
     name = "Bronze Greatsword", skillLineAbilityID = 5340,
@@ -957,6 +1056,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 105, orange = 105, yellow = 135, green = 150, grey = 165,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252233] = { -- 10x Silver Bar, 3x Copper Bar, 3x Coarse Grinding Stone
     name = "Sterling Silver Leggings", skillLineAbilityID = 54696,
@@ -965,6 +1065,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 105, orange = 105, yellow = 135, green = 150, grey = 165,
     source = "drop", sourceCost = nil, recipeItem = 251336, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Sterling Silver Leggings Drop: Duskwood ( Skeletal Warrior )",
   },
   [1252234] = { -- 6x Silver Bar, 2x Copper Bar, 2x Coarse Grinding Stone
@@ -974,6 +1075,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 105, orange = 105, yellow = 135, green = 150, grey = 165,
     source = "drop", sourceCost = nil, recipeItem = 251337, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Sterling Silver Gauntlet Drop: Ashenvale ( Wrathtail Myrmidon )",
   },
   [1263041] = { -- 5x Bronze Bar, 2x Coarse Grinding Stone, 2x Medium Leather
@@ -991,6 +1093,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 110, orange = 110, yellow = 140, green = 155, grey = 170,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [8368] = { -- 8x Bronze Bar, 3x Shadowgem, 4x Coarse Grinding Stone
     name = "Ironforge Gauntlets", skillLineAbilityID = 4630,
@@ -999,6 +1102,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = nil, orange = nil, yellow = 140, green = 155, grey = 170,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9987] = { -- 14x Bronze Bar, 1x Strong Flux, 2x Medium Leather
     name = "Bronze Battle Axe", skillLineAbilityID = 5341,
@@ -1007,6 +1111,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 110, orange = 110, yellow = 140, green = 155, grey = 170,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252235] = { -- 6x Silver Bar, 2x Copper Bar, 2x Coarse Grinding Stone
     name = "Sterling Silver Shoulders", skillLineAbilityID = 54698,
@@ -1015,6 +1120,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 110, orange = 110, yellow = 140, green = 155, grey = 170,
     source = "drop", sourceCost = nil, recipeItem = 251338, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Sterling Silver Shoulders Drop: Redridge Mountains ( Shadowhide Gnoll )",
   },
   [1252267] = { -- 20x Bronze Bar, 6x Coarse Grinding Stone, 5x Silver Bar, 6x Pristine Leather, 8x Small Lustrous Pearl
@@ -1024,6 +1130,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 110, orange = 110, yellow = 140, green = 155, grey = 170,
     source = "vendor", sourceCost = nil, recipeItem = 251370, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Veteran's Silvered Chain Shirt Vendor (30 Merchant's Favor )",
   },
   [1252268] = { -- 20x Bronze Bar, 6x Coarse Grinding Stone, 5x Silver Bar, 6x Pristine Leather, 8x Shadowgem
@@ -1033,6 +1140,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 110, orange = 110, yellow = 140, green = 155, grey = 170,
     source = "vendor", sourceCost = nil, recipeItem = 251371, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Guard's Silvered Chain Shirt Vendor (30 Merchant's Favor )",
   },
   [1252269] = { -- 20x Bronze Bar, 6x Coarse Grinding Stone, 5x Silver Bar, 6x Pristine Leather, 8x Tigerseye
@@ -1042,6 +1150,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 110, orange = 110, yellow = 140, green = 155, grey = 170,
     source = "vendor", sourceCost = nil, recipeItem = 251372, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Protector's Silvered Chain Shirt Vendor (30 Merchant's Favor )",
   },
   [1252270] = { -- 20x Bronze Bar, 6x Coarse Grinding Stone, 5x Silver Bar, 6x Pristine Leather, 8x Strange Dust
@@ -1051,6 +1160,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 110, orange = 110, yellow = 140, green = 155, grey = 170,
     source = "vendor", sourceCost = nil, recipeItem = 251373, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Acolyte's Silvered Chain Shirt Vendor (30 Merchant's Favor )",
   },
   [1252271] = { -- 20x Bronze Bar, 6x Coarse Grinding Stone, 5x Silver Bar, 6x Pristine Leather, 8x Lesser Magic Essence
@@ -1060,6 +1170,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 110, orange = 110, yellow = 140, green = 155, grey = 170,
     source = "vendor", sourceCost = nil, recipeItem = 251374, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Crusader's Silvered Chain Shirt Vendor (30 Merchant's Favor )",
   },
   [6518] = { -- 10x Bronze Bar, 1x Strong Flux, 1x Iridescent Pearl, 2x Coarse Grinding Stone, 2x Medium Leather
@@ -1069,6 +1180,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 115, orange = 115, yellow = 145, green = 160, grey = 175,
     source = "drop", sourceCost = nil, recipeItem = 5543, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Iridescent Hammer World drop (level 21–36)",
   },
   [2675] = { -- 20x Bronze Bar, 2x Moss Agate, 2x Lesser Moonstone, 2x Iridescent Pearl, 4x Silver Bar
@@ -1078,6 +1190,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 120, orange = 120, yellow = 150, green = 165, grey = 180,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3297] = { -- 6x Iron Bar, 2x Strong Flux, 1x Elixir of Ogre Strength, 2x Lesser Moonstone, 2x Coarse Grinding Stone, 2x Medium Leather
     name = "Mighty Iron Hammer", skillLineAbilityID = 1854,
@@ -1086,6 +1199,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 120, orange = 120, yellow = 150, green = 165, grey = 180,
     source = "drop", sourceCost = nil, recipeItem = 3608, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Mighty Iron Hammer World drop (level 21–35)",
   },
   [3334] = { -- 4x Iron Bar, 2x Lesser Moonstone, 2x Coarse Grinding Stone, 1x Green Dye
@@ -1095,6 +1209,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 120, orange = 120, yellow = 150, green = 165, grey = 180,
     source = "drop", sourceCost = nil, recipeItem = 3611, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Green Iron Boots World drop (level 20–35)",
   },
   [1252305] = { -- 6x Iron Bar, 2x Heavy Grinding Stone, 2x Jade
@@ -1104,6 +1219,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 150, orange = 150, yellow = 155, green = 155, grey = 155,
     source = "trainer", sourceCost = nil, recipeItem = 251408, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252306] = { -- 6x Iron Bar, 2x Heavy Grinding Stone, 2x Purple Lotus
     name = "Sentinel's Belt", skillLineAbilityID = 54769,
@@ -1112,6 +1228,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 150, orange = 150, yellow = 155, green = 155, grey = 155,
     source = "trainer", sourceCost = nil, recipeItem = 251409, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252307] = { -- 6x Iron Bar, 2x Heavy Grinding Stone, 2x Black Pearl
     name = "Warder's Belt", skillLineAbilityID = 54770,
@@ -1120,6 +1237,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 150, orange = 150, yellow = 155, green = 155, grey = 155,
     source = "trainer", sourceCost = nil, recipeItem = 251410, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252308] = { -- 6x Iron Bar, 2x Heavy Grinding Stone, 2x Golden Pearl
     name = "Prefect's Belt", skillLineAbilityID = 54771,
@@ -1128,6 +1246,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 150, orange = 150, yellow = 155, green = 155, grey = 155,
     source = "trainer", sourceCost = nil, recipeItem = 251411, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252309] = { -- 6x Iron Bar, 2x Heavy Grinding Stone, 2x Globe of Water
     name = "Justicar's Belt", skillLineAbilityID = 54772,
@@ -1136,6 +1255,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 150, orange = 150, yellow = 155, green = 155, grey = 155,
     source = "trainer", sourceCost = nil, recipeItem = 251412, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3494] = { -- 8x Iron Bar, 2x Strong Flux, 1x Heavy Grinding Stone, 4x Silver Bar, 2x Heavy Leather
     name = "Solid Iron Maul", skillLineAbilityID = 1987,
@@ -1144,6 +1264,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 130, orange = 130, yellow = 155, green = 167, grey = 180,
     source = "vendor", sourceCost = 3000, recipeItem = 10858, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Solid Iron Maul Vendor ( Jannos Ironwill , Jazzrik , Muuran )",
   },
   [3506] = { -- 8x Iron Bar, 1x Heavy Grinding Stone, 1x Green Dye
@@ -1153,6 +1274,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 130, orange = 130, yellow = 155, green = 167, grey = 180,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [12259] = { -- 12x Bronze Bar, 4x Silver Bar, 2x Coarse Grinding Stone
     name = "Silvered Bronze Leggings", skillLineAbilityID = 6637,
@@ -1161,6 +1283,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 130, orange = 130, yellow = 155, green = 167, grey = 180,
     source = "drop", sourceCost = nil, recipeItem = 10424, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Silvered Bronze Leggings World drop (level 20–35)",
   },
   [1252353] = { -- 6x Iron Bar, 2x Strong Flux, 1x Heavy Grinding Stone, 2x Silver Bar, 2x Heavy Leather
@@ -1170,6 +1293,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 130, orange = 130, yellow = 155, green = 167, grey = 180,
     source = "drop", sourceCost = nil, recipeItem = 251456, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Iron Fists Drop: Ashenvale ( Bleakheart Hellcaller )",
   },
   [3336] = { -- 4x Iron Bar, 2x Small Lustrous Pearl, 2x Coarse Grinding Stone, 1x Green Dye
@@ -1179,6 +1303,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 125, orange = 125, yellow = 155, green = 170, grey = 185,
     source = "drop", sourceCost = nil, recipeItem = 3612, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Green Iron Gauntlets World drop (level 20–35)",
   },
   [7221] = { -- 6x Iron Bar, 4x Coarse Grinding Stone
@@ -1188,6 +1313,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 125, orange = 125, yellow = 155, green = 170, grey = 185,
     source = "drop", sourceCost = nil, recipeItem = 6044, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Iron Shield Spike World drop (level 20–36)",
   },
   [9985] = { -- 8x Bronze Bar, 1x Strong Flux, 1x Medium Leather
@@ -1197,6 +1323,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 100, orange = 100, yellow = 155, green = 170, grey = 185,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252236] = { -- 12x Silver Bar, 4x Copper Bar, 3x Coarse Grinding Stone
     name = "Sterling Silver Breastplate", skillLineAbilityID = 54699,
@@ -1205,6 +1332,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 125, orange = 125, yellow = 155, green = 170, grey = 185,
     source = "drop", sourceCost = nil, recipeItem = 251339, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Sterling Silver Breastplate Drop: Thousand Needles ( Grimtotem Bandit )",
   },
   [1252272] = { -- 20x Bronze Bar, 8x Coarse Grinding Stone, 6x Silver Bar, 6x Pristine Leather, 8x Small Lustrous Pearl
@@ -1214,6 +1342,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 125, orange = 125, yellow = 155, green = 170, grey = 185,
     source = "vendor", sourceCost = 3125, recipeItem = 251375, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Veteran's Silvered Chain Leggings Drop: Stormwind Stockade (Dextren Ward) Drop: Blackfatho...",
   },
   [1252273] = { -- 20x Bronze Bar, 8x Coarse Grinding Stone, 6x Silver Bar, 6x Pristine Leather, 8x Shadowgem
@@ -1223,6 +1352,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 125, orange = 125, yellow = 155, green = 170, grey = 185,
     source = "vendor", sourceCost = 3125, recipeItem = 251376, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Guard's Silvered Chain Leggings Drop: Stormwind Stockade (Dextren Ward) Drop: Blackfathom ...",
   },
   [1252274] = { -- 20x Bronze Bar, 8x Coarse Grinding Stone, 6x Silver Bar, 6x Pristine Leather, 8x Tigerseye
@@ -1232,6 +1362,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 125, orange = 125, yellow = 155, green = 170, grey = 185,
     source = "vendor", sourceCost = 3125, recipeItem = 251377, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Protector's Silvered Chain Leggings Drop: Stormwind Stockade (Hamhock) Drop: Blackfathom D...",
   },
   [1252275] = { -- 20x Bronze Bar, 8x Coarse Grinding Stone, 6x Silver Bar, 6x Pristine Leather, 8x Strange Dust
@@ -1241,6 +1372,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 125, orange = 125, yellow = 155, green = 170, grey = 185,
     source = "vendor", sourceCost = 3125, recipeItem = 251378, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Acolyte's Silvered Chain Leggings Drop: Razorfen Kraul (Agathelos the Raging) Drop: Blackf...",
   },
   [1252276] = { -- 20x Bronze Bar, 8x Coarse Grinding Stone, 6x Silver Bar, 6x Pristine Leather, 8x Lesser Magic Essence
@@ -1250,6 +1382,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 125, orange = 125, yellow = 155, green = 170, grey = 185,
     source = "vendor", sourceCost = 3125, recipeItem = 251379, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Crusader's Silvered Chain Leggings Drop: Stormwind Stockade (Kam Deepfury) Drop: Razorfen ...",
   },
   [3492] = { -- 6x Iron Bar, 2x Strong Flux, 1x Heavy Grinding Stone, 2x Lesser Moonstone, 3x Heavy Leather
@@ -1259,6 +1392,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 135, orange = 135, yellow = 160, green = 172, grey = 185,
     source = "vendor", sourceCost = 3000, recipeItem = 12162, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Hardened Iron Shortsword Vendor ( Jutak , Kaita Deepforge , Sumi )",
   },
   [3504] = { -- 7x Iron Bar, 1x Heavy Grinding Stone, 1x Green Dye
@@ -1268,6 +1402,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 135, orange = 135, yellow = 160, green = 172, grey = 185,
     source = "drop", sourceCost = nil, recipeItem = 3870, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Green Iron Shoulders World drop (level 25–40)",
   },
   [9811] = { -- 8x Iron Bar, 4x Sharp Claw, 2x Shadowgem, 2x Heavy Grinding Stone
@@ -1277,6 +1412,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 135, orange = 135, yellow = 160, green = 172, grey = 185,
     source = "quest", sourceCost = nil, recipeItem = 7978, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Barbaric Iron Shoulders Quest: On Iron Pauldrons",
   },
   [9813] = { -- 20x Iron Bar, 4x Heavy Grinding Stone
@@ -1286,6 +1422,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 135, orange = 135, yellow = 160, green = 172, grey = 185,
     source = "quest", sourceCost = nil, recipeItem = 7979, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Barbaric Iron Breastplate Quest: Barbaric Battlements",
   },
   [3501] = { -- 6x Iron Bar, 1x Green Dye
@@ -1295,6 +1432,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 140, orange = 140, yellow = 165, green = 177, grey = 190,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [7222] = { -- 4x Iron Bar, 2x Coarse Grinding Stone, 1x Lesser Moonstone
     name = "Iron Counterweight", skillLineAbilityID = 4208,
@@ -1303,6 +1441,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 140, orange = 140, yellow = 165, green = 177, grey = 190,
     source = "drop", sourceCost = nil, recipeItem = 6045, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Iron Counterweight World drop (level 25–40)",
   },
   [3495] = { -- 10x Iron Bar, 4x Gold Bar, 2x Lesser Moonstone, 2x Strong Flux, 2x Heavy Leather, 2x Heavy Grinding Stone
@@ -1312,6 +1451,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 145, orange = 145, yellow = 170, green = 182, grey = 195,
     source = "drop", sourceCost = nil, recipeItem = 3867, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Golden Iron Destroyer World drop (level 25–40)",
   },
   [3502] = { -- 12x Iron Bar, 1x Citrine, 1x Green Dye
@@ -1321,6 +1461,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 145, orange = 145, yellow = 170, green = 182, grey = 195,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3507] = { -- 10x Iron Bar, 2x Gold Bar, 1x Heavy Grinding Stone
     name = "Golden Scale Leggings", skillLineAbilityID = 1999,
@@ -1329,6 +1470,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 145, orange = 145, yellow = 170, green = 182, grey = 195,
     source = "drop", sourceCost = nil, recipeItem = 3872, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Golden Scale Leggings World drop (level 25–40)",
   },
   [1252282] = { -- 12x Gold Bar, 3x Steel Bar, 2x Heavy Grinding Stone
@@ -1338,6 +1480,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 145, orange = 145, yellow = 170, green = 182, grey = 195,
     source = "drop", sourceCost = nil, recipeItem = 251385, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Hard Gold Cuirass Drop: Thousand Needles ( Screeching Roguefeather )",
   },
   [9918] = { -- 1x Solid Stone
@@ -1372,6 +1515,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3493] = { -- 8x Iron Bar, 2x Strong Flux, 2x Heavy Grinding Stone, 2x Jade, 3x Heavy Leather
     name = "Jade Serpentblade", skillLineAbilityID = 1986,
@@ -1380,6 +1524,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 150, orange = 150, yellow = 175, green = 187, grey = 200,
     source = "drop", sourceCost = nil, recipeItem = 3866, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Jade Serpentblade World drop (level 25–40)",
   },
   [3505] = { -- 6x Steel Bar, 2x Gold Bar, 1x Heavy Grinding Stone
@@ -1389,6 +1534,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 150, orange = 150, yellow = 175, green = 187, grey = 200,
     source = "drop", sourceCost = nil, recipeItem = 3871, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Golden Scale Shoulders World drop (level 25–39)",
   },
   [9814] = { -- 10x Iron Bar, 2x Large Fang, 2x Sharp Claw
@@ -1398,6 +1544,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 150, orange = 150, yellow = 175, green = 187, grey = 200,
     source = "quest", sourceCost = nil, recipeItem = 7980, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Barbaric Iron Helm Quest: Horns of Frenzy",
   },
   [1252283] = { -- 6x Gold Bar, 2x Steel Bar, 2x Heavy Grinding Stone, 2x Heavy Leather
@@ -1407,6 +1554,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 150, orange = 150, yellow = 175, green = 187, grey = 200,
     source = "drop", sourceCost = nil, recipeItem = 251386, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Hard Gold Boots Drop: Arathi Highlands ( Syndicate Highwayman , Syndicate Smuggler )",
   },
   [14380] = { -- 1x Truesilver Bar, 1x Heavy Grinding Stone
@@ -1416,6 +1564,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 180, green = 182, grey = 185,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3496] = { -- 8x Steel Bar, 2x Strong Flux, 2x Heavy Grinding Stone, 3x Lesser Moonstone, 3x Heavy Leather
     name = "Moonsteel Broadsword", skillLineAbilityID = 1989,
@@ -1424,6 +1573,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 155, orange = 155, yellow = 180, green = 192, grey = 205,
     source = "vendor", sourceCost = 4400, recipeItem = 12163, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Moonsteel Broadsword Vendor ( Zarena Cromwind )",
   },
   [3508] = { -- 20x Iron Bar, 4x Heavy Grinding Stone, 2x Jade, 2x Moss Agate, 1x Green Leather Armor
@@ -1433,6 +1583,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 155, orange = 155, yellow = 180, green = 192, grey = 205,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9818] = { -- 12x Iron Bar, 4x Large Fang, 4x Tigerseye, 2x Heavy Grinding Stone
     name = "Barbaric Iron Boots", skillLineAbilityID = 5309,
@@ -1441,6 +1592,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 155, orange = 155, yellow = 180, green = 192, grey = 205,
     source = "quest", sourceCost = nil, recipeItem = 7981, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Barbaric Iron Boots Quest: Trampled Under Foot",
   },
   [15972] = { -- 10x Steel Bar, 2x Strong Flux, 1x Moss Agate, 1x Elemental Earth, 1x Heavy Leather
@@ -1450,6 +1602,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 155, orange = 155, yellow = 180, green = 192, grey = 205,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1301526] = { -- 18x Iron Bar, 5x Heavy Grinding Stone, 1x Small Lustrous Pearl
     name = "Cloudy Skyforged Helm", skillLineAbilityID = 58715,
@@ -1458,6 +1611,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276976, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Cloudy Skyforged Helm Vendor ( Sutara Plainstalker )",
   },
   [1301527] = { -- 14x Iron Bar, 3x Heavy Grinding Stone, 1x Small Lustrous Pearl
@@ -1467,6 +1621,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276977, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Cloudy Skyforged Pauldrons Vendor ( Sutara Plainstalker )",
   },
   [1301534] = { -- 18x Iron Bar, 5x Heavy Grinding Stone, 1x Aquamarine
@@ -1476,6 +1631,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276984, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Azure Skyforged Helm Vendor ( Archmage Alvareaux )",
   },
   [1301535] = { -- 14x Iron Bar, 3x Heavy Grinding Stone, 1x Aquamarine
@@ -1485,6 +1641,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276985, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Azure Skyforged Pauldrons Vendor ( Archmage Alvareaux )",
   },
   [3498] = { -- 14x Iron Bar, 2x Strong Flux, 2x Heavy Grinding Stone, 4x Gold Bar, 2x Heavy Leather
@@ -1494,6 +1651,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 160, orange = 160, yellow = 185, green = 197, grey = 210,
     source = "vendor", sourceCost = 4400, recipeItem = 12164, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Massive Iron Axe Vendor ( Jaquilina Dramet , Vharr )",
   },
   [3513] = { -- 8x Steel Bar, 1x Citrine, 1x Lesser Moonstone, 2x Heavy Grinding Stone
@@ -1503,6 +1661,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 160, orange = 160, yellow = 185, green = 197, grey = 210,
     source = "drop", sourceCost = nil, recipeItem = 3874, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Polished Steel Boots World drop (level 31–45)",
   },
   [7223] = { -- 5x Steel Bar, 2x Heavy Grinding Stone
@@ -1512,6 +1671,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 160, orange = 160, yellow = 185, green = 197, grey = 210,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9820] = { -- 14x Iron Bar, 3x Heavy Grinding Stone, 2x Large Fang
     name = "Barbaric Iron Gloves", skillLineAbilityID = 5310,
@@ -1520,6 +1680,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 160, orange = 160, yellow = 185, green = 197, grey = 210,
     source = "quest", sourceCost = nil, recipeItem = 7982, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Barbaric Iron Gloves Quest: Joys of Omosh",
   },
   [1252284] = { -- 6x Gold Bar, 1x Steel Bar, 2x Heavy Grinding Stone
@@ -1529,6 +1690,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 160, orange = 160, yellow = 185, green = 197, grey = 210,
     source = "drop", sourceCost = nil, recipeItem = 251387, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Hard Gold Bracers Drop: Desolace ( Slitherblade Naga )",
   },
   [1252354] = { -- 10x Steel Bar, 2x Strong Flux, 1x Elemental Air, 4x Heavy Grinding Stone, 1x Heavy Leather
@@ -1538,6 +1700,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 160, orange = 160, yellow = 185, green = 197, grey = 210,
     source = "drop", sourceCost = nil, recipeItem = 251457, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Steel Spear Drop: Thousand Needles ( Saltstone Crystalhide )",
   },
   [3503] = { -- 8x Steel Bar, 2x Gold Bar, 2x Heavy Grinding Stone
@@ -1547,6 +1710,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 165, orange = 165, yellow = 190, green = 202, grey = 215,
     source = "vendor", sourceCost = 4400, recipeItem = 6047, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Golden Scale Coif Vendor ( Krinkle Goodsteel )",
   },
   [7224] = { -- 8x Steel Bar, 2x Heavy Grinding Stone, 4x Heavy Leather
@@ -1556,6 +1720,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 165, orange = 165, yellow = 190, green = 202, grey = 215,
     source = "drop", sourceCost = nil, recipeItem = 6046, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Steel Weapon Chain World drop (level 31–45)",
   },
   [15973] = { -- 10x Steel Bar, 4x Gold Bar, 2x Elemental Fire, 2x Heavy Leather
@@ -1565,6 +1730,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 165, orange = 165, yellow = 190, green = 202, grey = 215,
     source = "drop", sourceCost = nil, recipeItem = 12261, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Searing Golden Blade World drop (level 31–45)",
   },
   [21913] = { -- 10x Steel Bar, 1x Frost Oil, 2x Elemental Water, 2x Elemental Air, 2x Heavy Leather
@@ -1574,6 +1740,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 165, orange = 165, yellow = 190, green = 202, grey = 215,
     source = "drop", sourceCost = nil, recipeItem = 17706, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Edge of Winter Drop: Redridge Mountains ( Redridge Alpha ) Drop: Smokywood Pastures Specia...",
   },
   [1252285] = { -- 10x Gold Bar, 2x Steel Bar, 2x Heavy Grinding Stone
@@ -1583,6 +1750,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 165, orange = 165, yellow = 190, green = 202, grey = 215,
     source = "drop", sourceCost = nil, recipeItem = 251388, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Hard Gold Leggings Drop: Stranglethorn Vale ( Kurzen Jungle Fighter )",
   },
   [1252355] = { -- 14x Iron Bar, 2x Strong Flux, 2x Heavy Grinding Stone, 4x Citrine, 2x Heavy Leather
@@ -1592,6 +1760,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 165, orange = 165, yellow = 190, green = 202, grey = 215,
     source = "vendor", sourceCost = 6000, recipeItem = 251458, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Iron Morningstar Vendor ( Gorhak ) Quest: Big, No, MASSIVE Iron Axes",
   },
   [3511] = { -- 12x Steel Bar, 2x Gold Bar, 4x Heavy Grinding Stone, 2x Jade
@@ -1601,6 +1770,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 170, orange = 170, yellow = 195, green = 207, grey = 220,
     source = "drop", sourceCost = nil, recipeItem = 3873, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Golden Scale Cuirass World drop (level 30–46)",
   },
   [1252286] = { -- 10x Gold Bar, 2x Steel Bar, 2x Heavy Grinding Stone
@@ -1610,6 +1780,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 170, orange = 170, yellow = 195, green = 207, grey = 220,
     source = "drop", sourceCost = nil, recipeItem = 251389, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Hard Gold Coif Drop: Badlands ( Dustbelcher Warrior )",
   },
   [1317963] = { -- 10x Mithril Bar, 2x Gold Bar, 1x Star Ruby
@@ -1628,6 +1799,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 180, orange = 180, yellow = 200, green = 210, grey = 220,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9928] = { -- 6x Mithril Bar, 4x Mageweave Cloth
     name = "Heavy Mithril Gauntlet", skillLineAbilityID = 5316,
@@ -1636,6 +1808,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 180, orange = 180, yellow = 200, green = 210, grey = 220,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [11643] = { -- 10x Steel Bar, 4x Gold Bar, 4x Heavy Grinding Stone, 1x Citrine
     name = "Golden Scale Gauntlets", skillLineAbilityID = 6136,
@@ -1644,6 +1817,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 180, orange = 180, yellow = 200, green = 210, grey = 220,
     source = "quest", sourceCost = nil, recipeItem = 9367, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Golden Scale Gauntlets Quest: The Origins of Smithing",
   },
   [435910] = { -- 1x Truesilver Bar, 5x Reflective Scrapmetal
@@ -1653,6 +1827,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 200, orange = 200, yellow = 200, green = 210, grey = 220,
     source = "item", sourceCost = nil, recipeItem = 215384, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252356] = { -- 8x Mithril Bar, 2x Strong Flux, 2x Heavy Grinding Stone, 4x Lesser Moonstone, 2x Heavy Leather
     name = "Mithril Shortsword", skillLineAbilityID = 54819,
@@ -1661,6 +1836,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 180, orange = 180, yellow = 200, green = 210, grey = 220,
     source = "drop", sourceCost = nil, recipeItem = 251459, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Mithril Shortsword Drop: Dustwallow Marsh ( Mirefin Coastrunner )",
   },
   [3497] = { -- 8x Steel Bar, 2x Strong Flux, 2x Heavy Grinding Stone, 2x Jade, 1x Frost Oil, 4x Heavy Leather
@@ -1670,6 +1846,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 200, green = 212, grey = 225,
     source = "drop", sourceCost = nil, recipeItem = 3868, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Frost Tiger Blade World drop (level 31–45)",
   },
   [3500] = { -- 10x Steel Bar, 2x Strong Flux, 3x Heavy Grinding Stone, 2x Citrine, 1x Shadow Oil, 3x Heavy Leather
@@ -1679,6 +1856,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 200, green = 212, grey = 225,
     source = "drop", sourceCost = nil, recipeItem = 3869, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Shadow Crescent Axe World drop (level 31–45)",
   },
   [3515] = { -- 10x Steel Bar, 4x Gold Bar, 4x Heavy Grinding Stone, 1x Citrine
@@ -1688,6 +1866,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 200, green = 212, grey = 225,
     source = "drop", sourceCost = nil, recipeItem = 3875, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Golden Scale Boots World drop (level 30–45)",
   },
   [9916] = { -- 16x Steel Bar, 3x Heavy Grinding Stone
@@ -1697,6 +1876,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 200, green = 212, grey = 225,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [11454] = { -- 5x Mithril Bar, 1x Gold Bar, 1x Truesilver Bar
     name = "Inlaid Mithril Cylinder", skillLineAbilityID = 7417,
@@ -1705,6 +1885,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 200, orange = 200, yellow = 200, green = 212, grey = 225,
     source = "item", sourceCost = nil, recipeItem = 10713, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252287] = { -- 8x Gold Bar, 2x Steel Bar, 2x Heavy Grinding Stone
     name = "Hard Gold Gauntlet", skillLineAbilityID = 54750,
@@ -1713,6 +1894,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 200, green = 212, grey = 225,
     source = "vendor", sourceCost = 6250, recipeItem = 251390, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Hard Gold Gauntlet Vendor ( Gorhak ) Quest: Big, No, MASSIVE Iron Axes",
   },
   [1252288] = { -- 8x Gold Bar, 2x Steel Bar, 2x Heavy Grinding Stone
@@ -1722,6 +1904,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 200, green = 212, grey = 225,
     source = "drop", sourceCost = nil, recipeItem = 251391, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Hard Gold Pauldrons Drop: Alterac Mountains ( Crushridge Ogre )",
   },
   [1252315] = { -- 10x Steel Bar, 4x Heavy Grinding Stone, 4x Sandpaper, 2x Sulfuric Acid, 4x Jade
@@ -1731,6 +1914,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 200, green = 212, grey = 225,
     source = "vendor", sourceCost = nil, recipeItem = 251418, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Officer's Gauntlet Vendor (60 Merchant's Favor )",
   },
   [1252316] = { -- 10x Steel Bar, 4x Heavy Grinding Stone, 4x Sandpaper, 2x Sulfuric Acid, 4x Purple Lotus
@@ -1740,6 +1924,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 200, green = 212, grey = 225,
     source = "vendor", sourceCost = nil, recipeItem = 251419, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Sentinel's Gauntlet Vendor (60 Merchant's Favor )",
   },
   [1252317] = { -- 10x Steel Bar, 4x Heavy Grinding Stone, 4x Sandpaper, 2x Sulfuric Acid, 4x Black Pearl
@@ -1749,6 +1934,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 200, green = 212, grey = 225,
     source = "vendor", sourceCost = nil, recipeItem = 251420, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Warder's Gauntlet Vendor (60 Merchant's Favor )",
   },
   [1252318] = { -- 10x Steel Bar, 4x Heavy Grinding Stone, 4x Sandpaper, 2x Sulfuric Acid, 4x Golden Pearl
@@ -1758,6 +1944,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 200, green = 212, grey = 225,
     source = "vendor", sourceCost = nil, recipeItem = 251421, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Prefect's Gauntlet Vendor (60 Merchant's Favor )",
   },
   [1252319] = { -- 10x Steel Bar, 4x Heavy Grinding Stone, 4x Sandpaper, 2x Sulfuric Acid, 4x Globe of Water
@@ -1767,6 +1954,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 175, orange = 175, yellow = 200, green = 212, grey = 225,
     source = "vendor", sourceCost = nil, recipeItem = 251422, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Justicar's Gauntlet Vendor (60 Merchant's Favor )",
   },
   [1252295] = { -- 4x Steel Bar, 4x Heavy Grinding Stone, 4x Jade
@@ -1776,6 +1964,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 200, orange = 200, yellow = 205, green = 205, grey = 205,
     source = "drop", sourceCost = nil, recipeItem = 251398, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Officer's Boots World drop (level 37–45)",
   },
   [1252296] = { -- 4x Steel Bar, 4x Heavy Grinding Stone, 4x Purple Lotus
@@ -1785,6 +1974,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 200, orange = 200, yellow = 205, green = 205, grey = 205,
     source = "drop", sourceCost = nil, recipeItem = 251399, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Sentinel's Boots Drop: Razorfen Downs (Ragglesnout)",
   },
   [1252297] = { -- 4x Steel Bar, 4x Heavy Grinding Stone, 4x Black Pearl
@@ -1794,6 +1984,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 200, orange = 200, yellow = 205, green = 205, grey = 205,
     source = "drop", sourceCost = nil, recipeItem = 251400, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Warder's Boots Drop: Uldaman (Obsidian Sentinel)",
   },
   [1252298] = { -- 4x Steel Bar, 4x Heavy Grinding Stone, 4x Golden Pearl
@@ -1803,6 +1994,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 200, orange = 200, yellow = 205, green = 205, grey = 205,
     source = "drop", sourceCost = nil, recipeItem = 251401, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Prefect's Boots World drop (level 37–46)",
   },
   [1252299] = { -- 4x Steel Bar, 4x Heavy Grinding Stone, 4x Globe of Water
@@ -1812,6 +2004,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 200, orange = 200, yellow = 205, green = 205, grey = 205,
     source = "drop", sourceCost = nil, recipeItem = 251402, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Justicar's Boots Drop: Razorfen Downs (Glutton)",
   },
   [9931] = { -- 12x Mithril Bar
@@ -1821,6 +2014,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 185, orange = 185, yellow = 205, green = 215, grey = 225,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9933] = { -- 10x Mithril Bar, 2x Lesser Moonstone
     name = "Heavy Mithril Pants", skillLineAbilityID = 5318,
@@ -1829,6 +2023,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 185, orange = 185, yellow = 205, green = 215, grey = 225,
     source = "drop", sourceCost = nil, recipeItem = 7975, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Heavy Mithril Pants World drop (level 35–50)",
   },
   [9935] = { -- 14x Steel Bar, 1x Solid Grinding Stone
@@ -1838,6 +2033,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 190, orange = 190, yellow = 210, green = 220, grey = 230,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9937] = { -- 8x Mithril Bar, 2x Citrine
     name = "Mithril Plate Bracers", skillLineAbilityID = 5320,
@@ -1846,6 +2042,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 190, orange = 190, yellow = 210, green = 220, grey = 230,
     source = "vendor", sourceCost = 6000, recipeItem = 7995, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Mithril Plate Bracers Vendor ( Gharash , Harggan )",
   },
   [9939] = { -- 4x Mithril Bar, 2x Truesilver Bar, 4x Solid Grinding Stone
@@ -1855,6 +2052,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 190, orange = 190, yellow = 210, green = 220, grey = 230,
     source = "drop", sourceCost = nil, recipeItem = 7976, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Mithril Shield Spike World drop (level 35–51)",
   },
   [1252357] = { -- 12x Mithril Bar, 2x Citrine, 1x Solid Grinding Stone, 4x Heavy Leather
@@ -1864,6 +2062,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 190, orange = 190, yellow = 210, green = 220, grey = 230,
     source = "vendor", sourceCost = 7500, recipeItem = 251460, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Mithril Warhammer Vendor ( Martha Wellsworth ) Quest: Step Two: More Rock",
   },
   [9993] = { -- 12x Mithril Bar, 2x Citrine, 1x Solid Grinding Stone, 4x Heavy Leather
@@ -1873,6 +2072,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 185, orange = 185, yellow = 210, green = 222, grey = 235,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9942] = { -- 8x Mithril Bar, 6x Heavy Leather, 4x Mageweave Cloth
     name = "Mithril Plate Gloves", skillLineAbilityID = 5322,
@@ -1881,6 +2081,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = nil, orange = nil, yellow = 215, green = 225, grey = 235,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9945] = { -- 12x Mithril Bar, 1x Truesilver Bar, 1x Solid Grinding Stone, 1x Aquamarine
     name = "Ornate Mithril Pants", skillLineAbilityID = 5323,
@@ -1889,6 +2090,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 195, orange = 195, yellow = 215, green = 225, grey = 235,
     source = "quest", sourceCost = nil, recipeItem = 7983, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Ornate Mithril Pants Quest: Smelt On, Smelt Off",
   },
   [9950] = { -- 10x Mithril Bar, 6x Mageweave Cloth, 1x Truesilver Bar, 1x Solid Grinding Stone
@@ -1898,6 +2100,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 195, orange = 195, yellow = 215, green = 225, grey = 235,
     source = "quest", sourceCost = nil, recipeItem = 7984, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Ornate Mithril Gloves Quest: The Great Silver Deceiver",
   },
   [1252289] = { -- 8x Mithril Bar, 9x Truesilver Bar, 2x Heavy Grinding Stone, 2x Black Pearl
@@ -1907,6 +2110,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 195, orange = 195, yellow = 215, green = 225, grey = 235,
     source = "drop", sourceCost = nil, recipeItem = 251392, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Shining Mithril Breastplate Drop: Desolace ( Outcast Necromancer ) Drop: Shen'dralas ( Mag...",
   },
   [1252290] = { -- 6x Mithril Bar, 3x Truesilver Bar, 2x Heavy Grinding Stone, 2x Thick Leather
@@ -1916,6 +2120,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 195, orange = 195, yellow = 215, green = 225, grey = 235,
     source = "drop", sourceCost = nil, recipeItem = 251393, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Shining Mithril Pauldrons Drop: Arathi Highlands ( Daggerspine Sorceress )",
   },
   [1252358] = { -- 8x Mithril Bar, 1x Jade, 1x Solid Grinding Stone, 2x Heavy Leather
@@ -1925,6 +2130,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 195, orange = 195, yellow = 215, green = 225, grey = 235,
     source = "drop", sourceCost = nil, recipeItem = 251461, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Mithril Claws Drop: Badlands ( Stonevault Bonesnapper )",
   },
   [1252359] = { -- 16x Mithril Bar, 6x Gold Bar, 2x Solid Grinding Stone, 4x Heavy Leather
@@ -1934,6 +2140,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 195, orange = 195, yellow = 215, green = 225, grey = 235,
     source = "drop", sourceCost = nil, recipeItem = 251462, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Mithril Claymore Drop: Feralas ( Woodpaw Mongrel )",
   },
   [9952] = { -- 12x Mithril Bar, 1x Truesilver Bar, 6x Thick Leather
@@ -1943,6 +2150,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 200, orange = 200, yellow = 220, green = 230, grey = 240,
     source = "quest", sourceCost = nil, recipeItem = 7985, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Ornate Mithril Shoulders Quest: The Art of the Imbue",
   },
   [9954] = { -- 10x Mithril Bar, 8x Truesilver Bar, 3x Aquamarine, 3x Citrine, 1x Guardian Gloves, 2x Solid Grinding Stone
@@ -1953,6 +2161,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252291] = { -- 4x Mithril Bar, 3x Truesilver Bar, 2x Heavy Grinding Stone, 4x Thick Leather
     name = "Shining Mithril Boots", skillLineAbilityID = 54754,
@@ -1961,6 +2170,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 200, orange = 200, yellow = 220, green = 230, grey = 240,
     source = "drop", sourceCost = nil, recipeItem = 251394, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Shining Mithril Boots Drop: Badlands ( Stonevault Shaman )",
   },
   [9995] = { -- 16x Mithril Bar, 2x Aquamarine, 1x Solid Grinding Stone, 4x Thick Leather
@@ -1970,6 +2180,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 195, orange = 195, yellow = 220, green = 232, grey = 245,
     source = "drop", sourceCost = nil, recipeItem = 7992, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Blue Glittering Axe World drop (level 35–50)",
   },
   [9957] = { -- 12x Mithril Bar, 1x Elemental Earth
@@ -1979,6 +2190,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = nil, orange = nil, yellow = 225, green = 235, grey = 245,
     source = "quest", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Quest: The Old Ways",
   },
   [9959] = { -- 16x Mithril Bar
@@ -1989,6 +2201,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9961] = { -- 10x Mithril Bar, 6x Mageweave Cloth
     name = "Mithril Coif", skillLineAbilityID = 5329,
@@ -1998,6 +2211,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [439120] = { -- 10x Steel Bar, 4x Gold Bar, 4x Heavy Grinding Stone, 1x Citrine
     name = "Golden Scale Gauntlets", skillLineAbilityID = 49962,
@@ -2006,6 +2220,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 205, orange = 205, yellow = 225, green = 235, grey = 245,
     source = "item", sourceCost = nil, recipeItem = 217274, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9997] = { -- 14x Mithril Bar, 4x Truesilver Bar, 1x Solid Grinding Stone, 2x Thick Leather
     name = "Wicked Mithril Blade", skillLineAbilityID = 5344,
@@ -2014,6 +2229,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 200, orange = 200, yellow = 225, green = 237, grey = 250,
     source = "drop", sourceCost = nil, recipeItem = 8029, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Wicked Mithril Blade World drop (level 35–51)",
   },
   [16639] = { -- 4x Dense Stone
@@ -2047,6 +2263,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 210, orange = 210, yellow = 230, green = 240, grey = 250,
     source = "drop", sourceCost = nil, recipeItem = 7989, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Mithril Spurs World drop (level 41–56)",
   },
   [9966] = { -- 14x Mithril Bar, 4x Thick Leather, 4x Citrine
@@ -2056,6 +2273,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 210, orange = 210, yellow = 230, green = 240, grey = 250,
     source = "drop", sourceCost = nil, recipeItem = 7991, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Mithril Plate Shoulders World drop (level 42–55)",
   },
   [9968] = { -- 14x Mithril Bar, 4x Thick Leather
@@ -2066,6 +2284,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9970] = { -- 14x Mithril Bar, 1x Aquamarine
     name = "Heavy Mithril Helm", skillLineAbilityID = 5333,
@@ -2074,6 +2293,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 220, orange = 220, yellow = 230, green = 240, grey = 250,
     source = "drop", sourceCost = nil, recipeItem = 7990, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Heavy Mithril Helm World drop (level 41–56)",
   },
   [1252325] = { -- 20x Mithril Bar, 2x Solid Grinding Stone, 6x Sandpaper, 4x Sulfuric Acid, 8x Jade, 1x Large Glowing Shard
@@ -2083,6 +2303,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 210, orange = 210, yellow = 230, green = 240, grey = 250,
     source = "vendor", sourceCost = nil, recipeItem = 251428, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Officer's Pauldrons Vendor (60 Merchant's Favor )",
   },
   [1252326] = { -- 20x Mithril Bar, 2x Solid Grinding Stone, 6x Sandpaper, 4x Sulfuric Acid, 8x Purple Lotus, 1x Large Glowing Shard
@@ -2092,6 +2313,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 210, orange = 210, yellow = 230, green = 240, grey = 250,
     source = "vendor", sourceCost = nil, recipeItem = 251429, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Sentinel's Pauldrons Vendor (60 Merchant's Favor )",
   },
   [1252327] = { -- 20x Mithril Bar, 2x Solid Grinding Stone, 6x Sandpaper, 4x Sulfuric Acid, 8x Black Pearl, 1x Large Glowing Shard
@@ -2101,6 +2323,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 210, orange = 210, yellow = 230, green = 240, grey = 250,
     source = "vendor", sourceCost = nil, recipeItem = 251430, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Warder's Pauldrons Vendor (60 Merchant's Favor )",
   },
   [1252328] = { -- 20x Mithril Bar, 2x Solid Grinding Stone, 6x Sandpaper, 4x Sulfuric Acid, 8x Golden Pearl, 1x Large Glowing Shard
@@ -2110,6 +2333,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 210, orange = 210, yellow = 230, green = 240, grey = 250,
     source = "vendor", sourceCost = nil, recipeItem = 251431, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Prefect's Pauldrons Vendor (60 Merchant's Favor )",
   },
   [1252329] = { -- 20x Mithril Bar, 2x Solid Grinding Stone, 6x Sandpaper, 4x Sulfuric Acid, 8x Globe of Water, 1x Large Glowing Shard
@@ -2119,6 +2343,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 210, orange = 210, yellow = 230, green = 240, grey = 250,
     source = "vendor", sourceCost = nil, recipeItem = 251432, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Justicar's Pauldrons Vendor (60 Merchant's Favor )",
   },
   [1252360] = { -- 16x Mithril Bar, 6x Shadowgem, 2x Gold Bar, 1x Solid Grinding Stone
@@ -2128,6 +2353,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 210, orange = 210, yellow = 230, green = 240, grey = 250,
     source = "drop", sourceCost = nil, recipeItem = 251463, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Mithril Stiletto Drop: Swamp of Sorrows ( Lost One Hunter )",
   },
   [10001] = { -- 16x Mithril Bar, 1x Black Pearl, 4x Shadowgem, 1x Solid Grinding Stone, 2x Thick Leather
@@ -2138,6 +2364,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9972] = { -- 16x Mithril Bar, 6x Truesilver Bar, 1x Heart of Fire, 1x Solid Grinding Stone
     name = "Ornate Mithril Breastplate", skillLineAbilityID = 5334,
@@ -2146,6 +2373,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = nil, orange = nil, yellow = 235, green = 245, grey = 255,
     source = "quest", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Quest: The Mithril Kid",
   },
   [1252292] = { -- 8x Mithril Bar, 9x Truesilver Bar, 2x Heavy Grinding Stone, 1x Core of Earth
@@ -2155,6 +2383,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 215, orange = 215, yellow = 235, green = 245, grey = 255,
     source = "drop", sourceCost = nil, recipeItem = 251395, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Shining Mithril Helm Drop: Stranglethorn Vale ( Naga Explorer )",
   },
   [1252361] = { -- 20x Mithril Bar, 6x Essence of Air, 4x Solid Grinding Stone, 4x Heavy Leather
@@ -2164,6 +2393,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 215, orange = 215, yellow = 235, green = 245, grey = 255,
     source = "drop", sourceCost = nil, recipeItem = 251464, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Charged Mithril Battleaxe Drop: Feralas ( Gordunni Brute )",
   },
   [10003] = { -- 24x Mithril Bar, 4x Core of Earth, 6x Truesilver Bar, 5x Citrine, 5x Jade, 4x Solid Grinding Stone, 4x Thick Leather
@@ -2174,6 +2404,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9974] = { -- 12x Mithril Bar, 24x Truesilver Bar, 4x Star Ruby, 4x Black Pearl, 2x Solid Grinding Stone
     name = "Truesilver Breastplate", skillLineAbilityID = 5335,
@@ -2183,6 +2414,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [9979] = { -- 14x Mithril Bar, 2x Truesilver Bar, 4x Thick Leather, 1x Solid Grinding Stone, 1x Aquamarine
     name = "Ornate Mithril Boots", skillLineAbilityID = 5336,
@@ -2191,6 +2423,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = nil, orange = nil, yellow = 240, green = 250, grey = 260,
     source = "quest", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Quest: The World At Your Feet",
   },
   [9980] = { -- 16x Mithril Bar, 2x Truesilver Bar, 1x Black Pearl, 1x Solid Grinding Stone
@@ -2200,6 +2433,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = nil, orange = nil, yellow = 240, green = 250, grey = 260,
     source = "quest", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Quest: A Good Head On Your Shoulders",
   },
   [1252293] = { -- 6x Mithril Bar, 9x Truesilver Bar, 2x Heavy Grinding Stone, 1x Core of Earth
@@ -2209,6 +2443,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 220, orange = 220, yellow = 240, green = 250, grey = 260,
     source = "drop", sourceCost = nil, recipeItem = 251396, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Shining Mithril Pants Drop: The Hinterlands ( Witherbark Sadist )",
   },
   [1252294] = { -- 5x Mithril Bar, 6x Truesilver Bar, 2x Heavy Grinding Stone, 2x Aquamarine
@@ -2218,6 +2453,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 220, orange = 220, yellow = 240, green = 250, grey = 260,
     source = "drop", sourceCost = nil, recipeItem = 251397, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Shining Mithril Gauntlet Drop: Tanaris ( Southsea Pirate )",
   },
   [10005] = { -- 14x Mithril Bar, 1x Aquamarine, 2x Lesser Moonstone, 2x Moss Agate, 1x Solid Grinding Stone, 2x Mageweave Cloth
@@ -2227,6 +2463,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 215, orange = 215, yellow = 240, green = 252, grey = 265,
     source = "drop", sourceCost = nil, recipeItem = 7993, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Dazzling Mithril Rapier World drop (level 41–56)",
   },
   [16642] = { -- 16x Thorium Bar, 1x Blue Sapphire, 4x Yellow Power Crystal
@@ -2236,6 +2473,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 225, orange = 225, yellow = 245, green = 255, grey = 265,
     source = "drop", sourceCost = nil, recipeItem = 12682, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Thorium Armor World drop (level 46–60)",
   },
   [16643] = { -- 12x Thorium Bar, 4x Red Power Crystal
@@ -2245,6 +2483,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 225, orange = 225, yellow = 245, green = 255, grey = 265,
     source = "drop", sourceCost = nil, recipeItem = 12683, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Thorium Belt World drop (level 46–60)",
   },
   [10007] = { -- 28x Mithril Bar, 6x Breath of Wind, 8x Truesilver Bar, 2x Lesser Invisibility Potion, 6x Aquamarine, 4x Solid Grinding Stone, 2x Thick Leather
@@ -2255,6 +2494,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [10009] = { -- 18x Mithril Bar, 2x Core of Earth, 1x Solid Grinding Stone, 4x Thick Leather
     name = "Runed Mithril Hammer", skillLineAbilityID = 5349,
@@ -2263,6 +2503,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 220, orange = 220, yellow = 245, green = 257, grey = 270,
     source = "drop", sourceCost = nil, recipeItem = 8028, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Runed Mithril Hammer World drop (level 41–56)",
   },
   [19669] = { -- 1x Arcanite Bar, 1x Dense Grinding Stone
@@ -2273,6 +2514,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [20201] = { -- 3x Arcanite Bar, 1x Dense Grinding Stone
     name = "Arcanite Rod", skillLineAbilityID = 11480,
@@ -2282,6 +2524,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [16644] = { -- 12x Thorium Bar, 4x Blue Power Crystal
     name = "Thorium Bracers", skillLineAbilityID = 9161,
@@ -2290,6 +2533,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 230, orange = 230, yellow = 250, green = 260, grey = 270,
     source = "drop", sourceCost = nil, recipeItem = 12684, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Thorium Bracers World drop (level 46–60)",
   },
   [10011] = { -- 28x Mithril Bar, 10x Ichor of Undeath, 10x Truesilver Bar, 6x Solid Grinding Stone, 6x Thick Leather
@@ -2300,6 +2544,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252330] = { -- 16x Thorium Bar, 2x Solid Grinding Stone, 6x Sandpaper, 4x Sulfuric Acid, 6x Jade, 1x Large Glowing Shard
     name = "Officer's Wristguards", skillLineAbilityID = 54793,
@@ -2308,6 +2553,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 225, orange = 225, yellow = 250, green = 262, grey = 275,
     source = "vendor", sourceCost = nil, recipeItem = 251433, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Officer's Wristguard Vendor (90 Merchant's Favor )",
   },
   [1252331] = { -- 16x Thorium Bar, 2x Solid Grinding Stone, 6x Sandpaper, 4x Sulfuric Acid, 6x Purple Lotus, 1x Large Glowing Shard
@@ -2317,6 +2563,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 225, orange = 225, yellow = 250, green = 262, grey = 275,
     source = "vendor", sourceCost = nil, recipeItem = 251434, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Sentinel's Wristguard Vendor (90 Merchant's Favor )",
   },
   [1252332] = { -- 16x Thorium Bar, 2x Solid Grinding Stone, 6x Sandpaper, 4x Sulfuric Acid, 6x Black Pearl, 1x Large Glowing Shard
@@ -2326,6 +2573,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 225, orange = 225, yellow = 250, green = 262, grey = 275,
     source = "vendor", sourceCost = nil, recipeItem = 251435, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Warder's Wristguard Vendor (90 Merchant's Favor )",
   },
   [1252333] = { -- 16x Thorium Bar, 2x Solid Grinding Stone, 6x Sandpaper, 4x Sulfuric Acid, 6x Golden Pearl, 1x Large Glowing Shard
@@ -2335,6 +2583,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 225, orange = 225, yellow = 250, green = 262, grey = 275,
     source = "vendor", sourceCost = nil, recipeItem = 251436, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Prefect's Wristguard Vendor (90 Merchant's Favor )",
   },
   [1252334] = { -- 16x Thorium Bar, 2x Solid Grinding Stone, 6x Sandpaper, 4x Sulfuric Acid, 6x Globe of Water, 1x Large Glowing Shard
@@ -2344,6 +2593,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 225, orange = 225, yellow = 250, green = 262, grey = 275,
     source = "vendor", sourceCost = nil, recipeItem = 251437, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Justicar's Wristguards Vendor (90 Merchant's Favor )",
   },
   [1252300] = { -- 8x Thorium Bar, 4x Solid Grinding Stone, 4x Jade
@@ -2353,6 +2603,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 255, green = 255, grey = 255,
     source = "drop", sourceCost = nil, recipeItem = 251403, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Officer's Gloves Drop: Zul'Farrak, The Temple of Atal'Hakkar, Blackrock Depths, Maraudon",
   },
   [1252301] = { -- 8x Thorium Bar, 4x Solid Grinding Stone, 4x Purple Lotus
@@ -2362,6 +2613,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 255, green = 255, grey = 255,
     source = "drop", sourceCost = nil, recipeItem = 251404, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Sentinel's Gloves Drop: Zul'Farrak, Maraudon",
   },
   [1252302] = { -- 8x Thorium Bar, 4x Solid Grinding Stone, 4x Black Pearl
@@ -2371,6 +2623,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 255, green = 255, grey = 255,
     source = "drop", sourceCost = nil, recipeItem = 251405, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Warder's Gloves Drop: Zul'Farrak, Maraudon",
   },
   [1252303] = { -- 8x Thorium Bar, 4x Solid Grinding Stone, 4x Golden Pearl
@@ -2380,6 +2633,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 255, green = 255, grey = 255,
     source = "drop", sourceCost = nil, recipeItem = 251406, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Prefect's Gloves World drop (level 1–55)",
   },
   [1252304] = { -- 8x Thorium Bar, 4x Solid Grinding Stone, 4x Globe of Water
@@ -2389,6 +2643,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 255, green = 255, grey = 255,
     source = "drop", sourceCost = nil, recipeItem = 251407, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Justicar's Gloves Drop: Zul'Farrak, Uldaman, Maraudon",
   },
   [16645] = { -- 10x Thorium Bar, 2x Heart of Fire
@@ -2398,6 +2653,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 235, orange = 235, yellow = 255, green = 265, grey = 275,
     source = "drop", sourceCost = nil, recipeItem = 12685, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Radiant Belt World drop (level 47–60)",
   },
   [10013] = { -- 12x Mithril Bar, 6x Truesilver Bar, 2x Star Ruby, 1x Solid Grinding Stone, 2x Thick Leather
@@ -2407,6 +2663,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 230, orange = 230, yellow = 255, green = 267, grey = 280,
     source = "vendor", sourceCost = 10000, recipeItem = 8030, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Ebon Shiv Vendor ( Magnus Frostwake )",
   },
   [15292] = { -- 18x Dark Iron Bar, 4x Heart of Fire
@@ -2416,6 +2673,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 240, orange = 240, yellow = 260, green = 270, grey = 280,
     source = "drop", sourceCost = nil, recipeItem = 11610, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Dark Iron Pulverizer Drop: Blackrock Depths (Ring of Law)",
   },
   [16646] = { -- 24x Thorium Bar, 6x Rugged Leather, 2x Citrine
@@ -2425,6 +2683,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 240, orange = 240, yellow = 260, green = 270, grey = 280,
     source = "quest", sourceCost = nil, recipeItem = 12687, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Imperial Plate Shoulders Quest: Imperial Plate Shoulders",
   },
   [16647] = { -- 22x Thorium Bar, 6x Rugged Leather, 1x Aquamarine
@@ -2434,6 +2693,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 240, orange = 240, yellow = 260, green = 270, grey = 280,
     source = "quest", sourceCost = nil, recipeItem = 12688, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Imperial Plate Belt Quest: Imperial Plate Belt",
   },
   [1252310] = { -- 20x Thorium Bar, 3x Solid Grinding Stone, 4x Sandpaper, 4x Sulfuric Acid, 6x Jade, 4x Pristine Leather
@@ -2443,6 +2703,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 240, orange = 240, yellow = 260, green = 270, grey = 280,
     source = "vendor", sourceCost = nil, recipeItem = 251413, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Officer's Sabatons Vendor (90 Merchant's Favor )",
   },
   [1252311] = { -- 20x Thorium Bar, 3x Solid Grinding Stone, 4x Sandpaper, 4x Sulfuric Acid, 6x Purple Lotus, 4x Pristine Leather
@@ -2452,6 +2713,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 240, orange = 240, yellow = 260, green = 270, grey = 280,
     source = "vendor", sourceCost = nil, recipeItem = 251414, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Sentinel's Sabatons Vendor (90 Merchant's Favor )",
   },
   [1252312] = { -- 20x Thorium Bar, 3x Solid Grinding Stone, 4x Sandpaper, 4x Sulfuric Acid, 6x Black Pearl, 4x Pristine Leather
@@ -2461,6 +2723,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 240, orange = 240, yellow = 260, green = 270, grey = 280,
     source = "vendor", sourceCost = nil, recipeItem = 251415, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Warder's Sabatons Vendor (90 Merchant's Favor )",
   },
   [1252313] = { -- 20x Thorium Bar, 3x Solid Grinding Stone, 4x Sandpaper, 4x Sulfuric Acid, 6x Golden Pearl, 4x Pristine Leather
@@ -2470,6 +2733,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 240, orange = 240, yellow = 260, green = 270, grey = 280,
     source = "vendor", sourceCost = nil, recipeItem = 251416, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Prefect's Sabatons Vendor (90 Merchant's Favor )",
   },
   [1252314] = { -- 20x Thorium Bar, 3x Solid Grinding Stone, 4x Sandpaper, 4x Sulfuric Acid, 6x Globe of Water, 4x Pristine Leather
@@ -2479,6 +2743,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 240, orange = 240, yellow = 260, green = 270, grey = 280,
     source = "vendor", sourceCost = nil, recipeItem = 251417, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Justicar's Sabatons Vendor (90 Merchant's Favor )",
   },
   [1252335] = { -- 20x Thorium Bar, 1x Blue Sapphire, 6x Rugged Leather
@@ -2488,6 +2753,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 240, orange = 240, yellow = 260, green = 270, grey = 280,
     source = "drop", sourceCost = nil, recipeItem = 251438, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Blessed Plate Pauldrons Drop: Azshara ( Highborne Lichling )",
   },
   [1252336] = { -- 24x Thorium Bar, 1x Blue Sapphire, 6x Rugged Leather
@@ -2497,6 +2763,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 240, orange = 240, yellow = 260, green = 270, grey = 280,
     source = "drop", sourceCost = nil, recipeItem = 251439, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Blessed Plate Boots Drop: Searing Gorge ( Dark Iron Lookout )",
   },
   [10015] = { -- 30x Mithril Bar, 16x Truesilver Bar, 6x Star Ruby, 4x Breath of Wind, 8x Solid Grinding Stone, 6x Thick Leather
@@ -2507,6 +2774,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [16960] = { -- 16x Thorium Bar, 2x Dense Grinding Stone, 4x Rugged Leather
     name = "Thorium Greatsword", skillLineAbilityID = 9436,
@@ -2515,6 +2783,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = nil, orange = nil, yellow = 260, green = 272, grey = 285,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [15293] = { -- 10x Dark Iron Bar, 2x Heart of Fire
     name = "Dark Iron Mail", skillLineAbilityID = 8217,
@@ -2523,6 +2792,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 245, orange = 245, yellow = 265, green = 275, grey = 285,
     source = "drop", sourceCost = nil, recipeItem = 11614, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Dark Iron Mail Drop: Blackrock Depths (Plans, Trash)",
   },
   [16648] = { -- 18x Thorium Bar, 2x Heart of Fire, 1x Star Ruby
@@ -2532,6 +2802,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 245, orange = 245, yellow = 265, green = 275, grey = 285,
     source = "drop", sourceCost = nil, recipeItem = 12689, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Radiant Breastplate World drop (level 46–60)",
   },
   [16649] = { -- 20x Thorium Bar, 1x Star Ruby
@@ -2541,6 +2812,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 245, orange = 245, yellow = 265, green = 275, grey = 285,
     source = "quest", sourceCost = nil, recipeItem = 12690, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Imperial Plate Bracers Quest: Imperial Plate Bracer",
   },
   [1252337] = { -- 20x Thorium Bar, 2x Blue Sapphire
@@ -2550,6 +2822,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 245, orange = 245, yellow = 265, green = 275, grey = 285,
     source = "drop", sourceCost = nil, recipeItem = 251440, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Blessed Plate Gauntlet Drop: Felwood ( Deadwood Pathfinder )",
   },
   [15294] = { -- 26x Dark Iron Bar, 4x Heart of Fire
@@ -2559,6 +2832,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 270, green = 280, grey = 290,
     source = "drop", sourceCost = nil, recipeItem = 11611, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Dark Iron Sunderer Drop: Blackrock Depths (Trash)",
   },
   [16651] = { -- 4x Thorium Bar, 4x Dense Grinding Stone, 2x Essence of Earth
@@ -2568,6 +2842,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 270, green = 280, grey = 290,
     source = "drop", sourceCost = nil, recipeItem = 12692, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Thorium Shield Spike World drop (level 48–60)",
   },
   [1252320] = { -- 24x Thorium Bar, 4x Solid Grinding Stone, 6x Sandpaper, 6x Sulfuric Acid, 10x Jade
@@ -2577,6 +2852,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 270, green = 280, grey = 290,
     source = "vendor", sourceCost = nil, recipeItem = 251423, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Officer's Waistguard Vendor (90 Merchant's Favor )",
   },
   [1252321] = { -- 24x Thorium Bar, 4x Solid Grinding Stone, 6x Sandpaper, 6x Sulfuric Acid, 10x Purple Lotus
@@ -2586,6 +2862,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 270, green = 280, grey = 290,
     source = "vendor", sourceCost = nil, recipeItem = 251424, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Sentinel's Waistguard Vendor (90 Merchant's Favor )",
   },
   [1252322] = { -- 24x Thorium Bar, 4x Solid Grinding Stone, 6x Sandpaper, 6x Sulfuric Acid, 10x Black Pearl
@@ -2595,6 +2872,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 270, green = 280, grey = 290,
     source = "vendor", sourceCost = nil, recipeItem = 251425, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Warder's Waistguard Vendor (90 Merchant's Favor )",
   },
   [1252323] = { -- 24x Thorium Bar, 4x Solid Grinding Stone, 6x Sandpaper, 6x Sulfuric Acid, 10x Golden Pearl
@@ -2604,6 +2882,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 270, green = 280, grey = 290,
     source = "vendor", sourceCost = nil, recipeItem = 251426, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Prefect's Waistguard Vendor (90 Merchant's Favor )",
   },
   [1252324] = { -- 24x Thorium Bar, 4x Solid Grinding Stone, 6x Sandpaper, 6x Sulfuric Acid, 10x Globe of Water
@@ -2613,6 +2892,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 270, green = 280, grey = 290,
     source = "vendor", sourceCost = nil, recipeItem = 251427, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Justicar's Waistguard Vendor (90 Merchant's Favor )",
   },
   [1252362] = { -- 30x Thorium Bar, 4x Heavy Thorium Bar, 4x Essence of Earth, 10x Azerothium Bar, 2x Dense Grinding Stone
@@ -2622,6 +2902,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 270, green = 280, grey = 290,
     source = "vendor", sourceCost = nil, recipeItem = 251465, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Thorium Greatmace Vendor (90 Merchant's Favor )",
   },
   [1252363] = { -- 20x Thorium Bar, 8x Heavy Thorium Bar, 4x Essence of Air, 10x Azerothium Bar, 1x Dense Grinding Stone
@@ -2631,6 +2912,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 270, green = 280, grey = 290,
     source = "vendor", sourceCost = nil, recipeItem = 251466, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Thorium Cestus Vendor (90 Merchant's Favor )",
   },
   [16965] = { -- 30x Thorium Bar, 6x Living Essence, 6x Wildvine, 6x Large Opal, 2x Dense Grinding Stone, 8x Rugged Leather
@@ -2640,6 +2922,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = nil, orange = nil, yellow = 270, green = 282, grey = 295,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [16967] = { -- 30x Thorium Bar, 4x Gold Bar, 2x Truesilver Bar, 2x Blue Sapphire, 4x Rugged Leather
     name = "Inlaid Thorium Hammer", skillLineAbilityID = 9438,
@@ -2648,6 +2931,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = nil, orange = nil, yellow = 270, green = 282, grey = 295,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1317964] = { -- 4x Dark Iron Bar, 1x Arcanite Bar, 1x Blue Sapphire
     name = "Arcanite Blacksmith Hammer", skillLineAbilityID = 59491,
@@ -2665,6 +2949,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 255, orange = 255, yellow = 275, green = 285, grey = 295,
     source = "drop", sourceCost = nil, recipeItem = 11615, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Dark Iron Shoulders Drop: Blackrock Depths (Plans, Trash)",
   },
   [16652] = { -- 20x Thorium Bar, 8x Rugged Leather, 4x Green Power Crystal
@@ -2674,6 +2959,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 255, orange = 255, yellow = 275, green = 285, grey = 295,
     source = "drop", sourceCost = nil, recipeItem = 12693, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Thorium Boots World drop (level 51–61)",
   },
   [16653] = { -- 24x Thorium Bar, 1x Star Ruby, 4x Yellow Power Crystal
@@ -2683,6 +2969,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 255, orange = 255, yellow = 275, green = 285, grey = 295,
     source = "drop", sourceCost = nil, recipeItem = 12694, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Thorium Helm World drop (level 51–61)",
   },
   [22757] = { -- 2x Elemental Earth, 3x Dense Stone
@@ -2699,6 +2986,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 255, orange = 255, yellow = 275, green = 285, grey = 295,
     source = "drop", sourceCost = nil, recipeItem = 251441, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Imperial Plate Gauntlets Drop: Azshara ( Blood Elf Reclaimer )",
   },
   [1252339] = { -- 16x Thorium Bar, 1x Blue Sapphire
@@ -2708,6 +2996,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 255, orange = 255, yellow = 275, green = 285, grey = 295,
     source = "drop", sourceCost = nil, recipeItem = 251442, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Blessed Plate Bracers Drop: Felwood ( Jadefire Betrayer )",
   },
   [16969] = { -- 20x Thorium Bar, 2x Large Opal, 2x Dense Grinding Stone, 4x Rugged Leather
@@ -2717,6 +3006,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 275, green = 287, grey = 300,
     source = "vendor", sourceCost = 16000, recipeItem = 12819, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Ornate Thorium Handaxe Vendor ( Magnus Frostwake )",
   },
   [16970] = { -- 30x Thorium Bar, 4x Enchanted Thorium Bar, 4x Star Ruby, 4x Blue Sapphire, 2x Dense Grinding Stone, 4x Rugged Leather
@@ -2726,6 +3016,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 250, orange = 250, yellow = 275, green = 287, grey = 300,
     source = "quest", sourceCost = nil, recipeItem = 12821, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Dawn's Edge Quest: Snakestone of the Shadow Huntress",
   },
   [15296] = { -- 20x Dark Iron Bar, 8x Heart of Fire
@@ -2735,6 +3026,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 260, orange = 260, yellow = 280, green = 290, grey = 300,
     source = "drop", sourceCost = nil, recipeItem = 11612, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Dark Iron Plate Drop: Blackrock Depths (Ribbly Screwspigot)",
   },
   [16654] = { -- 18x Thorium Bar, 4x Heart of Fire
@@ -2744,6 +3036,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 260, orange = 260, yellow = 280, green = 290, grey = 300,
     source = "drop", sourceCost = nil, recipeItem = 12695, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Radiant Gloves World drop (level 50–61)",
   },
   [16971] = { -- 40x Thorium Bar, 6x Dense Grinding Stone, 6x Rugged Leather
@@ -2753,6 +3046,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 255, orange = 255, yellow = 280, green = 292, grey = 305,
     source = "vendor", sourceCost = 20000, recipeItem = 12823, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Huge Thorium Battleaxe Vendor ( Magnus Frostwake )",
   },
   [16973] = { -- 20x Thorium Bar, 6x Enchanted Thorium Bar, 2x Huge Emerald, 4x Powerful Mojo, 4x Rugged Leather
@@ -2762,6 +3056,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 255, orange = 255, yellow = 280, green = 292, grey = 305,
     source = "quest", sourceCost = nil, recipeItem = 12824, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Enchanted Battlehammer Quest: Sweet Serenity",
   },
   [16978] = { -- 10x Enchanted Thorium Bar, 4x Essence of Fire, 4x Heart of Fire, 2x Azerothian Diamond, 2x Dense Grinding Stone
@@ -2771,6 +3066,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 255, orange = 255, yellow = 280, green = 292, grey = 305,
     source = "quest", sourceCost = nil, recipeItem = 12825, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Blazing Rapier Quest: Corruption",
   },
   [1252364] = { -- 20x Thorium Bar, 6x Heavy Thorium Bar, 10x Azerothium Bar, 4x Living Essence, 4x Rugged Leather
@@ -2780,6 +3076,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 260, orange = 260, yellow = 280, green = 292, grey = 305,
     source = "item", sourceCost = nil, recipeItem = 251467, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [16655] = { -- 20x Thorium Bar, 6x Enchanted Thorium Bar, 2x Essence of Fire, 4x Star Ruby
     name = "Fiery Plate Gauntlets", skillLineAbilityID = 9175,
@@ -2788,6 +3085,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 265, orange = 265, yellow = 285, green = 295, grey = 305,
     source = "item", sourceCost = nil, recipeItem = 12699, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [16656] = { -- 14x Thorium Bar, 4x Heart of Fire
     name = "Radiant Boots", skillLineAbilityID = 9173,
@@ -2796,6 +3094,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 265, orange = 265, yellow = 285, green = 295, grey = 305,
     source = "drop", sourceCost = nil, recipeItem = 12697, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Radiant Boots World drop (level 51–61)",
   },
   [16660] = { -- 20x Thorium Bar, 4x Arcanite Bar, 2x Huge Emerald, 2x Essence of Water
@@ -2805,6 +3104,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 265, orange = 265, yellow = 285, green = 295, grey = 305,
     source = "drop", sourceCost = nil, recipeItem = 12698, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Dawnbringer Shoulders Drop: Silithus ( Hive'Zora Tunneler ) Drop: Stranglethorn Vale ( Are...",
   },
   [23632] = { -- 8x Thorium Bar, 6x Truesilver Bar, 1x Righteous Orb
@@ -2814,6 +3114,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 265, orange = 265, yellow = 285, green = 295, grey = 305,
     source = "vendor", sourceCost = 22000, recipeItem = 19203, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Girdle of the Dawn Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark ...",
   },
   [16983] = { -- 6x Enchanted Thorium Bar, 2x Arcanite Bar, 4x Powerful Mojo, 2x Large Opal, 2x Blue Sapphire, 1x Huge Emerald
@@ -2823,6 +3124,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 260, orange = 260, yellow = 285, green = 297, grey = 310,
     source = "drop", sourceCost = nil, recipeItem = 12827, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Serenity Drop: Stratholme (Plans)",
   },
   [1297138] = { -- 7x Thorium Bar, 5x Enchanted Thorium Bar, 3x Essence of Fire, 1x Elemental Flux
@@ -2832,6 +3134,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 285, orange = 285, yellow = 290, green = 292, grey = 295,
     source = "vendor", sourceCost = 75000, recipeItem = 275598, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Goregasher Grips Vendor ( Vargus )",
   },
   [1297141] = { -- 7x Thorium Bar, 5x Enchanted Thorium Bar, 3x Essence of Earth, 1x Elemental Flux
@@ -2841,6 +3144,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 285, orange = 285, yellow = 290, green = 292, grey = 295,
     source = "vendor", sourceCost = 75000, recipeItem = 275601, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Clutchlord's Grips Vendor ( Vargus )",
   },
   [16657] = { -- 34x Thorium Bar, 1x Star Ruby, 1x Aquamarine
@@ -2850,6 +3154,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 270, orange = 270, yellow = 290, green = 300, grey = 310,
     source = "quest", sourceCost = nil, recipeItem = 12700, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Imperial Plate Boots Quest: Imperial Plate Boots",
   },
   [16658] = { -- 34x Thorium Bar, 2x Star Ruby
@@ -2859,6 +3164,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 270, orange = 270, yellow = 290, green = 300, grey = 310,
     source = "quest", sourceCost = nil, recipeItem = 12701, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Imperial Plate Helm Quest: Imperial Plate Helm",
   },
   [16659] = { -- 18x Thorium Bar, 4x Heart of Fire
@@ -2868,6 +3174,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 270, orange = 270, yellow = 290, green = 300, grey = 310,
     source = "drop", sourceCost = nil, recipeItem = 12702, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Radiant Circlet World drop (level 52–61)",
   },
   [20872] = { -- 6x Dark Iron Bar, 3x Fiery Core, 3x Lava Core
@@ -2877,6 +3184,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 270, orange = 270, yellow = 290, green = 300, grey = 310,
     source = "vendor", sourceCost = 90000, recipeItem = 17049, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Fiery Chain Girdle Vendor ( Lokhtos Darkbargainer )",
   },
   [20874] = { -- 4x Dark Iron Bar, 2x Fiery Core, 2x Lava Core
@@ -2886,6 +3194,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 270, orange = 270, yellow = 290, green = 300, grey = 310,
     source = "vendor", sourceCost = 70000, recipeItem = 17051, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Dark Iron Bracers Vendor ( Lokhtos Darkbargainer )",
   },
   [1252340] = { -- 40x Thorium Bar, 2x Blue Sapphire
@@ -2895,6 +3204,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 270, orange = 270, yellow = 290, green = 300, grey = 310,
     source = "drop", sourceCost = nil, recipeItem = 251443, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Blessed Plate Leggings Drop: Winterspring ( Raging Owlbeast )",
   },
   [1252341] = { -- 18x Thorium Bar, 1x Blue Sapphire, 1x Iron Buckle, 6x Rugged Leather
@@ -2904,6 +3214,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 270, orange = 270, yellow = 290, green = 300, grey = 310,
     source = "drop", sourceCost = nil, recipeItem = 251444, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Blessed Plate Belt Drop: Eastern Plaguelands ( Plaguebat )",
   },
   [1252365] = { -- 30x Thorium Bar, 4x Essence of Air, 10x Azerothium Bar, 4x Rugged Leather
@@ -2913,6 +3224,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 270, orange = 270, yellow = 290, green = 300, grey = 310,
     source = "vendor", sourceCost = 100000, recipeItem = 251468, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Bold Dirk Vendor ( Pexmit ) Quest: Back to the Grind",
   },
   [16984] = { -- 30x Thorium Bar, 4x Heart of Fire, 4x Star Ruby, 4x Rugged Leather
@@ -2922,6 +3234,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 265, orange = 265, yellow = 290, green = 302, grey = 315,
     source = "drop", sourceCost = nil, recipeItem = 12828, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Volcanic Hammer Drop: Burning Steppes ( Volchan )",
   },
   [16985] = { -- 40x Thorium Bar, 2x Arcanite Bar, 16x Demonic Rune, 8x Essence of Undeath, 2x Blue Sapphire, 2x Dense Grinding Stone, 4x Rugged Leather
@@ -2931,6 +3244,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 265, orange = 265, yellow = 290, green = 302, grey = 315,
     source = "drop", sourceCost = nil, recipeItem = 12830, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Corruption Drop: Stratholme (Plans)",
   },
   [1297139] = { -- 11x Thorium Bar, 5x Enchanted Thorium Bar, 3x Essence of Fire, 1x Elemental Flux
@@ -2940,6 +3254,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 290, orange = 290, yellow = 295, green = 297, grey = 300,
     source = "vendor", sourceCost = 75000, recipeItem = 275599, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Goregasher Support Vendor ( Vargus )",
   },
   [1297140] = { -- 9x Thorium Bar, 5x Enchanted Thorium Bar, 3x Essence of Fire, 1x Elemental Flux
@@ -2949,6 +3264,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 295, orange = 295, yellow = 295, green = 297, grey = 300,
     source = "vendor", sourceCost = 75000, recipeItem = 275600, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Goregasher Stompers Vendor ( Vargus )",
   },
   [1297142] = { -- 11x Thorium Bar, 5x Enchanted Thorium Bar, 3x Essence of Earth, 1x Elemental Flux
@@ -2958,6 +3274,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 290, orange = 290, yellow = 295, green = 297, grey = 300,
     source = "vendor", sourceCost = 75000, recipeItem = 275602, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Clutchlord's Support Vendor ( Vargus )",
   },
   [1297143] = { -- 9x Thorium Bar, 5x Enchanted Thorium Bar, 3x Essence of Earth, 1x Elemental Flux
@@ -2967,6 +3284,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 295, orange = 295, yellow = 295, green = 297, grey = 300,
     source = "vendor", sourceCost = 75000, recipeItem = 275603, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Clutchlord's Stompers Vendor ( Vargus )",
   },
   [16662] = { -- 26x Thorium Bar, 4x Red Power Crystal
@@ -2976,6 +3294,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 275, orange = 275, yellow = 295, green = 305, grey = 315,
     source = "drop", sourceCost = nil, recipeItem = 12704, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Thorium Leggings World drop (level 50–61)",
   },
   [16663] = { -- 40x Thorium Bar, 2x Star Ruby
@@ -2985,6 +3304,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 275, orange = 275, yellow = 295, green = 305, grey = 315,
     source = "quest", sourceCost = nil, recipeItem = 12705, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Imperial Plate Chest Quest: Imperial Plate Chest",
   },
   [16664] = { -- 20x Thorium Bar, 2x Arcanite Bar, 6x Gold Bar
@@ -2994,6 +3314,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 275, orange = 275, yellow = 295, green = 305, grey = 315,
     source = "drop", sourceCost = nil, recipeItem = 12706, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Runic Plate Shoulders Drop: Dustwallow Marsh ( Strashaz Serpent Guard )",
   },
   [16665] = { -- 20x Thorium Bar, 2x Arcanite Bar, 10x Silver Bar
@@ -3003,6 +3324,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 275, orange = 275, yellow = 295, green = 305, grey = 315,
     source = "drop", sourceCost = nil, recipeItem = 12707, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Runic Plate Boots Drop: Western Plaguelands ( Scarlet Cavalier )",
   },
   [16991] = { -- 40x Thorium Bar, 12x Arcanite Bar, 10x Essence of Undeath, 8x Huge Emerald, 2x Dense Grinding Stone, 4x Enchanted Leather
@@ -3012,6 +3334,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 295, green = 305, grey = 315,
     source = "drop", sourceCost = nil, recipeItem = 12835, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Annihilator Drop: Blackrock Spire (Quartermaster Zigris)",
   },
   [23650] = { -- 4x Lava Core, 7x Fiery Core, 12x Arcanite Bar, 8x Dark Iron Bar, 4x Azerothian Diamond
@@ -3021,6 +3344,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 295, green = 305, grey = 315,
     source = "vendor", sourceCost = 120000, recipeItem = 19210, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Ebon Hand Vendor ( Lokhtos Darkbargainer )",
   },
   [23652] = { -- 6x Lava Core, 6x Fiery Core, 10x Arcanite Bar, 6x Dark Iron Bar, 12x Guardian Stone
@@ -3030,6 +3354,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 295, green = 305, grey = 315,
     source = "vendor", sourceCost = 120000, recipeItem = 19211, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Blackguard Vendor ( Lokhtos Darkbargainer )",
   },
   [23653] = { -- 8x Lava Core, 5x Fiery Core, 10x Arcanite Bar, 12x Dark Iron Bar, 4x Huge Emerald
@@ -3039,6 +3364,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 295, green = 305, grey = 315,
     source = "vendor", sourceCost = 120000, recipeItem = 19212, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Nightfall Vendor ( Lokhtos Darkbargainer )",
   },
   [1252342] = { -- 30x Thorium Bar, 2x Blue Sapphire
@@ -3048,6 +3374,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 275, orange = 275, yellow = 295, green = 305, grey = 315,
     source = "item", sourceCost = nil, recipeItem = 251445, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1263073] = { -- 1x Golem Heart, 5x Thorium Bar, 2x Rugged Leather
     name = "Master Forge", skillLineAbilityID = 57032,
@@ -3063,6 +3390,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 280, orange = 280, yellow = 300, green = 310, grey = 320,
     source = "drop", sourceCost = nil, recipeItem = 12713, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Radiant Leggings World drop (level 55–62)",
   },
   [16726] = { -- 30x Thorium Bar, 2x Arcanite Bar, 2x Truesilver Bar, 1x Huge Emerald
@@ -3072,6 +3400,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 280, orange = 280, yellow = 300, green = 310, grey = 320,
     source = "drop", sourceCost = nil, recipeItem = 12714, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Runic Plate Helm Drop: Dustwallow Marsh ( Strashaz Warrior )",
   },
   [16730] = { -- 44x Thorium Bar, 2x Star Ruby
@@ -3081,6 +3410,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 280, orange = 280, yellow = 300, green = 310, grey = 320,
     source = "quest", sourceCost = nil, recipeItem = 12715, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Imperial Plate Leggings Quest: Imperial Plate Leggings",
   },
   [1252343] = { -- 36x Thorium Bar, 2x Blue Sapphire
@@ -3090,6 +3420,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 280, orange = 280, yellow = 300, green = 310, grey = 320,
     source = "drop", sourceCost = nil, recipeItem = 251446, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Blessed Plate Chest Drop: Mount Hyjal",
   },
   [16731] = { -- 40x Thorium Bar, 2x Arcanite Bar, 1x Star Ruby
@@ -3099,6 +3430,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 285, orange = 285, yellow = 305, green = 315, grey = 325,
     source = "drop", sourceCost = nil, recipeItem = 12718, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Runic Breastplate Drop: Dustwallow Marsh ( Strashaz Myrmidon )",
   },
   [16732] = { -- 40x Thorium Bar, 2x Arcanite Bar, 1x Star Ruby
@@ -3108,6 +3440,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 285, orange = 285, yellow = 305, green = 315, grey = 325,
     source = "drop", sourceCost = nil, recipeItem = 12719, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Runic Plate Leggings Drop: Western Plaguelands ( Scarlet Smith )",
   },
   [1306533] = { -- 2x Malleable Essence of Nature, 1x Legionite Bar, 14x Heavy Thorium Bar
@@ -3117,6 +3450,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 310, green = 317, grey = 325,
     source = "item", sourceCost = nil, recipeItem = 279308, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1306534] = { -- 4x Malleable Essence of Nature, 1x Legionite Bar, 20x Heavy Thorium Bar
     name = "Forest Defender's Axe", skillLineAbilityID = 58891,
@@ -3125,6 +3459,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 310, green = 317, grey = 325,
     source = "item", sourceCost = nil, recipeItem = 279309, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1306535] = { -- 2x Malleable Essence of Nature, 1x Legionite Bar, 16x Heavy Thorium Bar
     name = "Greenhammer", skillLineAbilityID = 58892,
@@ -3133,6 +3468,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 310, green = 317, grey = 325,
     source = "item", sourceCost = nil, recipeItem = 279310, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1306536] = { -- 2x Malleable Essence of Nature, 1x Legionite Bar, 10x Heavy Thorium Bar
     name = "Evergreen Shield", skillLineAbilityID = 58893,
@@ -3141,6 +3477,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 310, green = 317, grey = 325,
     source = "item", sourceCost = nil, recipeItem = 279311, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1306537] = { -- 2x Malleable Essence of Nature, 1x Legionite Bar, 12x Heavy Thorium Bar
     name = "Depleted Thorium Sabatons", skillLineAbilityID = 58894,
@@ -3149,6 +3486,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 310, green = 317, grey = 325,
     source = "item", sourceCost = nil, recipeItem = 279312, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1306538] = { -- 2x Malleable Essence of Nature, 1x Legionite Bar, 14x Heavy Thorium Bar
     name = "Heavy Thorium Gauntlets", skillLineAbilityID = 58895,
@@ -3157,6 +3495,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 310, green = 317, grey = 325,
     source = "item", sourceCost = nil, recipeItem = 279313, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1306539] = { -- 3x Malleable Essence of Nature, 1x Legionite Bar, 18x Heavy Thorium Bar
     name = "Azerothium Legplates", skillLineAbilityID = 58896,
@@ -3165,6 +3504,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 310, green = 317, grey = 325,
     source = "item", sourceCost = nil, recipeItem = 279314, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [16724] = { -- 20x Thorium Bar, 4x Enchanted Thorium Bar, 6x Truesilver Bar, 6x Gold Bar, 2x Azerothian Diamond
     name = "Whitesoul Helm", skillLineAbilityID = 9321,
@@ -3173,6 +3513,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 290, orange = 290, yellow = 310, green = 320, grey = 330,
     source = "drop", sourceCost = nil, recipeItem = 12711, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Whitesoul Helm World drop (level 51–61)",
   },
   [16729] = { -- 80x Thorium Bar, 12x Arcanite Bar, 40x Wicked Claw, 10x Blue Sapphire, 4x Azerothian Diamond
@@ -3182,6 +3523,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 12717, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Lionheart Helm Drop: Stranglethorn Vale, Blackrock Spire, Zul'Gurub, Stratholme, Alterac V...",
   },
   [16741] = { -- 15x Arcanite Bar, 20x Enchanted Thorium Bar, 10x Essence of Earth, 4x Blue Sapphire, 4x Large Opal
@@ -3191,6 +3533,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 12720, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Stronghold Gauntlets Plans: Stronger-hold Gauntlets World drop (level 59–62)",
   },
   [16742] = { -- 6x Arcanite Bar, 16x Enchanted Thorium Bar, 6x Essence of Earth, 2x Large Opal, 1x Azerothian Diamond
@@ -3200,6 +3543,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 12725, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [16744] = { -- 10x Arcanite Bar, 20x Enchanted Thorium Bar, 6x Essence of Water, 2x Blue Sapphire, 1x Huge Emerald
     name = "Enchanted Thorium Leggings", skillLineAbilityID = 9336,
@@ -3208,6 +3552,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 12726, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [16745] = { -- 8x Arcanite Bar, 24x Enchanted Thorium Bar, 4x Essence of Earth, 4x Essence of Water, 2x Huge Emerald, 2x Azerothian Diamond
     name = "Enchanted Thorium Breastplate", skillLineAbilityID = 9337,
@@ -3216,6 +3561,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 12727, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [16988] = { -- 50x Thorium Bar, 15x Arcanite Bar, 4x Guardian Stone, 6x Enchanted Leather, 10x Essence of Earth
     name = "Hammer of the Titans", skillLineAbilityID = 9450,
@@ -3224,6 +3570,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 12833, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Hammer of the Titans Drop: Stratholme (Maleki the Pallid)",
   },
   [16990] = { -- 15x Arcanite Bar, 8x Azerothian Diamond, 1x Righteous Orb, 4x Large Opal, 8x Enchanted Leather, 2x Dense Grinding Stone
@@ -3233,6 +3580,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 12834, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Arcanite Champion Drop: Blackrock Spire (Goraluk Anvilcrack)",
   },
   [16992] = { -- 18x Arcanite Bar, 8x Blue Sapphire, 8x Azerothian Diamond, 4x Essence of Water, 2x Dense Grinding Stone, 4x Enchanted Leather
@@ -3242,6 +3590,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 12836, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [16993] = { -- 20x Enchanted Thorium Bar, 8x Huge Emerald, 8x Large Opal, 6x Essence of Earth, 4x Enchanted Leather
     name = "Masterwork Stormhammer", skillLineAbilityID = 9454,
@@ -3250,6 +3599,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 12837, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Masterwork Stormhammer Drop: Blackrock Spire (Goraluk Anvilcrack)",
   },
   [16994] = { -- 20x Arcanite Bar, 6x Enchanted Leather, 2x Dense Grinding Stone
@@ -3259,6 +3609,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 12838, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Arcanite Reaper Drop: Blackrock Spire (Bannok Grimaxe)",
   },
   [16995] = { -- 10x Arcanite Bar, 10x Enchanted Thorium Bar, 2x Enchanted Leather, 6x Star Ruby, 6x Azerothian Diamond, 6x Large Opal, 4x Dense Grinding Stone
@@ -3268,6 +3619,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 12839, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Heartseeker Drop: Stratholme (Cannon Master Willey)",
   },
   [20873] = { -- 16x Dark Iron Bar, 4x Fiery Core, 5x Lava Core
@@ -3277,6 +3629,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 200000, recipeItem = 17053, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Fiery Chain Shoulders Vendor ( Lokhtos Darkbargainer )",
   },
   [20876] = { -- 16x Dark Iron Bar, 4x Fiery Core, 6x Lava Core
@@ -3286,6 +3639,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 180000, recipeItem = 17052, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Dark Iron Leggings Vendor ( Lokhtos Darkbargainer )",
   },
   [20890] = { -- 16x Dark Iron Bar, 12x Fiery Core, 2x Blood of the Mountain, 2x Enchanted Leather
@@ -3295,6 +3649,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 220000, recipeItem = 17059, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Dark Iron Reaver Vendor ( Lokhtos Darkbargainer )",
   },
   [20897] = { -- 18x Dark Iron Bar, 12x Lava Core, 2x Blood of the Mountain, 2x Enchanted Leather
@@ -3304,6 +3659,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 220000, recipeItem = 17060, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Dark Iron Destroyer Vendor ( Lokhtos Darkbargainer )",
   },
   [23633] = { -- 2x Arcanite Bar, 10x Truesilver Bar, 1x Righteous Orb
@@ -3313,6 +3669,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 40000, recipeItem = 19205, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Gloves of the Dawn Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark ...",
   },
   [23636] = { -- 4x Lava Core, 2x Fiery Core, 4x Dark Iron Bar
@@ -3322,6 +3679,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 60000, recipeItem = 19206, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Dark Iron Helm Vendor ( Lokhtos Darkbargainer )",
   },
   [23637] = { -- 3x Lava Core, 5x Fiery Core, 4x Core Leather, 4x Dark Iron Bar, 2x Blood of the Mountain
@@ -3331,6 +3689,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 80000, recipeItem = 19207, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Dark Iron Gauntlets Vendor ( Lokhtos Darkbargainer )",
   },
   [23638] = { -- 3x Lava Core, 6x Fiery Core, 12x Arcanite Bar, 1x Blood of the Mountain, 4x Dark Iron Bar
@@ -3340,6 +3699,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 70000, recipeItem = 19208, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Black Amnesty Vendor ( Lokhtos Darkbargainer )",
   },
   [23639] = { -- 5x Lava Core, 2x Fiery Core, 16x Arcanite Bar, 6x Dark Iron Bar
@@ -3349,6 +3709,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 70000, recipeItem = 19209, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Blackfury Vendor ( Lokhtos Darkbargainer )",
   },
   [24136] = { -- 20x Thorium Bar, 10x Souldarite, 2x Bloodvine, 2x Star Ruby
@@ -3358,6 +3719,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 50000, recipeItem = 19776, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Bloodsoul Breastplate Vendor ( Rin'wosho the Trader )",
   },
   [24137] = { -- 16x Thorium Bar, 8x Souldarite, 2x Bloodvine, 1x Star Ruby
@@ -3367,6 +3729,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 50000, recipeItem = 19777, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Bloodsoul Shoulders Vendor ( Rin'wosho the Trader )",
   },
   [24138] = { -- 12x Thorium Bar, 6x Souldarite, 2x Bloodvine, 4x Enchanted Leather
@@ -3376,6 +3739,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 50000, recipeItem = 19778, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Bloodsoul Gauntlets Vendor ( Rin'wosho the Trader )",
   },
   [24139] = { -- 20x Thorium Bar, 14x Souldarite, 2x Large Opal
@@ -3385,6 +3749,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 50000, recipeItem = 19779, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Darksoul Breastplate Vendor ( Rin'wosho the Trader )",
   },
   [24140] = { -- 18x Thorium Bar, 12x Souldarite, 2x Large Opal
@@ -3394,6 +3759,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 50000, recipeItem = 19780, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Darksoul Leggings Vendor ( Rin'wosho the Trader )",
   },
   [24141] = { -- 16x Thorium Bar, 10x Souldarite, 1x Large Opal
@@ -3403,6 +3769,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 50000, recipeItem = 19781, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Darksoul Shoulders Vendor ( Rin'wosho the Trader )",
   },
   [24399] = { -- 3x Lava Core, 3x Fiery Core, 4x Core Leather, 6x Dark Iron Bar
@@ -3412,6 +3779,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 80000, recipeItem = 20040, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Dark Iron Boots Vendor ( Lokhtos Darkbargainer )",
   },
   [24912] = { -- 12x Thorium Bar, 6x Dark Rune, 6x Truesilver Bar, 2x Enchanted Leather
@@ -3421,6 +3789,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 20553, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Darkrune Gauntlets Drop: Decoded True Believer Clippings",
   },
   [24913] = { -- 16x Thorium Bar, 8x Dark Rune, 8x Truesilver Bar, 1x Black Diamond
@@ -3430,6 +3799,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 20555, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Darkrune Helm Drop: Decoded True Believer Clippings",
   },
   [24914] = { -- 20x Thorium Bar, 10x Dark Rune, 10x Truesilver Bar
@@ -3439,6 +3809,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 20554, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Darkrune Breastplate Drop: Decoded True Believer Clippings",
   },
   [27585] = { -- 14x Small Obsidian Shard, 4x Enchanted Thorium Bar, 2x Essence of Earth
@@ -3448,6 +3819,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = nil, orange = nil, yellow = 320, green = 330, grey = 340,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [27586] = { -- 8x Large Obsidian Shard, 24x Small Obsidian Shard, 8x Enchanted Thorium Bar, 4x Essence of Earth
     name = "Jagged Obsidian Shield", skillLineAbilityID = 13805,
@@ -3456,6 +3828,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 22219, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [27587] = { -- 18x Large Obsidian Shard, 40x Small Obsidian Shard, 12x Enchanted Thorium Bar, 10x Essence of Earth, 4x Huge Emerald
     name = "Thick Obsidian Breastplate", skillLineAbilityID = 13808,
@@ -3464,6 +3837,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 22222, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Thick Obsidian Breastplate Drop: Ahn'Qiraj ( The Prophet Skeram )",
   },
   [27588] = { -- 14x Small Obsidian Shard, 4x Enchanted Leather
@@ -3473,6 +3847,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = nil, orange = nil, yellow = 320, green = 330, grey = 340,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [27589] = { -- 8x Large Obsidian Shard, 24x Small Obsidian Shard, 8x Enchanted Leather, 1x Flask of Supreme Power
     name = "Black Grasp of the Destroyer", skillLineAbilityID = 13806,
@@ -3481,6 +3856,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 22220, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Black Grasp of the Destroyer Drop: Ruins of Ahn'Qiraj ( Moam )",
   },
   [27590] = { -- 15x Large Obsidian Shard, 36x Small Obsidian Shard, 12x Enchanted Leather, 10x Guardian Stone, 4x Azerothian Diamond
@@ -3490,6 +3866,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 22221, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [27829] = { -- 12x Arcanite Bar, 20x Enchanted Thorium Bar, 10x Essence of Earth, 2x Flask of the Titans
     name = "Titanic Leggings", skillLineAbilityID = 13843,
@@ -3498,6 +3875,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 22388, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Titanic Leggings Drop: Western Plaguelands, Stranglethorn Vale, Silithus, Blackrock Depths...",
   },
   [27830] = { -- 15x Arcanite Bar, 10x Dark Iron Bar, 20x Essence of Undeath, 20x Dark Rune, 10x Devilsaur Leather, 2x Skin of Shadow
@@ -3507,6 +3885,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 22390, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Persuader Drop: Zul'Gurub, Alterac Valley, Molten Core, Ahn'Qiraj, Ruins of Ahn'Qiraj, Nax...",
   },
   [27832] = { -- 12x Arcanite Bar, 2x Nexus Crystal, 2x Flask of Supreme Power, 4x Enchanted Leather
@@ -3516,6 +3895,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 22389, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Sageblade Drop: Zul'Gurub, Molten Core, Ahn'Qiraj, Ruins of Ahn'Qiraj, Naxxramas",
   },
   [28242] = { -- 7x Frozen Rune, 16x Thorium Bar, 2x Arcanite Bar, 4x Essence of Water
@@ -3525,6 +3905,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 22703, faction = nil,
     station = "Icebellow Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [28243] = { -- 5x Frozen Rune, 12x Thorium Bar, 2x Arcanite Bar, 2x Essence of Water
     name = "Icebane Gauntlets", skillLineAbilityID = 13923,
@@ -3533,6 +3914,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 22704, faction = nil,
     station = "Icebellow Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [28244] = { -- 4x Frozen Rune, 12x Thorium Bar, 2x Arcanite Bar, 2x Essence of Water
     name = "Icebane Bracers", skillLineAbilityID = 13920,
@@ -3541,6 +3923,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 22705, faction = nil,
     station = "Icebellow Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252344] = { -- 8x Legionite Bar, 24x Heavy Thorium Bar, 4x Essence of Air, 4x Essence of Fire, 4x Azerothium Bar
     name = "Enriched Thorium Breastplate", skillLineAbilityID = 54807,
@@ -3549,6 +3932,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = nil, recipeItem = 251447, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Enriched Thorium Breastplate Vendor (120 Merchant's Favor )",
   },
   [1252345] = { -- 10x Legionite Bar, 20x Heavy Thorium Bar, 6x Essence of Air, 3x Azerothium Bar
@@ -3558,6 +3942,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = nil, recipeItem = 251448, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Enriched Thorium Leggings Vendor (120 Merchant's Favor )",
   },
   [1252346] = { -- 6x Legionite Bar, 16x Heavy Thorium Bar, 6x Essence of Fire, 3x Azerothium Bar
@@ -3567,6 +3952,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = nil, recipeItem = 251449, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Enriched Thorium Helm Vendor (120 Merchant's Favor )",
   },
   [1252347] = { -- 12x Legionite Bar, 20x Heavy Thorium Bar, 10x Essence of Air, 2x Flask of Supreme Power
@@ -3576,6 +3962,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 251450, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252348] = { -- 12x Legionite Bar, 80x Thorium Bar, 10x Star Ruby, 4x Azerothian Diamond, 20x Black Pearl
     name = "Stalwart Helm", skillLineAbilityID = 54811,
@@ -3584,6 +3971,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 251451, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252349] = { -- 12x Legionite Bar, 20x Heavy Thorium Bar, 10x Essence of Fire, 2x Flask of Distilled Wisdom
     name = "Martyr's Legplates", skillLineAbilityID = 54812,
@@ -3592,6 +3980,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 251452, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252350] = { -- 12x Legionite Bar, 80x Thorium Bar, 10x Blue Sapphire, 4x Azerothian Diamond, 20x Demonic Rune
     name = "Breastplate of Salvation", skillLineAbilityID = 54813,
@@ -3600,6 +3989,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 251453, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Breastplate of Salvation Drop: Blackmaw Hold (Trash)",
   },
   [1252366] = { -- 20x Legionite Bar, 10x Azerothium Bar, 2x Dense Grinding Stone
@@ -3609,6 +3999,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 251469, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252367] = { -- 10x Legionite Bar, 10x Heavy Thorium Bar, 10x Azerothium Bar, 4x Star Ruby, 4x Blue Sapphire
     name = "Bagh Nakh", skillLineAbilityID = 54830,
@@ -3617,6 +4008,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 251470, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1252368] = { -- 15x Legionite Bar, 8x Heavy Thorium Bar, 10x Azerothium Bar, 4x Torbernite, 1x Death Lotus
     name = "Legionite Glaive", skillLineAbilityID = 54831,
@@ -3625,6 +4017,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = nil, recipeItem = 251471, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Legionite Glaive Vendor (120 Merchant's Favor )",
   },
   [16986] = { -- 10x Enchanted Thorium Bar, 10x Arcanite Bar, 8x Demonic Rune, 10x Star Ruby, 2x Dense Grinding Stone
@@ -3634,6 +4027,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = nil, orange = nil, yellow = 325, green = 337, grey = 350,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [16987] = { -- 20x Enchanted Thorium Bar, 20x Powerful Mojo, 2x Huge Emerald, 2x Azerothian Diamond, 2x Dense Grinding Stone
     name = "Darkspear", skillLineAbilityID = 9449,
@@ -3642,6 +4036,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = nil, orange = nil, yellow = 325, green = 337, grey = 350,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Master Forge",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [21161] = { -- 8x Sulfuron Ingot, 20x Dark Iron Bar, 50x Arcanite Bar, 25x Essence of Fire, 10x Blood of the Mountain, 10x Lava Core, 10x Fiery Core
     name = "Sulfuron Hammer", skillLineAbilityID = 11979,
@@ -3650,6 +4045,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     learn = 300, orange = 300, yellow = 325, green = 337, grey = 350,
     source = "quest", sourceCost = nil, recipeItem = 18592, faction = nil,
     station = "Black Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Plans: Sulfuron Hammer Drop: Blackrock Depths (Guzzler) Quest: A Binding Contract",
   },
 }

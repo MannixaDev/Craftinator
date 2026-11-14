@@ -54,6 +54,11 @@ local function showStepTooltip(row)
   if recipe.station then
     GameTooltip:AddLine("Craft at: " .. recipe.station, 1, 0.82, 0)
   end
+  for _, itemID in ipairs(recipe.tools or {}) do
+    local have = ns.Inventory.Count(itemID) > 0
+    GameTooltip:AddLine(("Needs tool: %s%s"):format(ns.Inventory.ItemName(itemID), have and " (you have it)" or ""),
+      1, 0.82, 0)
+  end
   if plan.useResale and recipe.output then
     local price = plan.book.PriceOf(recipe.output.itemID)
     GameTooltip:AddLine(price and ("Each craft sells for about %s."):format(
@@ -65,6 +70,12 @@ local function showStepTooltip(row)
     GameTooltip:AddLine(("Not learned yet. Source: %s"):format(how), 1, 0.82, 0, true)
     if step.oneOffCost > 0 then
       GameTooltip:AddLine("Recipe cost: " .. Pricing.FormatMoney(step.oneOffCost), 1, 1, 1)
+    end
+    local vendor, price, limited = nil, nil, false
+    if recipe.recipeItem then vendor, price, limited = ns.Navigation.VendorFor(recipe.recipeItem, ns.Player.Faction()) end
+    if vendor then
+      GameTooltip:AddLine(("Seen for sale: %s in %s, %s%s."):format(vendor.name, vendor.zone or ns.Navigation.CityName(vendor.mapID),
+        Pricing.FormatMoney(price), limited and ", limited stock" or ""), 1, 1, 1, true)
     end
   end
   if recipe.learnEstimated and not plan.known[step.spellID] then
@@ -231,18 +242,22 @@ local function create()
   frame.location.text:SetJustifyH("LEFT")
   frame.location.text:SetJustifyV("TOP")
   frame.location:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
-  frame.location:SetScript("OnClick", function(self)
-    if not self.npc then return end
-    if not self.npc.x then
-      say(("%s is in %s; no map position is known for a pin."):format(self.npc.name, ns.Navigation.CityName(self.npc.mapID)))
+  frame.location:RegisterForClicks("LeftButtonUp", "RightButtonUp")
+  -- Left click pins the trainer, right click the supply vendor.
+  frame.location:SetScript("OnClick", function(self, button)
+    local npc = self.npc
+    if button == "RightButton" then npc = self.vendor end
+    if not npc then return end
+    if not npc.x then
+      say(("%s is in %s; no map position is known for a pin."):format(npc.name, ns.Navigation.CityName(npc.mapID)))
       return
     end
-    local ok, reason = ns.Navigation.SetWaypoint(self.npc)
+    local ok, reason = ns.Navigation.SetWaypoint(npc)
     if ok then
-      say(("map pin placed on %s in %s."):format(self.npc.name, ns.Navigation.CityName(self.npc.mapID)))
+      say(("map pin placed on %s in %s."):format(npc.name, ns.Navigation.CityName(npc.mapID)))
     else
       say(("could not place a pin: %s. %s is at %.1f, %.1f in %s."):format(
-        tostring(reason), self.npc.name, self.npc.x * 100, self.npc.y * 100, ns.Navigation.CityName(self.npc.mapID)))
+        tostring(reason), npc.name, npc.x * 100, npc.y * 100, ns.Navigation.CityName(npc.mapID)))
     end
   end)
 
@@ -408,11 +423,14 @@ local function locationLine(plan)
     where = where .. (left <= 0 and ". At your cap."
       or (". %d point%s from your cap."):format(left, left == 1 and "" or "s"))
   end
-  local shops = {}
+  local shops, pinnable = {}, nil
   for _, vendor in ipairs(ns.Navigation.Supplies(plan.profession, faction, location.mapID)) do
-    if #shops < 2 then shops[#shops + 1] = ("%s (%s)"):format(vendor.name, vendor.title) end
+    if #shops < 2 then shops[#shops + 1] = vendor.name end
+    if vendor.x and not pinnable then pinnable = vendor end
   end
-  local supplies = #shops > 0 and ("\nSupplies here: " .. table.concat(shops, ", ")) or ""
+  frame.location.vendor = pinnable
+  local supplies = #shops > 0 and ("\nSupplies here: " .. table.concat(shops, ", ") .. "."
+    .. (pinnable and (" Right-click to pin %s."):format(pinnable.name) or "")) or ""
   -- A trainer only helps with the cap if they train past it.
   local cap = plan.target
   local npc = ns.Navigation.BestTrainer(here, cap)
@@ -447,6 +465,7 @@ function Panel.Refresh()
     frame.bar:SetValue(0)
     frame.location.text:SetText("")
     frame.location.npc = nil
+    frame.location.vendor = nil
     frame.plan = nil
     frame.message:SetText(problem)
     frame.total:SetText("")

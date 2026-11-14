@@ -12,6 +12,8 @@ What DB2 does and does not give us on the Forever client:
   - reagents: SpellReagents. Output item and quantity: SpellEffect (effect 24).
   - craft station (anvil, forge, cooking fire): SpellCastingRequirements.RequiresSpellFocus,
     named by SpellFocusObject.
+  - tools you must carry (blacksmith hammer, runed rods): SpellTotems, either a tool
+    category (TotemCategory, matched to the item of the same name) or a specific item.
   - recipes taught by an item (Pattern:/Blueprint:): the item's RequiredSkillRank
     is the skill needed to learn it.
   - NOT available: the skill needed for trainer-taught recipes, trainer costs,
@@ -31,7 +33,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 TABLES = ["SkillLine", "SkillLineAbility", "SpellName", "SpellReagents",
           "SpellEffect", "ItemEffect", "ItemXItemEffect", "ItemSparse",
-          "SpellCastingRequirements", "SpellFocusObject"]
+          "SpellCastingRequirements", "SpellFocusObject", "SpellTotems", "TotemCategory"]
 EFFECT_CREATE_ITEM = "24"
 TRIGGER_ON_LEARN = "6"
 # ItemSparse.Flags_1 bits
@@ -129,6 +131,22 @@ def apply_overrides(profession, recipes):
                 r["sourceCost"] = seen.get("cost")
                 stats["ingame learn"] += 1
 
+    # Recipe items a player saw a vendor selling for gold: that settles the source and the price.
+    npcs_path = ROOT / "tools" / "overrides" / "npcs_ingame.json"
+    stats["vendor sightings"] = 0
+    if npcs_path.exists():
+        sold = {}
+        for npc in json.loads(npcs_path.read_text(encoding="utf-8"))["npcs"].values():
+            for item in npc.get("items", []):
+                if not item.get("notGold") and item.get("price"):
+                    sold[item["itemID"]] = (item["price"] // max(1, item.get("stack", 1)), npc)
+        for r in recipes:
+            seen = sold.get(r["recipeItem"])
+            if seen:
+                r["source"], r["sourceCost"] = "vendor", seen[0]
+                r.setdefault("sourceNote", f"Vendor: {seen[1]['name']} ({seen[1].get('zone') or 'unknown zone'})")
+                stats["vendor sightings"] += 1
+
     # Trainer recipes whose learn skill no source gives: a recipe is never learned later than
     # the skill where it turns yellow, so use that. It may really be available earlier.
     stats["estimated"] = 0
@@ -164,6 +182,24 @@ def build_recipes(build, profession):
     focus_names = {r["ID"]: r["Name_lang"] for r in load(build, "SpellFocusObject")}
     stations = {r["SpellID"]: focus_names.get(r["RequiresSpellFocus"])
                 for r in load(build, "SpellCastingRequirements") if r["RequiresSpellFocus"] != "0"}
+
+    # Tools: a category is named after its basic tool, so the item with that name stands for it.
+    item_by_name = {}
+    for item_id, item in items.items():
+        item_by_name.setdefault(item["Display_lang"], item_id)
+    categories = {r["ID"]: r["Name_lang"] for r in load(build, "TotemCategory")}
+    tools = {}
+    for row in load(build, "SpellTotems"):
+        needed = []
+        for key in ("RequiredTotemCategoryID_0", "RequiredTotemCategoryID_1"):
+            name = categories.get(row[key])
+            if name and name in item_by_name:
+                needed.append((int(item_by_name[name]), name))
+        for key in ("Totem_0", "Totem_1"):
+            if row[key] in items:
+                needed.append((int(row[key]), items[row[key]]["Display_lang"]))
+        if needed:
+            tools[row["SpellID"]] = needed
 
     item_effects = {r["ID"]: r for r in load(build, "ItemEffect")}
     taught_by = {}
@@ -229,6 +265,7 @@ def build_recipes(build, profession):
             "recipeBuyPrice": int(recipe_item["BuyPrice"]) if recipe_item else None,
             "faction": faction or None,
             "station": stations.get(spell),
+            "tools": tools.get(spell),
         })
     recipes.sort(key=lambda r: (r["yellow"], r["grey"], r["spell"]))
     stats = apply_overrides(profession, recipes)
@@ -246,6 +283,7 @@ def write_lua(build, profession, recipes, skipped, skill_line):
         "-- learn = nil: still unknown. source = \"item\" / \"unknown\": taught by an item, origin unknown.",
         "-- sourceCost (copper) = trainer fee seen in game, or the vendor price; nil when unknown or not gold.",
         "-- station = the object you must stand next to (Anvil, Forge, Cooking Fire), when there is one.",
+        "-- tools = item IDs of tools you must carry (a better tool of the same kind also works).",
         "",
         "local _, ns = ...",
         "",
@@ -274,6 +312,9 @@ def write_lua(build, profession, recipes, skipped, skill_line):
             lines.append("    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold")
         if r.get("station"):
             lines.append(f"    station = {lua_string(r['station'])},")
+        if r.get("tools"):
+            lines.append("    tools = { %s }, -- %s" % (", ".join(str(i) for i, _ in r["tools"]),
+                                                      ", ".join(n for _, n in r["tools"])))
         if r.get("sourceNote"):
             lines.append(f"    sourceNote = {lua_string(r['sourceNote'])},")
         lines += [
@@ -304,6 +345,7 @@ def main():
     print("  faction-specific:", sum(1 for r in recipes if r["faction"]))
     print(f"  overrides: {stats['zockify learn']} learn skills and {stats['zockify source']} sources from Zockify, "
           f"{stats['ingame learn']} recipes confirmed in game")
+    print(f"  recipe items seen at vendors in game: {stats['vendor sightings']}")
     print(f"  learn skill estimated from yellow: {stats['estimated']}; still unknown:",
           sum(1 for r in recipes if r["learn"] is None),
           f"| recipes with no Zockify match: {stats['unmatched']}")

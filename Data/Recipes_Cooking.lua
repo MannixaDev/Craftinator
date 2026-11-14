@@ -6,6 +6,7 @@
 -- learn = nil: still unknown. source = "item" / "unknown": taught by an item, origin unknown.
 -- sourceCost (copper) = trainer fee seen in game, or the vendor price; nil when unknown or not gold.
 -- station = the object you must stand next to (Anvil, Forge, Cooking Fire), when there is one.
+-- tools = item IDs of tools you must carry (a better tool of the same kind also works).
 
 local _, ns = ...
 
@@ -21,6 +22,7 @@ ns.Data.Recipes["Cooking"] = {
     reagents = { { itemID = 4470, qty = 1 } },
     learn = 20, orange = 20, yellow = 1, green = 3, grey = 5,
     source = "trainer", sourceCost = 90, recipeItem = nil, faction = nil,
+    tools = { 4471 }, -- Flint and Tinder
   },
   [818] = { -- 1x Simple Wood
     name = "Basic Campfire", skillLineAbilityID = 8676,
@@ -29,6 +31,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 25, orange = 25, yellow = 25, green = 50, grey = 75,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    tools = { 4471 }, -- Flint and Tinder
   },
   [1249957] = { -- 1x Refreshing Spring Water, 2x Peacebloom
     name = "Peace Tea", skillLineAbilityID = 54473,
@@ -282,6 +285,7 @@ ns.Data.Recipes["Cooking"] = {
     reagents = { { itemID = 11291, qty = 1 } },
     learn = 90, orange = 90, yellow = 95, green = 95, grey = 95,
     source = "drop", sourceCost = nil, recipeItem = 273087, faction = nil,
+    tools = { 4471 }, -- Flint and Tinder
     sourceNote = "Drop: Wailing Caverns (Lord Serpentis)",
   },
   [3371] = { -- 1x Bear Meat, 1x Boar Intestines, 1x Spider Ichor
@@ -646,6 +650,7 @@ ns.Data.Recipes["Cooking"] = {
     reagents = { { itemID = 272941, qty = 1 } },
     learn = 200, orange = 200, yellow = 205, green = 205, grey = 205,
     source = "drop", sourceCost = nil, recipeItem = 273101, faction = nil,
+    tools = { 4471 }, -- Flint and Tinder
     sourceNote = "Drop: Krol'dok Stronghold (Slavecrusher Grox)",
   },
   [1247741] = { -- 1x Raw Spinefin Halibut

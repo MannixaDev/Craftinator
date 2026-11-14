@@ -6,6 +6,7 @@
 -- learn = nil: still unknown. source = "item" / "unknown": taught by an item, origin unknown.
 -- sourceCost (copper) = trainer fee seen in game, or the vendor price; nil when unknown or not gold.
 -- station = the object you must stand next to (Anvil, Forge, Cooking Fire), when there is one.
+-- tools = item IDs of tools you must carry (a better tool of the same kind also works).
 
 local _, ns = ...
 

@@ -6,6 +6,7 @@
 -- learn = nil: still unknown. source = "item" / "unknown": taught by an item, origin unknown.
 -- sourceCost (copper) = trainer fee seen in game, or the vendor price; nil when unknown or not gold.
 -- station = the object you must stand next to (Anvil, Forge, Cooking Fire), when there is one.
+-- tools = item IDs of tools you must carry (a better tool of the same kind also works).
 
 local _, ns = ...
 
@@ -68,6 +69,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 30, orange = 30, yellow = 45, green = 52, grey = 60,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1266906] = { -- 1x Copper Bar, 1x Handful of Copper Bolts, 2x Rough Blasting Powder, 1x Linen Cloak, 2x SAF-T Tabs
     name = "SAF-T Copper Bomb", skillLineAbilityID = 56758,
@@ -76,6 +78,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 55, orange = 55, yellow = 55, green = 60, grey = 65,
     source = "vendor", sourceCost = nil, recipeItem = 264203, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Schematic: SAF-T Copper Bomb Vendor (45 Merchant's Favor )",
   },
   [3923] = { -- 1x Copper Bar, 1x Handful of Copper Bolts, 2x Rough Blasting Powder, 1x Linen Cloth
@@ -85,6 +88,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 30, orange = 30, yellow = 60, green = 75, grey = 90,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1302161] = { -- 4x Golem Isospring, 2x Copper Modulator, 1x Crude Scope
     name = "Harvester Override Signalcaster", skillLineAbilityID = 58794,
@@ -92,6 +96,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 255007, qty = 4 }, { itemID = 4363, qty = 2 }, { itemID = 4405, qty = 1 } },
     learn = 65, orange = 65, yellow = 65, green = 72, grey = 80,
     source = "quest", sourceCost = nil, recipeItem = 277470, faction = nil,
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Harvester Override Signalcaster Drop: Tirisfal Glades ( Decrepit Harvester ) Quest: Ha...",
   },
   [7430] = { -- 6x Copper Bar
@@ -101,6 +106,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 50, orange = 50, yellow = 70, green = 80, grey = 90,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3924] = { -- 2x Copper Bar, 1x Weak Flux
     name = "Copper Tube", skillLineAbilityID = 2419,
@@ -109,6 +115,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 50, orange = 50, yellow = 80, green = 95, grey = 110,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3925] = { -- 1x Copper Tube, 1x Handful of Copper Bolts, 1x Wooden Stock
     name = "Rough Boomstick", skillLineAbilityID = 2420,
@@ -117,6 +124,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 50, orange = 50, yellow = 80, green = 95, grey = 110,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3929] = { -- 1x Coarse Stone
     name = "Coarse Blasting Powder", skillLineAbilityID = 2425,
@@ -154,6 +162,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 4361, qty = 1 }, { itemID = 774, qty = 1 }, { itemID = 4359, qty = 1 } },
     learn = 60, orange = 60, yellow = 90, green = 105, grey = 120,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    tools = { 6219 }, -- Arclight Spanner
   },
   [3926] = { -- 2x Handful of Copper Bolts, 1x Copper Bar, 2x Linen Cloth
     name = "Copper Modulator", skillLineAbilityID = 2423,
@@ -162,6 +171,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 65, orange = 65, yellow = 95, green = 110, grey = 125,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [1266907] = { -- 1x Wool Cloth, 1x Sulfuric Acid
     name = "EZ-Thro Wrap", skillLineAbilityID = 56759,
@@ -178,6 +188,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 75, orange = 75, yellow = 105, green = 120, grey = 135,
     source = "drop", sourceCost = nil, recipeItem = 4408, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Mechanical Squirrel Drop: Wetlands, Westfall, Redridge Mountains, Silverpine Forest, H...",
   },
   [3937] = { -- 3x Copper Bar, 4x Coarse Blasting Powder, 1x Silver Contact
@@ -188,6 +199,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3938] = { -- 2x Bronze Bar, 1x Weak Flux
     name = "Bronze Tube", skillLineAbilityID = 2433,
@@ -197,6 +209,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3973] = { -- 1x Silver Bar
     name = "Silver Contact", skillLineAbilityID = 2422,
@@ -214,6 +227,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [8339] = { -- 3x Coarse Blasting Powder, 1x Linen Cloth, 1x EZ-Thro Wrap
     name = "EZ-Thro Dynamite", skillLineAbilityID = 4607,
@@ -231,6 +245,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [3941] = { -- 4x Coarse Blasting Powder, 2x Bronze Bar, 1x Silver Contact, 1x Wool Cloth
     name = "Small Bronze Bomb", skillLineAbilityID = 2438,
@@ -240,6 +255,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3945] = { -- 1x Heavy Stone
     name = "Heavy Blasting Powder", skillLineAbilityID = 2441,
@@ -315,6 +331,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [3944] = { -- 1x Whirring Bronze Gizmo, 1x Small Flame Sac
     name = "Flame Deflector", skillLineAbilityID = 2440,
@@ -323,6 +340,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 125, orange = 125, yellow = 125, green = 150, grey = 175,
     source = "drop", sourceCost = nil, recipeItem = 4411, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Flame Deflector Drop: Gnomeregan (Mekgineer Thermaplugg)",
   },
   [3936] = { -- 2x Copper Tube, 4x Handful of Copper Bolts, 1x Wooden Stock, 2x Medium Leather
@@ -333,6 +351,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [1249634] = { -- 2x Bauxite, 1x Bolt of Linen Cloth
     name = "Sandpaper", skillLineAbilityID = 54457,
@@ -357,6 +376,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 130, orange = 130, yellow = 130, green = 145, grey = 160,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    tools = { 6219 }, -- Arclight Spanner
   },
   [1266908] = { -- 3x Copper Bar, 4x Coarse Blasting Powder, 1x Silver Contact, 1x EZ-Thro Wrap
     name = "EZ-Thro Copper Bomb XL", skillLineAbilityID = 56760,
@@ -365,6 +385,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 130, orange = 130, yellow = 130, green = 155, grey = 180,
     source = "vendor", sourceCost = nil, recipeItem = 264205, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Schematic: EZ-Thro Copper Bomb XL Vendor (45 Merchant's Favor )",
   },
   [424641] = { -- 1x Bronze Framework, 2x Whirring Bronze Gizmo, 1x Heavy Leather
@@ -374,6 +395,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 135, orange = 135, yellow = 135, green = 140, grey = 145,
     source = "item", sourceCost = nil, recipeItem = 210178, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [3978] = { -- 1x Bronze Tube, 1x Moss Agate
     name = "Standard Scope", skillLineAbilityID = 2435,
@@ -382,6 +404,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 135, orange = 135, yellow = 135, green = 147, grey = 160,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    tools = { 6219 }, -- Arclight Spanner
   },
   [1263034] = { -- 2x Whirring Bronze Gizmo, 1x Bronze Tube, 1x Heavy Leather
     name = "Repair Bot", skillLineAbilityID = 57011,
@@ -389,6 +412,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 4375, qty = 2 }, { itemID = 4371, qty = 1 }, { itemID = 4234, qty = 1 } },
     learn = 140, orange = 140, yellow = 140, green = 140, grey = 140,
     source = "drop", sourceCost = nil, recipeItem = 273092, faction = nil,
+    tools = { 6219 }, -- Arclight Spanner
     sourceNote = "Drop: Deadmines (Sneed)",
   },
   [3950] = { -- 2x Heavy Blasting Powder, 3x Bronze Bar, 1x Silver Contact
@@ -399,6 +423,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [1266909] = { -- 1x Heavy Leather, 1x Magenta Dye
     name = "No Slip SAF-T Padding", skillLineAbilityID = 56761,
@@ -415,6 +440,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 120, orange = 120, yellow = 145, green = 157, grey = 170,
     source = "vendor", sourceCost = 1000, recipeItem = 13309, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Lovingly Crafted Boomstick Vendor ( Fradd Swiftgear , Jinky Twizzlefixxit )",
   },
   [3940] = { -- 4x Medium Leather, 2x Shadowgem
@@ -440,6 +466,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 145, orange = 145, yellow = 145, green = 170, grey = 195,
     source = "drop", sourceCost = nil, recipeItem = 264207, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Schematic: SAF-T Bronze Bomb Drop: Tirisfal Glades ( Scarlet Scout )",
   },
   [1286796] = { -- 3x Iron Strut, 2x Bronze Framework, 1x Gyrochronatom, 1x Gold Power Core, 4x Heavy Leather
@@ -448,6 +475,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 4387, qty = 3 }, { itemID = 4382, qty = 2 }, { itemID = 4389, qty = 1 }, { itemID = 10558, qty = 1 }, { itemID = 4234, qty = 4 } },
     learn = 140, orange = 140, yellow = 150, green = 155, grey = 160,
     source = "vendor", sourceCost = 3000, recipeItem = 269903, faction = nil,
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Hoof-Shaped Foot Pedal Vendor ( Gorhak ) Quest: Gizmo for Warug",
   },
   [9271] = { -- 2x Bronze Bar, 1x Nightcrawlers, 1x Coarse Blasting Powder
@@ -473,6 +501,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 125, orange = 125, yellow = 150, green = 162, grey = 175,
     source = "vendor", sourceCost = 1200, recipeItem = 7560, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Gnomish Universal Remote Drop: Gnomeregan ( Mekgineer Thermaplugg ) Vendor ( Gearcutte...",
   },
   [23066] = { -- 1x Heavy Blasting Powder, 1x Heavy Leather
@@ -507,6 +536,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [3949] = { -- 2x Bronze Tube, 2x Whirring Bronze Gizmo, 1x Heavy Stock, 3x Silver Bar
     name = "Silver-plated Shotgun", skillLineAbilityID = 2444,
@@ -525,6 +555,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [6458] = { -- 2x Bronze Tube, 2x Whirring Bronze Gizmo, 1x Copper Modulator, 1x Moss Agate
     name = "Ornate Spyglass", skillLineAbilityID = 3945,
@@ -566,6 +597,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 145, orange = 145, yellow = 170, green = 182, grey = 195,
     source = "drop", sourceCost = nil, recipeItem = 4412, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Moonsight Rifle World drop (level 21–36)",
   },
   [3961] = { -- 1x Iron Bar, 1x Gold Power Core
@@ -576,6 +608,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [1266912] = { -- 2x Bronze Bar, 1x Sandpaper
     name = "SAF-T Bell", skillLineAbilityID = 56764,
@@ -584,6 +617,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 175, orange = 175, yellow = 175, green = 177, grey = 180,
     source = "vendor", sourceCost = nil, recipeItem = 264209, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Schematic: SAF-T Bell Vendor (180 Merchant's Favor )",
   },
   [3957] = { -- 1x Whirring Bronze Gizmo, 1x Frost Oil
@@ -593,6 +627,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 155, orange = 155, yellow = 175, green = 185, grey = 195,
     source = "vendor", sourceCost = 1800, recipeItem = 13308, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Ice Deflector Vendor ( Rizz Loosebolt , Super-Seller 680 )",
   },
   [12585] = { -- 2x Solid Stone
@@ -619,6 +654,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [3956] = { -- 4x Medium Leather, 2x Moss Agate, 1x Flying Tiger Goggles
     name = "Green Tinted Goggles", skillLineAbilityID = 2450,
@@ -627,6 +663,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 175, orange = 175, yellow = 175, green = 187, grey = 200,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    tools = { 6219 }, -- Arclight Spanner
   },
   [26420] = { -- 1x Heavy Blasting Powder, 1x Heavy Leather
     name = "Large Blue Rocket", skillLineAbilityID = 13427,
@@ -678,6 +715,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3963] = { -- 2x Iron Strut, 1x Bronze Framework, 2x Gyrochronatom, 4x Heavy Leather
     name = "Compact Harvest Reaper Kit", skillLineAbilityID = 2457,
@@ -687,6 +725,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [12590] = { -- 4x Steel Bar
     name = "Gyromatic Micro-Adjustor", skillLineAbilityID = 6861,
@@ -696,6 +735,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1308178] = { -- 2x Bronze Framework, 1x Whirring Bronze Gizmo, 2x Bolt of Silk Cloth
     name = "Whimsical Waistwrap", skillLineAbilityID = 59086,
@@ -704,6 +744,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 175, orange = 175, yellow = 180, green = 182, grey = 185,
     source = "vendor", sourceCost = nil, recipeItem = 280321, faction = nil,
     station = "Anarchist's Workbench",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Whimsical Waistwrap Vendor (180 Merchant's Favor )",
   },
   [1308179] = { -- 2x Whirring Bronze Gizmo, 1x Bronze Framework, 4x Medium Leather
@@ -713,6 +754,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 175, orange = 175, yellow = 180, green = 182, grey = 185,
     source = "vendor", sourceCost = nil, recipeItem = 280322, faction = nil,
     station = "Anarchist's Workbench",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Gizmo Girdle Vendor (180 Merchant's Favor )",
   },
   [1308180] = { -- 2x Bronze Tube, 1x Copper Modulator, 4x Medium Leather
@@ -722,6 +764,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 175, orange = 175, yellow = 180, green = 182, grey = 185,
     source = "vendor", sourceCost = nil, recipeItem = 280323, faction = nil,
     station = "Anarchist's Workbench",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Clanking Cord Vendor (180 Merchant's Favor )",
   },
   [3959] = { -- 3x Whirring Bronze Gizmo, 2x Silk Cloth, 1x Jade, 1x Bronze Tube
@@ -731,6 +774,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 160, orange = 160, yellow = 180, green = 190, grey = 200,
     source = "drop", sourceCost = nil, recipeItem = 4413, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Discombobulator Ray Drop: Gnomeregan (Mekgineer Thermaplugg)",
   },
   [3960] = { -- 4x Bronze Tube, 1x Iron Strut, 4x Heavy Blasting Powder, 4x Medium Leather
@@ -740,6 +784,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 165, orange = 165, yellow = 185, green = 195, grey = 205,
     source = "drop", sourceCost = nil, recipeItem = 4414, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Portable Bronze Mortar World drop (level 26–40)",
   },
   [3965] = { -- 1x Iron Strut, 1x Bronze Framework, 1x Gyrochronatom, 4x Heavy Leather
@@ -750,6 +795,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [8243] = { -- 1x Blue Pearl, 1x Heavy Blasting Powder, 1x Silk Cloth
     name = "Flash Bomb", skillLineAbilityID = 4571,
@@ -766,6 +812,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 190, orange = 190, yellow = 190, green = 192, grey = 195,
     source = "vendor", sourceCost = nil, recipeItem = 264211, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: EZ-Thro Fireproof Fuse Vendor (180 Merchant's Favor )",
   },
   [1286792] = { -- 6x Iron Strut, 2x Gyrochronatom, 4x Gold Power Core, 30x Heavy Leather
@@ -775,6 +822,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 190, orange = 190, yellow = 190, green = 197, grey = 205,
     source = "vendor", sourceCost = 3000, recipeItem = 269901, faction = nil,
     station = "Anvil",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Centaur Banner Deployment Device Vendor ( Gorhak ) Quest: Gizmo for Warug",
   },
   [3967] = { -- 3x Iron Bar, 3x Heavy Blasting Powder, 1x Silver Contact
@@ -785,6 +833,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [21940] = { -- 8x Mithril Bar, 4x Gyrochronatom, 4x Snowball, 1x Frost Oil
     name = "Snowmaster 9000", skillLineAbilityID = 12139,
@@ -793,6 +842,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 190, orange = 190, yellow = 190, green = 210, grey = 230,
     source = "drop", sourceCost = nil, recipeItem = 17720, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Snowmaster 9000 Drop: Smokywood Pastures Special Gift",
   },
   [12587] = { -- 6x Heavy Leather, 2x Citrine
@@ -801,6 +851,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 4234, qty = 6 }, { itemID = 3864, qty = 2 } },
     learn = 175, orange = 175, yellow = 195, green = 205, grey = 215,
     source = "drop", sourceCost = nil, recipeItem = 10601, faction = nil,
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Bright-Eye Goggles World drop (level 25–40)",
   },
   [12589] = { -- 3x Mithril Bar
@@ -811,6 +862,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [3979] = { -- 1x Bronze Tube, 1x Jade, 1x Citrine
     name = "Accurate Scope", skillLineAbilityID = 2459,
@@ -818,6 +870,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 4371, qty = 1 }, { itemID = 1529, qty = 1 }, { itemID = 3864, qty = 1 } },
     learn = 180, orange = 180, yellow = 200, green = 210, grey = 220,
     source = "vendor", sourceCost = 2000, recipeItem = 13310, faction = nil,
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Accurate Scope Vendor ( Mazk Snipeshot )",
   },
   [23069] = { -- 1x Solid Blasting Powder, 1x Silk Cloth, 1x EZ-Thro Fireproof Fuse
@@ -835,6 +888,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 200, orange = 200, yellow = 200, green = 210, grey = 220,
     source = "item", sourceCost = nil, recipeItem = 215429, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1266913] = { -- 1x Bronze Framework, 1x Whirring Bronze Gizmo, 2x Heavy Blasting Powder, 2x Wool Cloth, 1x SAF-T Bell
     name = "Shafety Sheep", skillLineAbilityID = 56765,
@@ -843,6 +897,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 175, orange = 175, yellow = 200, green = 212, grey = 225,
     source = "drop", sourceCost = nil, recipeItem = 264210, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Shafety Sheep Drop: Stranglethorn Vale ( Venture Co. Miner )",
   },
   [3972] = { -- 2x Solid Blasting Powder, 2x Heavy Leather, 1x Refreshing Spring Water
@@ -861,6 +916,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [15255] = { -- 1x Mithril Bar, 1x Mageweave Cloth, 1x Solid Blasting Powder
     name = "Mechanical Repair Kit", skillLineAbilityID = 8196,
@@ -870,6 +926,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [1266916] = { -- 1x Iron Bar, 1x Heavy Blasting Powder, 1x Silk Cloth, 1x EZ-Thro Fireproof Fuse
     name = "EZ-Thro Grenade", skillLineAbilityID = 56768,
@@ -878,6 +935,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 200, orange = 200, yellow = 200, green = 220, grey = 240,
     source = "drop", sourceCost = nil, recipeItem = 264213, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: EZ-Thro Grenade Drop: Uldaman ( Shadowforge Geologist )",
   },
   [12715] = { -- 1x Blank Parchment, 1x Engineer's Ink
@@ -903,6 +961,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 205, orange = 205, yellow = 205, green = 205, grey = 205,
     source = "drop", sourceCost = nil, recipeItem = 11827, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Lil' Smoky Drop: Gnomeregan (Trash)",
   },
   [15628] = { -- 1x Big Iron Bomb, 1x Heart of Fire, 1x Fused Wiring, 6x Mithril Bar
@@ -912,6 +971,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 205, orange = 205, yellow = 205, green = 207, grey = 210,
     source = "drop", sourceCost = nil, recipeItem = 11828, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Pet Bombling Drop: Gnomeregan (Mekgineer Thermaplugg)",
   },
   [1308183] = { -- 1x Ornate Spyglass, 1x Gyrochronatom, 4x Bolt of Mageweave
@@ -921,6 +981,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 200, orange = 200, yellow = 205, green = 207, grey = 210,
     source = "vendor", sourceCost = nil, recipeItem = 280325, faction = nil,
     station = "Anarchist's Workbench",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Floppy Goggles Vendor (180 Merchant's Favor )",
   },
   [1308184] = { -- 1x Ornate Spyglass, 1x Gyrochronatom, 8x Heavy Leather
@@ -930,6 +991,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 200, orange = 200, yellow = 205, green = 207, grey = 210,
     source = "vendor", sourceCost = nil, recipeItem = 280326, faction = nil,
     station = "Anarchist's Workbench",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Bent Goggles Vendor (180 Merchant's Favor )",
   },
   [1308185] = { -- 1x Ornate Spyglass, 1x Gyrochronatom, 8x Heavy Leather
@@ -939,6 +1001,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 200, orange = 200, yellow = 205, green = 207, grey = 210,
     source = "vendor", sourceCost = nil, recipeItem = 280327, faction = nil,
     station = "Anarchist's Workbench",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Stuckbutton Goggles Vendor (180 Merchant's Favor )",
   },
   [1308186] = { -- 1x Ornate Spyglass, 1x Gyrochronatom, 2x Mithril Bar
@@ -948,6 +1011,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 200, orange = 200, yellow = 205, green = 207, grey = 210,
     source = "vendor", sourceCost = nil, recipeItem = 280328, faction = nil,
     station = "Anarchist's Workbench",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Dented Goggles Vendor (180 Merchant's Favor )",
   },
   [431362] = { -- 4x Shadowgem, 1x Black Vitriol, 1x Demonic Figurine
@@ -957,6 +1021,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 205, orange = 205, yellow = 205, green = 210, grey = 215,
     source = "item", sourceCost = nil, recipeItem = 212230, faction = nil,
     station = "Forge",
+    tools = { 6219 }, -- Arclight Spanner
   },
   [3966] = { -- 6x Heavy Leather, 2x Citrine
     name = "Craftsman's Monocle", skillLineAbilityID = 2461,
@@ -964,6 +1029,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 4234, qty = 6 }, { itemID = 3864, qty = 2 } },
     learn = 185, orange = 185, yellow = 205, green = 215, grey = 225,
     source = "drop", sourceCost = nil, recipeItem = 4415, faction = nil,
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Craftsman's Monocle Drop: Gnomeregan (Mekgineer Thermaplugg)",
   },
   [12760] = { -- 1x Mageweave Cloth, 3x Solid Blasting Powder, 1x Unstable Trigger
@@ -981,6 +1047,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [1266915] = { -- 4x Bronze Tube, 1x Iron Strut, 4x Heavy Blasting Powder, 4x Medium Leather, 1x EZ-Thro Fireproof Fuse
     name = "EZ-Thro Bronze Mortar", skillLineAbilityID = 56767,
@@ -989,6 +1056,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 190, orange = 190, yellow = 210, green = 220, grey = 230,
     source = "drop", sourceCost = nil, recipeItem = 264212, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: EZ-Thro Bronze Mortar Drop: Arathi Highlands ( Boulderfist Shaman )",
   },
   [12596] = { -- 1x Mithril Bar, 1x Solid Blasting Powder
@@ -999,6 +1067,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [12719] = { -- 100x Razor Arrow, 2x Solid Blasting Powder, 2x Mithril Bar
     name = "Explosive Arrow", skillLineAbilityID = 6945,
@@ -1007,6 +1076,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 210, orange = 210, yellow = 210, green = 230, grey = 250,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
   },
   [1266917] = { -- 1x Mithril Casing, 1x Heavy Leather
     name = "SAF-T Casing", skillLineAbilityID = 56769,
@@ -1015,6 +1085,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 215, orange = 215, yellow = 215, green = 217, grey = 220,
     source = "drop", sourceCost = nil, recipeItem = 264214, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Schematic: SAF-T Casing Drop: Searing Gorge ( Dark Iron Geologist )",
   },
   [3968] = { -- 3x Heavy Blasting Powder, 2x Iron Bar, 1x Gyrochronatom
@@ -1024,6 +1095,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 195, orange = 195, yellow = 215, green = 225, grey = 235,
     source = "drop", sourceCost = nil, recipeItem = 4416, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Goblin Land Mine World drop (level 31–45)",
   },
   [1266918] = { -- 3x Iron Bar, 3x Heavy Blasting Powder, 1x Silver Contact, 1x SAF-T Casing
@@ -1033,6 +1105,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 215, orange = 215, yellow = 215, green = 230, grey = 245,
     source = "drop", sourceCost = nil, recipeItem = 264215, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: SAF-T Bomb Drop: Tanaris ( Wastewander Thief )",
   },
   [12599] = { -- 3x Mithril Bar
@@ -1043,6 +1116,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [12603] = { -- 1x Mithril Casing, 1x Unstable Trigger, 1x Solid Blasting Powder
     name = "Mithril Frag Bomb", skillLineAbilityID = 6869,
@@ -1052,6 +1126,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [3969] = { -- 1x Bronze Framework, 4x Iron Strut, 4x Gyrochronatom, 2x Citrine, 1x Fused Wiring
     name = "Mechanical Dragonling", skillLineAbilityID = 2464,
@@ -1060,6 +1135,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 200, orange = 200, yellow = 220, green = 230, grey = 240,
     source = "vendor", sourceCost = 10000, recipeItem = 13311, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Mechanical Dragonling Vendor ( Gnaz Blunderflame )",
   },
   [3971] = { -- 4x Gyrochronatom, 2x Jade, 2x Lesser Moonstone, 2x Citrine, 1x Fused Wiring
@@ -1069,6 +1145,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 200, orange = 200, yellow = 220, green = 230, grey = 240,
     source = "vendor", sourceCost = 2400, recipeItem = 7742, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Gnomish Cloaking Device Drop: Gnomeregan (Mekgineer Thermaplugg) Vendor ( Zan Shivspro...",
   },
   [12594] = { -- 1x Green Tinted Goggles, 2x Citrine, 2x Elemental Fire, 4x Heavy Leather
@@ -1078,6 +1155,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 225, orange = 225, yellow = 225, green = 235, grey = 245,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
   },
   [12595] = { -- 1x Mithril Tube, 1x Unstable Trigger, 1x Heavy Stock, 4x Mithril Bar, 2x Elemental Fire
     name = "Mithril Blunderbuss", skillLineAbilityID = 6865,
@@ -1087,6 +1165,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [12716] = { -- 2x Mithril Tube, 4x Mithril Bar, 5x Solid Blasting Powder, 1x Gold Power Core, 1x Elemental Fire
     name = "Goblin Mortar", skillLineAbilityID = 6939,
@@ -1096,6 +1175,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [12717] = { -- 8x Mithril Bar, 1x Citrine, 4x Elemental Earth
     name = "Goblin Mining Helmet", skillLineAbilityID = 6940,
@@ -1104,6 +1184,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 205, orange = 205, yellow = 225, green = 235, grey = 245,
     source = "item", sourceCost = nil, recipeItem = 221336, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [12718] = { -- 8x Mithril Bar, 1x Citrine, 4x Elemental Fire
     name = "Goblin Construction Helmet", skillLineAbilityID = 6943,
@@ -1112,6 +1193,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = nil, orange = nil, yellow = 225, green = 235, grey = 245,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [12899] = { -- 1x Mithril Tube, 1x Unstable Trigger, 4x Mithril Bar, 4x Flask of Mojo, 2x Jade
     name = "Gnomish Shrink Ray", skillLineAbilityID = 7065,
@@ -1120,6 +1202,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = nil, orange = nil, yellow = 225, green = 235, grey = 245,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [26423] = { -- 1x Solid Blasting Powder, 1x Thick Leather
     name = "Blue Rocket Cluster", skillLineAbilityID = 13430,
@@ -1170,6 +1253,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 225, orange = 225, yellow = 230, green = 232, grey = 235,
     source = "vendor", sourceCost = nil, recipeItem = 264217, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Compact Critter Carrier Vendor (270 Merchant's Favor )",
   },
   [12597] = { -- 1x Mithril Tube, 2x Aquamarine, 2x Thick Leather
@@ -1179,6 +1263,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 210, orange = 210, yellow = 230, green = 240, grey = 250,
     source = "vendor", sourceCost = 3000, recipeItem = 10602, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Deadly Scope Vendor ( Knaz Blunderflame , Yuka Screwspigot )",
   },
   [12897] = { -- 1x Fire Goggles, 1x Mithril Tube, 2x Gold Power Core, 2x Flask of Mojo, 2x Heavy Leather
@@ -1187,6 +1272,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 10500, qty = 1 }, { itemID = 10559, qty = 1 }, { itemID = 10558, qty = 2 }, { itemID = 8151, qty = 2 }, { itemID = 4234, qty = 2 } },
     learn = nil, orange = nil, yellow = 230, green = 240, grey = 250,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
   },
   [12902] = { -- 1x Mithril Tube, 2x Shadow Silk, 4x Thick Spider's Silk, 2x Solid Blasting Powder, 4x Mithril Bar
     name = "Gnomish Net-o-Matic Projector", skillLineAbilityID = 7067,
@@ -1195,6 +1281,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = nil, orange = nil, yellow = 230, green = 240, grey = 250,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [12755] = { -- 2x Mithril Casing, 4x Solid Blasting Powder, 6x Truesilver Bar, 1x Unstable Trigger, 2x Accurate Scope
     name = "Goblin Bomb Dispenser", skillLineAbilityID = 6948,
@@ -1203,6 +1290,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = nil, orange = nil, yellow = 230, green = 250, grey = 270,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [1317960] = { -- 20x Big Iron Bomb, 6x Thick Leather, 1x Gyrochronatom
     name = "Satchel of Iron Bombs", skillLineAbilityID = 59487,
@@ -1220,6 +1308,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = nil, orange = nil, yellow = 235, green = 245, grey = 255,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [12619] = { -- 2x Mithril Casing, 1x Unstable Trigger, 2x Solid Blasting Powder
     name = "Hi-Explosive Bomb", skillLineAbilityID = 6876,
@@ -1229,6 +1318,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [12754] = { -- 1x Mithril Casing, 1x Goblin Rocket Fuel, 6x Solid Dynamite, 1x Unstable Trigger
     name = "The Big One", skillLineAbilityID = 6949,
@@ -1237,6 +1327,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = nil, orange = nil, yellow = 235, green = 255, grey = 275,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [1266921] = { -- 1x Truesilver Bar, 1x Viridian Dye
     name = "EZ-Thro Tru-Trigger", skillLineAbilityID = 56773,
@@ -1245,6 +1336,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 240, orange = 240, yellow = 240, green = 242, grey = 245,
     source = "drop", sourceCost = nil, recipeItem = 264218, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: EZ-Thro Tru-Trigger Drop: The Hinterlands ( Jade Ooze )",
   },
   [12607] = { -- 4x Thick Leather, 2x Aquamarine, 1x Catseye Draught
@@ -1253,6 +1345,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 4304, qty = 4 }, { itemID = 7909, qty = 2 }, { itemID = 10592, qty = 1 } },
     learn = 220, orange = 220, yellow = 240, green = 250, grey = 260,
     source = "drop", sourceCost = nil, recipeItem = 10603, faction = nil,
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Catseye Ultra Goggles World drop (level 35–50)",
   },
   [12614] = { -- 2x Mithril Tube, 1x Unstable Trigger, 1x Heavy Stock, 6x Mithril Bar, 2x Citrine
@@ -1262,6 +1355,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 220, orange = 220, yellow = 240, green = 250, grey = 260,
     source = "drop", sourceCost = nil, recipeItem = 10604, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Mithril Heavy-bore Rifle World drop (level 35–51)",
   },
   [1266922] = { -- 1x Mithril Casing, 1x Unstable Trigger, 1x Solid Blasting Powder, 1x EZ-Thro Tru-Trigger
@@ -1279,6 +1373,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 130, orange = 130, yellow = 245, green = 255, grey = 265,
     source = "drop", sourceCost = nil, recipeItem = 7192, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Goblin Rocket Boots Drop: Gnomeregan ( Mekgineer Thermaplugg )",
   },
   [12615] = { -- 4x Thick Leather, 2x Star Ruby
@@ -1287,6 +1382,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 4304, qty = 4 }, { itemID = 7910, qty = 2 } },
     learn = 225, orange = 225, yellow = 245, green = 255, grey = 265,
     source = "drop", sourceCost = nil, recipeItem = 10605, faction = nil,
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Spellpower Goggles Xtreme World drop (level 36–50)",
   },
   [12616] = { -- 4x Bolt of Mageweave, 2x Shadow Silk, 1x Unstable Trigger, 4x Solid Blasting Powder
@@ -1295,6 +1391,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 4339, qty = 4 }, { itemID = 10285, qty = 2 }, { itemID = 10560, qty = 1 }, { itemID = 10505, qty = 4 } },
     learn = 225, orange = 225, yellow = 245, green = 255, grey = 265,
     source = "drop", sourceCost = nil, recipeItem = 10606, faction = nil,
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Parachute Cloak World drop (level 35–51)",
   },
   [12905] = { -- 1x Black Mageweave Boots, 2x Mithril Tube, 4x Heavy Leather, 8x Solid Blasting Powder, 4x Gyrochronatom
@@ -1304,6 +1401,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = nil, orange = nil, yellow = 245, green = 255, grey = 265,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [26442] = { -- 2x Inlaid Mithril Cylinder, 2x Goblin Rocket Fuel, 2x Unstable Trigger, 1x Mithril Casing
     name = "Firework Launcher", skillLineAbilityID = 13436,
@@ -1319,6 +1417,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 225, orange = 225, yellow = 245, green = 255, grey = 265,
     source = "vendor", sourceCost = nil, recipeItem = 264216, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Emergency Field Cloak Vendor (270 Merchant's Favor )",
   },
   [12621] = { -- 2x Mithril Bar, 2x Solid Blasting Powder
@@ -1329,6 +1428,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1266924] = { -- 1x Mithril Casing, 1x Gold Power Core, 2x Thorium Widget
     name = "Gnomish Army Knife", skillLineAbilityID = 56776,
@@ -1337,6 +1437,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 250, orange = 250, yellow = 250, green = 252, grey = 255,
     source = "vendor", sourceCost = nil, recipeItem = 264221, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Gnomish Army Knife Vendor (270 Merchant's Favor )",
   },
   [19788] = { -- 2x Dense Stone
@@ -1354,6 +1455,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 230, orange = 230, yellow = 250, green = 260, grey = 270,
     source = "vendor", sourceCost = 3600, recipeItem = 10607, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Deepdive Helmet Vendor ( Jubie Gadgetspring )",
   },
   [12618] = { -- 6x Thick Leather, 2x Star Ruby
@@ -1363,6 +1465,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 250, orange = 250, yellow = 250, green = 260, grey = 270,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
   },
   [12906] = { -- 1x Mithril Casing, 6x Truesilver Bar, 6x Mithril Bar, 2x Inlaid Mithril Cylinder, 1x Gold Power Core, 2x Jade
     name = "Gnomish Battle Chicken", skillLineAbilityID = 7071,
@@ -1371,6 +1474,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = nil, orange = nil, yellow = 250, green = 260, grey = 270,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [23070] = { -- 2x Dense Blasting Powder, 3x Runecloth
     name = "Dense Dynamite", skillLineAbilityID = 12424,
@@ -1394,6 +1498,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 15994, qty = 1 }, { itemID = 10560, qty = 1 }, { itemID = 4382, qty = 1 } },
     learn = 250, orange = 250, yellow = 255, green = 257, grey = 260,
     source = "item", sourceCost = nil, recipeItem = 239222, faction = nil,
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
   },
   [12907] = { -- 10x Mithril Bar, 4x Truesilver Bar, 1x Gold Power Core, 2x Star Ruby, 4x Mageweave Cloth
     name = "Gnomish Mind Control Cap", skillLineAbilityID = 7072,
@@ -1402,6 +1507,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = nil, orange = nil, yellow = 255, green = 265, grey = 275,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [23129] = { -- 1x Mithril Casing, 2x Thorium Widget, 1x Gold Power Core, 1x Unstable Trigger, 1x Citrine
     name = "World Enlarger", skillLineAbilityID = 12451,
@@ -1410,6 +1516,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 260, orange = 260, yellow = 260, green = 265, grey = 270,
     source = "drop", sourceCost = nil, recipeItem = 18661, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Schematic: World Enlarger Drop: Blackrock Depths (Trash)",
   },
   [12620] = { -- 1x Mithril Tube, 1x Star Ruby, 2x Truesilver Bar
@@ -1419,6 +1526,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 240, orange = 240, yellow = 260, green = 270, grey = 280,
     source = "drop", sourceCost = nil, recipeItem = 10608, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Sniper Scope World drop (level 42–56)",
   },
   [12759] = { -- 2x Mithril Tube, 1x Unstable Trigger, 1x Essence of Undeath, 4x Ichor of Undeath, 1x Inlaid Mithril Cylinder
@@ -1428,6 +1536,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = nil, orange = nil, yellow = 260, green = 270, grey = 280,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [12908] = { -- 2x Mithril Tube, 4x Goblin Rocket Fuel, 6x Mithril Bar, 6x Truesilver Bar, 1x Unstable Trigger
     name = "Goblin Dragon Gun", skillLineAbilityID = 7073,
@@ -1436,6 +1545,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = nil, orange = nil, yellow = 260, green = 270, grey = 280,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [12622] = { -- 8x Thick Leather, 3x Jade, 3x Aquamarine, 2x Heart of the Wild, 2x Wildvine
     name = "Green Lens", skillLineAbilityID = 6879,
@@ -1444,6 +1554,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 265, orange = 265, yellow = 265, green = 275, grey = 285,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
   },
   [12758] = { -- 1x Goblin Construction Helmet, 4x Goblin Rocket Fuel, 4x Mithril Bar, 1x Unstable Trigger
     name = "Goblin Rocket Helmet", skillLineAbilityID = 6951,
@@ -1452,6 +1563,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = nil, orange = nil, yellow = 265, green = 275, grey = 285,
     source = "unknown", sourceCost = nil, recipeItem = nil, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [23071] = { -- 2x Truesilver Bar, 2x Elemental Earth, 1x Elemental Air
     name = "Truesilver Transformer", skillLineAbilityID = 12425,
@@ -1460,6 +1572,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 260, orange = 260, yellow = 270, green = 275, grey = 280,
     source = "vendor", sourceCost = 12000, recipeItem = 18651, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Truesilver Transformer Vendor ( Mazk Snipeshot )",
   },
   [12624] = { -- 14x Mithril Bar, 4x Heart of Fire, 4x Truesilver Bar, 2x Inlaid Mithril Cylinder, 2x Goblin Rocket Fuel, 2x Star Ruby
@@ -1469,6 +1582,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 250, orange = 250, yellow = 270, green = 280, grey = 290,
     source = "vendor", sourceCost = 4000, recipeItem = 10609, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Mithril Mechanical Dragonling Vendor ( Ruppo Zipcoil )",
   },
   [19567] = { -- 1x Mithril Casing, 6x Thorium Bar, 1x Gold Power Core, 4x Unstable Trigger
@@ -1479,6 +1593,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1266923] = { -- 1x Parachute Cloak, 1x SAF-T Casing
     name = "SAF-T Disposable Parachute", skillLineAbilityID = 56775,
@@ -1486,6 +1601,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 10518, qty = 1 }, { itemID = 260804, qty = 1 } },
     learn = 250, orange = 250, yellow = 270, green = 280, grey = 290,
     source = "vendor", sourceCost = nil, recipeItem = 264220, faction = nil,
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: SAF-T Disposable Parachute Vendor (270 Merchant's Favor )",
   },
   [1266925] = { -- 5x Thorium Bar, 5x Greater Eternal Essence
@@ -1495,6 +1611,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 275, orange = 275, yellow = 275, green = 277, grey = 280,
     source = "vendor", sourceCost = nil, recipeItem = 264222, faction = nil,
     station = "Anvil",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Loot-A-Rang Vendor (270 Merchant's Favor )",
   },
   [1266926] = { -- 1x Thorium Bar, 1x Azerothium Bar
@@ -1504,6 +1621,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 275, orange = 275, yellow = 275, green = 277, grey = 280,
     source = "item", sourceCost = nil, recipeItem = 264223, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [23096] = { -- 4x Thorium Bar, 2x Thorium Widget, 4x Rugged Leather, 1x Star Ruby, 1x Fused Wiring
     name = "Alarm-O-Bot", skillLineAbilityID = 12432,
@@ -1512,6 +1630,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 265, orange = 265, yellow = 275, green = 280, grey = 285,
     source = "drop", sourceCost = nil, recipeItem = 18654, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Gnomish Alarm-O-Bot Drop: Blackrock Depths (Trash)",
   },
   [26426] = { -- 1x Dense Blasting Powder, 1x Rugged Leather
@@ -1570,6 +1689,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 15992, qty = 2 }, { itemID = 14047, qty = 3 }, { itemID = 260813, qty = 1 } },
     learn = 275, orange = 275, yellow = 275, green = 285, grey = 295,
     source = "drop", sourceCost = nil, recipeItem = 264224, faction = nil,
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Schematic: SAF-T Clever Dynamite Drop: Burning Steppes ( Firegut Ogre )",
   },
   [19790] = { -- 1x Thorium Widget, 3x Thorium Bar, 3x Dense Blasting Powder, 3x Runecloth
@@ -1579,6 +1699,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 260, orange = 260, yellow = 280, green = 290, grey = 300,
     source = "vendor", sourceCost = 12000, recipeItem = 16041, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Schematic: Thorium Grenade Vendor ( Gearcutter Cogspinner )",
   },
   [19791] = { -- 3x Thorium Bar, 1x Runecloth
@@ -1588,6 +1709,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 260, orange = 260, yellow = 280, green = 290, grey = 300,
     source = "vendor", sourceCost = 12000, recipeItem = 16042, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Thorium Widget Vendor ( Gearcutter Cogspinner )",
   },
   [19792] = { -- 2x Mithril Tube, 2x Mithril Casing, 2x Thorium Widget, 4x Thorium Bar, 1x Deadly Scope
@@ -1597,6 +1719,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 260, orange = 260, yellow = 280, green = 290, grey = 300,
     source = "drop", sourceCost = nil, recipeItem = 16043, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Thorium Rifle World drop (level 46–60)",
   },
   [23077] = { -- 6x Thorium Widget, 2x Truesilver Transformer, 2x Blue Sapphire, 4x Essence of Fire, 2x Frost Oil, 4x Icecap
@@ -1606,6 +1729,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 260, orange = 260, yellow = 280, green = 290, grey = 300,
     source = "vendor", sourceCost = 12000, recipeItem = 18652, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Gyrofreeze Ice Reflector Vendor ( Xizzer Fizzbolt )",
   },
   [1317270] = { -- 1x Truesilver Transformer, 2x Enchanted Thorium Bar, 3x Dense Blasting Powder, 2x Runecloth
@@ -1615,6 +1739,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 260, orange = 260, yellow = 280, green = 290, grey = 300,
     source = "drop", sourceCost = nil, recipeItem = 284870, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Schematic: Unsanctified Grenade Drop: Alterac Mountains ( Crushridge Warmonger )",
   },
   [1266928] = { -- 2x Thorium Bar, 1x Pristine Scale
@@ -1624,6 +1749,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 285, orange = 285, yellow = 285, green = 287, grey = 290,
     source = "item", sourceCost = nil, recipeItem = 264225, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [23079] = { -- 2x Thorium Tube, 1x Truesilver Transformer, 2x Runecloth
     name = "Major Recombobulator", skillLineAbilityID = 12428,
@@ -1640,6 +1766,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 265, orange = 265, yellow = 285, green = 295, grey = 305,
     source = "drop", sourceCost = nil, recipeItem = 16044, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Lifelike Mechanical Toad World drop (level 48–60)",
   },
   [23078] = { -- 2x Thorium Widget, 2x Truesilver Transformer, 2x Fused Wiring, 2x Ironweb Spider Silk, 2x Star Ruby
@@ -1658,6 +1785,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [23489] = { -- 12x Mithril Bar, 2x Truesilver Transformer, 4x Core of Earth, 2x Globe of Water, 4x Aquamarine, 1x Inlaid Mithril Cylinder
     name = "Ultrasafe Transporter - Gadgetzan", skillLineAbilityID = 12617,
@@ -1667,6 +1795,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [1266929] = { -- 1x Thorium Widget, 3x Thorium Bar, 3x Dense Blasting Powder, 3x Runecloth, 1x EZ-Thro Shell
     name = "EZ-Thro Thorium Grenade", skillLineAbilityID = 56781,
@@ -1675,6 +1804,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 285, orange = 285, yellow = 285, green = 295, grey = 305,
     source = "item", sourceCost = nil, recipeItem = 264226, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1317961] = { -- 20x Dark Iron Bomb, 6x Rugged Leather, 1x Unstable Trigger
     name = "Satchel of Dark Iron Bombs", skillLineAbilityID = 59488,
@@ -1691,6 +1821,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 10502, qty = 1 }, { itemID = 7910, qty = 4 }, { itemID = 12810, qty = 2 }, { itemID = 14047, qty = 8 } },
     learn = 270, orange = 270, yellow = 290, green = 300, grey = 310,
     source = "drop", sourceCost = nil, recipeItem = 16045, faction = nil,
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Spellpower Goggles Xtreme Plus Drop: Azshara ( Spitelash Siren )",
   },
   [19795] = { -- 6x Thorium Bar
@@ -1700,6 +1831,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 275, orange = 275, yellow = 295, green = 305, grey = 315,
     source = "vendor", sourceCost = 16000, recipeItem = 16047, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Thorium Tube Vendor ( Kor'gar , Xizzer Fizzbolt )",
   },
   [19796] = { -- 2x Thorium Tube, 6x Dark Iron Bar, 2x Deadly Scope, 2x Blue Sapphire, 2x Large Opal, 4x Rugged Leather
@@ -1709,6 +1841,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 275, orange = 275, yellow = 295, green = 305, grey = 315,
     source = "drop", sourceCost = nil, recipeItem = 16048, faction = nil,
     station = "Black Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Dark Iron Rifle Drop: Blackrock Depths (Trash)",
   },
   [19814] = { -- 1x Mithril Casing, 1x Thorium Tube, 2x Thorium Widget, 1x Truesilver Bar, 2x Rugged Leather, 4x Runecloth
@@ -1718,6 +1851,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 275, orange = 275, yellow = 295, green = 305, grey = 315,
     source = "vendor", sourceCost = 16000, recipeItem = 16046, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Masterwork Target Dummy Vendor ( Kor'gar , Xizzer Fizzbolt )",
   },
   [26443] = { -- 3x Inlaid Mithril Cylinder, 3x Goblin Rocket Fuel, 1x Truesilver Transformer, 1x Mithril Casing
@@ -1734,6 +1868,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 275, orange = 275, yellow = 295, green = 305, grey = 315,
     source = "item", sourceCost = nil, recipeItem = 22729, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [1263083] = { -- 1x Essence of Anarchy, 2x Thorium Widget
     name = "Anarchist's Workbench", skillLineAbilityID = 57035,
@@ -1741,6 +1876,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 273129, qty = 1 }, { itemID = 15994, qty = 2 } },
     learn = 300, orange = 300, yellow = 300, green = 300, grey = 300,
     source = "item", sourceCost = nil, recipeItem = 273117, faction = nil,
+    tools = { 6219 }, -- Arclight Spanner
   },
   [19799] = { -- 2x Thorium Widget, 1x Dark Iron Bar, 3x Dense Blasting Powder, 3x Runecloth
     name = "Dark Iron Bomb", skillLineAbilityID = 11238,
@@ -1749,6 +1885,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 285, orange = 285, yellow = 305, green = 315, grey = 325,
     source = "drop", sourceCost = nil, recipeItem = 16049, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Schematic: Dark Iron Bomb Drop: Blackrock Depths (Trash)",
   },
   [19800] = { -- 2x Thorium Bar, 1x Dense Blasting Powder
@@ -1758,6 +1895,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 285, orange = 285, yellow = 305, green = 315, grey = 325,
     source = "drop", sourceCost = nil, recipeItem = 16051, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Schematic: Thorium Shells World drop (level 51–61)",
   },
   [19815] = { -- 1x Arcanite Bar, 1x Ironweb Spider Silk
@@ -1767,6 +1905,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 285, orange = 285, yellow = 305, green = 315, grey = 325,
     source = "vendor", sourceCost = 20000, recipeItem = 16050, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Delicate Arcanite Converter Vendor ( Xizzer Fizzbolt )",
   },
   [1293849] = { -- 8x Heavy Thorium Bar, 5x Light Feather, 1x Elemental Air
@@ -1792,6 +1931,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 310, green = 317, grey = 325,
     source = "item", sourceCost = nil, recipeItem = 279321, faction = nil,
     station = "Anarchist's Workbench",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
   },
   [1306547] = { -- 4x Malleable Essence of Nature, 2x Legionite Bar, 10x Heavy Thorium Bar, 1x Azerothian Diamond
     name = "Hyper Deluxe Sniper Rifle Mk XVII", skillLineAbilityID = 58904,
@@ -1800,6 +1940,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 310, green = 317, grey = 325,
     source = "item", sourceCost = nil, recipeItem = 279322, faction = nil,
     station = "Anarchist's Workbench",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
   },
   [19819] = { -- 2x Delicate Arcanite Converter, 1x Gold Power Core, 1x Thorium Widget, 1x Large Opal
     name = "Voice Amplification Modulator", skillLineAbilityID = 11240,
@@ -1808,6 +1949,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 290, orange = 290, yellow = 310, green = 320, grey = 330,
     source = "drop", sourceCost = nil, recipeItem = 16052, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Voice Amplification Modulator Drop: Stratholme (Trash)",
   },
   [19825] = { -- 1x Fire Goggles, 2x Huge Emerald, 4x Enchanted Leather
@@ -1816,6 +1958,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 10500, qty = 1 }, { itemID = 12364, qty = 2 }, { itemID = 12810, qty = 4 } },
     learn = 290, orange = 290, yellow = 310, green = 320, grey = 330,
     source = "drop", sourceCost = nil, recipeItem = 16053, faction = nil,
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Master Engineer's Goggles Drop: Blackrock Depths (Trash)",
   },
   [23081] = { -- 4x Dark Iron Bar, 3x Truesilver Transformer, 6x Essence of Water, 4x Star Ruby, 2x Azerothian Diamond
@@ -1825,6 +1968,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 290, orange = 290, yellow = 310, green = 320, grey = 330,
     source = "drop", sourceCost = nil, recipeItem = 18657, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Hyper-Radiant Flame Reflector Drop: Blackrock Spire (Solakar Flamewreath)",
   },
   [19830] = { -- 1x Mithril Mechanical Dragonling, 8x Delicate Arcanite Converter, 10x Enchanted Thorium Bar, 6x Thorium Widget, 4x Gold Power Core, 6x Enchanted Leather
@@ -1834,6 +1978,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 16054, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Arcanite Dragonling Drop: Winterspring ( Cobalt Mageweaver )",
   },
   [19831] = { -- 1x Delicate Arcanite Converter, 3x Thorium Bar, 1x Runecloth
@@ -1843,6 +1988,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 16055, faction = nil,
     station = "Anvil",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Schematic: Arcane Bomb World drop (level 51–61)",
   },
   [19833] = { -- 10x Arcanite Bar, 2x Thorium Tube, 2x Essence of Fire, 2x Essence of Earth, 2x Azerothian Diamond, 2x Enchanted Leather
@@ -1852,6 +1998,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 16056, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Flawless Arcanite Rifle Drop: Eastern Plaguelands ( Mossflayer Shadowhunter )",
   },
   [22704] = { -- 12x Thorium Bar, 4x Rugged Leather, 1x Fused Wiring, 2x Elemental Earth, 1x Elemental Fire
@@ -1861,6 +2008,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 18235, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [22793] = { -- 2x Lava Core, 2x Essence of Earth, 4x Delicate Arcanite Converter, 6x Dark Iron Bar, 1x Thorium Tube
     name = "Biznicks 247x128 Accurascope", skillLineAbilityID = 12319,
@@ -1869,6 +2017,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 18290, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [22795] = { -- 4x Fiery Core, 2x Lava Core, 6x Arcanite Bar, 2x Delicate Arcanite Converter, 2x Thorium Tube
     name = "Core Marksman Rifle", skillLineAbilityID = 12320,
@@ -1877,6 +2026,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 18292, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [22797] = { -- 6x Arcanite Bar, 2x Delicate Arcanite Converter, 8x Essence of Air, 12x Living Essence, 8x Essence of Earth
     name = "Force Reactive Disk", skillLineAbilityID = 12321,
@@ -1885,6 +2035,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 18291, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [23082] = { -- 8x Dark Iron Bar, 4x Truesilver Transformer, 6x Living Essence, 4x Essence of Undeath, 2x Azerothian Diamond, 2x Large Opal
     name = "Ultra-Flash Shadow Reflector", skillLineAbilityID = 12431,
@@ -1893,6 +2044,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 18658, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Ultra-Flash Shadow Reflector Drop: Stratholme (Trash)",
   },
   [24356] = { -- 4x Bloodvine, 5x Souldarite, 2x Delicate Arcanite Converter, 8x Powerful Mojo, 4x Enchanted Leather
@@ -1901,6 +2053,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 19726, qty = 4 }, { itemID = 19774, qty = 5 }, { itemID = 16006, qty = 2 }, { itemID = 12804, qty = 8 }, { itemID = 12810, qty = 4 } },
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 120000, recipeItem = 20000, faction = nil,
+    tools = { 10498, 6219 }, -- Gyromatic Micro-Adjustor, Arclight Spanner
     sourceNote = "Schematic: Bloodvine Goggles Vendor ( Rin'wosho the Trader )",
   },
   [24357] = { -- 5x Bloodvine, 5x Souldarite, 1x Delicate Arcanite Converter, 8x Powerful Mojo, 4x Enchanted Leather
@@ -1909,6 +2062,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 19726, qty = 5 }, { itemID = 19774, qty = 5 }, { itemID = 16006, qty = 1 }, { itemID = 12804, qty = 8 }, { itemID = 12810, qty = 4 } },
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 50000, recipeItem = 20001, faction = nil,
+    tools = { 10498, 6219 }, -- Gyromatic Micro-Adjustor, Arclight Spanner
     sourceNote = "Schematic: Bloodvine Lens Vendor ( Rin'wosho the Trader )",
   },
   [26011] = { -- 1x Cured Rugged Hide, 4x Thorium Widget, 2x Globe of Water, 2x Truesilver Transformer, 1x Gold Power Core
@@ -1919,6 +2073,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Quest: A Yeti of Your Own",
   },
   [1266930] = { -- 2x Thorium Widget, 1x Dark Iron Bar, 3x Dense Blasting Powder, 3x Runecloth, 1x EZ-Thro Shell
@@ -1928,6 +2083,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 264227, faction = nil,
     station = "Anarchist's Workbench",
+    tools = { 5956 }, -- Blacksmith Hammer
   },
   [1266931] = { -- 1x Delicate Arcanite Converter, 3x Thorium Bar, 1x Runecloth, 1x EZ-Thro Shell
     name = "EZ-Thro Mana Bomb", skillLineAbilityID = 56783,
@@ -1936,6 +2092,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "drop", sourceCost = nil, recipeItem = 264228, faction = nil,
     station = "Anarchist's Workbench",
+    tools = { 5956 }, -- Blacksmith Hammer
     sourceNote = "Schematic: EZ-Thro Mana Bomb Drop: Felwood ( Jaedenar Legionnaire )",
   },
   [1266932] = { -- 1x Ultrasafe Transporter: Gadgetzan, 1x EZ-Thro Shell
@@ -1945,6 +2102,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 264229, faction = nil,
     station = "Anarchist's Workbench",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [1266933] = { -- 1x Dimensional Ripper - Everlook, 2x SAF-T Tube
     name = "SAF-T Emergency Ripper: Everlook", skillLineAbilityID = 56785,
@@ -1953,6 +2111,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 264230, faction = nil,
     station = "Anarchist's Workbench",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [1266934] = { -- 1x Dimensional Transporter - Mt. Hyjal, 1x EZ-Thro Shell, 1x SAF-T Tube
     name = "EZ and SAF Field Transporter: Mt. Hyjal", skillLineAbilityID = 56786,
@@ -1961,6 +2120,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 264231, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
   },
   [1266935] = { -- 2x Sulfuric Acid, 1x Pitchblende, 1x Viridian Dye, 3x Thorium Bar, 1x Mithril Bar, 1x Death Lotus
     name = "Ultrasafe Rechargeable Battery", skillLineAbilityID = 56787,
@@ -1969,6 +2129,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = nil, recipeItem = 264232, faction = nil,
     station = "Anvil",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Ultrasafe Rechargeable Battery Vendor (360 Merchant's Favor )",
   },
   [1266936] = { -- 10x Mithril Bar, 1x Truesilver Transformer, 4x Core of Earth, 4x Essence of Air, 2x Legionite Bar
@@ -1978,6 +2139,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 100000, recipeItem = 264233, faction = nil,
     station = "Anvil",
+    tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
     sourceNote = "Schematic: Dimensional Transporter: Mt. Hyjal Vendor ( Pexmit ) Quest: Itching for a Fixing",
   },
   [1266937] = { -- 10x Illusion Dust, 2x Large Brilliant Shard, 2x Azerothium Bar, 2x Legionite Bar
@@ -1987,6 +2149,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = nil, recipeItem = 264234, faction = nil,
     station = "Anvil",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Gnomish Poultryizer Vendor (360 Merchant's Favor )",
   },
   [1266938] = { -- 2x Viridian Dye, 2x Azerothium Bar, 8x Pristine Scale, 8x Thorium Bar
@@ -1996,6 +2159,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = nil, recipeItem = 264235, faction = nil,
     station = "Anvil",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Ultralight Goblin Glider Vendor (360 Merchant's Favor )",
   },
   [1266939] = { -- 2x Essence of Earth, 2x Essence of Fire, 2x Essence of Air, 2x Essence of Water, 2x Death Lotus
@@ -2005,6 +2169,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "item", sourceCost = nil, recipeItem = 264236, faction = nil,
     station = "Anvil",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
   },
   [1266940] = { -- 6x Essence of Air, 6x Illusion Dust, 2x Torbernite, 2x Legionite Bar, 4x Marefoil
     name = "Stealthman 52", skillLineAbilityID = 56792,
@@ -2013,6 +2178,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = nil, recipeItem = 264237, faction = nil,
     station = "Anvil",
+    tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
     sourceNote = "Schematic: Stealthman 52 Vendor (360 Merchant's Favor )",
   },
 }

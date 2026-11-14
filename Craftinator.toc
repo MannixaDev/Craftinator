@@ -1,7 +1,7 @@
 ## Interface: 16001
 ## Title: Craftinator
 ## Notes: Profession levelling planner priced with live auction data.
-## Version: 0.5.0
+## Version: 0.6.0
 ## Author: Jack Smith-Morse
 ## OptionalDeps: Auctionator, TomTom
 ## SavedVariables: CraftinatorDB
@@ -14,6 +14,7 @@
 Core.lua
 Data\VendorPrices.lua
 Data\NPCs.lua
+Data\NPCs_Recorded.lua
 Data\Recipes_Alchemy.lua
 Data\Recipes_Blacksmithing.lua
 Data\Recipes_Cooking.lua

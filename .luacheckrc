@@ -39,3 +39,6 @@ files["Pricing.lua"] = { new_read_globals = {}, new_globals = {} }
 
 -- Generated data: long lines are fine.
 files["Data/Recipes_*.lua"] = { max_line_length = false }
+
+-- Generated data: long lines are fine.
+files["Data/NPCs_Recorded.lua"] = { max_line_length = false }

@@ -5,6 +5,85 @@ local _, ns = ...
 local Navigation = {}
 ns.Navigation = Navigation
 
+-- Recorded NPCs ---------------------------------------------------------------
+-- Data/NPCs_Recorded.lua holds what players recorded in game. It is merged over the
+-- hand-written list once, here: a recorded position or skill cap replaces the guess.
+
+local RANK_FOR_CAP = { [75] = "Apprentice", [150] = "Journeyman", [225] = "Expert", [300] = "Artisan" }
+
+local function applyRecord(npc, seen)
+  npc.npcID, npc.mapID, npc.x, npc.y, npc.zone = seen.npcID, seen.mapID, seen.x, seen.y, seen.zone
+  if seen.faction and seen.faction ~= "" then npc.faction = seen.faction end
+  npc.verified = true
+end
+
+local function mergeRecorded()
+  local npcs = ns.Data.NPCs
+  for _, seen in ipairs(ns.Data.RecordedNPCs or {}) do
+    if seen.role == "trainer" then
+      for _, profession in ipairs(seen.professions or {}) do
+        local found
+        for _, npc in ipairs(npcs) do
+          if npc.role == "trainer" and npc.name == seen.name and npc.profession == profession then
+            found = npc
+            break
+          end
+        end
+        if not found then
+          found = { name = seen.name, role = "trainer", profession = profession, maxSkill = seen.maxSkill or 0 }
+          npcs[#npcs + 1] = found
+        end
+        applyRecord(found, seen)
+        if seen.maxSkill then found.maxSkill = seen.maxSkill end
+        found.rank = RANK_FOR_CAP[found.maxSkill] or found.rank or "Trainer"
+      end
+    else
+      local matched = false
+      for _, npc in ipairs(npcs) do
+        if npc.role == "supplies" and npc.name == seen.name then
+          matched = true
+          applyRecord(npc, seen)
+          npc.sells, npc.limited = seen.sells, seen.limited
+        end
+      end
+      if not matched then
+        local npc = { name = seen.name, role = "supplies", title = "Vendor", sells = seen.sells, limited = seen.limited }
+        applyRecord(npc, seen)
+        npcs[#npcs + 1] = npc
+      end
+    end
+  end
+end
+mergeRecorded()
+
+local reagentSets = {}
+
+-- Does this vendor sell any reagent the profession's recipes use?
+local function sellsReagentFor(npc, profession)
+  local set = reagentSets[profession]
+  if not set then
+    set = {}
+    for _, recipe in pairs(ns.Data.Recipes[profession] or {}) do
+      for _, reagent in ipairs(recipe.reagents or {}) do set[reagent.itemID] = true end
+    end
+    reagentSets[profession] = set
+  end
+  for itemID in pairs(npc.sells) do
+    if set[itemID] then return true end
+  end
+  return false
+end
+
+--- Who sells an item (a recipe pattern, say) to the player's faction, from recorded vendors.
+-- Returns the vendor, the price for one, and whether the stock is limited; or nil.
+function Navigation.VendorFor(itemID, faction)
+  for _, npc in ipairs(ns.Data.NPCs or {}) do
+    if npc.sells and npc.sells[itemID] and (not npc.faction or npc.faction == faction) then
+      return npc, npc.sells[itemID], npc.limited and npc.limited[itemID] or false
+    end
+  end
+end
+
 --- Trainers for a profession on the player's faction.
 -- Returns here, elsewhere: trainers on the given map, and the rest.
 function Navigation.Trainers(profession, faction, mapID)
@@ -29,8 +108,8 @@ function Navigation.Supplies(profession, faction, mapID)
     if npc.role == "supplies" and npc.mapID == mapID and (not npc.faction or npc.faction == faction) then
       if npc.profession == profession then
         own[#own + 1] = npc
-      elseif not npc.profession then
-        general[#general + 1] = npc
+      elseif not npc.profession and (not npc.sells or sellsReagentFor(npc, profession)) then
+        general[#general + 1] = npc -- a general goods vendor; a recorded one must stock something useful
       end
     end
   end

@@ -6,6 +6,7 @@
 -- learn = nil: still unknown. source = "item" / "unknown": taught by an item, origin unknown.
 -- sourceCost (copper) = trainer fee seen in game, or the vendor price; nil when unknown or not gold.
 -- station = the object you must stand next to (Anvil, Forge, Cooking Fire), when there is one.
+-- tools = item IDs of tools you must carry (a better tool of the same kind also works).
 
 local _, ns = ...
 
@@ -787,6 +788,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 3575, qty = 1 } },
     learn = 225, orange = 225, yellow = 240, green = 260, grey = 280,
     source = "vendor", sourceCost = 8000, recipeItem = 9304, faction = nil,
+    tools = { 9149 }, -- Philosopher's Stone
     sourceNote = "Recipe: Transmute Iron to Gold Vendor ( Alchemist Pestlezugg )",
   },
   [11480] = { -- 1x Mithril Bar
@@ -795,6 +797,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 3860, qty = 1 } },
     learn = 225, orange = 225, yellow = 240, green = 260, grey = 280,
     source = "vendor", sourceCost = 8000, recipeItem = 9305, faction = nil,
+    tools = { 9149 }, -- Philosopher's Stone
     sourceNote = "Recipe: Transmute Mithril to Truesilver Vendor ( Alchemist Pestlezugg )",
   },
   [1251739] = { -- 3x Blindweed, 2x Firebloom, 1x Crystal Vial
@@ -972,6 +975,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 12359, qty = 1 }, { itemID = 12363, qty = 1 } },
     learn = 275, orange = 275, yellow = 275, green = 282, grey = 290,
     source = "vendor", sourceCost = 50000, recipeItem = 12958, faction = nil,
+    tools = { 9149 }, -- Philosopher's Stone
     sourceNote = "Recipe: Transmute Arcanite Vendor ( Alchemist Pestlezugg )",
   },
   [17559] = { -- 1x Essence of Air
@@ -980,6 +984,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 7082, qty = 1 } },
     learn = 275, orange = 275, yellow = 275, green = 282, grey = 290,
     source = "vendor", sourceCost = 15000, recipeItem = 13482, faction = nil,
+    tools = { 9149 }, -- Philosopher's Stone
     sourceNote = "Recipe: Transmute Air to Fire Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightsp...",
   },
   [17560] = { -- 1x Essence of Fire
@@ -988,6 +993,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 7078, qty = 1 } },
     learn = 275, orange = 275, yellow = 275, green = 282, grey = 290,
     source = "drop", sourceCost = nil, recipeItem = 13483, faction = nil,
+    tools = { 9149 }, -- Philosopher's Stone
     sourceNote = "Recipe: Transmute Life to Earth World drop (level 48–60)",
   },
   [17561] = { -- 1x Essence of Earth
@@ -996,6 +1002,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 7076, qty = 1 } },
     learn = 275, orange = 275, yellow = 275, green = 282, grey = 290,
     source = "drop", sourceCost = nil, recipeItem = 13484, faction = nil,
+    tools = { 9149 }, -- Philosopher's Stone
     sourceNote = "Recipe: Transmute Undeath to Water World drop (level 47–60)",
   },
   [17562] = { -- 1x Essence of Water
@@ -1004,6 +1011,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 7080, qty = 1 } },
     learn = 275, orange = 275, yellow = 275, green = 282, grey = 290,
     source = "vendor", sourceCost = 15000, recipeItem = 13485, faction = nil,
+    tools = { 9149 }, -- Philosopher's Stone
     sourceNote = "Recipe: Transmute Water to Air Vendor ( Magnus Frostwake )",
   },
   [17563] = { -- 1x Essence of Undeath
@@ -1012,6 +1020,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 12808, qty = 1 } },
     learn = 275, orange = 275, yellow = 275, green = 282, grey = 290,
     source = "drop", sourceCost = nil, recipeItem = 13486, faction = nil,
+    tools = { 9149 }, -- Philosopher's Stone
     sourceNote = "Recipe: Transmute Undeath to Water World drop (level 47–60)",
   },
   [17564] = { -- 1x Essence of Water
@@ -1020,6 +1029,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 7080, qty = 1 } },
     learn = 275, orange = 275, yellow = 275, green = 282, grey = 290,
     source = "drop", sourceCost = nil, recipeItem = 13487, faction = nil,
+    tools = { 9149 }, -- Philosopher's Stone
     sourceNote = "Recipe: Transmute Water to Undeath World drop (level 47–60)",
   },
   [17565] = { -- 1x Living Essence
@@ -1028,6 +1038,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 12803, qty = 1 } },
     learn = 275, orange = 275, yellow = 275, green = 282, grey = 290,
     source = "drop", sourceCost = nil, recipeItem = 13488, faction = nil,
+    tools = { 9149 }, -- Philosopher's Stone
     sourceNote = "Recipe: Transmute Life to Earth World drop (level 48–60)",
   },
   [17566] = { -- 1x Essence of Earth
@@ -1036,6 +1047,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 7076, qty = 1 } },
     learn = 275, orange = 275, yellow = 275, green = 282, grey = 290,
     source = "drop", sourceCost = nil, recipeItem = 13489, faction = nil,
+    tools = { 9149 }, -- Philosopher's Stone
     sourceNote = "Recipe: Transmute Earth to Life World drop (level 48–60)",
   },
   [1317279] = { -- 1x Heavy Thorium Bar, 1x Fel Crystal
@@ -1044,6 +1056,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 251291, qty = 1 }, { itemID = 248819, qty = 1 } },
     learn = 275, orange = 275, yellow = 275, green = 282, grey = 290,
     source = "drop", sourceCost = nil, recipeItem = 284871, faction = nil,
+    tools = { 9149 }, -- Philosopher's Stone
     sourceNote = "Recipe: Transmute Legionite Drop: Mount Hyjal ( Felguard Sentinel , Mazzogore the Weak )",
   },
   [3175] = { -- 2x Blindweed, 1x Ghost Mushroom, 1x Crystal Vial
@@ -1266,6 +1279,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 7077, qty = 1 } },
     learn = 300, orange = 300, yellow = 301, green = 305, grey = 310,
     source = "vendor", sourceCost = 120000, recipeItem = 20761, faction = nil,
+    tools = { 9149 }, -- Philosopher's Stone
     sourceNote = "Recipe: Transmute Elemental Fire Vendor ( Lokhtos Darkbargainer )",
   },
   [1250800] = { -- 3x Gromsblood, 1x Blindweed, 1x Crystal Vial
@@ -1361,6 +1375,7 @@ ns.Data.Recipes["Alchemy"] = {
     learn = 300, orange = 300, yellow = 315, green = 322, grey = 330,
     source = "drop", sourceCost = nil, recipeItem = 13518, faction = nil,
     station = "Alchemy Lab",
+    tools = { 9149 }, -- Philosopher's Stone
     sourceNote = "Recipe: Flask of Petrification World drop (level 52–61)",
   },
   [17635] = { -- 30x Gromsblood, 10x Stonescale Oil, 1x Black Lotus, 1x Crystal Vial
@@ -1406,6 +1421,7 @@ ns.Data.Recipes["Alchemy"] = {
     learn = 315, orange = 315, yellow = 315, green = 322, grey = 330,
     source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    tools = { 9149 }, -- Philosopher's Stone
   },
   [24266] = { -- 1x Blood of Heroes, 1x Massive Mojo, 6x Powerful Mojo, 1x Black Lotus
     name = "Gurubashi Mojo Madness", skillLineAbilityID = 12876,
