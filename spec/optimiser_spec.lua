@@ -2,8 +2,8 @@
 
 local function loadOptimiser()
   local ns = {}
-  local chunk = assert(loadfile("ProfPlanner/Optimiser.lua"))
-  chunk("ProfPlanner", ns)
+  local chunk = assert(loadfile("Craftinator/Optimiser.lua"))
+  chunk("Craftinator", ns)
   return ns.Optimiser
 end
 

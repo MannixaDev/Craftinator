@@ -1,5 +1,5 @@
 {
- "credit": "Read from trainer windows in game with /pp scan",
+ "credit": "Read from trainer windows in game with /ci scan",
  "recipes": {
   "3276": {
    "learn": 40,

@@ -1,15 +1,15 @@
 ## Interface: 16001
-## Title: ProfPlanner
+## Title: Craftinator
 ## Notes: Profession levelling planner priced with live auction data.
-## Version: 0.4.1
+## Version: 0.5.0
 ## Author: Jack Smith-Morse
 ## OptionalDeps: Auctionator, TomTom
-## SavedVariables: ProfPlannerDB
-## SavedVariablesPerCharacter: ProfPlannerCharDB
+## SavedVariables: CraftinatorDB
+## SavedVariablesPerCharacter: CraftinatorCharDB
 ## IconTexture: Interface\Icons\INV_Misc_Book_09
-## AddonCompartmentFunc: ProfPlanner_OnAddonCompartmentClick
-## AddonCompartmentFuncOnEnter: ProfPlanner_OnAddonCompartmentEnter
-## AddonCompartmentFuncOnLeave: ProfPlanner_OnAddonCompartmentLeave
+## AddonCompartmentFunc: Craftinator_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: Craftinator_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: Craftinator_OnAddonCompartmentLeave
 
 Core.lua
 Data\VendorPrices.lua

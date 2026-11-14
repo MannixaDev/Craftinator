@@ -37,7 +37,7 @@ end
 function Inventory.Count(itemID)
   local bags = rawCount(itemID, false)
   local bank = math.max(0, rawCount(itemID, true) - bags)
-  local snapshot = ProfPlannerCharDB and ProfPlannerCharDB.bank
+  local snapshot = CraftinatorCharDB and CraftinatorCharDB.bank
   if snapshot then
     if bankOpen then
       snapshot[itemID] = bank > 0 and bank or nil

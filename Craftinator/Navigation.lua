@@ -67,8 +67,8 @@ end
 --- Reminder when you enter a city with a trainer you need: shown when the character is
 -- within 5 points of the skill cap, once per city and cap.
 function Navigation.CheckCityToast()
-  local last = ProfPlannerCharDB and ProfPlannerCharDB.last
-  if not (ProfPlannerDB and ProfPlannerDB.toasts and last) then return end
+  local last = CraftinatorCharDB and CraftinatorCharDB.last
+  if not (CraftinatorDB and CraftinatorDB.toasts and last) then return end
   local profession = ns.Data.SkillLines and ns.Data.SkillLines[last.id]
   if not profession or last.max - last.skill > 5 then return end
   local mapID = C_Map.GetBestMapForUnit("player")
@@ -76,12 +76,12 @@ function Navigation.CheckCityToast()
   local npc = Navigation.BestTrainer(here, last.max)
   if not npc or npc.maxSkill <= last.max then return end
   local key = profession .. ":" .. tostring(mapID) .. ":" .. last.max
-  if ProfPlannerCharDB.dismissedToasts[key] then return end
-  ProfPlannerCharDB.dismissedToasts[key] = true
-  local text = ("ProfPlanner: %s %d/%d. %s (%s) here can train the next rank."):format(
+  if CraftinatorCharDB.dismissedToasts[key] then return end
+  CraftinatorCharDB.dismissedToasts[key] = true
+  local text = ("Craftinator: %s %d/%d. %s (%s) here can train the next rank."):format(
     profession, last.skill, last.max, npc.name, npc.rank)
   if UIErrorsFrame and UIErrorsFrame.AddMessage then UIErrorsFrame:AddMessage(text, 1, 0.82, 0) end
-  print("|cff33ff99" .. text .. "|r  Type /pp for a map pin.")
+  print("|cff33ff99" .. text .. "|r  Type /ci for a map pin.")
 end
 
 ns.RegisterEvent("ZONE_CHANGED_NEW_AREA", function() pcall(Navigation.CheckCityToast) end)
@@ -91,7 +91,7 @@ ns.RegisterEvent("ZONE_CHANGED_NEW_AREA", function() pcall(Navigation.CheckCityT
 function Navigation.SetWaypoint(npc)
   if TomTom and TomTom.AddWaypoint then
     local ok = pcall(TomTom.AddWaypoint, TomTom, npc.mapID, npc.x, npc.y,
-      { title = npc.name, from = "ProfPlanner" })
+      { title = npc.name, from = "Craftinator" })
     if ok then return true end
   end
   if not (C_Map.SetUserWaypoint and UiMapPoint and UiMapPoint.CreateFromCoordinates) then

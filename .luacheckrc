@@ -4,13 +4,14 @@ exclude_files = { ".luarocks", "lua_modules" }
 
 -- Globals the addon defines.
 globals = {
-  "ProfPlanner",
-  "ProfPlannerDB",
-  "ProfPlannerCharDB",
+  "Craftinator",
+  "CraftinatorDB",
+  "CraftinatorCharDB",
   "SlashCmdList",
-  "SLASH_PROFPLANNER1",
-  "SLASH_PROFPLANNER2",
-  "ProfPlanner_OnAddonCompartmentClick", "ProfPlanner_OnAddonCompartmentEnter", "ProfPlanner_OnAddonCompartmentLeave",
+  "SLASH_CRAFTINATOR1",
+  "SLASH_CRAFTINATOR2",
+  "SLASH_CRAFTINATOR3",
+  "Craftinator_OnAddonCompartmentClick", "Craftinator_OnAddonCompartmentEnter", "Craftinator_OnAddonCompartmentLeave",
 }
 
 -- WoW API and other addons' globals the addon reads. Add to this as adapters are written.
@@ -33,8 +34,8 @@ read_globals = {
 files["spec"] = { std = "+busted" }
 
 -- Pure-Lua modules: no WoW globals allowed, so an API call here fails the lint.
-files["ProfPlanner/Optimiser.lua"] = { new_read_globals = {}, new_globals = {} }
-files["ProfPlanner/Pricing.lua"] = { new_read_globals = {}, new_globals = {} }
+files["Craftinator/Optimiser.lua"] = { new_read_globals = {}, new_globals = {} }
+files["Craftinator/Pricing.lua"] = { new_read_globals = {}, new_globals = {} }
 
 -- Generated data: long lines are fine.
-files["ProfPlanner/Data/Recipes_*.lua"] = { max_line_length = false }
+files["Craftinator/Data/Recipes_*.lua"] = { max_line_length = false }

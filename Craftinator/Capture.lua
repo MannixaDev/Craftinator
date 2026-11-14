@@ -1,5 +1,5 @@
 -- Capture.lua: records what trainers teach and what vendors sell as you visit them, and
--- turns the records into text to share (/pp export). Recipe learn skills, trainer fees and
+-- turns the records into text to share (/ci export). Recipe learn skills, trainer fees and
 -- NPC positions are not in the client data, so this is how the addon's data gets corrected.
 -- Nothing about the character is recorded beyond its faction.
 
@@ -8,10 +8,10 @@ local addonName, ns = ...
 local Capture = {}
 ns.Capture = Capture
 
-local EXPORT_HEADER = "ProfPlanner export v1"
+local EXPORT_HEADER = "Craftinator export v1"
 
 local function say(text)
-  print("|cff33ff99ProfPlanner|r: " .. tostring(text))
+  print("|cff33ff99Craftinator|r: " .. tostring(text))
 end
 
 -- Where the player is standing and who they are talking to.
@@ -37,13 +37,13 @@ Capture.NpcContext = npcContext
 -- Trainers -------------------------------------------------------------------
 
 ns.RegisterEvent("TRAINER_SHOW", function()
-  if not (ProfPlannerDB and ProfPlannerDB.capture) then return end
+  if not (CraftinatorDB and CraftinatorDB.capture) then return end
   if type(IsTradeskillTrainer) == "function" and not IsTradeskillTrainer() then return end
   -- The list is not always filled in yet when the window opens.
   C_Timer.After(0.3, function()
     local ok, scan, isNew = pcall(ns.ScanTrainer, true)
     if ok and scan and isNew then
-      say(("recorded what %s teaches. /pp export shares it."):format(tostring(scan.npcName)))
+      say(("recorded what %s teaches. /ci export shares it."):format(tostring(scan.npcName)))
     end
   end)
 end)
@@ -97,18 +97,18 @@ function Capture.ScanVendor()
   if #items == 0 then return nil end
   local scan = npcContext()
   scan.items = items
-  ProfPlannerDB.vendorScans = ProfPlannerDB.vendorScans or {}
+  CraftinatorDB.vendorScans = CraftinatorDB.vendorScans or {}
   local key = tostring(scan.npcID or scan.npcName or "unknown")
-  local isNew = ProfPlannerDB.vendorScans[key] == nil
-  ProfPlannerDB.vendorScans[key] = scan
+  local isNew = CraftinatorDB.vendorScans[key] == nil
+  CraftinatorDB.vendorScans[key] = scan
   return scan, isNew
 end
 
 ns.RegisterEvent("MERCHANT_SHOW", function()
-  if not (ProfPlannerDB and ProfPlannerDB.capture) then return end
+  if not (CraftinatorDB and CraftinatorDB.capture) then return end
   local ok, scan, isNew = pcall(Capture.ScanVendor)
   if ok and scan and isNew then
-    say(("recorded what %s sells (%d reagent or recipe item%s). /pp export shares it."):format(
+    say(("recorded what %s sells (%d reagent or recipe item%s). /ci export shares it."):format(
       tostring(scan.npcName), #scan.items, #scan.items == 1 and "" or "s"))
   end
 end)
@@ -140,8 +140,8 @@ function Capture.ExportText()
   local version = C_AddOns and C_AddOns.GetAddOnMetadata and C_AddOns.GetAddOnMetadata(addonName, "Version")
   local lines = { ("%s;%s;%s"):format(EXPORT_HEADER, clean(version or "?"), clean((select(2, GetBuildInfo())))) }
   local trainers, vendors = 0, 0
-  for _, key in ipairs(sortedKeys(ProfPlannerDB.trainerScans)) do
-    local scan = ProfPlannerDB.trainerScans[key]
+  for _, key in ipairs(sortedKeys(CraftinatorDB.trainerScans)) do
+    local scan = CraftinatorDB.trainerScans[key]
     trainers = trainers + 1
     lines[#lines + 1] = npcLine("T", scan)
     for _, service in ipairs(scan.services or {}) do
@@ -150,8 +150,8 @@ function Capture.ExportText()
       }, ";")
     end
   end
-  for _, key in ipairs(sortedKeys(ProfPlannerDB.vendorScans)) do
-    local scan = ProfPlannerDB.vendorScans[key]
+  for _, key in ipairs(sortedKeys(CraftinatorDB.vendorScans)) do
+    local scan = CraftinatorDB.vendorScans[key]
     vendors = vendors + 1
     lines[#lines + 1] = npcLine("V", scan)
     for _, item in ipairs(scan.items or {}) do
@@ -167,15 +167,15 @@ end
 local window
 
 local function createWindow()
-  window = CreateFrame("Frame", "ProfPlannerExport", UIParent, "BasicFrameTemplateWithInset")
+  window = CreateFrame("Frame", "CraftinatorExport", UIParent, "BasicFrameTemplateWithInset")
   window:SetSize(520, 380)
   window:SetPoint("CENTER")
   window:SetFrameStrata("DIALOG")
   window:EnableMouse(true)
   window:Hide()
-  table.insert(UISpecialFrames, "ProfPlannerExport")
+  table.insert(UISpecialFrames, "CraftinatorExport")
   local title = window.TitleText or (window.TitleContainer and window.TitleContainer.TitleText)
-  if title then title:SetText("ProfPlanner export") end
+  if title then title:SetText("Craftinator export") end
 
   window.help = window:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
   window.help:SetPoint("TOPLEFT", 14, -30)
@@ -202,7 +202,7 @@ local function createWindow()
   window.box = box
 end
 
---- /pp export: show everything recorded so far, selected and ready to copy.
+--- /ci export: show everything recorded so far, selected and ready to copy.
 function Capture.ShowExport()
   local text, trainers, vendors = Capture.ExportText()
   if trainers + vendors == 0 then
@@ -212,7 +212,7 @@ function Capture.ShowExport()
   if not window then createWindow() end
   window.text = text
   window.help:SetText(("%d trainer%s and %d vendor%s recorded. Press Ctrl+C to copy, then paste it into a"
-    .. " \"Submit data\" issue at github.com/MannixaDev/ProfPlanner, or send it to whoever gave you the addon.")
+    .. " \"Submit data\" issue at github.com/MannixaDev/Craftinator, or send it to whoever gave you the addon.")
     :format(trainers, trainers == 1 and "" or "s", vendors, vendors == 1 and "" or "s"))
   window.box:SetText(text)
   window:Show()

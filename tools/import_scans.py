@@ -2,8 +2,8 @@
 """Fold recorded trainer and vendor data into tools/overrides/.
 
 Usage (from the repo root), with either kind of file:
-    python tools/import_scans.py "<WoW>/_forever_/WTF/Account/<account>/SavedVariables/ProfPlanner.lua"
-    python tools/import_scans.py export.txt        (text copied from /pp export, e.g. out of an issue)
+    python tools/import_scans.py "<WoW>/_forever_/WTF/Account/<account>/SavedVariables/Craftinator.lua"
+    python tools/import_scans.py export.txt        (text copied from /ci export, e.g. out of an issue)
 
 Trainers: each entry gives a recipe's spell ID, the skill needed to learn it and the fee.
 These go into overrides/<Profession>_ingame.json; existing values are kept unless a record
@@ -82,7 +82,7 @@ def parse_saved_variables(text):
 def recipe_spells():
     """{spell ID: profession} from the generated data files."""
     spells = {}
-    for path in (ROOT / "ProfPlanner" / "Data").glob("Recipes_*.lua"):
+    for path in (ROOT / "Craftinator" / "Data").glob("Recipes_*.lua"):
         text = path.read_text(encoding="utf-8")
         profession = re.search(r'ns\.Data\.Recipes\["([^"]+)"\]', text).group(1)
         for spell in re.findall(r"^  \[(\d+)\] = \{", text, re.M):
@@ -91,7 +91,7 @@ def recipe_spells():
 
 
 def parse_export(text):
-    """Text from /pp export -> (trainer scans, vendor scans) in the SavedVariables shape."""
+    """Text from /ci export -> (trainer scans, vendor scans) in the SavedVariables shape."""
     trainers, vendors, current = [], [], None
     for line in text.splitlines():
         fields = line.strip().split(";")
@@ -138,14 +138,14 @@ def main():
     if len(sys.argv) != 2:
         sys.exit(__doc__)
     text = Path(sys.argv[1]).read_text(encoding="utf-8-sig")
-    if "ProfPlanner export v1" in text:
+    if "Craftinator export v1" in text or "ProfPlanner export v1" in text:   # ProfPlanner: the first name
         trainers, vendors = parse_export(text)
     else:
-        saved = parse_saved_variables(text).get("ProfPlannerDB") or {}
+        saved = parse_saved_variables(text).get("CraftinatorDB") or {}
         trainers = list((saved.get("trainerScans") or {}).values())
         vendors = list((saved.get("vendorScans") or {}).values())
     if not trainers and not vendors:
-        sys.exit("Nothing recorded in that file. Visit a profession trainer or supply vendor, then /reload or /pp export.")
+        sys.exit("Nothing recorded in that file. Visit a profession trainer or supply vendor, then /reload or /ci export.")
 
     spells = recipe_spells()
     found, npcs = {}, {}
@@ -190,7 +190,7 @@ def main():
     for profession, recipes in sorted(found.items()):
         path = ROOT / "tools" / "overrides" / f"{profession.replace(' ', '')}_ingame.json"
         data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {
-            "credit": "Read from trainer windows in game with /pp scan", "recipes": {}}
+            "credit": "Read from trainer windows in game with /ci scan", "recipes": {}}
         changed = sum(1 for spell, seen in recipes.items() if data["recipes"].get(spell) != seen)
         data["recipes"].update(recipes)
         data["recipes"] = dict(sorted(data["recipes"].items(), key=lambda item: int(item[0])))

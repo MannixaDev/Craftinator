@@ -6,14 +6,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you. In game, type `/pp export`, press Ctrl+C, and paste the text below.
+        Thank you. In game, type `/ci export`, press Ctrl+C, and paste the text below.
         It holds what trainers teach and vendors sell, and where they stand. The only
         thing it says about your character is its faction.
   - type: textarea
     id: export
     attributes:
       label: Export text
-      description: Everything from "ProfPlanner export v1" to "END".
+      description: Everything from "Craftinator export v1" to "END".
       render: text
     validations:
       required: true

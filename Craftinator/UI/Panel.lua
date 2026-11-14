@@ -24,7 +24,7 @@ local docked = false
 local hookedProfessionFrame = false
 
 local function say(text)
-  print("|cff33ff99ProfPlanner|r: " .. tostring(text))
+  print("|cff33ff99Craftinator|r: " .. tostring(text))
 end
 
 -- Rows -----------------------------------------------------------------------
@@ -148,19 +148,19 @@ function Panel.CreateBalanceSlider(parent)
 
   local syncing = false
   local function describe()
-    slider.label:SetText("One craft's time: " .. Pricing.FormatMoney(ProfPlannerDB.balanceCopper))
+    slider.label:SetText("One craft's time: " .. Pricing.FormatMoney(CraftinatorDB.balanceCopper))
   end
   function slider:Sync()
     syncing = true
-    self:SetValue(math.min(SLIDER_MAX_SILVER, ProfPlannerDB.balanceCopper / 100))
+    self:SetValue(math.min(SLIDER_MAX_SILVER, CraftinatorDB.balanceCopper / 100))
     syncing = false
     describe()
   end
   slider:SetScript("OnValueChanged", function(_, value)
     if syncing then return end
     local copper = math.floor(value / SLIDER_STEP_SILVER + 0.5) * SLIDER_STEP_SILVER * 100
-    if copper == ProfPlannerDB.balanceCopper then return end
-    ProfPlannerDB.balanceCopper = copper
+    if copper == CraftinatorDB.balanceCopper then return end
+    CraftinatorDB.balanceCopper = copper
     describe()
     Panel.RequestRefresh()
   end)
@@ -168,7 +168,7 @@ function Panel.CreateBalanceSlider(parent)
     GameTooltip:SetOwner(self, "ANCHOR_TOP")
     GameTooltip:AddLine("Balanced mode")
     GameTooltip:AddLine("How much you would pay to skip one craft. At 0 the route is the cheapest one; the higher"
-      .. " the value, the fewer crafts it uses. /pp balance <silver> sets a value beyond the slider.", 1, 1, 1, true)
+      .. " the value, the fewer crafts it uses. /ci balance <silver> sets a value beyond the slider.", 1, 1, 1, true)
     GameTooltip:Show()
   end)
   slider:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -179,7 +179,7 @@ end
 
 local function create()
   if frame then return end
-  frame = CreateFrame("Frame", "ProfPlannerPanel", UIParent, "BasicFrameTemplateWithInset")
+  frame = CreateFrame("Frame", "CraftinatorPanel", UIParent, "BasicFrameTemplateWithInset")
   frame:SetSize(WIDTH, HEIGHT)
   frame:SetClampedToScreen(true)
   frame:EnableMouse(true)
@@ -203,10 +203,10 @@ local function create()
     end
   end)
   frame:Hide()
-  table.insert(UISpecialFrames, "ProfPlannerPanel") -- Escape closes it
+  table.insert(UISpecialFrames, "CraftinatorPanel") -- Escape closes it
 
   local title = frame.TitleText or (frame.TitleContainer and frame.TitleContainer.TitleText)
-  if title then title:SetText("ProfPlanner") end
+  if title then title:SetText("Craftinator") end
 
   -- Header: profession, skill, progress bar
   frame.header = frame:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
@@ -256,7 +256,7 @@ local function create()
     button:SetText(mode[2])
     button.mode = mode[1]
     button:SetScript("OnClick", function(self)
-      ProfPlannerDB.mode = self.mode
+      CraftinatorDB.mode = self.mode
       Panel.Refresh()
     end)
     frame.modeButtons[index] = button
@@ -265,7 +265,7 @@ local function create()
     GameTooltip:SetOwner(self, "ANCHOR_TOP")
     GameTooltip:AddLine("Balanced")
     GameTooltip:AddLine(("Values the time of one craft at %s.\nA slider to change it appears in this mode."):format(
-      Pricing.FormatMoney(ProfPlannerDB.balanceCopper)), 1, 1, 1, true)
+      Pricing.FormatMoney(CraftinatorDB.balanceCopper)), 1, 1, 1, true)
     GameTooltip:Show()
   end)
   frame.modeButtons[2]:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -274,17 +274,17 @@ local function create()
   frame.checks = {}
   local checks = {
     { "Trainer", "Use recipes taught by trainers.",
-      function() return ProfPlannerDB.sources.trainer end, function(on) ProfPlannerDB.sources.trainer = on end },
+      function() return CraftinatorDB.sources.trainer end, function(on) CraftinatorDB.sources.trainer = on end },
     { "Vendor", "Use recipes sold by vendors for gold. Their price is added to the route once.",
-      function() return ProfPlannerDB.sources.vendor end, function(on) ProfPlannerDB.sources.vendor = on end },
+      function() return CraftinatorDB.sources.vendor end, function(on) CraftinatorDB.sources.vendor = on end },
     { "Drops", "Use dropped, quest and other patterns, priced from the auction house."
         .. " Patterns with no auction price are left out.",
-      function() return ProfPlannerDB.sources.drop end, function(on) ProfPlannerDB.sources.drop = on end },
+      function() return CraftinatorDB.sources.drop end, function(on) CraftinatorDB.sources.drop = on end },
     { "Owned", "Count reagents in your bags and bank as free. The bank is read when you open it.",
-      function() return ProfPlannerDB.useOwned end, function(on) ProfPlannerDB.useOwned = on end },
+      function() return CraftinatorDB.useOwned end, function(on) CraftinatorDB.useOwned = on end },
     { "Resale", "Subtract the auction price of what you craft from each recipe's cost. Items that do not"
         .. " really sell can make a route look cheaper than it is.",
-      function() return ProfPlannerDB.useResale end, function(on) ProfPlannerDB.useResale = on end },
+      function() return CraftinatorDB.useResale end, function(on) CraftinatorDB.useResale = on end },
   }
   for index, spec in ipairs(checks) do
     local check = CreateFrame("CheckButton", nil, frame, "UICheckButtonTemplate")
@@ -442,7 +442,7 @@ function Panel.Refresh()
   if not frame or not frame:IsShown() then return end
   local plan, problem = ns.BuildPlan()
   if not plan then
-    frame.header:SetText("ProfPlanner")
+    frame.header:SetText("Craftinator")
     frame.bar:SetMinMaxValues(0, 1)
     frame.bar:SetValue(0)
     frame.location.text:SetText("")
@@ -572,7 +572,7 @@ local function hookProfessionFrame()
   if professionFrame:IsShown() then onProfessionShown() end
 end
 
---- /pp: show or hide the panel, docked if the profession window is open.
+--- /ci: show or hide the panel, docked if the profession window is open.
 function Panel.Toggle()
   if frame and frame:IsShown() then
     frame:Hide()

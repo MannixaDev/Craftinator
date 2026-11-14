@@ -1,5 +1,5 @@
 name: Release
-# Push a tag such as v0.3.0 to build ProfPlanner-v0.3.0.zip and attach it to a GitHub release.
+# Push a tag such as v0.3.0 to build Craftinator-v0.3.0.zip and attach it to a GitHub release.
 on:
   push:
     tags: ["v*"]
@@ -12,13 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check the tag matches the .toc version
         run: |
-          version=$(grep -oP '^## Version: \K.*' ProfPlanner/ProfPlanner.toc | tr -d '\r')
+          version=$(grep -oP '^## Version: \K.*' Craftinator/Craftinator.toc | tr -d '\r')
           test "v$version" = "$GITHUB_REF_NAME" || { echo "Tag $GITHUB_REF_NAME does not match .toc version $version"; exit 1; }
       - name: Build the zip
         run: |
-          cp LICENSE ProfPlanner/LICENSE.txt
-          zip -r "ProfPlanner-$GITHUB_REF_NAME.zip" ProfPlanner
+          cp LICENSE Craftinator/LICENSE.txt
+          zip -r "Craftinator-$GITHUB_REF_NAME.zip" Craftinator
       - name: Create the release
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create "$GITHUB_REF_NAME" "ProfPlanner-$GITHUB_REF_NAME.zip" --title "ProfPlanner $GITHUB_REF_NAME" --generate-notes
+        run: gh release create "$GITHUB_REF_NAME" "Craftinator-$GITHUB_REF_NAME.zip" --title "Craftinator $GITHUB_REF_NAME" --generate-notes

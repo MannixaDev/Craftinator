@@ -2,7 +2,7 @@
 
 local addonName, ns = ...
 
-ProfPlanner = ns
+Craftinator = ns
 ns.name = addonName
 ns.Data = ns.Data or {}
 ns.Data.Recipes = ns.Data.Recipes or {}
@@ -30,9 +30,9 @@ end)
 
 ns.RegisterEvent("ADDON_LOADED", function(name)
   if name ~= addonName then return end
-  ProfPlannerDB = ProfPlannerDB or {}
-  ProfPlannerCharDB = ProfPlannerCharDB or {}
-  local db, char = ProfPlannerDB, ProfPlannerCharDB
+  CraftinatorDB = CraftinatorDB or {}
+  CraftinatorCharDB = CraftinatorCharDB or {}
+  local db, char = CraftinatorDB, CraftinatorCharDB
   if db.mode == nil then db.mode = "cheapest" end                   -- cheapest | balanced | fastest
   if db.balanceCopper == nil then db.balanceCopper = 1000 end       -- Balanced: what one craft's time is worth
   if db.useOwned == nil then db.useOwned = true end                 -- count mats in bags and bank as free
@@ -45,7 +45,7 @@ ns.RegisterEvent("ADDON_LOADED", function(name)
 end)
 
 local function say(text)
-  print("|cff33ff99ProfPlanner|r: " .. tostring(text))
+  print("|cff33ff99Craftinator|r: " .. tostring(text))
 end
 
 -- Prices -------------------------------------------------------------------
@@ -124,7 +124,7 @@ end
 
 local function lambdaFor(mode)
   if mode == "fastest" then return ns.Optimiser.LAMBDA.fastest end
-  if mode == "balanced" then return ProfPlannerDB.balanceCopper end
+  if mode == "balanced" then return CraftinatorDB.balanceCopper end
   return ns.Optimiser.LAMBDA.cheapest
 end
 
@@ -147,11 +147,11 @@ function ns.BuildPlan()
     known = ns.Player.KnownRecipes()
     local knownList = {}
     for spellID in pairs(known) do knownList[#knownList + 1] = spellID end
-    ProfPlannerCharDB.last = {
+    CraftinatorCharDB.last = {
       id = profession.id, name = profession.name, skill = profession.skill, max = profession.max, known = knownList,
     }
-  elseif ProfPlannerCharDB.last then
-    profession, known, fromCache = ProfPlannerCharDB.last, {}, true
+  elseif CraftinatorCharDB.last then
+    profession, known, fromCache = CraftinatorCharDB.last, {}, true
     for _, spellID in ipairs(profession.known or {}) do known[spellID] = true end
   else
     return nil, "Click a profession (for example Tailoring) to see its route."
@@ -163,7 +163,7 @@ function ns.BuildPlan()
     return nil, ("No recipe data for %s. Gathering professions have nothing to craft."):format(tostring(profession.name))
   end
 
-  local db = ProfPlannerDB
+  local db = CraftinatorDB
   local book = ns.GetPricing()
   local Optimiser = ns.Optimiser
   local started = debugprofilestop()
@@ -256,15 +256,15 @@ function ns.SendShoppingList(plan)
     return false, ("the game is still loading %d item name%s. Try again in a moment."):format(waiting, waiting == 1 and "" or "s")
   end
   if #terms == 0 then return false, "nothing to buy from the auction house for this route." end
-  local listName = "ProfPlanner - " .. plan.profession
+  local listName = "Craftinator - " .. plan.profession
   local ok, err = pcall(api.CreateShoppingList, addonName, listName, terms)
   if not ok then return false, "Auctionator refused the list: " .. tostring(err) end
   return true, ('created the Auctionator shopping list "%s" with %d item%s.'):format(listName, #terms, #terms == 1 and "" or "s")
 end
 
--- /pp debug (Phase 0 spike) --------------------------------------------------
+-- /ci debug (Phase 0 spike) --------------------------------------------------
 -- Prints what the Forever client exposes. The full output is also saved to
--- ProfPlannerDB.debug so it can be read from the SavedVariables file after a /reload.
+-- CraftinatorDB.debug so it can be read from the SavedVariables file after a /reload.
 -- This is throwaway probe code, so it calls the WoW API directly instead of
 -- going through the Player/Inventory/Navigation adapters.
 
@@ -429,15 +429,15 @@ local function debugReport()
   end
 
   for _, line in ipairs(chat) do say(line) end
-  if ProfPlannerDB then
-    ProfPlannerDB.debug = { time = date and date("%Y-%m-%d %H:%M:%S") or nil, lines = saved }
-    say("Full output saved. Type /reload to write it to WTF/.../SavedVariables/ProfPlanner.lua")
+  if CraftinatorDB then
+    CraftinatorDB.debug = { time = date and date("%Y-%m-%d %H:%M:%S") or nil, lines = saved }
+    say("Full output saved. Type /reload to write it to WTF/.../SavedVariables/Craftinator.lua")
   end
 end
 
--- /pp scan (data capture) ----------------------------------------------------
+-- /ci scan (data capture) ----------------------------------------------------
 -- Run with a profession trainer window open. Records every recipe the trainer
--- teaches (spell ID, skill needed, cost) into ProfPlannerDB.trainerScans, for
+-- teaches (spell ID, skill needed, cost) into CraftinatorDB.trainerScans, for
 -- the offline pipeline: this data is server-side and not in the DB2 exports.
 
 local scanTip
@@ -445,7 +445,7 @@ local scanTip
 local function serviceSpellID(index)
   local id
   pcall(function()
-    scanTip = scanTip or CreateFrame("GameTooltip", "ProfPlannerScanTip", nil, "GameTooltipTemplate")
+    scanTip = scanTip or CreateFrame("GameTooltip", "CraftinatorScanTip", nil, "GameTooltipTemplate")
     scanTip:SetOwner(UIParent, "ANCHOR_NONE")
     scanTip:SetTrainerService(index)
     id = select(2, scanTip:GetSpell())
@@ -468,7 +468,7 @@ end
 local function trainerScan(silent)
   local count = type(GetNumTrainerServices) == "function" and GetNumTrainerServices() or 0
   if count == 0 then
-    if not silent then say("no trainer list found. Open a profession trainer window first, then type /pp scan.") end
+    if not silent then say("no trainer list found. Open a profession trainer window first, then type /ci scan.") end
     return
   end
 
@@ -527,26 +527,27 @@ local function trainerScan(silent)
   end
   if silent and withSkill == 0 then return end -- a class trainer: nothing here needs a profession skill
 
-  ProfPlannerDB.trainerScans = ProfPlannerDB.trainerScans or {}
+  CraftinatorDB.trainerScans = CraftinatorDB.trainerScans or {}
   local key = tostring(scan.npcID or scan.npcName or "unknown")
-  local isNew = ProfPlannerDB.trainerScans[key] == nil
-  ProfPlannerDB.trainerScans[key] = scan
+  local isNew = CraftinatorDB.trainerScans[key] == nil
+  CraftinatorDB.trainerScans[key] = scan
   if silent then return scan, isNew end
   say(("scanned %s: %d entries, %d with a skill requirement, %d with a spell ID."):format(
     tostring(scan.npcName), #services, withSkill, withSpell))
   local sample = services[math.min(2, #services)]
   say(("example: %s, needs %s %s, costs %s copper"):format(
     tostring(sample.name), tostring(sample.skill), tostring(sample.skillRank), tostring(sample.cost)))
-  say("Saved. /pp export shows it as text to share.")
+  say("Saved. /ci export shows it as text to share.")
   return scan, isNew
 end
 ns.ScanTrainer = trainerScan
 
 -- Slash commands -----------------------------------------------------------
 
-SLASH_PROFPLANNER1 = "/pp"
-SLASH_PROFPLANNER2 = "/profplanner"
-SlashCmdList["PROFPLANNER"] = function(msg)
+SLASH_CRAFTINATOR1 = "/ci"
+SLASH_CRAFTINATOR2 = "/craftinator"
+SLASH_CRAFTINATOR3 = "/pp" -- the addon's first name was ProfPlanner; kept so the old command still works
+SlashCmdList["CRAFTINATOR"] = function(msg)
   local command = (msg or ""):lower():match("^%s*(%S*)")
   if command == "debug" then
     local ok, err = pcall(debugReport)
@@ -594,25 +595,25 @@ SlashCmdList["PROFPLANNER"] = function(msg)
     end
     say((select(2, ns.SendShoppingList(plan))))
   elseif command == "resale" then
-    ProfPlannerDB.useResale = not ProfPlannerDB.useResale
+    CraftinatorDB.useResale = not CraftinatorDB.useResale
     ns.Panel.RequestRefresh()
-    say("the auction price of what you craft is now " .. (ProfPlannerDB.useResale and "subtracted from" or "left out of")
+    say("the auction price of what you craft is now " .. (CraftinatorDB.useResale and "subtracted from" or "left out of")
       .. " each recipe's cost.")
   elseif command == "config" or command == "options" then
     ns.Settings.Open()
   elseif command == "balance" then
     local silver = tonumber((msg or ""):match("(%d+%.?%d*)%s*$"))
     if silver then
-      ProfPlannerDB.balanceCopper = math.floor(silver * 100)
+      CraftinatorDB.balanceCopper = math.floor(silver * 100)
       ns.Panel.RequestRefresh()
     end
-    say(("Balanced mode values one craft's time at %s. Change it with /pp balance <silver>."):format(
-      ns.Pricing.FormatMoney(ProfPlannerDB.balanceCopper)))
+    say(("Balanced mode values one craft's time at %s. Change it with /ci balance <silver>."):format(
+      ns.Pricing.FormatMoney(CraftinatorDB.balanceCopper)))
   elseif command == "toasts" then
-    ProfPlannerDB.toasts = not ProfPlannerDB.toasts
-    say("city reminders are now " .. (ProfPlannerDB.toasts and "on" or "off") .. ".")
+    CraftinatorDB.toasts = not CraftinatorDB.toasts
+    say("city reminders are now " .. (CraftinatorDB.toasts and "on" or "off") .. ".")
   else
-    say("commands: /pp (show or hide the panel), /pp config, /pp route, /pp list, /pp send (list to Auctionator),"
-      .. " /pp balance <silver>, /pp resale, /pp toasts, /pp export (share recorded trainer and vendor data), /pp debug")
+    say("commands: /ci (show or hide the panel), /ci config, /ci route, /ci list, /ci send (list to Auctionator),"
+      .. " /ci balance <silver>, /ci resale, /ci toasts, /ci export (share recorded trainer and vendor data), /ci debug")
   end
 end

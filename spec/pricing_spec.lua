@@ -1,6 +1,6 @@
 local function loadPricing()
   local ns = {}
-  assert(loadfile("ProfPlanner/Pricing.lua"))("ProfPlanner", ns)
+  assert(loadfile("Craftinator/Pricing.lua"))("Craftinator", ns)
   return ns.Pricing
 end
 

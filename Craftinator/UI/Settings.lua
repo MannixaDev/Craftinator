@@ -1,4 +1,4 @@
--- UI/Settings.lua: options panel (Game Menu > Options > AddOns > ProfPlanner, or /pp config)
+-- UI/Settings.lua: options panel (Game Menu > Options > AddOns > Craftinator, or /ci config)
 -- and the entry in the addon menu next to the minimap.
 
 local addonName, ns = ...
@@ -48,14 +48,14 @@ end
 
 local function build()
   panel = CreateFrame("Frame")
-  panel.name = "ProfPlanner"
+  panel.name = "Craftinator"
   panel:Hide()
 
   local title = panel:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
   title:SetPoint("TOPLEFT", 16, -16)
-  title:SetText("ProfPlanner")
+  title:SetText("Craftinator")
 
-  local db = function() return ProfPlannerDB end
+  local db = function() return CraftinatorDB end
 
   addHeading(panel, -50, "Route")
   local modes = { { "cheapest", "Cheapest" }, { "balanced", "Balanced" }, { "fastest", "Fastest" } }
@@ -101,7 +101,7 @@ local function build()
   addHeading(panel, -374, "Data")
   addCheck(panel, -390, "Record the trainers and vendors I visit",
     "Notes what profession trainers teach and what supply vendors sell, and where they stand. Nothing about"
-      .. " your character is recorded beyond its faction. /pp export shows the record so you can share it.",
+      .. " your character is recorded beyond its faction. /ci export shows the record so you can share it.",
     function() return db().capture end, function(on) db().capture = on end)
 
   local prices = panel:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
@@ -120,21 +120,21 @@ function Settings_.Open()
   if category and Settings and Settings.OpenToCategory then
     if pcall(Settings.OpenToCategory, category:GetID()) then return end
   end
-  print("|cff33ff99ProfPlanner|r: could not open the options panel. The same switches are on the /pp panel.")
+  print("|cff33ff99Craftinator|r: could not open the options panel. The same switches are on the /ci panel.")
 end
 
 ns.RegisterEvent("PLAYER_LOGIN", function()
   if not (Settings and Settings.RegisterCanvasLayoutCategory and Settings.RegisterAddOnCategory) then return end
   local ok = pcall(function()
     build()
-    category = Settings.RegisterCanvasLayoutCategory(panel, "ProfPlanner")
+    category = Settings.RegisterCanvasLayoutCategory(panel, "Craftinator")
     Settings.RegisterAddOnCategory(category)
   end)
   if not ok then category = nil end
 end)
 
 -- Addon menu next to the minimap (named in the .toc). Left click: panel. Right click: options.
-function ProfPlanner_OnAddonCompartmentClick(_, button)
+function Craftinator_OnAddonCompartmentClick(_, button)
   if button == "RightButton" then
     Settings_.Open()
   else
@@ -142,7 +142,7 @@ function ProfPlanner_OnAddonCompartmentClick(_, button)
   end
 end
 
-function ProfPlanner_OnAddonCompartmentEnter(_, menuButton)
+function Craftinator_OnAddonCompartmentEnter(_, menuButton)
   GameTooltip:SetOwner(menuButton, "ANCHOR_LEFT")
   GameTooltip:AddLine(addonName)
   GameTooltip:AddLine("Left click: show or hide the route panel.", 1, 1, 1)
@@ -150,6 +150,6 @@ function ProfPlanner_OnAddonCompartmentEnter(_, menuButton)
   GameTooltip:Show()
 end
 
-function ProfPlanner_OnAddonCompartmentLeave()
+function Craftinator_OnAddonCompartmentLeave()
   GameTooltip:Hide()
 end

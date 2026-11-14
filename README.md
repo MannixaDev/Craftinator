@@ -1,4 +1,4 @@
-# ProfPlanner
+# Craftinator
 
 A profession levelling planner for WoW Forever. It docks a panel to the profession
 window and builds a route from your current skill to your cap, priced with live
@@ -19,9 +19,9 @@ Leatherworking and Tailoring.
 
 ## Install
 
-1. Download the latest zip from [Releases](https://github.com/MannixaDev/ProfPlanner/releases),
+1. Download the latest zip from [Releases](https://github.com/MannixaDev/Craftinator/releases),
    or use Code > Download ZIP on this page.
-2. Copy the `ProfPlanner` folder (the one containing `ProfPlanner.toc`) into
+2. Copy the `Craftinator` folder (the one containing `Craftinator.toc`) into
    `World of Warcraft\_forever_\Interface\AddOns\`.
 3. Restart the game. [Auctionator](https://www.curseforge.com/wow/addons/auctionator) is
    optional but strongly recommended: without it only vendor prices are known.
@@ -32,12 +32,12 @@ Open a profession and the panel appears beside it. Click a step to select that r
 
 | Command | What it does |
 | --- | --- |
-| `/pp` | Show or hide the panel |
-| `/pp config` | Open the options panel |
-| `/pp send` | Send the shopping list to Auctionator |
-| `/pp route`, `/pp list` | Print the route or the shopping list in chat |
-| `/pp balance <silver>` | Set the Balanced value beyond the slider's range |
-| `/pp export` | Show the trainer and vendor data recorded so far, ready to copy and share |
+| `/ci` | Show or hide the panel |
+| `/ci config` | Open the options panel |
+| `/ci send` | Send the shopping list to Auctionator |
+| `/ci route`, `/ci list` | Print the route or the shopping list in chat |
+| `/ci balance <silver>` | Set the Balanced value beyond the slider's range |
+| `/ci export` | Show the trainer and vendor data recorded so far, ready to copy and share |
 
 ## Known limits
 
@@ -53,10 +53,10 @@ Open a profession and the panel appears beside it. Click a step to select that r
 
 The addon quietly records what profession trainers teach and what supply vendors sell
 whenever you open their windows, along with where they stand. Nothing about your character
-is recorded beyond its faction, and it can be switched off in `/pp config`.
+is recorded beyond its faction, and it can be switched off in `/ci config`.
 
-To share it: type `/pp export`, press Ctrl+C, and paste the text into a
-[Submit data](https://github.com/MannixaDev/ProfPlanner/issues/new/choose) issue.
+To share it: type `/ci export`, press Ctrl+C, and paste the text into a
+[Submit data](https://github.com/MannixaDev/Craftinator/issues/new/choose) issue.
 Horde trainers and vendors are the biggest gap.
 
 ## Data and credits
@@ -73,7 +73,7 @@ Horde trainers and vendors are the biggest gap.
 
 ```
 busted
-luacheck ProfPlanner spec
+luacheck Craftinator spec
 ```
 
 See `tools/README.md` for regenerating the data after a game patch, and `SPEC.md` for the design.

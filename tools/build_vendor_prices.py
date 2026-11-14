@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build ProfPlanner/Data/VendorPrices.lua from a hand-kept list of vendor-sold reagents.
+"""Build Craftinator/Data/VendorPrices.lua from a hand-kept list of vendor-sold reagents.
 
 Which items vendors sell is server-side, so the list of item IDs is curated in
 tools/vendor_items.json. The price comes from the client data (ItemSparse.BuyPrice).
@@ -38,7 +38,7 @@ def main():
             continue
         lines.append(f"  [{item_id}] = {item['BuyPrice']}, -- {item['Display_lang']}")
     lines += ["}", "", f"ns.Data.VendorPricesBuild = {lua_string(args.build)}"]
-    path = ROOT / "ProfPlanner" / "Data" / "VendorPrices.lua"
+    path = ROOT / "Craftinator" / "Data" / "VendorPrices.lua"
     path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {path.relative_to(ROOT)}: {len(lines) - 9} items")
 
