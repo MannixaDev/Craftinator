@@ -26,7 +26,8 @@ read_globals = {
   "ProfessionsFrame", "C_Spell", "C_Item", "TomTom", "UiMapPoint", "C_SuperTrack", "debugprofilestop",
   "GetItemCount", "UIErrorsFrame",
   "GameTooltip", "C_Timer", "UISpecialFrames", "CreateScrollBoxListLinearView", "ScrollUtil", "CreateDataProvider",
-  "Settings",
+  "Settings", "IsTradeskillTrainer", "C_MerchantFrame", "GetMerchantItemInfo", "GetMerchantNumItems",
+  "GetMerchantItemID", "C_AddOns",
 }
 
 files["spec"] = { std = "+busted" }

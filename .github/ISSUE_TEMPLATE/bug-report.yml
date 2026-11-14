@@ -1,0 +1,39 @@
+name: Report a bug
+description: Something broke, looked wrong, or gave a bad route
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what you saw instead. A screenshot helps.
+    validations:
+      required: true
+  - type: input
+    id: profession
+    attributes:
+      label: Profession and skill level
+      placeholder: Tailoring 137/150
+  - type: dropdown
+    id: faction
+    attributes:
+      label: Faction
+      options: [Alliance, Horde]
+  - type: input
+    id: version
+    attributes:
+      label: Addon version
+      description: Shown in the addon list at character select.
+      placeholder: 0.4.0
+  - type: dropdown
+    id: auctionator
+    attributes:
+      label: Is Auctionator installed?
+      options: ["Yes", "No"]
+  - type: textarea
+    id: error
+    attributes:
+      label: Error text
+      description: If you have BugSack installed, paste the error it caught. Otherwise leave this empty.
+      render: text

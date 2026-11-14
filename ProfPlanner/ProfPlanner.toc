@@ -1,7 +1,7 @@
 ## Interface: 16001
 ## Title: ProfPlanner
 ## Notes: Profession levelling planner priced with live auction data.
-## Version: 0.3.0
+## Version: 0.4.0
 ## Author: Jack Smith-Morse
 ## OptionalDeps: Auctionator, TomTom
 ## SavedVariables: ProfPlannerDB
@@ -27,5 +27,6 @@ Inventory.lua
 Pricing.lua
 Optimiser.lua
 Navigation.lua
+Capture.lua
 UI\Panel.lua
 UI\Settings.lua

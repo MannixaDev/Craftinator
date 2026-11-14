@@ -1,0 +1,29 @@
+name: Submit data
+description: Share the trainer and vendor data the addon recorded for you
+title: "Data: "
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. In game, type `/pp export`, press Ctrl+C, and paste the text below.
+        It holds what trainers teach and vendors sell, and where they stand. The only
+        thing it says about your character is its faction.
+  - type: textarea
+    id: export
+    attributes:
+      label: Export text
+      description: Everything from "ProfPlanner export v1" to "END".
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where did you go?
+      description: Optional. For example "Orgrimmar and Thunder Bluff, all profession trainers".
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything that looked wrong in the addon?
+      description: Optional. For example a trainer the panel pointed to who could not teach your next rank.

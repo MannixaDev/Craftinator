@@ -37,17 +37,27 @@ Open a profession and the panel appears beside it. Click a step to select that r
 | `/pp send` | Send the shopping list to Auctionator |
 | `/pp route`, `/pp list` | Print the route or the shopping list in chat |
 | `/pp balance <silver>` | Set the Balanced value beyond the slider's range |
-| `/pp scan` | At a profession trainer: record what they teach (see below) |
+| `/pp export` | Show the trainer and vendor data recorded so far, ready to copy and share |
 
 ## Known limits
 
 - Tested on an Alliance character only so far.
 - The skill needed to learn some trainer recipes is not in the game files. Where no source
   has it, the addon assumes the recipe's yellow threshold and says so in the tooltip.
-  Running `/pp scan` at a trainer records the real values.
+  Visiting a trainer records the real values (see Helping with data).
 - Trainer positions are the Classic ones; most have not been checked on Forever.
 - Supply vendors are named but cannot be pinned (no position data).
 - Smelting (Mining) is not covered.
+
+## Helping with data
+
+The addon quietly records what profession trainers teach and what supply vendors sell
+whenever you open their windows, along with where they stand. Nothing about your character
+is recorded beyond its faction, and it can be switched off in `/pp config`.
+
+To share it: type `/pp export`, press Ctrl+C, and paste the text into a
+[Submit data](https://github.com/MannixaDev/ProfPlanner/issues/new/choose) issue.
+Horde trainers and vendors are the biggest gap.
 
 ## Data and credits
 

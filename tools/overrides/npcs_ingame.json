@@ -1,0 +1,63 @@
+{
+ "credit": "Recorded in game by the addon when trainer and vendor windows were opened",
+ "npcs": {
+  "1346": {
+   "name": "Georgio Bolero",
+   "role": "trainer",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "Mage Quarter",
+   "x": 0.5325,
+   "y": 0.8144,
+   "build": "70938",
+   "professions": [
+    "Tailoring"
+   ],
+   "ranks": [
+    "Apprentice",
+    "Journeyman",
+    "Expert"
+   ],
+   "maxSkill": 225
+  },
+  "5482": {
+   "name": "Stephen Ryback",
+   "role": "trainer",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "Old Town",
+   "x": 0.7824,
+   "y": 0.5321,
+   "build": "70938",
+   "professions": [
+    "Cooking"
+   ],
+   "ranks": [
+    "Apprentice",
+    "Journeyman"
+   ],
+   "maxSkill": 150
+  },
+  "5567": {
+   "name": "Sellandus",
+   "role": "trainer",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "Mage Quarter",
+   "x": 0.523,
+   "y": 0.8334,
+   "build": "70938",
+   "professions": [
+    "Tailoring"
+   ],
+   "ranks": [
+    "Apprentice",
+    "Journeyman"
+   ],
+   "maxSkill": 150
+  }
+ }
+}

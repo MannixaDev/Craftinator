@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""Fold /pp scan results into tools/overrides/<Profession>_ingame.json.
+"""Fold recorded trainer and vendor data into tools/overrides/.
 
-Usage (from the repo root), after /pp scan at a trainer and a /reload:
+Usage (from the repo root), with either kind of file:
     python tools/import_scans.py "<WoW>/_forever_/WTF/Account/<account>/SavedVariables/ProfPlanner.lua"
+    python tools/import_scans.py export.txt        (text copied from /pp export, e.g. out of an issue)
 
-Each scanned trainer entry gives a recipe's spell ID, the skill needed to learn it and the
-trainer's fee. Existing override values are kept unless a scan says otherwise. Then re-run
-tools/build_recipes.py for the professions it names. It also prints what each trainer
-teaches (ranks, position) so Data/NPCs.lua can be corrected by hand.
+Trainers: each entry gives a recipe's spell ID, the skill needed to learn it and the fee.
+These go into overrides/<Profession>_ingame.json; existing values are kept unless a record
+says otherwise. Then re-run tools/build_recipes.py for the professions it names.
+Trainer and vendor positions, ranks taught and items sold go into overrides/npcs_ingame.json,
+keyed by NPC id, for correcting Data/NPCs.lua and vendor_items.json.
 """
 
 import json
@@ -88,18 +90,67 @@ def recipe_spells():
     return spells
 
 
+def parse_export(text):
+    """Text from /pp export -> (trainer scans, vendor scans) in the SavedVariables shape."""
+    trainers, vendors, current = [], [], None
+    for line in text.splitlines():
+        fields = line.strip().split(";")
+        kind = fields[0]
+        if kind in ("T", "V") and len(fields) >= 10:
+            current = {
+                "npcID": int(fields[1]) if fields[1].isdigit() else None, "npcName": fields[2],
+                "faction": fields[3], "mapID": int(fields[4]) if fields[4].isdigit() else None,
+                "x": float(fields[5]) if fields[5] else None, "y": float(fields[6]) if fields[6] else None,
+                "zone": fields[7], "subzone": fields[8], "build": fields[9],
+                "services": [], "items": [],
+            }
+            (trainers if kind == "T" else vendors).append(current)
+        elif kind == "S" and current and len(fields) >= 5:
+            current["services"].append({
+                "spellID": int(fields[1]) if fields[1].isdigit() else None,
+                "skillRank": int(fields[2] or 0), "cost": int(fields[3] or 0), "name": fields[4],
+            })
+        elif kind == "I" and current and len(fields) >= 6:
+            current["items"].append({
+                "itemID": int(fields[1]), "price": int(fields[2] or 0), "stack": int(fields[3] or 1),
+                "available": int(fields[4] or -1), "extended": fields[5] == "1",
+            })
+    return trainers, vendors
+
+
+def as_list(table):
+    """A Lua array read by parse_saved_variables is a list, or a dict with integer keys."""
+    if isinstance(table, dict):
+        return [table[k] for k in sorted(k for k in table if isinstance(k, int))]
+    return table or []
+
+
+def npc_record(scan, role):
+    return {
+        "name": scan.get("npcName"), "role": role, "faction": scan.get("faction"), "mapID": scan.get("mapID"),
+        "zone": scan.get("zone"), "subzone": scan.get("subzone"),
+        "x": round(scan["x"], 4) if scan.get("x") else None, "y": round(scan["y"], 4) if scan.get("y") else None,
+        "build": str(scan.get("build") or ""),
+    }
+
+
 def main():
     if len(sys.argv) != 2:
         sys.exit(__doc__)
-    saved = parse_saved_variables(Path(sys.argv[1]).read_text(encoding="utf-8"))
-    scans = (saved.get("ProfPlannerDB") or {}).get("trainerScans") or {}
-    if not scans:
-        sys.exit("No trainer scans in that file. Run /pp scan at a trainer, then /reload.")
+    text = Path(sys.argv[1]).read_text(encoding="utf-8-sig")
+    if "ProfPlanner export v1" in text:
+        trainers, vendors = parse_export(text)
+    else:
+        saved = parse_saved_variables(text).get("ProfPlannerDB") or {}
+        trainers = list((saved.get("trainerScans") or {}).values())
+        vendors = list((saved.get("vendorScans") or {}).values())
+    if not trainers and not vendors:
+        sys.exit("Nothing recorded in that file. Visit a profession trainer or supply vendor, then /reload or /pp export.")
 
     spells = recipe_spells()
-    found = {}
-    for scan in scans.values():
-        services = scan.get("services") or []
+    found, npcs = {}, {}
+    for scan in trainers:
+        services = as_list(scan.get("services"))
         ranks, professions, unmatched = [], set(), 0
         for service in services:
             name = service.get("name") or ""
@@ -116,10 +167,25 @@ def main():
                 "learn": service.get("skillRank") or 1, "cost": service.get("cost") or 0,
             }
         top = max((RANK_CAPS[r] for r in ranks), default=None)
-        print(f"{scan.get('npcName')} (npc {scan.get('npcID')}), {scan.get('zone')} {scan.get('faction')}, "
+        print(f"trainer {scan.get('npcName')} (npc {scan.get('npcID')}), {scan.get('zone')} {scan.get('faction')}, "
               f"at {100 * (scan.get('x') or 0):.1f}, {100 * (scan.get('y') or 0):.1f}: "
               f"{', '.join(sorted(professions)) or 'no known recipes'}; teaches ranks {ranks or 'none'} "
               f"(skill cap {top}); {len(services)} entries, {unmatched} not in the recipe data")
+        if scan.get("npcID") and professions:
+            record = npc_record(scan, "trainer")
+            record.update({"professions": sorted(professions), "ranks": ranks, "maxSkill": top})
+            npcs[str(scan["npcID"])] = record
+
+    for scan in vendors:
+        items = as_list(scan.get("items"))
+        print(f"vendor {scan.get('npcName')} (npc {scan.get('npcID')}), {scan.get('zone')} {scan.get('faction')}, "
+              f"at {100 * (scan.get('x') or 0):.1f}, {100 * (scan.get('y') or 0):.1f}: {len(items)} reagent or recipe items")
+        if scan.get("npcID") and items:
+            record = npc_record(scan, "vendor")
+            record["items"] = [{"itemID": i["itemID"], "price": i.get("price", 0), "stack": i.get("stack", 1),
+                                "limited": i.get("available", -1) >= 0, "notGold": bool(i.get("extended"))}
+                               for i in items]
+            npcs[str(scan["npcID"])] = record
 
     for profession, recipes in sorted(found.items()):
         path = ROOT / "tools" / "overrides" / f"{profession.replace(' ', '')}_ingame.json"
@@ -131,6 +197,16 @@ def main():
         path.write_text(json.dumps(data, indent=1) + "\n", encoding="utf-8", newline="\n")
         print(f"{path.relative_to(ROOT)}: {len(recipes)} recipes scanned, {changed} new or changed, "
               f"{len(data['recipes'])} in total")
+
+    if npcs:
+        path = ROOT / "tools" / "overrides" / "npcs_ingame.json"
+        data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {
+            "credit": "Recorded in game by the addon when trainer and vendor windows were opened", "npcs": {}}
+        added = sum(1 for key in npcs if key not in data["npcs"])
+        data["npcs"].update(npcs)
+        data["npcs"] = dict(sorted(data["npcs"].items(), key=lambda item: int(item[0])))
+        path.write_text(json.dumps(data, indent=1) + "\n", encoding="utf-8", newline="\n")
+        print(f"{path.relative_to(ROOT)}: {len(npcs)} NPCs in this file, {added} new, {len(data['npcs'])} in total")
 
 
 if __name__ == "__main__":

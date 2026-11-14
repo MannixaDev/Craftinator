@@ -37,6 +37,7 @@ ns.RegisterEvent("ADDON_LOADED", function(name)
   if db.balanceCopper == nil then db.balanceCopper = 1000 end       -- Balanced: what one craft's time is worth
   if db.useOwned == nil then db.useOwned = true end                 -- count mats in bags and bank as free
   if db.toasts == nil then db.toasts = true end
+  if db.capture == nil then db.capture = true end                   -- record trainers and vendors you visit
   if db.useResale == nil then db.useResale = false end              -- subtract what the crafted item sells for
   db.sources = db.sources or { trainer = true, vendor = true, drop = false }
   char.bank = char.bank or {}
@@ -462,10 +463,12 @@ local function results(fn, ...)
   return packed
 end
 
-local function trainerScan()
+-- silent = true: called when a trainer window opens; prints nothing and keeps only
+-- profession trainers. Returns the record and whether this trainer is new.
+local function trainerScan(silent)
   local count = type(GetNumTrainerServices) == "function" and GetNumTrainerServices() or 0
   if count == 0 then
-    say("no trainer list found. Open a profession trainer window first, then type /pp scan.")
+    if not silent then say("no trainer list found. Open a profession trainer window first, then type /pp scan.") end
     return
   end
 
@@ -517,21 +520,27 @@ local function trainerScan()
     y = position and position.y,
     services = services,
   }
-  ProfPlannerDB.trainerScans = ProfPlannerDB.trainerScans or {}
-  ProfPlannerDB.trainerScans[tostring(scan.npcID or scan.npcName or "unknown")] = scan
-
   local withSkill, withSpell = 0, 0
   for _, service in ipairs(services) do
     if service.skillRank then withSkill = withSkill + 1 end
     if service.spellID then withSpell = withSpell + 1 end
   end
+  if silent and withSkill == 0 then return end -- a class trainer: nothing here needs a profession skill
+
+  ProfPlannerDB.trainerScans = ProfPlannerDB.trainerScans or {}
+  local key = tostring(scan.npcID or scan.npcName or "unknown")
+  local isNew = ProfPlannerDB.trainerScans[key] == nil
+  ProfPlannerDB.trainerScans[key] = scan
+  if silent then return scan, isNew end
   say(("scanned %s: %d entries, %d with a skill requirement, %d with a spell ID."):format(
     tostring(scan.npcName), #services, withSkill, withSpell))
   local sample = services[math.min(2, #services)]
   say(("example: %s, needs %s %s, costs %s copper"):format(
     tostring(sample.name), tostring(sample.skill), tostring(sample.skillRank), tostring(sample.cost)))
-  say("Saved. Type /reload to write it to disk.")
+  say("Saved. /pp export shows it as text to share.")
+  return scan, isNew
 end
+ns.ScanTrainer = trainerScan
 
 -- Slash commands -----------------------------------------------------------
 
@@ -574,6 +583,9 @@ SlashCmdList["PROFPLANNER"] = function(msg)
           line.need, line.cost and ns.Pricing.FormatMoney(line.cost) or "price unknown"))
       end
     end
+  elseif command == "export" then
+    local ok, err = pcall(ns.Capture.ShowExport)
+    if not ok then say("export failed: " .. tostring(err)) end
   elseif command == "send" then
     local ok, plan, problem = pcall(ns.BuildPlan)
     if not ok or not plan then
@@ -601,6 +613,6 @@ SlashCmdList["PROFPLANNER"] = function(msg)
     say("city reminders are now " .. (ProfPlannerDB.toasts and "on" or "off") .. ".")
   else
     say("commands: /pp (show or hide the panel), /pp config, /pp route, /pp list, /pp send (list to Auctionator),"
-      .. " /pp balance <silver>, /pp resale, /pp toasts, /pp debug, /pp scan (at a profession trainer)")
+      .. " /pp balance <silver>, /pp resale, /pp toasts, /pp export (share recorded trainer and vendor data), /pp debug")
   end
 end

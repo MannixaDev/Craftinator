@@ -98,8 +98,14 @@ local function build()
     "Shown when you are within 5 points of your skill cap, once per city.",
     function() return db().toasts end, function(on) db().toasts = on end)
 
+  addHeading(panel, -374, "Data")
+  addCheck(panel, -390, "Record the trainers and vendors I visit",
+    "Notes what profession trainers teach and what supply vendors sell, and where they stand. Nothing about"
+      .. " your character is recorded beyond its faction. /pp export shows the record so you can share it.",
+    function() return db().capture end, function(on) db().capture = on end)
+
   local prices = panel:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
-  prices:SetPoint("TOPLEFT", 16, -376)
+  prices:SetPoint("TOPLEFT", 16, -430)
   prices:SetText("Prices: vendor price first, then Auctionator, then TSM.")
 
   panel:SetScript("OnShow", Settings_.Sync)
