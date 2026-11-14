@@ -21,6 +21,25 @@
    ],
    "maxSkill": 225
   },
+  "2327": {
+   "name": "Shaina Fuller",
+   "role": "trainer",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "Cathedral of Light",
+   "x": 0.5303,
+   "y": 0.4474,
+   "build": "70938",
+   "professions": [
+    "First Aid"
+   ],
+   "ranks": [
+    "Journeyman",
+    "Apprentice"
+   ],
+   "maxSkill": 150
+  },
   "5482": {
    "name": "Stephen Ryback",
    "role": "trainer",

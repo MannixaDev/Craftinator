@@ -1,7 +1,7 @@
 -- Data/NPCs.lua: trainers, supply vendors, recipe vendors (per faction).
 -- Hand-curated: spawn positions are not in the client data.
 -- Capital-city profession trainers. Names and coordinates are the Classic locations as
--- listed by foreverdb.net. Checked in game with /pp scan: Georgio Bolero, Sellandus, Stephen Ryback.
+-- listed by foreverdb.net. Checked in game: Georgio Bolero, Sellandus, Stephen Ryback, Shaina Fuller.
 -- maxSkill is the Classic cap each rank trains to (Journeyman 150, Expert 225, Artisan 300).
 -- Cooking and First Aid trainers are listed at 150: in Classic the higher ranks come from books.
 -- Specialisation trainers (armoursmith, weaponsmith, gnomish/goblin engineering) are left out.
@@ -118,7 +118,7 @@ trainers("Cooking", {
 })
 
 trainers("First Aid", {
-  { "Shaina Fuller", "T", "SW", 52.9, 44.9 }, { "Nissa Firestone", "T", "IF", 54.8, 58.5 },
+  { "Shaina Fuller", "T", "SW", 53.0, 44.7, 150 }, { "Nissa Firestone", "T", "IF", 54.8, 58.5 },
   { "Dannelor", "T", "DN", 51.7, 12.5 },
   { "Arnok", "T", "OG", 34.3, 84.5 }, { "Pand Stonebinder", "T", "TB", 29.5, 21.6 },
   { "Mary Edras", "T", "UC", 73.4, 55.8 },
