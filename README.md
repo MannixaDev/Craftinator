@@ -1,0 +1,73 @@
+# ProfPlanner
+
+A profession levelling planner for WoW Forever. It docks a panel to the profession
+window and builds a route from your current skill to your cap, priced with live
+auction data from your realm, so you can pick the cheapest or the quickest way to level.
+
+## What it does
+
+- **Route:** the recipe to craft at each skill range, how many crafts to expect, and the cost.
+- **Three modes:** Cheapest, Fastest (fewest crafts), and Balanced (a slider sets what one craft's time is worth).
+- **Live prices:** Auctionator first, then TSM. Vendor-sold reagents always use the vendor price.
+- **Your mats:** reagents in your bags and bank count as free (the bank is read when you open it).
+- **Shopping list:** hover the footer to see what is left to buy; one click sends it to Auctionator.
+- **Where to go:** names the trainer and supply vendors in your city and places a map pin on the trainer (TomTom if installed).
+- **Recipe filters:** trainer, vendor and dropped recipes can each be switched on or off.
+
+Professions covered: Alchemy, Blacksmithing, Cooking, Enchanting, Engineering, First Aid,
+Leatherworking and Tailoring.
+
+## Install
+
+1. Download the latest zip from [Releases](https://github.com/MannixaDev/ProfPlanner/releases),
+   or use Code > Download ZIP on this page.
+2. Copy the `ProfPlanner` folder (the one containing `ProfPlanner.toc`) into
+   `World of Warcraft\_forever_\Interface\AddOns\`.
+3. Restart the game. [Auctionator](https://www.curseforge.com/wow/addons/auctionator) is
+   optional but strongly recommended: without it only vendor prices are known.
+
+## Use
+
+Open a profession and the panel appears beside it. Click a step to select that recipe.
+
+| Command | What it does |
+| --- | --- |
+| `/pp` | Show or hide the panel |
+| `/pp config` | Open the options panel |
+| `/pp send` | Send the shopping list to Auctionator |
+| `/pp route`, `/pp list` | Print the route or the shopping list in chat |
+| `/pp balance <silver>` | Set the Balanced value beyond the slider's range |
+| `/pp scan` | At a profession trainer: record what they teach (see below) |
+
+## Known limits
+
+- Tested on an Alliance character only so far.
+- The skill needed to learn some trainer recipes is not in the game files. Where no source
+  has it, the addon assumes the recipe's yellow threshold and says so in the tooltip.
+  Running `/pp scan` at a trainer records the real values.
+- Trainer positions are the Classic ones; most have not been checked on Forever.
+- Supply vendors are named but cannot be pinned (no position data).
+- Smelting (Mining) is not covered.
+
+## Data and credits
+
+- Recipes, reagents and skill thresholds are generated from the game client's data tables
+  (via [wago.tools](https://wago.tools)) by the scripts in `tools/`.
+- Learn skills and recipe sources that the client does not hold come from
+  [Zockify](https://www.zockify.com/forever/professions/) and from trainers scanned in game.
+- Trainer locations and vendor names come from [foreverdb.net](https://foreverdb.net).
+
+## Development
+
+`Optimiser.lua` and `Pricing.lua` are plain Lua with no game API calls and are unit-tested.
+
+```
+busted
+luacheck ProfPlanner spec
+```
+
+See `tools/README.md` for regenerating the data after a game patch, and `SPEC.md` for the design.
+
+## Licence
+
+MIT. See `LICENSE`.

@@ -1,0 +1,24 @@
+name: Release
+# Push a tag such as v0.3.0 to build ProfPlanner-v0.3.0.zip and attach it to a GitHub release.
+on:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check the tag matches the .toc version
+        run: |
+          version=$(grep -oP '^## Version: \K.*' ProfPlanner/ProfPlanner.toc | tr -d '\r')
+          test "v$version" = "$GITHUB_REF_NAME" || { echo "Tag $GITHUB_REF_NAME does not match .toc version $version"; exit 1; }
+      - name: Build the zip
+        run: |
+          cp LICENSE ProfPlanner/LICENSE.txt
+          zip -r "ProfPlanner-$GITHUB_REF_NAME.zip" ProfPlanner
+      - name: Create the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" "ProfPlanner-$GITHUB_REF_NAME.zip" --title "ProfPlanner $GITHUB_REF_NAME" --generate-notes
