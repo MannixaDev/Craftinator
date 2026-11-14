@@ -1,0 +1,2185 @@
+{
+ "credit": "Learn skills and recipe sources from Zockify (zockify.com)",
+ "url": "https://www.zockify.com/forever/professions/engineering/recipes/",
+ "fetched": "2026-11-14",
+ "recipes": [
+  {
+   "name": "Arcanite Dragonling",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Schematic: Arcanite Dragonling Drop: Winterspring ( Cobalt Mageweaver )"
+  },
+  {
+   "name": "Arcane Bomb",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Schematic: Arcane Bomb World drop (level 51–61)"
+  },
+  {
+   "name": "Flawless Arcanite Rifle",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Schematic: Flawless Arcanite Rifle Drop: Eastern Plaguelands ( Mossflayer Shadowhunter )"
+  },
+  {
+   "name": "Field Repair Bot 74A",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Field Repair Bot 74A Source not known yet"
+  },
+  {
+   "name": "Biznicks 247×128 Accurascope",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Biznicks 247×128 Accurascope Source not known yet"
+  },
+  {
+   "name": "Core Marksman Rifle",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Core Marksman Rifle Source not known yet"
+  },
+  {
+   "name": "Force Reactive Disk",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Force Reactive Disk Source not known yet"
+  },
+  {
+   "name": "Ultra-Flash Shadow Reflector",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Schematic: Ultra-Flash Shadow Reflector Drop: Stratholme (Trash)"
+  },
+  {
+   "name": "Bloodvine Goggles",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Schematic: Bloodvine Goggles Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Bloodvine Lens",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Schematic: Bloodvine Lens Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Anarchist's Workbench",
+   "orange": null,
+   "yellow": 300,
+   "green": 300,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Blueprint: Anarchist's Workbench Source not known yet"
+  },
+  {
+   "name": "EZ-Thro Dark Bomb",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: EZ-Thro Dark Bomb Source not known yet"
+  },
+  {
+   "name": "EZ-Thro Mana Bomb",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Schematic: EZ-Thro Mana Bomb Drop: Felwood ( Jaedenar Legionnaire )"
+  },
+  {
+   "name": "EZ-Thro Field Transporter: Gadgetzan",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: EZ-Thro Field Transporter: Gadgetzan Source not known yet"
+  },
+  {
+   "name": "SAF-T Emergency Ripper: Everlook",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: SAF-T Emergency Ripper: Everlook Source not known yet"
+  },
+  {
+   "name": "EZ and SAF Field Transporter: Mt. Hyjal",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: EZ and SAF Field Transporter: Mt. Hyjal Source not known yet"
+  },
+  {
+   "name": "Ultrasafe Rechargeable Battery",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Schematic: Ultrasafe Rechargeable Battery Vendor (360 Merchant's Favor )"
+  },
+  {
+   "name": "Dimensional Transporter – Mt. Hyjal",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor quest",
+   "sourceText": "Schematic: Dimensional Transporter: Mt. Hyjal Vendor ( Pexmit ) Quest: Itching for a Fixing"
+  },
+  {
+   "name": "Gnomish Poultryizer",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Schematic: Gnomish Poultryizer Vendor (360 Merchant's Favor )"
+  },
+  {
+   "name": "Ultralight Goblin Glider",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Schematic: Ultralight Goblin Glider Vendor (360 Merchant's Favor )"
+  },
+  {
+   "name": "Gnomish Weather Machine NYI",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Gnomish Weather Machine Source not known yet"
+  },
+  {
+   "name": "Stealthman 52",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Schematic: Stealthman 52 Vendor (360 Merchant's Favor )"
+  },
+  {
+   "name": "SAF-T Nitro Boosts",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: SAF-T Nitro Boosts Source not known yet"
+  },
+  {
+   "name": "EZ-Thro Magnetic Displacer",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: EZ-Thro Magnetic Displacer Source not known yet"
+  },
+  {
+   "name": "SAF-T Teleport",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: SAF-T Teleport Source not known yet"
+  },
+  {
+   "name": "Swiftfeather Arrow",
+   "orange": 300,
+   "yellow": 310,
+   "green": 315,
+   "grey": 320,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Swiftfeather Arrow Source not known yet"
+  },
+  {
+   "name": "Swiftstrike Shot",
+   "orange": 300,
+   "yellow": 310,
+   "green": 315,
+   "grey": 320,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Swiftstrike Shot Source not known yet"
+  },
+  {
+   "name": "SAF-T Ultra Precision Scope",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: SAF-T Ultra Precision Scope Source not known yet"
+  },
+  {
+   "name": "Hyper Deluxe Sniper Rifle Mk XVII",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Hyper Deluxe Sniper Rifle Mk XVII Source not known yet"
+  },
+  {
+   "name": "Voice Amplification Modulator",
+   "orange": 290,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Schematic: Voice Amplification Modulator Drop: Stratholme (Trash)"
+  },
+  {
+   "name": "Master Engineer's Goggles",
+   "orange": 290,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Schematic: Master Engineer's Goggles Drop: Blackrock Depths (Trash)"
+  },
+  {
+   "name": "Hyper-Radiant Flame Reflector",
+   "orange": 290,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Schematic: Hyper-Radiant Flame Reflector Drop: Blackrock Spire (Solakar Flamewreath)"
+  },
+  {
+   "name": "Dark Iron Bomb",
+   "orange": 285,
+   "yellow": 305,
+   "green": 315,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Schematic: Dark Iron Bomb Drop: Blackrock Depths (Trash)"
+  },
+  {
+   "name": "Thorium Shells",
+   "orange": 285,
+   "yellow": 305,
+   "green": 315,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Schematic: Thorium Shells World drop (level 51–61)"
+  },
+  {
+   "name": "Delicate Arcanite Converter",
+   "orange": 285,
+   "yellow": 305,
+   "green": 315,
+   "grey": 325,
+   "source": "vendor",
+   "sourceText": "Schematic: Delicate Arcanite Converter Vendor ( Xizzer Fizzbolt )"
+  },
+  {
+   "name": "EZ-Thro Shell",
+   "orange": null,
+   "yellow": 285,
+   "green": 287,
+   "grey": 290,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: EZ-Thro Shell Source not known yet"
+  },
+  {
+   "name": "EZ-Thro Thorium Grenade",
+   "orange": null,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: EZ-Thro Thorium Grenade Source not known yet"
+  },
+  {
+   "name": "Satchel of Dark Iron Bombs",
+   "orange": 285,
+   "yellow": 290,
+   "green": 292,
+   "grey": 295,
+   "source": "vendor",
+   "sourceText": "Schematic: Satchel of Dark Iron Bombs Vendor (270 Merchant's Favor )"
+  },
+  {
+   "name": "Thorium Tube",
+   "orange": 275,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "vendor",
+   "sourceText": "Schematic: Thorium Tube Vendor ( Kor'gar , Xizzer Fizzbolt )"
+  },
+  {
+   "name": "Dark Iron Rifle",
+   "orange": 275,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "drop",
+   "sourceText": "Schematic: Dark Iron Rifle Drop: Blackrock Depths (Trash)"
+  },
+  {
+   "name": "Masterwork Target Dummy",
+   "orange": 275,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "vendor",
+   "sourceText": "Schematic: Masterwork Target Dummy Vendor ( Kor'gar , Xizzer Fizzbolt )"
+  },
+  {
+   "name": "Major Recombobulator",
+   "orange": 275,
+   "yellow": 285,
+   "green": 290,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Schematic: Major Recombobulator Drop: Dire Maul (Gordok Tribute Chest)"
+  },
+  {
+   "name": "Powerful Seaforium Charge",
+   "orange": null,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "vendor",
+   "sourceText": "Schematic: Powerful Seaforium Charge Vendor ( Xizzer Fizzbolt )"
+  },
+  {
+   "name": "Large Blue Rocket Cluster",
+   "orange": null,
+   "yellow": 275,
+   "green": 280,
+   "grey": 285,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Large Blue Rocket Cluster Source not known yet"
+  },
+  {
+   "name": "Large Green Rocket Cluster",
+   "orange": null,
+   "yellow": 275,
+   "green": 280,
+   "grey": 285,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Large Green Rocket Cluster Source not known yet"
+  },
+  {
+   "name": "Large Red Rocket Cluster",
+   "orange": null,
+   "yellow": 275,
+   "green": 280,
+   "grey": 285,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Large Red Rocket Cluster Source not known yet"
+  },
+  {
+   "name": "Cluster Launcher",
+   "orange": 275,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Cluster Launcher Source not known yet"
+  },
+  {
+   "name": "Steam Tonk Controller",
+   "orange": 275,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Steam Tonk Controller Source not known yet"
+  },
+  {
+   "name": "Loot-A-Rang",
+   "orange": null,
+   "yellow": 275,
+   "green": 277,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Schematic: Loot-A-Rang Vendor (270 Merchant's Favor )"
+  },
+  {
+   "name": "SAF-T Tube",
+   "orange": null,
+   "yellow": 275,
+   "green": 277,
+   "grey": 280,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: SAF-T Tube Source not known yet"
+  },
+  {
+   "name": "SAF-T Clever Dynamite",
+   "orange": null,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Schematic: SAF-T Clever Dynamite Drop: Burning Steppes ( Firegut Ogre )"
+  },
+  {
+   "name": "Large Purple Rocket Cluster",
+   "orange": null,
+   "yellow": 275,
+   "green": 280,
+   "grey": 285,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Large Purple Rocket Cluster Source not known yet"
+  },
+  {
+   "name": "Large White Rocket Cluster",
+   "orange": null,
+   "yellow": 275,
+   "green": 280,
+   "grey": 285,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Large White Rocket Cluster Source not known yet"
+  },
+  {
+   "name": "Large Yellow Rocket Cluster",
+   "orange": null,
+   "yellow": 275,
+   "green": 280,
+   "grey": 285,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Large Yellow Rocket Cluster Source not known yet"
+  },
+  {
+   "name": "Spellpower Goggles Xtreme Plus",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Schematic: Spellpower Goggles Xtreme Plus Drop: Azshara ( Spitelash Siren )"
+  },
+  {
+   "name": "Lifelike Mechanical Toad",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "drop",
+   "sourceText": "Schematic: Lifelike Mechanical Toad World drop (level 48–60)"
+  },
+  {
+   "name": "Goblin Jumper Cables XL",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "drop",
+   "sourceText": "Schematic: Goblin Jumper Cables XL Drop: Blackrock Depths (Guzzler)"
+  },
+  {
+   "name": "Gnomish Alarm-O-Bot",
+   "orange": 265,
+   "yellow": 275,
+   "green": 280,
+   "grey": 285,
+   "source": "drop",
+   "sourceText": "Schematic: Gnomish Alarm-O-Bot Drop: Blackrock Depths (Trash)"
+  },
+  {
+   "name": "Thorium Grenade",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Schematic: Thorium Grenade Vendor ( Gearcutter Cogspinner )"
+  },
+  {
+   "name": "Thorium Widget",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Schematic: Thorium Widget Vendor ( Gearcutter Cogspinner )"
+  },
+  {
+   "name": "Thorium Rifle",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Schematic: Thorium Rifle World drop (level 46–60)"
+  },
+  {
+   "name": "Truesilver Transformer",
+   "orange": 260,
+   "yellow": 270,
+   "green": 275,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Schematic: Truesilver Transformer Vendor ( Mazk Snipeshot )"
+  },
+  {
+   "name": "Gyrofreeze Ice Reflector",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Schematic: Gyrofreeze Ice Reflector Vendor ( Xizzer Fizzbolt )"
+  },
+  {
+   "name": "World Enlarger",
+   "orange": null,
+   "yellow": 260,
+   "green": 265,
+   "grey": 270,
+   "source": "drop",
+   "sourceText": "Schematic: World Enlarger Drop: Blackrock Depths (Trash)"
+  },
+  {
+   "name": "Unsanctified Grenade",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Schematic: Unsanctified Grenade Drop: Alterac Mountains ( Crushridge Warmonger )"
+  },
+  {
+   "name": "Mithril Mechanical Dragonling",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Schematic: Mithril Mechanical Dragonling Vendor ( Ruppo Zipcoil )"
+  },
+  {
+   "name": "Snake Burst Firework",
+   "orange": null,
+   "yellow": 250,
+   "green": 260,
+   "grey": 270,
+   "source": "vendor",
+   "sourceText": "Schematic: Snake Burst Firework Vendor ( Zorbin Fandazzle )"
+  },
+  {
+   "name": "SAF-T Disposable Parachute",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Schematic: SAF-T Disposable Parachute Vendor (270 Merchant's Favor )"
+  },
+  {
+   "name": "Gnomish Army Knife",
+   "orange": null,
+   "yellow": 250,
+   "green": 252,
+   "grey": 255,
+   "source": "vendor",
+   "sourceText": "Schematic: Gnomish Army Knife Vendor (270 Merchant's Favor )"
+  },
+  {
+   "name": "Sniper Scope",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Schematic: Sniper Scope World drop (level 42–56)"
+  },
+  {
+   "name": "EZ-Thro Tru-Trigger",
+   "orange": null,
+   "yellow": 240,
+   "green": 242,
+   "grey": 245,
+   "source": "drop",
+   "sourceText": "Schematic: EZ-Thro Tru-Trigger Drop: The Hinterlands ( Jade Ooze )"
+  },
+  {
+   "name": "Tru-Trigger Frag Bomb",
+   "orange": null,
+   "yellow": 240,
+   "green": 260,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Schematic: Tru-Trigger Frag Bomb Drop: Tanaris ( Dunemaul Brute )"
+  },
+  {
+   "name": "Deepdive Helmet",
+   "orange": 230,
+   "yellow": 250,
+   "green": 260,
+   "grey": 270,
+   "source": "vendor",
+   "sourceText": "Schematic: Deepdive Helmet Vendor ( Jubie Gadgetspring )"
+  },
+  {
+   "name": "Satchel of Iron Bombs",
+   "orange": 230,
+   "yellow": 235,
+   "green": 237,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Schematic: Satchel of Iron Bombs Vendor (270 Merchant's Favor )"
+  },
+  {
+   "name": "Spellpower Goggles Xtreme",
+   "orange": 225,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "drop",
+   "sourceText": "Schematic: Spellpower Goggles Xtreme World drop (level 36–50)"
+  },
+  {
+   "name": "Parachute Cloak",
+   "orange": 225,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "drop",
+   "sourceText": "Schematic: Parachute Cloak World drop (level 35–51)"
+  },
+  {
+   "name": "Blue Rocket Cluster",
+   "orange": null,
+   "yellow": 225,
+   "green": 237,
+   "grey": 250,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Blue Rocket Cluster Source not known yet"
+  },
+  {
+   "name": "Green Rocket Cluster",
+   "orange": null,
+   "yellow": 225,
+   "green": 237,
+   "grey": 250,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Green Rocket Cluster Source not known yet"
+  },
+  {
+   "name": "Red Rocket Cluster",
+   "orange": null,
+   "yellow": 225,
+   "green": 237,
+   "grey": 250,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Red Rocket Cluster Source not known yet"
+  },
+  {
+   "name": "Firework Launcher",
+   "orange": 225,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Firework Launcher Source not known yet"
+  },
+  {
+   "name": "Emergency Field Cloak",
+   "orange": 225,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Schematic: Emergency Field Cloak Vendor (270 Merchant's Favor )"
+  },
+  {
+   "name": "Compact Critter Carrier",
+   "orange": 225,
+   "yellow": 230,
+   "green": 232,
+   "grey": 235,
+   "source": "vendor",
+   "sourceText": "Schematic: Compact Critter Carrier Vendor (270 Merchant's Favor )"
+  },
+  {
+   "name": "Purple Rocket Cluster",
+   "orange": null,
+   "yellow": 225,
+   "green": 237,
+   "grey": 250,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Purple Rocket Cluster Source not known yet"
+  },
+  {
+   "name": "White Rocket Cluster",
+   "orange": null,
+   "yellow": 225,
+   "green": 237,
+   "grey": 250,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: White Rocket Cluster Source not known yet"
+  },
+  {
+   "name": "Yellow Rocket Cluster",
+   "orange": null,
+   "yellow": 225,
+   "green": 237,
+   "grey": 250,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Yellow Rocket Cluster Source not known yet"
+  },
+  {
+   "name": "Catseye Ultra Goggles",
+   "orange": 220,
+   "yellow": 240,
+   "green": 250,
+   "grey": 260,
+   "source": "drop",
+   "sourceText": "Schematic: Catseye Ultra Goggles World drop (level 35–50)"
+  },
+  {
+   "name": "Mithril Heavy-bore Rifle",
+   "orange": 220,
+   "yellow": 240,
+   "green": 250,
+   "grey": 260,
+   "source": "drop",
+   "sourceText": "Schematic: Mithril Heavy-bore Rifle World drop (level 35–51)"
+  },
+  {
+   "name": "SAF-T Casing",
+   "orange": null,
+   "yellow": 215,
+   "green": 217,
+   "grey": 220,
+   "source": "drop",
+   "sourceText": "Schematic: SAF-T Casing Drop: Searing Gorge ( Dark Iron Geologist )"
+  },
+  {
+   "name": "SAF-T Bomb",
+   "orange": null,
+   "yellow": 215,
+   "green": 230,
+   "grey": 245,
+   "source": "drop",
+   "sourceText": "Schematic: SAF-T Bomb Drop: Tanaris ( Wastewander Thief )"
+  },
+  {
+   "name": "Deadly Scope",
+   "orange": 210,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Schematic: Deadly Scope Vendor ( Knaz Blunderflame , Yuka Screwspigot )"
+  },
+  {
+   "name": "Goblin Mining Helmet",
+   "orange": 205,
+   "yellow": 225,
+   "green": 235,
+   "grey": 245,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Goblin Mining Helmet Source not known yet"
+  },
+  {
+   "name": "Pet Bombling",
+   "orange": null,
+   "yellow": 205,
+   "green": 207,
+   "grey": 210,
+   "source": "drop",
+   "sourceText": "Schematic: Pet Bombling Drop: Gnomeregan (Mekgineer Thermaplugg)"
+  },
+  {
+   "name": "Lil' Smoky",
+   "orange": null,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Schematic: Lil' Smoky Drop: Gnomeregan (Trash)"
+  },
+  {
+   "name": "Mechanical Dragonling",
+   "orange": 200,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Schematic: Mechanical Dragonling Vendor ( Gnaz Blunderflame )"
+  },
+  {
+   "name": "Gnomish Cloaking Device",
+   "orange": 200,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "drop vendor",
+   "sourceText": "Schematic: Gnomish Cloaking Device Drop: Gnomeregan (Mekgineer Thermaplugg) Vendor ( Zan Shivsproket )"
+  },
+  {
+   "name": "Large Seaforium Charge",
+   "orange": null,
+   "yellow": 200,
+   "green": 220,
+   "grey": 240,
+   "source": "drop",
+   "sourceText": "Schematic: Large Seaforium Charge World drop (level 30–46)"
+  },
+  {
+   "name": "Ez-Thro Dynamite II",
+   "orange": null,
+   "yellow": 200,
+   "green": 210,
+   "grey": 220,
+   "source": "vendor",
+   "sourceText": "Schematic: EZ-Thro Dynamite II Vendor ( Blizrik Buckshot , Fizzix Boomshot )"
+  },
+  {
+   "name": "EZ-Thro Grenade",
+   "orange": null,
+   "yellow": 200,
+   "green": 220,
+   "grey": 240,
+   "source": "drop",
+   "sourceText": "Schematic: EZ-Thro Grenade Drop: Uldaman ( Shadowforge Geologist )"
+  },
+  {
+   "name": "Floppy Goggles",
+   "orange": 200,
+   "yellow": 205,
+   "green": 207,
+   "grey": 210,
+   "source": "vendor",
+   "sourceText": "Schematic: Floppy Goggles Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Bent Goggles",
+   "orange": 200,
+   "yellow": 205,
+   "green": 207,
+   "grey": 210,
+   "source": "vendor",
+   "sourceText": "Schematic: Bent Goggles Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Stuckbutton Goggles",
+   "orange": 200,
+   "yellow": 205,
+   "green": 207,
+   "grey": 210,
+   "source": "vendor",
+   "sourceText": "Schematic: Stuckbutton Goggles Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Dented Goggles",
+   "orange": 200,
+   "yellow": 205,
+   "green": 207,
+   "grey": 210,
+   "source": "vendor",
+   "sourceText": "Schematic: Dented Goggles Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Goblin Land Mine",
+   "orange": 195,
+   "yellow": 215,
+   "green": 225,
+   "grey": 235,
+   "source": "drop",
+   "sourceText": "Schematic: Goblin Land Mine World drop (level 31–45)"
+  },
+  {
+   "name": "Snowmaster 9000",
+   "orange": null,
+   "yellow": 190,
+   "green": 210,
+   "grey": 230,
+   "source": "drop",
+   "sourceText": "Schematic: Snowmaster 9000 Drop: Smokywood Pastures Special Gift"
+  },
+  {
+   "name": "EZ-Thro Fireproof Fuse",
+   "orange": null,
+   "yellow": 190,
+   "green": 192,
+   "grey": 195,
+   "source": "vendor",
+   "sourceText": "Schematic: EZ-Thro Fireproof Fuse Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "EZ-Thro Bronze Mortar",
+   "orange": 190,
+   "yellow": 210,
+   "green": 220,
+   "grey": 230,
+   "source": "drop",
+   "sourceText": "Schematic: EZ-Thro Bronze Mortar Drop: Arathi Highlands ( Boulderfist Shaman )"
+  },
+  {
+   "name": "Centaur Banner Deployment Device",
+   "orange": null,
+   "yellow": 190,
+   "green": 197,
+   "grey": 205,
+   "source": "vendor quest",
+   "sourceText": "Schematic: Centaur Banner Deployment Device Vendor ( Gorhak ) Quest: Gizmo for Warug"
+  },
+  {
+   "name": "Craftsman's Monocle",
+   "orange": 185,
+   "yellow": 205,
+   "green": 215,
+   "grey": 225,
+   "source": "drop",
+   "sourceText": "Schematic: Craftsman's Monocle Drop: Gnomeregan (Mekgineer Thermaplugg)"
+  },
+  {
+   "name": "Flash Bomb",
+   "orange": null,
+   "yellow": 185,
+   "green": 205,
+   "grey": 225,
+   "source": "drop quest",
+   "sourceText": "Schematic: Flash Bomb Drop: Gnomeregan ( Mekgineer Thermaplugg ) Quest: Flash Bomb Recipe"
+  },
+  {
+   "name": "Accurate Scope",
+   "orange": 180,
+   "yellow": 200,
+   "green": 210,
+   "grey": 220,
+   "source": "vendor",
+   "sourceText": "Schematic: Accurate Scope Vendor ( Mazk Snipeshot )"
+  },
+  {
+   "name": "Bright-Eye Goggles",
+   "orange": 175,
+   "yellow": 195,
+   "green": 205,
+   "grey": 215,
+   "source": "drop",
+   "sourceText": "Schematic: Bright-Eye Goggles World drop (level 25–40)"
+  },
+  {
+   "name": "Large Blue Rocket",
+   "orange": null,
+   "yellow": 175,
+   "green": 187,
+   "grey": 200,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Large Blue Rocket Source not known yet"
+  },
+  {
+   "name": "Large Green Rocket",
+   "orange": null,
+   "yellow": 175,
+   "green": 187,
+   "grey": 200,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Large Green Rocket Source not known yet"
+  },
+  {
+   "name": "Large Red Rocket",
+   "orange": null,
+   "yellow": 175,
+   "green": 187,
+   "grey": 200,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Large Red Rocket Source not known yet"
+  },
+  {
+   "name": "SAF-T Bell",
+   "orange": null,
+   "yellow": 175,
+   "green": 177,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Schematic: SAF-T Bell Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Shafety Sheep",
+   "orange": 175,
+   "yellow": 200,
+   "green": 212,
+   "grey": 225,
+   "source": "drop",
+   "sourceText": "Schematic: Shafety Sheep Drop: Stranglethorn Vale ( Venture Co. Miner )"
+  },
+  {
+   "name": "Whimsical Waistwrap",
+   "orange": 175,
+   "yellow": 180,
+   "green": 182,
+   "grey": 185,
+   "source": "vendor",
+   "sourceText": "Schematic: Whimsical Waistwrap Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Gizmo Girdle",
+   "orange": 175,
+   "yellow": 180,
+   "green": 182,
+   "grey": 185,
+   "source": "vendor",
+   "sourceText": "Schematic: Gizmo Girdle Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Clanking Cord",
+   "orange": 175,
+   "yellow": 180,
+   "green": 182,
+   "grey": 185,
+   "source": "vendor",
+   "sourceText": "Schematic: Clanking Cord Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Large Purple Rocket",
+   "orange": null,
+   "yellow": 175,
+   "green": 187,
+   "grey": 200,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Large Purple Rocket Source not known yet"
+  },
+  {
+   "name": "Large White Rocket",
+   "orange": null,
+   "yellow": 175,
+   "green": 187,
+   "grey": 200,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Large White Rocket Source not known yet"
+  },
+  {
+   "name": "Large Yellow Rocket",
+   "orange": null,
+   "yellow": 175,
+   "green": 187,
+   "grey": 200,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Large Yellow Rocket Source not known yet"
+  },
+  {
+   "name": "Portable Bronze Mortar",
+   "orange": 165,
+   "yellow": 185,
+   "green": 195,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Schematic: Portable Bronze Mortar World drop (level 26–40)"
+  },
+  {
+   "name": "Goblin Jumper Cables",
+   "orange": null,
+   "yellow": 160,
+   "green": 180,
+   "grey": 200,
+   "source": "drop vendor",
+   "sourceText": "Schematic: Goblin Jumper Cables Drop: Hillsbrad Foothills ( Daggerspine Siren ) Drop: Gnomeregan ( Mekgineer Thermaplugg ) Vendor ( Kzixx , Veenix , Zixil )"
+  },
+  {
+   "name": "Satchel of Bronze Bombs",
+   "orange": 165,
+   "yellow": 170,
+   "green": 172,
+   "grey": 175,
+   "source": "vendor",
+   "sourceText": "Schematic: Satchel of Bronze Bombs Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Discombobulator Ray",
+   "orange": 160,
+   "yellow": 180,
+   "green": 190,
+   "grey": 200,
+   "source": "drop",
+   "sourceText": "Schematic: Discombobulator Ray Drop: Gnomeregan (Mekgineer Thermaplugg)"
+  },
+  {
+   "name": "Ice Deflector",
+   "orange": 155,
+   "yellow": 175,
+   "green": 185,
+   "grey": 195,
+   "source": "vendor",
+   "sourceText": "Schematic: Ice Deflector Vendor ( Rizz Loosebolt , Super-Seller 680 )"
+  },
+  {
+   "name": "Red Firework",
+   "orange": null,
+   "yellow": 150,
+   "green": 162,
+   "grey": 175,
+   "source": "vendor",
+   "sourceText": "Schematic: Red Firework Vendor ( Sovik )"
+  },
+  {
+   "name": "Blue Firework",
+   "orange": null,
+   "yellow": 150,
+   "green": 162,
+   "grey": 175,
+   "source": "vendor",
+   "sourceText": "Schematic: Blue Firework Vendor ( Darian Singh , Gearcutter Cogspinner )"
+  },
+  {
+   "name": "Green Firework",
+   "orange": null,
+   "yellow": 150,
+   "green": 162,
+   "grey": 175,
+   "source": "vendor",
+   "sourceText": "Schematic: Green Firework Vendor ( Crazk Sparks , Gagsprocket )"
+  },
+  {
+   "name": "SAF-T Jumbo Dynamite",
+   "orange": null,
+   "yellow": 150,
+   "green": 160,
+   "grey": 170,
+   "source": "drop",
+   "sourceText": "Schematic: SAF-T Jumbo Dynamite Drop: Wetlands ( Dark Iron Demolitionist ) Drop: Dragonmaw Saboteur"
+  },
+  {
+   "name": "Moonsight Rifle",
+   "orange": 145,
+   "yellow": 170,
+   "green": 182,
+   "grey": 195,
+   "source": "drop",
+   "sourceText": "Schematic: Moonsight Rifle World drop (level 21–36)"
+  },
+  {
+   "name": "No Slip SAF-T Padding",
+   "orange": null,
+   "yellow": 145,
+   "green": 147,
+   "grey": 150,
+   "source": "vendor",
+   "sourceText": "Schematic: No Slip SAF-T Padding Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "SAF-T Bronze Bomb",
+   "orange": null,
+   "yellow": 145,
+   "green": 170,
+   "grey": 195,
+   "source": "drop",
+   "sourceText": "Schematic: SAF-T Bronze Bomb Drop: Tirisfal Glades ( Scarlet Scout )"
+  },
+  {
+   "name": "Minor Recombobulator",
+   "orange": 140,
+   "yellow": 165,
+   "green": 177,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Schematic: Minor Recombobulator Vendor ( Fradd Swiftgear , Gagsprocket , Namdo Bizzfizzle )"
+  },
+  {
+   "name": "Repair Bot",
+   "orange": null,
+   "yellow": 140,
+   "green": 140,
+   "grey": 140,
+   "source": "drop",
+   "sourceText": "Blueprint: Repair Bot Drop: Deadmines (Sneed)"
+  },
+  {
+   "name": "Hoof-Shaped Foot Pedal",
+   "orange": 140,
+   "yellow": 150,
+   "green": 155,
+   "grey": 160,
+   "source": "vendor quest",
+   "sourceText": "Schematic: Hoof-Shaped Foot Pedal Vendor ( Gorhak ) Quest: Gizmo for Warug"
+  },
+  {
+   "name": "Goblin Rocket Boots",
+   "orange": 130,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "drop",
+   "sourceText": "Schematic: Goblin Rocket Boots Drop: Gnomeregan ( Mekgineer Thermaplugg )"
+  },
+  {
+   "name": "EZ-Thro Copper Bomb XL",
+   "orange": null,
+   "yellow": 130,
+   "green": 155,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Schematic: EZ-Thro Copper Bomb XL Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Flame Deflector",
+   "orange": null,
+   "yellow": 125,
+   "green": 150,
+   "grey": 175,
+   "source": "drop",
+   "sourceText": "Schematic: Flame Deflector Drop: Gnomeregan (Mekgineer Thermaplugg)"
+  },
+  {
+   "name": "Gnomish Universal Remote",
+   "orange": 125,
+   "yellow": 150,
+   "green": 162,
+   "grey": 175,
+   "source": "drop vendor",
+   "sourceText": "Schematic: Gnomish Universal Remote Drop: Gnomeregan ( Mekgineer Thermaplugg ) Vendor ( Gearcutter Cogspinner , Jinky Twizzlefixxit )"
+  },
+  {
+   "name": "Small Blue Rocket",
+   "orange": null,
+   "yellow": 125,
+   "green": 137,
+   "grey": 150,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Small Blue Rocket Source not known yet"
+  },
+  {
+   "name": "Small Green Rocket",
+   "orange": null,
+   "yellow": 125,
+   "green": 137,
+   "grey": 150,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Small Green Rocket Source not known yet"
+  },
+  {
+   "name": "Small Red Rocket",
+   "orange": null,
+   "yellow": 125,
+   "green": 137,
+   "grey": 150,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Small Red Rocket Source not known yet"
+  },
+  {
+   "name": "9-60 Battery Pack",
+   "orange": null,
+   "yellow": 125,
+   "green": 135,
+   "grey": 145,
+   "source": "drop",
+   "sourceText": "Schematic: 9-60 Battery Pack Drop: Gnomeregan (Crowd Pummeler 9-60)"
+  },
+  {
+   "name": "Small Purple Rocket",
+   "orange": null,
+   "yellow": 125,
+   "green": 137,
+   "grey": 150,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Small Purple Rocket Source not known yet"
+  },
+  {
+   "name": "Small White Rocket",
+   "orange": null,
+   "yellow": 125,
+   "green": 137,
+   "grey": 150,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Small White Rocket Source not known yet"
+  },
+  {
+   "name": "Small Yellow Rocket",
+   "orange": null,
+   "yellow": 125,
+   "green": 137,
+   "grey": 150,
+   "source": "not-known-yet",
+   "sourceText": "Schematic: Small Yellow Rocket Source not known yet"
+  },
+  {
+   "name": "Lovingly Crafted Boomstick",
+   "orange": 120,
+   "yellow": 145,
+   "green": 157,
+   "grey": 170,
+   "source": "vendor",
+   "sourceText": "Schematic: Lovingly Crafted Boomstick Vendor ( Fradd Swiftgear , Jinky Twizzlefixxit )"
+  },
+  {
+   "name": "Shadow Goggles",
+   "orange": 120,
+   "yellow": 145,
+   "green": 157,
+   "grey": 170,
+   "source": "drop",
+   "sourceText": "Schematic: Shadow Goggles World drop (level 16–30)"
+  },
+  {
+   "name": "Small Seaforium Charge",
+   "orange": 100,
+   "yellow": 130,
+   "green": 145,
+   "grey": 160,
+   "source": "drop",
+   "sourceText": "Schematic: Small Seaforium Charge World drop (level 11–26)"
+  },
+  {
+   "name": "Ez-Thro Dynamite",
+   "orange": 100,
+   "yellow": 115,
+   "green": 122,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Schematic: EZ-Thro Dynamite World drop (level 11–26)"
+  },
+  {
+   "name": "EZ-Thro Wrap",
+   "orange": null,
+   "yellow": 100,
+   "green": 102,
+   "grey": 105,
+   "source": "vendor",
+   "sourceText": "Schematic: EZ-Thro Wrap Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Satchel of Copper Bombs",
+   "orange": 85,
+   "yellow": 90,
+   "green": 92,
+   "grey": 95,
+   "source": "vendor",
+   "sourceText": "Schematic: Satchel of Copper Bombs Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Mechanical Squirrel Box",
+   "orange": 75,
+   "yellow": 105,
+   "green": 120,
+   "grey": 135,
+   "source": "drop",
+   "sourceText": "Schematic: Mechanical Squirrel Drop: Wetlands, Westfall, Redridge Mountains, Silverpine Forest, Hillsbrad Foothills, Wailing Caverns"
+  },
+  {
+   "name": "Coarse Blasting Powder",
+   "orange": 75,
+   "yellow": 85,
+   "green": 90,
+   "grey": 95,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Crafted Heavy Shot",
+   "orange": 75,
+   "yellow": 85,
+   "green": 90,
+   "grey": 95,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Coarse Dynamite",
+   "orange": 75,
+   "yellow": 90,
+   "green": 97,
+   "grey": 105,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Copper Modulator",
+   "orange": 65,
+   "yellow": 95,
+   "green": 110,
+   "grey": 125,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Harvester Override Signalcaster",
+   "orange": null,
+   "yellow": 65,
+   "green": 72,
+   "grey": 80,
+   "source": "drop quest",
+   "sourceText": "Schematic: Harvester Override Signalcaster Drop: Tirisfal Glades ( Decrepit Harvester ) Quest: Harvesting the Harvesters"
+  },
+  {
+   "name": "Crude Scope",
+   "orange": 60,
+   "yellow": 90,
+   "green": 105,
+   "grey": 120,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "SAF-T Copper Bomb",
+   "orange": null,
+   "yellow": 55,
+   "green": 60,
+   "grey": 65,
+   "source": "vendor",
+   "sourceText": "Schematic: SAF-T Copper Bomb Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Copper Tube",
+   "orange": 50,
+   "yellow": 80,
+   "green": 95,
+   "grey": 110,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Rough Boomstick",
+   "orange": 50,
+   "yellow": 80,
+   "green": 95,
+   "grey": 110,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Arclight Spanner",
+   "orange": 50,
+   "yellow": 70,
+   "green": 80,
+   "grey": 90,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Handful of Copper Bolts",
+   "orange": 30,
+   "yellow": 45,
+   "green": 52,
+   "grey": 60,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Rough Copper Bomb",
+   "orange": 30,
+   "yellow": 60,
+   "green": 75,
+   "grey": 90,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "SAF-T Tabs",
+   "orange": null,
+   "yellow": 25,
+   "green": 27,
+   "grey": 30,
+   "source": "vendor",
+   "sourceText": "Schematic: SAF-T Tabs Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "SAF-T Dynamite",
+   "orange": null,
+   "yellow": 25,
+   "green": 30,
+   "grey": 35,
+   "source": "vendor",
+   "sourceText": "Schematic: SAF-T Dynamite Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Reagent Bot",
+   "orange": null,
+   "yellow": 20,
+   "green": 20,
+   "grey": 20,
+   "source": "quest",
+   "sourceText": "Quest: Camping 101: Engineering"
+  },
+  {
+   "name": "Rough Blasting Powder",
+   "orange": 1,
+   "yellow": 20,
+   "green": 30,
+   "grey": 40,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Rough Dynamite",
+   "orange": 1,
+   "yellow": 30,
+   "green": 45,
+   "grey": 60,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Crafted Light Shot",
+   "orange": 1,
+   "yellow": 30,
+   "green": 45,
+   "grey": 60,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Target Dummy",
+   "orange": null,
+   "yellow": 115,
+   "green": 130,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Flying Tiger Goggles",
+   "orange": null,
+   "yellow": 130,
+   "green": 145,
+   "grey": 160,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Deadly Blunderbuss",
+   "orange": null,
+   "yellow": 130,
+   "green": 142,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Large Copper Bomb",
+   "orange": null,
+   "yellow": 105,
+   "green": 130,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Bronze Tube",
+   "orange": null,
+   "yellow": 105,
+   "green": 130,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Small Bronze Bomb",
+   "orange": null,
+   "yellow": 120,
+   "green": 145,
+   "grey": 170,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Whirring Bronze Gizmo",
+   "orange": null,
+   "yellow": 125,
+   "green": 150,
+   "grey": 175,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Blasting Powder",
+   "orange": null,
+   "yellow": 125,
+   "green": 135,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Dynamite",
+   "orange": null,
+   "yellow": 125,
+   "green": 135,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Crafted Solid Shot",
+   "orange": null,
+   "yellow": 125,
+   "green": 135,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Silver-plated Shotgun",
+   "orange": null,
+   "yellow": 155,
+   "green": 167,
+   "grey": 180,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Big Bronze Bomb",
+   "orange": null,
+   "yellow": 140,
+   "green": 165,
+   "grey": 190,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Bronze Framework",
+   "orange": null,
+   "yellow": 145,
+   "green": 170,
+   "grey": 195,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Explosive Sheep",
+   "orange": null,
+   "yellow": 175,
+   "green": 187,
+   "grey": 200,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Green Tinted Goggles",
+   "orange": null,
+   "yellow": 175,
+   "green": 187,
+   "grey": 200,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Iron Strut",
+   "orange": null,
+   "yellow": 160,
+   "green": 170,
+   "grey": 180,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Gyrochronatom",
+   "orange": null,
+   "yellow": 170,
+   "green": 190,
+   "grey": 210,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Iron Grenade",
+   "orange": null,
+   "yellow": 175,
+   "green": 195,
+   "grey": 215,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Compact Harvest Reaper Kit",
+   "orange": null,
+   "yellow": 175,
+   "green": 195,
+   "grey": 215,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Advanced Target Dummy",
+   "orange": null,
+   "yellow": 185,
+   "green": 205,
+   "grey": 225,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Big Iron Bomb",
+   "orange": null,
+   "yellow": 190,
+   "green": 210,
+   "grey": 230,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Silver Contact",
+   "orange": null,
+   "yellow": 110,
+   "green": 125,
+   "grey": 140,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Standard Scope",
+   "orange": null,
+   "yellow": 135,
+   "green": 147,
+   "grey": 160,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Ornate Spyglass",
+   "orange": null,
+   "yellow": 160,
+   "green": 172,
+   "grey": 185,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Practice Lock",
+   "orange": null,
+   "yellow": 115,
+   "green": 122,
+   "grey": 130,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Aquadynamic Fish Attractor",
+   "orange": null,
+   "yellow": 150,
+   "green": 160,
+   "grey": 170,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Gold Power Core",
+   "orange": null,
+   "yellow": 150,
+   "green": 170,
+   "grey": 190,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Solid Blasting Powder",
+   "orange": null,
+   "yellow": 175,
+   "green": 185,
+   "grey": 195,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Solid Dynamite",
+   "orange": null,
+   "yellow": 175,
+   "green": 185,
+   "grey": 195,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Mithril Tube",
+   "orange": null,
+   "yellow": 195,
+   "green": 215,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Gyromatic Micro-Adjustor",
+   "orange": null,
+   "yellow": 175,
+   "green": 195,
+   "grey": 215,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Unstable Trigger",
+   "orange": null,
+   "yellow": 200,
+   "green": 220,
+   "grey": 240,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Fire Goggles",
+   "orange": null,
+   "yellow": 225,
+   "green": 235,
+   "grey": 245,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Mithril Blunderbuss",
+   "orange": null,
+   "yellow": 225,
+   "green": 235,
+   "grey": 245,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Hi-Impact Mithril Slugs",
+   "orange": null,
+   "yellow": 210,
+   "green": 230,
+   "grey": 250,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Mithril Casing",
+   "orange": null,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Mithril Frag Bomb",
+   "orange": null,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Rose Colored Goggles",
+   "orange": null,
+   "yellow": 250,
+   "green": 260,
+   "grey": 270,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Hi-Explosive Bomb",
+   "orange": null,
+   "yellow": 235,
+   "green": 255,
+   "grey": 275,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Mithril Gyro-Shot",
+   "orange": null,
+   "yellow": 245,
+   "green": 265,
+   "grey": 285,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Green Lens",
+   "orange": null,
+   "yellow": 265,
+   "green": 275,
+   "grey": 285,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Recipe: Goblin Rocket Fuel",
+   "orange": null,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Goblin Mortar",
+   "orange": null,
+   "yellow": 225,
+   "green": 235,
+   "grey": 245,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Goblin Construction Helmet",
+   "orange": null,
+   "yellow": 225,
+   "green": 235,
+   "grey": 245,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Explosive Arrow",
+   "orange": null,
+   "yellow": 210,
+   "green": 230,
+   "grey": 250,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "The Big One",
+   "orange": null,
+   "yellow": 235,
+   "green": 255,
+   "grey": 275,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Goblin Bomb Dispenser",
+   "orange": null,
+   "yellow": 230,
+   "green": 250,
+   "grey": 270,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Goblin Rocket Helmet",
+   "orange": null,
+   "yellow": 265,
+   "green": 275,
+   "grey": 285,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Gnomish Death Ray",
+   "orange": null,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Goblin Sapper Charge",
+   "orange": null,
+   "yellow": 205,
+   "green": 225,
+   "grey": 245,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Plans: Inlaid Mithril Cylinder",
+   "orange": null,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Gnomish Goggles",
+   "orange": null,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Gnomish Shrink Ray",
+   "orange": null,
+   "yellow": 225,
+   "green": 235,
+   "grey": 245,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Mobile Alarm",
+   "orange": null,
+   "yellow": 205,
+   "green": 225,
+   "grey": 245,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Gnomish Net-o-Matic Projector",
+   "orange": null,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Gnomish Harm Prevention Belt",
+   "orange": null,
+   "yellow": 235,
+   "green": 245,
+   "grey": 255,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Gnomish Rocket Boots",
+   "orange": null,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Gnomish Battle Chicken",
+   "orange": null,
+   "yellow": 250,
+   "green": 260,
+   "grey": 270,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Gnomish Mind Control Cap",
+   "orange": null,
+   "yellow": 255,
+   "green": 265,
+   "grey": 275,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Goblin Dragon Gun",
+   "orange": null,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Goblin Mortar",
+   "orange": null,
+   "yellow": null,
+   "green": null,
+   "grey": null,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Mechanical Repair Kit",
+   "orange": null,
+   "yellow": 200,
+   "green": 220,
+   "grey": 240,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Salt Shaker",
+   "orange": null,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dense Blasting Powder",
+   "orange": null,
+   "yellow": 250,
+   "green": 255,
+   "grey": 260,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dense Dynamite",
+   "orange": null,
+   "yellow": 250,
+   "green": 260,
+   "grey": 270,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dimensional Ripper – Everlook",
+   "orange": null,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Ultrasafe Transporter: Gadgetzan",
+   "orange": null,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Tranquil Mechanical Yeti",
+   "orange": null,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "quest",
+   "sourceText": "Quest: A Yeti of Your Own"
+  },
+  {
+   "name": "Sandpaper",
+   "orange": null,
+   "yellow": 130,
+   "green": 142,
+   "grey": 155,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  }
+ ]
+}

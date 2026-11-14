@@ -1,0 +1,1114 @@
+{
+ "credit": "Learn skills and recipe sources from Zockify (zockify.com)",
+ "url": "https://www.zockify.com/forever/professions/cooking/recipes/",
+ "fetched": "2026-11-14",
+ "recipes": [
+  {
+   "name": "Dirge's Kickin' Chimaerok Chops",
+   "orange": 300,
+   "yellow": 325,
+   "green": 345,
+   "grey": 365,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Dirge's Kickin' Chimaerok Chops Source not known yet"
+  },
+  {
+   "name": "Iron Oven",
+   "orange": null,
+   "yellow": 300,
+   "green": 300,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Blueprint: Iron Oven Source not known yet"
+  },
+  {
+   "name": "Lobster Stew",
+   "orange": 275,
+   "yellow": 315,
+   "green": 335,
+   "grey": 355,
+   "source": "vendor",
+   "sourceText": "Recipe: Lobster Stew Vendor ( Sheendra Tallgrass , Vivianna )"
+  },
+  {
+   "name": "Mightfish Steak",
+   "orange": 275,
+   "yellow": 315,
+   "green": 335,
+   "grey": 355,
+   "source": "vendor",
+   "sourceText": "Recipe: Mightfish Steak Vendor ( Sheendra Tallgrass , Vivianna )"
+  },
+  {
+   "name": "Baked Salmon",
+   "orange": 275,
+   "yellow": 315,
+   "green": 335,
+   "grey": 355,
+   "source": "vendor",
+   "sourceText": "Recipe: Baked Salmon Vendor ( Sheendra Tallgrass , Vivianna )"
+  },
+  {
+   "name": "Runn Tum Tuber Surprise",
+   "orange": 275,
+   "yellow": 315,
+   "green": 335,
+   "grey": 355,
+   "source": "drop",
+   "sourceText": "Recipe: Runn Tum Tuber Surprise Drop: Dire Maul (Pusillin)"
+  },
+  {
+   "name": "Soaring Pamplona",
+   "orange": 275,
+   "yellow": 280,
+   "green": 295,
+   "grey": 310,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Soaring Pamplona Source not known yet"
+  },
+  {
+   "name": "Bat Hachee",
+   "orange": 275,
+   "yellow": 280,
+   "green": 295,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Recipe: Bat Hachee Drop: Eastern Plaguelands ( Monstrous Plaguebat )"
+  },
+  {
+   "name": "Savory Turtle Stew",
+   "orange": 275,
+   "yellow": 280,
+   "green": 295,
+   "grey": 310,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Savory Turtle Stew Source not known yet"
+  },
+  {
+   "name": "Flank au Poivre",
+   "orange": 275,
+   "yellow": 285,
+   "green": 300,
+   "grey": 315,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Flank au Poivre Source not known yet"
+  },
+  {
+   "name": "Bear Bruscitti",
+   "orange": 275,
+   "yellow": 280,
+   "green": 295,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Recipe: Bear Bruscitti Drop: Winterspring ( Rabid Shardtooth )"
+  },
+  {
+   "name": "Steaming Stag Steak",
+   "orange": 275,
+   "yellow": 280,
+   "green": 295,
+   "grey": 310,
+   "source": "quest",
+   "sourceText": "Recipe: Steaming Stag Steak Quest: Now We're Cooking"
+  },
+  {
+   "name": "Swiftstrike Steak",
+   "orange": 275,
+   "yellow": 280,
+   "green": 295,
+   "grey": 310,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Swiftstrike Steak Source not known yet"
+  },
+  {
+   "name": "Prehistoric Pulled Raptor",
+   "orange": 275,
+   "yellow": 280,
+   "green": 295,
+   "grey": 310,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Prehistoric Pulled Raptor Source not known yet"
+  },
+  {
+   "name": "Clam Linguine",
+   "orange": 275,
+   "yellow": 280,
+   "green": 295,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Recipe: Clam Linguine Drop: Azshara ( Spitelash Enchantress )"
+  },
+  {
+   "name": "Sweetpaw Jam",
+   "orange": 275,
+   "yellow": 280,
+   "green": 282,
+   "grey": 285,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Sweetpaw Jam Source not known yet"
+  },
+  {
+   "name": "Nightfin Soup",
+   "orange": 250,
+   "yellow": 290,
+   "green": 310,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Recipe: Nightfin Soup Vendor ( Gikkix )"
+  },
+  {
+   "name": "Poached Sunscale Salmon",
+   "orange": 250,
+   "yellow": 290,
+   "green": 310,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Recipe: Poached Sunscale Salmon Vendor ( Gikkix )"
+  },
+  {
+   "name": "Sage's Tea",
+   "orange": 250,
+   "yellow": 260,
+   "green": 275,
+   "grey": 290,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Sage's Tea Source not known yet"
+  },
+  {
+   "name": "Wicked Smoothie",
+   "orange": 250,
+   "yellow": 255,
+   "green": 262,
+   "grey": 270,
+   "source": "vendor",
+   "sourceText": "Recipe: Wicked Smoothie Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Grilled Squid",
+   "orange": 240,
+   "yellow": 280,
+   "green": 300,
+   "grey": 320,
+   "source": "vendor",
+   "sourceText": "Recipe: Grilled Squid Vendor ( Gikkix )"
+  },
+  {
+   "name": "Hot Smoked Bass",
+   "orange": 240,
+   "yellow": 280,
+   "green": 300,
+   "grey": 320,
+   "source": "vendor",
+   "sourceText": "Recipe: Hot Smoked Bass Vendor ( Kelsey Yance )"
+  },
+  {
+   "name": "Spiced Chili Crab",
+   "orange": 225,
+   "yellow": 265,
+   "green": 285,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Recipe: Spiced Chili Crab Vendor ( Banalash , Kriggon Talsone , Uthok )"
+  },
+  {
+   "name": "Monster Omelet",
+   "orange": 225,
+   "yellow": 265,
+   "green": 285,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Recipe: Monster Omelet Vendor ( Bale , Himmik , Malygen )"
+  },
+  {
+   "name": "Spotted Yellowtail",
+   "orange": 225,
+   "yellow": 265,
+   "green": 285,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Recipe: Spotted Yellowtail Vendor ( Gikkix )"
+  },
+  {
+   "name": "Cooked Glossy Mightfish",
+   "orange": 225,
+   "yellow": 265,
+   "green": 285,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Recipe: Cooked Glossy Mightfish Vendor ( Kelsey Yance )"
+  },
+  {
+   "name": "Filet of Redgill",
+   "orange": 225,
+   "yellow": 265,
+   "green": 285,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Recipe: Filet of Redgill Vendor ( Kelsey Yance )"
+  },
+  {
+   "name": "Undermine Clam Chowder",
+   "orange": 225,
+   "yellow": 265,
+   "green": 285,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Recipe: Undermine Clam Chowder Vendor ( Grizzek , Jabbey )"
+  },
+  {
+   "name": "Tender Wolf Steak",
+   "orange": 225,
+   "yellow": 265,
+   "green": 285,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Recipe: Tender Wolf Steak 4 vendors Dirge Quikcleave , Innkeeper Fizzgrimble , Innkeeper Zizplink , Truk Wildbeard"
+  },
+  {
+   "name": "Savory Stag Sliders",
+   "orange": 225,
+   "yellow": 230,
+   "green": 237,
+   "grey": 245,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Savory Stag Sliders Source not known yet"
+  },
+  {
+   "name": "Raptor Rouladen",
+   "orange": 225,
+   "yellow": 230,
+   "green": 237,
+   "grey": 245,
+   "source": "drop",
+   "sourceText": "Recipe: Raptor Rouladen Drop: Dustwallow Marsh ( Bloodfen Lashtail )"
+  },
+  {
+   "name": "Plated Armorfish",
+   "orange": 225,
+   "yellow": 245,
+   "green": 250,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Recipe: Plated Armorfish Drop: Deadwind Pass ( Recipe: Raw Plated Armorfish )"
+  },
+  {
+   "name": "Dragonbreath Chili",
+   "orange": 200,
+   "yellow": 240,
+   "green": 260,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Recipe: Dragonbreath Chili Vendor ( Helenia Olden , Ogg'marr , Super-Seller 680 )"
+  },
+  {
+   "name": "Heavy Kodo Stew",
+   "orange": 200,
+   "yellow": 240,
+   "green": 260,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Recipe: Heavy Kodo Stew Vendor ( Janet Hommers , Kireena , Vendor-Tron 1000 )"
+  },
+  {
+   "name": "Spider Sausage",
+   "orange": 200,
+   "yellow": 240,
+   "green": 260,
+   "grey": 280,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Sunny Tea",
+   "orange": 200,
+   "yellow": 220,
+   "green": 235,
+   "grey": 250,
+   "source": "drop",
+   "sourceText": "Recipe: Sunny Tea Drop: Swamp of Sorrows ( Marsh Oracle )"
+  },
+  {
+   "name": "Spicy Smoothie",
+   "orange": 200,
+   "yellow": 215,
+   "green": 220,
+   "grey": 225,
+   "source": "vendor",
+   "sourceText": "Recipe: Spicy Smoothie Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Expert Campfire Kit",
+   "orange": 200,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Blueprint: Expert Campfire Drop: Krol'dok Stronghold (Slavecrusher Grox)"
+  },
+  {
+   "name": "Briny Seafood Stew",
+   "orange": 200,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "quest",
+   "sourceText": "Recipe: Briny Seafood Stew Quest: A Taste of the Sea"
+  },
+  {
+   "name": "Plain Ol' Paletusk",
+   "orange": 185,
+   "yellow": 200,
+   "green": 215,
+   "grey": 230,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Plain Ol' Paletusk Vendor ( Martha Wellsworth ) Quest: Paletusk Harvesting"
+  },
+  {
+   "name": "Triage Tea",
+   "orange": 180,
+   "yellow": 195,
+   "green": 215,
+   "grey": 235,
+   "source": "drop",
+   "sourceText": "Recipe: Triage Tea Drop: Feralas ( Woodpaw Mystic )"
+  },
+  {
+   "name": "Calcified Smoothie",
+   "orange": 180,
+   "yellow": 185,
+   "green": 190,
+   "grey": 195,
+   "source": "vendor",
+   "sourceText": "Recipe: Calcified Smoothie Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Raging Raptor Ribs",
+   "orange": 180,
+   "yellow": 280,
+   "green": 295,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Recipe: Raging Raptor Ribs Drop: Un'Goro Crater ( Venomhide Ravasaur )"
+  },
+  {
+   "name": "Soothing Turtle Bisque",
+   "orange": 175,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "quest",
+   "sourceText": "Recipe: Soothing Turtle Bisque Quest: Soothing Turtle Bisque"
+  },
+  {
+   "name": "Barbecued Buzzard Wing",
+   "orange": 175,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Barbecued Buzzard Wing Vendor ( Narj Deepslice , Super-Seller 680 ) Quest: Barbecued Buzzard Wings"
+  },
+  {
+   "name": "Giant Clam Scorcho",
+   "orange": 175,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "vendor",
+   "sourceText": "Recipe: Giant Clam Scorcho Vendor ( Kelsey Yance )"
+  },
+  {
+   "name": "Rockscale Cod",
+   "orange": 175,
+   "yellow": 190,
+   "green": 210,
+   "grey": 230,
+   "source": "vendor",
+   "sourceText": "Recipe: Rockscale Cod 9 vendors Heldan Galesong , Kelsey Yance , Lindea Rabonne , Lizbeth Cromwell , Shankys , Stuart Fleming , Tansy Puddlefizz , Wik'Tar , Wulan"
+  },
+  {
+   "name": "Roast Raptor",
+   "orange": 175,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "vendor",
+   "sourceText": "Recipe: Roast Raptor 7 vendors Corporal Bluth , Hammon Karwn , Helenia Olden , Keena , Nerrist , Ogg'marr , Vendor-Tron 1000"
+  },
+  {
+   "name": "Hot Wolf Ribs",
+   "orange": 175,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "vendor",
+   "sourceText": "Recipe: Hot Wolf Ribs Vendor ( Sheendra Tallgrass , Super-Seller 680 , Vivianna )"
+  },
+  {
+   "name": "Jungle Stew",
+   "orange": 175,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "vendor",
+   "sourceText": "Recipe: Jungle Stew Vendor ( Corporal Bluth , Nerrist , Vendor-Tron 1000 )"
+  },
+  {
+   "name": "Carrion Surprise",
+   "orange": 175,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "vendor",
+   "sourceText": "Recipe: Carrion Surprise 4 vendors Banalash , Kireena , Ogg'marr , Vendor-Tron 1000"
+  },
+  {
+   "name": "Mystery Stew",
+   "orange": 175,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "vendor",
+   "sourceText": "Recipe: Mystery Stew Vendor ( Helenia Olden , Janet Hommers , Super-Seller 680 )"
+  },
+  {
+   "name": "Mithril Head Trout",
+   "orange": 175,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "vendor",
+   "sourceText": "Recipe: Mithril Head Trout 9 vendors Heldan Galesong , Kelsey Yance , Lindea Rabonne , Lizbeth Cromwell , Shankys , Stuart Fleming , Tansy Puddlefizz , Wik'Tar , Wulan"
+  },
+  {
+   "name": "Sagefish Delight",
+   "orange": 175,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "vendor",
+   "sourceText": "Recipe: Sagefish Delight 24 vendors Aza'bek , Derak Nightfall , Derek Odds , Emrul Riknussun , Erika Tate , Fimbo Greasemitz , Fyldan , Gloria Femmel , Kalsey Sanden , Kelsey Yance , Micha Yance , Miranda Turner , Naal Mistrunner , Nyoma , Otho Moji'ko , Paige , Qujo , Reagent Bot , Repair Bot , Ronald Burch , Tarban Hearthgrain , Wulan , Xen'to , Zerril Softbreeze"
+  },
+  {
+   "name": "Bear Brisket",
+   "orange": 175,
+   "yellow": 200,
+   "green": 210,
+   "grey": 220,
+   "source": "drop",
+   "sourceText": "Recipe: Bear Brisket Drop: Ashenvale ( Ashenvale Bear )"
+  },
+  {
+   "name": "Giant Scrambled Eggs",
+   "orange": 175,
+   "yellow": 195,
+   "green": 207,
+   "grey": 220,
+   "source": "drop",
+   "sourceText": "Recipe: Giant Scrambled Eggs Drop: Swamp of Sorrows ( Lost One Cook )"
+  },
+  {
+   "name": "Tasty Lion Steak",
+   "orange": 150,
+   "yellow": 190,
+   "green": 210,
+   "grey": 230,
+   "source": "quest",
+   "sourceText": "Recipe: Tasty Lion Steak Quest: Costly Menace"
+  },
+  {
+   "name": "Heavy Crocolisk Stew",
+   "orange": 150,
+   "yellow": 160,
+   "green": 180,
+   "grey": 200,
+   "source": "vendor",
+   "sourceText": "Recipe: Heavy Crocolisk Stew Vendor ( Ogg'marr )"
+  },
+  {
+   "name": "Cookie's Feast",
+   "orange": 140,
+   "yellow": 145,
+   "green": 145,
+   "grey": 145,
+   "source": "drop",
+   "sourceText": "Blueprint: Cookie's Feast Drop: Deadmines (Cookie)"
+  },
+  {
+   "name": "Curiously Tasty Omelet",
+   "orange": 130,
+   "yellow": 170,
+   "green": 190,
+   "grey": 210,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Curiously Tasty Omelet Vendor ( Keena , Kendor Kabonka , Nerrist ) Quest: Ormer's Revenge"
+  },
+  {
+   "name": "Hot Lion Chops",
+   "orange": 125,
+   "yellow": 175,
+   "green": 195,
+   "grey": 215,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Hot Lion Chops Vendor ( Vendor-Tron 1000 , Zargh ) Quest: Elixir of Pain"
+  },
+  {
+   "name": "Goblin Deviled Clams",
+   "orange": 125,
+   "yellow": 165,
+   "green": 185,
+   "grey": 205,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Lean Wolf Steak",
+   "orange": 125,
+   "yellow": 165,
+   "green": 185,
+   "grey": 205,
+   "source": "vendor",
+   "sourceText": "Recipe: Lean Wolf Steak Vendor ( Super-Seller 680 )"
+  },
+  {
+   "name": "Root Tea",
+   "orange": 125,
+   "yellow": 155,
+   "green": 170,
+   "grey": 185,
+   "source": "drop",
+   "sourceText": "Recipe: Root Tea Drop: Hillsbrad Foothills ( Torn Fin Oracle )"
+  },
+  {
+   "name": "Mrrggl Smrrthle",
+   "orange": 125,
+   "yellow": 135,
+   "green": 140,
+   "grey": 145,
+   "source": "vendor",
+   "sourceText": "Recipe: Mrrggl Smrrthle Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Crocolisk Gumbo",
+   "orange": 120,
+   "yellow": 160,
+   "green": 180,
+   "grey": 200,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Crocolisk Gumbo Vendor ( Kendor Kabonka ) Quest: Apprentice's Duties"
+  },
+  {
+   "name": "Succulent Pork Ribs",
+   "orange": 110,
+   "yellow": 130,
+   "green": 150,
+   "grey": 170,
+   "source": "drop vendor",
+   "sourceText": "Recipe: Succulent Pork Ribs World drop (level 10–25) Vendor ( Kendor Kabonka )"
+  },
+  {
+   "name": "Gooey Spider Cake",
+   "orange": 110,
+   "yellow": 150,
+   "green": 170,
+   "grey": 190,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Gooey Spider Cake Vendor ( Kendor Kabonka ) Quest: Dusky Crab Cakes"
+  },
+  {
+   "name": "Big Bear Steak",
+   "orange": 110,
+   "yellow": 150,
+   "green": 170,
+   "grey": 190,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Big Bear Steak Vendor ( Super-Seller 680 , Ulthaan ) Quest: The Rescue"
+  },
+  {
+   "name": "Lean Venison",
+   "orange": 110,
+   "yellow": 150,
+   "green": 170,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Recipe: Lean Venison Vendor ( Ulthaan , Vendor-Tron 1000 )"
+  },
+  {
+   "name": "Redridge Goulash",
+   "orange": 100,
+   "yellow": 135,
+   "green": 155,
+   "grey": 175,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Redridge Goulash Vendor ( Kendor Kabonka ) Quest: Redridge Goulash"
+  },
+  {
+   "name": "Seasoned Wolf Kabob",
+   "orange": 100,
+   "yellow": 140,
+   "green": 160,
+   "grey": 180,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Seasoned Wolf Kabob Vendor ( Kendor Kabonka ) Quest: Seasoned Wolf Kabobs"
+  },
+  {
+   "name": "Crispy Lizard Tail",
+   "orange": 100,
+   "yellow": 140,
+   "green": 160,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Recipe: Crispy Lizard Tail Vendor ( Tari'qa )"
+  },
+  {
+   "name": "Bristle Whisker Catfish",
+   "orange": 100,
+   "yellow": 140,
+   "green": 160,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Recipe: Bristle Whisker Catfish 8 vendors Catherine Leland , Derak Nightfall , Gritta Chumwater , Kilxx , Lindea Rabonne , Naal Mistrunner , Ronald Burch , Sewa Mistrunner"
+  },
+  {
+   "name": "Royal Tea",
+   "orange": 100,
+   "yellow": 105,
+   "green": 115,
+   "grey": 125,
+   "source": "drop",
+   "sourceText": "Recipe: Royal Tea Drop: Stonetalon Mountains ( Windshear Geomancer )"
+  },
+  {
+   "name": "Slimy Smoothie",
+   "orange": 100,
+   "yellow": 105,
+   "green": 112,
+   "grey": 120,
+   "source": "vendor",
+   "sourceText": "Recipe: Slimy Smoothie Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Murloc Fin Soup",
+   "orange": 90,
+   "yellow": 130,
+   "green": 150,
+   "grey": 170,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Murloc Fin Soup Vendor ( Kendor Kabonka ) Quest: Selling Fish"
+  },
+  {
+   "name": "Dig Rat Stew",
+   "orange": 90,
+   "yellow": 130,
+   "green": 150,
+   "grey": 170,
+   "source": "quest",
+   "sourceText": "Recipe: Dig Rat Stew Quest: Dig Rat Stew"
+  },
+  {
+   "name": "Clam Chowder",
+   "orange": 90,
+   "yellow": 130,
+   "green": 150,
+   "grey": 170,
+   "source": "vendor",
+   "sourceText": "Recipe: Clam Chowder Vendor ( Heldan Galesong , Kriggon Talsone )"
+  },
+  {
+   "name": "Journeyman Campfire Kit",
+   "orange": 90,
+   "yellow": 95,
+   "green": 95,
+   "grey": 95,
+   "source": "drop",
+   "sourceText": "Blueprint: Journeyman Campfire Drop: Wailing Caverns (Lord Serpentis)"
+  },
+  {
+   "name": "Cooked Crab Claw",
+   "orange": 85,
+   "yellow": 125,
+   "green": 145,
+   "grey": 165,
+   "source": "drop vendor",
+   "sourceText": "Recipe: Cooked Crab Claw World drop (level 10–20) Vendor ( Kendor Kabonka )"
+  },
+  {
+   "name": "Savory Deviate Delight",
+   "orange": 85,
+   "yellow": 125,
+   "green": 145,
+   "grey": 165,
+   "source": "drop",
+   "sourceText": "Recipe: Savory Deviate Delight World drop (level 11–26)"
+  },
+  {
+   "name": "Savory Whimsyfin Delight",
+   "orange": 85,
+   "yellow": 125,
+   "green": 145,
+   "grey": 165,
+   "source": "drop",
+   "sourceText": "Recipe: Savory Whimsyfin Delight World drop (level 15–26)"
+  },
+  {
+   "name": "Dry Pork Ribs",
+   "orange": 80,
+   "yellow": 120,
+   "green": 140,
+   "grey": 160,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Crocolisk Steak",
+   "orange": 80,
+   "yellow": 120,
+   "green": 140,
+   "grey": 160,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Crocolisk Steak Vendor ( Kendor Kabonka ) Quest: Crocolisk Hunting"
+  },
+  {
+   "name": "Smoked Sagefish",
+   "orange": 80,
+   "yellow": 120,
+   "green": 140,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Recipe: Smoked Sagefish 24 vendors Aza'bek , Derak Nightfall , Derek Odds , Emrul Riknussun , Erika Tate , Fimbo Greasemitz , Fyldan , Gloria Femmel , Kalsey Sanden , Kelsey Yance , Micha Yance , Miranda Turner , Naal Mistrunner , Nyoma , Otho Moji'ko , Paige , Qujo , Reagent Bot , Repair Bot , Ronald Burch , Tarban Hearthgrain , Wulan , Xen'to , Zerril Softbreeze"
+  },
+  {
+   "name": "Westfall Stew",
+   "orange": 75,
+   "yellow": 115,
+   "green": 135,
+   "grey": 155,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Westfall Stew Vendor ( Kendor Kabonka ) Quest: Westfall Stew"
+  },
+  {
+   "name": "Crab Cake",
+   "orange": 75,
+   "yellow": 115,
+   "green": 135,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Twice-Spiced Raptor Slice",
+   "orange": 75,
+   "yellow": 115,
+   "green": 132,
+   "grey": 150,
+   "source": "drop quest",
+   "sourceText": "Recipe: Twice-Spiced Raptor Slice Drop: Stranglethorn Vale ( Young Stranglethorn Raptor ) Quest: Changing Tastes"
+  },
+  {
+   "name": "Breakfast Omelette",
+   "orange": 75,
+   "yellow": 80,
+   "green": 87,
+   "grey": 95,
+   "source": "drop",
+   "sourceText": "Recipe: Breakfast Omelette Drop: Redridge Mountains ( Dire Condor )"
+  },
+  {
+   "name": "Blood Sausage",
+   "orange": 60,
+   "yellow": 100,
+   "green": 120,
+   "grey": 140,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Blood Sausage Vendor ( Kendor Kabonka ) Quest: Thelsamar Blood Sausages"
+  },
+  {
+   "name": "Thistle Tea",
+   "orange": 60,
+   "yellow": 100,
+   "green": 120,
+   "grey": 140,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Thistle Tea Recipe: Thistle Tea Vendor ( Smudge Thunderwood ) Quest: Klaven's Tower Quest: Mission: Possible But Not Probable"
+  },
+  {
+   "name": "Coyote Steak",
+   "orange": 50,
+   "yellow": 90,
+   "green": 110,
+   "grey": 130,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Goretusk Liver Pie",
+   "orange": 50,
+   "yellow": 90,
+   "green": 110,
+   "grey": 130,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Goretusk Liver Pie Vendor ( Kendor Kabonka ) Quest: Goretusk Liver Pie"
+  },
+  {
+   "name": "Fillet of Frenzy",
+   "orange": 50,
+   "yellow": 90,
+   "green": 110,
+   "grey": 130,
+   "source": "vendor",
+   "sourceText": "Recipe: Fillet of Frenzy Vendor ( Laird )"
+  },
+  {
+   "name": "Strider Stew",
+   "orange": 50,
+   "yellow": 90,
+   "green": 110,
+   "grey": 130,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Strider Stew Vendor ( Tari'qa ) Quest: Easy Strider Living"
+  },
+  {
+   "name": "Boiled Clams",
+   "orange": 50,
+   "yellow": 90,
+   "green": 110,
+   "grey": 130,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Longjaw Mud Snapper",
+   "orange": 50,
+   "yellow": 90,
+   "green": 110,
+   "grey": 130,
+   "source": "vendor",
+   "sourceText": "Recipe: Longjaw Mud Snapper 9 vendors Harn Longcast , Khara Deepwater , Killian Sanatha , Lizbeth Cromwell , Naal Mistrunner , Nyalah Brightfire , Nyoma , Tansy Puddlefizz , Tharynn Bouden"
+  },
+  {
+   "name": "Loch Frenzy Delight",
+   "orange": 50,
+   "yellow": 90,
+   "green": 110,
+   "grey": 130,
+   "source": "vendor",
+   "sourceText": "Recipe: Loch Frenzy Delight Vendor ( Khara Deepwater )"
+  },
+  {
+   "name": "Rainbow Fin Albacore",
+   "orange": 50,
+   "yellow": 90,
+   "green": 110,
+   "grey": 130,
+   "source": "vendor",
+   "sourceText": "Recipe: Rainbow Fin Albacore 11 vendors Catherine Leland , Gritta Chumwater , Heldan Galesong , Killian Sanatha , Kilxx , Kriggon Talsone , Nessa Shadowsong , Ronald Burch , Shankys , Stuart Fleming , Zansoa"
+  },
+  {
+   "name": "Smoked Bear Meat",
+   "orange": 40,
+   "yellow": 80,
+   "green": 100,
+   "grey": 120,
+   "source": "vendor",
+   "sourceText": "Recipe: Smoked Bear Meat Vendor ( Andrew Hilbert , Drac Roughcut )"
+  },
+  {
+   "name": "Roasted Kodo Meat",
+   "orange": 35,
+   "yellow": 75,
+   "green": 95,
+   "grey": 115,
+   "source": "vendor",
+   "sourceText": "Recipe: Roasted Kodo Meat Vendor ( Wunna Darkmane )"
+  },
+  {
+   "name": "Egg Nog",
+   "orange": 35,
+   "yellow": 75,
+   "green": 95,
+   "grey": 115,
+   "source": "vendor",
+   "sourceText": "Recipe: Egg Nog 5 vendors Khole Jinglepocket , Nardstrum Copperpinch , Penney Copperpinch , Seersa Copperpinch , Wulmort Jinglepocket"
+  },
+  {
+   "name": "Pincer Bites",
+   "orange": 35,
+   "yellow": 40,
+   "green": 47,
+   "grey": 55,
+   "source": "quest",
+   "sourceText": "Recipe: Pincer Bites Quest: Crab Season"
+  },
+  {
+   "name": "Beer Basted Boar Ribs",
+   "orange": 25,
+   "yellow": 60,
+   "green": 80,
+   "grey": 100,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Beer Basted Boar Ribs Vendor ( Kendor Kabonka ) Quest: Beer Basted Boar Ribs"
+  },
+  {
+   "name": "Peace Tea",
+   "orange": 25,
+   "yellow": 30,
+   "green": 37,
+   "grey": 45,
+   "source": "drop",
+   "sourceText": "Recipe: Peace Tea Drop: Dun Morogh ( Frostmane Seer )"
+  },
+  {
+   "name": "Venomous Smoothie",
+   "orange": 25,
+   "yellow": 30,
+   "green": 37,
+   "grey": 45,
+   "source": "vendor",
+   "sourceText": "Recipe: Venomous Smoothie Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Tasty Raptor Bites",
+   "orange": 25,
+   "yellow": 35,
+   "green": 55,
+   "grey": 75,
+   "source": "drop",
+   "sourceText": "Recipe: Tasty Raptor Bites Drop: Wetlands ( Mottled Raptor ) Drop: The Barrens ( Sunscale Screecher )"
+  },
+  {
+   "name": "Skywall Souffle",
+   "orange": 25,
+   "yellow": 30,
+   "green": 37,
+   "grey": 45,
+   "source": "quest",
+   "sourceText": "Recipe: Skywall Souffle Quest: Restocking the Larders"
+  },
+  {
+   "name": "Scorpid Surprise",
+   "orange": 20,
+   "yellow": 60,
+   "green": 80,
+   "grey": 100,
+   "source": "vendor",
+   "sourceText": "Recipe: Scorpid Surprise Vendor ( Grimtak , Naluk )"
+  },
+  {
+   "name": "Basic Campfire Kit",
+   "orange": null,
+   "yellow": 1,
+   "green": 3,
+   "grey": 5,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Spiced Wolf Meat",
+   "orange": 10,
+   "yellow": 50,
+   "green": 70,
+   "grey": 90,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Kaldorei Spider Kabob",
+   "orange": 10,
+   "yellow": 50,
+   "green": 70,
+   "grey": 90,
+   "source": "quest",
+   "sourceText": "Recipe: Kaldorei Spider Kabob Quest: Recipe of the Kaldorei"
+  },
+  {
+   "name": "Charred Wolf Meat",
+   "orange": 1,
+   "yellow": 45,
+   "green": 65,
+   "grey": 85,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Roasted Boar Meat",
+   "orange": 1,
+   "yellow": 45,
+   "green": 65,
+   "grey": 85,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Brilliant Smallfish",
+   "orange": 1,
+   "yellow": 45,
+   "green": 65,
+   "grey": 85,
+   "source": "vendor",
+   "sourceText": "Recipe: Brilliant Smallfish 10 vendors Catherine Leland , Gretta Ganter , Harn Longcast , Khara Deepwater , Lizbeth Cromwell , Martine Tramblay , Nyalah Brightfire , Nyoma , Sewa Mistrunner , Tharynn Bouden"
+  },
+  {
+   "name": "Slitherskin Mackerel",
+   "orange": 1,
+   "yellow": 45,
+   "green": 65,
+   "grey": 85,
+   "source": "vendor",
+   "sourceText": "Recipe: Slitherskin Mackerel 6 vendors Kriggon Talsone , Martine Tramblay , Nessa Shadowsong , Nyalah Brightfire , Tansy Puddlefizz , Zansoa"
+  },
+  {
+   "name": "Herb Baked Egg",
+   "orange": 1,
+   "yellow": 45,
+   "green": 65,
+   "grey": 85,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Crispy Bat Wing",
+   "orange": 1,
+   "yellow": 45,
+   "green": 65,
+   "grey": 85,
+   "source": "vendor",
+   "sourceText": "Recipe: Crispy Bat Wing Vendor ( Abigail Shiel )"
+  },
+  {
+   "name": "Gingerbread Cookie",
+   "orange": 1,
+   "yellow": 45,
+   "green": 65,
+   "grey": 85,
+   "source": "vendor",
+   "sourceText": "Recipe: Gingerbread Cookie 5 vendors Khole Jinglepocket , Nardstrum Copperpinch , Penney Copperpinch , Seersa Copperpinch , Wulmort Jinglepocket"
+  },
+  {
+   "name": "Goldthorn Tea",
+   "orange": null,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Smoked Desert Dumplings",
+   "orange": null,
+   "yellow": 325,
+   "green": 345,
+   "grey": 365,
+   "source": "quest",
+   "sourceText": "Quest: Sharing the Knowledge"
+  },
+  {
+   "name": "Spinefin Halibut",
+   "orange": null,
+   "yellow": 210,
+   "green": 215,
+   "grey": 220,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  }
+ ]
+}

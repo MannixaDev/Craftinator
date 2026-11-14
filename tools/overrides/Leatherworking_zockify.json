@@ -1,0 +1,4615 @@
+{
+ "credit": "Learn skills and recipe sources from Zockify (zockify.com)",
+ "url": "https://www.zockify.com/forever/professions/leatherworking/recipes/",
+ "fetched": "2026-11-14",
+ "recipes": [
+  {
+   "name": "Molten Helm",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Pattern: Molten Helm Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Black Dragonscale Boots",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Pattern: Black Dragonscale Boots Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Core Armor Kit",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Core Armor Kit Source not known yet"
+  },
+  {
+   "name": "Chromatic Cloak",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Pattern: Chromatic Cloak Drop: Dire Maul (Knot Thimblejack's Cache)"
+  },
+  {
+   "name": "Hide of the Wild",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Pattern: Hide of the Wild Drop: Dire Maul (Knot Thimblejack's Cache)"
+  },
+  {
+   "name": "Shifting Cloak",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Pattern: Shifting Cloak Drop: Dire Maul (Knot Thimblejack's Cache)"
+  },
+  {
+   "name": "Lava Belt",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Pattern: Lava Belt Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Chromatic Gauntlets",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Pattern: Chromatic Gauntlets Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Corehound Belt",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Pattern: Corehound Belt Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Molten Belt",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Pattern: Molten Belt Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Primal Batskin Jerkin",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Pattern: Primal Batskin Jerkin Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Primal Batskin Gloves",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Pattern: Primal Batskin Gloves Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Primal Batskin Bracers",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Pattern: Primal Batskin Bracers Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Blood Tiger Breastplate",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Pattern: Blood Tiger Breastplate Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Blood Tiger Shoulders",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Pattern: Blood Tiger Shoulders Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Pristine Scorpid Leggings",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Pristine Scorpid Leggings Source not known yet"
+  },
+  {
+   "name": "Black Dragonscale Helm",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Black Dragonscale Helm Source not known yet"
+  },
+  {
+   "name": "Blue Dragonscale Helm",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Blue Dragonscale Helm Source not known yet"
+  },
+  {
+   "name": "Red Dragonscale Leggings",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Red Dragonscale Leggings Source not known yet"
+  },
+  {
+   "name": "Ironfeather Leggings",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Ironfeather Leggings Source not known yet"
+  },
+  {
+   "name": "Warbear Helm",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Warbear Helm Source not known yet"
+  },
+  {
+   "name": "Timbermaw Tunic",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Timbermaw Tunic Source not known yet"
+  },
+  {
+   "name": "Dawn Armor",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Dawn Armor Source not known yet"
+  },
+  {
+   "name": "Living Crown",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Living Crown Source not known yet"
+  },
+  {
+   "name": "Sewing Machine",
+   "orange": null,
+   "yellow": 300,
+   "green": 300,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Blueprint: Sewing Machine Source not known yet"
+  },
+  {
+   "name": "Grovekeeper Trousers",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Trousers Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grovekeeper Grips",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Grips Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grovekeeper Shoulderpads",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Shoulderpads Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grovekeeper Stompers",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Stompers Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grovekeeper Kilt",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Kilt Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grovekeeper Mitts",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Mitts Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grovekeeper Mantle",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Mantle Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grovekeeper Sandals",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Sandals Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grovekeeper Legguards",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Legguards Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grovekeeper Handguards",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Handguards Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grovekeeper Pauldrons",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Pauldrons Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grovekeeper Boots",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Boots Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grovekeeper Leggings",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Leggings Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grovekeeper Gauntlets",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Gauntlets Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grovekeeper Spaulders",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Spaulders Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grovekeeper Treads",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grovekeeper Treads Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Wildstalker's Legguards",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Wildstalker's Legguards Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Wildstalker's Gauntlets",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Wildstalker's Gauntlets Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Wildstalker's Spaulders",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Wildstalker's Spaulders Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Wildstalker's Greaves",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Wildstalker's Greaves Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grimstitch Pants",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grimstitch Pants Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grimstitch Gloves",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grimstitch Gloves Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grimstitch Spaulders",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grimstitch Spaulders Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Grimstitch Boots",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Grimstitch Boots Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Spiritcaller Leggings",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Spiritcaller Leggings Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Spiritcaller Grips",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Spiritcaller Grips Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Spiritcaller Spaulders",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Spiritcaller Spaulders Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Spiritcaller Treads",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Spiritcaller Treads Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Spiritcaller Pants",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Spiritcaller Pants Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Spiritcaller Gauntlets",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Spiritcaller Gauntlets Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Spiritcaller Epaulets",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Spiritcaller Epaulets Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Spiritcaller Greaves",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Spiritcaller Greaves Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Spiritcaller Kilt",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Spiritcaller Kilt Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Spiritcaller Gloves",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Spiritcaller Gloves Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Spiritcaller Mantle",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Spiritcaller Mantle Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Spiritcaller Boots",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Spiritcaller Boots Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Elderwild Waistcord",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Elderwild Waistcord Source not known yet"
+  },
+  {
+   "name": "Outlaw's Collar",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Outlaw's Collar Source not known yet"
+  },
+  {
+   "name": "Elderwild Pants",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Elderwild Pants Source not known yet"
+  },
+  {
+   "name": "Eternity Pauldrons",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Eternity Pauldrons Source not known yet"
+  },
+  {
+   "name": "Tranquil Wristguards",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Tranquil Wristguards Source not known yet"
+  },
+  {
+   "name": "Mourning Handguards",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Mourning Handguards Source not known yet"
+  },
+  {
+   "name": "Wild Leather Armor Kit",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Wild Leather Armor Kit Source not known yet"
+  },
+  {
+   "name": "Invulnerable Mail",
+   "orange": null,
+   "yellow": 295,
+   "green": 302,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Pattern: Invulnerable Mail World drop (level 59–62)"
+  },
+  {
+   "name": "Corehound Boots",
+   "orange": 295,
+   "yellow": 315,
+   "green": 325,
+   "grey": 335,
+   "source": "vendor",
+   "sourceText": "Pattern: Corehound Boots Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Heavy Timbermaw Boots",
+   "orange": 295,
+   "yellow": 300,
+   "green": 310,
+   "grey": 320,
+   "source": "vendor",
+   "sourceText": "Pattern: Heavy Timbermaw Boots Vendor ( Meilosh )"
+  },
+  {
+   "name": "Timbermaw Brawlers",
+   "orange": 295,
+   "yellow": 315,
+   "green": 325,
+   "grey": 335,
+   "source": "vendor",
+   "sourceText": "Pattern: Timbermaw Brawlers Vendor ( Meilosh )"
+  },
+  {
+   "name": "Golden Mantle of the Dawn",
+   "orange": 295,
+   "yellow": 315,
+   "green": 325,
+   "grey": 335,
+   "source": "vendor",
+   "sourceText": "Pattern: Golden Mantle of the Dawn Pattern: Golden Mantle of the Dawn Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Breechlock )"
+  },
+  {
+   "name": "Bileblister Boots",
+   "orange": null,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Bileblister Boots Source not known yet"
+  },
+  {
+   "name": "Hivethrasher's Boots",
+   "orange": null,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Hivethrasher's Boots Source not known yet"
+  },
+  {
+   "name": "Scalegut Treaders",
+   "orange": null,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Scalegut Treaders Source not known yet"
+  },
+  {
+   "name": "Broodwatcher's Treaders",
+   "orange": null,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Broodwatcher's Treaders Source not known yet"
+  },
+  {
+   "name": "Helm of the Great Chief",
+   "orange": null,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Pattern: Helm of the Great Chief Drop: Stranglethorn Vale, Stratholme, Blackwing Lair, Molten Core, Ahn'Qiraj, Ruins of Ahn'Qiraj"
+  },
+  {
+   "name": "Red Dragonscale Breastplate",
+   "orange": 290,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Pattern: Red Dragonscale Breastplate Drop: Blackrock Spire (General Drakkisath)"
+  },
+  {
+   "name": "Living Breastplate",
+   "orange": 290,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Pattern: Living Breastplate Drop: Western Plaguelands ( Decaying Horror )"
+  },
+  {
+   "name": "Devilsaur Leggings",
+   "orange": 290,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Pattern: Devilsaur Leggings Drop: Un'Goro Crater"
+  },
+  {
+   "name": "Frostsaber Tunic",
+   "orange": 290,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Pattern: Frostsaber Tunic Drop: Winterspring ( Winterfall Ursa )"
+  },
+  {
+   "name": "Black Dragonscale Leggings",
+   "orange": 290,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Pattern: Black Dragonscale Leggings Drop: Blackrock Depths (Trash)"
+  },
+  {
+   "name": "Girdle of Insight",
+   "orange": 290,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Pattern: Girdle of Insight Drop: Dire Maul (Knot Thimblejack's Cache)"
+  },
+  {
+   "name": "Mongoose Boots",
+   "orange": 290,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Pattern: Mongoose Boots Drop: Dire Maul (Knot Thimblejack's Cache)"
+  },
+  {
+   "name": "Swift Flight Bracers",
+   "orange": 290,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Pattern: Swift Flight Bracers Drop: Dire Maul (Knot Thimblejack's Cache)"
+  },
+  {
+   "name": "Stormshroud Gloves",
+   "orange": 290,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Pattern: Stormshroud Gloves Drop: Silithus ( The Windreaver ) Drop: Winterspring ( Princess Tempestria )"
+  },
+  {
+   "name": "Bileblister Girdle",
+   "orange": 290,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Bileblister Girdle Source not known yet"
+  },
+  {
+   "name": "Hivethrasher's Girdle",
+   "orange": 290,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Hivethrasher's Girdle Source not known yet"
+  },
+  {
+   "name": "Scalegut Belt",
+   "orange": 290,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Scalegut Belt Source not known yet"
+  },
+  {
+   "name": "Broodwatcher's Belt",
+   "orange": 290,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Broodwatcher's Belt Source not known yet"
+  },
+  {
+   "name": "Runic Leather Armor",
+   "orange": 285,
+   "yellow": 305,
+   "green": 315,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Pattern: Runic Leather Armor Drop: Scholomance (Trash)"
+  },
+  {
+   "name": "Runic Leather Shoulders",
+   "orange": 285,
+   "yellow": 305,
+   "green": 315,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Pattern: Runic Leather Shoulders Drop: Stratholme (Trash)"
+  },
+  {
+   "name": "Winter Boots",
+   "orange": null,
+   "yellow": null,
+   "green": null,
+   "grey": null,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Winter Boots Source not known yet"
+  },
+  {
+   "name": "Bileblister Claws",
+   "orange": 285,
+   "yellow": 290,
+   "green": 292,
+   "grey": 295,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Bileblister Claws Source not known yet"
+  },
+  {
+   "name": "Hivethrasher's Claws",
+   "orange": 285,
+   "yellow": 290,
+   "green": 292,
+   "grey": 295,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Hivethrasher's Claws Source not known yet"
+  },
+  {
+   "name": "Scalegut Clenchers",
+   "orange": 285,
+   "yellow": 290,
+   "green": 292,
+   "grey": 295,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Scalegut Clenchers Source not known yet"
+  },
+  {
+   "name": "Broodwatcher's Clenchers",
+   "orange": 285,
+   "yellow": 290,
+   "green": 292,
+   "grey": 295,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Broodwatcher's Clenchers Source not known yet"
+  },
+  {
+   "name": "Wicked Leather Armor",
+   "orange": 280,
+   "yellow": 300,
+   "green": 310,
+   "grey": 320,
+   "source": "drop",
+   "sourceText": "Pattern: Wicked Leather Armor Drop: Scholomance (Trash)"
+  },
+  {
+   "name": "Heavy Scorpid Shoulders",
+   "orange": 280,
+   "yellow": 300,
+   "green": 310,
+   "grey": 320,
+   "source": "drop",
+   "sourceText": "Pattern: Heavy Scorpid Shoulders Drop: Burning Steppes ( Blackrock Battlemaster )"
+  },
+  {
+   "name": "Volcanic Shoulders",
+   "orange": 280,
+   "yellow": 300,
+   "green": 310,
+   "grey": 320,
+   "source": "drop",
+   "sourceText": "Pattern: Volcanic Shoulders Drop: Blackrock Spire (Trash)"
+  },
+  {
+   "name": "Charged Scorpid Boots",
+   "orange": 280,
+   "yellow": 300,
+   "green": 310,
+   "grey": 320,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Charged Scorpid Boots Source not known yet"
+  },
+  {
+   "name": "Supple Scorpid Sabatons",
+   "orange": 280,
+   "yellow": 300,
+   "green": 310,
+   "grey": 320,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Supple Scorpid Sabatons Source not known yet"
+  },
+  {
+   "name": "Blue Suede Hat",
+   "orange": 280,
+   "yellow": 300,
+   "green": 310,
+   "grey": 320,
+   "source": "drop",
+   "sourceText": "Pattern: Blue Suede Hat Drop: Winterspring ( Winterfall Den Watcher )"
+  },
+  {
+   "name": "Tooled Leather Pants",
+   "orange": 280,
+   "yellow": 300,
+   "green": 310,
+   "grey": 320,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Tooled Leather Pants Source not known yet"
+  },
+  {
+   "name": "Runic Leather Pants",
+   "orange": 275,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "drop",
+   "sourceText": "Pattern: Runic Leather Pants World drop (level 55–62)"
+  },
+  {
+   "name": "Wicked Leather Belt",
+   "orange": 275,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "drop",
+   "sourceText": "Pattern: Wicked Leather Belt Drop: Stratholme (Trash)"
+  },
+  {
+   "name": "Blue Suede Bracers",
+   "orange": 275,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "drop",
+   "sourceText": "Pattern: Blue Suede Bracers Drop: Burning Steppes ( Blackrock Soldier )"
+  },
+  {
+   "name": "Tooled Leather Epaulets",
+   "orange": 275,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Tooled Leather Epaulets Source not known yet"
+  },
+  {
+   "name": "Storm Gauntlets",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Storm Gauntlets World drop (level 52–61) Vendor ( Magnus Frostwake )"
+  },
+  {
+   "name": "Frostsaber Gloves",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Pattern: Frostsaber Gloves Drop: Winterspring ( Winterfall Totemic )"
+  },
+  {
+   "name": "Heavy Scorpid Helm",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "vendor",
+   "sourceText": "Pattern: Heavy Scorpid Helm Vendor ( Zannok Hidepiercer )"
+  },
+  {
+   "name": "Blue Dragonscale Shoulders",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Pattern: Blue Dragonscale Shoulders Drop: Azshara ( Cliff Breaker )"
+  },
+  {
+   "name": "Stormshroud Shoulders",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Pattern: Stormshroud Shoulders Drop: Azshara ( Son of Arkkoroc )"
+  },
+  {
+   "name": "Black Dragonscale Shoulders",
+   "orange": 270,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Pattern: Black Dragonscale Shoulders Drop: Blackrock Depths (Trash)"
+  },
+  {
+   "name": "Charged Scorpid Leggings",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Pattern: Charged Scorpid Leggings Drop: Eastern Plaguelands ( Unliving Mossflayer )"
+  },
+  {
+   "name": "Supple Scorpid Vest",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "vendor quest",
+   "sourceText": "Pattern: Supple Scorpid Vest Vendor ( Pexmit ) Quest: Leather for Inclement Weather"
+  },
+  {
+   "name": "Blue Suede Belt",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Pattern: Blue Suede Belt Drop: Azshara ( Spitelash Battlemaster )"
+  },
+  {
+   "name": "Tooled Leather Bracers",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Pattern: Tooled Leather Bracers Drop: Eastern Plaguelands ( Putrid Gargoyle )"
+  },
+  {
+   "name": "Wicked Leather Shoulders",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Wicked Leather Shoulders Source not known yet"
+  },
+  {
+   "name": "Chimeric Vest",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "drop",
+   "sourceText": "Pattern: Chimeric Vest World drop (level 51–61)"
+  },
+  {
+   "name": "Runic Leather Headband",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Pattern: Runic Leather Headband Vendor ( Jase Farlane )"
+  },
+  {
+   "name": "Wicked Leather Pants",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "drop",
+   "sourceText": "Pattern: Wicked Leather Pants World drop (level 51–61)"
+  },
+  {
+   "name": "Devilsaur Gauntlets",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Pattern: Devilsaur Gauntlets Vendor ( Nergal )"
+  },
+  {
+   "name": "Black Dragonscale Breastplate",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Black Dragonscale Breastplate Drop: Blackrock Depths (Guzzler) Vendor ( Plugger Spazzring )"
+  },
+  {
+   "name": "Ironfeather Breastplate",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "drop",
+   "sourceText": "Pattern: Ironfeather Breastplate Drop: The Hinterlands ( Vilebranch Hideskinner )"
+  },
+  {
+   "name": "Heavy Timbermaw Belt",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Pattern: Heavy Timbermaw Belt Vendor ( Meilosh )"
+  },
+  {
+   "name": "Might of the Timbermaw",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Pattern: Might of the Timbermaw Vendor ( Meilosh )"
+  },
+  {
+   "name": "Dawn Treaders",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Pattern: Dawn Treaders Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Breechlock )"
+  },
+  {
+   "name": "Blue Suede Armor",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "drop quest",
+   "sourceText": "Pattern: Blue Suede Armor Drop: Blasted Lands ( Shadowsworn Thug ) Quest: Leather Technique"
+  },
+  {
+   "name": "Tooled Leather Crown",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "drop",
+   "sourceText": "Pattern: Tooled Leather Crown Drop: Un'Goro Crater ( Scorching Elemental )"
+  },
+  {
+   "name": "Frostsaber Leggings",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Pattern: Frostsaber Leggings Drop: Winterspring ( Winterfall Den Watcher )"
+  },
+  {
+   "name": "Heavy Scorpid Leggings",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Pattern: Heavy Scorpid Leggings Drop: Burning Steppes ( Blackrock Slayer )"
+  },
+  {
+   "name": "Volcanic Breastplate",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Pattern: Volcanic Breastplate Drop: Blackrock Spire (Trash)"
+  },
+  {
+   "name": "Blue Dragonscale Breastplate",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Pattern: Blue Dragonscale Breastplate Vendor ( Blimo Gadgetspring )"
+  },
+  {
+   "name": "Living Leggings",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Pattern: Living Leggings Drop: Felwood ( Deadwood Shaman )"
+  },
+  {
+   "name": "Stormshroud Armor",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Pattern: Stormshroud Armor Drop: Azshara ( Arkkoran Oracle )"
+  },
+  {
+   "name": "Warbear Woolies",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Pattern: Warbear Woolies Vendor ( Meilosh )"
+  },
+  {
+   "name": "Charged Scorpid Vest",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Pattern: Charged Scorpid Vest Drop: Azshara ( Spitelash Siren )"
+  },
+  {
+   "name": "Supple Scorpid Helm",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Pattern: Supple Scorpid Helm Drop: Blasted Lands ( Shadowsworn Adept )"
+  },
+  {
+   "name": "Blue Suede Shoulders",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Blue Suede Shoulders Source not known yet"
+  },
+  {
+   "name": "Tooled Leather Gauntlets",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Tooled Leather Gauntlets Source not known yet"
+  },
+  {
+   "name": "Wicked Leather Boots",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Pattern: Wicked Leather Boots Drop: Felwood ( Entropic Beast )"
+  },
+  {
+   "name": "Heavy Scorpid Bracers",
+   "orange": null,
+   "yellow": 250,
+   "green": 260,
+   "grey": 270,
+   "source": "vendor",
+   "sourceText": "Pattern: Heavy Scorpid Bracers Vendor ( Zannok Hidepiercer )"
+  },
+  {
+   "name": "Heavy Scorpid Belt",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Pattern: Heavy Scorpid Belt World drop (level 51–61)"
+  },
+  {
+   "name": "Wicked Leather Headband",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Pattern: Wicked Leather Headband Drop: Felwood ( Jadefire Trickster )"
+  },
+  {
+   "name": "Runic Leather Belt",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Pattern: Runic Leather Belt World drop (level 51–61)"
+  },
+  {
+   "name": "Chimeric Leggings",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Pattern: Chimeric Leggings World drop (level 51–61)"
+  },
+  {
+   "name": "Charged Scorpid Gauntlets",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Pattern: Charged Scorpid Gauntlets Drop: Western Plaguelands ( Skeletal Sorcerer )"
+  },
+  {
+   "name": "Supple Scorpid Belt",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Pattern: Supple Scorpid Belt Drop: Azshara ( Blood Elf Surveyor )"
+  },
+  {
+   "name": "Heavy Scorpid Boots",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Heavy Scorpid Boots Source not known yet"
+  },
+  {
+   "name": "Charged Scorpid Bracers",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Pattern: Charged Scorpid Bracers Drop: Un'Goro Crater ( Tar Creeper )"
+  },
+  {
+   "name": "Supple Scorpid Shoulders",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Pattern: Supple Scorpid Shoulders Drop: Felwood ( Jaedenar Adept )"
+  },
+  {
+   "name": "Blue Suede Pants",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Blue Suede Pants Source not known yet"
+  },
+  {
+   "name": "Tooled Leather Armor",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "vendor quest",
+   "sourceText": "Pattern: Tooled Leather Armor Vendor ( Pexmit ) Quest: Leather for Inclement Weather"
+  },
+  {
+   "name": "Chimeric Boots",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Pattern: Chimeric Boots World drop (level 46–60)"
+  },
+  {
+   "name": "Heavy Scorpid Gauntlet",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Pattern: Heavy Scorpid Gauntlets Drop: Burning Steppes ( Blackrock Soldier )"
+  },
+  {
+   "name": "Runic Leather Bracers",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Pattern: Runic Leather Bracers Drop: Felwood ( Jaedenar Cultist )"
+  },
+  {
+   "name": "Frostsaber Boots",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Pattern: Frostsaber Boots Vendor ( Qia )"
+  },
+  {
+   "name": "Stormshroud Pants",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Pattern: Stormshroud Pants Vendor ( Leonard Porter , Werg Thickblade )"
+  },
+  {
+   "name": "Warbear Harness",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Warbear Harness Pattern: Warbear Harness World drop (level 46–60) Drop: Stranglethorn Vale ( Arena Treasure Chest ) Vendor ( Meilosh )"
+  },
+  {
+   "name": "Mender's Mail Belt",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Pattern: Mender's Mail Belt Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Skirmisher's Mail Belt",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Pattern: Skirmisher's Mail Belt Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Skycaller's Mail Belt",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Pattern: Skycaller's Mail Belt Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Stalker's Mail Belt",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Pattern: Stalker's Mail Belt Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Mender's Mail Gauntlets",
+   "orange": 250,
+   "yellow": 255,
+   "green": 255,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Pattern: Mender's Mail Gauntlets World drop (level 46–55)"
+  },
+  {
+   "name": "Skirmisher's Mail Gauntlets",
+   "orange": 250,
+   "yellow": 255,
+   "green": 255,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Pattern: Skirmisher's Mail Gauntlets Drop: Zul'Farrak"
+  },
+  {
+   "name": "Skycaller's Mail Gauntlets",
+   "orange": 250,
+   "yellow": 255,
+   "green": 255,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Pattern: Skycaller's Mail Gauntlets Drop: Zul'Farrak, Uldaman, Blackrock Depths, Maraudon"
+  },
+  {
+   "name": "Stalker's Mail Gauntlets",
+   "orange": 250,
+   "yellow": 255,
+   "green": 255,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Pattern: Stalker's Mail Gauntlets Drop: Zul'Farrak, Uldaman, Blackrock Depths, Maraudon"
+  },
+  {
+   "name": "Charged Scorpid Shoulders",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Charged Scorpid Shoulders Source not known yet"
+  },
+  {
+   "name": "Supple Scorpid Bracers",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Pattern: Supple Scorpid Bracers Drop: Feralas ( Groddoc Thunderer )"
+  },
+  {
+   "name": "Mender's Leather Waistguard",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Pattern: Mender's Leather Waistguard Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Skycaller's Leather Waistguard",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Pattern: Skycaller's Leather Waistguard Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Warden's Leather Waistguard",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Pattern: Warden's Leather Waistguard Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Skulker's Leather Waistguard",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Pattern: Skulker's Leather Waistguard Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Prowler's Leather Waistguard",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Pattern: Prowler's Leather Waistguard Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Mender's Leather Gauntlets",
+   "orange": 250,
+   "yellow": 255,
+   "green": 255,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Pattern: Mender's Leather Gauntlets Drop: Zul'Farrak, Uldaman, Maraudon"
+  },
+  {
+   "name": "Skycaller's Leather Gauntlets",
+   "orange": 250,
+   "yellow": 255,
+   "green": 255,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Pattern: Skycaller's Leather Gauntlets Drop: Zul'Farrak, Blackrock Depths, Maraudon"
+  },
+  {
+   "name": "Warden's Leather Gauntlets",
+   "orange": 250,
+   "yellow": 255,
+   "green": 255,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Pattern: Warden's Leather Gauntlets Drop: Zul'Farrak, Uldaman, Maraudon"
+  },
+  {
+   "name": "Skulker's Leather Gauntlets",
+   "orange": 250,
+   "yellow": 255,
+   "green": 255,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Pattern: Skulker's Leather Gauntlets Drop: Zul'Farrak, Uldaman, Maraudon"
+  },
+  {
+   "name": "Prowler's Leather Gauntlets",
+   "orange": 250,
+   "yellow": 255,
+   "green": 255,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Pattern: Prowler's Leather Gauntlets Drop: Zul'Farrak, Uldaman, The Temple of Atal'Hakkar, Maraudon"
+  },
+  {
+   "name": "Wildthorn Mail",
+   "orange": 245,
+   "yellow": 265,
+   "green": 275,
+   "grey": 285,
+   "source": "drop",
+   "sourceText": "Pattern: Wildthorn Mail World drop (level 46–60)"
+  },
+  {
+   "name": "Runic Leather Gauntlets",
+   "orange": 245,
+   "yellow": 265,
+   "green": 275,
+   "grey": 285,
+   "source": "drop",
+   "sourceText": "Pattern: Runic Leather Gauntlets World drop (level 46–60)"
+  },
+  {
+   "name": "Volcanic Leggings",
+   "orange": 245,
+   "yellow": 265,
+   "green": 275,
+   "grey": 285,
+   "source": "drop",
+   "sourceText": "Pattern: Volcanic Leggings Drop: Burning Steppes ( Firegut Brute )"
+  },
+  {
+   "name": "Green Dragonscale Leggings",
+   "orange": 245,
+   "yellow": 265,
+   "green": 275,
+   "grey": 285,
+   "source": "drop",
+   "sourceText": "Pattern: Green Dragonscale Leggings Drop: Sunken Temple (Trash)"
+  },
+  {
+   "name": "Living Shoulders",
+   "orange": 245,
+   "yellow": 265,
+   "green": 275,
+   "grey": 285,
+   "source": "vendor",
+   "sourceText": "Pattern: Living Shoulders Vendor ( Jangdor Swiftstrider , Pratt McGrubben )"
+  },
+  {
+   "name": "Ironfeather Shoulders",
+   "orange": 245,
+   "yellow": 265,
+   "green": 275,
+   "grey": 285,
+   "source": "vendor",
+   "sourceText": "Pattern: Ironfeather Shoulders Vendor ( Gigget Zipcoil )"
+  },
+  {
+   "name": "Heavy Scorpid Vest",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Pattern: Heavy Scorpid Vest Drop: Blasted Lands ( Portal Seeker , Shadowsworn Thug )"
+  },
+  {
+   "name": "Wicked Leather Bracers",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Pattern: Wicked Leather Bracers Drop: Azshara ( Legashi Rogue )"
+  },
+  {
+   "name": "Chimeric Gloves",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Pattern: Chimeric Gloves Vendor ( Blimo Gadgetspring )"
+  },
+  {
+   "name": "Charged Scorpid Helm",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Pattern: Charged Scorpid Helm Drop: Searing Gorge ( Incendosaur )"
+  },
+  {
+   "name": "Supple Scorpid Leggings",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Pattern: Supple Scorpid Leggings Drop: Un'Goro Crater ( Ravasaur )"
+  },
+  {
+   "name": "Blue Suede Gloves",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Pattern: Blue Suede Gloves Drop: Felwood ( Deadwood Warrior )"
+  },
+  {
+   "name": "Tooled Leather Boots",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Pattern: Tooled Leather Boots Drop: Felwood ( Deadwood Shaman )"
+  },
+  {
+   "name": "Wicked Leather Gauntlets",
+   "orange": 235,
+   "yellow": 255,
+   "green": 265,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Pattern: Wicked Leather Gauntlets Vendor ( Leonard Porter , Werg Thickblade )"
+  },
+  {
+   "name": "Green Dragonscale Breastplate",
+   "orange": 235,
+   "yellow": 255,
+   "green": 265,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Pattern: Green Dragonscale Breastplate Vendor ( Masat T'andr )"
+  },
+  {
+   "name": "Forceful Rugged Armor Kit",
+   "orange": null,
+   "yellow": 235,
+   "green": 245,
+   "grey": 255,
+   "source": "vendor",
+   "sourceText": "Pattern: Forceful Rugged Armor Kit Vendor ( Jangdor Swiftstrider )"
+  },
+  {
+   "name": "Mystic Rugged Armor Kit",
+   "orange": null,
+   "yellow": 235,
+   "green": 245,
+   "grey": 255,
+   "source": "vendor",
+   "sourceText": "Pattern: Mystic Rugged Armor Kit Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Mender's Mail Sabatons",
+   "orange": 235,
+   "yellow": 255,
+   "green": 265,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Pattern: Mender's Mail Sabatons Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Skirmisher's Mail Sabatons",
+   "orange": 235,
+   "yellow": 255,
+   "green": 265,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Pattern: Skirmisher's Mail Sabatons Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Skycaller's Mail Sabatons",
+   "orange": 235,
+   "yellow": 255,
+   "green": 265,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Pattern: Skycaller's Mail Sabatons Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Stalker's Mail Sabatons",
+   "orange": 235,
+   "yellow": 255,
+   "green": 265,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Pattern: Stalker's Mail Sabatons Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Mender's Leather Boots",
+   "orange": 235,
+   "yellow": 255,
+   "green": 265,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Pattern: Mender's Leather Boots Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Skycaller's Leather Boots",
+   "orange": 235,
+   "yellow": 255,
+   "green": 265,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Pattern: Skycaller's Leather Boots Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Warden's Leather Boots",
+   "orange": 235,
+   "yellow": 255,
+   "green": 265,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Pattern: Warden's Leather Boots Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Skulker's Leather Boots",
+   "orange": 235,
+   "yellow": 255,
+   "green": 265,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Pattern: Skulker's Leather Boots Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Prowler's Leather Boots",
+   "orange": 235,
+   "yellow": 255,
+   "green": 265,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Pattern: Prowler's Leather Boots Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Blue Suede Shoes",
+   "orange": 235,
+   "yellow": 255,
+   "green": 265,
+   "grey": 275,
+   "source": "drop",
+   "sourceText": "Pattern: Blue Suede Shoes Drop: Searing Gorge ( Dark Iron Taskmaster )"
+  },
+  {
+   "name": "Tooled Leather Belt",
+   "orange": 235,
+   "yellow": 255,
+   "green": 265,
+   "grey": 275,
+   "source": "drop",
+   "sourceText": "Pattern: Tooled Leather Belt Drop: Azshara ( Highborne Apparition )"
+  },
+  {
+   "name": "Charged Scorpid Belt",
+   "orange": 230,
+   "yellow": 250,
+   "green": 260,
+   "grey": 270,
+   "source": "drop",
+   "sourceText": "Pattern: Charged Scorpid Belt Drop: Feralas ( Rage Scar Yeti )"
+  },
+  {
+   "name": "Supple Scorpid Boots",
+   "orange": 230,
+   "yellow": 250,
+   "green": 260,
+   "grey": 270,
+   "source": "drop",
+   "sourceText": "Pattern: Supple Scorpid Boots Drop: Tanaris ( Dunemaul Ogre )"
+  },
+  {
+   "name": "Tough Scorpid Helm",
+   "orange": 225,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "drop",
+   "sourceText": "Pattern: Tough Scorpid Helm Drop: Tanaris ( Wastewander Assassin , Wastewander Scofflaw , Andre Firebeard )"
+  },
+  {
+   "name": "Wild Leather Leggings",
+   "orange": 225,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "quest",
+   "sourceText": "Pattern: Wild Leather Leggings Quest: Wild Leather Leggings"
+  },
+  {
+   "name": "Wild Leather Cloak",
+   "orange": 225,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "quest",
+   "sourceText": "Pattern: Wild Leather Cloak Quest: Master of the Wild Leather"
+  },
+  {
+   "name": "Mender's Mail Bracers",
+   "orange": null,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Pattern: Mender's Mail Bracers Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Skirmisher's Mail Bracers",
+   "orange": null,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Pattern: Skirmisher's Mail Bracers Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Skycaller's Mail Bracers",
+   "orange": null,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Pattern: Skycaller's Mail Bracers Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Stalker's Mail Bracers",
+   "orange": null,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Pattern: Stalker's Mail Bracers Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Mender's Leather Bracers",
+   "orange": 225,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Pattern: Mender's Leather Bracers Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Skycaller's Leather Bracers",
+   "orange": 225,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Pattern: Skycaller's Leather Bracers Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Warden's Leather Bracers",
+   "orange": 225,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Pattern: Warden's Leather Bracers Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Skulker's Leather Bracers",
+   "orange": 225,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Pattern: Skulker's Leather Bracers Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Prowler's Leather Bracers",
+   "orange": 225,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Pattern: Prowler's Leather Bracers Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Wild Leather Boots",
+   "orange": 220,
+   "yellow": 240,
+   "green": 250,
+   "grey": 260,
+   "source": "quest",
+   "sourceText": "Pattern: Wild Leather Boots Quest: Wild Leather Boots"
+  },
+  {
+   "name": "Tough Scorpid Leggings",
+   "orange": 220,
+   "yellow": 240,
+   "green": 250,
+   "grey": 260,
+   "source": "drop",
+   "sourceText": "Pattern: Tough Scorpid Leggings Drop: Tanaris ( Wastewander Rogue )"
+  },
+  {
+   "name": "Big Voodoo Pants",
+   "orange": 215,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "drop",
+   "sourceText": "Pattern: Big Voodoo Pants World drop (level 41–56)"
+  },
+  {
+   "name": "Big Voodoo Cloak",
+   "orange": 215,
+   "yellow": 235,
+   "green": 245,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Pattern: Big Voodoo Cloak World drop (level 41–56)"
+  },
+  {
+   "name": "Tough Scorpid Shoulders",
+   "orange": 215,
+   "yellow": 235,
+   "green": 245,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Pattern: Tough Scorpid Shoulders Drop: Tanaris ( Wastewander Assassin , Wastewander Scofflaw , Andre Firebeard )"
+  },
+  {
+   "name": "Tough Scorpid Boots",
+   "orange": 210,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "drop",
+   "sourceText": "Pattern: Tough Scorpid Boots Drop: Tanaris ( Wastewander Rogue )"
+  },
+  {
+   "name": "Mender's Mail Shoulders",
+   "orange": 210,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Pattern: Mender's Mail Shoulders Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Skirmisher's Mail Shoulders",
+   "orange": 210,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Pattern: Skirmisher's Mail Shoulders Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Skycaller's Mail Shoulders",
+   "orange": 210,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Pattern: Skycaller's Mail Shoulders Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Stalker's Mail Shoulders",
+   "orange": 210,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Pattern: Stalker's Mail Shoulders Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Mender's Leather Shoulders",
+   "orange": 210,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Pattern: Mender's Leather Shoulders Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Skycaller's Leather Shoulders",
+   "orange": 210,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Pattern: Skycaller's Leather Shoulders Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Warden's Leather Shoulders",
+   "orange": 210,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Pattern: Warden's Leather Shoulders Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Skulker's Leather Shoulder",
+   "orange": 210,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Pattern: Skulker's Leather Shoulder Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Prowler's Leather Shoulders",
+   "orange": 210,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Pattern: Prowler's Leather Shoulders Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Nightscape Cloak",
+   "orange": 205,
+   "yellow": 225,
+   "green": 235,
+   "grey": 245,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Nightscape Cloak Source not known yet"
+  },
+  {
+   "name": "Tough Scorpid Gloves",
+   "orange": 200,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "drop",
+   "sourceText": "Pattern: Tough Scorpid Gloves Drop: Tanaris ( Wastewander Thief )"
+  },
+  {
+   "name": "Wild Leather Vest",
+   "orange": 200,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "quest",
+   "sourceText": "Pattern: Wild Leather Vest Quest: Wild Leather Vest"
+  },
+  {
+   "name": "Wild Leather Helmet",
+   "orange": 200,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "quest",
+   "sourceText": "Pattern: Wild Leather Helmet Quest: Wild Leather Helmet"
+  },
+  {
+   "name": "Quickdraw Quiver",
+   "orange": 200,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Thick Leather Ammo Pouch",
+   "orange": 200,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Mender's Mail Boots",
+   "orange": 200,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Pattern: Mender's Mail Boots World drop (level 37–46)"
+  },
+  {
+   "name": "Skirmisher's Mail Boots",
+   "orange": 200,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Pattern: Skirmisher's Mail Boots World drop (level 37–45)"
+  },
+  {
+   "name": "Skycaller's Mail Boots",
+   "orange": 200,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Pattern: Skycaller's Mail Boots World drop (level 37–46)"
+  },
+  {
+   "name": "Stalker's Mail Boots",
+   "orange": 200,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Pattern: Stalker's Mail Boots Drop: Zul'Farrak (Sergeant Bly)"
+  },
+  {
+   "name": "Mender's Leather Shoes",
+   "orange": 200,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Pattern: Mender's Leather Shoes World drop (level 37–45)"
+  },
+  {
+   "name": "Skycaller's Leather Shoes",
+   "orange": 200,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Pattern: Skycaller's Leather Shoes World drop (level 37–46)"
+  },
+  {
+   "name": "Warden's Leather Shoes",
+   "orange": 200,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Pattern: Warden's Leather Shoes World drop (level 37–45)"
+  },
+  {
+   "name": "Skulker's Leather Shoes",
+   "orange": 200,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Pattern: Skulker's Leather Shoes World drop (level 37–45)"
+  },
+  {
+   "name": "Prowler's Leather Shoes",
+   "orange": 200,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Pattern: Prowler's Leather Shoes World drop (level 37–46)"
+  },
+  {
+   "name": "Tough Scorpid Breastplate",
+   "orange": 195,
+   "yellow": 215,
+   "green": 225,
+   "grey": 235,
+   "source": "drop",
+   "sourceText": "Pattern: Tough Scorpid Breastplate Drop: Tanaris ( Wastewander Bandit )"
+  },
+  {
+   "name": "Wild Leather Shoulders",
+   "orange": 195,
+   "yellow": 215,
+   "green": 225,
+   "grey": 235,
+   "source": "quest",
+   "sourceText": "Pattern: Wild Leather Shoulders Quest: Wild Leather Shoulders"
+  },
+  {
+   "name": "Big Voodoo Mask",
+   "orange": 195,
+   "yellow": 215,
+   "green": 225,
+   "grey": 235,
+   "source": "drop",
+   "sourceText": "Pattern: Big Voodoo Mask World drop (level 35–51)"
+  },
+  {
+   "name": "Tough Scorpid Bracers",
+   "orange": 195,
+   "yellow": 215,
+   "green": 225,
+   "grey": 235,
+   "source": "drop",
+   "sourceText": "Pattern: Tough Scorpid Bracers Drop: Tanaris ( Wastewander Shadow Mage )"
+  },
+  {
+   "name": "Big Voodoo Robe",
+   "orange": 190,
+   "yellow": 210,
+   "green": 220,
+   "grey": 230,
+   "source": "drop",
+   "sourceText": "Pattern: Big Voodoo Robe World drop (level 35–50)"
+  },
+  {
+   "name": "Turtle Scale Breastplate",
+   "orange": 185,
+   "yellow": 205,
+   "green": 215,
+   "grey": 225,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Nightscape Shoulders",
+   "orange": 185,
+   "yellow": 205,
+   "green": 215,
+   "grey": 225,
+   "source": "vendor",
+   "sourceText": "Pattern: Nightscape Shoulders Vendor ( Jangdor Swiftstrider , Nioma )"
+  },
+  {
+   "name": "Turtle Scale Bracers",
+   "orange": 185,
+   "yellow": 205,
+   "green": 215,
+   "grey": 225,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Forceful Thick Armor Kit",
+   "orange": 185,
+   "yellow": 205,
+   "green": 215,
+   "grey": 225,
+   "source": "vendor",
+   "sourceText": "Pattern: Forceful Thick Armor Kit Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Mystic Thick Armor Kit",
+   "orange": 185,
+   "yellow": 205,
+   "green": 215,
+   "grey": 225,
+   "source": "vendor quest",
+   "sourceText": "Pattern: Mystic Thick Armor Kit Vendor ( Gorhak ) Quest: Leather Technique"
+  },
+  {
+   "name": "Nightscape Tunic",
+   "orange": 180,
+   "yellow": 200,
+   "green": 210,
+   "grey": 220,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Nightscape Headband",
+   "orange": 180,
+   "yellow": 200,
+   "green": 210,
+   "grey": 220,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Turtle Scale Gloves",
+   "orange": 180,
+   "yellow": 200,
+   "green": 210,
+   "grey": 220,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Turtle Scale Gloves World drop (level 35–50) Vendor ( Jangdor Swiftstrider , Pratt McGrubben )"
+  },
+  {
+   "name": "Barbaric Belt",
+   "orange": 175,
+   "yellow": 195,
+   "green": 205,
+   "grey": 215,
+   "source": "drop",
+   "sourceText": "Pattern: Barbaric Belt World drop (level 30–44)"
+  },
+  {
+   "name": "Dusky Boots",
+   "orange": 175,
+   "yellow": 195,
+   "green": 205,
+   "grey": 215,
+   "source": "drop",
+   "sourceText": "Pattern: Dusky Boots World drop (level 30–45)"
+  },
+  {
+   "name": "Swift Boots",
+   "orange": 175,
+   "yellow": 195,
+   "green": 205,
+   "grey": 215,
+   "source": "drop",
+   "sourceText": "Pattern: Swift Boots World drop (level 31–46)"
+  },
+  {
+   "name": "Cured Thick Hide",
+   "orange": null,
+   "yellow": 175,
+   "green": 175,
+   "grey": 175,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Thick Armor Kit",
+   "orange": 175,
+   "yellow": 195,
+   "green": 205,
+   "grey": 215,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Comfortable Leather Hat",
+   "orange": 175,
+   "yellow": 195,
+   "green": 205,
+   "grey": 215,
+   "source": "drop",
+   "sourceText": "Pattern: Comfortable Leather Hat World drop (level 31–45)"
+  },
+  {
+   "name": "Thick Leather",
+   "orange": null,
+   "yellow": 175,
+   "green": 177,
+   "grey": 180,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Shadowskin Gloves",
+   "orange": 175,
+   "yellow": 185,
+   "green": 195,
+   "grey": 205,
+   "source": "vendor",
+   "sourceText": "Pattern: Shadowskin Gloves Vendor ( Rikqiz )"
+  },
+  {
+   "name": "Mender's Leather Gloves",
+   "orange": 175,
+   "yellow": 195,
+   "green": 205,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Mender's Leather Gloves Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Skycaller's Leather Gloves",
+   "orange": 175,
+   "yellow": 195,
+   "green": 205,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Skycaller's Leather Gloves Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Skirmisher's Leather Gloves",
+   "orange": 175,
+   "yellow": 195,
+   "green": 205,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Skirmisher's Leather Gloves Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Warden's Leather Gloves",
+   "orange": 175,
+   "yellow": 195,
+   "green": 205,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Warden's Leather Gloves Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Stalker's Leather Gloves",
+   "orange": 175,
+   "yellow": 195,
+   "green": 205,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Stalker's Leather Gloves Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Skulker's Leather Gloves",
+   "orange": 175,
+   "yellow": 195,
+   "green": 205,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Skulker's Leather Gloves Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Prowler's Leather Gloves",
+   "orange": 175,
+   "yellow": 195,
+   "green": 205,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Prowler's Leather Gloves Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Cloudy Gustwoven Hood",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Pattern: Cloudy Gustwoven Hood Vendor ( Sutara Plainstalker )"
+  },
+  {
+   "name": "Cloudy Gustwoven Spaulders",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Pattern: Cloudy Gustwoven Spaulders Vendor ( Sutara Plainstalker )"
+  },
+  {
+   "name": "Cloudy Windraveled Cover",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Pattern: Cloudy Windraveled Cover Vendor ( Sutara Plainstalker )"
+  },
+  {
+   "name": "Cloudy Windraveled Drapes",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Pattern: Cloudy Windraveled Drapes Vendor ( Sutara Plainstalker )"
+  },
+  {
+   "name": "Azure Gustwoven Hood",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Pattern: Azure Gustwoven Hood Vendor ( Archmage Alvareaux )"
+  },
+  {
+   "name": "Azure Gustwoven Spaulders",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Pattern: Azure Gustwoven Spaulders Vendor ( Archmage Alvareaux )"
+  },
+  {
+   "name": "Azure Windraveled Cover",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Pattern: Azure Windraveled Cover Vendor ( Archmage Alvareaux )"
+  },
+  {
+   "name": "Azure Windraveled Drapes",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Pattern: Azure Windraveled Drapes Vendor ( Archmage Alvareaux )"
+  },
+  {
+   "name": "Guardian Leather Bracers",
+   "orange": 170,
+   "yellow": 190,
+   "green": 200,
+   "grey": 210,
+   "source": "drop",
+   "sourceText": "Pattern: Guardian Leather Bracers World drop (level 31–46)"
+  },
+  {
+   "name": "Dusky Belt",
+   "orange": 170,
+   "yellow": 190,
+   "green": 200,
+   "grey": 210,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Barbaric Harness",
+   "orange": 165,
+   "yellow": 185,
+   "green": 195,
+   "grey": 205,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Murloc Scale Bracers",
+   "orange": 165,
+   "yellow": 185,
+   "green": 195,
+   "grey": 205,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Murloc Scale Bracers Drop: Stranglethorn Vale ( Bloodsail Raider ) Drop: Arathi Highlands ( Blackwater Deckhand ) Vendor ( Blixrez Goodstitch , Helenia Olden )"
+  },
+  {
+   "name": "Guardian Gloves",
+   "orange": 165,
+   "yellow": 185,
+   "green": 195,
+   "grey": 205,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Green Whelp Bracers",
+   "orange": 165,
+   "yellow": 185,
+   "green": 195,
+   "grey": 205,
+   "source": "vendor",
+   "sourceText": "Pattern: Green Whelp Bracers Vendor ( Jangdor Swiftstrider , Pratt McGrubben , Saenorion )"
+  },
+  {
+   "name": "Gloves of the Greatfather",
+   "orange": 165,
+   "yellow": 185,
+   "green": 195,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Pattern: Gloves of the Greatfather Drop: Tanaris ( Southsea Freebooter ) Drop: Smokywood Pastures Special Gift"
+  },
+  {
+   "name": "Gem-studded Leather Belt",
+   "orange": 160,
+   "yellow": 180,
+   "green": 190,
+   "grey": 200,
+   "source": "vendor",
+   "sourceText": "Pattern: Gem-studded Leather Belt Vendor ( Rikqiz )"
+  },
+  {
+   "name": "Dusky Bracers",
+   "orange": 160,
+   "yellow": 180,
+   "green": 190,
+   "grey": 200,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Green Leather Bracers",
+   "orange": 155,
+   "yellow": 175,
+   "green": 185,
+   "grey": 195,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Frost Leather Cloak",
+   "orange": 155,
+   "yellow": 175,
+   "green": 185,
+   "grey": 195,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Guardian Armor",
+   "orange": 150,
+   "yellow": 170,
+   "green": 180,
+   "grey": 190,
+   "source": "drop",
+   "sourceText": "Pattern: Guardian Armor World drop (level 25–40)"
+  },
+  {
+   "name": "Barbaric Shoulders",
+   "orange": 150,
+   "yellow": 170,
+   "green": 180,
+   "grey": 190,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dusky Leather Armor",
+   "orange": 150,
+   "yellow": 170,
+   "green": 180,
+   "grey": 190,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Green Whelp Armor",
+   "orange": 150,
+   "yellow": 170,
+   "green": 180,
+   "grey": 190,
+   "source": "drop",
+   "sourceText": "Pattern: Green Whelp Armor World drop (level 25–40)"
+  },
+  {
+   "name": "Mender's Leather Belt",
+   "orange": 150,
+   "yellow": 155,
+   "green": 155,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Skycaller's Leather Belt",
+   "orange": 150,
+   "yellow": 155,
+   "green": 155,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Skirmisher's Leather Belt",
+   "orange": 150,
+   "yellow": 155,
+   "green": 155,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Warden's Leather Belt",
+   "orange": 150,
+   "yellow": 155,
+   "green": 155,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Stalker's Leather Belt",
+   "orange": 150,
+   "yellow": 155,
+   "green": 155,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Skulker's Leather Belt",
+   "orange": 150,
+   "yellow": 155,
+   "green": 155,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Prowler's Leather Belt",
+   "orange": 150,
+   "yellow": 155,
+   "green": 155,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Guardian Belt",
+   "orange": 145,
+   "yellow": 165,
+   "green": 175,
+   "grey": 185,
+   "source": "drop",
+   "sourceText": "Pattern: Guardian Belt World drop (level 26–39)"
+  },
+  {
+   "name": "Thick Murloc Armor",
+   "orange": 145,
+   "yellow": 165,
+   "green": 175,
+   "grey": 185,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Thick Murloc Armor Drop: Stranglethorn Vale ( Kurzen Commando ) Drop: Wetlands ( Captain Halyndor ) Vendor ( Blixrez Goodstitch , Christoph Jeffcoat , Micha Yance )"
+  },
+  {
+   "name": "Barbaric Leggings",
+   "orange": 145,
+   "yellow": 165,
+   "green": 175,
+   "grey": 185,
+   "source": "vendor",
+   "sourceText": "Pattern: Barbaric Leggings 4 vendors Hammon Karwn , Jandia , Keena , Lardan"
+  },
+  {
+   "name": "Raptor Hide Harness",
+   "orange": 140,
+   "yellow": 160,
+   "green": 170,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Pattern: Raptor Hide Harness Vendor ( Tunkk )"
+  },
+  {
+   "name": "Raptor Hide Belt",
+   "orange": 140,
+   "yellow": 160,
+   "green": 170,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Pattern: Raptor Hide Belt Vendor ( Androd Fadran )"
+  },
+  {
+   "name": "Dusky Leather Leggings",
+   "orange": 140,
+   "yellow": 160,
+   "green": 170,
+   "grey": 180,
+   "source": "drop",
+   "sourceText": "Pattern: Dusky Leather Leggings World drop (level 25–40)"
+  },
+  {
+   "name": "Green Leather Belt",
+   "orange": 135,
+   "yellow": 155,
+   "green": 165,
+   "grey": 175,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Guardian Pants",
+   "orange": 135,
+   "yellow": 155,
+   "green": 165,
+   "grey": 175,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Forceful Heavy Armor Kit",
+   "orange": 135,
+   "yellow": 155,
+   "green": 165,
+   "grey": 175,
+   "source": "vendor",
+   "sourceText": "Pattern: Forceful Heavy Armor Kit Vendor ( Jangdor Swiftstrider , Mahu , Saenorion )"
+  },
+  {
+   "name": "Mystic Heavy Armor Kit",
+   "orange": 135,
+   "yellow": 155,
+   "green": 165,
+   "grey": 175,
+   "source": "vendor",
+   "sourceText": "Pattern: Mystic Heavy Armor Kit Vendor ( Jangdor Swiftstrider , Mahu , Saenorion )"
+  },
+  {
+   "name": "Green Leather Armor",
+   "orange": 130,
+   "yellow": 150,
+   "green": 160,
+   "grey": 170,
+   "source": "vendor",
+   "sourceText": "Pattern: Green Leather Armor Vendor ( George Candarte , Wenna Silkbeard )"
+  },
+  {
+   "name": "Barbaric Bracers",
+   "orange": 130,
+   "yellow": 155,
+   "green": 165,
+   "grey": 175,
+   "source": "vendor",
+   "sourceText": "Pattern: Barbaric Bracers Vendor ( Joseph Moore , Saenorion )"
+  },
+  {
+   "name": "Hillman's Cloak",
+   "orange": 125,
+   "yellow": 145,
+   "green": 155,
+   "grey": 165,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Barbaric Gloves",
+   "orange": 125,
+   "yellow": 150,
+   "green": 160,
+   "grey": 170,
+   "source": "drop",
+   "sourceText": "Pattern: Barbaric Gloves World drop (level 21–35)"
+  },
+  {
+   "name": "Heavy Armor Kit",
+   "orange": 125,
+   "yellow": 145,
+   "green": 155,
+   "grey": 165,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Cured Heavy Hide",
+   "orange": 125,
+   "yellow": 135,
+   "green": 140,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Guardian Cloak",
+   "orange": 125,
+   "yellow": 180,
+   "green": 190,
+   "grey": 200,
+   "source": "drop",
+   "sourceText": "Pattern: Double-stitched Leather Gloves OLD Pattern: Guardian Cloak World drop (level 30–46)"
+  },
+  {
+   "name": "Heavy Quiver",
+   "orange": 125,
+   "yellow": 145,
+   "green": 155,
+   "grey": 165,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Leather Ammo Pouch",
+   "orange": 125,
+   "yellow": 145,
+   "green": 155,
+   "grey": 165,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Leather",
+   "orange": null,
+   "yellow": 125,
+   "green": 130,
+   "grey": 135,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Leather Ball",
+   "orange": null,
+   "yellow": 125,
+   "green": 130,
+   "grey": 135,
+   "source": "vendor",
+   "sourceText": "Pattern: Heavy Leather Ball Vendor ( Bombus Finespindle , Tamar )"
+  },
+  {
+   "name": "Wisdom's Leather Leggings",
+   "orange": 125,
+   "yellow": 150,
+   "green": 160,
+   "grey": 170,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Wisdom's Leather Leggings Drop: Stormwind Stockade (Kam Deepfury) Drop: Blackfathom Deeps (Gelihast, Old Serra'kis, Twilight Lord Kelris) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Stormrider's Leather Kilt",
+   "orange": 125,
+   "yellow": 150,
+   "green": 160,
+   "grey": 170,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Stormrider's Leather Kilt Drop: Stormwind Stockade (Bazil Thredd) Drop: Blackfathom Deeps (Aku'mai) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Totemic Leather Leggings",
+   "orange": 125,
+   "yellow": 150,
+   "green": 160,
+   "grey": 170,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Totemic Leather Leggings Drop: Blackfathom Deeps (Twilight Lord Kelris) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Defender's Leather Kilt",
+   "orange": 125,
+   "yellow": 150,
+   "green": 160,
+   "grey": 170,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Defender's Leather Kilt Drop: Scarlet Monastery (Bloodmage Thalnos) Drop: Stormwind Stockade (Kam Deepfury, Hamhock, Bazil Thredd) Drop: Razorfen Kraul (Aggem Thorncurse, Death Speaker Jargba, Overlord Ramtusk) Drop: Blackfathom Deeps (Baron Aquanis, Twilight Lord Kelris) Drop: Gnomeregan (Electrocutioner 6000) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Trapper's Leather Legguards",
+   "orange": 125,
+   "yellow": 150,
+   "green": 160,
+   "grey": 170,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Trapper's Leather Legguards Drop: Stormwind Stockade (Dextren Ward) Drop: Razorfen Kraul (Overlord Ramtusk) Drop: Blackfathom Deeps (Gelihast, Aku'mai, Twilight Lord Kelris) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Brawler's Leather Legguards",
+   "orange": 125,
+   "yellow": 150,
+   "green": 160,
+   "grey": 170,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Brawler's Leather Legguards Drop: Scarlet Monastery (Interrogator Vishas, Fallen Champion, Ironspine) Drop: Stormwind Stockade (Dextren Ward) Drop: Razorfen Kraul (Aggem Thorncurse) Drop: Blackfathom Deeps (Gelihast, Twilight Lord Kelris) Drop: Gnomeregan (Dark Iron Ambassador) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Wisdom's Leather Helm",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Pattern: Wisdom's Leather Helm World drop (level 26–34)"
+  },
+  {
+   "name": "Stormrider's Leather Helm",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Pattern: Stormrider's Leather Helm World drop (level 26–34)"
+  },
+  {
+   "name": "Totemic Leather Helm",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Pattern: Totemic Leather Helm World drop (level 26–34)"
+  },
+  {
+   "name": "Defender's Leather Helm",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Pattern: Defender's Leather Helm World drop (level 26–34)"
+  },
+  {
+   "name": "Trapper's Leather Helm",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Pattern: Trapper's Leather Helm Drop: Stormwind Stockade (Kam Deepfury)"
+  },
+  {
+   "name": "Brawler's Leather Helm",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Pattern: Brawler's Leather Helm World drop (level 26–34)"
+  },
+  {
+   "name": "Tanning Rack",
+   "orange": null,
+   "yellow": 125,
+   "green": 125,
+   "grey": 125,
+   "source": "drop",
+   "sourceText": "Blueprint: Tanning Rack Drop: Shadowfang Keep (Razorclaw the Butcher)"
+  },
+  {
+   "name": "Hillman's Leather Gloves",
+   "orange": 120,
+   "yellow": 145,
+   "green": 157,
+   "grey": 170,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Earthen Gloves",
+   "orange": 120,
+   "yellow": 145,
+   "green": 157,
+   "grey": 170,
+   "source": "drop",
+   "sourceText": "Pattern: Heavy Earthen Gloves World drop (level 20–35)"
+  },
+  {
+   "name": "Dark Leather Shoulders",
+   "orange": 115,
+   "yellow": 140,
+   "green": 152,
+   "grey": 165,
+   "source": "drop",
+   "sourceText": "Pattern: Dark Leather Shoulders World drop (level 20–35)"
+  },
+  {
+   "name": "Pilferer's Gloves",
+   "orange": 115,
+   "yellow": 140,
+   "green": 152,
+   "grey": 165,
+   "source": "drop",
+   "sourceText": "Pattern: Pilferer's Gloves World drop (level 20–35)"
+  },
+  {
+   "name": "Toughened Leather Gloves",
+   "orange": 110,
+   "yellow": 135,
+   "green": 147,
+   "grey": 160,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Herbalist's Gloves",
+   "orange": 110,
+   "yellow": 135,
+   "green": 147,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Herbalist's Gloves Vendor ( Harlown Darkweave )"
+  },
+  {
+   "name": "Earthen Leather Shoulders",
+   "orange": 110,
+   "yellow": 135,
+   "green": 147,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Earthen Leather Shoulders Vendor ( Zixil )"
+  },
+  {
+   "name": "Wisdom's Leather Tunic",
+   "orange": 110,
+   "yellow": 135,
+   "green": 147,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Wisdom's Leather Tunic Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Stormrider's Leather Tunic",
+   "orange": 110,
+   "yellow": 135,
+   "green": 147,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Stormrider's Leather Tunic Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Totemic Leather Tunic",
+   "orange": 110,
+   "yellow": 135,
+   "green": 147,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Totemic Leather Tunic Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Defender's Leather Tunic",
+   "orange": 110,
+   "yellow": 135,
+   "green": 147,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Defender's Leather Tunic Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Trapper's Leather Tunic",
+   "orange": 110,
+   "yellow": 135,
+   "green": 147,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Trapper's Leather Tunic Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Brawler's Leather Tunic",
+   "orange": 110,
+   "yellow": 135,
+   "green": 147,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Brawler's Leather Tunic Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Hillman's Leather Boots",
+   "orange": 110,
+   "yellow": 135,
+   "green": 147,
+   "grey": 160,
+   "source": "drop",
+   "sourceText": "Pattern: Hillman's Leather Boots Drop: Ashenvale ( Shadowhorn Stag )"
+  },
+  {
+   "name": "Hillman's Shoulders",
+   "orange": 105,
+   "yellow": 130,
+   "green": 142,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dark Leather Belt",
+   "orange": 100,
+   "yellow": 125,
+   "green": 137,
+   "grey": 150,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Fletcher's Gloves",
+   "orange": 100,
+   "yellow": 125,
+   "green": 137,
+   "grey": 150,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Wisdom's Leather Hood",
+   "orange": 100,
+   "yellow": 125,
+   "green": 137,
+   "grey": 150,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Wisdom's Leather Hood Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Edwin VanCleef) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Stormrider's Leather Hood",
+   "orange": 100,
+   "yellow": 125,
+   "green": 137,
+   "grey": 150,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Stormrider's Leather Hood Drop: Blackfathom Deeps ( Ghamoo-ra ) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Totemic Leather Hood",
+   "orange": 100,
+   "yellow": 125,
+   "green": 137,
+   "grey": 150,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Totemic Leather Hood Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Edwin VanCleef) Drop: Blackfathom Deeps (Ghamoo-ra) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Defender's Leather Hood",
+   "orange": 100,
+   "yellow": 125,
+   "green": 137,
+   "grey": 150,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Defender's Leather Hood Drop: Deadmines (Edwin VanCleef) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Trapper's Leather Hood",
+   "orange": 100,
+   "yellow": 125,
+   "green": 137,
+   "grey": 150,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Trapper's Leather Hood Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Edwin VanCleef) Drop: Wailing Caverns (Observed recipes 3) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Brawler's Leather Hood",
+   "orange": 100,
+   "yellow": 125,
+   "green": 137,
+   "grey": 150,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Brawler's Leather Hood Drop: Blackfathom Deeps (Lady Sarevess) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Wisdom's Leather Pants",
+   "orange": 100,
+   "yellow": 105,
+   "green": 105,
+   "grey": 105,
+   "source": "drop",
+   "sourceText": "Pattern: Wisdom's Leather Pants World drop (level 20–26)"
+  },
+  {
+   "name": "Stormrider's Leather Pants",
+   "orange": 100,
+   "yellow": 105,
+   "green": 105,
+   "grey": 105,
+   "source": "drop",
+   "sourceText": "Pattern: Stormrider's Leather Pants World drop (level 20–26)"
+  },
+  {
+   "name": "Totemic Leather Pants",
+   "orange": 100,
+   "yellow": 105,
+   "green": 105,
+   "grey": 105,
+   "source": "drop",
+   "sourceText": "Pattern: Totemic Leather Pants World drop (level 20–26)"
+  },
+  {
+   "name": "Defender's Leather Pants",
+   "orange": 100,
+   "yellow": 105,
+   "green": 105,
+   "grey": 105,
+   "source": "drop",
+   "sourceText": "Pattern: Defender's Leather Pants World drop (level 20–26)"
+  },
+  {
+   "name": "Trapper's Leather Pants",
+   "orange": 100,
+   "yellow": 105,
+   "green": 105,
+   "grey": 105,
+   "source": "drop",
+   "sourceText": "Pattern: Trapper's Leather Pants World drop (level 20–26)"
+  },
+  {
+   "name": "Brawler's Leather Pants",
+   "orange": 100,
+   "yellow": 105,
+   "green": 105,
+   "grey": 105,
+   "source": "drop",
+   "sourceText": "Pattern: Brawler's Leather Pants World drop (level 20–26)"
+  },
+  {
+   "name": "Toughened Leather Armor",
+   "orange": 95,
+   "yellow": 120,
+   "green": 132,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dark Leather Gloves",
+   "orange": 95,
+   "yellow": 140,
+   "green": 152,
+   "grey": 165,
+   "source": "drop",
+   "sourceText": "Pattern: Dark Leather Gloves World drop (level 20–35)"
+  },
+  {
+   "name": "Hillman's Belt",
+   "orange": 95,
+   "yellow": 125,
+   "green": 137,
+   "grey": 150,
+   "source": "drop",
+   "sourceText": "Pattern: Hillman's Belt World drop (level 15–30)"
+  },
+  {
+   "name": "Red Whelp Gloves",
+   "orange": 95,
+   "yellow": 120,
+   "green": 132,
+   "grey": 145,
+   "source": "vendor",
+   "sourceText": "Pattern: Red Whelp Gloves Vendor ( Wenna Silkbeard )"
+  },
+  {
+   "name": "Nimble Leather Gloves",
+   "orange": 95,
+   "yellow": 120,
+   "green": 132,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dark Leather Pants",
+   "orange": 90,
+   "yellow": 115,
+   "green": 127,
+   "grey": 140,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Deviate Scale Belt",
+   "orange": 90,
+   "yellow": 115,
+   "green": 127,
+   "grey": 140,
+   "source": "quest",
+   "sourceText": "Pattern: Deviate Scale Belt Quest: Deviate Eradication"
+  },
+  {
+   "name": "Dark Leather Cloak",
+   "orange": 85,
+   "yellow": 110,
+   "green": 122,
+   "grey": 135,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Wisdom's Leather Boots",
+   "orange": 85,
+   "yellow": 110,
+   "green": 122,
+   "grey": 135,
+   "source": "vendor",
+   "sourceText": "Pattern: Wisdom's Leather Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Stormrider's Leather Boots",
+   "orange": 85,
+   "yellow": 110,
+   "green": 122,
+   "grey": 135,
+   "source": "vendor",
+   "sourceText": "Pattern: Stormrider's Leather Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Totemic Leather Boots",
+   "orange": 85,
+   "yellow": 110,
+   "green": 122,
+   "grey": 135,
+   "source": "vendor",
+   "sourceText": "Pattern: Totemic Leather Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Defender's Leather Boots",
+   "orange": 85,
+   "yellow": 110,
+   "green": 122,
+   "grey": 135,
+   "source": "vendor",
+   "sourceText": "Pattern: Defender's Leather Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Trapper's Leather Boots",
+   "orange": 85,
+   "yellow": 110,
+   "green": 122,
+   "grey": 135,
+   "source": "vendor",
+   "sourceText": "Pattern: Trapper's Leather Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Brawler's Leather Boots",
+   "orange": 85,
+   "yellow": 110,
+   "green": 122,
+   "grey": 135,
+   "source": "vendor",
+   "sourceText": "Pattern: Brawler's Leather Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Fine Leather Pants",
+   "orange": 80,
+   "yellow": 105,
+   "green": 117,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Pattern: Fine Leather Pants World drop (level 16–30)"
+  },
+  {
+   "name": "Deviate Scale Gloves",
+   "orange": 80,
+   "yellow": 105,
+   "green": 117,
+   "grey": 130,
+   "source": "vendor",
+   "sourceText": "Pattern: Deviate Scale Gloves Vendor ( Kalldan Felmoon )"
+  },
+  {
+   "name": "Forceful Medium Armor Kit",
+   "orange": 80,
+   "yellow": 95,
+   "green": 102,
+   "grey": 110,
+   "source": "vendor",
+   "sourceText": "Pattern: Forceful Medium Armor Kit 7 vendors Bombus Finespindle , Jangdor Swiftstrider , Jillian Tanner , Joseph Moore , Mahu , Saenorion , Tamar"
+  },
+  {
+   "name": "Mystic Medium Armor Kit",
+   "orange": 80,
+   "yellow": 95,
+   "green": 102,
+   "grey": 110,
+   "source": "vendor",
+   "sourceText": "Pattern: Mystic Medium Armor Kit 7 vendors Bombus Finespindle , Jangdor Swiftstrider , Jillian Tanner , Joseph Moore , Mahu , Saenorion , Tamar"
+  },
+  {
+   "name": "Medium Armor Kit",
+   "orange": 75,
+   "yellow": 90,
+   "green": 97,
+   "grey": 105,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Gray Leather Boots",
+   "orange": 75,
+   "yellow": 100,
+   "green": 112,
+   "grey": 125,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dark Leather Tunic",
+   "orange": 75,
+   "yellow": 100,
+   "green": 112,
+   "grey": 125,
+   "source": "drop",
+   "sourceText": "Pattern: Dark Leather Tunic World drop (level 11–26)"
+  },
+  {
+   "name": "Hillman's Leather Vest",
+   "orange": 75,
+   "yellow": 100,
+   "green": 112,
+   "grey": 125,
+   "source": "drop",
+   "sourceText": "Pattern: Hillman's Leather Vest World drop (level 11–26)"
+  },
+  {
+   "name": "Cured Medium Hide",
+   "orange": 75,
+   "yellow": 90,
+   "green": 97,
+   "grey": 105,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Black Whelp Cloak",
+   "orange": 75,
+   "yellow": 100,
+   "green": 112,
+   "grey": 125,
+   "source": "vendor",
+   "sourceText": "Pattern: Black Whelp Cloak Vendor ( Clyde Ranthal )"
+  },
+  {
+   "name": "Medium Leather",
+   "orange": null,
+   "yellow": 75,
+   "green": 80,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Black Whelp Tunic",
+   "orange": 75,
+   "yellow": 100,
+   "green": 112,
+   "grey": 125,
+   "source": "vendor",
+   "sourceText": "Pattern: Black Whelp Tunic Vendor ( Amy Davenport )"
+  },
+  {
+   "name": "Wisdom's Leather Gloves",
+   "orange": 75,
+   "yellow": 100,
+   "green": 112,
+   "grey": 125,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Wisdom's Leather Gloves Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Gilnid, Mr. Smite) Drop: Ragefire Chasm (Oggleflint, Taragaman the Hungerer, Bazzalan) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Stormrider's Leather Gloves",
+   "orange": 75,
+   "yellow": 100,
+   "green": 112,
+   "grey": 125,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Stormrider's Leather Gloves Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Mr. Smite) Drop: Ragefire Chasm (Oggleflint) Drop: Wailing Caverns (Deviate Faerie Dragon) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Totemic Leather Gloves",
+   "orange": 75,
+   "yellow": 100,
+   "green": 112,
+   "grey": 125,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Totemic Leather Gloves Drop: Deadmines (Gilnid, Mr. Smite) Drop: Ragefire Chasm (Bazzalan) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Defender's Leather Gloves",
+   "orange": 75,
+   "yellow": 100,
+   "green": 112,
+   "grey": 125,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Defender's Leather Gloves Drop: Deadmines (Mr. Smite, Cookie) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Trapper's Leather Gloves",
+   "orange": 75,
+   "yellow": 100,
+   "green": 112,
+   "grey": 125,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Trapper's Leather Gloves Drop: Deadmines (Gilnid, Cookie) Drop: Wailing Caverns (Lord Cobrahn, Observed recipes 3) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Brawler's Leather Gloves",
+   "orange": 75,
+   "yellow": 100,
+   "green": 112,
+   "grey": 125,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Brawler's Leather Gloves Drop: Deadmines (Gilnid) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Wisdom's Leather Armor",
+   "orange": 75,
+   "yellow": 80,
+   "green": 80,
+   "grey": 80,
+   "source": "drop",
+   "sourceText": "Pattern: Wisdom's Leather Armor World drop (level 16–21)"
+  },
+  {
+   "name": "Stormrider's Leather Armor",
+   "orange": 75,
+   "yellow": 80,
+   "green": 80,
+   "grey": 80,
+   "source": "drop",
+   "sourceText": "Pattern: Stormrider's Leather Armor World drop (level 16–21)"
+  },
+  {
+   "name": "Totemic Leather Armor",
+   "orange": 75,
+   "yellow": 80,
+   "green": 80,
+   "grey": 80,
+   "source": "drop",
+   "sourceText": "Pattern: Totemic Leather Armor World drop (level 16–21)"
+  },
+  {
+   "name": "Defender's Leather Armor",
+   "orange": 75,
+   "yellow": 80,
+   "green": 80,
+   "grey": 80,
+   "source": "drop",
+   "sourceText": "Pattern: Defender's Leather Armor World drop (level 16–21)"
+  },
+  {
+   "name": "Trapper's Leather Armor",
+   "orange": 75,
+   "yellow": 80,
+   "green": 80,
+   "grey": 80,
+   "source": "drop",
+   "sourceText": "Pattern: Trapper's Leather Armor World drop (level 16–21)"
+  },
+  {
+   "name": "Brawler's Leather Armor",
+   "orange": 75,
+   "yellow": 80,
+   "green": 80,
+   "grey": 80,
+   "source": "drop",
+   "sourceText": "Pattern: Brawler's Leather Armor World drop (level 16–21)"
+  },
+  {
+   "name": "Murloc Scale Breastplate",
+   "orange": 70,
+   "yellow": 100,
+   "green": 115,
+   "grey": 130,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Murloc Scale Breastplate Drop: The Deadmines ( Defias Pirate ) Drop: The Barrens ( Theramore Preserver ) Vendor ( Andrew Hilbert , Gina MacGregor , Mavralyn )"
+  },
+  {
+   "name": "Light Leather Pants",
+   "orange": 70,
+   "yellow": 100,
+   "green": 115,
+   "grey": 130,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Fine Leather Boots",
+   "orange": 65,
+   "yellow": 95,
+   "green": 110,
+   "grey": 125,
+   "source": "drop",
+   "sourceText": "Pattern: Fine Leather Boots World drop"
+  },
+  {
+   "name": "Murloc Scale Belt",
+   "orange": 65,
+   "yellow": 95,
+   "green": 110,
+   "grey": 125,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Murloc Scale Belt Drop: The Deadmines ( Defias Squallshaper ) Drop: The Barrens ( Theramore Marine ) Vendor ( Andrew Hilbert , Gina MacGregor , Mavralyn )"
+  },
+  {
+   "name": "Deviate Scale Cloak",
+   "orange": 65,
+   "yellow": 95,
+   "green": 110,
+   "grey": 125,
+   "source": "vendor",
+   "sourceText": "Pattern: Deviate Scale Cloak Vendor ( Kalldan Felmoon )"
+  },
+  {
+   "name": "Moonglow Vest",
+   "orange": 65,
+   "yellow": 90,
+   "green": 105,
+   "grey": 120,
+   "source": "quest",
+   "sourceText": "Pattern: Moonglow Vest Quest: Moonglow Vest"
+  },
+  {
+   "name": "Fine Leather Tunic",
+   "orange": 60,
+   "yellow": 90,
+   "green": 105,
+   "grey": 120,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Wisdom's Leather Belt",
+   "orange": 60,
+   "yellow": 90,
+   "green": 105,
+   "grey": 120,
+   "source": "vendor",
+   "sourceText": "Pattern: Wisdom's Leather Belt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Stormrider's Leather Belt",
+   "orange": 60,
+   "yellow": 90,
+   "green": 105,
+   "grey": 120,
+   "source": "vendor",
+   "sourceText": "Pattern: Stormrider's Leather Belt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Totemic Leather Belt",
+   "orange": 60,
+   "yellow": 90,
+   "green": 105,
+   "grey": 120,
+   "source": "vendor",
+   "sourceText": "Pattern: Totemic Leather Belt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Defender's Leather Belt",
+   "orange": 60,
+   "yellow": 90,
+   "green": 105,
+   "grey": 120,
+   "source": "vendor",
+   "sourceText": "Pattern: Defender's Leather Belt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Trapper's Leather Belt",
+   "orange": 60,
+   "yellow": 90,
+   "green": 105,
+   "grey": 120,
+   "source": "vendor",
+   "sourceText": "Pattern: Trapper's Leather Belt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Brawler's Leather Belt",
+   "orange": 60,
+   "yellow": 90,
+   "green": 105,
+   "grey": 120,
+   "source": "vendor",
+   "sourceText": "Pattern: Brawler's Leather Belt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Cloudy Gustwoven Harness",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Gustwoven Harness Source not known yet"
+  },
+  {
+   "name": "Cloudy Gustwoven Trousers",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Gustwoven Trousers Source not known yet"
+  },
+  {
+   "name": "Cloudy Windraveled Jerkin",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Windraveled Jerkin Source not known yet"
+  },
+  {
+   "name": "Cloudy Windraveled Pants",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Windraveled Pants Source not known yet"
+  },
+  {
+   "name": "Azure Gustwoven Harness",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Gustwoven Harness Source not known yet"
+  },
+  {
+   "name": "Azure Gustwoven Trousers",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Gustwoven Trousers Source not known yet"
+  },
+  {
+   "name": "Azure Windraveled Jerkin",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Windraveled Jerkin Source not known yet"
+  },
+  {
+   "name": "Azure Windraveled Pants",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Windraveled Pants Source not known yet"
+  },
+  {
+   "name": "Fine Leather Belt",
+   "orange": 55,
+   "yellow": 85,
+   "green": 100,
+   "grey": 115,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Cloudy Gustwoven Gloves",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Gustwoven Gloves Source not known yet"
+  },
+  {
+   "name": "Cloudy Gustwoven Boots",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Gustwoven Boots Source not known yet"
+  },
+  {
+   "name": "Cloudy Windraveled Mitts",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Windraveled Mitts Source not known yet"
+  },
+  {
+   "name": "Cloudy Windraveled Footwraps",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Windraveled Footwraps Source not known yet"
+  },
+  {
+   "name": "Azure Gustwoven Gloves",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Gustwoven Gloves Source not known yet"
+  },
+  {
+   "name": "Azure Gustwoven Boots",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Gustwoven Boots Source not known yet"
+  },
+  {
+   "name": "Azure Windraveled Mitts",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Windraveled Mitts Source not known yet"
+  },
+  {
+   "name": "Azure Windraveled Footwraps",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Windraveled Footwraps Source not known yet"
+  },
+  {
+   "name": "Fine Leather Cloak",
+   "orange": 50,
+   "yellow": 70,
+   "green": 85,
+   "grey": 100,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Embossed Leather Boots",
+   "orange": 50,
+   "yellow": 80,
+   "green": 95,
+   "grey": 110,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Fine Leather Gloves",
+   "orange": 50,
+   "yellow": 80,
+   "green": 95,
+   "grey": 110,
+   "source": "drop",
+   "sourceText": "Pattern: Fine Leather Gloves World drop"
+  },
+  {
+   "name": "Embossed Leather Pants",
+   "orange": 50,
+   "yellow": 80,
+   "green": 95,
+   "grey": 110,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Cloudy Gustwoven Bracers",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Gustwoven Bracers Source not known yet"
+  },
+  {
+   "name": "Cloudy Gustwoven Belt",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Gustwoven Belt Source not known yet"
+  },
+  {
+   "name": "Cloudy Windraveled Armguards",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Windraveled Armguards Source not known yet"
+  },
+  {
+   "name": "Cloudy Windraveled Strap",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Windraveled Strap Source not known yet"
+  },
+  {
+   "name": "Azure Gustwoven Bracers",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Gustwoven Bracers Source not known yet"
+  },
+  {
+   "name": "Azure Gustwoven Belt",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Gustwoven Belt Source not known yet"
+  },
+  {
+   "name": "Azure Windraveled Armguards",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Windraveled Armguards Source not known yet"
+  },
+  {
+   "name": "Azure Windraveled Strap",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Windraveled Strap Source not known yet"
+  },
+  {
+   "name": "Light Leather Bracers",
+   "orange": 45,
+   "yellow": 75,
+   "green": 90,
+   "grey": 105,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Embossed Leather Cloak",
+   "orange": 40,
+   "yellow": 70,
+   "green": 85,
+   "grey": 100,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "White Leather Jerkin",
+   "orange": 40,
+   "yellow": 70,
+   "green": 85,
+   "grey": 100,
+   "source": "drop",
+   "sourceText": "Pattern: White Leather Jerkin World drop"
+  },
+  {
+   "name": "Embossed Leather Gloves",
+   "orange": 40,
+   "yellow": 70,
+   "green": 85,
+   "grey": 100,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Embossed Leather Vest",
+   "orange": 35,
+   "yellow": 65,
+   "green": 80,
+   "grey": 95,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Kodo Hide Bag",
+   "orange": 35,
+   "yellow": 65,
+   "green": 80,
+   "grey": 95,
+   "source": "quest",
+   "sourceText": "Pattern: Kodo Hide Bag Quest: Kodo Hide Bag"
+  },
+  {
+   "name": "Moonglow Boots",
+   "orange": 35,
+   "yellow": 40,
+   "green": 40,
+   "grey": 40,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Murloc Scale Shoes",
+   "orange": 35,
+   "yellow": 40,
+   "green": 40,
+   "grey": 40,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dark Leather Boots",
+   "orange": 35,
+   "yellow": 40,
+   "green": 40,
+   "grey": 40,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Black Whelp Slippers",
+   "orange": 35,
+   "yellow": 40,
+   "green": 40,
+   "grey": 40,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Cured Light Hide",
+   "orange": 30,
+   "yellow": 50,
+   "green": 60,
+   "grey": 70,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Rugged Leather Pants",
+   "orange": 30,
+   "yellow": 60,
+   "green": 75,
+   "grey": 90,
+   "source": "drop",
+   "sourceText": "Pattern: Rugged Leather Pants World drop"
+  },
+  {
+   "name": "Light Leather Reagent Bag",
+   "orange": 30,
+   "yellow": 40,
+   "green": 45,
+   "grey": 50,
+   "source": "vendor quest",
+   "sourceText": "Pattern: Light Leather Reagent Bag Vendor ( Saenorion ) Quest: Beasts of Thunder Ridge"
+  },
+  {
+   "name": "Handstitched Leather Belt",
+   "orange": 25,
+   "yellow": 55,
+   "green": 70,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Light Leather Quiver",
+   "orange": 25,
+   "yellow": 55,
+   "green": 70,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Small Leather Ammo Pouch",
+   "orange": 25,
+   "yellow": 55,
+   "green": 70,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Camp Tent",
+   "orange": null,
+   "yellow": 20,
+   "green": 20,
+   "grey": 20,
+   "source": "quest",
+   "sourceText": "Quest: Camping 101: Leatherworking"
+  },
+  {
+   "name": "Handstitched Leather Pants",
+   "orange": 15,
+   "yellow": 45,
+   "green": 60,
+   "grey": 75,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Handstitched Leather Boots",
+   "orange": 1,
+   "yellow": 40,
+   "green": 55,
+   "grey": 70,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Light Armor Kit",
+   "orange": 1,
+   "yellow": 30,
+   "green": 45,
+   "grey": 60,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Light Leather",
+   "orange": 1,
+   "yellow": 20,
+   "green": 30,
+   "grey": 40,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Handstitched Leather Vest",
+   "orange": 1,
+   "yellow": 40,
+   "green": 55,
+   "grey": 70,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Handstitched Leather Cloak",
+   "orange": 1,
+   "yellow": 40,
+   "green": 55,
+   "grey": 70,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Handstitched Leather Bracers",
+   "orange": 1,
+   "yellow": 40,
+   "green": 55,
+   "grey": 70,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Nightscape Pants",
+   "orange": null,
+   "yellow": 225,
+   "green": 235,
+   "grey": 245,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Turtle Scale Helm",
+   "orange": null,
+   "yellow": 225,
+   "green": 235,
+   "grey": 245,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Turtle Scale Leggings",
+   "orange": null,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Nightscape Boots",
+   "orange": null,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dragonscale Gauntlets",
+   "orange": null,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Wolfshead Helm",
+   "orange": null,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Gauntlets of the Sea",
+   "orange": null,
+   "yellow": 225,
+   "green": 235,
+   "grey": 245,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Helm of Fire",
+   "orange": null,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Feathered Breastplate",
+   "orange": null,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dragonscale Breastplate",
+   "orange": null,
+   "yellow": 250,
+   "green": 260,
+   "grey": 270,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Cured Rugged Hide",
+   "orange": null,
+   "yellow": 225,
+   "green": 230,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Rugged Armor Kit",
+   "orange": null,
+   "yellow": 225,
+   "green": 235,
+   "grey": 245,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Onyxia Scale Cloak",
+   "orange": null,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Onyxia Scale Breastplate",
+   "orange": null,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Rugged Leather",
+   "orange": null,
+   "yellow": 225,
+   "green": 225,
+   "grey": 225,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Gordok Ogre Suit",
+   "orange": null,
+   "yellow": 285,
+   "green": 290,
+   "grey": 295,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Blue Dragonscale Leggings",
+   "orange": null,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Green Dragonscale Gauntlets",
+   "orange": null,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dreamscale Breastplate",
+   "orange": null,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Spitfire Bracers",
+   "orange": null,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Spitfire Gauntlets",
+   "orange": null,
+   "yellow": 305,
+   "green": 315,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Spitfire Breastplate",
+   "orange": null,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Sandstalker Bracers",
+   "orange": null,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Sandstalker Gauntlets",
+   "orange": null,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Sandstalker Breastplate",
+   "orange": null,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Polar Tunic",
+   "orange": null,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Polar Gloves",
+   "orange": null,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Polar Bracers",
+   "orange": null,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Icy Scale Breastplate",
+   "orange": null,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Icy Scale Gauntlets",
+   "orange": null,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Icy Scale Bracers",
+   "orange": null,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Bramblewood Helm",
+   "orange": null,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Bramblewood Boots",
+   "orange": null,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Bramblewood Belt",
+   "orange": null,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  }
+ ]
+}

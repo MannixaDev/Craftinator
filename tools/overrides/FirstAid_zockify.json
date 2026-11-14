@@ -1,0 +1,286 @@
+{
+ "credit": "Learn skills and recipe sources from Zockify (zockify.com)",
+ "url": "https://www.zockify.com/forever/professions/first-aid/recipes/",
+ "fetched": "2026-11-14",
+ "recipes": [
+  {
+   "name": "Powerful Anti-Venom",
+   "orange": null,
+   "yellow": 300,
+   "green": 330,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Powerful Anti-Venom Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Breechlock )"
+  },
+  {
+   "name": "Plague Doctor's Laboratory",
+   "orange": null,
+   "yellow": 300,
+   "green": 300,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Blueprint: Plague Doctor's Laboratory Source not known yet"
+  },
+  {
+   "name": "Powerful Poultice",
+   "orange": 280,
+   "yellow": 295,
+   "green": 325,
+   "grey": 355,
+   "source": "quest",
+   "sourceText": "Manual: Powerful Poultice Quest: Transmuted Tincture"
+  },
+  {
+   "name": "Major Healing Potion",
+   "orange": 275,
+   "yellow": 290,
+   "green": 310,
+   "grey": 330,
+   "source": "vendor quest",
+   "sourceText": "Manual: Major Healing Potion Vendor ( Pexmit ) Quest: A Rest Without Pain"
+  },
+  {
+   "name": "Surgical Tourniquet",
+   "orange": 265,
+   "yellow": 280,
+   "green": 310,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Manual: Surgical Tourniquet Drop: Scarlet Monastery ( Scarlet Trainee )"
+  },
+  {
+   "name": "Superior Healing Potion",
+   "orange": 215,
+   "yellow": 230,
+   "green": 250,
+   "grey": 270,
+   "source": "drop",
+   "sourceText": "Manual: Superior Healing Potion Drop: Feralas ( Gordunni Shaman )"
+  },
+  {
+   "name": "Potent Anti-Venom",
+   "orange": 215,
+   "yellow": 230,
+   "green": 260,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Manual: Potent Anti-Venom Drop: Swamp of Sorrows ( Lost One Muckdweller )"
+  },
+  {
+   "name": "Mageweave Bandage",
+   "orange": null,
+   "yellow": 210,
+   "green": 240,
+   "grey": 270,
+   "source": "vendor",
+   "sourceText": "Manual: Mageweave Bandage Vendor ( Balai Lok'Wein , Deneb Walker )"
+  },
+  {
+   "name": "Superior Poultice",
+   "orange": 210,
+   "yellow": 225,
+   "green": 255,
+   "grey": 285,
+   "source": "drop",
+   "sourceText": "Manual: Superior Poultice Drop: Alterac Mountains ( Syndicate Sentry )"
+  },
+  {
+   "name": "Leather Tourniquet",
+   "orange": 200,
+   "yellow": 220,
+   "green": 250,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Manual: Leather Tourniquet Drop: Badlands ( Shadowforge Tunneler )"
+  },
+  {
+   "name": "Heavy Silk Bandage",
+   "orange": null,
+   "yellow": 180,
+   "green": 210,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Manual: Heavy Silk Bandage Vendor ( Balai Lok'Wein , Deneb Walker )"
+  },
+  {
+   "name": "Greater Healing Potion",
+   "orange": 155,
+   "yellow": 175,
+   "green": 195,
+   "grey": 215,
+   "source": "drop",
+   "sourceText": "Manual: Greater Healing Potion Drop: Arathi Highlands ( Syndicate Mercenary )"
+  },
+  {
+   "name": "Silk Bandage",
+   "orange": null,
+   "yellow": 150,
+   "green": 180,
+   "grey": 210,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Clever Poultice",
+   "orange": 140,
+   "yellow": 160,
+   "green": 190,
+   "grey": 220,
+   "source": "drop",
+   "sourceText": "Manual: Clever Poultice Drop: Duskwood ( Defias Enchanter )"
+  },
+  {
+   "name": "Toxin Study",
+   "orange": null,
+   "yellow": 140,
+   "green": 140,
+   "grey": 140,
+   "source": "drop",
+   "sourceText": "Blueprint: Toxin Study Drop: Shadowfang Keep (Commander Springvale)"
+  },
+  {
+   "name": "Strong Anti-Venom",
+   "orange": null,
+   "yellow": 130,
+   "green": 165,
+   "grey": 200,
+   "source": "drop",
+   "sourceText": "Manual: Strong Anti-Venom World drop (level 21–35)"
+  },
+  {
+   "name": "Woolen Tourniquet",
+   "orange": null,
+   "yellow": 120,
+   "green": 155,
+   "grey": 190,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Wool Bandage",
+   "orange": null,
+   "yellow": 115,
+   "green": 150,
+   "grey": 185,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Healing Potion",
+   "orange": 110,
+   "yellow": 135,
+   "green": 155,
+   "grey": 175,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Simple Poultice",
+   "orange": null,
+   "yellow": 90,
+   "green": 125,
+   "grey": 160,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Wool Bandage",
+   "orange": null,
+   "yellow": 80,
+   "green": 115,
+   "grey": 150,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Anti-Venom",
+   "orange": null,
+   "yellow": 80,
+   "green": 115,
+   "grey": 150,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Lesser Healing Potion",
+   "orange": 55,
+   "yellow": 85,
+   "green": 105,
+   "grey": 125,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Linen Bandage",
+   "orange": 40,
+   "yellow": 50,
+   "green": 75,
+   "grey": 100,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "First Aid Kit",
+   "orange": null,
+   "yellow": 20,
+   "green": 20,
+   "grey": 20,
+   "source": "quest",
+   "sourceText": "Quest: Camping 101: First Aid"
+  },
+  {
+   "name": "Linen Bandage",
+   "orange": 1,
+   "yellow": 30,
+   "green": 45,
+   "grey": 60,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Minor Healing Potion",
+   "orange": 1,
+   "yellow": 55,
+   "green": 75,
+   "grey": 95,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Mageweave Bandage",
+   "orange": null,
+   "yellow": 240,
+   "green": 270,
+   "grey": 300,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Runecloth Bandage",
+   "orange": null,
+   "yellow": 260,
+   "green": 290,
+   "grey": 320,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Runecloth Bandage",
+   "orange": null,
+   "yellow": 290,
+   "green": 320,
+   "grey": 350,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Crystal Infused Bandage",
+   "orange": null,
+   "yellow": 300,
+   "green": 330,
+   "grey": 360,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  }
+ ]
+}

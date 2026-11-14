@@ -1,0 +1,1609 @@
+{
+ "credit": "Learn skills and recipe sources from Zockify (zockify.com)",
+ "url": "https://www.zockify.com/forever/professions/alchemy/recipes/",
+ "fetched": "2026-11-14",
+ "recipes": [
+  {
+   "name": "Flask of Petrification",
+   "orange": 300,
+   "yellow": 315,
+   "green": 322,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Recipe: Flask of Petrification World drop (level 52–61)"
+  },
+  {
+   "name": "Flask of the Titans",
+   "orange": 300,
+   "yellow": 315,
+   "green": 322,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Recipe: Flask of the Titans Drop: Blackrock Spire (General Drakkisath)"
+  },
+  {
+   "name": "Flask of Distilled Wisdom",
+   "orange": 300,
+   "yellow": 315,
+   "green": 322,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Recipe: Flask of Distilled Wisdom Drop: Stratholme (Balnazzar)"
+  },
+  {
+   "name": "Flask of Supreme Power",
+   "orange": 300,
+   "yellow": 315,
+   "green": 322,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Recipe: Flask of Supreme Power Drop: Scholomance (Ras Frostwhisperer)"
+  },
+  {
+   "name": "Flask of Chromatic Resistance",
+   "orange": 300,
+   "yellow": 315,
+   "green": 322,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Recipe: Flask of Chromatic Resistance Drop: Blackrock Spire (Gyth)"
+  },
+  {
+   "name": "Major Rejuvenation Potion",
+   "orange": 300,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Major Rejuvenation Potion Source not known yet"
+  },
+  {
+   "name": "Elemental Fire",
+   "orange": 300,
+   "yellow": 301,
+   "green": 305,
+   "grey": 310,
+   "source": "vendor",
+   "sourceText": "Recipe: Transmute Elemental Fire Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Elixir of the Grizzly",
+   "orange": 300,
+   "yellow": 305,
+   "green": 307,
+   "grey": 310,
+   "source": "vendor",
+   "sourceText": "Recipe: Elixir of the Grizzly Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Alchemy Laboratory",
+   "orange": null,
+   "yellow": 300,
+   "green": 300,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Blueprint: Alchemy Laboratory Source not known yet"
+  },
+  {
+   "name": "Flask of Natural Accuracy",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Flask of Natural Accuracy Source not known yet"
+  },
+  {
+   "name": "Flask of Natural Aggression",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Flask of Natural Aggression Source not known yet"
+  },
+  {
+   "name": "Flask of Natural Precision",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Flask of Natural Precision Source not known yet"
+  },
+  {
+   "name": "Flask of Natural Swiftness",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Flask of Natural Swiftness Source not known yet"
+  },
+  {
+   "name": "Major Mana Potion",
+   "orange": 295,
+   "yellow": 310,
+   "green": 330,
+   "grey": 350,
+   "source": "drop vendor",
+   "sourceText": "Recipe: Major Mana Potion Drop: Scholomance (Darkmaster Gandling) Vendor ( Magnus Frostwake )"
+  },
+  {
+   "name": "Greater Fire Protection Potion",
+   "orange": 290,
+   "yellow": 305,
+   "green": 325,
+   "grey": 345,
+   "source": "drop",
+   "sourceText": "Recipe: Greater Fire Protection Potion Drop: Blackrock Spire (Trash)"
+  },
+  {
+   "name": "Greater Frost Protection Potion",
+   "orange": 290,
+   "yellow": 305,
+   "green": 325,
+   "grey": 345,
+   "source": "drop",
+   "sourceText": "Recipe: Greater Frost Protection Potion Drop: Winterspring ( Frostmaul Giant )"
+  },
+  {
+   "name": "Greater Nature Protection Potion",
+   "orange": 290,
+   "yellow": 305,
+   "green": 325,
+   "grey": 345,
+   "source": "drop",
+   "sourceText": "Recipe: Greater Nature Protection Potion Drop: Western Plaguelands ( Rotting Behemoth , Decaying Horror )"
+  },
+  {
+   "name": "Greater Arcane Protection Potion",
+   "orange": 290,
+   "yellow": 305,
+   "green": 325,
+   "grey": 345,
+   "source": "drop",
+   "sourceText": "Recipe: Greater Arcane Protection Potion Drop: Winterspring ( Cobalt Mageweaver )"
+  },
+  {
+   "name": "Greater Shadow Protection Potion",
+   "orange": 290,
+   "yellow": 305,
+   "green": 325,
+   "grey": 345,
+   "source": "drop",
+   "sourceText": "Recipe: Greater Shadow Protection Potion Drop: Eastern Plaguelands ( Dark Adept , Shadowmage )"
+  },
+  {
+   "name": "Greater Holy Protection Potion",
+   "orange": 290,
+   "yellow": 305,
+   "green": 325,
+   "grey": 345,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Greater Holy Protection Potion Source not known yet"
+  },
+  {
+   "name": "Major Troll's Blood Elixir",
+   "orange": 290,
+   "yellow": 305,
+   "green": 325,
+   "grey": 345,
+   "source": "vendor",
+   "sourceText": "Recipe: Major Troll's Blood Elixir Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Major Frenzy Potion",
+   "orange": 290,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Recipe: Major Frenzy Potion Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Purification Potion",
+   "orange": 285,
+   "yellow": 300,
+   "green": 320,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Recipe: Purification Potion World drop (level 51–61)"
+  },
+  {
+   "name": "Greater Arcane Elixir",
+   "orange": 285,
+   "yellow": 300,
+   "green": 320,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Recipe: Greater Arcane Elixir World drop (level 51–61)"
+  },
+  {
+   "name": "Living Action Potion",
+   "orange": 285,
+   "yellow": 300,
+   "green": 320,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Recipe: Living Action Potion Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Elixir of Wicked Regeneration",
+   "orange": 285,
+   "yellow": 290,
+   "green": 292,
+   "grey": 295,
+   "source": "vendor",
+   "sourceText": "Recipe: Elixir of Wicked Regeneration Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Elixir of Nature Power",
+   "orange": 285,
+   "yellow": 290,
+   "green": 292,
+   "grey": 295,
+   "source": "vendor",
+   "sourceText": "Recipe: Elixir of Nature Power Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Major Spellblasting Potion",
+   "orange": 285,
+   "yellow": 290,
+   "green": 292,
+   "grey": 295,
+   "source": "vendor",
+   "sourceText": "Recipe: Major Spellblasting Potion Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Greater Stoneshield Potion",
+   "orange": 280,
+   "yellow": 295,
+   "green": 315,
+   "grey": 335,
+   "source": "drop",
+   "sourceText": "Recipe: Greater Stoneshield Potion World drop (level 51–61)"
+  },
+  {
+   "name": "Elixir of the Mongoose",
+   "orange": 280,
+   "yellow": 295,
+   "green": 315,
+   "grey": 335,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of the Mongoose Drop: Azshara ( Legashi Rogue ) Drop: Felwood ( Jadefire Rogue )"
+  },
+  {
+   "name": "Elixir of the Owl",
+   "orange": 280,
+   "yellow": 285,
+   "green": 287,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Recipe: Elixir of the Owl Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Major Mender's Potion",
+   "orange": 280,
+   "yellow": 285,
+   "green": 287,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Recipe: Major Mender's Potion Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Potion of Elemental Purging",
+   "orange": 280,
+   "yellow": 285,
+   "green": 287,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Recipe: Potion of Elemental Purging Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Potion of Beast Slaying",
+   "orange": 280,
+   "yellow": 285,
+   "green": 287,
+   "grey": 290,
+   "source": "quest",
+   "sourceText": "Recipe: Potion of Beast Slaying Quest: Gettin' Buzzed"
+  },
+  {
+   "name": "Arcanite Bar",
+   "orange": null,
+   "yellow": 275,
+   "green": 282,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Recipe: Transmute Arcanite Vendor ( Alchemist Pestlezugg )"
+  },
+  {
+   "name": "Elixir of Brute Force",
+   "orange": 275,
+   "yellow": 290,
+   "green": 310,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of Brute Force Drop: Small Brown-wrapped Package"
+  },
+  {
+   "name": "Essence of Fire",
+   "orange": null,
+   "yellow": 275,
+   "green": 282,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Recipe: Transmute Air to Fire Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Breechlock )"
+  },
+  {
+   "name": "Essence of Earth",
+   "orange": null,
+   "yellow": 275,
+   "green": 282,
+   "grey": 290,
+   "source": "drop vendor",
+   "sourceText": "Recipe: Transmute Fire to Earth Drop: Blackrock Depths (Guzzler) Vendor ( Plugger Spazzring )"
+  },
+  {
+   "name": "Essence of Water",
+   "orange": null,
+   "yellow": 275,
+   "green": 282,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Recipe: Transmute Earth to Water Vendor ( Meilosh )"
+  },
+  {
+   "name": "Essence of Air",
+   "orange": null,
+   "yellow": 275,
+   "green": 282,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Recipe: Transmute Water to Air Vendor ( Magnus Frostwake )"
+  },
+  {
+   "name": "Essence of Water",
+   "orange": null,
+   "yellow": 275,
+   "green": 282,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Recipe: Transmute Undeath to Water World drop (level 47–60)"
+  },
+  {
+   "name": "Essence of Undeath",
+   "orange": null,
+   "yellow": 275,
+   "green": 282,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Recipe: Transmute Water to Undeath World drop (level 47–60)"
+  },
+  {
+   "name": "Essence of Earth",
+   "orange": null,
+   "yellow": 275,
+   "green": 282,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Recipe: Transmute Life to Earth World drop (level 48–60)"
+  },
+  {
+   "name": "Living Essence",
+   "orange": null,
+   "yellow": 275,
+   "green": 282,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Recipe: Transmute Earth to Life World drop (level 48–60)"
+  },
+  {
+   "name": "Alchemist's Stone",
+   "orange": 275,
+   "yellow": 315,
+   "green": 322,
+   "grey": 330,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Alchemist's Stone Source not known yet"
+  },
+  {
+   "name": "Mageblood Elixir",
+   "orange": 275,
+   "yellow": 290,
+   "green": 310,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Recipe: Mageblood Elixir Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Greater Dreamless Sleep Potion",
+   "orange": 275,
+   "yellow": 290,
+   "green": 310,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Recipe: Greater Dreamless Sleep Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Elixir of Cunning",
+   "orange": 275,
+   "yellow": 280,
+   "green": 282,
+   "grey": 285,
+   "source": "vendor",
+   "sourceText": "Recipe: Elixir of Cunning Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Elixir of Sages",
+   "orange": 275,
+   "yellow": 280,
+   "green": 282,
+   "grey": 285,
+   "source": "vendor",
+   "sourceText": "Recipe: Elixir of Sages Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Elixir of the Whale",
+   "orange": 275,
+   "yellow": 280,
+   "green": 282,
+   "grey": 285,
+   "source": "vendor",
+   "sourceText": "Recipe: Elixir of the Whale Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Elixir of Ferocity",
+   "orange": 275,
+   "yellow": 280,
+   "green": 282,
+   "grey": 285,
+   "source": "vendor",
+   "sourceText": "Recipe: Elixir of Ferocity Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Potion of Venomous Blood",
+   "orange": 275,
+   "yellow": 280,
+   "green": 282,
+   "grey": 285,
+   "source": "vendor",
+   "sourceText": "Recipe: Potion of Venomous Blood Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Legionite Bar",
+   "orange": null,
+   "yellow": 275,
+   "green": 282,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Recipe: Transmute Legionite Drop: Mount Hyjal ( Felguard Sentinel , Mazzogore the Weak )"
+  },
+  {
+   "name": "Elixir of the Sages",
+   "orange": 270,
+   "yellow": 285,
+   "green": 305,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of the Sages Drop: Eastern Plaguelands"
+  },
+  {
+   "name": "Elixir of Greater Defense",
+   "orange": 265,
+   "yellow": 280,
+   "green": 300,
+   "grey": 320,
+   "source": "vendor",
+   "sourceText": "Recipe: Elixir of Superior Defense Vendor ( Kor'geld , Soolie Berryfizz )"
+  },
+  {
+   "name": "Caustic Smog Potion",
+   "orange": 265,
+   "yellow": 270,
+   "green": 272,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Recipe: Caustic Smog Potion Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Superior Mana Potion",
+   "orange": 260,
+   "yellow": 275,
+   "green": 295,
+   "grey": 315,
+   "source": "vendor",
+   "sourceText": "Recipe: Superior Mana Potion Vendor ( Algernon , Ulthir )"
+  },
+  {
+   "name": "Mighty Rage Potion",
+   "orange": 255,
+   "yellow": 270,
+   "green": 290,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Recipe: Mighty Rage Potion Drop: Burning Steppes ( Blackrock Slayer )"
+  },
+  {
+   "name": "Limited Invulnerability Potion",
+   "orange": 250,
+   "yellow": 275,
+   "green": 295,
+   "grey": 315,
+   "source": "drop",
+   "sourceText": "Recipe: Limited Invulnerability Potion World drop (level 41–56)"
+  },
+  {
+   "name": "Elixir of Shadow Power",
+   "orange": 250,
+   "yellow": 265,
+   "green": 285,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Recipe: Elixir of Shadow Power Vendor ( Algernon , Maria Lumere )"
+  },
+  {
+   "name": "Potion of Demon Slaying",
+   "orange": 250,
+   "yellow": 265,
+   "green": 285,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Recipe: Potion of Demon Slaying Vendor ( Nina Lightbrew , Rartar )"
+  },
+  {
+   "name": "Elixir of Holy Power",
+   "orange": 250,
+   "yellow": 265,
+   "green": 285,
+   "grey": 305,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of Holy Power Drop: Searing Gorge ( Dark Iron Slaver , Dark Iron Taskmaster , Dark Iron Watchman )"
+  },
+  {
+   "name": "Distilled Firewater",
+   "orange": 250,
+   "yellow": 260,
+   "green": 265,
+   "grey": 270,
+   "source": "quest",
+   "sourceText": "Recipe: Distilled Firewater Quest: Running Firewater"
+  },
+  {
+   "name": "Elixir of the Phalanx",
+   "orange": 250,
+   "yellow": 255,
+   "green": 257,
+   "grey": 260,
+   "source": "vendor",
+   "sourceText": "Recipe: Elixir of the Phalanx Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Elixir of Greater Strength",
+   "orange": 245,
+   "yellow": 260,
+   "green": 280,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of Giants World drop (level 41–56)"
+  },
+  {
+   "name": "Ghost Dye",
+   "orange": 245,
+   "yellow": 260,
+   "green": 280,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Recipe: Ghost Dye Vendor ( Bronk , Logannas )"
+  },
+  {
+   "name": "Dragonfire Potion",
+   "orange": 245,
+   "yellow": 250,
+   "green": 252,
+   "grey": 255,
+   "source": "vendor",
+   "sourceText": "Recipe: Dragonfire Potion Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Gift of Arthas",
+   "orange": 240,
+   "yellow": 255,
+   "green": 275,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Recipe: Gift of Arthas Drop: Western Plaguelands ( Skeletal Flayer , Slavering Ghoul )"
+  },
+  {
+   "name": "Draught of Dream Vision",
+   "orange": 240,
+   "yellow": 255,
+   "green": 275,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Recipe: Draught of Dream Vision World drop (level 43–56)"
+  },
+  {
+   "name": "Superior Frenzy Potion",
+   "orange": 240,
+   "yellow": 245,
+   "green": 247,
+   "grey": 250,
+   "source": "drop",
+   "sourceText": "Recipe: Superior Frenzy Potion Drop: Feralas ( Northspring Roguefeather )"
+  },
+  {
+   "name": "Invisibility Potion",
+   "orange": 235,
+   "yellow": 250,
+   "green": 270,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Recipe: Invisibility Potion World drop (level 41–56)"
+  },
+  {
+   "name": "Superior Spellblasting Potion",
+   "orange": 235,
+   "yellow": 240,
+   "green": 242,
+   "grey": 245,
+   "source": "drop",
+   "sourceText": "Recipe: Superior Spellblasting Potion Drop: Azshara ( Spitelash Screamer )"
+  },
+  {
+   "name": "Superior Mender's Potion",
+   "orange": 230,
+   "yellow": 235,
+   "green": 237,
+   "grey": 240,
+   "source": "drop",
+   "sourceText": "Recipe: Superior Mender's Potion Drop: The Hinterlands ( Vilebranch Witch Doctor )"
+  },
+  {
+   "name": "Wildvine Potion",
+   "orange": null,
+   "yellow": 225,
+   "green": 237,
+   "grey": 250,
+   "source": "drop",
+   "sourceText": "Recipe: Wildvine Potion World drop (level 37–51)"
+  },
+  {
+   "name": "Philosopher's Stone",
+   "orange": 225,
+   "yellow": 240,
+   "green": 260,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Recipe: Philosopher's Stone Vendor ( Alchemist Pestlezugg )"
+  },
+  {
+   "name": "Gold Bar",
+   "orange": 225,
+   "yellow": 240,
+   "green": 260,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Recipe: Transmute Iron to Gold Vendor ( Alchemist Pestlezugg )"
+  },
+  {
+   "name": "Truesilver Bar",
+   "orange": 225,
+   "yellow": 240,
+   "green": 260,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Recipe: Transmute Mithril to Truesilver Vendor ( Alchemist Pestlezugg )"
+  },
+  {
+   "name": "Lesser Stoneshield Potion",
+   "orange": 215,
+   "yellow": 230,
+   "green": 250,
+   "grey": 270,
+   "source": "quest",
+   "sourceText": "Recipe: Lesser Stoneshield Potion Quest: Liquid Stone"
+  },
+  {
+   "name": "Magic Resistance Potion",
+   "orange": 210,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "drop",
+   "sourceText": "Recipe: Magic Resistance Potion World drop (level 35–50)"
+  },
+  {
+   "name": "Goblin Rocket Fuel",
+   "orange": 210,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Goblin Rocket Fuel Source not known yet"
+  },
+  {
+   "name": "Frost Oil",
+   "orange": 200,
+   "yellow": 220,
+   "green": 240,
+   "grey": 260,
+   "source": "vendor",
+   "sourceText": "Recipe: Frost Oil Vendor ( Bro'kin )"
+  },
+  {
+   "name": "Elixir of Greater Fortitude",
+   "orange": 200,
+   "yellow": 205,
+   "green": 207,
+   "grey": 210,
+   "source": "vendor",
+   "sourceText": "Recipe: Elixir of Greater Fortitude Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Draught of Detect Lesser Invisibility",
+   "orange": 195,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of Detect Lesser Invisibility World drop (level 30–45)"
+  },
+  {
+   "name": "Potion of Predatory Senses",
+   "orange": 195,
+   "yellow": 200,
+   "green": 202,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Recipe: Potion of Predatory Senses Drop: Desolace ( Nether Sorceress )"
+  },
+  {
+   "name": "Greater Cleric's Elixir",
+   "orange": 195,
+   "yellow": 200,
+   "green": 202,
+   "grey": 205,
+   "source": "vendor",
+   "sourceText": "Recipe: Greater Cleric's Elixir Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Frost Protection Potion",
+   "orange": 190,
+   "yellow": 205,
+   "green": 225,
+   "grey": 245,
+   "source": "vendor",
+   "sourceText": "Recipe: Frost Protection Potion Vendor ( Drovnar Strongbrew , Glyx Brewright )"
+  },
+  {
+   "name": "Nature Protection Potion",
+   "orange": 190,
+   "yellow": 210,
+   "green": 230,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Recipe: Nature Protection Potion 4 vendors Alchemist Pestlezugg , Bronk , Glyx Brewright , Logannas"
+  },
+  {
+   "name": "Elixir of Frost Power",
+   "orange": 190,
+   "yellow": 210,
+   "green": 230,
+   "grey": 250,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of Frost Power Drop: Eastern Plaguelands ( Frenzied Plaguehound ) Drop: Smokywood Pastures Special Gift"
+  },
+  {
+   "name": "Greater Frenzy Potion",
+   "orange": 190,
+   "yellow": 195,
+   "green": 197,
+   "grey": 200,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Greater Frenzy Potion Vendor ( Gorhak ) Quest: A New Need for Shadow Protection"
+  },
+  {
+   "name": "Greater Spellblasting Potion",
+   "orange": 185,
+   "yellow": 190,
+   "green": 192,
+   "grey": 195,
+   "source": "vendor quest",
+   "sourceText": "Recipe: Greater Spellblasting Potion Vendor ( Gorhak ) Quest: A New Need for Shadow Protection"
+  },
+  {
+   "name": "Troll's Blood Elixir",
+   "orange": 180,
+   "yellow": 200,
+   "green": 220,
+   "grey": 240,
+   "source": "drop",
+   "sourceText": "Recipe: Troll's Blood Elixir World drop (level 31–46)"
+  },
+  {
+   "name": "Draught of Water Walking",
+   "orange": 180,
+   "yellow": 190,
+   "green": 210,
+   "grey": 230,
+   "source": "not-known-yet",
+   "sourceText": "Recipe: Draught of Water Walking Source not known yet"
+  },
+  {
+   "name": "Greater Mender's Potion",
+   "orange": 180,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "quest",
+   "sourceText": "Recipe: Greater Mender's Potion Quest: Badlands Reagent Run II"
+  },
+  {
+   "name": "Elixir of Lesser Fortitude",
+   "orange": 175,
+   "yellow": 195,
+   "green": 215,
+   "grey": 235,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of Lesser Fortitude World drop (level 26–40)"
+  },
+  {
+   "name": "Great Rage Potion",
+   "orange": 175,
+   "yellow": 195,
+   "green": 215,
+   "grey": 235,
+   "source": "vendor",
+   "sourceText": "Recipe: Great Rage Potion Vendor ( Hagrus , Ulthir )"
+  },
+  {
+   "name": "Greater Mageblood Elixir",
+   "orange": 175,
+   "yellow": 180,
+   "green": 182,
+   "grey": 185,
+   "source": "vendor",
+   "sourceText": "Recipe: Greater Mageblood Elixir Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Shadow Oil",
+   "orange": 165,
+   "yellow": 190,
+   "green": 210,
+   "grey": 230,
+   "source": "vendor",
+   "sourceText": "Recipe: Shadow Oil Vendor ( Bliztik , Montarr )"
+  },
+  {
+   "name": "Fire Protection Potion",
+   "orange": 165,
+   "yellow": 210,
+   "green": 230,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Recipe: Fire Protection Potion Vendor ( Jeeda , Nandar Branson )"
+  },
+  {
+   "name": "Elixir of Greater Spirit",
+   "orange": 165,
+   "yellow": 170,
+   "green": 172,
+   "grey": 175,
+   "source": "vendor",
+   "sourceText": "Recipe: Elixir of Greater Spirit Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Elixir of Ogre Strength",
+   "orange": 150,
+   "yellow": 175,
+   "green": 195,
+   "grey": 215,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of Ogre's Strength World drop (level 21–36)"
+  },
+  {
+   "name": "Free Action Potion",
+   "orange": 150,
+   "yellow": 175,
+   "green": 195,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Recipe: Free Action Potion Vendor ( Kor'geld , Soolie Berryfizz , Ulthir )"
+  },
+  {
+   "name": "Elixir of Fortitude",
+   "orange": 150,
+   "yellow": 155,
+   "green": 157,
+   "grey": 160,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of Fortitude Drop: Desolace ( Kolkar Centaur )"
+  },
+  {
+   "name": "Elixir of Strength",
+   "orange": 150,
+   "yellow": 155,
+   "green": 157,
+   "grey": 160,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of Strength Drop: Ashenvale ( Shadethicket Oracle )"
+  },
+  {
+   "name": "Cleric's Elixir",
+   "orange": 145,
+   "yellow": 150,
+   "green": 152,
+   "grey": 155,
+   "source": "drop",
+   "sourceText": "Recipe: Cleric's Elixir Drop: Ashenvale ( Xavian Hellcaller )"
+  },
+  {
+   "name": "Elixir of Lesser Agility",
+   "orange": 140,
+   "yellow": 165,
+   "green": 185,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of Lesser Agility World drop (level 21–35)"
+  },
+  {
+   "name": "Elixir of Fire Power",
+   "orange": 140,
+   "yellow": 165,
+   "green": 185,
+   "grey": 205,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Frenzy Potion",
+   "orange": 140,
+   "yellow": 145,
+   "green": 147,
+   "grey": 150,
+   "source": "vendor",
+   "sourceText": "Recipe: Frenzy Potion Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Fermenter",
+   "orange": null,
+   "yellow": 140,
+   "green": 140,
+   "grey": 140,
+   "source": "drop",
+   "sourceText": "Blueprint: Fermenter Drop: Ruins of Lordaeron (Rath'mael)"
+  },
+  {
+   "name": "Shadow Protection Potion",
+   "orange": 135,
+   "yellow": 160,
+   "green": 180,
+   "grey": 200,
+   "source": "vendor",
+   "sourceText": "Recipe: Shadow Protection Potion Vendor ( Christoph Jeffcoat , Harklan Moongrove )"
+  },
+  {
+   "name": "Elixir of Intellect",
+   "orange": 135,
+   "yellow": 140,
+   "green": 142,
+   "grey": 145,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of Intellect Drop: Thousand Needles ( Galak Mauler )"
+  },
+  {
+   "name": "Spellblasting Potion",
+   "orange": 135,
+   "yellow": 140,
+   "green": 142,
+   "grey": 145,
+   "source": "vendor",
+   "sourceText": "Recipe: Spellblasting Potion Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Elixir of Lesser Defense",
+   "orange": 130,
+   "yellow": 155,
+   "green": 175,
+   "grey": 195,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Fire Oil",
+   "orange": 130,
+   "yellow": 150,
+   "green": 160,
+   "grey": 170,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Mender's Potion",
+   "orange": 130,
+   "yellow": 135,
+   "green": 137,
+   "grey": 140,
+   "source": "vendor",
+   "sourceText": "Recipe: Mender's Potion Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Lesser Troll's Blood Elixir",
+   "orange": 125,
+   "yellow": 150,
+   "green": 170,
+   "grey": 190,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Lesser Mana Potion",
+   "orange": 120,
+   "yellow": 145,
+   "green": 165,
+   "grey": 185,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Potion of Poison Cleansing",
+   "orange": 120,
+   "yellow": 145,
+   "green": 165,
+   "grey": 185,
+   "source": "drop",
+   "sourceText": "Recipe: Potion of Poison Cleansing World drop (level 16–30)"
+  },
+  {
+   "name": "Magenta Dye",
+   "orange": 120,
+   "yellow": 130,
+   "green": 142,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Lesser Arcane Elixir",
+   "orange": 120,
+   "yellow": 125,
+   "green": 127,
+   "grey": 130,
+   "source": "vendor",
+   "sourceText": "Recipe: Lesser Arcane Elixir Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Elixir of Spirit",
+   "orange": 115,
+   "yellow": 120,
+   "green": 122,
+   "grey": 125,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of Spirit Drop: Stonetalon Mountains ( Bloodfury Harpy )"
+  },
+  {
+   "name": "Minor Magic Resistance Potion",
+   "orange": 110,
+   "yellow": 135,
+   "green": 155,
+   "grey": 175,
+   "source": "drop",
+   "sourceText": "Recipe: Minor Magic Resistance Potion World drop (level 16–30)"
+  },
+  {
+   "name": "Holy Protection Potion",
+   "orange": 100,
+   "yellow": 130,
+   "green": 150,
+   "grey": 170,
+   "source": "vendor",
+   "sourceText": "Recipe: Holy Protection Potion Vendor ( Hula'mahi , Kzixx , Xandar Goodbeard )"
+  },
+  {
+   "name": "Swim Speed Potion",
+   "orange": 100,
+   "yellow": 130,
+   "green": 150,
+   "grey": 170,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Lesser Cleric's Elixir",
+   "orange": 95,
+   "yellow": 100,
+   "green": 102,
+   "grey": 105,
+   "source": "vendor",
+   "sourceText": "Recipe: Lesser Cleric's Elixir Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Elixir of Lesser Intellect",
+   "orange": 95,
+   "yellow": 100,
+   "green": 102,
+   "grey": 105,
+   "source": "vendor",
+   "sourceText": "Recipe: Elixir of Lesser Intellect Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Elixir of Wisdom",
+   "orange": 90,
+   "yellow": 120,
+   "green": 140,
+   "grey": 160,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Draught of Water Breathing",
+   "orange": 90,
+   "yellow": 120,
+   "green": 140,
+   "grey": 160,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Elixir of Giant Growth",
+   "orange": 90,
+   "yellow": 120,
+   "green": 140,
+   "grey": 160,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of Giant Growth World drop (level 11–26)"
+  },
+  {
+   "name": "Lesser Frenzy Potion",
+   "orange": 90,
+   "yellow": 95,
+   "green": 97,
+   "grey": 100,
+   "source": "drop",
+   "sourceText": "Recipe: Lesser Frenzy Potion Drop: Silverpine Forest ( Raging Rot Hide )"
+  },
+  {
+   "name": "Lesser Spellblasting Potion",
+   "orange": 85,
+   "yellow": 90,
+   "green": 92,
+   "grey": 95,
+   "source": "drop",
+   "sourceText": "Recipe: Lesser Spellblasting Potion Drop: Darkshore ( Blackwood Totemic ) Drop: The Barrens ( Witchwing Windcaller )"
+  },
+  {
+   "name": "Blackmouth Oil",
+   "orange": null,
+   "yellow": 80,
+   "green": 90,
+   "grey": 100,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Lesser Mender's Potion",
+   "orange": 80,
+   "yellow": 85,
+   "green": 87,
+   "grey": 90,
+   "source": "drop",
+   "sourceText": "Recipe: Lesser Mender's Potion Drop: Darkshore ( Stormscale Siren ) Drop: The Barrens ( Theramore Preserver )"
+  },
+  {
+   "name": "Lesser Mageblood Elixir",
+   "orange": 75,
+   "yellow": 80,
+   "green": 82,
+   "grey": 85,
+   "source": "vendor",
+   "sourceText": "Recipe: Lesser Mageblood Elixir Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Elixir of Lesser Spirit",
+   "orange": 65,
+   "yellow": 70,
+   "green": 72,
+   "grey": 75,
+   "source": "vendor",
+   "sourceText": "Recipe: Elixir of Lesser Spirit Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Swiftness Potion",
+   "orange": 60,
+   "yellow": 90,
+   "green": 110,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Recipe: Swiftness Potion Drop: Wetlands, Westfall, Redridge Mountains, Silverpine Forest, Hillsbrad Foothills, Wailing Caverns"
+  },
+  {
+   "name": "Rage Potion",
+   "orange": 60,
+   "yellow": 90,
+   "green": 110,
+   "grey": 130,
+   "source": "vendor",
+   "sourceText": "Recipe: Rage Potion 4 vendors Defias Profiteer , Hagrus , Ranik , Xandar Goodbeard"
+  },
+  {
+   "name": "Elixir of Minor Fortitude",
+   "orange": 50,
+   "yellow": 80,
+   "green": 100,
+   "grey": 120,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Elixir of Minor Agility",
+   "orange": 50,
+   "yellow": 80,
+   "green": 100,
+   "grey": 120,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of Minor Agility World drop"
+  },
+  {
+   "name": "Minor Discolored Healing Potion",
+   "orange": 50,
+   "yellow": 55,
+   "green": 75,
+   "grey": 95,
+   "source": "quest",
+   "sourceText": "Recipe: Minor Discolored Healing Potion Quest: Wild Eyes Quest: My First Real Potion"
+  },
+  {
+   "name": "Minor Cleric's Elixir",
+   "orange": 45,
+   "yellow": 50,
+   "green": 52,
+   "grey": 55,
+   "source": "drop",
+   "sourceText": "Recipe: Minor Cleric's Elixir Drop: Elwynn Forest, Tirisfal Glades"
+  },
+  {
+   "name": "Minor Rejuvenation Potion",
+   "orange": 40,
+   "yellow": 70,
+   "green": 90,
+   "grey": 110,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Cerulean Dye",
+   "orange": 40,
+   "yellow": 50,
+   "green": 70,
+   "grey": 90,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Sulfuric Acid",
+   "orange": 40,
+   "yellow": 50,
+   "green": 70,
+   "grey": 90,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Minor Frenzy Potion",
+   "orange": 40,
+   "yellow": 45,
+   "green": 47,
+   "grey": 50,
+   "source": "drop",
+   "sourceText": "Recipe: Minor Frenzy Potion Drop: Teldrassil, Mulgore"
+  },
+  {
+   "name": "Minor Spellblasting Potion",
+   "orange": 35,
+   "yellow": 40,
+   "green": 42,
+   "grey": 45,
+   "source": "drop",
+   "sourceText": "Recipe: Minor Spellblasting Potion Drop: Elwynn Forest ( Kobold Geomancer ) Drop: Durotar ( Dustwind Harpy )"
+  },
+  {
+   "name": "Minor Mender's Potion",
+   "orange": 30,
+   "yellow": 35,
+   "green": 37,
+   "grey": 40,
+   "source": "drop",
+   "sourceText": "Recipe: Minor Mender's Potion Drop: Tirisfal Glades ( Tirisfal Farmer ) Drop: Teldrassil ( Gnarlpine Mystic )"
+  },
+  {
+   "name": "Minor Mana Potion",
+   "orange": 25,
+   "yellow": 65,
+   "green": 85,
+   "grey": 105,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Minor Mageblood Elixir",
+   "orange": 25,
+   "yellow": 30,
+   "green": 32,
+   "grey": 35,
+   "source": "drop",
+   "sourceText": "Recipe: Minor Mageblood Elixir Drop: Dun Morogh ( Young Wendigo ) Drop: Mulgore ( Venture Co. Hireling )"
+  },
+  {
+   "name": "Mana Well",
+   "orange": null,
+   "yellow": 20,
+   "green": 20,
+   "grey": 20,
+   "source": "quest",
+   "sourceText": "Quest: Camping 101: Alchemy"
+  },
+  {
+   "name": "Elixir of Minor Strength",
+   "orange": 15,
+   "yellow": 55,
+   "green": 75,
+   "grey": 95,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Minor Troll's Blood Elixir",
+   "orange": 15,
+   "yellow": 60,
+   "green": 80,
+   "grey": 100,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Elixir of Minor Spirit",
+   "orange": 15,
+   "yellow": 20,
+   "green": 22,
+   "grey": 25,
+   "source": "drop",
+   "sourceText": "Recipe: Elixir of Minor Spirit Drop: Teldrassil ( Gnarlpine Gardener ) Drop: Durotar ( Kul Tiras Sailor )"
+  },
+  {
+   "name": "Elixir of Minor Defense",
+   "orange": 1,
+   "yellow": 55,
+   "green": 75,
+   "grey": 95,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Minor Arcane Elixir",
+   "orange": 1,
+   "yellow": 10,
+   "green": 12,
+   "grey": 15,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Elixir of Minor Force",
+   "orange": 1,
+   "yellow": 10,
+   "green": 12,
+   "grey": 15,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Lesser Invisibility Potion",
+   "orange": null,
+   "yellow": 185,
+   "green": 205,
+   "grey": 225,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Mana Potion",
+   "orange": null,
+   "yellow": 180,
+   "green": 200,
+   "grey": 220,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Greater Mana Potion",
+   "orange": null,
+   "yellow": 220,
+   "green": 240,
+   "grey": 260,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Elixir of Agility",
+   "orange": null,
+   "yellow": 205,
+   "green": 225,
+   "grey": 245,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Elixir of Defense",
+   "orange": null,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Oil of Immolation",
+   "orange": null,
+   "yellow": 220,
+   "green": 240,
+   "grey": 260,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Restorative Potion",
+   "orange": null,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Draught of Detect Undead",
+   "orange": null,
+   "yellow": 245,
+   "green": 265,
+   "grey": 285,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Arcane Elixir",
+   "orange": null,
+   "yellow": 250,
+   "green": 270,
+   "grey": 290,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Elixir of Greater Intellect",
+   "orange": null,
+   "yellow": 250,
+   "green": 270,
+   "grey": 290,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Elixir of Greater Agility",
+   "orange": null,
+   "yellow": 255,
+   "green": 275,
+   "grey": 295,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Draught of Detect Demon",
+   "orange": null,
+   "yellow": 265,
+   "green": 285,
+   "grey": 305,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Catseye Draught",
+   "orange": null,
+   "yellow": 220,
+   "green": 240,
+   "grey": 260,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dreamless Sleep Potion",
+   "orange": null,
+   "yellow": 245,
+   "green": 265,
+   "grey": 285,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Stonescale Oil",
+   "orange": null,
+   "yellow": 250,
+   "green": 255,
+   "grey": 260,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Refined Scale of Onyxia",
+   "orange": null,
+   "yellow": 315,
+   "green": 322,
+   "grey": 330,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Draught of Greater Water Breathing",
+   "orange": null,
+   "yellow": 230,
+   "green": 250,
+   "grey": 270,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Gurubashi Mojo Madness",
+   "orange": null,
+   "yellow": 315,
+   "green": 322,
+   "grey": 330,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Lesser Discolored Healing Potion",
+   "orange": null,
+   "yellow": 85,
+   "green": 105,
+   "grey": 125,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Discolored Healing Potion",
+   "orange": null,
+   "yellow": 135,
+   "green": 155,
+   "grey": 175,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Greater Discolored Healing Potion",
+   "orange": null,
+   "yellow": 175,
+   "green": 195,
+   "grey": 215,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Superior Discolored Healing Potion",
+   "orange": null,
+   "yellow": 230,
+   "green": 250,
+   "grey": 270,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Viridian Dye",
+   "orange": null,
+   "yellow": 230,
+   "green": 250,
+   "grey": 270,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  }
+ ]
+}

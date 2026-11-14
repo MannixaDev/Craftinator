@@ -1,0 +1,37 @@
+{
+ "credit": "Read from trainer windows in game with /pp scan",
+ "recipes": {
+  "2539": {
+   "learn": 10,
+   "cost": 45
+  },
+  "2541": {
+   "learn": 50,
+   "cost": 90
+  },
+  "2544": {
+   "learn": 75,
+   "cost": 180
+  },
+  "2546": {
+   "learn": 80,
+   "cost": 135
+  },
+  "6499": {
+   "learn": 50,
+   "cost": 90
+  },
+  "6500": {
+   "learn": 125,
+   "cost": 270
+  },
+  "21175": {
+   "learn": 200,
+   "cost": 3600
+  },
+  "1229737": {
+   "learn": 20,
+   "cost": 90
+  }
+ }
+}

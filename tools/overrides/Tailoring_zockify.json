@@ -1,0 +1,3733 @@
+{
+ "credit": "Learn skills and recipe sources from Zockify (zockify.com)",
+ "url": "https://www.zockify.com/forever/professions/tailoring/recipes/",
+ "fetched": "2026-11-14",
+ "recipes": [
+  {
+   "name": "Bottomless Bag",
+   "orange": 300,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "drop",
+   "sourceText": "Pattern: Bottomless Bag World drop (level 59–62)"
+  },
+  {
+   "name": "Flarecore Mantle",
+   "orange": 300,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "vendor",
+   "sourceText": "Pattern: Flarecore Mantle Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Flarecore Gloves",
+   "orange": 300,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "vendor",
+   "sourceText": "Pattern: Flarecore Gloves Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Flarecore Wraps",
+   "orange": 300,
+   "yellow": 320,
+   "green": 335,
+   "grey": 350,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Flarecore Wraps Source not known yet"
+  },
+  {
+   "name": "Flarecore Robe",
+   "orange": 300,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "vendor",
+   "sourceText": "Pattern: Flarecore Robe Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Flarecore Leggings",
+   "orange": 300,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "vendor",
+   "sourceText": "Pattern: Flarecore Leggings Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Bloodvine Vest",
+   "orange": 300,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "vendor",
+   "sourceText": "Pattern: Bloodvine Vest Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Bloodvine Leggings",
+   "orange": 300,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "vendor",
+   "sourceText": "Pattern: Bloodvine Leggings Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Bloodvine Boots",
+   "orange": 300,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "vendor",
+   "sourceText": "Pattern: Bloodvine Boots Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Core Felcloth Bag",
+   "orange": 300,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Core Felcloth Bag Source not known yet"
+  },
+  {
+   "name": "Gaea's Embrace",
+   "orange": 300,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "vendor",
+   "sourceText": "Pattern: Gaea's Embrace Vendor ( Mishta )"
+  },
+  {
+   "name": "Sylvan Vest",
+   "orange": 300,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "vendor",
+   "sourceText": "Pattern: Sylvan Vest Vendor ( Mishta )"
+  },
+  {
+   "name": "Sylvan Crown",
+   "orange": 300,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "vendor",
+   "sourceText": "Pattern: Sylvan Crown Vendor ( Mishta )"
+  },
+  {
+   "name": "Sylvan Shoulders",
+   "orange": 300,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "vendor",
+   "sourceText": "Pattern: Sylvan Shoulders Vendor ( Mishta )"
+  },
+  {
+   "name": "Bottomless Reagent Bag",
+   "orange": 300,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Bottomless Reagent Bag Source not known yet"
+  },
+  {
+   "name": "Loom",
+   "orange": null,
+   "yellow": 300,
+   "green": 300,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Blueprint: Loom Source not known yet"
+  },
+  {
+   "name": "Manaflare Pants",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Manaflare Pants Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Manaflare Gloves",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Manaflare Gloves Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Manaflare Mantle",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Manaflare Mantle Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Manaflare Boots",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Manaflare Boots Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Pants of Conviction",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Pants of Conviction Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Gloves of Conviction",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Gloves of Conviction Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Mantle of Conviction",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Mantle of Conviction Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Treads of Conviction",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Treads of Conviction Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Leggings of Conviction",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Leggings of Conviction Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Handguards of Conviction",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Handguards of Conviction Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Pauldrons of Conviction",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Pauldrons of Conviction Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Boots of Conviction",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Boots of Conviction Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Demonheart Leggings",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Demonheart Leggings Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Demonheart Gloves",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Demonheart Gloves Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Demonheart Spaulders",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Demonheart Spaulders Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Demonheart Boots",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Pattern: Demonheart Boots Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Robes of Fiery Devastation",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Robes of Fiery Devastation Source not known yet"
+  },
+  {
+   "name": "Mana-infused Cord",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Mana-infused Cord Source not known yet"
+  },
+  {
+   "name": "Rime-encrusted Boots",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Rime-encrusted Boots Source not known yet"
+  },
+  {
+   "name": "Fel Cape",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Fel Cape Source not known yet"
+  },
+  {
+   "name": "Cloak of Earth and Sky",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloak of Earth and Sky Source not known yet"
+  },
+  {
+   "name": "Felblood Soul Bag",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Felblood Soul Bag Source not known yet"
+  },
+  {
+   "name": "Gloves of Spell Mastery",
+   "orange": 295,
+   "yellow": 310,
+   "green": 325,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Pattern: Gloves of Spell Mastery Drop: Blackrock Spire, Zul'Gurub, Blackwing Lair, Molten Core, Naxxramas"
+  },
+  {
+   "name": "Truefaith Vestments",
+   "orange": 295,
+   "yellow": 310,
+   "green": 325,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Pattern: Truefaith Vestments Drop: Stratholme (Balnazzar)"
+  },
+  {
+   "name": "Robe of the Archmage",
+   "orange": 295,
+   "yellow": 310,
+   "green": 325,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Pattern: Robe of the Archmage Drop: Blackrock Spire (Trash)"
+  },
+  {
+   "name": "Robe of the Void",
+   "orange": 295,
+   "yellow": 310,
+   "green": 325,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Pattern: Robe of the Void Drop: Scholomance (Darkmaster Gandling)"
+  },
+  {
+   "name": "Belt of the Archmage",
+   "orange": 295,
+   "yellow": 310,
+   "green": 325,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Pattern: Belt of the Archmage Drop: Dire Maul (Knot Thimblejack's Cache)"
+  },
+  {
+   "name": "Venomspew Footpads",
+   "orange": null,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Pattern: Venomspew Footpads Vendor ( Mishta )"
+  },
+  {
+   "name": "Swarmtender's Footpads",
+   "orange": null,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Pattern: Swarmtender's Footpads Vendor ( Mishta )"
+  },
+  {
+   "name": "Mantle of the Timbermaw",
+   "orange": 290,
+   "yellow": 305,
+   "green": 319,
+   "grey": 334,
+   "source": "vendor",
+   "sourceText": "Pattern: Mantle of the Timbermaw Vendor ( Meilosh )"
+  },
+  {
+   "name": "Argent Shoulders",
+   "orange": 290,
+   "yellow": 305,
+   "green": 320,
+   "grey": 335,
+   "source": "vendor",
+   "sourceText": "Pattern: Argent Shoulders Pattern: Argent Shoulders Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Breechlock )"
+  },
+  {
+   "name": "Venomspew Cord",
+   "orange": 290,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Pattern: Venomspew Cord Vendor ( Mishta )"
+  },
+  {
+   "name": "Swarmtender's Cord",
+   "orange": 290,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Pattern: Swarmtender's Cord Vendor ( Mishta )"
+  },
+  {
+   "name": "Runed Stygian Leggings",
+   "orange": 285,
+   "yellow": 300,
+   "green": 315,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Pattern: Runed Stygian Leggings Drop: Silithus ( Twilight Geolord ) Drop: Decoded True Believer Clippings"
+  },
+  {
+   "name": "Runed Stygian Belt",
+   "orange": 285,
+   "yellow": 300,
+   "green": 315,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Pattern: Runed Stygian Belt Drop: Decoded True Believer Clippings"
+  },
+  {
+   "name": "Runed Stygian Boots",
+   "orange": 285,
+   "yellow": 300,
+   "green": 315,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Pattern: Runed Stygian Boots Drop: Decoded True Believer Clippings"
+  },
+  {
+   "name": "Venomspew Gloves",
+   "orange": 285,
+   "yellow": 290,
+   "green": 292,
+   "grey": 295,
+   "source": "vendor",
+   "sourceText": "Pattern: Venomspew Gloves Vendor ( Mishta )"
+  },
+  {
+   "name": "Swarmtender's Gloves",
+   "orange": 285,
+   "yellow": 290,
+   "green": 292,
+   "grey": 295,
+   "source": "vendor",
+   "sourceText": "Pattern: Swarmtender's Gloves Vendor ( Mishta )"
+  },
+  {
+   "name": "Mooncloth Circlet",
+   "orange": 280,
+   "yellow": 295,
+   "green": 310,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Pattern: Mooncloth Circlet World drop (level 59–63)"
+  },
+  {
+   "name": "Felcloth Gloves",
+   "orange": 280,
+   "yellow": 295,
+   "green": 310,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Pattern: Felcloth Gloves Drop: Dire Maul (Knot Thimblejack's Cache)"
+  },
+  {
+   "name": "Inferno Gloves",
+   "orange": 280,
+   "yellow": 295,
+   "green": 310,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Pattern: Inferno Gloves Drop: Dire Maul (Knot Thimblejack's Cache)"
+  },
+  {
+   "name": "Mooncloth Gloves",
+   "orange": 280,
+   "yellow": 295,
+   "green": 310,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Pattern: Mooncloth Gloves Drop: Dire Maul (Knot Thimblejack's Cache)"
+  },
+  {
+   "name": "Cloak of Warding",
+   "orange": 280,
+   "yellow": 295,
+   "green": 310,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Pattern: Cloak of Warding Drop: Dire Maul (Knot Thimblejack's Cache)"
+  },
+  {
+   "name": "Mooncloth Shoulders",
+   "orange": 275,
+   "yellow": 290,
+   "green": 305,
+   "grey": 320,
+   "source": "drop",
+   "sourceText": "Pattern: Mooncloth Shoulders World drop (level 50–61)"
+  },
+  {
+   "name": "Mooncloth Robe",
+   "orange": 275,
+   "yellow": 290,
+   "green": 305,
+   "grey": 320,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Mooncloth Robe Drop: Dire Maul (Shen'dralar Provisioner) Vendor ( Shen'dralar Provisioner )"
+  },
+  {
+   "name": "Mooncloth Vest",
+   "orange": 270,
+   "yellow": 285,
+   "green": 300,
+   "grey": 315,
+   "source": "drop",
+   "sourceText": "Pattern: Mooncloth Vest World drop (level 52–61)"
+  },
+  {
+   "name": "Felcloth Shoulders",
+   "orange": 265,
+   "yellow": 280,
+   "green": 295,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Pattern: Felcloth Shoulders World drop (level 55–62)"
+  },
+  {
+   "name": "Runecloth Shoulders",
+   "orange": 260,
+   "yellow": 275,
+   "green": 290,
+   "grey": 305,
+   "source": "drop",
+   "sourceText": "Pattern: Runecloth Shoulders World drop (level 55–62)"
+  },
+  {
+   "name": "Wizardweave Turban",
+   "orange": 260,
+   "yellow": 275,
+   "green": 290,
+   "grey": 305,
+   "source": "drop",
+   "sourceText": "Pattern: Wizardweave Turban Drop: Eastern Plaguelands ( Dark Caster )"
+  },
+  {
+   "name": "Felcloth Robe",
+   "orange": 260,
+   "yellow": 275,
+   "green": 290,
+   "grey": 305,
+   "source": "drop",
+   "sourceText": "Pattern: Felcloth Robe World drop (level 55–62)"
+  },
+  {
+   "name": "Ghostweave Hood",
+   "orange": 260,
+   "yellow": 275,
+   "green": 290,
+   "grey": 305,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Ghostweave Hood Source not known yet"
+  },
+  {
+   "name": "Earthenweave Crown",
+   "orange": 260,
+   "yellow": 275,
+   "green": 290,
+   "grey": 305,
+   "source": "drop",
+   "sourceText": "Pattern: Earthenweave Crown Drop: Western Plaguelands ( Searing Ghoul )"
+  },
+  {
+   "name": "Mooncloth Bag",
+   "orange": 255,
+   "yellow": 270,
+   "green": 285,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Pattern: Mooncloth Bag World drop (level 51–61)"
+  },
+  {
+   "name": "Wizardweave Robe",
+   "orange": 255,
+   "yellow": 270,
+   "green": 285,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Pattern: Wizardweave Robe Drop: Eastern Plaguelands ( Dark Caster )"
+  },
+  {
+   "name": "Wisdom of the Timbermaw",
+   "orange": 255,
+   "yellow": 270,
+   "green": 285,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Pattern: Wisdom of the Timbermaw Vendor ( Meilosh )"
+  },
+  {
+   "name": "Argent Boots",
+   "orange": 255,
+   "yellow": 270,
+   "green": 285,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Pattern: Argent Boots Pattern: Argent Boots Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Breechlock )"
+  },
+  {
+   "name": "Big Bag of Enchantment",
+   "orange": 255,
+   "yellow": 270,
+   "green": 285,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Pattern: Big Bag of Enchantment Drop: Dire Maul (Magister Kalendris)"
+  },
+  {
+   "name": "Satchel of Cenarius",
+   "orange": 255,
+   "yellow": 270,
+   "green": 285,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Pattern: Satchel of Cenarius Vendor ( Mishta )"
+  },
+  {
+   "name": "Ghostweave Boots",
+   "orange": 255,
+   "yellow": 265,
+   "green": 280,
+   "grey": 295,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Ghostweave Boots Source not known yet"
+  },
+  {
+   "name": "Earthenweave Cuffs",
+   "orange": 255,
+   "yellow": 270,
+   "green": 285,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Earthenweave Cuffs Source not known yet"
+  },
+  {
+   "name": "Mooncloth Reagent Bag",
+   "orange": 255,
+   "yellow": 270,
+   "green": 285,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Mooncloth Reagent Bag Source not known yet"
+  },
+  {
+   "name": "Runecloth Headband",
+   "orange": 250,
+   "yellow": 265,
+   "green": 280,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Pattern: Runecloth Headband World drop (level 51–61)"
+  },
+  {
+   "name": "Green Winter Clothes",
+   "orange": null,
+   "yellow": 250,
+   "green": 252,
+   "grey": 255,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Green Winter Clothes Source not known yet"
+  },
+  {
+   "name": "Red Winter Clothes",
+   "orange": null,
+   "yellow": 250,
+   "green": 252,
+   "grey": 255,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Red Winter Clothes Source not known yet"
+  },
+  {
+   "name": "Earthenweave Vest",
+   "orange": 250,
+   "yellow": 265,
+   "green": 280,
+   "grey": 295,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Earthenweave Vest Source not known yet"
+  },
+  {
+   "name": "Runecloth Cuffs",
+   "orange": 250,
+   "yellow": 265,
+   "green": 280,
+   "grey": 295,
+   "source": "vendor quest",
+   "sourceText": "Pattern: Runecloth Cuffs Vendor ( Pexmit ) Quest: Threading a Solution"
+  },
+  {
+   "name": "Ghostweave Mantle",
+   "orange": 250,
+   "yellow": 265,
+   "green": 280,
+   "grey": 295,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Ghostweave Mantle Source not known yet"
+  },
+  {
+   "name": "Robe of Winter Night",
+   "orange": 245,
+   "yellow": 260,
+   "green": 275,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Pattern: Robe of Winter Night Drop: Winterspring ( Cobalt Mageweaver )"
+  },
+  {
+   "name": "Brightcloth Pants",
+   "orange": 245,
+   "yellow": 260,
+   "green": 275,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Pattern: Brightcloth Pants World drop (level 50–61)"
+  },
+  {
+   "name": "Mooncloth Leggings",
+   "orange": 245,
+   "yellow": 270,
+   "green": 285,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Pattern: Mooncloth Leggings World drop (level 51–61)"
+  },
+  {
+   "name": "Ghostweave Pants",
+   "orange": 245,
+   "yellow": 260,
+   "green": 275,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Pattern: Ghostweave Pants Drop: Stratholme (Trash)"
+  },
+  {
+   "name": "Felcloth Hood",
+   "orange": 245,
+   "yellow": 260,
+   "green": 275,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Pattern: Felcloth Hood World drop (level 51–62)"
+  },
+  {
+   "name": "Earthenweave Leggings",
+   "orange": 245,
+   "yellow": 260,
+   "green": 275,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Pattern: Earthenweave Leggings Drop: Felwood ( Irontree Stomper )"
+  },
+  {
+   "name": "Felcloth Boots",
+   "orange": 240,
+   "yellow": 255,
+   "green": 270,
+   "grey": 285,
+   "source": "drop",
+   "sourceText": "Pattern: Felcloth Boots World drop (level 51–61)"
+  },
+  {
+   "name": "Runecloth Pants",
+   "orange": 240,
+   "yellow": 255,
+   "green": 270,
+   "grey": 285,
+   "source": "drop",
+   "sourceText": "Pattern: Runecloth Pants World drop (level 50–61)"
+  },
+  {
+   "name": "Earthenweave Mantle",
+   "orange": 240,
+   "yellow": 255,
+   "green": 270,
+   "grey": 285,
+   "source": "drop",
+   "sourceText": "Pattern: Earthenweave Mantle Drop: Western Plaguelands ( Skeletal Terror )"
+  },
+  {
+   "name": "Cloak of Fire",
+   "orange": 235,
+   "yellow": 250,
+   "green": 265,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Pattern: Cloak of Fire Drop: Overmaster Pyron"
+  },
+  {
+   "name": "Runecloth Boots",
+   "orange": 235,
+   "yellow": 250,
+   "green": 265,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Pattern: Runecloth Boots Vendor ( Darnall )"
+  },
+  {
+   "name": "Frostweave Pants",
+   "orange": 235,
+   "yellow": 250,
+   "green": 265,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Pattern: Frostweave Pants World drop (level 51–61)"
+  },
+  {
+   "name": "Cindercloth Pants",
+   "orange": 235,
+   "yellow": 250,
+   "green": 265,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Pattern: Cindercloth Pants Drop: Burning Steppes ( Thaurissan Firewalker )"
+  },
+  {
+   "name": "Gilded Gloves",
+   "orange": 235,
+   "yellow": 240,
+   "green": 240,
+   "grey": 240,
+   "source": "drop",
+   "sourceText": "Pattern: Gilded Gloves Drop: Zul'Farrak, The Temple of Atal'Hakkar, Blackrock Depths, Maraudon"
+  },
+  {
+   "name": "Frothing Gloves",
+   "orange": 235,
+   "yellow": 240,
+   "green": 240,
+   "grey": 240,
+   "source": "drop",
+   "sourceText": "Pattern: Frothing Gloves Drop: Zul'Farrak, Uldaman, The Temple of Atal'Hakkar, Blackrock Depths, Maraudon"
+  },
+  {
+   "name": "Fiery Gloves",
+   "orange": 235,
+   "yellow": 240,
+   "green": 240,
+   "grey": 240,
+   "source": "drop",
+   "sourceText": "Pattern: Fiery Gloves Drop: Zul'Farrak, Uldaman"
+  },
+  {
+   "name": "Black Gloves",
+   "orange": 235,
+   "yellow": 240,
+   "green": 240,
+   "grey": 240,
+   "source": "drop",
+   "sourceText": "Pattern: Black Gloves Drop: Zul'Farrak, Uldaman, Maraudon"
+  },
+  {
+   "name": "Golden Gloves",
+   "orange": 235,
+   "yellow": 240,
+   "green": 240,
+   "grey": 240,
+   "source": "drop",
+   "sourceText": "Pattern: Golden Gloves World drop (level 1–52)"
+  },
+  {
+   "name": "Radiant Gloves",
+   "orange": 235,
+   "yellow": 240,
+   "green": 240,
+   "grey": 240,
+   "source": "drop",
+   "sourceText": "Pattern: Radiant Gloves Drop: Zul'Farrak, Uldaman, The Temple of Atal'Hakkar"
+  },
+  {
+   "name": "Gilded Sandals",
+   "orange": 235,
+   "yellow": 250,
+   "green": 265,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Pattern: Gilded Sandals Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Frothing Sandals",
+   "orange": 235,
+   "yellow": 250,
+   "green": 265,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Pattern: Frothing Sandals Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Fiery Sandals",
+   "orange": 235,
+   "yellow": 250,
+   "green": 265,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Pattern: Fiery Sandals Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Black Sandals",
+   "orange": 235,
+   "yellow": 250,
+   "green": 265,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Pattern: Black Sandals Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Golden Sandals",
+   "orange": 235,
+   "yellow": 250,
+   "green": 265,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Pattern: Golden Sandals Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Radiant Sandals",
+   "orange": 235,
+   "yellow": 250,
+   "green": 265,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Pattern: Radiant Sandals Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Runecloth Gloves",
+   "orange": 230,
+   "yellow": 245,
+   "green": 260,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Pattern: Runecloth Gloves Vendor ( Qia )"
+  },
+  {
+   "name": "Cindercloth Cloak",
+   "orange": 230,
+   "yellow": 245,
+   "green": 260,
+   "grey": 275,
+   "source": "drop",
+   "sourceText": "Pattern: Cindercloth Cloak Drop: Burning Steppes ( Thaurissan Firewalker )"
+  },
+  {
+   "name": "Felcloth Pants",
+   "orange": 230,
+   "yellow": 245,
+   "green": 260,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Pattern: Felcloth Pants Vendor ( Lorelae Wintersong )"
+  },
+  {
+   "name": "Brightcloth Cloak",
+   "orange": 230,
+   "yellow": 245,
+   "green": 260,
+   "grey": 275,
+   "source": "drop",
+   "sourceText": "Pattern: Brightcloth Cloak World drop (level 46–60)"
+  },
+  {
+   "name": "Wizardweave Leggings",
+   "orange": 230,
+   "yellow": 245,
+   "green": 260,
+   "grey": 275,
+   "source": "drop",
+   "sourceText": "Pattern: Wizardweave Leggings Drop: Eastern Plaguelands ( Dark Summoner )"
+  },
+  {
+   "name": "Mooncloth",
+   "orange": 230,
+   "yellow": 270,
+   "green": 285,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Pattern: Mooncloth Vendor ( Qia )"
+  },
+  {
+   "name": "Enchanted Runecloth Bag",
+   "orange": 230,
+   "yellow": 245,
+   "green": 260,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Pattern: Enchanted Runecloth Bag Vendor ( Kania )"
+  },
+  {
+   "name": "Cenarion Herb Bag",
+   "orange": 230,
+   "yellow": 245,
+   "green": 260,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Pattern: Cenarion Herb Bag Vendor ( Mishta )"
+  },
+  {
+   "name": "Cindercloth Gloves",
+   "orange": 225,
+   "yellow": 240,
+   "green": 255,
+   "grey": 270,
+   "source": "drop",
+   "sourceText": "Pattern: Cindercloth Gloves Drop: Searing Gorge ( Twilight Fire Guard )"
+  },
+  {
+   "name": "Ghostweave Gloves",
+   "orange": 225,
+   "yellow": 240,
+   "green": 255,
+   "grey": 270,
+   "source": "drop",
+   "sourceText": "Pattern: Ghostweave Gloves Drop: Azshara ( Lingering Highborne ) Drop: Eastern Plaguelands ( Unseen Servant )"
+  },
+  {
+   "name": "Brightcloth Robe",
+   "orange": 225,
+   "yellow": 240,
+   "green": 255,
+   "grey": 270,
+   "source": "drop",
+   "sourceText": "Pattern: Brightcloth Robe World drop (level 46–60)"
+  },
+  {
+   "name": "Brightcloth Gloves",
+   "orange": 225,
+   "yellow": 240,
+   "green": 255,
+   "grey": 270,
+   "source": "drop",
+   "sourceText": "Pattern: Brightcloth Gloves World drop (level 46–60)"
+  },
+  {
+   "name": "Ghostweave Vest",
+   "orange": 225,
+   "yellow": 240,
+   "green": 255,
+   "grey": 270,
+   "source": "drop",
+   "sourceText": "Pattern: Ghostweave Vest Drop: Eastern Plaguelands ( Unseen Servant )"
+  },
+  {
+   "name": "Earthenweave Boots",
+   "orange": 225,
+   "yellow": 240,
+   "green": 255,
+   "grey": 270,
+   "source": "drop",
+   "sourceText": "Pattern: Earthenweave Boots Drop: Feralas ( Elder Rage Scar )"
+  },
+  {
+   "name": "Runecloth Cloak",
+   "orange": 220,
+   "yellow": 240,
+   "green": 255,
+   "grey": 270,
+   "source": "vendor",
+   "sourceText": "Pattern: Runecloth Cloak Vendor ( Darnall )"
+  },
+  {
+   "name": "Ghostweave Belt",
+   "orange": 220,
+   "yellow": 235,
+   "green": 250,
+   "grey": 265,
+   "source": "drop",
+   "sourceText": "Pattern: Ghostweave Belt Drop: Azshara ( Lingering Highborne )"
+  },
+  {
+   "name": "Runecloth Bag",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "vendor",
+   "sourceText": "Pattern: Runecloth Bag Vendor ( Qia )"
+  },
+  {
+   "name": "Runecloth Robe",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "vendor",
+   "sourceText": "Pattern: Runecloth Robe Vendor ( Darnall )"
+  },
+  {
+   "name": "Runecloth Tunic",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "drop",
+   "sourceText": "Pattern: Runecloth Tunic World drop (level 46–60)"
+  },
+  {
+   "name": "Cindercloth Vest",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "drop",
+   "sourceText": "Pattern: Cindercloth Vest Drop: Searing Gorge ( Twilight Fire Guard )"
+  },
+  {
+   "name": "Frostweave Gloves",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "drop",
+   "sourceText": "Pattern: Frostweave Gloves World drop (level 46–60)"
+  },
+  {
+   "name": "Soul Pouch",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "vendor",
+   "sourceText": "Pattern: Soul Pouch Vendor ( Stitch Pinwizzle , Vizzklick )"
+  },
+  {
+   "name": "Ghostweave Cord",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "drop",
+   "sourceText": "Pattern: Ghostweave Cord Drop: Azshara ( Haldarr Trickster )"
+  },
+  {
+   "name": "Earthenweave Gloves",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "drop",
+   "sourceText": "Pattern: Earthenweave Gloves Drop: Searing Gorge ( Inferno Elemental )"
+  },
+  {
+   "name": "Earthenweave Cord",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "drop",
+   "sourceText": "Pattern: Earthenweave Cord Drop: The Hinterlands ( Vilebranch Soothsayer )"
+  },
+  {
+   "name": "Runecloth Reagent Bag",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "vendor",
+   "sourceText": "Pattern: Runecloth Reagent Bag Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Gilded Waistcord",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "vendor",
+   "sourceText": "Pattern: Gilded Waistcord Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Frothing Waistcord",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "vendor",
+   "sourceText": "Pattern: Frothing Waistcord Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Fiery Waistcord",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "vendor",
+   "sourceText": "Pattern: Fiery Waistcord Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Black Waistcord",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "vendor",
+   "sourceText": "Pattern: Black Waistcord Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Golden Waistcord",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "vendor",
+   "sourceText": "Pattern: Golden Waistcord Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Radiant Waistcord",
+   "orange": 215,
+   "yellow": 230,
+   "green": 245,
+   "grey": 260,
+   "source": "vendor",
+   "sourceText": "Pattern: Radiant Waistcord Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Frostweave Tunic",
+   "orange": 210,
+   "yellow": 225,
+   "green": 240,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Pattern: Frostweave Tunic World drop (level 46–60)"
+  },
+  {
+   "name": "Frostweave Robe",
+   "orange": 210,
+   "yellow": 225,
+   "green": 240,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Pattern: Frostweave Robe World drop (level 46–60)"
+  },
+  {
+   "name": "Stormcloth Boots",
+   "orange": 205,
+   "yellow": 220,
+   "green": 235,
+   "grey": 250,
+   "source": "drop",
+   "sourceText": "Pattern: Stormcloth Boots Drop: Feralas ( Hatecrest Serpent Guard )"
+  },
+  {
+   "name": "Festival Dress",
+   "orange": 205,
+   "yellow": 220,
+   "green": 235,
+   "grey": 250,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Festival Dress Source not known yet"
+  },
+  {
+   "name": "Festival Suit",
+   "orange": 205,
+   "yellow": 220,
+   "green": 235,
+   "grey": 250,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Festival Suit Source not known yet"
+  },
+  {
+   "name": "Nethergeld Cuffs",
+   "orange": 205,
+   "yellow": 220,
+   "green": 235,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Pattern: Nethergeld Cuffs Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Netherfroth Cuffs",
+   "orange": 205,
+   "yellow": 220,
+   "green": 235,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Pattern: Netherfroth Cuffs Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Netherflame Cuffs",
+   "orange": 205,
+   "yellow": 220,
+   "green": 235,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Pattern: Netherflame Cuffs Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Netherpearl Cuffs",
+   "orange": 205,
+   "yellow": 220,
+   "green": 235,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Pattern: Netherpearl Cuffs Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Nethershine Cuffs",
+   "orange": 205,
+   "yellow": 220,
+   "green": 235,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Pattern: Nethershine Cuffs Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Netherlight Cuffs",
+   "orange": 205,
+   "yellow": 220,
+   "green": 235,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Pattern: Netherlight Cuffs Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Admiral's Hat",
+   "orange": 200,
+   "yellow": 215,
+   "green": 230,
+   "grey": 245,
+   "source": "vendor",
+   "sourceText": "Pattern: Admiral's Hat Vendor ( Cowardly Crosby )"
+  },
+  {
+   "name": "Stormcloth Headband",
+   "orange": 200,
+   "yellow": 215,
+   "green": 230,
+   "grey": 245,
+   "source": "drop",
+   "sourceText": "Pattern: Stormcloth Headband Drop: Dustwallow Marsh ( Firemane Flamecaller )"
+  },
+  {
+   "name": "Red Mageweave Headband",
+   "orange": 200,
+   "yellow": 215,
+   "green": 230,
+   "grey": 245,
+   "source": "drop",
+   "sourceText": "Pattern: Red Mageweave Headband World drop (level 41–56)"
+  },
+  {
+   "name": "Tuxedo Shirt",
+   "orange": 200,
+   "yellow": 205,
+   "green": 210,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Tuxedo Shirt Vendor ( Millie Gregorian , Outfitter Eric )"
+  },
+  {
+   "name": "Shadoweave Mask",
+   "orange": 200,
+   "yellow": 215,
+   "green": 230,
+   "grey": 245,
+   "source": "quest",
+   "sourceText": "Pattern: Shadoweave Mask Quest: The Undermarket"
+  },
+  {
+   "name": "Stormcloth Shoulders",
+   "orange": 200,
+   "yellow": 215,
+   "green": 230,
+   "grey": 245,
+   "source": "drop",
+   "sourceText": "Pattern: Stormcloth Shoulders Drop: Searing Gorge ( Glassweb Spider )"
+  },
+  {
+   "name": "Red Mageweave Shoulders",
+   "orange": 195,
+   "yellow": 210,
+   "green": 225,
+   "grey": 240,
+   "source": "drop",
+   "sourceText": "Pattern: Red Mageweave Shoulders World drop (level 41–56)"
+  },
+  {
+   "name": "Pink Mageweave Shirt",
+   "orange": 195,
+   "yellow": 200,
+   "green": 205,
+   "grey": 210,
+   "source": "vendor",
+   "sourceText": "Pattern: Pink Mageweave Shirt Vendor ( Borya , Outfitter Eric )"
+  },
+  {
+   "name": "Nethergeld Shoulders",
+   "orange": 195,
+   "yellow": 210,
+   "green": 225,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Pattern: Nethergeld Shoulders Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Netherfroth Shoulders",
+   "orange": 195,
+   "yellow": 210,
+   "green": 225,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Pattern: Netherfroth Shoulders Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Netherflame Shoulders",
+   "orange": 195,
+   "yellow": 210,
+   "green": 225,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Pattern: Netherflame Shoulders Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Netherpearl Shoulders",
+   "orange": 195,
+   "yellow": 210,
+   "green": 225,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Pattern: Netherpearl Shoulders Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Nethershine Shoulders",
+   "orange": 195,
+   "yellow": 210,
+   "green": 225,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Pattern: Nethershine Shoulders Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Netherlight Shoulders",
+   "orange": 195,
+   "yellow": 210,
+   "green": 225,
+   "grey": 240,
+   "source": "vendor",
+   "sourceText": "Pattern: Netherlight Shoulders Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Mageweave Bag",
+   "orange": 190,
+   "yellow": 205,
+   "green": 220,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Red Mageweave Gloves",
+   "orange": 190,
+   "yellow": 205,
+   "green": 220,
+   "grey": 235,
+   "source": "drop",
+   "sourceText": "Pattern: Red Mageweave Gloves World drop (level 35–50)"
+  },
+  {
+   "name": "Dreamweave Gloves",
+   "orange": 190,
+   "yellow": 205,
+   "green": 220,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Stormcloth Vest",
+   "orange": 190,
+   "yellow": 205,
+   "green": 220,
+   "grey": 235,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Stormcloth Vest Source not known yet"
+  },
+  {
+   "name": "Cindercloth Robe",
+   "orange": 190,
+   "yellow": 205,
+   "green": 220,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dreamweave Vest",
+   "orange": 190,
+   "yellow": 205,
+   "green": 220,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Lavender Mageweave Shirt",
+   "orange": 190,
+   "yellow": 195,
+   "green": 200,
+   "grey": 205,
+   "source": "vendor",
+   "sourceText": "Pattern: Lavender Mageweave Shirt Vendor ( Borya , Outfitter Eric )"
+  },
+  {
+   "name": "Enchanted Mageweave Pouch",
+   "orange": 190,
+   "yellow": 205,
+   "green": 220,
+   "grey": 235,
+   "source": "vendor",
+   "sourceText": "Pattern: Enchanted Mageweave Pouch 10 vendors Jessara Cordell , Kania , Kithas , Leo Sarn , Lilly , Nasalanna Windsinger , Nata Dawnstrider , Thaddeus Webb , Tilli Thistlefuzz , Vaean"
+  },
+  {
+   "name": "Mageweave Reagent Bag",
+   "orange": 190,
+   "yellow": 205,
+   "green": 210,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Mageweave Reagent Bag Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Gilded Cord",
+   "orange": 190,
+   "yellow": 195,
+   "green": 195,
+   "grey": 195,
+   "source": "drop",
+   "sourceText": "Pattern: Gilded Cord World drop (level 37–45)"
+  },
+  {
+   "name": "Frothing Cord",
+   "orange": 190,
+   "yellow": 195,
+   "green": 195,
+   "grey": 195,
+   "source": "drop",
+   "sourceText": "Pattern: Frothing Cord World drop (level 37–45)"
+  },
+  {
+   "name": "Fiery Cord",
+   "orange": 190,
+   "yellow": 195,
+   "green": 195,
+   "grey": 195,
+   "source": "drop",
+   "sourceText": "Pattern: Fiery Cord World drop (level 37–45)"
+  },
+  {
+   "name": "Black Cord",
+   "orange": 190,
+   "yellow": 195,
+   "green": 195,
+   "grey": 195,
+   "source": "drop",
+   "sourceText": "Pattern: Black Cord World drop (level 37–46)"
+  },
+  {
+   "name": "Golden Cord",
+   "orange": 190,
+   "yellow": 195,
+   "green": 195,
+   "grey": 195,
+   "source": "drop",
+   "sourceText": "Pattern: Golden Cord World drop (level 37–46)"
+  },
+  {
+   "name": "Radiant Cord",
+   "orange": 190,
+   "yellow": 195,
+   "green": 195,
+   "grey": 195,
+   "source": "drop",
+   "sourceText": "Pattern: Radiant Cord World drop (level 37–45)"
+  },
+  {
+   "name": "Stormcloth Pants",
+   "orange": 185,
+   "yellow": 200,
+   "green": 215,
+   "grey": 230,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Stormcloth Pants Source not known yet"
+  },
+  {
+   "name": "Stormcloth Gloves",
+   "orange": 185,
+   "yellow": 200,
+   "green": 215,
+   "grey": 230,
+   "source": "vendor quest",
+   "sourceText": "Pattern: Stormcloth Gloves Vendor ( Gorhak ) Quest: I Need a Tailor"
+  },
+  {
+   "name": "Orange Martial Shirt",
+   "orange": 185,
+   "yellow": 190,
+   "green": 195,
+   "grey": 200,
+   "source": "vendor",
+   "sourceText": "Pattern: Orange Martial Shirt Vendor ( Elynna , Mahu )"
+  },
+  {
+   "name": "Black Mageweave Gloves",
+   "orange": 180,
+   "yellow": 195,
+   "green": 210,
+   "grey": 225,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Red Mageweave Vest",
+   "orange": 180,
+   "yellow": 195,
+   "green": 210,
+   "grey": 225,
+   "source": "drop",
+   "sourceText": "Pattern: Red Mageweave Vest World drop (level 35–51)"
+  },
+  {
+   "name": "White Bandit Mask",
+   "orange": 180,
+   "yellow": 185,
+   "green": 190,
+   "grey": 195,
+   "source": "drop",
+   "sourceText": "Pattern: White Bandit Mask World drop (level 35–51)"
+  },
+  {
+   "name": "Red Mageweave Pants",
+   "orange": 180,
+   "yellow": 195,
+   "green": 210,
+   "grey": 225,
+   "source": "drop",
+   "sourceText": "Pattern: Red Mageweave Pants World drop (level 35–51)"
+  },
+  {
+   "name": "Orange Mageweave Shirt",
+   "orange": 180,
+   "yellow": 185,
+   "green": 190,
+   "grey": 195,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Crimson Silk Gloves",
+   "orange": 175,
+   "yellow": 190,
+   "green": 205,
+   "grey": 220,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Black Mageweave Robe",
+   "orange": 175,
+   "yellow": 190,
+   "green": 205,
+   "grey": 220,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Cloudy Stormsewn Cowl",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Pattern: Cloudy Stormsewn Cowl Vendor ( Sutara Plainstalker )"
+  },
+  {
+   "name": "Cloudy Stormsewn Epaulets",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Pattern: Cloudy Stormsewn Epaulets Vendor ( Sutara Plainstalker )"
+  },
+  {
+   "name": "Azure Stormsewn Cowl",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Pattern: Azure Stormsewn Cowl Vendor ( Archmage Alvareaux )"
+  },
+  {
+   "name": "Azure Stormsewn Epaulets",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Pattern: Azure Stormsewn Epaulets Vendor ( Archmage Alvareaux )"
+  },
+  {
+   "name": "Crimson Silk Robe",
+   "orange": 170,
+   "yellow": 185,
+   "green": 200,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Crimson Silk Robe Vendor ( Stitch Pinwizzle , Vizzklick )"
+  },
+  {
+   "name": "Black Mageweave Vest",
+   "orange": 170,
+   "yellow": 185,
+   "green": 200,
+   "grey": 215,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Black Mageweave Leggings",
+   "orange": 170,
+   "yellow": 185,
+   "green": 200,
+   "grey": 215,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Earthen Silk Shoulders",
+   "orange": 170,
+   "yellow": 185,
+   "green": 200,
+   "grey": 215,
+   "source": "drop",
+   "sourceText": "Pattern: Earthen Silk Shoulders Drop: Badlands ( Dustbelcher Mystic )"
+  },
+  {
+   "name": "Icy Cloak",
+   "orange": 165,
+   "yellow": 185,
+   "green": 200,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Icy Cloak Vendor ( Ghok'kah , Micha Yance )"
+  },
+  {
+   "name": "Star Belt",
+   "orange": 165,
+   "yellow": 185,
+   "green": 200,
+   "grey": 215,
+   "source": "drop",
+   "sourceText": "Pattern: Star Belt World drop (level 33–44)"
+  },
+  {
+   "name": "Black Swashbuckler's Shirt",
+   "orange": 165,
+   "yellow": 175,
+   "green": 180,
+   "grey": 185,
+   "source": "vendor",
+   "sourceText": "Pattern: Black Swashbuckler's Shirt Vendor ( Narkk )"
+  },
+  {
+   "name": "Earthen Silk Cuffs",
+   "orange": 165,
+   "yellow": 185,
+   "green": 200,
+   "grey": 215,
+   "source": "drop",
+   "sourceText": "Pattern: Earthen Silk Cuffs Drop: Dustwallow Marsh ( Mirefin Murloc )"
+  },
+  {
+   "name": "Gilded Handwraps",
+   "orange": 165,
+   "yellow": 185,
+   "green": 200,
+   "grey": 215,
+   "source": "drop",
+   "sourceText": "Pattern: Gilded Handwraps Drop: Stranglethorn Vale ( Saltscale Oracle )"
+  },
+  {
+   "name": "Frothing Handwraps",
+   "orange": 165,
+   "yellow": 185,
+   "green": 200,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Frothing Handwraps Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Fiery Handwraps",
+   "orange": 165,
+   "yellow": 185,
+   "green": 200,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Fiery Handwraps Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Black Handwraps",
+   "orange": 165,
+   "yellow": 185,
+   "green": 200,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Black Handwraps Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Golden Handwraps",
+   "orange": 165,
+   "yellow": 185,
+   "green": 200,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Golden Handwraps Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Radiant Handwraps",
+   "orange": 165,
+   "yellow": 185,
+   "green": 200,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Radiant Handwraps Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Earthen Silk Belt",
+   "orange": 160,
+   "yellow": 180,
+   "green": 195,
+   "grey": 210,
+   "source": "drop",
+   "sourceText": "Pattern: Earthen Silk Belt World drop (level 30–45)"
+  },
+  {
+   "name": "Crimson Silk Pantaloons",
+   "orange": 160,
+   "yellow": 180,
+   "green": 190,
+   "grey": 200,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Earthen Silk Gloves",
+   "orange": 160,
+   "yellow": 180,
+   "green": 195,
+   "grey": 210,
+   "source": "drop",
+   "sourceText": "Pattern: Earthen Silk Gloves Drop: Stranglethorn Vale ( Bloodscalp Mystic )"
+  },
+  {
+   "name": "Robe of Power",
+   "orange": 155,
+   "yellow": 175,
+   "green": 190,
+   "grey": 205,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Crimson Silk Shoulders",
+   "orange": 155,
+   "yellow": 175,
+   "green": 190,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Pattern: Crimson Silk Shoulders World drop (level 31–45)"
+  },
+  {
+   "name": "Azure Shoulders",
+   "orange": 155,
+   "yellow": 175,
+   "green": 190,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Pattern: Azure Shoulders World drop (level 31–45)"
+  },
+  {
+   "name": "Green Holiday Shirt",
+   "orange": 155,
+   "yellow": 165,
+   "green": 170,
+   "grey": 175,
+   "source": "drop",
+   "sourceText": "Pattern: Green Holiday Shirt Drop: Smokywood Pastures Special Gift"
+  },
+  {
+   "name": "Long Silken Cloak",
+   "orange": 150,
+   "yellow": 170,
+   "green": 185,
+   "grey": 200,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Rich Purple Silk Shirt",
+   "orange": 150,
+   "yellow": 160,
+   "green": 165,
+   "grey": 170,
+   "source": "drop",
+   "sourceText": "Pattern: Rich Purple Silk Shirt World drop (level 32–45)"
+  },
+  {
+   "name": "Black Silk Pack",
+   "orange": 150,
+   "yellow": 170,
+   "green": 185,
+   "grey": 200,
+   "source": "drop",
+   "sourceText": "Pattern: Black Silk Pack Drop: Alterac Mountains ( Syndicate Spy ) Drop: Hillsbrad Foothills ( Shadowy Assassin ) Drop: Dustwallow Marsh ( Theramore Infiltrator )"
+  },
+  {
+   "name": "Crimson Silk Vest",
+   "orange": 150,
+   "yellow": 170,
+   "green": 180,
+   "grey": 190,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Gilded Slippers",
+   "orange": null,
+   "yellow": 145,
+   "green": 145,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Frothing Slippers",
+   "orange": null,
+   "yellow": 145,
+   "green": 145,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Fiery Slippers",
+   "orange": null,
+   "yellow": 145,
+   "green": 145,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Black Slippers",
+   "orange": null,
+   "yellow": 145,
+   "green": 145,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Golden Slippers",
+   "orange": null,
+   "yellow": 145,
+   "green": 145,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Radiant Slippers",
+   "orange": null,
+   "yellow": 145,
+   "green": 145,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Earthen Silk Hood",
+   "orange": 150,
+   "yellow": 170,
+   "green": 185,
+   "grey": 200,
+   "source": "drop",
+   "sourceText": "Pattern: Earthen Silk Hood Drop: Desolace ( Slitherblade Sea Witch )"
+  },
+  {
+   "name": "Spider Belt",
+   "orange": 145,
+   "yellow": 165,
+   "green": 180,
+   "grey": 195,
+   "source": "drop",
+   "sourceText": "Pattern: Spider Belt World drop (level 30–46)"
+  },
+  {
+   "name": "Green Silken Shoulders",
+   "orange": 145,
+   "yellow": 165,
+   "green": 180,
+   "grey": 195,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Crimson Silk Cloak",
+   "orange": 145,
+   "yellow": 165,
+   "green": 180,
+   "grey": 195,
+   "source": "vendor",
+   "sourceText": "Pattern: Crimson Silk Cloak Vendor ( Norvin Alderman , Xizk Goodstitch )"
+  },
+  {
+   "name": "Earthen Silk Slippers",
+   "orange": 145,
+   "yellow": 165,
+   "green": 180,
+   "grey": 195,
+   "source": "drop",
+   "sourceText": "Pattern: Earthen Silk Slippers Drop: Arathi Highlands ( Witherbark Troll )"
+  },
+  {
+   "name": "Boots of the Enchanter",
+   "orange": 140,
+   "yellow": 160,
+   "green": 175,
+   "grey": 190,
+   "source": "drop",
+   "sourceText": "Pattern: Boots of the Enchanter World drop (level 25–40)"
+  },
+  {
+   "name": "Bolt of Mageweave",
+   "orange": 140,
+   "yellow": 145,
+   "green": 147,
+   "grey": 150,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Green Silk Pack",
+   "orange": 140,
+   "yellow": 160,
+   "green": 175,
+   "grey": 190,
+   "source": "drop",
+   "sourceText": "Pattern: Green Silk Pack World drop (level 25–40)"
+  },
+  {
+   "name": "Red Swashbuckler's Shirt",
+   "orange": 140,
+   "yellow": 150,
+   "green": 155,
+   "grey": 160,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Azure Silk Belt",
+   "orange": 140,
+   "yellow": 160,
+   "green": 175,
+   "grey": 190,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Crimson Silk Belt",
+   "orange": 140,
+   "yellow": 160,
+   "green": 175,
+   "grey": 190,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Azure Silk Cloak",
+   "orange": 140,
+   "yellow": 160,
+   "green": 175,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Pattern: Azure Silk Cloak Vendor ( Brienna Starglow , Jun'ha , Norvin Alderman )"
+  },
+  {
+   "name": "Tuxedo Pants",
+   "orange": 140,
+   "yellow": 205,
+   "green": 210,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Pattern: Tuxedo Pants Vendor ( Millie Gregorian , Outfitter Eric )"
+  },
+  {
+   "name": "White Wedding Dress",
+   "orange": 140,
+   "yellow": 145,
+   "green": 150,
+   "grey": 155,
+   "source": "vendor",
+   "sourceText": "Pattern: White Wedding Dress Vendor ( Alexandra Bolero , Mahu )"
+  },
+  {
+   "name": "Tuxedo Jacket",
+   "orange": 140,
+   "yellow": 155,
+   "green": 170,
+   "grey": 185,
+   "source": "vendor",
+   "sourceText": "Pattern: Tuxedo Jacket Vendor ( Millie Gregorian , Outfitter Eric )"
+  },
+  {
+   "name": "Earthen Leggings",
+   "orange": 140,
+   "yellow": 160,
+   "green": 175,
+   "grey": 190,
+   "source": "drop",
+   "sourceText": "Pattern: Earthen Leggings Drop: Thousand Needles ( Gravelsnout Surveyor )"
+  },
+  {
+   "name": "Spinning Wheel",
+   "orange": null,
+   "yellow": 140,
+   "green": 140,
+   "grey": 140,
+   "source": "drop",
+   "sourceText": "Blueprint: Spinning Wheel Drop: City of Dalaran (Unstable Sentinel)"
+  },
+  {
+   "name": "Shadow Hood",
+   "orange": 135,
+   "yellow": 155,
+   "green": 170,
+   "grey": 185,
+   "source": "drop",
+   "sourceText": "Pattern: Shadow Hood World drop (level 26–39)"
+  },
+  {
+   "name": "Formal White Shirt",
+   "orange": 135,
+   "yellow": 145,
+   "green": 150,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Earthen Vest",
+   "orange": 135,
+   "yellow": 155,
+   "green": 170,
+   "grey": 185,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchanter's Cowl",
+   "orange": 130,
+   "yellow": 150,
+   "green": 165,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Pattern: Enchanter's Cowl Vendor ( Xizk Goodstitch )"
+  },
+  {
+   "name": "Green Silk Armor",
+   "orange": 130,
+   "yellow": 150,
+   "green": 165,
+   "grey": 180,
+   "source": "drop",
+   "sourceText": "Pattern: Green Silk Armor World drop (level 25–40)"
+  },
+  {
+   "name": "Small Silk Pack",
+   "orange": 125,
+   "yellow": 145,
+   "green": 160,
+   "grey": 175,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Azure Silk Vest",
+   "orange": 125,
+   "yellow": 145,
+   "green": 160,
+   "grey": 175,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Robes of Arcana",
+   "orange": 125,
+   "yellow": 145,
+   "green": 160,
+   "grey": 175,
+   "source": "drop",
+   "sourceText": "Pattern: Robes of Arcana Drop: Duskwood ( Defias Enchanter ) Drop: Darkshore ( Dark Strand Voidcaller ) Drop: Thousand Needles ( Grimtotem Geomancer )"
+  },
+  {
+   "name": "White Swashbuckler's Shirt",
+   "orange": 125,
+   "yellow": 135,
+   "green": 140,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Silk Headband",
+   "orange": 125,
+   "yellow": 135,
+   "green": 140,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Truefaith Gloves",
+   "orange": 125,
+   "yellow": 145,
+   "green": 160,
+   "grey": 175,
+   "source": "drop",
+   "sourceText": "Pattern: Truefaith Gloves World drop (level 20–35)"
+  },
+  {
+   "name": "Silk Reagent Bag",
+   "orange": 125,
+   "yellow": 135,
+   "green": 137,
+   "grey": 140,
+   "source": "vendor quest",
+   "sourceText": "Pattern: Silk Reagent Bag Vendor ( Gorhak ) Quest: I Need a Tailor"
+  },
+  {
+   "name": "Filigreed Pristine Circlet",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Pristine Circlet Drop: Stormwind Stockade (Bazil Thredd)"
+  },
+  {
+   "name": "Filigreed Silky Circlet",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Silky Circlet Drop: Blackfathom Deeps (Lorgus Jett, Gelihast, Old Serra'kis)"
+  },
+  {
+   "name": "Filigreed Flame Circlet",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Flame Circlet Drop: Blackfathom Deeps (Gelihast, Aku'mai, Baron Aquanis)"
+  },
+  {
+   "name": "Filigreed Shadow Circlet",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Shadow Circlet Drop: Blackfathom Deeps (Lorgus Jett, Old Serra'kis, Twilight Lord Kelris)"
+  },
+  {
+   "name": "Filigreed Pearly Circlet",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Pearly Circlet Drop: Blackfathom Deeps (Aku'mai)"
+  },
+  {
+   "name": "Filigreed Shining Circlet",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Shining Circlet Drop: Stormwind Stockade (Bazil Thredd)"
+  },
+  {
+   "name": "Pristine Leggings",
+   "orange": 125,
+   "yellow": 145,
+   "green": 160,
+   "grey": 175,
+   "source": "vendor",
+   "sourceText": "Pattern: Pristine Leggings Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Silky Leggings",
+   "orange": 125,
+   "yellow": 145,
+   "green": 160,
+   "grey": 175,
+   "source": "vendor",
+   "sourceText": "Pattern: Silky Leggings Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Flame Leggings",
+   "orange": 125,
+   "yellow": 145,
+   "green": 160,
+   "grey": 175,
+   "source": "vendor",
+   "sourceText": "Pattern: Flame Leggings Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Shadow Leggings",
+   "orange": 125,
+   "yellow": 145,
+   "green": 160,
+   "grey": 175,
+   "source": "vendor",
+   "sourceText": "Pattern: Shadow Leggings Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Pearly Leggings",
+   "orange": 125,
+   "yellow": 145,
+   "green": 160,
+   "grey": 175,
+   "source": "vendor",
+   "sourceText": "Pattern: Pearly Leggings Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Shining Leggings",
+   "orange": 125,
+   "yellow": 145,
+   "green": 160,
+   "grey": 175,
+   "source": "vendor",
+   "sourceText": "Pattern: Shining Leggings Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Azure Silk Gloves",
+   "orange": 120,
+   "yellow": 140,
+   "green": 155,
+   "grey": 170,
+   "source": "vendor",
+   "sourceText": "Pattern: Azure Silk Gloves Vendor ( Kireena , Wenna Silkbeard )"
+  },
+  {
+   "name": "Dark Silk Shirt",
+   "orange": 120,
+   "yellow": 130,
+   "green": 135,
+   "grey": 140,
+   "source": "vendor",
+   "sourceText": "Pattern: Dark Silk Shirt Vendor ( Mallen Swain , Sheri Zipstitch )"
+  },
+  {
+   "name": "Azure Silk Hood",
+   "orange": 120,
+   "yellow": 130,
+   "green": 135,
+   "grey": 140,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Hands of Darkness",
+   "orange": 120,
+   "yellow": 140,
+   "green": 155,
+   "grey": 170,
+   "source": "drop",
+   "sourceText": "Pattern: Hands of Darkness World drop (level 21–36)"
+  },
+  {
+   "name": "Spider Silk Slippers",
+   "orange": 115,
+   "yellow": 135,
+   "green": 147,
+   "grey": 160,
+   "source": "drop",
+   "sourceText": "Pattern: Spider Silk Slippers World drop (level 20–36)"
+  },
+  {
+   "name": "Azure Silk Pants",
+   "orange": 115,
+   "yellow": 135,
+   "green": 150,
+   "grey": 165,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Bright Yellow Shirt",
+   "orange": 110,
+   "yellow": 120,
+   "green": 125,
+   "grey": 130,
+   "source": "vendor",
+   "sourceText": "Pattern: Bright Yellow Shirt Vendor ( Danielle Zipstitch )"
+  },
+  {
+   "name": "Lesser Wizard's Robe",
+   "orange": 110,
+   "yellow": 130,
+   "green": 145,
+   "grey": 160,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Pristine Gown",
+   "orange": 110,
+   "yellow": 130,
+   "green": 145,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Pristine Gown Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Silky Gown",
+   "orange": 110,
+   "yellow": 130,
+   "green": 145,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Silky Gown Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Flame Gown",
+   "orange": 110,
+   "yellow": 130,
+   "green": 145,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Flame Gown Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Shadow Gown",
+   "orange": 110,
+   "yellow": 130,
+   "green": 145,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Shadow Gown Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Pearly Gown",
+   "orange": 110,
+   "yellow": 130,
+   "green": 145,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Pearly Gown Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Shining Gown",
+   "orange": 110,
+   "yellow": 130,
+   "green": 145,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Shining Gown Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Gloves of Meditation",
+   "orange": 105,
+   "yellow": 125,
+   "green": 140,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Bolt of Silk Cloth",
+   "orange": 100,
+   "yellow": 110,
+   "green": 115,
+   "grey": 120,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Phoenix Pants",
+   "orange": 100,
+   "yellow": 125,
+   "green": 142,
+   "grey": 160,
+   "source": "drop",
+   "sourceText": "Pattern: Phoenix Pants World drop (level 16–30)"
+  },
+  {
+   "name": "Spidersilk Boots",
+   "orange": 100,
+   "yellow": 125,
+   "green": 142,
+   "grey": 160,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Phoenix Gloves",
+   "orange": 100,
+   "yellow": 125,
+   "green": 142,
+   "grey": 160,
+   "source": "drop",
+   "sourceText": "Pattern: Phoenix Gloves World drop (level 15–30)"
+  },
+  {
+   "name": "Filigreed Pristine Leggings",
+   "orange": 100,
+   "yellow": 105,
+   "green": 105,
+   "grey": 105,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Pristine Leggings Drop: Deadmines (Edwin VanCleef) Drop: Wailing Caverns (Lord Pythas, Verdan the Everliving)"
+  },
+  {
+   "name": "Filigreed Silky Leggings",
+   "orange": 100,
+   "yellow": 105,
+   "green": 105,
+   "grey": 105,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Silky Leggings Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Edwin VanCleef) Drop: Blackfathom Deeps (Ghamoo-ra)"
+  },
+  {
+   "name": "Filigreed Flame Leggings",
+   "orange": 100,
+   "yellow": 105,
+   "green": 105,
+   "grey": 105,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Flame Leggings Drop: Stormwind Stockade (Targorr the Dread) Drop: Blackfathom Deeps (Ghamoo-ra)"
+  },
+  {
+   "name": "Filigreed Shadow Leggings",
+   "orange": 100,
+   "yellow": 105,
+   "green": 105,
+   "grey": 105,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Shadow Leggings Drop: Wailing Caverns (Skum) Drop: Blackfathom Deeps (Lady Sarevess)"
+  },
+  {
+   "name": "Filigreed Pearly Leggings",
+   "orange": 100,
+   "yellow": 105,
+   "green": 105,
+   "grey": 105,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Pearly Leggings Drop: Shadowfang Keep (Fel Steed / Shadow Charger)"
+  },
+  {
+   "name": "Filigreed Shining Leggings",
+   "orange": 100,
+   "yellow": 105,
+   "green": 105,
+   "grey": 105,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Shining Leggings Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Edwin VanCleef)"
+  },
+  {
+   "name": "Pristine Circlet",
+   "orange": 100,
+   "yellow": 125,
+   "green": 142,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Pristine Circlet Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Silky Circlet",
+   "orange": 100,
+   "yellow": 125,
+   "green": 142,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Silky Circlet Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Flame Circlet",
+   "orange": 100,
+   "yellow": 125,
+   "green": 142,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Flame Circlet Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Shadow Circlet",
+   "orange": 100,
+   "yellow": 125,
+   "green": 142,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Shadow Circlet Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Pearly Circlet",
+   "orange": 100,
+   "yellow": 125,
+   "green": 142,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Pearly Circlet Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Shining Circlet",
+   "orange": 100,
+   "yellow": 125,
+   "green": 142,
+   "grey": 160,
+   "source": "vendor",
+   "sourceText": "Pattern: Shining Circlet Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Reinforced Woolen Shoulders",
+   "orange": 95,
+   "yellow": 120,
+   "green": 137,
+   "grey": 155,
+   "source": "drop",
+   "sourceText": "Pattern: Reinforced Woolen Shoulders World drop (level 16–30)"
+  },
+  {
+   "name": "Stylish Blue Shirt",
+   "orange": 95,
+   "yellow": 120,
+   "green": 137,
+   "grey": 155,
+   "source": "drop",
+   "sourceText": "Pattern: Stylish Blue Shirt World drop (level 16–31)"
+  },
+  {
+   "name": "Stylish Green Shirt",
+   "orange": 95,
+   "yellow": 120,
+   "green": 137,
+   "grey": 155,
+   "source": "drop",
+   "sourceText": "Pattern: Stylish Green Shirt World drop (level 16–30)"
+  },
+  {
+   "name": "Red Woolen Bag",
+   "orange": 90,
+   "yellow": 115,
+   "green": 132,
+   "grey": 150,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Red Woolen Bag Drop: Westfall ( Defias Renegade Mage ) Drop: Hillsbrad Foothills ( Hillsbrad Tailor ) 11 vendors Amy Davenport , Borya , Jennabink Powerseam , Kiknikle , Mahu , Millie Gregorian , Rann Flamespinner , Valdaron , Wrahk , Yonada , Zixil"
+  },
+  {
+   "name": "Greater Adept's Robe",
+   "orange": 90,
+   "yellow": 115,
+   "green": 132,
+   "grey": 150,
+   "source": "vendor",
+   "sourceText": "Pattern: Greater Adept's Robe 5 vendors Elynna , Jennabink Powerseam , Millie Gregorian , Rann Flamespinner , Sheri Zipstitch"
+  },
+  {
+   "name": "Double-Stitched Woolen Shoulders",
+   "orange": 85,
+   "yellow": 110,
+   "green": 127,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Woolen Pants",
+   "orange": 85,
+   "yellow": 110,
+   "green": 127,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Stylish Red Shirt",
+   "orange": 85,
+   "yellow": 110,
+   "green": 127,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "White Woolen Dress",
+   "orange": 85,
+   "yellow": 110,
+   "green": 127,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Pristine Sash",
+   "orange": 85,
+   "yellow": 110,
+   "green": 127,
+   "grey": 145,
+   "source": "vendor",
+   "sourceText": "Pattern: Pristine Sash Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Silky Sash",
+   "orange": 85,
+   "yellow": 110,
+   "green": 127,
+   "grey": 145,
+   "source": "vendor",
+   "sourceText": "Pattern: Silky Sash Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Flame Sash",
+   "orange": 85,
+   "yellow": 110,
+   "green": 127,
+   "grey": 145,
+   "source": "vendor",
+   "sourceText": "Pattern: Flame Sash Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Shadow Sash",
+   "orange": 85,
+   "yellow": 110,
+   "green": 127,
+   "grey": 145,
+   "source": "vendor",
+   "sourceText": "Pattern: Shadow Sash Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Pearly Sash",
+   "orange": 85,
+   "yellow": 110,
+   "green": 127,
+   "grey": 145,
+   "source": "vendor",
+   "sourceText": "Pattern: Pearly Sash Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Shining Sash",
+   "orange": 85,
+   "yellow": 110,
+   "green": 127,
+   "grey": 145,
+   "source": "vendor",
+   "sourceText": "Pattern: Shining Sash Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Gray Woolen Robe",
+   "orange": 80,
+   "yellow": 105,
+   "green": 122,
+   "grey": 140,
+   "source": "drop",
+   "sourceText": "Pattern: Gray Woolen Robe World drop (level 16–30)"
+  },
+  {
+   "name": "Gray Woolen Shirt",
+   "orange": 80,
+   "yellow": 90,
+   "green": 100,
+   "grey": 110,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Woolen Cloak",
+   "orange": 80,
+   "yellow": 105,
+   "green": 122,
+   "grey": 140,
+   "source": "drop",
+   "sourceText": "Pattern: Heavy Woolen Cloak World drop (level 11–26)"
+  },
+  {
+   "name": "Green Woolen Bag",
+   "orange": 75,
+   "yellow": 100,
+   "green": 117,
+   "grey": 135,
+   "source": "drop",
+   "sourceText": "Pattern: Green Woolen Bag World drop (level 11–26)"
+  },
+  {
+   "name": "Red Woolen Boots",
+   "orange": 75,
+   "yellow": 80,
+   "green": 97,
+   "grey": 115,
+   "source": "drop",
+   "sourceText": "Pattern: Red Woolen Boots World drop (level 11–26)"
+  },
+  {
+   "name": "Blue Overalls",
+   "orange": 75,
+   "yellow": 100,
+   "green": 117,
+   "grey": 135,
+   "source": "vendor",
+   "sourceText": "Pattern: Blue Overalls 5 vendors Alexandra Bolero , Borya , Gina MacGregor , Mallen Swain , Yonada"
+  },
+  {
+   "name": "Filigreed Pristine Gown",
+   "orange": 75,
+   "yellow": 80,
+   "green": 80,
+   "grey": 80,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Pristine Gown Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Sneed)"
+  },
+  {
+   "name": "Filigreed Silky Gown",
+   "orange": 75,
+   "yellow": 80,
+   "green": 80,
+   "grey": 80,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Silky Gown Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Gilnid) Drop: Wailing Caverns (Observed recipes 3)"
+  },
+  {
+   "name": "Filigreed Flame Gown",
+   "orange": 75,
+   "yellow": 80,
+   "green": 80,
+   "grey": 80,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Flame Gown Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Rhahk'Zor, Gilnid) Drop: Ragefire Chasm (Jergosh the Invoker)"
+  },
+  {
+   "name": "Filigreed Shadow Gown",
+   "orange": 75,
+   "yellow": 80,
+   "green": 80,
+   "grey": 80,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Shadow Gown Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Ragefire Chasm (Bazzalan) Drop: Wailing Caverns (Lord Cobrahn)"
+  },
+  {
+   "name": "Filigreed Pearly Gown",
+   "orange": 75,
+   "yellow": 80,
+   "green": 80,
+   "grey": 80,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Pearly Gown Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Cookie) Drop: Ragefire Chasm (Bazzalan)"
+  },
+  {
+   "name": "Filigreed Shining Gown",
+   "orange": 75,
+   "yellow": 80,
+   "green": 80,
+   "grey": 80,
+   "source": "drop",
+   "sourceText": "Pattern: Filigreed Shining Gown Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Cookie)"
+  },
+  {
+   "name": "Pristine Gloves",
+   "orange": 75,
+   "yellow": 100,
+   "green": 117,
+   "grey": 135,
+   "source": "vendor",
+   "sourceText": "Pattern: Pristine Gloves Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Silky Gloves",
+   "orange": 75,
+   "yellow": 100,
+   "green": 117,
+   "grey": 135,
+   "source": "vendor",
+   "sourceText": "Pattern: Silky Gloves Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Flame Gloves",
+   "orange": 75,
+   "yellow": 100,
+   "green": 117,
+   "grey": 135,
+   "source": "vendor",
+   "sourceText": "Pattern: Flame Gloves Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Shadow Gloves",
+   "orange": 75,
+   "yellow": 100,
+   "green": 117,
+   "grey": 135,
+   "source": "vendor",
+   "sourceText": "Pattern: Shadow Gloves Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Pearly Gloves",
+   "orange": 75,
+   "yellow": 100,
+   "green": 117,
+   "grey": 135,
+   "source": "vendor",
+   "sourceText": "Pattern: Pearly Gloves Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Shining Gloves",
+   "orange": 75,
+   "yellow": 100,
+   "green": 117,
+   "grey": 135,
+   "source": "vendor",
+   "sourceText": "Pattern: Shining Gloves Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Woolen Boots",
+   "orange": 70,
+   "yellow": 95,
+   "green": 112,
+   "grey": 130,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Pearl-clasped Cloak",
+   "orange": 70,
+   "yellow": 95,
+   "green": 112,
+   "grey": 130,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Colorful Kilt",
+   "orange": 70,
+   "yellow": 95,
+   "green": 112,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Pattern: Colorful Kilt World drop (level 15–30)"
+  },
+  {
+   "name": "Woolen Reagent Bag",
+   "orange": 70,
+   "yellow": 75,
+   "green": 92,
+   "grey": 110,
+   "source": "vendor",
+   "sourceText": "Pattern: Woolen Reagent Bag 36 vendors Alexandra Bolero , Angela Ward , Antonio Bolero , Boramu , Borya , Brienna Starglow , Captured Servant of Azora , Dani'ill , Danielle Zipstitch , Darah , Darnall , Dominique Stefano , Ellie Stonebrow , Elynna , Franklin Hamar , Ghok'kah , Jennabink Powerseam , Jun'ha , Lohgan Eva , Mahu , Mallen Swain , Millie Gregorian , Othesia Evengale , Outfitter Eric , Poranna Snowbraid , Rann Flamespinner , Reagent Bot , Repair Bot , Sheri Zipstitch , Stitch Pinwizzle , Taleen Shimmerthread , Valdaron , Vizzklick , Wrahk , Xizk Goodstitch , Yonada"
+  },
+  {
+   "name": "Green Woolen Vest",
+   "orange": 60,
+   "yellow": 85,
+   "green": 102,
+   "grey": 120,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Woolen Gloves",
+   "orange": 60,
+   "yellow": 85,
+   "green": 102,
+   "grey": 120,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Pristine Boots",
+   "orange": 60,
+   "yellow": 85,
+   "green": 102,
+   "grey": 120,
+   "source": "vendor",
+   "sourceText": "Pattern: Pristine Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Silky Boots",
+   "orange": 60,
+   "yellow": 85,
+   "green": 102,
+   "grey": 120,
+   "source": "vendor",
+   "sourceText": "Pattern: Silky Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Flame Boots",
+   "orange": 60,
+   "yellow": 85,
+   "green": 102,
+   "grey": 120,
+   "source": "vendor",
+   "sourceText": "Pattern: Flame Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Shadow Boots",
+   "orange": 60,
+   "yellow": 85,
+   "green": 102,
+   "grey": 120,
+   "source": "vendor",
+   "sourceText": "Pattern: Shadow Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Pearly Boots",
+   "orange": 60,
+   "yellow": 85,
+   "green": 102,
+   "grey": 120,
+   "source": "vendor",
+   "sourceText": "Pattern: Pearly Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Shining Boots",
+   "orange": 60,
+   "yellow": 85,
+   "green": 102,
+   "grey": 120,
+   "source": "vendor",
+   "sourceText": "Pattern: Shining Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Cloudy Stormsewn Vest",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Stormsewn Vest Source not known yet"
+  },
+  {
+   "name": "Cloudy Stormsewn Leggings",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Stormsewn Leggings Source not known yet"
+  },
+  {
+   "name": "Azure Stormsewn Vest",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Stormsewn Vest Source not known yet"
+  },
+  {
+   "name": "Azure Stormsewn Leggings",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Stormsewn Leggings Source not known yet"
+  },
+  {
+   "name": "Woolen Cape",
+   "orange": 55,
+   "yellow": 80,
+   "green": 97,
+   "grey": 115,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Bolt of Woolen Cloth",
+   "orange": 55,
+   "yellow": 70,
+   "green": 77,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Soft-soled Linen Boots",
+   "orange": 55,
+   "yellow": 80,
+   "green": 97,
+   "grey": 115,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Cloudy Stormsewn Handwraps",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Stormsewn Handwraps Source not known yet"
+  },
+  {
+   "name": "Cloudy Stormsewn Shoes",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Stormsewn Shoes Source not known yet"
+  },
+  {
+   "name": "Azure Stormsewn Handwraps",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Stormsewn Handwraps Source not known yet"
+  },
+  {
+   "name": "Azure Stormsewn Shoes",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Stormsewn Shoes Source not known yet"
+  },
+  {
+   "name": "Woolen Bag",
+   "orange": 50,
+   "yellow": 75,
+   "green": 92,
+   "grey": 110,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Red Linen Bag",
+   "orange": 50,
+   "yellow": 75,
+   "green": 92,
+   "grey": 110,
+   "source": "drop vendor",
+   "sourceText": "Pattern: Red Linen Bag Drop: Westfall ( Defias Looter ) Drop: Silverpine Forest ( Pyrewood Tailor , Moonrage Tailor ) 4 vendors Andrew Hilbert , Gina MacGregor , Mahu , Valdaron"
+  },
+  {
+   "name": "Simple Kilt",
+   "orange": 50,
+   "yellow": 75,
+   "green": 92,
+   "grey": 110,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Cloudy Stormsewn Cuffs",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Stormsewn Cuffs Source not known yet"
+  },
+  {
+   "name": "Cloudy Stormsewn Cord",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Cloudy Stormsewn Cord Source not known yet"
+  },
+  {
+   "name": "Azure Stormsewn Cuffs",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Stormsewn Cuffs Source not known yet"
+  },
+  {
+   "name": "Azure Stormsewn Cord",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Pattern: Azure Stormsewn Cord Source not known yet"
+  },
+  {
+   "name": "Handstitched Linen Britches",
+   "orange": 45,
+   "yellow": 70,
+   "green": 87,
+   "grey": 105,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Blue Linen Robe",
+   "orange": 45,
+   "yellow": 70,
+   "green": 87,
+   "grey": 105,
+   "source": "vendor",
+   "sourceText": "Pattern: Blue Linen Robe 5 vendors Andrew Hilbert , Drake Lindgren , Elynna , Ranik , Wrahk"
+  },
+  {
+   "name": "Linen Boots",
+   "orange": 40,
+   "yellow": 65,
+   "green": 82,
+   "grey": 100,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Barbaric Linen Vest",
+   "orange": 40,
+   "yellow": 65,
+   "green": 82,
+   "grey": 100,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Green Linen Shirt",
+   "orange": 40,
+   "yellow": 65,
+   "green": 82,
+   "grey": 100,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Reinforced Linen Cape",
+   "orange": 35,
+   "yellow": 60,
+   "green": 77,
+   "grey": 95,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Green Linen Bracers",
+   "orange": 35,
+   "yellow": 60,
+   "green": 77,
+   "grey": 95,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Red Linen Vest",
+   "orange": 35,
+   "yellow": 60,
+   "green": 77,
+   "grey": 95,
+   "source": "drop",
+   "sourceText": "Pattern: Red Linen Vest Drop: Wetlands, Westfall, Redridge Mountains, Silverpine Forest, Hillsbrad Foothills, Wailing Caverns"
+  },
+  {
+   "name": "Blue Linen Vest",
+   "orange": 35,
+   "yellow": 60,
+   "green": 77,
+   "grey": 95,
+   "source": "vendor",
+   "sourceText": "Pattern: Blue Linen Vest 5 vendors Borya , Constance Brisboise , Tharynn Bouden , Valdaron , Wrahk"
+  },
+  {
+   "name": "Novice Arcanist's Sash",
+   "orange": 35,
+   "yellow": 55,
+   "green": 55,
+   "grey": 55,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Novice Ardent's Sash",
+   "orange": 35,
+   "yellow": 55,
+   "green": 55,
+   "grey": 55,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Red Linen Robe",
+   "orange": 25,
+   "yellow": 50,
+   "green": 67,
+   "grey": 85,
+   "source": "drop",
+   "sourceText": "Pattern: Red Linen Robe Drop: Wetlands, Westfall, Redridge Mountains, Silverpine Forest, Hillsbrad Foothills"
+  },
+  {
+   "name": "Red Linen Shirt",
+   "orange": 25,
+   "yellow": 50,
+   "green": 67,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Blue Linen Shirt",
+   "orange": 25,
+   "yellow": 50,
+   "green": 67,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Linen Gloves",
+   "orange": 25,
+   "yellow": 50,
+   "green": 67,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Brown Linen Pants",
+   "orange": 25,
+   "yellow": 50,
+   "green": 67,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Brown Linen Robe",
+   "orange": 25,
+   "yellow": 50,
+   "green": 67,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "White Linen Robe",
+   "orange": 25,
+   "yellow": 50,
+   "green": 67,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Simple Dress",
+   "orange": 25,
+   "yellow": 50,
+   "green": 67,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Simple Linen Boots",
+   "orange": 20,
+   "yellow": 50,
+   "green": 67,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Faction Banner",
+   "orange": null,
+   "yellow": 20,
+   "green": 20,
+   "grey": 20,
+   "source": "quest",
+   "sourceText": "Quest: Camping 101: Tailoring"
+  },
+  {
+   "name": "Linen Belt",
+   "orange": 15,
+   "yellow": 50,
+   "green": 67,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Brown Linen Vest",
+   "orange": 10,
+   "yellow": 45,
+   "green": 57,
+   "grey": 70,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Linen Bag",
+   "orange": 5,
+   "yellow": 30,
+   "green": 47,
+   "grey": 65,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Linen Reagent Bag",
+   "orange": 5,
+   "yellow": 30,
+   "green": 47,
+   "grey": 65,
+   "source": "vendor",
+   "sourceText": "Pattern: Linen Reagent Bag 36 vendors Alexandra Bolero , Angela Ward , Antonio Bolero , Boramu , Borya , Brienna Starglow , Captured Servant of Azora , Dani'ill , Danielle Zipstitch , Darah , Darnall , Dominique Stefano , Ellie Stonebrow , Elynna , Franklin Hamar , Ghok'kah , Jennabink Powerseam , Jun'ha , Lohgan Eva , Mahu , Mallen Swain , Millie Gregorian , Othesia Evengale , Outfitter Eric , Poranna Snowbraid , Rann Flamespinner , Reagent Bot , Repair Bot , Sheri Zipstitch , Stitch Pinwizzle , Taleen Shimmerthread , Valdaron , Vizzklick , Wrahk , Xizk Goodstitch , Yonada"
+  },
+  {
+   "name": "Linen Cloak",
+   "orange": 1,
+   "yellow": 35,
+   "green": 47,
+   "grey": 60,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "White Linen Shirt",
+   "orange": 1,
+   "yellow": 35,
+   "green": 47,
+   "grey": 60,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Bolt of Linen Cloth",
+   "orange": 1,
+   "yellow": 25,
+   "green": 37,
+   "grey": 50,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Brown Linen Shirt",
+   "orange": 1,
+   "yellow": 35,
+   "green": 47,
+   "grey": 60,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Simple Linen Pants",
+   "orange": 1,
+   "yellow": 40,
+   "green": 50,
+   "grey": 60,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Green Woolen Robe",
+   "orange": null,
+   "yellow": 90,
+   "green": 107,
+   "grey": 125,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Boots of Darkness",
+   "orange": null,
+   "yellow": 135,
+   "green": 150,
+   "grey": 165,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Shadoweave Pants",
+   "orange": null,
+   "yellow": 190,
+   "green": 205,
+   "grey": 220,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Shadoweave Robe",
+   "orange": null,
+   "yellow": 195,
+   "green": 210,
+   "grey": 225,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Shadoweave Gloves",
+   "orange": null,
+   "yellow": 205,
+   "green": 220,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Black Mageweave Headband",
+   "orange": null,
+   "yellow": 205,
+   "green": 220,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Black Mageweave Boots",
+   "orange": null,
+   "yellow": 205,
+   "green": 220,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Black Mageweave Shoulders",
+   "orange": null,
+   "yellow": 205,
+   "green": 220,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Shadoweave Shoulders",
+   "orange": null,
+   "yellow": 210,
+   "green": 225,
+   "grey": 240,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Simple Black Dress",
+   "orange": null,
+   "yellow": 200,
+   "green": 205,
+   "grey": 210,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Red Mageweave Bag",
+   "orange": null,
+   "yellow": 210,
+   "green": 225,
+   "grey": 240,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Shadoweave Boots",
+   "orange": null,
+   "yellow": 215,
+   "green": 230,
+   "grey": 245,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Cindercloth Boots",
+   "orange": null,
+   "yellow": 215,
+   "green": 230,
+   "grey": 245,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dreamweave Circlet",
+   "orange": null,
+   "yellow": 220,
+   "green": 235,
+   "grey": 250,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Bolt of Runecloth",
+   "orange": null,
+   "yellow": 210,
+   "green": 212,
+   "grey": 215,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Runecloth Belt",
+   "orange": null,
+   "yellow": 225,
+   "green": 240,
+   "grey": 255,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Mooncloth Boots",
+   "orange": null,
+   "yellow": 285,
+   "green": 300,
+   "grey": 315,
+   "source": "quest",
+   "sourceText": "Quest: Sacred Cloth"
+  },
+  {
+   "name": "Gordok Ogre Suit",
+   "orange": null,
+   "yellow": 285,
+   "green": 290,
+   "grey": 295,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Felcloth Bag",
+   "orange": null,
+   "yellow": 260,
+   "green": 275,
+   "grey": 290,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Glacial Gloves",
+   "orange": null,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Glacial Vest",
+   "orange": null,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Glacial Cloak",
+   "orange": null,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Glacial Wrists",
+   "orange": null,
+   "yellow": 315,
+   "green": 330,
+   "grey": 345,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Faction Banner",
+   "orange": null,
+   "yellow": 20,
+   "green": 20,
+   "grey": 20,
+   "source": "quest",
+   "sourceText": "Quest: Camping 101: Tailoring"
+  }
+ ]
+}

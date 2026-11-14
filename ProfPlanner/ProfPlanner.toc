@@ -1,0 +1,31 @@
+## Interface: 16001
+## Title: ProfPlanner
+## Notes: Profession levelling planner priced with live auction data.
+## Version: 0.3.0
+## Author: Jack Smith-Morse
+## OptionalDeps: Auctionator, TomTom
+## SavedVariables: ProfPlannerDB
+## SavedVariablesPerCharacter: ProfPlannerCharDB
+## IconTexture: Interface\Icons\INV_Misc_Book_09
+## AddonCompartmentFunc: ProfPlanner_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: ProfPlanner_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: ProfPlanner_OnAddonCompartmentLeave
+
+Core.lua
+Data\VendorPrices.lua
+Data\NPCs.lua
+Data\Recipes_Alchemy.lua
+Data\Recipes_Blacksmithing.lua
+Data\Recipes_Cooking.lua
+Data\Recipes_Enchanting.lua
+Data\Recipes_Engineering.lua
+Data\Recipes_FirstAid.lua
+Data\Recipes_Leatherworking.lua
+Data\Recipes_Tailoring.lua
+Player.lua
+Inventory.lua
+Pricing.lua
+Optimiser.lua
+Navigation.lua
+UI\Panel.lua
+UI\Settings.lua

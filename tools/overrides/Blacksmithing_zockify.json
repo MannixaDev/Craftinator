@@ -1,0 +1,3940 @@
+{
+ "credit": "Learn skills and recipe sources from Zockify (zockify.com)",
+ "url": "https://www.zockify.com/forever/professions/blacksmithing/recipes/",
+ "fetched": "2026-11-14",
+ "recipes": [
+  {
+   "name": "Lionheart Helm",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Lionheart Helm Drop: Stranglethorn Vale, Blackrock Spire, Zul'Gurub, Stratholme, Alterac Valley, Molten Core, Ruins of Ahn'Qiraj"
+  },
+  {
+   "name": "Stronghold Gauntlets",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Stronghold Gauntlets Plans: Stronger-hold Gauntlets World drop (level 59–62)"
+  },
+  {
+   "name": "Enchanted Thorium Helm",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Enchanted Thorium Helm Source not known yet"
+  },
+  {
+   "name": "Enchanted Thorium Leggings",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Enchanted Thorium Leggings Source not known yet"
+  },
+  {
+   "name": "Enchanted Thorium Breastplate",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Enchanted Thorium Breastplate Source not known yet"
+  },
+  {
+   "name": "Hammer of the Titans",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Hammer of the Titans Drop: Stratholme (Maleki the Pallid)"
+  },
+  {
+   "name": "Arcanite Champion",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Arcanite Champion Drop: Blackrock Spire (Goraluk Anvilcrack)"
+  },
+  {
+   "name": "Annihilator",
+   "orange": null,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "drop",
+   "sourceText": "Plans: Annihilator Drop: Blackrock Spire (Quartermaster Zigris)"
+  },
+  {
+   "name": "Frostguard",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Frostguard Source not known yet"
+  },
+  {
+   "name": "Masterwork Stormhammer",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Masterwork Stormhammer Drop: Blackrock Spire (Goraluk Anvilcrack)"
+  },
+  {
+   "name": "Arcanite Reaper",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Arcanite Reaper Drop: Blackrock Spire (Bannok Grimaxe)"
+  },
+  {
+   "name": "Heartseeker",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Heartseeker Drop: Stratholme (Cannon Master Willey)"
+  },
+  {
+   "name": "Fiery Chain Shoulders",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Fiery Chain Shoulders Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Dark Iron Leggings",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Dark Iron Leggings Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Dark Iron Reaver",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Dark Iron Reaver Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Dark Iron Destroyer",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Dark Iron Destroyer Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Sulfuron Hammer",
+   "orange": 300,
+   "yellow": 325,
+   "green": 337,
+   "grey": 350,
+   "source": "drop quest",
+   "sourceText": "Plans: Sulfuron Hammer Drop: Blackrock Depths (Guzzler) Quest: A Binding Contract"
+  },
+  {
+   "name": "Elemental Sharpening Stone",
+   "orange": null,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Elemental Sharpening Stone Source not known yet"
+  },
+  {
+   "name": "Gloves of the Dawn",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Gloves of the Dawn Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Breechlock )"
+  },
+  {
+   "name": "Dark Iron Helm",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Dark Iron Helm Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Dark Iron Gauntlets",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Dark Iron Gauntlets Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Black Amnesty",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Black Amnesty Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Blackfury",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Blackfury Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Ebon Hand",
+   "orange": null,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "vendor",
+   "sourceText": "Plans: Ebon Hand Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Blackguard",
+   "orange": null,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "vendor",
+   "sourceText": "Plans: Blackguard Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Nightfall",
+   "orange": null,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "vendor",
+   "sourceText": "Plans: Nightfall Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Bloodsoul Breastplate",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Bloodsoul Breastplate Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Bloodsoul Shoulders",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Bloodsoul Shoulders Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Bloodsoul Gauntlets",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Bloodsoul Gauntlets Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Darksoul Breastplate",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Darksoul Breastplate Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Darksoul Leggings",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Darksoul Leggings Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Darksoul Shoulders",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Darksoul Shoulders Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Dark Iron Boots",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Dark Iron Boots Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Darkrune Gauntlets",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Darkrune Gauntlets Drop: Decoded True Believer Clippings"
+  },
+  {
+   "name": "Darkrune Helm",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Darkrune Helm Drop: Decoded True Believer Clippings"
+  },
+  {
+   "name": "Darkrune Breastplate",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Darkrune Breastplate Drop: Decoded True Believer Clippings"
+  },
+  {
+   "name": "Jagged Obsidian Shield",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Jagged Obsidian Shield Source not known yet"
+  },
+  {
+   "name": "Thick Obsidian Breastplate",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Thick Obsidian Breastplate Drop: Ahn'Qiraj ( The Prophet Skeram )"
+  },
+  {
+   "name": "Black Grasp of the Destroyer",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Black Grasp of the Destroyer Drop: Ruins of Ahn'Qiraj ( Moam )"
+  },
+  {
+   "name": "Obsidian Mail Tunic",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Obsidian Mail Tunic Source not known yet"
+  },
+  {
+   "name": "Titanic Leggings",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Titanic Leggings Drop: Western Plaguelands, Stranglethorn Vale, Silithus, Blackrock Depths, Scholomance, Ruins of Ahn'Qiraj, Naxxramas"
+  },
+  {
+   "name": "Persuader",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Persuader Drop: Zul'Gurub, Alterac Valley, Molten Core, Ahn'Qiraj, Ruins of Ahn'Qiraj, Naxxramas"
+  },
+  {
+   "name": "Sageblade",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Sageblade Drop: Zul'Gurub, Molten Core, Ahn'Qiraj, Ruins of Ahn'Qiraj, Naxxramas"
+  },
+  {
+   "name": "Icebane Breastplate",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Icebane Breastplate Source not known yet"
+  },
+  {
+   "name": "Icebane Gauntlets",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Icebane Gauntlets Source not known yet"
+  },
+  {
+   "name": "Icebane Bracers",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Icebane Bracers Source not known yet"
+  },
+  {
+   "name": "Enriched Thorium Breastplate",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Enriched Thorium Breastplate Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Enriched Thorium Leggings",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Enriched Thorium Leggings Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Enriched Thorium Helm",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Enriched Thorium Helm Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Champion's Legplates",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Champion's Legplates Source not known yet"
+  },
+  {
+   "name": "Stalwart Helm",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Stalwart Helm Source not known yet"
+  },
+  {
+   "name": "Martyr's Legplates",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Martyr's Legplates Source not known yet"
+  },
+  {
+   "name": "Breastplate of Salvation",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Plans: Breastplate of Salvation Drop: Blackmaw Hold (Trash)"
+  },
+  {
+   "name": "Stormcarver",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Stormcarver Source not known yet"
+  },
+  {
+   "name": "Bagh Nakh",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Bagh Nakh Source not known yet"
+  },
+  {
+   "name": "Legionite Glaive",
+   "orange": 300,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "vendor",
+   "sourceText": "Plans: Legionite Glaive Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Master Forge",
+   "orange": null,
+   "yellow": 300,
+   "green": 300,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Blueprint: Master Forge Source not known yet"
+  },
+  {
+   "name": "Justice Leggings",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Justice Leggings Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Justice Gauntlets",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Justice Gauntlets Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Justice Spaulders",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Justice Spaulders Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Justice Greaves",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Justice Greaves Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Justice Legplates",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Justice Legplates Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Justice Gloves",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Justice Gloves Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Justice Epaulets",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Justice Epaulets Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Justice Treads",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Justice Treads Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Justice Legguards",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Justice Legguards Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Justice Handguards",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Justice Handguards Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Justice Pauldrons",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Justice Pauldrons Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Justice Sabatons",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Justice Sabatons Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Legplates of Glory",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Legplates of Glory Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Gauntlets of Glory",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Gauntlets of Glory Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Shoulders of Glory",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Shoulders of Glory Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Greaves of Glory",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Greaves of Glory Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Legguards of Glory",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Legguards of Glory Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Handguards of Glory",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Handguards of Glory Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Pauldrons of Glory",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Pauldrons of Glory Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Sabatons of Glory",
+   "orange": 300,
+   "yellow": 320,
+   "green": 325,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Plans: Sabatons of Glory Vendor ( Aisarra Nightmeadow )"
+  },
+  {
+   "name": "Ironwood Blade",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Ironwood Blade Source not known yet"
+  },
+  {
+   "name": "Forest Defender's Axe",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Forest Defender's Axe Source not known yet"
+  },
+  {
+   "name": "Greenhammer",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Greenhammer Source not known yet"
+  },
+  {
+   "name": "Evergreen Shield",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Evergreen Shield Source not known yet"
+  },
+  {
+   "name": "Depleted Thorium Sabatons",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Depleted Thorium Sabatons Source not known yet"
+  },
+  {
+   "name": "Heavy Thorium Gauntlets",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Heavy Thorium Gauntlets Source not known yet"
+  },
+  {
+   "name": "Azerothium Legplates",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Azerothium Legplates Source not known yet"
+  },
+  {
+   "name": "Goregasher Stompers",
+   "orange": null,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Plans: Goregasher Stompers Vendor ( Vargus )"
+  },
+  {
+   "name": "Clutchlord's Stompers",
+   "orange": null,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Plans: Clutchlord's Stompers Vendor ( Vargus )"
+  },
+  {
+   "name": "Whitesoul Helm",
+   "orange": 290,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Plans: Whitesoul Helm World drop (level 51–61)"
+  },
+  {
+   "name": "Goregasher Support",
+   "orange": 290,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Plans: Goregasher Support Vendor ( Vargus )"
+  },
+  {
+   "name": "Clutchlord's Support",
+   "orange": 290,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Plans: Clutchlord's Support Vendor ( Vargus )"
+  },
+  {
+   "name": "Runic Breastplate",
+   "orange": 285,
+   "yellow": 305,
+   "green": 315,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Plans: Runic Breastplate Drop: Dustwallow Marsh ( Strashaz Myrmidon )"
+  },
+  {
+   "name": "Runic Plate Leggings",
+   "orange": 285,
+   "yellow": 305,
+   "green": 315,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Plans: Runic Plate Leggings Drop: Western Plaguelands ( Scarlet Smith )"
+  },
+  {
+   "name": "Goregasher Grips",
+   "orange": 285,
+   "yellow": 290,
+   "green": 292,
+   "grey": 295,
+   "source": "vendor",
+   "sourceText": "Plans: Goregasher Grips Vendor ( Vargus )"
+  },
+  {
+   "name": "Clutchlord's Grips",
+   "orange": 285,
+   "yellow": 290,
+   "green": 292,
+   "grey": 295,
+   "source": "vendor",
+   "sourceText": "Plans: Clutchlord's Grips Vendor ( Vargus )"
+  },
+  {
+   "name": "Radiant Leggings",
+   "orange": 280,
+   "yellow": 300,
+   "green": 310,
+   "grey": 320,
+   "source": "drop",
+   "sourceText": "Plans: Radiant Leggings World drop (level 55–62)"
+  },
+  {
+   "name": "Runic Plate Helm",
+   "orange": 280,
+   "yellow": 300,
+   "green": 310,
+   "grey": 320,
+   "source": "drop",
+   "sourceText": "Plans: Runic Plate Helm Drop: Dustwallow Marsh ( Strashaz Warrior )"
+  },
+  {
+   "name": "Imperial Plate Leggings",
+   "orange": 280,
+   "yellow": 300,
+   "green": 310,
+   "grey": 320,
+   "source": "quest",
+   "sourceText": "Plans: Imperial Plate Leggings Quest: Imperial Plate Leggings"
+  },
+  {
+   "name": "Blessed Plate Chest",
+   "orange": 280,
+   "yellow": 300,
+   "green": 310,
+   "grey": 320,
+   "source": "drop",
+   "sourceText": "Plans: Blessed Plate Chest Drop: Mount Hyjal"
+  },
+  {
+   "name": "Thorium Leggings",
+   "orange": 275,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "drop",
+   "sourceText": "Plans: Thorium Leggings World drop (level 50–61)"
+  },
+  {
+   "name": "Imperial Plate Chest",
+   "orange": 275,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "quest",
+   "sourceText": "Plans: Imperial Plate Chest Quest: Imperial Plate Chest"
+  },
+  {
+   "name": "Runic Plate Shoulders",
+   "orange": 275,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "drop",
+   "sourceText": "Plans: Runic Plate Shoulders Drop: Dustwallow Marsh ( Strashaz Serpent Guard )"
+  },
+  {
+   "name": "Runic Plate Boots",
+   "orange": 275,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "drop",
+   "sourceText": "Plans: Runic Plate Boots Drop: Western Plaguelands ( Scarlet Cavalier )"
+  },
+  {
+   "name": "Blessed Plate Helm",
+   "orange": 275,
+   "yellow": 295,
+   "green": 305,
+   "grey": 315,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Blessed Plate Helm Source not known yet"
+  },
+  {
+   "name": "Imperial Plate Boots",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "quest",
+   "sourceText": "Plans: Imperial Plate Boots Quest: Imperial Plate Boots"
+  },
+  {
+   "name": "Imperial Plate Helm",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "quest",
+   "sourceText": "Plans: Imperial Plate Helm Quest: Imperial Plate Helm"
+  },
+  {
+   "name": "Radiant Circlet",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Plans: Radiant Circlet World drop (level 52–61)"
+  },
+  {
+   "name": "Fiery Chain Girdle",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "vendor",
+   "sourceText": "Plans: Fiery Chain Girdle Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Dark Iron Bracers",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "vendor",
+   "sourceText": "Plans: Dark Iron Bracers Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Blessed Plate Leggings",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Plans: Blessed Plate Leggings Drop: Winterspring ( Raging Owlbeast )"
+  },
+  {
+   "name": "Blessed Plate Belt",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Plans: Blessed Plate Belt Drop: Eastern Plaguelands ( Plaguebat )"
+  },
+  {
+   "name": "Bold Dirk",
+   "orange": 270,
+   "yellow": 290,
+   "green": 300,
+   "grey": 310,
+   "source": "vendor quest",
+   "sourceText": "Plans: Bold Dirk Vendor ( Pexmit ) Quest: Back to the Grind"
+  },
+  {
+   "name": "Arcanite Blacksmith Hammer",
+   "orange": 270,
+   "yellow": 275,
+   "green": 277,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Plans: Arcanite Blacksmith Hammer Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Fiery Plate Gauntlets",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Fiery Plate Gauntlets Source not known yet"
+  },
+  {
+   "name": "Radiant Boots",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "drop",
+   "sourceText": "Plans: Radiant Boots World drop (level 51–61)"
+  },
+  {
+   "name": "Dawnbringer Shoulders",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "drop",
+   "sourceText": "Plans: Dawnbringer Shoulders Drop: Silithus ( Hive'Zora Tunneler ) Drop: Stranglethorn Vale ( Arena Treasure Chest )"
+  },
+  {
+   "name": "Volcanic Hammer",
+   "orange": 265,
+   "yellow": 290,
+   "green": 302,
+   "grey": 315,
+   "source": "drop",
+   "sourceText": "Plans: Volcanic Hammer Drop: Burning Steppes ( Volchan )"
+  },
+  {
+   "name": "Corruption",
+   "orange": 265,
+   "yellow": 290,
+   "green": 302,
+   "grey": 315,
+   "source": "drop",
+   "sourceText": "Plans: Corruption Drop: Stratholme (Plans)"
+  },
+  {
+   "name": "Girdle of the Dawn",
+   "orange": 265,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Plans: Girdle of the Dawn Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Breechlock )"
+  },
+  {
+   "name": "Dark Iron Plate",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Plans: Dark Iron Plate Drop: Blackrock Depths (Ribbly Screwspigot)"
+  },
+  {
+   "name": "Radiant Gloves",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Plans: Radiant Gloves World drop (level 50–61)"
+  },
+  {
+   "name": "Demon Forged Breastplate",
+   "orange": 260,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Plans: Demon Forged Breastplate Drop: Blackrock Spire (Goraluk Anvilcrack)"
+  },
+  {
+   "name": "Serenity",
+   "orange": 260,
+   "yellow": 285,
+   "green": 297,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Plans: Serenity Drop: Stratholme (Plans)"
+  },
+  {
+   "name": "Thorium Poleaxe",
+   "orange": 260,
+   "yellow": 280,
+   "green": 292,
+   "grey": 305,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Thorium Poleaxe Source not known yet"
+  },
+  {
+   "name": "Dark Iron Shoulders",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Plans: Dark Iron Shoulders Drop: Blackrock Depths (Plans, Trash)"
+  },
+  {
+   "name": "Thorium Boots",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Plans: Thorium Boots World drop (level 51–61)"
+  },
+  {
+   "name": "Thorium Helm",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Plans: Thorium Helm World drop (level 51–61)"
+  },
+  {
+   "name": "Huge Thorium Battleaxe",
+   "orange": 255,
+   "yellow": 280,
+   "green": 292,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Plans: Huge Thorium Battleaxe Vendor ( Magnus Frostwake )"
+  },
+  {
+   "name": "Enchanted Battlehammer",
+   "orange": 255,
+   "yellow": 280,
+   "green": 292,
+   "grey": 305,
+   "source": "quest",
+   "sourceText": "Plans: Enchanted Battlehammer Quest: Sweet Serenity"
+  },
+  {
+   "name": "Blazing Rapier",
+   "orange": 255,
+   "yellow": 280,
+   "green": 292,
+   "grey": 305,
+   "source": "quest",
+   "sourceText": "Plans: Blazing Rapier Quest: Corruption"
+  },
+  {
+   "name": "Imperial Plate Gauntlets",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Plans: Imperial Plate Gauntlets Drop: Azshara ( Blood Elf Reclaimer )"
+  },
+  {
+   "name": "Blessed Plate Bracers",
+   "orange": 255,
+   "yellow": 275,
+   "green": 285,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Plans: Blessed Plate Bracers Drop: Felwood ( Jadefire Betrayer )"
+  },
+  {
+   "name": "Dark Iron Sunderer",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Plans: Dark Iron Sunderer Drop: Blackrock Depths (Trash)"
+  },
+  {
+   "name": "Thorium Shield Spike",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Plans: Thorium Shield Spike World drop (level 48–60)"
+  },
+  {
+   "name": "Ornate Thorium Handaxe",
+   "orange": 250,
+   "yellow": 275,
+   "green": 287,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Plans: Ornate Thorium Handaxe Vendor ( Magnus Frostwake )"
+  },
+  {
+   "name": "Dawn's Edge",
+   "orange": 250,
+   "yellow": 275,
+   "green": 287,
+   "grey": 300,
+   "source": "quest",
+   "sourceText": "Plans: Dawn's Edge Quest: Snakestone of the Shadow Huntress"
+  },
+  {
+   "name": "Officer's Gloves",
+   "orange": 250,
+   "yellow": 255,
+   "green": 255,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Plans: Officer's Gloves Drop: Zul'Farrak, The Temple of Atal'Hakkar, Blackrock Depths, Maraudon"
+  },
+  {
+   "name": "Sentinel's Gloves",
+   "orange": 250,
+   "yellow": 255,
+   "green": 255,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Plans: Sentinel's Gloves Drop: Zul'Farrak, Maraudon"
+  },
+  {
+   "name": "Warder's Gloves",
+   "orange": 250,
+   "yellow": 255,
+   "green": 255,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Plans: Warder's Gloves Drop: Zul'Farrak, Maraudon"
+  },
+  {
+   "name": "Prefect's Gloves",
+   "orange": 250,
+   "yellow": 255,
+   "green": 255,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Plans: Prefect's Gloves World drop (level 1–55)"
+  },
+  {
+   "name": "Justicar's Gloves",
+   "orange": 250,
+   "yellow": 255,
+   "green": 255,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Plans: Justicar's Gloves Drop: Zul'Farrak, Uldaman, Maraudon"
+  },
+  {
+   "name": "Officer's Waistguard",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Plans: Officer's Waistguard Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Sentinel's Waistguard",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Plans: Sentinel's Waistguard Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Warder's Waistguard",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Plans: Warder's Waistguard Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Prefect's Waistguard",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Plans: Prefect's Waistguard Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Justicar's Waistguard",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Plans: Justicar's Waistguard Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Thorium Greatmace",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Plans: Thorium Greatmace Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Thorium Cestus",
+   "orange": 250,
+   "yellow": 270,
+   "green": 280,
+   "grey": 290,
+   "source": "vendor",
+   "sourceText": "Plans: Thorium Cestus Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Dark Iron Mail",
+   "orange": 245,
+   "yellow": 265,
+   "green": 275,
+   "grey": 285,
+   "source": "drop",
+   "sourceText": "Plans: Dark Iron Mail Drop: Blackrock Depths (Plans, Trash)"
+  },
+  {
+   "name": "Radiant Breastplate",
+   "orange": 245,
+   "yellow": 265,
+   "green": 275,
+   "grey": 285,
+   "source": "drop",
+   "sourceText": "Plans: Radiant Breastplate World drop (level 46–60)"
+  },
+  {
+   "name": "Imperial Plate Bracers",
+   "orange": 245,
+   "yellow": 265,
+   "green": 275,
+   "grey": 285,
+   "source": "quest",
+   "sourceText": "Plans: Imperial Plate Bracers Quest: Imperial Plate Bracer"
+  },
+  {
+   "name": "Blessed Plate Gauntlet",
+   "orange": 245,
+   "yellow": 265,
+   "green": 275,
+   "grey": 285,
+   "source": "drop",
+   "sourceText": "Plans: Blessed Plate Gauntlet Drop: Felwood ( Deadwood Pathfinder )"
+  },
+  {
+   "name": "Dark Iron Pulverizer",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Plans: Dark Iron Pulverizer Drop: Blackrock Depths (Ring of Law)"
+  },
+  {
+   "name": "Imperial Plate Shoulders",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "quest",
+   "sourceText": "Plans: Imperial Plate Shoulders Quest: Imperial Plate Shoulders"
+  },
+  {
+   "name": "Imperial Plate Belt",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "quest",
+   "sourceText": "Plans: Imperial Plate Belt Quest: Imperial Plate Belt"
+  },
+  {
+   "name": "Officer's Sabatons",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Plans: Officer's Sabatons Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Sentinel's Sabatons",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Plans: Sentinel's Sabatons Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Warder's Sabatons",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Plans: Warder's Sabatons Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Prefect's Sabatons",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Plans: Prefect's Sabatons Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Justicar's Sabatons",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Plans: Justicar's Sabatons Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Blessed Plate Pauldrons",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Plans: Blessed Plate Pauldrons Drop: Azshara ( Highborne Lichling )"
+  },
+  {
+   "name": "Blessed Plate Boots",
+   "orange": 240,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Plans: Blessed Plate Boots Drop: Searing Gorge ( Dark Iron Lookout )"
+  },
+  {
+   "name": "Radiant Belt",
+   "orange": 235,
+   "yellow": 255,
+   "green": 265,
+   "grey": 275,
+   "source": "drop",
+   "sourceText": "Plans: Radiant Belt World drop (level 47–60)"
+  },
+  {
+   "name": "Ebon Shiv",
+   "orange": 230,
+   "yellow": 255,
+   "green": 267,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Plans: Ebon Shiv Vendor ( Magnus Frostwake )"
+  },
+  {
+   "name": "Thorium Bracers",
+   "orange": 230,
+   "yellow": 250,
+   "green": 260,
+   "grey": 270,
+   "source": "drop",
+   "sourceText": "Plans: Thorium Bracers World drop (level 46–60)"
+  },
+  {
+   "name": "Thorium Armor",
+   "orange": 225,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "drop",
+   "sourceText": "Plans: Thorium Armor World drop (level 46–60)"
+  },
+  {
+   "name": "Thorium Belt",
+   "orange": 225,
+   "yellow": 245,
+   "green": 255,
+   "grey": 265,
+   "source": "drop",
+   "sourceText": "Plans: Thorium Belt World drop (level 46–60)"
+  },
+  {
+   "name": "Officer's Wristguards",
+   "orange": 225,
+   "yellow": 250,
+   "green": 262,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Plans: Officer's Wristguard Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Sentinel's Wristguards",
+   "orange": 225,
+   "yellow": 250,
+   "green": 262,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Plans: Sentinel's Wristguard Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Warder's Wristguards",
+   "orange": 225,
+   "yellow": 250,
+   "green": 262,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Plans: Warder's Wristguard Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Prefect's Wristguards",
+   "orange": 225,
+   "yellow": 250,
+   "green": 262,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Plans: Prefect's Wristguard Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Justicar's Wristguards",
+   "orange": 225,
+   "yellow": 250,
+   "green": 262,
+   "grey": 275,
+   "source": "vendor",
+   "sourceText": "Plans: Justicar's Wristguards Vendor (90 Merchant's Favor )"
+  },
+  {
+   "name": "Heavy Mithril Helm",
+   "orange": 220,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "drop",
+   "sourceText": "Plans: Heavy Mithril Helm World drop (level 41–56)"
+  },
+  {
+   "name": "Runed Mithril Hammer",
+   "orange": 220,
+   "yellow": 245,
+   "green": 257,
+   "grey": 270,
+   "source": "drop",
+   "sourceText": "Plans: Runed Mithril Hammer World drop (level 41–56)"
+  },
+  {
+   "name": "Shining Mithril Pants",
+   "orange": 220,
+   "yellow": 240,
+   "green": 250,
+   "grey": 260,
+   "source": "drop",
+   "sourceText": "Plans: Shining Mithril Pants Drop: The Hinterlands ( Witherbark Sadist )"
+  },
+  {
+   "name": "Shining Mithril Gauntlet",
+   "orange": 220,
+   "yellow": 240,
+   "green": 250,
+   "grey": 260,
+   "source": "drop",
+   "sourceText": "Plans: Shining Mithril Gauntlet Drop: Tanaris ( Southsea Pirate )"
+  },
+  {
+   "name": "Dazzling Mithril Rapier",
+   "orange": 215,
+   "yellow": 240,
+   "green": 252,
+   "grey": 265,
+   "source": "drop",
+   "sourceText": "Plans: Dazzling Mithril Rapier World drop (level 41–56)"
+  },
+  {
+   "name": "Shining Mithril Helm",
+   "orange": 215,
+   "yellow": 235,
+   "green": 245,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Plans: Shining Mithril Helm Drop: Stranglethorn Vale ( Naga Explorer )"
+  },
+  {
+   "name": "Charged Mithril Battleaxe",
+   "orange": 215,
+   "yellow": 235,
+   "green": 245,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Plans: Charged Mithril Battleaxe Drop: Feralas ( Gordunni Brute )"
+  },
+  {
+   "name": "Mithril Spurs",
+   "orange": 210,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "drop",
+   "sourceText": "Plans: Mithril Spurs World drop (level 41–56)"
+  },
+  {
+   "name": "Mithril Plate Shoulders",
+   "orange": 210,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "drop",
+   "sourceText": "Plans: Mithril Plate Shoulders World drop (level 42–55)"
+  },
+  {
+   "name": "Officer's Pauldrons",
+   "orange": 210,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Plans: Officer's Pauldrons Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Sentinel's Pauldrons",
+   "orange": 210,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Plans: Sentinel's Pauldrons Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Warder's Pauldrons",
+   "orange": 210,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Plans: Warder's Pauldrons Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Prefect's Pauldrons",
+   "orange": 210,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Plans: Prefect's Pauldrons Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Justicar's Pauldrons",
+   "orange": 210,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "vendor",
+   "sourceText": "Plans: Justicar's Pauldrons Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Mithril Stiletto",
+   "orange": 210,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "drop",
+   "sourceText": "Plans: Mithril Stiletto Drop: Swamp of Sorrows ( Lost One Hunter )"
+  },
+  {
+   "name": "Ornate Mithril Shoulders",
+   "orange": 200,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "quest",
+   "sourceText": "Plans: Ornate Mithril Shoulders Quest: The Art of the Imbue"
+  },
+  {
+   "name": "Wicked Mithril Blade",
+   "orange": 200,
+   "yellow": 225,
+   "green": 237,
+   "grey": 250,
+   "source": "drop",
+   "sourceText": "Plans: Wicked Mithril Blade World drop (level 35–51)"
+  },
+  {
+   "name": "Inlaid Mithril Cylinder",
+   "orange": null,
+   "yellow": 200,
+   "green": 212,
+   "grey": 225,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Inlaid Mithril Cylinder Source not known yet"
+  },
+  {
+   "name": "Shining Mithril Boots",
+   "orange": 200,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "drop",
+   "sourceText": "Plans: Shining Mithril Boots Drop: Badlands ( Stonevault Shaman )"
+  },
+  {
+   "name": "Officer's Boots",
+   "orange": 200,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Plans: Officer's Boots World drop (level 37–45)"
+  },
+  {
+   "name": "Sentinel's Boots",
+   "orange": 200,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Plans: Sentinel's Boots Drop: Razorfen Downs (Ragglesnout)"
+  },
+  {
+   "name": "Warder's Boots",
+   "orange": 200,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Plans: Warder's Boots Drop: Uldaman (Obsidian Sentinel)"
+  },
+  {
+   "name": "Prefect's Boots",
+   "orange": 200,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Plans: Prefect's Boots World drop (level 37–46)"
+  },
+  {
+   "name": "Justicar's Boots",
+   "orange": 200,
+   "yellow": 205,
+   "green": 205,
+   "grey": 205,
+   "source": "drop",
+   "sourceText": "Plans: Justicar's Boots Drop: Razorfen Downs (Glutton)"
+  },
+  {
+   "name": "Ornate Mithril Pants",
+   "orange": 195,
+   "yellow": 215,
+   "green": 225,
+   "grey": 235,
+   "source": "quest",
+   "sourceText": "Plans: Ornate Mithril Pants Quest: Smelt On, Smelt Off"
+  },
+  {
+   "name": "Ornate Mithril Gloves",
+   "orange": 195,
+   "yellow": 215,
+   "green": 225,
+   "grey": 235,
+   "source": "quest",
+   "sourceText": "Plans: Ornate Mithril Gloves Quest: The Great Silver Deceiver"
+  },
+  {
+   "name": "Blue Glittering Axe",
+   "orange": 195,
+   "yellow": 220,
+   "green": 232,
+   "grey": 245,
+   "source": "drop",
+   "sourceText": "Plans: Blue Glittering Axe World drop (level 35–50)"
+  },
+  {
+   "name": "Shining Mithril Breastplate",
+   "orange": 195,
+   "yellow": 215,
+   "green": 225,
+   "grey": 235,
+   "source": "drop",
+   "sourceText": "Plans: Shining Mithril Breastplate Drop: Desolace ( Outcast Necromancer ) Drop: Shen'dralas ( Magram Necromancer )"
+  },
+  {
+   "name": "Shining Mithril Pauldrons",
+   "orange": 195,
+   "yellow": 215,
+   "green": 225,
+   "grey": 235,
+   "source": "drop",
+   "sourceText": "Plans: Shining Mithril Pauldrons Drop: Arathi Highlands ( Daggerspine Sorceress )"
+  },
+  {
+   "name": "Mithril Claws",
+   "orange": 195,
+   "yellow": 215,
+   "green": 225,
+   "grey": 235,
+   "source": "drop",
+   "sourceText": "Plans: Mithril Claws Drop: Badlands ( Stonevault Bonesnapper )"
+  },
+  {
+   "name": "Mithril Claymore",
+   "orange": 195,
+   "yellow": 215,
+   "green": 225,
+   "grey": 235,
+   "source": "drop",
+   "sourceText": "Plans: Mithril Claymore Drop: Feralas ( Woodpaw Mongrel )"
+  },
+  {
+   "name": "Mithril Blacksmith Hammer",
+   "orange": 195,
+   "yellow": 200,
+   "green": 202,
+   "grey": 205,
+   "source": "vendor",
+   "sourceText": "Plans: Mithril Blacksmith Hammer Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Steel Plate Helm",
+   "orange": 190,
+   "yellow": 210,
+   "green": 220,
+   "grey": 230,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Mithril Plate Bracers",
+   "orange": 190,
+   "yellow": 210,
+   "green": 220,
+   "grey": 230,
+   "source": "vendor",
+   "sourceText": "Plans: Mithril Plate Bracers Vendor ( Gharash , Harggan )"
+  },
+  {
+   "name": "Mithril Shield Spike",
+   "orange": 190,
+   "yellow": 210,
+   "green": 220,
+   "grey": 230,
+   "source": "drop",
+   "sourceText": "Plans: Mithril Shield Spike World drop (level 35–51)"
+  },
+  {
+   "name": "Mithril Warhammer",
+   "orange": 190,
+   "yellow": 210,
+   "green": 220,
+   "grey": 230,
+   "source": "vendor quest",
+   "sourceText": "Plans: Mithril Warhammer Vendor ( Martha Wellsworth ) Quest: Step Two: More Rock"
+  },
+  {
+   "name": "Mithril Plate Pants",
+   "orange": 185,
+   "yellow": 205,
+   "green": 215,
+   "grey": 225,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Mithril Pants",
+   "orange": 185,
+   "yellow": 205,
+   "green": 215,
+   "grey": 225,
+   "source": "drop",
+   "sourceText": "Plans: Heavy Mithril Pants World drop (level 35–50)"
+  },
+  {
+   "name": "Heavy Mithril Axe",
+   "orange": 185,
+   "yellow": 210,
+   "green": 222,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Mithril Shoulder",
+   "orange": 180,
+   "yellow": 200,
+   "green": 210,
+   "grey": 220,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Mithril Gauntlet",
+   "orange": 180,
+   "yellow": 200,
+   "green": 210,
+   "grey": 220,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Golden Scale Gauntlets",
+   "orange": 180,
+   "yellow": 200,
+   "green": 210,
+   "grey": 220,
+   "source": "quest",
+   "sourceText": "Plans: Golden Scale Gauntlets Quest: The Origins of Smithing"
+  },
+  {
+   "name": "Mithril Shortsword",
+   "orange": 180,
+   "yellow": 200,
+   "green": 210,
+   "grey": 220,
+   "source": "drop",
+   "sourceText": "Plans: Mithril Shortsword Drop: Dustwallow Marsh ( Mirefin Coastrunner )"
+  },
+  {
+   "name": "Frost Tiger Blade",
+   "orange": 175,
+   "yellow": 200,
+   "green": 212,
+   "grey": 225,
+   "source": "drop",
+   "sourceText": "Plans: Frost Tiger Blade World drop (level 31–45)"
+  },
+  {
+   "name": "Shadow Crescent Axe",
+   "orange": 175,
+   "yellow": 200,
+   "green": 212,
+   "grey": 225,
+   "source": "drop",
+   "sourceText": "Plans: Shadow Crescent Axe World drop (level 31–45)"
+  },
+  {
+   "name": "Golden Scale Boots",
+   "orange": 175,
+   "yellow": 200,
+   "green": 212,
+   "grey": 225,
+   "source": "drop",
+   "sourceText": "Plans: Golden Scale Boots World drop (level 30–45)"
+  },
+  {
+   "name": "Steel Breastplate",
+   "orange": 175,
+   "yellow": 200,
+   "green": 212,
+   "grey": 225,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Solid Sharpening Stone",
+   "orange": null,
+   "yellow": 175,
+   "green": 180,
+   "grey": 185,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Solid Grinding Stone",
+   "orange": null,
+   "yellow": 175,
+   "green": 180,
+   "grey": 185,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Solid Weightstone",
+   "orange": null,
+   "yellow": 175,
+   "green": 180,
+   "grey": 185,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Truesilver Rod",
+   "orange": 175,
+   "yellow": 180,
+   "green": 182,
+   "grey": 185,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Truesilver Skeleton Key",
+   "orange": null,
+   "yellow": 175,
+   "green": 185,
+   "grey": 195,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Hard Gold Gauntlet",
+   "orange": 175,
+   "yellow": 200,
+   "green": 212,
+   "grey": 225,
+   "source": "vendor quest",
+   "sourceText": "Plans: Hard Gold Gauntlet Vendor ( Gorhak ) Quest: Big, No, MASSIVE Iron Axes"
+  },
+  {
+   "name": "Hard Gold Pauldrons",
+   "orange": 175,
+   "yellow": 200,
+   "green": 212,
+   "grey": 225,
+   "source": "drop",
+   "sourceText": "Plans: Hard Gold Pauldrons Drop: Alterac Mountains ( Crushridge Ogre )"
+  },
+  {
+   "name": "Officer's Gauntlet",
+   "orange": 175,
+   "yellow": 200,
+   "green": 212,
+   "grey": 225,
+   "source": "vendor",
+   "sourceText": "Plans: Officer's Gauntlet Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Sentinel's Gauntlet",
+   "orange": 175,
+   "yellow": 200,
+   "green": 212,
+   "grey": 225,
+   "source": "vendor",
+   "sourceText": "Plans: Sentinel's Gauntlet Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Warder's Gauntlet",
+   "orange": 175,
+   "yellow": 200,
+   "green": 212,
+   "grey": 225,
+   "source": "vendor",
+   "sourceText": "Plans: Warder's Gauntlet Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Prefect's Gauntlet",
+   "orange": 175,
+   "yellow": 200,
+   "green": 212,
+   "grey": 225,
+   "source": "vendor",
+   "sourceText": "Plans: Prefect's Gauntlet Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Justicar's Gauntlet",
+   "orange": 175,
+   "yellow": 200,
+   "green": 212,
+   "grey": 225,
+   "source": "vendor",
+   "sourceText": "Plans: Justicar's Gauntlet Vendor (60 Merchant's Favor )"
+  },
+  {
+   "name": "Cloudy Skyforged Helm",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Plans: Cloudy Skyforged Helm Vendor ( Sutara Plainstalker )"
+  },
+  {
+   "name": "Cloudy Skyforged Pauldrons",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Plans: Cloudy Skyforged Pauldrons Vendor ( Sutara Plainstalker )"
+  },
+  {
+   "name": "Azure Skyforged Helm",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Plans: Azure Skyforged Helm Vendor ( Archmage Alvareaux )"
+  },
+  {
+   "name": "Azure Skyforged Pauldrons",
+   "orange": 175,
+   "yellow": 185,
+   "green": 187,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Plans: Azure Skyforged Pauldrons Vendor ( Archmage Alvareaux )"
+  },
+  {
+   "name": "Golden Scale Cuirass",
+   "orange": 170,
+   "yellow": 195,
+   "green": 207,
+   "grey": 220,
+   "source": "drop",
+   "sourceText": "Plans: Golden Scale Cuirass World drop (level 30–46)"
+  },
+  {
+   "name": "Hard Gold Coif",
+   "orange": 170,
+   "yellow": 195,
+   "green": 207,
+   "grey": 220,
+   "source": "drop",
+   "sourceText": "Plans: Hard Gold Coif Drop: Badlands ( Dustbelcher Warrior )"
+  },
+  {
+   "name": "Golden Scale Coif",
+   "orange": 165,
+   "yellow": 190,
+   "green": 202,
+   "grey": 215,
+   "source": "vendor",
+   "sourceText": "Plans: Golden Scale Coif Vendor ( Krinkle Goodsteel )"
+  },
+  {
+   "name": "Steel Weapon Chain",
+   "orange": 165,
+   "yellow": 190,
+   "green": 202,
+   "grey": 215,
+   "source": "drop",
+   "sourceText": "Plans: Steel Weapon Chain World drop (level 31–45)"
+  },
+  {
+   "name": "Searing Golden Blade",
+   "orange": 165,
+   "yellow": 190,
+   "green": 202,
+   "grey": 215,
+   "source": "drop",
+   "sourceText": "Plans: Searing Golden Blade World drop (level 31–45)"
+  },
+  {
+   "name": "Edge of Winter",
+   "orange": 165,
+   "yellow": 190,
+   "green": 202,
+   "grey": 215,
+   "source": "drop",
+   "sourceText": "Plans: Edge of Winter Drop: Redridge Mountains ( Redridge Alpha ) Drop: Smokywood Pastures Special Gift"
+  },
+  {
+   "name": "Hard Gold Leggings",
+   "orange": 165,
+   "yellow": 190,
+   "green": 202,
+   "grey": 215,
+   "source": "drop",
+   "sourceText": "Plans: Hard Gold Leggings Drop: Stranglethorn Vale ( Kurzen Jungle Fighter )"
+  },
+  {
+   "name": "Iron Morningstar",
+   "orange": 165,
+   "yellow": 190,
+   "green": 202,
+   "grey": 215,
+   "source": "vendor quest",
+   "sourceText": "Plans: Iron Morningstar Vendor ( Gorhak ) Quest: Big, No, MASSIVE Iron Axes"
+  },
+  {
+   "name": "Massive Iron Axe",
+   "orange": 160,
+   "yellow": 185,
+   "green": 197,
+   "grey": 210,
+   "source": "vendor",
+   "sourceText": "Plans: Massive Iron Axe Vendor ( Jaquilina Dramet , Vharr )"
+  },
+  {
+   "name": "Polished Steel Boots",
+   "orange": 160,
+   "yellow": 185,
+   "green": 197,
+   "grey": 210,
+   "source": "drop",
+   "sourceText": "Plans: Polished Steel Boots World drop (level 31–45)"
+  },
+  {
+   "name": "Golden Scale Bracers",
+   "orange": 160,
+   "yellow": 185,
+   "green": 197,
+   "grey": 210,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Barbaric Iron Gloves",
+   "orange": 160,
+   "yellow": 185,
+   "green": 197,
+   "grey": 210,
+   "source": "quest",
+   "sourceText": "Plans: Barbaric Iron Gloves Quest: Joys of Omosh"
+  },
+  {
+   "name": "Hard Gold Bracers",
+   "orange": 160,
+   "yellow": 185,
+   "green": 197,
+   "grey": 210,
+   "source": "drop",
+   "sourceText": "Plans: Hard Gold Bracers Drop: Desolace ( Slitherblade Naga )"
+  },
+  {
+   "name": "Steel Spear",
+   "orange": 160,
+   "yellow": 185,
+   "green": 197,
+   "grey": 210,
+   "source": "drop",
+   "sourceText": "Plans: Steel Spear Drop: Thousand Needles ( Saltstone Crystalhide )"
+  },
+  {
+   "name": "Moonsteel Broadsword",
+   "orange": 155,
+   "yellow": 180,
+   "green": 192,
+   "grey": 205,
+   "source": "vendor",
+   "sourceText": "Plans: Moonsteel Broadsword Vendor ( Zarena Cromwind )"
+  },
+  {
+   "name": "Green Iron Hauberk",
+   "orange": 155,
+   "yellow": 180,
+   "green": 192,
+   "grey": 205,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Barbaric Iron Boots",
+   "orange": 155,
+   "yellow": 180,
+   "green": 192,
+   "grey": 205,
+   "source": "quest",
+   "sourceText": "Plans: Barbaric Iron Boots Quest: Trampled Under Foot"
+  },
+  {
+   "name": "Glinting Steel Dagger",
+   "orange": 155,
+   "yellow": 180,
+   "green": 192,
+   "grey": 205,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Jade Serpentblade",
+   "orange": 150,
+   "yellow": 175,
+   "green": 187,
+   "grey": 200,
+   "source": "drop",
+   "sourceText": "Plans: Jade Serpentblade World drop (level 25–40)"
+  },
+  {
+   "name": "Golden Scale Shoulders",
+   "orange": 150,
+   "yellow": 175,
+   "green": 187,
+   "grey": 200,
+   "source": "drop",
+   "sourceText": "Plans: Golden Scale Shoulders World drop (level 25–39)"
+  },
+  {
+   "name": "Barbaric Iron Helm",
+   "orange": 150,
+   "yellow": 175,
+   "green": 187,
+   "grey": 200,
+   "source": "quest",
+   "sourceText": "Plans: Barbaric Iron Helm Quest: Horns of Frenzy"
+  },
+  {
+   "name": "Hard Gold Boots",
+   "orange": 150,
+   "yellow": 175,
+   "green": 187,
+   "grey": 200,
+   "source": "drop",
+   "sourceText": "Plans: Hard Gold Boots Drop: Arathi Highlands ( Syndicate Highwayman , Syndicate Smuggler )"
+  },
+  {
+   "name": "Officer's Belt",
+   "orange": 150,
+   "yellow": 155,
+   "green": 155,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Sentinel's Belt",
+   "orange": 150,
+   "yellow": 155,
+   "green": 155,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Warder's Belt",
+   "orange": 150,
+   "yellow": 155,
+   "green": 155,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Prefect's Belt",
+   "orange": 150,
+   "yellow": 155,
+   "green": 155,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Justicar's Belt",
+   "orange": 150,
+   "yellow": 155,
+   "green": 155,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Golden Iron Destroyer",
+   "orange": 145,
+   "yellow": 170,
+   "green": 182,
+   "grey": 195,
+   "source": "drop",
+   "sourceText": "Plans: Golden Iron Destroyer World drop (level 25–40)"
+  },
+  {
+   "name": "Green Iron Helm",
+   "orange": 145,
+   "yellow": 170,
+   "green": 182,
+   "grey": 195,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Golden Scale Leggings",
+   "orange": 145,
+   "yellow": 170,
+   "green": 182,
+   "grey": 195,
+   "source": "drop",
+   "sourceText": "Plans: Golden Scale Leggings World drop (level 25–40)"
+  },
+  {
+   "name": "Hard Gold Cuirass",
+   "orange": 145,
+   "yellow": 170,
+   "green": 182,
+   "grey": 195,
+   "source": "drop",
+   "sourceText": "Plans: Hard Gold Cuirass Drop: Thousand Needles ( Screeching Roguefeather )"
+  },
+  {
+   "name": "Green Iron Bracers",
+   "orange": 140,
+   "yellow": 165,
+   "green": 177,
+   "grey": 190,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Iron Counterweight",
+   "orange": 140,
+   "yellow": 165,
+   "green": 177,
+   "grey": 190,
+   "source": "drop",
+   "sourceText": "Plans: Iron Counterweight World drop (level 25–40)"
+  },
+  {
+   "name": "Anvil",
+   "orange": null,
+   "yellow": 140,
+   "green": 140,
+   "grey": 140,
+   "source": "drop",
+   "sourceText": "Blueprint: Anvil Drop: Deadmines (Gilnid)"
+  },
+  {
+   "name": "Hardened Iron Shortsword",
+   "orange": 135,
+   "yellow": 160,
+   "green": 172,
+   "grey": 185,
+   "source": "vendor",
+   "sourceText": "Plans: Hardened Iron Shortsword Vendor ( Jutak , Kaita Deepforge , Sumi )"
+  },
+  {
+   "name": "Green Iron Shoulders",
+   "orange": 135,
+   "yellow": 160,
+   "green": 172,
+   "grey": 185,
+   "source": "drop",
+   "sourceText": "Plans: Green Iron Shoulders World drop (level 25–40)"
+  },
+  {
+   "name": "Barbaric Iron Shoulders",
+   "orange": 135,
+   "yellow": 160,
+   "green": 172,
+   "grey": 185,
+   "source": "quest",
+   "sourceText": "Plans: Barbaric Iron Shoulders Quest: On Iron Pauldrons"
+  },
+  {
+   "name": "Barbaric Iron Breastplate",
+   "orange": 135,
+   "yellow": 160,
+   "green": 172,
+   "grey": 185,
+   "source": "quest",
+   "sourceText": "Plans: Barbaric Iron Breastplate Quest: Barbaric Battlements"
+  },
+  {
+   "name": "Solid Iron Maul",
+   "orange": 130,
+   "yellow": 155,
+   "green": 167,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Plans: Solid Iron Maul Vendor ( Jannos Ironwill , Jazzrik , Muuran )"
+  },
+  {
+   "name": "Green Iron Leggings",
+   "orange": 130,
+   "yellow": 155,
+   "green": 167,
+   "grey": 180,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Silvered Bronze Leggings",
+   "orange": 130,
+   "yellow": 155,
+   "green": 167,
+   "grey": 180,
+   "source": "drop",
+   "sourceText": "Plans: Silvered Bronze Leggings World drop (level 20–35)"
+  },
+  {
+   "name": "Iron Fists",
+   "orange": 130,
+   "yellow": 155,
+   "green": 167,
+   "grey": 180,
+   "source": "drop",
+   "sourceText": "Plans: Iron Fists Drop: Ashenvale ( Bleakheart Hellcaller )"
+  },
+  {
+   "name": "Green Iron Gauntlets",
+   "orange": 125,
+   "yellow": 155,
+   "green": 170,
+   "grey": 185,
+   "source": "drop",
+   "sourceText": "Plans: Green Iron Gauntlets World drop (level 20–35)"
+  },
+  {
+   "name": "Iron Shield Spike",
+   "orange": 125,
+   "yellow": 155,
+   "green": 170,
+   "grey": 185,
+   "source": "drop",
+   "sourceText": "Plans: Iron Shield Spike World drop (level 20–36)"
+  },
+  {
+   "name": "Iron Buckle",
+   "orange": null,
+   "yellow": 125,
+   "green": 127,
+   "grey": 130,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Golden Rod",
+   "orange": 125,
+   "yellow": 130,
+   "green": 132,
+   "grey": 135,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Golden Skeleton Key",
+   "orange": null,
+   "yellow": 125,
+   "green": 135,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Sterling Silver Breastplate",
+   "orange": 125,
+   "yellow": 155,
+   "green": 170,
+   "grey": 185,
+   "source": "drop",
+   "sourceText": "Plans: Sterling Silver Breastplate Drop: Thousand Needles ( Grimtotem Bandit )"
+  },
+  {
+   "name": "Veteran's Chain Helm",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Plans: Veteran's Chain Helm World drop (level 26–34)"
+  },
+  {
+   "name": "Guard's Chain Helm",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Plans: Guard's Chain Helm World drop (level 26–34)"
+  },
+  {
+   "name": "Protector's Chain Helm",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Plans: Protector's Chain Helm World drop (level 26–34)"
+  },
+  {
+   "name": "Acolyte's Chain Helm",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Plans: Acolyte's Chain Helm World drop (level 26–34)"
+  },
+  {
+   "name": "Crusader's Chain Helm",
+   "orange": 125,
+   "yellow": 130,
+   "green": 130,
+   "grey": 130,
+   "source": "drop",
+   "sourceText": "Plans: Crusader's Chain Helm World drop (level 26–34)"
+  },
+  {
+   "name": "Veteran's Silvered Chain Leggings",
+   "orange": 125,
+   "yellow": 155,
+   "green": 170,
+   "grey": 185,
+   "source": "drop vendor",
+   "sourceText": "Plans: Veteran's Silvered Chain Leggings Drop: Stormwind Stockade (Dextren Ward) Drop: Blackfathom Deeps (Gelihast, Old Serra'kis) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Guard's Silvered Chain Leggings",
+   "orange": 125,
+   "yellow": 155,
+   "green": 170,
+   "grey": 185,
+   "source": "drop vendor",
+   "sourceText": "Plans: Guard's Silvered Chain Leggings Drop: Stormwind Stockade (Dextren Ward) Drop: Blackfathom Deeps (Aku'mai) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Protector's Silvered Chain Leggings",
+   "orange": 125,
+   "yellow": 155,
+   "green": 170,
+   "grey": 185,
+   "source": "drop vendor",
+   "sourceText": "Plans: Protector's Silvered Chain Leggings Drop: Stormwind Stockade (Hamhock) Drop: Blackfathom Deeps (Lorgus Jett, Gelihast, Aku'mai) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Acolyte's Silvered Chain Leggings",
+   "orange": 125,
+   "yellow": 155,
+   "green": 170,
+   "grey": 185,
+   "source": "drop vendor",
+   "sourceText": "Plans: Acolyte's Silvered Chain Leggings Drop: Razorfen Kraul (Agathelos the Raging) Drop: Blackfathom Deeps (Aku'mai) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Crusader's Silvered Chain Leggings",
+   "orange": 125,
+   "yellow": 155,
+   "green": 170,
+   "grey": 185,
+   "source": "drop vendor",
+   "sourceText": "Plans: Crusader's Silvered Chain Leggings Drop: Stormwind Stockade (Kam Deepfury) Drop: Razorfen Kraul (Overlord Ramtusk) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Shining Silver Breastplate",
+   "orange": 120,
+   "yellow": 150,
+   "green": 165,
+   "grey": 180,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Mighty Iron Hammer",
+   "orange": 120,
+   "yellow": 150,
+   "green": 165,
+   "grey": 180,
+   "source": "drop",
+   "sourceText": "Plans: Mighty Iron Hammer World drop (level 21–35)"
+  },
+  {
+   "name": "Green Iron Boots",
+   "orange": 120,
+   "yellow": 150,
+   "green": 165,
+   "grey": 180,
+   "source": "drop",
+   "sourceText": "Plans: Green Iron Boots World drop (level 20–35)"
+  },
+  {
+   "name": "Iridescent Hammer",
+   "orange": 115,
+   "yellow": 145,
+   "green": 160,
+   "grey": 175,
+   "source": "drop",
+   "sourceText": "Plans: Iridescent Hammer World drop (level 21–36)"
+  },
+  {
+   "name": "Silvered Bronze Gauntlets",
+   "orange": 110,
+   "yellow": 140,
+   "green": 155,
+   "grey": 170,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Bronze Battle Axe",
+   "orange": 110,
+   "yellow": 140,
+   "green": 155,
+   "grey": 170,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Sterling Silver Shoulders",
+   "orange": 110,
+   "yellow": 140,
+   "green": 155,
+   "grey": 170,
+   "source": "drop",
+   "sourceText": "Plans: Sterling Silver Shoulders Drop: Redridge Mountains ( Shadowhide Gnoll )"
+  },
+  {
+   "name": "Veteran's Silvered Chain Shirt",
+   "orange": 110,
+   "yellow": 140,
+   "green": 155,
+   "grey": 170,
+   "source": "vendor",
+   "sourceText": "Plans: Veteran's Silvered Chain Shirt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Guard's Silvered Chain Shirt",
+   "orange": 110,
+   "yellow": 140,
+   "green": 155,
+   "grey": 170,
+   "source": "vendor",
+   "sourceText": "Plans: Guard's Silvered Chain Shirt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Protector's Silvered Chain Shirt",
+   "orange": 110,
+   "yellow": 140,
+   "green": 155,
+   "grey": 170,
+   "source": "vendor",
+   "sourceText": "Plans: Protector's Silvered Chain Shirt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Acolyte's Silvered Chain Shirt",
+   "orange": 110,
+   "yellow": 140,
+   "green": 155,
+   "grey": 170,
+   "source": "vendor",
+   "sourceText": "Plans: Acolyte's Silvered Chain Shirt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Crusader's Silvered Chain Shirt",
+   "orange": 110,
+   "yellow": 140,
+   "green": 155,
+   "grey": 170,
+   "source": "vendor",
+   "sourceText": "Plans: Crusader's Silvered Chain Shirt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Cracked Blacksmith Hammer",
+   "orange": 110,
+   "yellow": 115,
+   "green": 117,
+   "grey": 120,
+   "source": "vendor",
+   "sourceText": "Plans: Cracked Blacksmith Hammer Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Silvered Bronze Breastplate",
+   "orange": 105,
+   "yellow": 135,
+   "green": 150,
+   "grey": 165,
+   "source": "drop",
+   "sourceText": "Plans: Silvered Bronze Breastplate World drop (level 16–30)"
+  },
+  {
+   "name": "Heavy Bronze Mace",
+   "orange": 105,
+   "yellow": 135,
+   "green": 150,
+   "grey": 165,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Silvered Bronze Boots",
+   "orange": 105,
+   "yellow": 135,
+   "green": 150,
+   "grey": 165,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Bronze Greatsword",
+   "orange": 105,
+   "yellow": 135,
+   "green": 150,
+   "grey": 165,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Sterling Silver Leggings",
+   "orange": 105,
+   "yellow": 135,
+   "green": 150,
+   "grey": 165,
+   "source": "drop",
+   "sourceText": "Plans: Sterling Silver Leggings Drop: Duskwood ( Skeletal Warrior )"
+  },
+  {
+   "name": "Sterling Silver Gauntlet",
+   "orange": 105,
+   "yellow": 135,
+   "green": 150,
+   "grey": 165,
+   "source": "drop",
+   "sourceText": "Plans: Sterling Silver Gauntlet Drop: Ashenvale ( Wrathtail Myrmidon )"
+  },
+  {
+   "name": "Heavy Sharpening Stone",
+   "orange": null,
+   "yellow": 100,
+   "green": 107,
+   "grey": 115,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Weightstone",
+   "orange": null,
+   "yellow": 100,
+   "green": 107,
+   "grey": 115,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Deadly Bronze Poniard",
+   "orange": 100,
+   "yellow": 130,
+   "green": 145,
+   "grey": 160,
+   "source": "drop",
+   "sourceText": "Plans: Deadly Bronze Poniard World drop (level 16–30)"
+  },
+  {
+   "name": "Silvered Bronze Shoulders",
+   "orange": 100,
+   "yellow": 130,
+   "green": 145,
+   "grey": 160,
+   "source": "drop",
+   "sourceText": "Plans: Silvered Bronze Shoulders World drop (level 16–30)"
+  },
+  {
+   "name": "Heavy Grinding Stone",
+   "orange": null,
+   "yellow": 100,
+   "green": 112,
+   "grey": 125,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Ironforge Breastplate",
+   "orange": 100,
+   "yellow": 115,
+   "green": 135,
+   "grey": 155,
+   "source": "quest",
+   "sourceText": "Plans: Ironforge Breastplate Quest: Gearing Redridge"
+  },
+  {
+   "name": "Bronze Warhammer",
+   "orange": 100,
+   "yellow": 155,
+   "green": 170,
+   "grey": 185,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Sterling Silver Boots",
+   "orange": 100,
+   "yellow": 130,
+   "green": 145,
+   "grey": 160,
+   "source": "drop",
+   "sourceText": "Plans: Sterling Silver Boots Drop: Hillsbrad Foothills ( Syndicate Watchman )"
+  },
+  {
+   "name": "Patterned Bronze Bracers",
+   "orange": 95,
+   "yellow": 125,
+   "green": 140,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Bronze Shortsword",
+   "orange": 95,
+   "yellow": 125,
+   "green": 140,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Veteran's Chain Leggings",
+   "orange": 95,
+   "yellow": 100,
+   "green": 100,
+   "grey": 100,
+   "source": "drop",
+   "sourceText": "Plans: Veteran's Chain Leggings World drop (level 20–26)"
+  },
+  {
+   "name": "Guard's Chain Leggings",
+   "orange": 95,
+   "yellow": 100,
+   "green": 100,
+   "grey": 100,
+   "source": "drop",
+   "sourceText": "Plans: Guard's Chain Leggings World drop (level 20–26)"
+  },
+  {
+   "name": "Protector's Chain Leggings",
+   "orange": 95,
+   "yellow": 100,
+   "green": 100,
+   "grey": 100,
+   "source": "drop",
+   "sourceText": "Plans: Protector's Chain Leggings World drop (level 20–26)"
+  },
+  {
+   "name": "Acolyte's Chain Leggings",
+   "orange": 95,
+   "yellow": 100,
+   "green": 100,
+   "grey": 100,
+   "source": "drop",
+   "sourceText": "Plans: Acolyte's Chain Leggings World drop (level 20–26)"
+  },
+  {
+   "name": "Crusader's Chain Leggings",
+   "orange": 95,
+   "yellow": 100,
+   "green": 100,
+   "grey": 100,
+   "source": "drop",
+   "sourceText": "Plans: Crusader's Chain Leggings World drop (level 20–26)"
+  },
+  {
+   "name": "Veteran's Silvered Chain Helm",
+   "orange": 95,
+   "yellow": 125,
+   "green": 140,
+   "grey": 155,
+   "source": "drop vendor",
+   "sourceText": "Plans: Veteran's Silvered Chain Helm Drop: Shadowfang Keep (Fenrus the Devourer) Drop: Stormwind Stockade (Targorr the Dread) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Guard's Silvered Chain Helm",
+   "orange": 95,
+   "yellow": 125,
+   "green": 140,
+   "grey": 155,
+   "source": "drop vendor",
+   "sourceText": "Plans: Guard's Silvered Chain Helm Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Protector's Silvered Chain Helm",
+   "orange": 95,
+   "yellow": 125,
+   "green": 140,
+   "grey": 155,
+   "source": "drop vendor",
+   "sourceText": "Plans: Protector's Silvered Chain Helm Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Stormwind Stockade (Targorr the Dread) Drop: Blackfathom Deeps (Lady Sarevess, Ghamoo-ra) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Acolyte's Silvered Chain Helm",
+   "orange": 95,
+   "yellow": 125,
+   "green": 140,
+   "grey": 155,
+   "source": "drop vendor",
+   "sourceText": "Plans: Acolyte's Silvered Chain Helm Drop: Blackfathom Deeps (Lady Sarevess) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Crusader's Silvered Chain Helm",
+   "orange": 95,
+   "yellow": 125,
+   "green": 140,
+   "grey": 155,
+   "source": "drop vendor",
+   "sourceText": "Plans: Crusader's Silvered Chain Helm Drop: Wailing Caverns ( Verdan the Everliving ) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Bronze Dory",
+   "orange": 95,
+   "yellow": 125,
+   "green": 140,
+   "grey": 155,
+   "source": "drop",
+   "sourceText": "Plans: Bronze Dory Drop: Ashenvale ( Dark Strand Enforcer )"
+  },
+  {
+   "name": "Bronze Axe",
+   "orange": 90,
+   "yellow": 120,
+   "green": 135,
+   "grey": 150,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Bronze Mace",
+   "orange": 85,
+   "yellow": 115,
+   "green": 130,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Rough Bronze Shoulders",
+   "orange": 85,
+   "yellow": 115,
+   "green": 130,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Pearl-handled Dagger",
+   "orange": 85,
+   "yellow": 115,
+   "green": 130,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Veteran's Boots",
+   "orange": 85,
+   "yellow": 115,
+   "green": 130,
+   "grey": 145,
+   "source": "vendor",
+   "sourceText": "Plans: Veteran's Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Guard's Boots",
+   "orange": 85,
+   "yellow": 115,
+   "green": 130,
+   "grey": 145,
+   "source": "vendor",
+   "sourceText": "Plans: Guard's Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Protector's Boots",
+   "orange": 85,
+   "yellow": 115,
+   "green": 130,
+   "grey": 145,
+   "source": "vendor",
+   "sourceText": "Plans: Protector's Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Acolyte's Boots",
+   "orange": 85,
+   "yellow": 115,
+   "green": 130,
+   "grey": 145,
+   "source": "vendor",
+   "sourceText": "Plans: Acolyte's Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Crusader's Boots",
+   "orange": 85,
+   "yellow": 115,
+   "green": 130,
+   "grey": 145,
+   "source": "vendor",
+   "sourceText": "Plans: Crusader's Boots Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Rough Bronze Leggings",
+   "orange": 80,
+   "yellow": 120,
+   "green": 135,
+   "grey": 150,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Rough Bronze Cuirass",
+   "orange": 80,
+   "yellow": 120,
+   "green": 135,
+   "grey": 150,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Big Bronze Knife",
+   "orange": 80,
+   "yellow": 110,
+   "green": 125,
+   "grey": 140,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Veteran's Chain Shirt",
+   "orange": 80,
+   "yellow": 85,
+   "green": 85,
+   "grey": 85,
+   "source": "drop",
+   "sourceText": "Plans: Veteran's Chain Shirt World drop (level 16–21)"
+  },
+  {
+   "name": "Guard's Chain Shirt",
+   "orange": 80,
+   "yellow": 85,
+   "green": 85,
+   "grey": 85,
+   "source": "drop",
+   "sourceText": "Plans: Guard's Chain Shirt Drop: Shadowfang Keep (Fel Steed / Shadow Charger)"
+  },
+  {
+   "name": "Protector's Chain Shirt",
+   "orange": 80,
+   "yellow": 85,
+   "green": 85,
+   "grey": 85,
+   "source": "drop",
+   "sourceText": "Plans: Protector's Chain Shirt World drop (level 16–21)"
+  },
+  {
+   "name": "Acolyte's Chain Shirt",
+   "orange": 80,
+   "yellow": 85,
+   "green": 85,
+   "grey": 85,
+   "source": "drop",
+   "sourceText": "Plans: Acolyte's Chain Shirt World drop (level 16–21)"
+  },
+  {
+   "name": "Crusader's Chain Shirt",
+   "orange": 80,
+   "yellow": 85,
+   "green": 85,
+   "grey": 85,
+   "source": "drop",
+   "sourceText": "Plans: Crusader's Chain Shirt World drop (level 16–21)"
+  },
+  {
+   "name": "Veteran's Gloves",
+   "orange": 80,
+   "yellow": 110,
+   "green": 125,
+   "grey": 140,
+   "source": "drop vendor",
+   "sourceText": "Plans: Veteran's Gloves Drop: Deadmines (Sneed, Cookie) Drop: Ragefire Chasm (Jergosh the Invoker) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Guard's Gloves",
+   "orange": 80,
+   "yellow": 110,
+   "green": 125,
+   "grey": 140,
+   "source": "drop vendor",
+   "sourceText": "Plans: Guard's Gloves Drop: Ragefire Chasm (Taragaman the Hungerer) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Protector's Gloves",
+   "orange": 80,
+   "yellow": 110,
+   "green": 125,
+   "grey": 140,
+   "source": "drop vendor",
+   "sourceText": "Plans: Protector's Gloves Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Rhahk'Zor, Mr. Smite) Drop: Ragefire Chasm (Taragaman the Hungerer) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Acolyte's Gloves",
+   "orange": 80,
+   "yellow": 110,
+   "green": 125,
+   "grey": 140,
+   "source": "drop vendor",
+   "sourceText": "Plans: Acolyte's Gloves Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Rhahk'Zor) Drop: Ragefire Chasm (Taragaman the Hungerer) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Crusader's Gloves",
+   "orange": 80,
+   "yellow": 110,
+   "green": 125,
+   "grey": 140,
+   "source": "drop vendor",
+   "sourceText": "Plans: Crusader's Gloves Drop: Shadowfang Keep (Fel Steed / Shadow Charger) Drop: Deadmines (Rhahk'Zor, Sneed) Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Brass Knuckles",
+   "orange": 80,
+   "yellow": 110,
+   "green": 125,
+   "grey": 140,
+   "source": "drop",
+   "sourceText": "Plans: Brass Knuckles Drop: Stonetalon Mountains ( Gogger Rock Keeper )"
+  },
+  {
+   "name": "Silver Rod",
+   "orange": 75,
+   "yellow": 80,
+   "green": 82,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Silver Skeleton Key",
+   "orange": null,
+   "yellow": 75,
+   "green": 85,
+   "grey": 95,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Copper Broadsword",
+   "orange": 70,
+   "yellow": 110,
+   "green": 130,
+   "grey": 150,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Rough Bronze Boots",
+   "orange": 70,
+   "yellow": 100,
+   "green": 115,
+   "grey": 130,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Runed Copper Bracers",
+   "orange": 65,
+   "yellow": 90,
+   "green": 102,
+   "grey": 115,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Cloudy Skyforged Chainmail",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Cloudy Skyforged Chainmail Source not known yet"
+  },
+  {
+   "name": "Cloudy Skyforged Legguards",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Cloudy Skyforged Legguards Source not known yet"
+  },
+  {
+   "name": "Azure Skyforged Chainmail",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Azure Skyforged Chainmail Source not known yet"
+  },
+  {
+   "name": "Azure Skyforged Legguards",
+   "orange": 60,
+   "yellow": 65,
+   "green": 67,
+   "grey": 70,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Azure Skyforged Legguards Source not known yet"
+  },
+  {
+   "name": "Runed Copper Breastplate",
+   "orange": 55,
+   "yellow": 95,
+   "green": 115,
+   "grey": 135,
+   "source": "drop",
+   "sourceText": "Plans: Runed Copper Breastplate World drop (level 11–26)"
+  },
+  {
+   "name": "Cloudy Skyforged Gauntlets",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Cloudy Skyforged Gauntlets Source not known yet"
+  },
+  {
+   "name": "Cloudy Skyforged Greaves",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Cloudy Skyforged Greaves Source not known yet"
+  },
+  {
+   "name": "Azure Skyforged Gauntlets",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Azure Skyforged Gauntlets Source not known yet"
+  },
+  {
+   "name": "Azure Skyforged Greaves",
+   "orange": 55,
+   "yellow": 60,
+   "green": 62,
+   "grey": 65,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Azure Skyforged Greaves Source not known yet"
+  },
+  {
+   "name": "Coarse Grinding Stone",
+   "orange": null,
+   "yellow": 50,
+   "green": 70,
+   "grey": 90,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Cloudy Skyforged Wristguards",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Cloudy Skyforged Wristguards Source not known yet"
+  },
+  {
+   "name": "Cloudy Skyforged Chain",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Cloudy Skyforged Chain Source not known yet"
+  },
+  {
+   "name": "Azure Skyforged Wristguards",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Azure Skyforged Wristguards Source not known yet"
+  },
+  {
+   "name": "Azure Skyforged Chain",
+   "orange": 50,
+   "yellow": 55,
+   "green": 57,
+   "grey": 60,
+   "source": "not-known-yet",
+   "sourceText": "Plans: Azure Skyforged Chain Source not known yet"
+  },
+  {
+   "name": "Rough Copper Chain Boots",
+   "orange": 50,
+   "yellow": 60,
+   "green": 65,
+   "grey": 70,
+   "source": "quest",
+   "sourceText": "Plans: Rough Copper Chain Boots Quest: The Quarry's Smith Quest: This Is Spinal Axe"
+  },
+  {
+   "name": "Runed Copper Belt",
+   "orange": 45,
+   "yellow": 85,
+   "green": 105,
+   "grey": 125,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Thick War Axe",
+   "orange": 45,
+   "yellow": 85,
+   "green": 105,
+   "grey": 125,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Veteran's Chain Belt",
+   "orange": 45,
+   "yellow": 85,
+   "green": 105,
+   "grey": 125,
+   "source": "vendor",
+   "sourceText": "Plans: Veteran's Chain Belt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Guard's Chain Belt",
+   "orange": 45,
+   "yellow": 85,
+   "green": 105,
+   "grey": 125,
+   "source": "vendor",
+   "sourceText": "Plans: Guard's Chain Belt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Protector's Chain Belt",
+   "orange": 45,
+   "yellow": 85,
+   "green": 105,
+   "grey": 125,
+   "source": "vendor",
+   "sourceText": "Plans: Protector's Chain Belt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Acolyte's Chain Belt",
+   "orange": 45,
+   "yellow": 85,
+   "green": 105,
+   "grey": 125,
+   "source": "vendor",
+   "sourceText": "Plans: Acolyte's Chain Belt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Crusader's Chain Belt",
+   "orange": 45,
+   "yellow": 85,
+   "green": 105,
+   "grey": 125,
+   "source": "vendor",
+   "sourceText": "Plans: Crusader's Chain Belt Vendor (30 Merchant's Favor )"
+  },
+  {
+   "name": "Coarse Sharpening Stone",
+   "orange": null,
+   "yellow": 40,
+   "green": 47,
+   "grey": 55,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Coarse Weightstone",
+   "orange": null,
+   "yellow": 40,
+   "green": 47,
+   "grey": 55,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Copper Maul",
+   "orange": 40,
+   "yellow": 80,
+   "green": 100,
+   "grey": 120,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Runed Copper Gauntlets",
+   "orange": 35,
+   "yellow": 75,
+   "green": 95,
+   "grey": 115,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Runed Copper Pants",
+   "orange": 35,
+   "yellow": 75,
+   "green": 95,
+   "grey": 115,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Gemmed Copper Gauntlets",
+   "orange": 35,
+   "yellow": 75,
+   "green": 95,
+   "grey": 115,
+   "source": "drop",
+   "sourceText": "Plans: Gemmed Copper Gauntlets Drop: Wetlands, Westfall, Redridge Mountains, Silverpine Forest, Hillsbrad Foothills, Wailing Caverns"
+  },
+  {
+   "name": "Gemmed Copper Boots",
+   "orange": 35,
+   "yellow": 40,
+   "green": 40,
+   "grey": 40,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Strange Copper Boots",
+   "orange": 35,
+   "yellow": 40,
+   "green": 40,
+   "grey": 40,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Glowing Copper Boots",
+   "orange": 35,
+   "yellow": 40,
+   "green": 40,
+   "grey": 40,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Copper Chain Belt",
+   "orange": 30,
+   "yellow": 70,
+   "green": 90,
+   "grey": 110,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Copper Battle Axe",
+   "orange": 30,
+   "yellow": 70,
+   "green": 90,
+   "grey": 110,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Copper Chain Vest",
+   "orange": 30,
+   "yellow": 70,
+   "green": 90,
+   "grey": 110,
+   "source": "drop quest",
+   "sourceText": "Plans: Copper Chain Vest Drop: Wetlands, Alterac Mountains, Westfall, Redridge Mountains, Silverpine Forest, Hillsbrad Foothills Quest: Supplying the Front"
+  },
+  {
+   "name": "Copper Shortsword",
+   "orange": 25,
+   "yellow": 65,
+   "green": 85,
+   "grey": 105,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Rough Grinding Stone",
+   "orange": 25,
+   "yellow": 45,
+   "green": 65,
+   "grey": 85,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Copper Dagger",
+   "orange": 25,
+   "yellow": 65,
+   "green": 85,
+   "grey": 105,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Copper Claymore",
+   "orange": 25,
+   "yellow": 65,
+   "green": 85,
+   "grey": 105,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Copper Axe",
+   "orange": 20,
+   "yellow": 60,
+   "green": 80,
+   "grey": 100,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Copper Chain Boots",
+   "orange": 20,
+   "yellow": 60,
+   "green": 80,
+   "grey": 100,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Sharpening Wheel",
+   "orange": null,
+   "yellow": 20,
+   "green": 20,
+   "grey": 20,
+   "source": "quest",
+   "sourceText": "Quest: Camping 101: Blacksmithing"
+  },
+  {
+   "name": "Copper Chain Pants",
+   "orange": 15,
+   "yellow": 50,
+   "green": 70,
+   "grey": 90,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Copper Mace",
+   "orange": 15,
+   "yellow": 55,
+   "green": 75,
+   "grey": 95,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Rough Sharpening Stone",
+   "orange": 1,
+   "yellow": 15,
+   "green": 35,
+   "grey": 55,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Copper Bracers",
+   "orange": 1,
+   "yellow": 20,
+   "green": 40,
+   "grey": 60,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Rough Weightstone",
+   "orange": 1,
+   "yellow": 15,
+   "green": 35,
+   "grey": 55,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Rough Copper Vest",
+   "orange": 1,
+   "yellow": 15,
+   "green": 35,
+   "grey": 55,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Copper Rod",
+   "orange": 1,
+   "yellow": 10,
+   "green": 12,
+   "grey": 15,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Rough Bronze Bracers",
+   "orange": null,
+   "yellow": 115,
+   "green": 130,
+   "grey": 145,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Ironforge Chain",
+   "orange": null,
+   "yellow": 80,
+   "green": 100,
+   "grey": 120,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Ironforge Gauntlets",
+   "orange": null,
+   "yellow": 140,
+   "green": 155,
+   "grey": 170,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Mithril Plate Gloves",
+   "orange": null,
+   "yellow": 215,
+   "green": 225,
+   "grey": 235,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Truesilver Gauntlets",
+   "orange": null,
+   "yellow": 220,
+   "green": 230,
+   "grey": 240,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Orcish War Leggings",
+   "orange": null,
+   "yellow": 225,
+   "green": 235,
+   "grey": 245,
+   "source": "quest",
+   "sourceText": "Quest: The Old Ways"
+  },
+  {
+   "name": "Heavy Mithril Breastplate",
+   "orange": null,
+   "yellow": 225,
+   "green": 235,
+   "grey": 245,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Mithril Coif",
+   "orange": null,
+   "yellow": 225,
+   "green": 235,
+   "grey": 245,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Mithril Boots",
+   "orange": null,
+   "yellow": 230,
+   "green": 240,
+   "grey": 250,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Ornate Mithril Breastplate",
+   "orange": null,
+   "yellow": 235,
+   "green": 245,
+   "grey": 255,
+   "source": "quest",
+   "sourceText": "Quest: The Mithril Kid"
+  },
+  {
+   "name": "Truesilver Breastplate",
+   "orange": null,
+   "yellow": 240,
+   "green": 250,
+   "grey": 260,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Ornate Mithril Boots",
+   "orange": null,
+   "yellow": 240,
+   "green": 250,
+   "grey": 260,
+   "source": "quest",
+   "sourceText": "Quest: The World At Your Feet"
+  },
+  {
+   "name": "Ornate Mithril Helm",
+   "orange": null,
+   "yellow": 240,
+   "green": 250,
+   "grey": 260,
+   "source": "quest",
+   "sourceText": "Quest: A Good Head On Your Shoulders"
+  },
+  {
+   "name": "Big Black Mace",
+   "orange": null,
+   "yellow": 230,
+   "green": 242,
+   "grey": 255,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "The Shatterer",
+   "orange": null,
+   "yellow": 235,
+   "green": 247,
+   "grey": 260,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Phantom Blade",
+   "orange": null,
+   "yellow": 245,
+   "green": 257,
+   "grey": 270,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Blight",
+   "orange": null,
+   "yellow": 250,
+   "green": 262,
+   "grey": 275,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Truesilver Champion",
+   "orange": null,
+   "yellow": 260,
+   "green": 272,
+   "grey": 285,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dense Grinding Stone",
+   "orange": null,
+   "yellow": 230,
+   "green": 232,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dense Weightstone",
+   "orange": null,
+   "yellow": 230,
+   "green": 232,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Dense Sharpening Stone",
+   "orange": null,
+   "yellow": 230,
+   "green": 232,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Thorium Greatsword",
+   "orange": null,
+   "yellow": 260,
+   "green": 272,
+   "grey": 285,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Bleakwood Hew",
+   "orange": null,
+   "yellow": 270,
+   "green": 282,
+   "grey": 295,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Inlaid Thorium Hammer",
+   "orange": null,
+   "yellow": 270,
+   "green": 282,
+   "grey": 295,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Blood Talon",
+   "orange": null,
+   "yellow": 325,
+   "green": 337,
+   "grey": 350,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Darkspear",
+   "orange": null,
+   "yellow": 325,
+   "green": 337,
+   "grey": 350,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Arcanite Skeleton Key",
+   "orange": null,
+   "yellow": 250,
+   "green": 255,
+   "grey": 260,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Arcanite Rod",
+   "orange": null,
+   "yellow": 250,
+   "green": 255,
+   "grey": 260,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Heavy Obsidian Belt",
+   "orange": null,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  },
+  {
+   "name": "Light Obsidian Belt",
+   "orange": null,
+   "yellow": 320,
+   "green": 330,
+   "grey": 340,
+   "source": "not-known-yet",
+   "sourceText": "Not known yet"
+  }
+ ]
+}

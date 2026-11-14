@@ -1,0 +1,1996 @@
+{
+ "credit": "Learn skills and recipe sources from Zockify (zockify.com)",
+ "url": "https://www.zockify.com/forever/professions/enchanting/recipes/",
+ "fetched": "2026-11-14",
+ "recipes": [
+  {
+   "name": "Enchant Bracer – Superior Stamina",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Bracer – Superior Stamina World drop (level 55–62)"
+  },
+  {
+   "name": "Enchant Chest – Greater Stats",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Chest – Greater Stats World drop (level 59–62)"
+  },
+  {
+   "name": "Enchant Weapon – Superior Striking",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Weapon – Superior Striking Drop: Blackrock Spire (Trash)"
+  },
+  {
+   "name": "Enchant Weapon – Lifestealing",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Weapon – Lifestealing Drop: Scholomance (Trash)"
+  },
+  {
+   "name": "Enchant Weapon – Crusader",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Weapon – Crusader Drop: Western Plaguelands ( Scarlet Spellbinder ) Drop: Eastern Plaguelands ( Scarlet Archmage )"
+  },
+  {
+   "name": "Enchant 2H Weapon – Major Spirit",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "drop",
+   "sourceText": "Formula: Enchant 2H Weapon – Major Spirit Drop: Scholomance (Trash)"
+  },
+  {
+   "name": "Enchant 2H Weapon – Major Intellect",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "drop",
+   "sourceText": "Formula: Enchant 2H Weapon – Major Intellect Drop: Stratholme (Trash)"
+  },
+  {
+   "name": "Enchant Weapon – Spell Power",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Enchant Weapon – Spell Power Source not known yet"
+  },
+  {
+   "name": "Enchant Weapon – Healing Power",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Enchant Weapon – Healing Power Source not known yet"
+  },
+  {
+   "name": "Enchant Bracer – Healing Power",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Bracer – Healing Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Breechlock )"
+  },
+  {
+   "name": "Enchant Weapon – Mighty Spirit",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Weapon – Mighty Spirit Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Enchant Weapon – Mighty Intellect",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Weapon – Mighty Intellect Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Enchant Gloves – Threat",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Gloves – Threat Drop: Ahn'Qiraj ( Emperor Vek'nilash )"
+  },
+  {
+   "name": "Enchant Gloves – Shadow Power",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Enchant Gloves – Shadow Power Source not known yet"
+  },
+  {
+   "name": "Enchant Gloves – Frost Power",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Enchant Gloves – Frost Power Source not known yet"
+  },
+  {
+   "name": "Enchant Gloves – Fire Power",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Enchant Gloves – Fire Power Source not known yet"
+  },
+  {
+   "name": "Enchant Gloves – Healing Power",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Enchant Gloves – Healing Power Source not known yet"
+  },
+  {
+   "name": "Enchant Gloves – Superior Agility",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Enchant Gloves – Superior Agility Source not known yet"
+  },
+  {
+   "name": "Enchant Cloak – Greater Fire Resistance",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Cloak – Greater Fire Resistance Formula: Enchant Cloak – Greater Fire Resistance Vendor ( Kania )"
+  },
+  {
+   "name": "Enchant Cloak – Greater Nature Resistance",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Cloak – Greater Nature Resistance Formula: Enchant Cloak – Greater Nature Resistance Vendor ( Kania )"
+  },
+  {
+   "name": "Enchant Cloak – Stealth",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Enchant Cloak – Stealth Source not known yet"
+  },
+  {
+   "name": "Enchant Cloak – Subtlety",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Cloak – Subtlety Drop: Ahn'Qiraj ( Emperor Vek'lor )"
+  },
+  {
+   "name": "Enchant Cloak – Dodge",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Enchant Cloak – Dodge Source not known yet"
+  },
+  {
+   "name": "Brilliant Wizard Oil",
+   "orange": 300,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Formula: Brilliant Wizard Oil Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Brilliant Mana Oil",
+   "orange": 300,
+   "yellow": 310,
+   "green": 320,
+   "grey": 330,
+   "source": "vendor",
+   "sourceText": "Formula: Brilliant Mana Oil Vendor ( Rin'wosho the Trader )"
+  },
+  {
+   "name": "Enchant Gloves – Holy Power",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Gloves – Holy Power Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Gloves – Arcane Power",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Gloves – Arcane Power Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Off-Hand – Wisdom",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Off Hand – Wisdom Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant 2H Weapon – Spellblasting",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant 2H Weapon – Spellblasting Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Cloak – Agility",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Cloak – Agility Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Bracer – Greater Spellpower",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Bracer – Greater Spellpower Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant 2H Weapon – Mighty Spell Power",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant 2H Weapon – Mighty Spell Power Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant 2H Weapon – Mighty Healing Power",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant 2H Weapon – Mighty Healing Power Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Gloves – Superior Strength",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Gloves – Superior Strength Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Gloves – Natural Power",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Gloves – Natural Power Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Bracer – Superior Intellect",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Bracer – Superior Intellect Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Bracer – Superior Deflection",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Bracer – Superior Deflection Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Idol of the Dream",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Idol of the Dream Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Libram of Holy Alacrity",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Libram of Holy Alacrity Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Totem of Thunder",
+   "orange": 300,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Totem of Thunder Vendor (240 Merchant's Favor )"
+  },
+  {
+   "name": "Arcane Forge",
+   "orange": null,
+   "yellow": 300,
+   "green": 300,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Blueprint: Arcane Forge Source not known yet"
+  },
+  {
+   "name": "Torch of Light",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Torch of Light Source not known yet"
+  },
+  {
+   "name": "Steadfast Libram",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Steadfast Libram Source not known yet"
+  },
+  {
+   "name": "Libram of Infusion",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Libram of Infusion Source not known yet"
+  },
+  {
+   "name": "Totem of Urgency",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Totem of Urgency Source not known yet"
+  },
+  {
+   "name": "Idol of Swiftness",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Idol of Swiftness Source not known yet"
+  },
+  {
+   "name": "Idol of the Ursine Twins",
+   "orange": 300,
+   "yellow": 310,
+   "green": 317,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Idol of the Ursine Twins Source not known yet"
+  },
+  {
+   "name": "Enchant Bracer – Superior Strength",
+   "orange": 295,
+   "yellow": 315,
+   "green": 335,
+   "grey": 355,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Bracer – Superior Strength Drop: Deadwind Pass ( Deadwind Warlock )"
+  },
+  {
+   "name": "Enchant Gloves – Greater Strength",
+   "orange": 295,
+   "yellow": 315,
+   "green": 335,
+   "grey": 355,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Gloves – Greater Strength Drop: Blackrock Spire (Trash)"
+  },
+  {
+   "name": "Enchant Boots – Greater Agility",
+   "orange": 295,
+   "yellow": 315,
+   "green": 335,
+   "grey": 355,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Boots – Greater Agility World drop (level 51–61)"
+  },
+  {
+   "name": "Enchant 2H Weapon – Superior Impact",
+   "orange": 295,
+   "yellow": 315,
+   "green": 335,
+   "grey": 355,
+   "source": "drop",
+   "sourceText": "Formula: Enchant 2H Weapon – Superior Impact Drop: Blackrock Spire (Trash)"
+  },
+  {
+   "name": "Enchant Weapon – Unholy Weapon",
+   "orange": 295,
+   "yellow": 315,
+   "green": 335,
+   "grey": 355,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Weapon – Unholy Weapon Drop: Stratholme (Trash)"
+  },
+  {
+   "name": "Enchant Bracer – Superior Agility",
+   "orange": 295,
+   "yellow": 315,
+   "green": 335,
+   "grey": 355,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Enchant Bracer – Superior Agility Source not known yet"
+  },
+  {
+   "name": "Enchant Gloves – Lotus Claw",
+   "orange": null,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Enchant Gloves – Lotus Claw Source not known yet"
+  },
+  {
+   "name": "Enchant Chest – Major Intellect",
+   "orange": 290,
+   "yellow": 310,
+   "green": 330,
+   "grey": 350,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Chest – Major Intellect Drop: Eastern Plaguelands ( Scarlet Enchanter )"
+  },
+  {
+   "name": "Runed Arcanite Rod",
+   "orange": 290,
+   "yellow": 310,
+   "green": 330,
+   "grey": 350,
+   "source": "vendor",
+   "sourceText": "Formula: Runed Arcanite Rod Vendor ( Lorelae Wintersong )"
+  },
+  {
+   "name": "Enchant Weapon – Strength",
+   "orange": 290,
+   "yellow": 310,
+   "green": 330,
+   "grey": 350,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Weapon – Strength Vendor ( Lokhtos Darkbargainer )"
+  },
+  {
+   "name": "Enchant Weapon – Agility",
+   "orange": 290,
+   "yellow": 310,
+   "green": 330,
+   "grey": 350,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Weapon – Agility Vendor ( Meilosh )"
+  },
+  {
+   "name": "Enchant Bracer – Mana Regeneration",
+   "orange": 290,
+   "yellow": 310,
+   "green": 330,
+   "grey": 350,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Bracer – Mana Regeneration Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Breechlock )"
+  },
+  {
+   "name": "Enchant 2H Weapon – Agility",
+   "orange": 290,
+   "yellow": 310,
+   "green": 330,
+   "grey": 350,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant 2H Weapon – Agility Vendor ( Meilosh )"
+  },
+  {
+   "name": "Enchant 2H Weapon – Strength",
+   "orange": 290,
+   "yellow": 295,
+   "green": 297,
+   "grey": 300,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Enchant 2H Weapon – Strength Source not known yet"
+  },
+  {
+   "name": "Enchant Cloak – Superior Defense",
+   "orange": 285,
+   "yellow": 305,
+   "green": 325,
+   "grey": 345,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Cloak – Superior Defense Vendor ( Lorelae Wintersong )"
+  },
+  {
+   "name": "Enchant Weapon – Icy Chill",
+   "orange": 285,
+   "yellow": 305,
+   "green": 325,
+   "grey": 345,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Weapon – Icy Chill Drop: Winterspring ( Anguished Highborne )"
+  },
+  {
+   "name": "Enchant Shield – Superior Spirit",
+   "orange": 280,
+   "yellow": 300,
+   "green": 320,
+   "grey": 340,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Shield – Superior Spirit Drop: Eastern Plaguelands ( Scarlet Warder )"
+  },
+  {
+   "name": "Enchant Boots – Speed",
+   "orange": null,
+   "yellow": 280,
+   "green": 290,
+   "grey": 300,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Boots – Speed Vendor ( Alynsia , Beneris )"
+  },
+  {
+   "name": "Enchant Boots – Spirit",
+   "orange": 275,
+   "yellow": 295,
+   "green": 315,
+   "grey": 335,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Boots – Spirit World drop (level 46–60)"
+  },
+  {
+   "name": "Enchant Chest – Major Stamina",
+   "orange": 275,
+   "yellow": 295,
+   "green": 315,
+   "grey": 335,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Chest – Major Stamina Vendor ( Qia )"
+  },
+  {
+   "name": "Wizard Oil",
+   "orange": 275,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "vendor",
+   "sourceText": "Formula: Wizard Oil Vendor ( Kania )"
+  },
+  {
+   "name": "Greater Eternal Wand",
+   "orange": 275,
+   "yellow": 285,
+   "green": 295,
+   "grey": 305,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Greater Eternal Wand Source not known yet"
+  },
+  {
+   "name": "Brilliant Wand",
+   "orange": 275,
+   "yellow": 320,
+   "green": 340,
+   "grey": 360,
+   "source": "vendor",
+   "sourceText": "Formula: Brilliant Wand Vendor (180 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Bracer – Superior Spirit",
+   "orange": 270,
+   "yellow": 290,
+   "green": 310,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Bracer – Superior Spirit World drop (level 46–60)"
+  },
+  {
+   "name": "Enchant Gloves – Greater Agility",
+   "orange": 270,
+   "yellow": 290,
+   "green": 310,
+   "grey": 330,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Gloves – Greater Agility Drop: Azshara ( Legashi Rogue )"
+  },
+  {
+   "name": "Enchant Weapon – Fiery Weapon",
+   "orange": 265,
+   "yellow": 285,
+   "green": 305,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Weapon – Fiery Weapon Drop: Blackrock Depths (Pyromancer Loregrain)"
+  },
+  {
+   "name": "Smoking Heart of the Mountain",
+   "orange": 265,
+   "yellow": 285,
+   "green": 305,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Formula: Smoking Heart of the Mountain Drop: Blackrock Depths (Lord Roccor)"
+  },
+  {
+   "name": "Enchant Cloak – Greater Resistance",
+   "orange": 265,
+   "yellow": 285,
+   "green": 305,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Cloak – Greater Resistance Drop: Sunken Temple (Trash)"
+  },
+  {
+   "name": "Enchant Shield – Greater Stamina",
+   "orange": 265,
+   "yellow": 285,
+   "green": 305,
+   "grey": 325,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Shield – Greater Stamina Vendor ( Daniel Bartlett , Mythrin'dir )"
+  },
+  {
+   "name": "Frozen Heart of the Mountain",
+   "orange": 265,
+   "yellow": 285,
+   "green": 305,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Frozen Heart of the Mountain Source not known yet"
+  },
+  {
+   "name": "Molten Heart of the Mountain",
+   "orange": 265,
+   "yellow": 285,
+   "green": 305,
+   "grey": 325,
+   "source": "drop",
+   "sourceText": "Formula: Molten Heart of the Mountain Drop: Blackrock Spire ( Pyroguard Emberseer )"
+  },
+  {
+   "name": "Dormant Heart of the Mountain",
+   "orange": 265,
+   "yellow": 285,
+   "green": 305,
+   "grey": 325,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Dormant Heart of the Mountain Source not known yet"
+  },
+  {
+   "name": "Enchant Boots – Greater Stamina",
+   "orange": 260,
+   "yellow": 280,
+   "green": 300,
+   "grey": 320,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Boots – Greater Stamina World drop (level 46–60)"
+  },
+  {
+   "name": "Enchant Bracer – Greater Intellect",
+   "orange": 255,
+   "yellow": 275,
+   "green": 295,
+   "grey": 315,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Bracer – Greater Intellect Drop: The Hinterlands ( Vilebranch Shadowcaster )"
+  },
+  {
+   "name": "Enchant Gloves – Riding Skill",
+   "orange": 250,
+   "yellow": 270,
+   "green": 290,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Gloves – Riding Skill World drop (level 42–55)"
+  },
+  {
+   "name": "Lesser Mana Oil",
+   "orange": 250,
+   "yellow": 260,
+   "green": 270,
+   "grey": 280,
+   "source": "vendor",
+   "sourceText": "Formula: Lesser Mana Oil Vendor ( Kania )"
+  },
+  {
+   "name": "Enchant Gloves – Advanced Skinning",
+   "orange": 250,
+   "yellow": 270,
+   "green": 290,
+   "grey": 310,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Gloves – Advanced Skinning Drop: Azshara ( Spitelash Myrmidon )"
+  },
+  {
+   "name": "Enchant Bracer – Greater Stamina",
+   "orange": 245,
+   "yellow": 265,
+   "green": 285,
+   "grey": 305,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Bracer – Greater Stamina World drop (level 41–56)"
+  },
+  {
+   "name": "Lesser Eternal Wand",
+   "orange": 245,
+   "yellow": 265,
+   "green": 285,
+   "grey": 305,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Lesser Eternal Wand Source not known yet"
+  },
+  {
+   "name": "Enchant Bracer – Greater Agility",
+   "orange": 240,
+   "yellow": 260,
+   "green": 280,
+   "grey": 300,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Bracer – Greater Agility Drop: Felwood ( Deadwood Gardener )"
+  },
+  {
+   "name": "Enchant Bracer – Deflection",
+   "orange": 235,
+   "yellow": 255,
+   "green": 275,
+   "grey": 295,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Bracer – Deflection Vendor ( Banalash , Mythrin'dir )"
+  },
+  {
+   "name": "Enchant Shield – Frost Resistance",
+   "orange": 235,
+   "yellow": 255,
+   "green": 275,
+   "grey": 295,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Shield – Frost Resistance World drop (level 42–55)"
+  },
+  {
+   "name": "Enchant Weapon – Demonslaying",
+   "orange": 230,
+   "yellow": 250,
+   "green": 270,
+   "grey": 290,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Weapon – Demonslaying World drop (level 41–56)"
+  },
+  {
+   "name": "Enchant Gloves – Advanced Herbalism",
+   "orange": 225,
+   "yellow": 245,
+   "green": 265,
+   "grey": 285,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Gloves – Advanced Herbalism Drop: Swamp of Sorrows"
+  },
+  {
+   "name": "Enchant Cloak – Lesser Agility",
+   "orange": 225,
+   "yellow": 245,
+   "green": 265,
+   "grey": 285,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Cloak – Lesser Agility Drop: Alterac Mountains ( Syndicate Assassin ) Drop: Tanaris ( Wastewander Assassin , Wastewander Scofflaw )"
+  },
+  {
+   "name": "Enchant Bracer – Greater Spirit",
+   "orange": 220,
+   "yellow": 240,
+   "green": 260,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Bracer – Greater Spirit World drop (level 35–51)"
+  },
+  {
+   "name": "Enchant 2H Weapon – Lesser Strength",
+   "orange": 220,
+   "yellow": 240,
+   "green": 260,
+   "grey": 280,
+   "source": "drop",
+   "sourceText": "Formula: Enchant 2H Weapon – Lesser Strength Drop: Feralas ( Hatecrest Sorceress )"
+  },
+  {
+   "name": "Radiant Staff",
+   "orange": 220,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Formula: Radiant Staff Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Dreamstaff",
+   "orange": 220,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Formula: Dreamstaff Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Truesilver Conduit",
+   "orange": 220,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Formula: Truesilver Conduit Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Twisting Essence Jar",
+   "orange": 220,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Formula: Twisting Essence Jar Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Chest – Absorption",
+   "orange": 220,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Chest – Absorption Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Gloves – Advanced Mining",
+   "orange": 215,
+   "yellow": 235,
+   "green": 255,
+   "grey": 275,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Gloves – Advanced Mining Drop: Stranglethorn Vale ( Venture Co. Strip Miner )"
+  },
+  {
+   "name": "Dreambough Wand",
+   "orange": 215,
+   "yellow": 235,
+   "green": 255,
+   "grey": 275,
+   "source": "drop",
+   "sourceText": "Formula: Dreambough Wand Drop: Badlands ( Dustbelcher Ogre Mage )"
+  },
+  {
+   "name": "Enchant Shield – Stamina",
+   "orange": 210,
+   "yellow": 230,
+   "green": 250,
+   "grey": 270,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Shield – Stamina World drop (level 36–50)"
+  },
+  {
+   "name": "Enchant 2H Weapon – Lesser Agility",
+   "orange": 210,
+   "yellow": 230,
+   "green": 250,
+   "grey": 270,
+   "source": "drop",
+   "sourceText": "Formula: Enchant 2H Weapon – Lesser Agility Drop: Dustwallow Marsh ( Firemane Scout )"
+  },
+  {
+   "name": "Talons of Wrath",
+   "orange": 210,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Formula: Talons of Wrath Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Libram of Invocation",
+   "orange": 210,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Formula: Libram of Invocation Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Totem of Ancestral Protection",
+   "orange": 210,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Formula: Totem of Ancestral Protection Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Necklace – Strength",
+   "orange": 210,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Necklace – Strength Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Necklace – Spell Power",
+   "orange": 210,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Necklace – Spell Power Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Necklace – Healing Power",
+   "orange": 210,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Necklace – Healing Power Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Necklace – Agility",
+   "orange": 210,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Necklace – Agility Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Necklace – Deflection",
+   "orange": 210,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Necklace – Deflection Vendor (120 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Bracer – Lesser Healing Power",
+   "orange": 205,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "vendor quest",
+   "sourceText": "Formula: Enchant Bracer – Lesser Healing Power Vendor ( Gorhak , Molkar ) Quest: Mysterious Mysticism"
+  },
+  {
+   "name": "Enchant Gloves – Skinning",
+   "orange": 200,
+   "yellow": 220,
+   "green": 240,
+   "grey": 260,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Gloves – Skinning Drop: Arathi Highlands"
+  },
+  {
+   "name": "Lesser Wizard Oil",
+   "orange": 200,
+   "yellow": 210,
+   "green": 220,
+   "grey": 230,
+   "source": "vendor",
+   "sourceText": "Formula: Lesser Wizard Oil 10 vendors Jessara Cordell , Kania , Kithas , Leo Sarn , Lilly , Nasalanna Windsinger , Nata Dawnstrider , Thaddeus Webb , Tilli Thistlefuzz , Vaean"
+  },
+  {
+   "name": "Enchant Shield – Lesser Block",
+   "orange": 195,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Shield – Lesser Block World drop (level 31–45)"
+  },
+  {
+   "name": "Enchant Boots – Lesser Spirit",
+   "orange": 190,
+   "yellow": 210,
+   "green": 230,
+   "grey": 250,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Boots – Lesser Spirit World drop (level 30–45)"
+  },
+  {
+   "name": "Enchant Weapon – Winter's Might",
+   "orange": 190,
+   "yellow": 210,
+   "green": 230,
+   "grey": 250,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Weapon – Winter's Might Drop: Smokywood Pastures Special Gift"
+  },
+  {
+   "name": "Enchant Bracer – Agility",
+   "orange": 190,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Bracer – Agility Drop: Desolace ( Mage Hunter )"
+  },
+  {
+   "name": "Twisted Nether Wand",
+   "orange": 185,
+   "yellow": 205,
+   "green": 225,
+   "grey": 245,
+   "source": "drop",
+   "sourceText": "Formula: Twisted Nether Wand Drop: Arathi Highlands ( Boulderfist Magus )"
+  },
+  {
+   "name": "Enchant Weapon – Lesser Beastslayer",
+   "orange": 175,
+   "yellow": 195,
+   "green": 215,
+   "grey": 235,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Weapon – Lesser Beastslayer World drop (level 25–40)"
+  },
+  {
+   "name": "Enchant Weapon – Lesser Elemental Slayer",
+   "orange": 175,
+   "yellow": 195,
+   "green": 215,
+   "grey": 235,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Weapon – Lesser Elemental Slayer World drop (level 25–40)"
+  },
+  {
+   "name": "Enchant Bracer – Lesser Deflection",
+   "orange": 170,
+   "yellow": 190,
+   "green": 210,
+   "grey": 230,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Bracer – Lesser Deflection Vendor ( Keena , Micha Yance )"
+  },
+  {
+   "name": "Runed Golden Rod",
+   "orange": 150,
+   "yellow": 175,
+   "green": 195,
+   "grey": 215,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Minor Mana Oil",
+   "orange": 150,
+   "yellow": 160,
+   "green": 170,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Formula: Minor Mana Oil 10 vendors Jessara Cordell , Kania , Kithas , Leo Sarn , Lilly , Nasalanna Windsinger , Nata Dawnstrider , Thaddeus Webb , Tilli Thistlefuzz , Vaean"
+  },
+  {
+   "name": "Enchant Gloves – Mining",
+   "orange": 145,
+   "yellow": 170,
+   "green": 190,
+   "grey": 210,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Gloves – Mining Drop: Wetlands"
+  },
+  {
+   "name": "Enchant Gloves – Herbalism",
+   "orange": 145,
+   "yellow": 170,
+   "green": 190,
+   "grey": 210,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Gloves – Herbalism Drop: Ashenvale, Stonetalon Mountains"
+  },
+  {
+   "name": "Enchant Gloves – Fishing",
+   "orange": 145,
+   "yellow": 170,
+   "green": 190,
+   "grey": 210,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Gloves – Fishing Drop: Hillsbrad Foothills"
+  },
+  {
+   "name": "Enchant Bracer – Lesser Strength",
+   "orange": 140,
+   "yellow": 165,
+   "green": 185,
+   "grey": 205,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Bracer – Lesser Strength Vendor ( Borand , Dalria , Kulwia )"
+  },
+  {
+   "name": "Enchant Bracer – Lesser Agility",
+   "orange": 140,
+   "yellow": 165,
+   "green": 185,
+   "grey": 205,
+   "source": "vendor quest",
+   "sourceText": "Formula: Enchant Bracer – Lesser Agility Vendor ( Gorhak ) Quest: Mysterious Mysticism"
+  },
+  {
+   "name": "Glimmering Staff",
+   "orange": null,
+   "yellow": 140,
+   "green": 160,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Formula: Glimmering Staff Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Soulstaff",
+   "orange": null,
+   "yellow": 140,
+   "green": 160,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Formula: Soulstaff Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Orb of Mystic Insight",
+   "orange": null,
+   "yellow": 140,
+   "green": 160,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Formula: Orb of Mystic Insight Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Orb of Souls",
+   "orange": null,
+   "yellow": 140,
+   "green": 160,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Formula: Orb of Souls Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Weapon – Insight",
+   "orange": null,
+   "yellow": 140,
+   "green": 160,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Weapon – Insight Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Weapon – Recovery",
+   "orange": null,
+   "yellow": 140,
+   "green": 160,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Weapon – Recovery Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Weapon – Revelation",
+   "orange": null,
+   "yellow": 140,
+   "green": 160,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Weapon – Revelation Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Arcane Salvager",
+   "orange": null,
+   "yellow": 140,
+   "green": 140,
+   "grey": 140,
+   "source": "drop",
+   "sourceText": "Blueprint: Arcane Salvager Drop: City of Dalaran (Shade of the Archmage) Drop: Ruins of Lordaeron (Rath'mael) Drop: Razorfen Kraul (Charlga Razorflank)"
+  },
+  {
+   "name": "Enchant Cloak – Lesser Shadow Resistance",
+   "orange": 135,
+   "yellow": 160,
+   "green": 180,
+   "grey": 200,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Cloak – Lesser Shadow Resistance World drop (level 21–36)"
+  },
+  {
+   "name": "Mystic Mushroom",
+   "orange": 130,
+   "yellow": 140,
+   "green": 160,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Formula: Mystic Mushroom Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Tenets of the Silver Hand",
+   "orange": 130,
+   "yellow": 140,
+   "green": 160,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Formula: Tenets of the Silver Hand Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Polished Driftwood Icon",
+   "orange": 130,
+   "yellow": 140,
+   "green": 160,
+   "grey": 180,
+   "source": "vendor",
+   "sourceText": "Formula: Polished Driftwood Icon Vendor (45 Merchant's Favor )"
+  },
+  {
+   "name": "Enchant Boots – Minor Stamina",
+   "orange": 125,
+   "yellow": 150,
+   "green": 170,
+   "grey": 190,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Enchant Boots – Minor Stamina Source not known yet"
+  },
+  {
+   "name": "Enchant Boots – Minor Agility",
+   "orange": 125,
+   "yellow": 150,
+   "green": 170,
+   "grey": 190,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Boots – Minor Agility Vendor ( Nata Dawnstrider , Zixil )"
+  },
+  {
+   "name": "Enchant Bracer – Lesser Spirit",
+   "orange": 120,
+   "yellow": 145,
+   "green": 165,
+   "grey": 185,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Bracer – Lesser Spirit World drop (level 16–30)"
+  },
+  {
+   "name": "Enchant Shield – Lesser Protection",
+   "orange": 115,
+   "yellow": 140,
+   "green": 160,
+   "grey": 180,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Shield – Lesser Protection World drop (level 15–30)"
+  },
+  {
+   "name": "Enchant 2H Weapon – Lesser Spirit",
+   "orange": 110,
+   "yellow": 135,
+   "green": 155,
+   "grey": 175,
+   "source": "drop",
+   "sourceText": "Formula: Enchant 2H Weapon – Lesser Spirit World drop (level 16–30)"
+  },
+  {
+   "name": "Enchant Cloak – Minor Agility",
+   "orange": 110,
+   "yellow": 135,
+   "green": 155,
+   "grey": 175,
+   "source": "drop vendor",
+   "sourceText": "Formula: Enchant Cloak – Minor Agility World drop (level 16–30) Vendor ( Borand , Dalria , Kulwia )"
+  },
+  {
+   "name": "Enchant 2H Weapon – Lesser Intellect",
+   "orange": 100,
+   "yellow": 130,
+   "green": 150,
+   "grey": 170,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant 2H Weapon – Lesser Intellect Vendor ( Kithas , Nata Dawnstrider , Tilli Thistlefuzz )"
+  },
+  {
+   "name": "Runed Silver Rod",
+   "orange": 100,
+   "yellow": 130,
+   "green": 150,
+   "grey": 170,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Cloak – Minor Protection",
+   "orange": 90,
+   "yellow": 110,
+   "green": 130,
+   "grey": 150,
+   "source": "not-known-yet",
+   "sourceText": "Formula: Imbue Cloak – Protection Source not known yet"
+  },
+  {
+   "name": "Enchant Weapon – Minor Beastslayer",
+   "orange": 90,
+   "yellow": 120,
+   "green": 140,
+   "grey": 160,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Weapon – Minor Beastslayer World drop (level 11–26)"
+  },
+  {
+   "name": "Enchant Bracer – Minor Healing Power",
+   "orange": 90,
+   "yellow": 120,
+   "green": 140,
+   "grey": 160,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Bracer – Minor Healing Power Drop: Ashenvale ( Dark Strand Cultist )"
+  },
+  {
+   "name": "Enchant Chest – Lesser Intellect",
+   "orange": 80,
+   "yellow": 115,
+   "green": 135,
+   "grey": 155,
+   "source": "vendor",
+   "sourceText": "Formula: Enchant Chest – Lesser Intellect Vendor ( Kithas , Lilly )"
+  },
+  {
+   "name": "Enchant Bracer – Minor Strength",
+   "orange": 80,
+   "yellow": 115,
+   "green": 135,
+   "grey": 155,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Bracer – Minor Strength World drop (level 11–26)"
+  },
+  {
+   "name": "Greater Magic Wand",
+   "orange": 70,
+   "yellow": 110,
+   "green": 130,
+   "grey": 150,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Bracer – Minor Intellect",
+   "orange": 70,
+   "yellow": 110,
+   "green": 130,
+   "grey": 150,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Bracer – Minor Intellect Drop: Silverpine Forest ( Vile Fin Tidehunter ) Drop: Darkshore ( Coastal Frenzy )"
+  },
+  {
+   "name": "Enchant Bracer – Minor Spirit",
+   "orange": 60,
+   "yellow": 105,
+   "green": 125,
+   "grey": 145,
+   "source": "drop",
+   "sourceText": "Formula: Enchant Bracer – Minor Spirit World drop (level 11–26)"
+  },
+  {
+   "name": "Enchant Chest – Minor Intellect",
+   "orange": 20,
+   "yellow": 80,
+   "green": 100,
+   "grey": 120,
+   "source": "drop vendor",
+   "sourceText": "Formula: Enchant Chest – Minor Intellect World drop (level 16–16) 11 vendors Eaysaa Brightgust , Jessara Cordell , Kania , Kithas , Leo Sarn , Lilly , Nasalanna Windsinger , Nata Dawnstrider , Thaddeus Webb , Tilli Thistlefuzz , Vaean"
+  },
+  {
+   "name": "Enchanted Lute",
+   "orange": null,
+   "yellow": 20,
+   "green": 20,
+   "grey": 20,
+   "source": "quest",
+   "sourceText": "Quest: Camping 101: Enchanting"
+  },
+  {
+   "name": "Lesser Magic Wand",
+   "orange": 10,
+   "yellow": 75,
+   "green": 95,
+   "grey": 115,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Minor Wizard Oil",
+   "orange": 5,
+   "yellow": 30,
+   "green": 47,
+   "grey": 65,
+   "source": "vendor",
+   "sourceText": "Formula: Minor Wizard Oil 10 vendors Jessara Cordell , Kania , Kithas , Leo Sarn , Lilly , Nasalanna Windsinger , Nata Dawnstrider , Thaddeus Webb , Tilli Thistlefuzz , Vaean"
+  },
+  {
+   "name": "Enchant Bracer – Inferior Stamina",
+   "orange": 1,
+   "yellow": 20,
+   "green": 22,
+   "grey": 25,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Runed Copper Rod",
+   "orange": 1,
+   "yellow": 5,
+   "green": 7,
+   "grey": 10,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Enchant Bracer – Minor Deflect",
+   "orange": 1,
+   "yellow": 80,
+   "green": 100,
+   "grey": 120,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Mote of Magic",
+   "orange": 1,
+   "yellow": 10,
+   "green": 12,
+   "grey": 15,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Novice's Practice Wand",
+   "orange": 1,
+   "yellow": 10,
+   "green": 12,
+   "grey": 15,
+   "source": "with-the-profession",
+   "sourceText": "With the profession"
+  },
+  {
+   "name": "Enchant Chest – Inferior Stamina",
+   "orange": null,
+   "yellow": 70,
+   "green": 90,
+   "grey": 110,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Chest – Minor Absorption",
+   "orange": null,
+   "yellow": 90,
+   "green": 110,
+   "grey": 130,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Cloak – Minor Resistance",
+   "orange": null,
+   "yellow": 95,
+   "green": 115,
+   "grey": 135,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Bracer – Minor Stamina",
+   "orange": null,
+   "yellow": 100,
+   "green": 120,
+   "grey": 140,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant 2H Weapon – Minor Impact",
+   "orange": null,
+   "yellow": 130,
+   "green": 150,
+   "grey": 170,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Chest – Lesser Stamina",
+   "orange": null,
+   "yellow": 105,
+   "green": 125,
+   "grey": 145,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Bracer – Minor Agility",
+   "orange": null,
+   "yellow": 115,
+   "green": 135,
+   "grey": 155,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Weapon – Minor Striking",
+   "orange": null,
+   "yellow": 120,
+   "green": 140,
+   "grey": 160,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Chest – Stamina",
+   "orange": null,
+   "yellow": 145,
+   "green": 165,
+   "grey": 185,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Cloak – Lesser Fire Resistance",
+   "orange": null,
+   "yellow": 150,
+   "green": 170,
+   "grey": 190,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Shield – Minor Stamina",
+   "orange": null,
+   "yellow": 130,
+   "green": 150,
+   "grey": 170,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Cloak – Lesser Protection",
+   "orange": null,
+   "yellow": 140,
+   "green": 160,
+   "grey": 180,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Shield – Lesser Spirit",
+   "orange": null,
+   "yellow": 155,
+   "green": 175,
+   "grey": 195,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Bracer – Lesser Stamina",
+   "orange": null,
+   "yellow": 155,
+   "green": 175,
+   "grey": 195,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Weapon – Lesser Striking",
+   "orange": null,
+   "yellow": 165,
+   "green": 185,
+   "grey": 205,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant 2H Weapon – Lesser Impact",
+   "orange": null,
+   "yellow": 170,
+   "green": 190,
+   "grey": 210,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Chest – Lesser Absorption",
+   "orange": null,
+   "yellow": 165,
+   "green": 185,
+   "grey": 205,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Chest – Intellect",
+   "orange": null,
+   "yellow": 170,
+   "green": 190,
+   "grey": 210,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Bracer – Lesser Intellect",
+   "orange": null,
+   "yellow": 175,
+   "green": 195,
+   "grey": 215,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Chest – Minor Stats",
+   "orange": null,
+   "yellow": 175,
+   "green": 195,
+   "grey": 215,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Shield – Lesser Stamina",
+   "orange": null,
+   "yellow": 175,
+   "green": 195,
+   "grey": 215,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Cloak – Defense",
+   "orange": null,
+   "yellow": 175,
+   "green": 195,
+   "grey": 215,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Boots – Lesser Agility",
+   "orange": null,
+   "yellow": 180,
+   "green": 200,
+   "grey": 220,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Chest – Greater Stamina",
+   "orange": null,
+   "yellow": 180,
+   "green": 200,
+   "grey": 220,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Bracer – Spirit",
+   "orange": null,
+   "yellow": 185,
+   "green": 205,
+   "grey": 225,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Boots – Lesser Stamina",
+   "orange": null,
+   "yellow": 190,
+   "green": 210,
+   "grey": 230,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Bracer – Stamina",
+   "orange": null,
+   "yellow": 190,
+   "green": 210,
+   "grey": 230,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Cloak – Fire Resistance",
+   "orange": null,
+   "yellow": 195,
+   "green": 215,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Shield – Spirit",
+   "orange": null,
+   "yellow": 200,
+   "green": 220,
+   "grey": 240,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Bracer – Strength",
+   "orange": null,
+   "yellow": 200,
+   "green": 220,
+   "grey": 240,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Chest – Greater Intellect",
+   "orange": null,
+   "yellow": 205,
+   "green": 225,
+   "grey": 245,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Weapon – Striking",
+   "orange": null,
+   "yellow": 215,
+   "green": 235,
+   "grey": 255,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant 2H Weapon – Impact",
+   "orange": null,
+   "yellow": 220,
+   "green": 240,
+   "grey": 260,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Chest – Lesser Stats",
+   "orange": null,
+   "yellow": 220,
+   "green": 240,
+   "grey": 260,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Runed Truesilver Rod",
+   "orange": null,
+   "yellow": 220,
+   "green": 240,
+   "grey": 260,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Cloak – Greater Defense",
+   "orange": null,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Cloak – Resistance",
+   "orange": null,
+   "yellow": 225,
+   "green": 245,
+   "grey": 265,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Gloves – Agility",
+   "orange": null,
+   "yellow": 230,
+   "green": 250,
+   "grey": 270,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Bracer – Intellect",
+   "orange": null,
+   "yellow": 230,
+   "green": 250,
+   "grey": 270,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Boots – Stamina",
+   "orange": null,
+   "yellow": 235,
+   "green": 255,
+   "grey": 275,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Chest – Superior Stamina",
+   "orange": null,
+   "yellow": 240,
+   "green": 260,
+   "grey": 280,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Gloves – Strength",
+   "orange": null,
+   "yellow": 245,
+   "green": 265,
+   "grey": 285,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Boots – Minor Speed",
+   "orange": null,
+   "yellow": 245,
+   "green": 265,
+   "grey": 285,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Shield – Greater Spirit",
+   "orange": null,
+   "yellow": 250,
+   "green": 270,
+   "grey": 290,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Chest – Superior Intellect",
+   "orange": null,
+   "yellow": 250,
+   "green": 270,
+   "grey": 290,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Boots – Agility",
+   "orange": null,
+   "yellow": 255,
+   "green": 275,
+   "grey": 295,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant 2H Weapon – Greater Impact",
+   "orange": null,
+   "yellow": 260,
+   "green": 280,
+   "grey": 300,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Bracer – Greater Strength",
+   "orange": null,
+   "yellow": 260,
+   "green": 280,
+   "grey": 300,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Chest – Stats",
+   "orange": null,
+   "yellow": 265,
+   "green": 285,
+   "grey": 305,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Weapon – Greater Striking",
+   "orange": null,
+   "yellow": 265,
+   "green": 285,
+   "grey": 305,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchant Gloves – Minor Haste",
+   "orange": null,
+   "yellow": 270,
+   "green": 290,
+   "grey": 310,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Lesser Mystic Wand",
+   "orange": null,
+   "yellow": 175,
+   "green": 195,
+   "grey": 215,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Greater Mystic Wand",
+   "orange": null,
+   "yellow": 195,
+   "green": 215,
+   "grey": 235,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchanted Thorium Bar",
+   "orange": null,
+   "yellow": 250,
+   "green": 255,
+   "grey": 260,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  },
+  {
+   "name": "Enchanted Leather",
+   "orange": null,
+   "yellow": 250,
+   "green": 255,
+   "grey": 260,
+   "source": "trainer",
+   "sourceText": "Trainer"
+  }
+ ]
+}

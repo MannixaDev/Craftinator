@@ -1,0 +1,13 @@
+{
+ "note": "Reagents sold by trade-goods vendors. The list is from Classic and has not been checked on Forever; item names and prices come from the Forever client data. Forever's new dyes (Magenta 249430, Cerulean 249409) are left out until a vendor is confirmed.",
+ "items": [
+  2320, 2321, 4291, 8343, 14341,
+  2324, 2604, 2605, 6260, 4340, 4341, 4342, 2325, 6261, 10290,
+  3371, 3372, 8925, 18256,
+  2880, 3466, 3857,
+  2678, 2692, 3713, 17194, 159, 1179, 2894, 2596, 4536,
+  4289,
+  4470, 11291, 6217,
+  4399, 4400, 10647, 10648
+ ]
+}
