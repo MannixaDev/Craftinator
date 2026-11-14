@@ -1,6 +1,201 @@
 {
  "credit": "Recorded in game by the addon when trainer and vendor windows were opened",
  "npcs": {
+  "1286": {
+   "name": "Edna Mullby",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "Trade District",
+   "x": 0.6473,
+   "y": 0.7143,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 6217,
+     "price": 112,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2678,
+     "price": 9,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2320,
+     "price": 9,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2880,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3371,
+     "price": 18,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4289,
+     "price": 45,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2604,
+     "price": 45,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2324,
+     "price": 23,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6260,
+     "price": 45,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4536,
+     "price": 23,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2321,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4291,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8343,
+     "price": 1800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2692,
+     "price": 36,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3713,
+     "price": 144,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3466,
+     "price": 1800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2325,
+     "price": 900,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4341,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4342,
+     "price": 2250,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4340,
+     "price": 315,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3372,
+     "price": 180,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8925,
+     "price": 2250,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4399,
+     "price": 180,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4400,
+     "price": 1800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6530,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2605,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
   "1346": {
    "name": "Georgio Bolero",
    "role": "trainer",
@@ -28,8 +223,8 @@
    "mapID": 1453,
    "zone": "Stormwind City",
    "subzone": "Cathedral of Light",
-   "x": 0.5303,
-   "y": 0.4474,
+   "x": 0.5293,
+   "y": 0.4473,
    "build": "70938",
    "professions": [
     "First Aid"
@@ -58,6 +253,157 @@
     "Journeyman"
    ],
    "maxSkill": 150
+  },
+  "5564": {
+   "name": "Simon Tanner",
+   "role": "trainer",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "Old Town",
+   "x": 0.7176,
+   "y": 0.628,
+   "build": "70938",
+   "professions": [
+    "Leatherworking"
+   ],
+   "ranks": [
+    "Apprentice",
+    "Journeyman"
+   ],
+   "maxSkill": 150
+  },
+  "5565": {
+   "name": "Jillian Tanner",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "Old Town",
+   "x": 0.716,
+   "y": 0.6273,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 4289,
+     "price": 45,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2320,
+     "price": 9,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2321,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4291,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8343,
+     "price": 1800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 14341,
+     "price": 4500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2325,
+     "price": 900,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6260,
+     "price": 45,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2604,
+     "price": 45,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2605,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4340,
+     "price": 315,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4341,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6261,
+     "price": 900,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4342,
+     "price": 2250,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10290,
+     "price": 2250,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 252783,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 252784,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
   },
   "5567": {
    "name": "Sellandus",

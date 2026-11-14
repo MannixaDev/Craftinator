@@ -101,9 +101,14 @@ when these notes were written. Check its state before assuming it is public.
 - The skill needed to learn a trainer recipe is **not** in the client. Sources, in order of trust:
   recorded in game, then Zockify, then an estimate equal to the yellow threshold
   (`learnEstimated = true`, shown in the tooltip). Estimates remaining: Alchemy 25, Blacksmithing 29,
-  Cooking 4, Enchanting 57, Engineering 55, First Aid 3, Leatherworking 21, Tailoring 17.
-- Recorded in game so far: four Stormwind trainers (Tailoring x2, Cooking, First Aid). **No vendor
-  and no Horde NPC has been recorded.**
+  Cooking 4, Enchanting 57, Engineering 55, First Aid 3, Leatherworking 18, Tailoring 17.
+- Recorded in game so far (all Stormwind): trainers for Tailoring x2, Cooking, First Aid and
+  Leatherworking (Simon Tanner, cap 150); vendors Edna Mullby (trade goods) and Jillian Tanner
+  (leatherworking supplies). **No Horde NPC has been recorded.**
+- Vendor prices seen in game are 10% below the client's `BuyPrice` for every item, presumably a
+  reputation discount on that character. The data keeps the undiscounted client price.
+- `ItemSparse.BuyPrice` is the price of the vendor's bundle (`VendorStackCount` items, e.g. 5 vials);
+  `build_vendor_prices.py` divides it down to one item. Before 0.6.2 it did not.
 - Every other trainer in `Data/NPCs.lua` has a Classic position and an assumed Classic skill cap,
   so the "train here" hint can be wrong until that trainer is recorded.
 - Zockify has not been asked for permission to use its data. The owner knows; it is credited in
@@ -128,7 +133,7 @@ These work, but the owner never explicitly agreed to them. Raise them if they be
 - Spec items: step-detail pane, "what you can do in this city" list, nearest-station hints,
   a price-source choice in options.
 - Never tested: a Horde character; a long session with BugSack and BugGrabber.
-- `Data/NPCs_Recorded.lua` handling of vendors has only been exercised with fake records.
+- Recorded vendors (pins, "seen for sale" lines) have not been checked in game yet.
 - Faction-specific recipes are not flagged in the data (`faction` is always nil).
 
 ## What is likely to come next

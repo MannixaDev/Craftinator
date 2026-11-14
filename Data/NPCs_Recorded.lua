@@ -7,12 +7,18 @@
 local _, ns = ...
 
 ns.Data.RecordedNPCs = {
+  { npcID = 1286, name = "Edna Mullby", role = "vendor", faction = "Alliance", mapID = 1453, x = 0.6473, y = 0.7143, zone = "Stormwind City",
+    sells = { [6217] = 112, [2678] = 2, [2320] = 9, [2880] = 90, [3371] = 4, [4289] = 45, [2604] = 45, [2324] = 23, [6260] = 45, [4536] = 5, [2321] = 90, [4291] = 450, [8343] = 1800, [2692] = 36, [3713] = 144, [3466] = 1800, [2325] = 900, [4341] = 450, [4342] = 2250, [4340] = 315, [3372] = 36, [8925] = 450, [4399] = 180, [4400] = 1800, [6530] = 90, [2605] = 90 }, limited = {  } },
   { npcID = 1346, name = "Georgio Bolero", role = "trainer", faction = "Alliance", mapID = 1453, x = 0.5325, y = 0.8144, zone = "Stormwind City",
     professions = { "Tailoring" }, maxSkill = 225 },
-  { npcID = 2327, name = "Shaina Fuller", role = "trainer", faction = "Alliance", mapID = 1453, x = 0.5303, y = 0.4474, zone = "Stormwind City",
+  { npcID = 2327, name = "Shaina Fuller", role = "trainer", faction = "Alliance", mapID = 1453, x = 0.5293, y = 0.4473, zone = "Stormwind City",
     professions = { "First Aid" }, maxSkill = 150 },
   { npcID = 5482, name = "Stephen Ryback", role = "trainer", faction = "Alliance", mapID = 1453, x = 0.7824, y = 0.5321, zone = "Stormwind City",
     professions = { "Cooking" }, maxSkill = 150 },
+  { npcID = 5564, name = "Simon Tanner", role = "trainer", faction = "Alliance", mapID = 1453, x = 0.7176, y = 0.628, zone = "Stormwind City",
+    professions = { "Leatherworking" }, maxSkill = 150 },
+  { npcID = 5565, name = "Jillian Tanner", role = "vendor", faction = "Alliance", mapID = 1453, x = 0.716, y = 0.6273, zone = "Stormwind City",
+    sells = { [4289] = 45, [2320] = 9, [2321] = 90, [4291] = 450, [8343] = 1800, [14341] = 4500, [2325] = 900, [6260] = 45, [2604] = 45, [2605] = 90, [4340] = 315, [4341] = 450, [6261] = 900, [4342] = 2250, [10290] = 2250, [252783] = 450, [252784] = 450 }, limited = {  } },
   { npcID = 5567, name = "Sellandus", role = "trainer", faction = "Alliance", mapID = 1453, x = 0.523, y = 0.8334, zone = "Stormwind City",
     professions = { "Tailoring" }, maxSkill = 150 },
 }

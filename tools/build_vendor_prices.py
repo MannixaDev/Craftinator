@@ -2,7 +2,8 @@
 """Build Data/VendorPrices.lua from a hand-kept list of vendor-sold reagents.
 
 Which items vendors sell is server-side, so the list of item IDs is curated in
-tools/vendor_items.json. The price comes from the client data (ItemSparse.BuyPrice).
+tools/vendor_items.json. The price comes from the client data (ItemSparse.BuyPrice, which is for the
+vendor's bundle of VendorStackCount items; the file stores the price of one).
 
 Usage (from the repo root):
     python tools/build_vendor_prices.py --build 1.60.1.70938
@@ -51,7 +52,12 @@ def main():
         if not item:
             print(f"warning: item {item_id} is not in build {args.build}", file=sys.stderr)
             continue
-        lines.append(f"  [{item_id}] = {item['BuyPrice']}, -- {item['Display_lang']}")
+        # BuyPrice is for the vendor's bundle (VendorStackCount items, e.g. 5 vials); store one item's price.
+        stack = max(1, int(item.get("VendorStackCount") or 1))
+        each = int(item["BuyPrice"]) / stack
+        each = int(each) if each == int(each) else round(each, 2)
+        note = f" ({item['BuyPrice']} for {stack})" if stack > 1 else ""
+        lines.append(f"  [{item_id}] = {each}, -- {item['Display_lang']}{note}")
     lines += ["}", "", f"ns.Data.VendorPricesBuild = {lua_string(args.build)}"]
     path = ROOT / "Data" / "VendorPrices.lua"
     path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
