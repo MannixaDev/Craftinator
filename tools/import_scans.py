@@ -191,6 +191,9 @@ def main():
         path = ROOT / "tools" / "overrides" / f"{profession.replace(' ', '')}_ingame.json"
         data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {
             "credit": "Read from trainer windows in game with /ci scan", "recipes": {}}
+        # Keep the highest fee seen: some characters get a reputation discount.
+        for spell, seen in recipes.items():
+            seen["cost"] = max(seen["cost"], (data["recipes"].get(spell) or {}).get("cost") or 0)
         changed = sum(1 for spell, seen in recipes.items() if data["recipes"].get(spell) != seen)
         data["recipes"].update(recipes)
         data["recipes"] = dict(sorted(data["recipes"].items(), key=lambda item: int(item[0])))

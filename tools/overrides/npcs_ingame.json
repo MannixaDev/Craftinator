@@ -235,6 +235,366 @@
    ],
    "maxSkill": 150
   },
+  "2352": {
+   "name": "Innkeeper Anderson",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1424,
+   "zone": "Hillsbrad Foothills",
+   "subzone": "Southshore",
+   "x": 0.5126,
+   "y": 0.5885,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 23,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 113,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 450,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 900,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 1800,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8766,
+     "price": 3600,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "2381": {
+   "name": "Micha Yance",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1424,
+   "zone": "Hillsbrad Foothills",
+   "subzone": "Southshore",
+   "x": 0.4898,
+   "y": 0.5511,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 6217,
+     "price": 112,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2320,
+     "price": 9,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2321,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4291,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2678,
+     "price": 9,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2692,
+     "price": 36,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3713,
+     "price": 144,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2880,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3466,
+     "price": 1800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2324,
+     "price": 23,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3371,
+     "price": 18,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3372,
+     "price": 180,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4289,
+     "price": 45,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4399,
+     "price": 180,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4400,
+     "price": 1800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6530,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 159,
+     "price": 23,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10284,
+     "price": 180,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4470,
+     "price": 35,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 11291,
+     "price": 4050,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 272941,
+     "price": 180000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 21099,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 21219,
+     "price": 4500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4536,
+     "price": 23,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 5788,
+     "price": 585,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 11163,
+     "price": 2700,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "3540": {
+   "name": "Hal McAllister",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1424,
+   "zone": "Hillsbrad Foothills",
+   "subzone": "Southshore",
+   "x": 0.5072,
+   "y": 0.6269,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 6303,
+     "price": 18,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 6289,
+     "price": 18,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 6308,
+     "price": 36,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 6362,
+     "price": 72,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 4603,
+     "price": 72,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 8959,
+     "price": 2880,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    }
+   ]
+  },
+  "4083": {
+   "name": "Jeeda",
+   "role": "vendor",
+   "faction": "Horde",
+   "mapID": 1442,
+   "zone": "Stonetalon Mountains",
+   "subzone": "Sun Rock Retreat",
+   "x": 0.4757,
+   "y": 0.6169,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 17034,
+     "price": 200,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 17035,
+     "price": 400,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 16583,
+     "price": 10000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2449,
+     "price": 80,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 3355,
+     "price": 200,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 6055,
+     "price": 1500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
   "5482": {
    "name": "Stephen Ryback",
    "role": "trainer",
@@ -253,6 +613,96 @@
     "Journeyman"
    ],
    "maxSkill": 150
+  },
+  "5483": {
+   "name": "Erika Tate",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "Old Town",
+   "x": 0.7849,
+   "y": 0.5298,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 23,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2678,
+     "price": 9,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2692,
+     "price": 36,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3713,
+     "price": 144,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10284,
+     "price": 180,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4470,
+     "price": 35,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 11291,
+     "price": 4050,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 272941,
+     "price": 180000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 21099,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 21219,
+     "price": 4500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4536,
+     "price": 23,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
   },
   "5564": {
    "name": "Simon Tanner",
@@ -423,6 +873,245 @@
     "Journeyman"
    ],
    "maxSkill": 150
+  },
+  "5784": {
+   "name": "Waldor",
+   "role": "trainer",
+   "faction": "Horde",
+   "mapID": 1414,
+   "zone": "The Wailing Caverns",
+   "subzone": "Wailing Caverns",
+   "x": 0.5191,
+   "y": 0.5545,
+   "build": "70938",
+   "professions": [
+    "Leatherworking"
+   ],
+   "ranks": [
+    "Apprentice"
+   ],
+   "maxSkill": 75
+  },
+  "7714": {
+   "name": "Innkeeper Byula",
+   "role": "vendor",
+   "faction": "Horde",
+   "mapID": 1413,
+   "zone": "The Barrens",
+   "subzone": "Camp Taurajo",
+   "x": 0.4556,
+   "y": 0.5901,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 4536,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 125,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 1000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 2000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8766,
+     "price": 4000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "7731": {
+   "name": "Innkeeper Jayka",
+   "role": "vendor",
+   "faction": "Horde",
+   "mapID": 1442,
+   "zone": "Stonetalon Mountains",
+   "subzone": "Sun Rock Retreat",
+   "x": 0.4753,
+   "y": 0.6209,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 125,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 1000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 2000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8766,
+     "price": 4000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "12043": {
+   "name": "Kulwia",
+   "role": "vendor",
+   "faction": "Horde",
+   "mapID": 1442,
+   "zone": "Stonetalon Mountains",
+   "subzone": "Sun Rock Retreat",
+   "x": 0.4529,
+   "y": 0.5935,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 6217,
+     "price": 124,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2320,
+     "price": 10,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2321,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2678,
+     "price": 10,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2692,
+     "price": 40,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2880,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3371,
+     "price": 20,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3372,
+     "price": 200,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4289,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6530,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2324,
+     "price": 25,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 11039,
+     "price": 800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 11101,
+     "price": 2500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
   }
  }
 }

@@ -139,11 +139,15 @@ def apply_overrides(profession, recipes):
         for npc in json.loads(npcs_path.read_text(encoding="utf-8"))["npcs"].values():
             for item in npc.get("items", []):
                 if not item.get("notGold") and item.get("price"):
-                    sold[item["itemID"]] = (item["price"] // max(1, item.get("stack", 1)), npc)
+                    price = item["price"] // max(1, item.get("stack", 1))
+                    # Keep the highest price seen: some characters get a reputation discount.
+                    if price > sold.get(item["itemID"], (0, None))[0]:
+                        sold[item["itemID"]] = (price, npc)
         for r in recipes:
             seen = sold.get(r["recipeItem"])
             if seen:
-                r["source"], r["sourceCost"] = "vendor", seen[0]
+                # Never below the client's listed price, which is the undiscounted one.
+                r["source"], r["sourceCost"] = "vendor", max(seen[0], r.get("recipeBuyPrice") or 0)
                 r.setdefault("sourceNote", f"Vendor: {seen[1]['name']} ({seen[1].get('zone') or 'unknown zone'})")
                 stats["vendor sightings"] += 1
 

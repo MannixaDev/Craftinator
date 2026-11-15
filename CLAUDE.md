@@ -73,8 +73,7 @@ cmd //c luacheck.bat .      # must be 0 warnings
    the tag itself. CurseForge is set to package **tagged commits only**. It reads the game
    version (shown as 1.60.1) from the `.toc`.
 
-The CurseForge project was created on 14 Nov 2026 and was still awaiting moderator approval
-when these notes were written. Check its state before assuming it is public.
+The CurseForge project was created on 14 Nov 2026 and approved by moderators on 15 Nov 2026.
 
 ## Client facts confirmed in game
 
@@ -102,11 +101,14 @@ when these notes were written. Check its state before assuming it is public.
   recorded in game, then Zockify, then an estimate equal to the yellow threshold
   (`learnEstimated = true`, shown in the tooltip). Estimates remaining: Alchemy 25, Blacksmithing 29,
   Cooking 4, Enchanting 57, Engineering 55, First Aid 3, Leatherworking 18, Tailoring 17.
-- Recorded in game so far (all Stormwind): trainers for Tailoring x2, Cooking, First Aid and
-  Leatherworking (Simon Tanner, cap 150); vendors Edna Mullby (trade goods) and Jillian Tanner
-  (leatherworking supplies). **No Horde NPC has been recorded.**
-- Vendor prices seen in game are 10% below the client's `BuyPrice` for every item, presumably a
-  reputation discount on that character. The data keeps the undiscounted client price.
+- Recorded in game so far. Stormwind: trainers for Tailoring x2, Cooking, First Aid and
+  Leatherworking (Simon Tanner, cap 150); vendors Edna Mullby, Jillian Tanner, Erika Tate.
+  Southshore: three vendors and the innkeeper. Horde (owner's character): Waldor, Leatherworking
+  trainer in Wailing Caverns (cap 75); vendors and innkeepers at Sun Rock Retreat and Camp Taurajo.
+  No Orgrimmar, Thunder Bluff or Undercity NPC yet.
+- Alliance characters so far see vendor prices and trainer fees 10% below the client's `BuyPrice`;
+  the Horde character pays the full price, so it is a reputation discount. The data keeps the full
+  price: imports keep the highest fee seen, and vendor recipe prices never go below `BuyPrice`.
 - `ItemSparse.BuyPrice` is the price of the vendor's bundle (`VendorStackCount` items, e.g. 5 vials);
   `build_vendor_prices.py` divides it down to one item. Before 0.6.2 it did not.
 - Every other trainer in `Data/NPCs.lua` has a Classic position and an assumed Classic skill cap,
@@ -132,7 +134,8 @@ These work, but the owner never explicitly agreed to them. Raise them if they be
 
 - Spec items: step-detail pane, "what you can do in this city" list, nearest-station hints,
   a price-source choice in options.
-- Never tested: a Horde character; a long session with BugSack and BugGrabber.
+- Never tested: the panel on a Horde character (its data has been imported); a long session with
+  BugSack and BugGrabber.
 - Recorded vendors (pins, "seen for sale" lines) have not been checked in game yet.
 - Faction-specific recipes are not flagged in the data (`faction` is always nil).
 
