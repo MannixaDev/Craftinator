@@ -106,9 +106,11 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
   Cooking 4, Enchanting 57, Engineering 55, First Aid 3, Leatherworking 18, Tailoring 17.
 - Recorded in game so far. Stormwind: trainers for Tailoring x2, Cooking, First Aid and
   Leatherworking (Simon Tanner, cap 150); vendors Edna Mullby, Jillian Tanner, Erika Tate.
-  Southshore: three vendors and the innkeeper. Horde (owner's character): Waldor, Leatherworking
-  trainer in Wailing Caverns (cap 75); vendors and innkeepers at Sun Rock Retreat and Camp Taurajo.
-  No Orgrimmar, Thunder Bluff or Undercity NPC yet.
+  Southshore: three vendors and the innkeeper. Horde (owner's character): Leatherworking trainers
+  Waldor (Wailing Caverns, cap 75), Mak (Thunder Bluff, cap 75) and Tarn (Thunder Bluff, cap 150);
+  Pand Stonebinder (Thunder Bluff First Aid, cap 150); vendors Mahu (leatherworking supplies),
+  Boramu and Taur Stonehoof in Thunder Bluff; vendors and innkeepers at Sun Rock Retreat and Camp
+  Taurajo. No Orgrimmar or Undercity NPC yet.
 - Alliance characters so far see vendor prices and trainer fees 10% below the client's `BuyPrice`;
   the Horde character pays the full price, so it is a reputation discount. The data keeps the full
   price: imports keep the highest fee seen, and vendor recipe prices never go below `BuyPrice`.

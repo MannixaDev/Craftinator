@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.3
+
+- Thunder Bluff recorded: Leatherworking trainers (Tarn teaches up to 150), the First Aid
+  trainer and the leatherworking supplies vendor, so Horde "train here" hints point to the
+  right place.
+- Elemental Flux is priced at the vendor instead of the auction house.
+
 ## 0.6.2
 
 - Fixed: reagents that vendors sell in bundles of five (vials, spices, Refreshing Spring Water,

@@ -223,8 +223,8 @@
    "mapID": 1453,
    "zone": "Stormwind City",
    "subzone": "Cathedral of Light",
-   "x": 0.5293,
-   "y": 0.4473,
+   "x": 0.5289,
+   "y": 0.4492,
    "build": "70938",
    "professions": [
     "First Aid"
@@ -484,6 +484,272 @@
      "notGold": false
     }
    ]
+  },
+  "2798": {
+   "name": "Pand Stonebinder",
+   "role": "trainer",
+   "faction": "Horde",
+   "mapID": 1456,
+   "zone": "Thunder Bluff",
+   "subzone": "Spirit Rise",
+   "x": 0.2961,
+   "y": 0.2157,
+   "build": "70938",
+   "professions": [
+    "First Aid"
+   ],
+   "ranks": [
+    "Journeyman",
+    "Apprentice"
+   ],
+   "maxSkill": 150
+  },
+  "2999": {
+   "name": "Taur Stonehoof",
+   "role": "vendor",
+   "faction": "Horde",
+   "mapID": 1456,
+   "zone": "Thunder Bluff",
+   "subzone": "",
+   "x": 0.3965,
+   "y": 0.5529,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 2880,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3466,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 18567,
+     "price": 150000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "3005": {
+   "name": "Mahu",
+   "role": "vendor",
+   "faction": "Horde",
+   "mapID": 1456,
+   "zone": "Thunder Bluff",
+   "subzone": "",
+   "x": 0.4415,
+   "y": 0.448,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 4289,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 252811,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 252812,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 252783,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 252784,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 5772,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2320,
+     "price": 10,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2321,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4291,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8343,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 14341,
+     "price": 5000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2324,
+     "price": 25,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2604,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6260,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2605,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4341,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4340,
+     "price": 350,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6261,
+     "price": 1000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2325,
+     "price": 1000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4342,
+     "price": 2500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10290,
+     "price": 2500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 253665,
+     "price": 150,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 253668,
+     "price": 250,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10325,
+     "price": 10000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10311,
+     "price": 3000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 5771,
+     "price": 200,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "3008": {
+   "name": "Mak",
+   "role": "trainer",
+   "faction": "Horde",
+   "mapID": 1456,
+   "zone": "Thunder Bluff",
+   "subzone": "",
+   "x": 0.4221,
+   "y": 0.4312,
+   "build": "70938",
+   "professions": [
+    "Leatherworking"
+   ],
+   "ranks": [
+    "Apprentice"
+   ],
+   "maxSkill": 75
   },
   "3540": {
    "name": "Hal McAllister",
@@ -1009,6 +1275,25 @@
     }
    ]
   },
+  "11084": {
+   "name": "Tarn",
+   "role": "trainer",
+   "faction": "Horde",
+   "mapID": 1456,
+   "zone": "Thunder Bluff",
+   "subzone": "",
+   "x": 0.42,
+   "y": 0.4289,
+   "build": "70938",
+   "professions": [
+    "Leatherworking"
+   ],
+   "ranks": [
+    "Apprentice",
+    "Journeyman"
+   ],
+   "maxSkill": 150
+  },
   "12043": {
    "name": "Kulwia",
    "role": "vendor",
@@ -1107,6 +1392,33 @@
     {
      "itemID": 11101,
      "price": 2500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "258466": {
+   "name": "Boramu",
+   "role": "vendor",
+   "faction": "Horde",
+   "mapID": 1456,
+   "zone": "Thunder Bluff",
+   "subzone": "",
+   "x": 0.4421,
+   "y": 0.4484,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 253665,
+     "price": 150,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 253668,
+     "price": 250,
      "stack": 1,
      "limited": false,
      "notGold": false

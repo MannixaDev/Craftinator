@@ -51,6 +51,7 @@ ns.Data.VendorPrices = {
   [8766] = 800, -- Morning Glory Dew (4000 for 5)
   [10284] = 200, -- Simple Flour
   [272941] = 200000, -- Thick Logs
+  [18567] = 150000, -- Elemental Flux
   [17034] = 200, -- Maple Seed
   [17035] = 400, -- Stranglethorn Seed
   [16583] = 10000, -- Demonic Figurine
