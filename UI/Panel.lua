@@ -592,6 +592,10 @@ function Panel.RefreshGathering(plan)
     #zones > 0 and table.concat(zones, ", ") or "no zones listed")
   if inZone then text = text .. "\nYou are in one of them." end
   frame.location.text:SetText(text)
+  -- Fit the zone box to its text and start the list just below it.
+  local height = math.min(96, math.max(30, math.ceil(frame.location.text:GetStringHeight()) + 4))
+  frame.location:SetHeight(height)
+  frame.scrollBox:SetPoint("TOPLEFT", 12, -68 - height - 6)
 
   local entries = {}
   for index, item in ipairs(plan.entries) do
