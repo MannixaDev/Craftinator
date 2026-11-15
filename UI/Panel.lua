@@ -12,6 +12,8 @@ local COLOURS = {
   yellow = { 1.00, 1.00, 0.00 },
   green = { 0.25, 0.75, 0.25 },
   grey = { 0.50, 0.50, 0.50 },
+  red = { 1.00, 0.25, 0.25 },
+  white = { 1.00, 1.00, 1.00 },
 }
 local ROW_HEIGHT = 38
 local WIDTH, HEIGHT = 360, 500
@@ -87,6 +89,53 @@ local function showStepTooltip(row)
   GameTooltip:Show()
 end
 
+-- Gathering rows: one herb, ore or fish, with what it sells for raw or crafted.
+local function showGatherTooltip(row)
+  local item, plan = row.entry.gather, row.entry.plan
+  local colour = COLOURS[item.difficulty] or COLOURS.white
+  GameTooltip:SetOwner(row, "ANCHOR_RIGHT")
+  GameTooltip:AddLine(ns.Inventory.ItemName(item.itemID), colour[1], colour[2], colour[3])
+  if item.skill then
+    GameTooltip:AddLine(("%s: needs skill %d."):format(item.name, item.skill), 1, 1, 1)
+  end
+  if item.where then GameTooltip:AddLine("Where: " .. item.where, 1, 1, 1, true) end
+  local price, source, age = plan.book.Get(item.itemID)
+  GameTooltip:AddLine(price and ("Sells for %s each (%s%s)."):format(Pricing.FormatMoney(price), source,
+    age and age > 0 and (", %d day%s old"):format(age, age == 1 and "" or "s") or "")
+    or "No auction price.", 1, 1, 1)
+  if #item.uses > 0 then
+    GameTooltip:AddLine(" ")
+    GameTooltip:AddLine("Worth per item when crafted into:")
+    for index = 1, math.min(4, #item.uses) do
+      local use = item.uses[index]
+      GameTooltip:AddDoubleLine(("%s (%s)"):format(use.recipe.name, use.profession),
+        Pricing.FormatMoney(use.value), 1, 1, 1, 1, 1, 1)
+    end
+    GameTooltip:AddLine("Other reagents are bought at their current price. You need the profession and recipe.",
+      0.6, 0.6, 0.6, true)
+  end
+  GameTooltip:Show()
+end
+
+local function initGatherRow(row, entry)
+  local item = entry.gather
+  local colour = COLOURS[item.difficulty] or COLOURS.white
+  row.icon:SetTexture(ns.Inventory.ItemIcon(item.itemID) or "Interface\\Icons\\INV_Misc_QuestionMark")
+  local name = ns.Inventory.ItemName(item.itemID)
+  if item.skill then
+    name = item.difficulty == "red" and ("%s  (at %d)"):format(name, item.skill) or ("%d  %s"):format(item.skill, name)
+  end
+  row.title:SetText(name)
+  row.title:SetTextColor(colour[1], colour[2], colour[3])
+  local detail = item.price and ("Sells %s"):format(Pricing.FormatMoney(item.price)) or "No auction price"
+  local best = item.uses[1]
+  if best and best.value > (item.price or 0) then
+    detail = detail .. ("  -  %s as %s"):format(Pricing.FormatMoney(best.value), best.recipe.name)
+  end
+  row.detail:SetText(detail)
+  row.current:SetShown(false)
+end
+
 local function initRow(row, entry)
   if not row.title then
     row.icon = row:CreateTexture(nil, "ARTWORK")
@@ -106,16 +155,20 @@ local function initRow(row, entry)
     row.current:SetAllPoints()
     row.current:SetColorTexture(1, 0.82, 0, 0.12)
     row:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
-    row:SetScript("OnEnter", showStepTooltip)
+    row:SetScript("OnEnter", function(self)
+      if not self.entry then return end
+      if self.entry.gather then showGatherTooltip(self) else showStepTooltip(self) end
+    end)
     row:SetScript("OnLeave", function() GameTooltip:Hide() end)
     row:SetScript("OnClick", function(self)
-      if self.entry and not ns.Player.SelectRecipe(self.entry.step.spellID) then
+      if self.entry and self.entry.step and not ns.Player.SelectRecipe(self.entry.step.spellID) then
         say("could not select that recipe. Is the profession window open, and is the recipe learned?")
       end
     end)
   end
 
   row.entry = entry
+  if entry.gather then return initGatherRow(row, entry) end
   local step, plan = entry.step, entry.plan
   local recipe = plan.recipes[step.spellID]
   local colour = COLOURS[step.difficulty] or COLOURS.orange
@@ -385,7 +438,12 @@ local function create()
 end
 
 -- The slider row only exists in Balanced mode; the route list moves down to make room.
-local function layoutFor(mode, hasPlan)
+local function layoutFor(mode, hasPlan, gathering)
+  -- Gathering has no route options: the zone list takes their place.
+  for _, button in ipairs(frame.modeButtons) do button:SetShown(not gathering) end
+  for _, check in ipairs(frame.checks) do check:SetShown(not gathering) end
+  frame.location:SetHeight(gathering and 96 or 44)
+  hasPlan = hasPlan and not gathering
   local balanced = hasPlan and mode == "balanced"
   frame.slider:SetShown(balanced)
   if balanced then frame.slider:Sync() end
@@ -475,6 +533,8 @@ function Panel.Refresh()
     return
   end
 
+  if plan.kind == "gathering" then return Panel.RefreshGathering(plan) end
+
   frame.plan = plan
   layoutFor(plan.mode, true)
   for _, button in ipairs(frame.modeButtons) do button:SetEnabled(button.mode ~= plan.mode) end
@@ -508,6 +568,39 @@ function Panel.Refresh()
     total = total .. ("\n|cffff4040Route stops at %d: no usable recipe beyond that.|r"):format(route.reachedSkill)
   end
   frame.total:SetText(total)
+  frame.prices:SetText(priceLine(plan.book) .. (plan.fromCache and "  (skill from your last visit)" or ""))
+end
+
+function Panel.RefreshGathering(plan)
+  frame.plan = nil
+  layoutFor(nil, false, true)
+  frame.header:SetText(("%s  %d / %d"):format(plan.displayName, plan.skill, plan.target))
+  frame.bar:SetMinMaxValues(0, math.max(1, plan.target))
+  frame.bar:SetValue(plan.skill)
+  frame.location.npc, frame.location.vendor = nil, nil
+
+  local here = ns.Player.Location()
+  local zones, inZone = {}, false
+  for index, zone in ipairs(plan.zones) do
+    if zone == here.mapName or zone == here.zone then
+      inZone = true
+      zone = "|cff40ff40" .. zone .. "|r"
+    end
+    zones[index] = zone
+  end
+  local text = ("Where to go for skill %d-%d:\n%s."):format(plan.bracket.from, plan.bracket.to,
+    #zones > 0 and table.concat(zones, ", ") or "no zones listed")
+  if inZone then text = text .. "\nYou are in one of them." end
+  frame.location.text:SetText(text)
+
+  local entries = {}
+  for index, item in ipairs(plan.entries) do
+    entries[index] = { index = index, gather = item, plan = plan }
+  end
+  setRows(entries)
+  frame.message:SetText(#entries == 0 and "Nothing listed for this skill." or "")
+  frame.total:SetText(plan.profession == "Fishing" and "Fish known to the addon, most valuable first."
+    or "What you can gather at your skill, most valuable first.")
   frame.prices:SetText(priceLine(plan.book) .. (plan.fromCache and "  (skill from your last visit)" or ""))
 end
 

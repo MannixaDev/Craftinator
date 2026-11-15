@@ -22,11 +22,14 @@ Data\Recipes_Enchanting.lua
 Data\Recipes_Engineering.lua
 Data\Recipes_FirstAid.lua
 Data\Recipes_Leatherworking.lua
+Data\Recipes_Mining.lua
 Data\Recipes_Tailoring.lua
+Data\Gathering.lua
 Player.lua
 Inventory.lua
 Pricing.lua
 Optimiser.lua
+Gathering.lua
 Navigation.lua
 Capture.lua
 UI\Panel.lua

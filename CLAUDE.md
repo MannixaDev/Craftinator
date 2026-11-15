@@ -27,11 +27,11 @@ The repository root **is** the addon folder (CurseForge's packager needs the `.t
 | --- | --- |
 | `Craftinator.toc` | Load order, version, saved variables (`CraftinatorDB`, `CraftinatorCharDB`) |
 | `Core.lua` | Namespace, events, settings defaults, `ns.BuildPlan()`, Auctionator list, slash commands |
-| `Optimiser.lua`, `Pricing.lua` | **Plain Lua, no WoW API.** Unit-tested in `spec/`. Keep them that way |
+| `Optimiser.lua`, `Pricing.lua`, `Gathering.lua` | **Plain Lua, no WoW API.** Unit-tested in `spec/`. Keep them that way |
 | `Player.lua`, `Inventory.lua`, `Navigation.lua` | Thin adapters over the WoW API; Navigation also merges recorded NPCs |
 | `Capture.lua` | Records trainers and vendors when their windows open; `/ci export` |
 | `UI/Panel.lua`, `UI/Settings.lua` | Docked panel; options panel and addon-menu entry |
-| `Data/Recipes_*.lua`, `Data/VendorPrices.lua`, `Data/NPCs_Recorded.lua` | **Generated. Never edit by hand** |
+| `Data/Recipes_*.lua`, `Data/VendorPrices.lua`, `Data/NPCs_Recorded.lua`, `Data/Gathering.lua` | **Generated. Never edit by hand** |
 | `Data/NPCs.lua` | Hand-written: capital trainers, supply vendors (no positions), rank books |
 | `tools/` | Python data pipeline (not shipped). See `tools/README.md` |
 | `tools/overrides/` | Data the client lacks: `*_zockify.json` (web), `*_ingame.json` and `npcs_ingame.json` (recorded in game; these win) |
@@ -48,7 +48,7 @@ Run from the repo root. On the owner's Windows machine the Lua tools need this f
 
 ```
 export PATH="$LOCALAPPDATA/Programs/LuaJIT/bin:$HOME/.luarocks/bin:$PATH"
-cmd //c busted.bat          # 40 tests
+cmd //c busted.bat          # 46 tests
 cmd //c luacheck.bat .      # must be 0 warnings
 ```
 
@@ -56,7 +56,8 @@ cmd //c luacheck.bat .      # must be 0 warnings
   It replaces the `Craftinator` folder there. Lua changes load with `/reload`; a new file or a
   `.toc` change needs a full game restart.
 - Rebuild data: `python tools/build_recipes.py --build 1.60.1.70938 --profession "<name>"`,
-  `python tools/build_vendor_prices.py --build 1.60.1.70938`, `python tools/build_npcs.py`.
+  `python tools/build_vendor_prices.py --build 1.60.1.70938`, `python tools/build_npcs.py`,
+  `python tools/build_gathering.py --build 1.60.1.70938` (from `tools/overrides/gathering_zockify.json`).
 - Import player data: `python tools/import_scans.py <file>`, where the file is either the
   game's `SavedVariables/Craftinator.lua` or text copied from `/ci export`. Then rebuild the
   professions it names, the vendor prices and the NPCs.
@@ -120,7 +121,13 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
   so the "train here" hint can be wrong until that trainer is recorded.
 - Zockify has not been asked for permission to use its data. The owner knows; it is credited in
   the README and on CurseForge.
-- Not covered: Mining (smelting), how Cooking and First Aid go past 225, Poisons, camping recipes.
+- Not covered: how Cooking and First Aid go past 225, Poisons, camping recipes, Skinning.
+- Gathering view (Herbalism, Mining, Fishing; owner chose docked, web data only, raw vs crafted):
+  herbs, veins, zones per skill band and a partial fish list are transcribed from Zockify's Forever
+  guides. Gaps: the three new Forever herbs, Silver/Gold/Truesilver zones (shown with the band's
+  zones), fish per zone and the skill each fishing zone needs. Mining's smelting recipes
+  (`Recipes_Mining.lua`) feed only the "smelt it" values; the panel never plans a Mining route.
+  Node colours assume the Classic rule (yellow +25, green +50, grey +100); not checked on Forever.
 
 ## Decisions made without sign-off
 

@@ -137,6 +137,29 @@ local function fastestTimeFactor(_, recipe)
   return 1 + REAGENT_PENALTY * math.max(0, kinds - 1) + (recipe.station and STATION_PENALTY or 0)
 end
 
+-- Gathering professions: what to gather at this skill, where, and what it is worth raw or crafted.
+local usesIndex
+local function buildGathering(profession, data, fromCache)
+  usesIndex = usesIndex or ns.Gathering.UsesIndex(ns.Data.Recipes)
+  local book = ns.GetPricing()
+  local faction = ns.Player.Faction()
+  local entries, bracket = ns.Gathering.List({
+    data = data, skill = profession.skill, faction = faction, priceOf = book.PriceOf, index = usesIndex,
+  })
+  return {
+    kind = "gathering",
+    profession = profession.name,
+    displayName = profession.name,
+    skill = profession.skill,
+    target = profession.max,
+    entries = entries,
+    bracket = bracket,
+    zones = ns.Gathering.Zones(bracket, faction),
+    book = book,
+    fromCache = fromCache,
+  }
+end
+
 --- Build the route for the open profession (or the one last seen on this character).
 -- Returns a plan table, or nil and a message to show.
 function ns.BuildPlan()
@@ -156,6 +179,9 @@ function ns.BuildPlan()
   else
     return nil, "Click a profession (for example Tailoring) to see its route."
   end
+
+  local gathering = ns.Data.Gathering and ns.Data.Gathering[profession.name]
+  if gathering then return buildGathering(profession, gathering, fromCache) end
 
   local key = ns.Data.SkillLines and ns.Data.SkillLines[profession.id]
   local recipes = key and ns.Data.Recipes[key]
@@ -565,6 +591,10 @@ SlashCmdList["CRAFTINATOR"] = function(msg)
       say(tostring(problem or plan))
       return
     end
+    if plan.kind == "gathering" then
+      say(("%s is a gathering profession: it has no route or shopping list."):format(plan.displayName))
+      return
+    end
     say(("%s %d/%d, %s mode: %d steps, %s to buy, built in %.1f ms"):format(plan.displayName, plan.skill,
       plan.target, plan.mode, #plan.route.steps, ns.Pricing.FormatMoney(plan.toBuy), plan.milliseconds))
     for _, step in ipairs(plan.route.steps) do
@@ -575,6 +605,10 @@ SlashCmdList["CRAFTINATOR"] = function(msg)
     local ok, plan, problem = pcall(ns.BuildPlan)
     if not ok or not plan then
       say(tostring(problem or plan))
+      return
+    end
+    if plan.kind == "gathering" then
+      say(("%s is a gathering profession: it has no route or shopping list."):format(plan.displayName))
       return
     end
     say(("shopping list, %s to buy:"):format(ns.Pricing.FormatMoney(plan.toBuy)))
@@ -591,6 +625,10 @@ SlashCmdList["CRAFTINATOR"] = function(msg)
     local ok, plan, problem = pcall(ns.BuildPlan)
     if not ok or not plan then
       say(tostring(problem or plan))
+      return
+    end
+    if plan.kind == "gathering" then
+      say(("%s is a gathering profession: it has no route or shopping list."):format(plan.displayName))
       return
     end
     say((select(2, ns.SendShoppingList(plan))))

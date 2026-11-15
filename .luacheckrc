@@ -36,9 +36,11 @@ files["spec"] = { std = "+busted" }
 -- Pure-Lua modules: no WoW globals allowed, so an API call here fails the lint.
 files["Optimiser.lua"] = { new_read_globals = {}, new_globals = {} }
 files["Pricing.lua"] = { new_read_globals = {}, new_globals = {} }
+files["Gathering.lua"] = { new_read_globals = {}, new_globals = {} }
 
 -- Generated data: long lines are fine.
 files["Data/Recipes_*.lua"] = { max_line_length = false }
 
 -- Generated data: long lines are fine.
 files["Data/NPCs_Recorded.lua"] = { max_line_length = false }
+files["Data/Gathering.lua"] = { max_line_length = false }

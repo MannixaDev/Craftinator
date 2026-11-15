@@ -1,0 +1,94 @@
+{
+ "credit": "Transcribed from zockify.com WoW Forever guides (herbalism, mining, fishing leveling, fishing overview), 15 Nov 2026",
+ "Herbalism": {
+  "nodes": [
+   ["Peacebloom", 1], ["Silverleaf", 1], ["Earthroot", 15], ["Mageroyal", 50], ["Briarthorn", 70],
+   ["Stranglekelp", 85], ["Bruiseweed", 100], ["Wild Steelbloom", 115], ["Grave Moss", 120],
+   ["Kingsblood", 125], ["Liferoot", 150], ["Fadeleaf", 160], ["Goldthorn", 170],
+   ["Khadgar's Whisker", 185], ["Wintersbite", 195], ["Firebloom", 205], ["Purple Lotus", 210],
+   ["Arthas' Tears", 220], ["Sungrass", 230], ["Blindweed", 235], ["Ghost Mushroom", 245],
+   ["Gromsblood", 250], ["Golden Sansam", 260], ["Dreamfoil", 270], ["Mountain Silversage", 280],
+   ["Plaguebloom", 285], ["Icecap", 290]
+  ],
+  "brackets": [
+   {"from": 1, "to": 70, "nodes": ["Peacebloom", "Silverleaf", "Earthroot", "Mageroyal"],
+    "Alliance": ["Dun Morogh", "Elwynn Forest", "Teldrassil"],
+    "Horde": ["Durotar", "Mulgore", "Tirisfal Glades"]},
+   {"from": 70, "to": 115, "nodes": ["Mageroyal", "Briarthorn", "Stranglekelp", "Bruiseweed"],
+    "Alliance": ["Darkshore", "Loch Modan", "Westfall"],
+    "Horde": ["Silverpine Forest", "The Barrens"],
+    "both": ["Ashenvale", "Hillsbrad Foothills", "Redridge Mountains", "Stonetalon Mountains", "Wetlands"]},
+   {"from": 115, "to": 170, "nodes": ["Briarthorn", "Stranglekelp", "Bruiseweed", "Wild Steelbloom", "Grave Moss",
+    "Kingsblood", "Liferoot", "Fadeleaf"],
+    "both": ["Alterac Mountains", "Arathi Highlands", "Ashenvale", "Badlands", "Desolace", "Duskwood",
+     "Dustwallow Marsh", "Hillsbrad Foothills", "Stonetalon Mountains", "Stranglethorn Vale", "Swamp of Sorrows",
+     "Thousand Needles", "Wetlands"]},
+   {"from": 170, "to": 205, "nodes": ["Kingsblood", "Liferoot", "Fadeleaf", "Goldthorn", "Khadgar's Whisker", "Wintersbite"],
+    "both": ["Alterac Mountains", "Arathi Highlands", "Badlands", "Dustwallow Marsh", "Feralas", "Stranglethorn Vale",
+     "Swamp of Sorrows", "The Hinterlands"]},
+   {"from": 205, "to": 230, "nodes": ["Fadeleaf", "Goldthorn", "Khadgar's Whisker", "Wintersbite", "Firebloom", "Purple Lotus"],
+    "both": ["Alterac Mountains", "Arathi Highlands", "Azshara", "Badlands", "Blasted Lands", "Dustwallow Marsh",
+     "Feralas", "Searing Gorge", "Stranglethorn Vale", "Swamp of Sorrows", "Tanaris", "The Hinterlands"]},
+   {"from": 230, "to": 270, "nodes": ["Khadgar's Whisker", "Wintersbite", "Firebloom", "Purple Lotus", "Arthas' Tears",
+    "Sungrass", "Blindweed", "Ghost Mushroom", "Gromsblood", "Golden Sansam"],
+    "both": ["Azshara", "Blasted Lands", "Burning Steppes", "Eastern Plaguelands", "Felwood", "Feralas", "Silithus",
+     "Swamp of Sorrows", "Tanaris", "The Hinterlands", "Un'Goro Crater", "Western Plaguelands"]},
+   {"from": 270, "to": 300, "nodes": ["Sungrass", "Blindweed", "Ghost Mushroom", "Gromsblood", "Golden Sansam", "Dreamfoil",
+    "Mountain Silversage", "Plaguebloom", "Icecap"],
+    "both": ["Azshara", "Blasted Lands", "Burning Steppes", "Eastern Plaguelands", "Felwood", "Silithus",
+     "The Hinterlands", "Un'Goro Crater", "Western Plaguelands", "Winterspring"]}
+  ]
+ },
+ "Mining": {
+  "nodes": [
+   ["Copper Vein", 1, "Copper Ore"], ["Tin Vein", 65, "Tin Ore"], ["Silver Vein", 75, "Silver Ore"],
+   ["Iron Deposit", 125, "Iron Ore"], ["Gold Vein", 155, "Gold Ore"], ["Mithril Deposit", 175, "Mithril Ore"],
+   ["Truesilver Deposit", 230, "Truesilver Ore"], ["Small Thorium Vein", 245, "Thorium Ore"],
+   ["Rich Thorium Vein", 275, "Thorium Ore"]
+  ],
+  "brackets": [
+   {"from": 1, "to": 65, "nodes": ["Copper Vein"],
+    "Alliance": ["Darkshore", "Dun Morogh", "Loch Modan", "Elwynn Forest", "Westfall"],
+    "Horde": ["Durotar", "Mulgore", "Tirisfal Glades", "Silverpine Forest", "The Barrens"]},
+   {"from": 65, "to": 125, "nodes": ["Tin Vein", "Silver Vein"],
+    "Alliance": ["Redridge Mountains", "Duskwood"],
+    "Horde": ["Hillsbrad Foothills", "The Barrens"]},
+   {"from": 125, "to": 175, "nodes": ["Iron Deposit", "Gold Vein"],
+    "both": ["Alterac Mountains", "Arathi Highlands", "Badlands", "Hillsbrad Foothills", "Stranglethorn Vale",
+     "Thousand Needles"]},
+   {"from": 175, "to": 245, "nodes": ["Mithril Deposit", "Truesilver Deposit"],
+    "both": ["Badlands", "Burning Steppes", "Tanaris", "The Hinterlands"]},
+   {"from": 245, "to": 275, "nodes": ["Small Thorium Vein"],
+    "both": ["Eastern Plaguelands", "Silithus", "Un'Goro Crater", "Winterspring"]},
+   {"from": 275, "to": 300, "nodes": ["Small Thorium Vein", "Rich Thorium Vein"],
+    "both": ["Winterspring", "Un'Goro Crater", "Eastern Plaguelands", "Burning Steppes", "Azshara",
+     "Western Plaguelands"]}
+  ]
+ },
+ "Fishing": {
+  "fish": [
+   ["Raw Brilliant Smallfish", ""], ["Raw Longjaw Mud Snapper", ""], ["Raw Bristle Whisker Catfish", ""],
+   ["Raw Mithril Head Trout", ""], ["Raw Redgill", ""], ["Raw Rockscale Cod", ""], ["Raw Spotted Yellowtail", ""],
+   ["Darkclaw Lobster", ""],
+   ["Deviate Fish", "Oases in The Barrens, Wailing Caverns"],
+   ["Oily Blackmouth", "Coastal: Darkshore, Westfall, Wetlands, Silverpine Forest"],
+   ["Firefin Snapper", "Coastal: Wetlands, Stranglethorn Vale, Tanaris, Azshara"],
+   ["Stonescale Eel", "Coastal: Azshara, Stranglethorn Vale, Tanaris, Feralas"],
+   ["Raw Nightfin Snapper", "Inland: Feralas, The Hinterlands, Western Plaguelands, Moonglade"],
+   ["Raw Sunscale Salmon", "Inland: Feralas, The Hinterlands, Azshara"],
+   ["Raw Winter Squid", "Seasonal: Azshara, Tanaris, Feralas, The Hinterlands"],
+   ["Raw Spinefin Halibut", "Higher-level waters"],
+   ["Raw Plated Armorfish", "Eastern Plaguelands, Feralas, Winterspring, Silithus"]
+  ],
+  "brackets": [
+   {"from": 1, "to": 75, "both": ["Dun Morogh", "Durotar", "Elwynn Forest", "Mulgore", "Teldrassil", "Tirisfal Glades",
+    "Zephras Isle"]},
+   {"from": 75, "to": 150, "both": ["Darnassus", "Stormwind City", "Orgrimmar", "Undercity", "Thunder Bluff",
+    "The Barrens", "Darkshore", "Ironforge", "Loch Modan", "Silverpine Forest", "Westfall"]},
+   {"from": 150, "to": 225, "both": ["Dustwallow Marsh", "Alterac Mountains", "Arathi Highlands", "Desolace",
+    "Stranglethorn Vale", "Swamp of Sorrows", "Thousand Needles"]},
+   {"from": 225, "to": 300, "both": ["Felwood", "Feralas", "The Hinterlands", "Tanaris", "Un'Goro Crater",
+    "Western Plaguelands"]}
+  ]
+ }
+}
