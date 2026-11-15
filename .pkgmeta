@@ -1,5 +1,10 @@
 package-as: Craftinator
 
+# CurseForge shows this as the release's changelog.
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
 # Development files that are not part of the addon.
 ignore:
   - spec

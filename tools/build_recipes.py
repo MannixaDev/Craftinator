@@ -64,6 +64,22 @@ def item_faction(item):
     return None
 
 
+# Race bits of the original eight races (bit = race ID - 1). Later races are ignored.
+ALLIANCE_RACES = (1 << 0) | (1 << 2) | (1 << 3) | (1 << 6)   # Human, Dwarf, Night Elf, Gnome
+HORDE_RACES = (1 << 1) | (1 << 4) | (1 << 5) | (1 << 7)      # Orc, Undead, Tauren, Troll
+
+
+def race_faction(ability):
+    """Faction of a SkillLineAbility limited to one side's races (e.g. the two Faction Banners)."""
+    mask = int(ability.get("RaceMasks_0") or 0) & 0xFFFFFFFF
+    alliance, horde = mask & ALLIANCE_RACES, mask & HORDE_RACES
+    if alliance and not horde:
+        return "Alliance"
+    if horde and not alliance:
+        return "Horde"
+    return None
+
+
 def lua_string(text):
     return '"' + text.replace("\\", "\\\\").replace('"', '\\"') + '"'
 
@@ -252,7 +268,8 @@ def build_recipes(build, profession):
             source, learn = "trainer", None   # trainer skill requirement is server-side
 
         output_item = items[output["EffectItemType"]] if output else None   # enchants make no item
-        faction = (output_item and item_faction(output_item)) or (recipe_item and item_faction(recipe_item))
+        faction = (race_faction(row) or (output_item and item_faction(output_item))
+                   or (recipe_item and item_faction(recipe_item)))
         recipes.append({
             "spell": int(spell),
             "name": name,

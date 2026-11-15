@@ -21,7 +21,7 @@ ns.Data.Recipes["Tailoring"] = {
     output = { itemID = 279972, qty = 1 },
     reagents = { { itemID = 2996, qty = 1 }, { itemID = 2320, qty = 1 } },
     learn = 20, orange = 20, yellow = 20, green = 20, grey = 20,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = nil, recipeItem = nil, faction = "Horde",
     learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
     sourceNote = "Quest: Camping 101: Tailoring",
   },
@@ -30,7 +30,7 @@ ns.Data.Recipes["Tailoring"] = {
     output = { itemID = 279973, qty = 1 },
     reagents = { { itemID = 2996, qty = 1 }, { itemID = 2320, qty = 1 } },
     learn = 20, orange = 20, yellow = 20, green = 20, grey = 20,
-    source = "trainer", sourceCost = 90, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 90, recipeItem = nil, faction = "Alliance",
     sourceNote = "Quest: Camping 101: Tailoring",
   },
   [2963] = { -- 2x Linen Cloth

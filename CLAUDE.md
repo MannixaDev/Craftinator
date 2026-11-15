@@ -65,10 +65,13 @@ cmd //c luacheck.bat .      # must be 0 warnings
 
 ## Releasing
 
-1. Bump `## Version` in `Craftinator.toc`, commit, push to `main`.
+1. Bump `## Version` in `Craftinator.toc` and add a `## <version>` section to `CHANGELOG.md`
+   (plain language, for players), commit, push to `main`.
 2. Push a matching tag, e.g. `v0.6.2`.
 3. GitHub Actions (`.github/workflows/release.yml`) builds `Craftinator-<tag>.zip` and makes a
-   GitHub release. It fails if the tag and the `.toc` version differ.
+   GitHub release with that version's changelog section. It fails if the tag and the `.toc`
+   version differ, or the changelog has no section for it. CurseForge shows the whole
+   `CHANGELOG.md` (`manual-changelog` in `.pkgmeta`).
 4. A GitHub webhook tells CurseForge (project **1804469**, slug `craftinator`), which packages
    the tag itself. CurseForge is set to package **tagged commits only**. It reads the game
    version (shown as 1.60.1) from the `.toc`.
@@ -137,7 +140,11 @@ These work, but the owner never explicitly agreed to them. Raise them if they be
 - Never tested: the panel on a Horde character (its data has been imported); a long session with
   BugSack and BugGrabber.
 - Recorded vendors (pins, "seen for sale" lines) have not been checked in game yet.
-- Faction-specific recipes are not flagged in the data (`faction` is always nil).
+- Faction-specific recipes are mostly not flagged. The client marks only the two Faction Banners
+  (`SkillLineAbility.RaceMasks`); recipe items have no race limits, and Zockify only mentions
+  factions in prose (which vendors sell a manual, a Horde quest reward). Checked 15 Nov 2026.
+  Recorded vendor sightings are the likely way forward, but seeing a recipe at one side's vendor
+  does not prove the other side lacks it.
 
 ## What is likely to come next
 
