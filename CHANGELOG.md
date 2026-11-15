@@ -5,7 +5,8 @@
 - New: Herbalism, Mining and Fishing get their own view in the panel. It lists the zones to go to
   at your skill, what you can gather there (colour shows how well it still levels you), and what
   each item sells for, raw or crafted into something (a bar, a cooked fish, a potion).
-  Zones and skill levels come from Zockify's guides; the fishing list is still rough.
+  Zones and skill levels come from Zockify's guides. For fish, the skill is a rough guess from
+  their cooking recipes; fish for later skill bands are listed as "later".
 - Thunder Bluff recorded: Leatherworking trainers (Tarn teaches up to 150), the First Aid
   trainer and the leatherworking supplies vendor, so Horde "train here" hints point to the
   right place.

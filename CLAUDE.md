@@ -128,6 +128,9 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
   zones), fish per zone and the skill each fishing zone needs. Mining's smelting recipes
   (`Recipes_Mining.lua`) feed only the "smelt it" values; the panel never plans a Mining route.
   Node colours assume the Classic rule (yellow +25, green +50, grey +100); not checked on Forever.
+  Fish skill is guessed (owner chose this, 15 Nov 2026): the lowest start of a Cooking recipe using
+  the fish, else the first fishing band whose zones match its location; fish from a later band are
+  listed as "later" (`Gathering.FishSkill`).
 
 ## Decisions made without sign-off
 

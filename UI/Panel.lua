@@ -95,7 +95,11 @@ local function showGatherTooltip(row)
   local colour = COLOURS[item.difficulty] or COLOURS.white
   GameTooltip:SetOwner(row, "ANCHOR_RIGHT")
   GameTooltip:AddLine(ns.Inventory.ItemName(item.itemID), colour[1], colour[2], colour[3])
-  if item.skill then
+  if item.estimated then
+    GameTooltip:AddLine(item.skill and ("Probably caught from about skill %d. This is a guess from its cooking"
+      .. " recipe or where it is found."):format(item.skill) or "The skill needed to catch it is not known.",
+      0.6, 0.6, 0.6, true)
+  elseif item.skill then
     GameTooltip:AddLine(("%s: needs skill %d."):format(item.name, item.skill), 1, 1, 1)
   end
   if item.where then GameTooltip:AddLine("Where: " .. item.where, 1, 1, 1, true) end
@@ -122,7 +126,9 @@ local function initGatherRow(row, entry)
   local colour = COLOURS[item.difficulty] or COLOURS.white
   row.icon:SetTexture(ns.Inventory.ItemIcon(item.itemID) or "Interface\\Icons\\INV_Misc_QuestionMark")
   local name = ns.Inventory.ItemName(item.itemID)
-  if item.skill then
+  if item.estimated then
+    if item.difficulty == "red" then name = ("%s  (later, about %d)"):format(name, item.skill) end
+  elseif item.skill then
     name = item.difficulty == "red" and ("%s  (at %d)"):format(name, item.skill) or ("%d  %s"):format(item.skill, name)
   end
   row.title:SetText(name)

@@ -80,6 +80,26 @@ function Gathering.Uses(itemID, index, priceOf)
   return uses
 end
 
+--- A rough skill from which a fish can be caught. Nothing in the data says, so it is guessed:
+-- the lowest skill at which a Cooking recipe using it starts, or else the first fishing band
+-- whose zones appear in where the fish is caught. Returns nil when neither gives a hint.
+function Gathering.FishSkill(fish, data, index)
+  local best
+  for _, use in ipairs(index[fish.itemID] or {}) do
+    if use.profession == "Cooking" then
+      local start = use.recipe.orange or use.recipe.learn
+      if start and (not best or start < best) then best = start end
+    end
+  end
+  if best or not fish.where then return best end
+  for _, bracket in ipairs(data.brackets) do
+    for _, zone in ipairs(bracket.both or {}) do
+      if fish.where:find(zone, 1, true) then return bracket.from end
+    end
+  end
+  return nil
+end
+
 --- Entries for the gathering list.
 -- opts: { profession, data, skill, faction, priceOf, index }
 -- Herbalism and Mining list the bracket's nodes; Fishing lists every known fish.
@@ -105,8 +125,11 @@ function Gathering.List(opts)
       end
     end
   else
+    -- Fish guessed to belong to a later band than yours are listed as "later".
     for _, fish in ipairs(data.fish or {}) do
-      add({ itemID = fish.itemID, where = fish.where })
+      local skill = Gathering.FishSkill(fish, data, opts.index)
+      add({ itemID = fish.itemID, where = fish.where, skill = skill, estimated = true,
+        difficulty = skill and skill >= bracket.to and bracket.to < 300 and "red" or nil })
     end
   end
   -- What you can gather now first, most valuable first; locked nodes after, by skill.

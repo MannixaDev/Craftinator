@@ -71,13 +71,24 @@ describe("Gathering", function()
     assert.equals("red", entries[2].difficulty)
   end)
 
-  it("lists every fish when there are no nodes", function()
-    local fishing = { fish = { { itemID = 7 }, { itemID = 8, where = "Coastal" } }, brackets = { { from = 1, to = 75 } } }
-    local prices = { [7] = 5, [8] = 9 }
+  it("lists every fish, guessing later ones from cooking recipes or zones", function()
+    local fishing = {
+      fish = { { itemID = 7 }, { itemID = 8, where = "Coastal: Westfall" }, { itemID = 9 }, { itemID = 10 } },
+      brackets = { { from = 1, to = 75, both = { "Elwynn Forest" } }, { from = 75, to = 150, both = { "Westfall" } } },
+    }
+    local index = G.UsesIndex({ Cooking = {
+      [1] = { output = { itemID = 70 }, reagents = { { itemID = 7, qty = 1 } }, orange = 1 },
+      [2] = { output = { itemID = 90 }, reagents = { { itemID = 9, qty = 1 } }, orange = 225 },
+    } })
+    local prices = { [7] = 5, [8] = 9, [9] = 50, [10] = 1 }
     local entries = G.List({ data = fishing, skill = 10, faction = "Horde",
-      priceOf = function(id) return prices[id] end, index = {} })
-    assert.equals(8, entries[1].itemID)
-    assert.equals("Coastal", entries[1].where)
-    assert.equals(7, entries[2].itemID)
+      priceOf = function(id) return prices[id] end, index = index })
+    assert.equals(7, entries[1].itemID)  -- catchable now: cooked at 1
+    assert.equals(10, entries[2].itemID) -- no hint at all: shown as catchable
+    assert.equals(8, entries[3].itemID)  -- later: found in a 75+ zone
+    assert.equals(75, entries[3].skill)
+    assert.equals("Coastal: Westfall", entries[3].where)
+    assert.equals(9, entries[4].itemID)  -- later: cooked from 225
+    assert.equals("red", entries[4].difficulty)
   end)
 end)
