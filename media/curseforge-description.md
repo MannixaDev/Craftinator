@@ -16,7 +16,9 @@ Craftinator is a profession levelling planner for WoW Forever. It docks a panel 
 
 **Recipe filters:** trainer, vendor and dropped recipes can each be switched on or off.
 
-Professions covered: Alchemy, Blacksmithing, Cooking, Enchanting, Engineering, First Aid, Leatherworking and Tailoring.
+**Gathering:** for Herbalism, Mining and Fishing the panel lists where to go at your skill, what you can gather there, and what each item sells for raw or crafted (a bar, a cooked fish, a potion).
+
+Professions covered: Alchemy, Blacksmithing, Cooking, Enchanting, Engineering, First Aid, Leatherworking and Tailoring, plus Herbalism, Mining and Fishing for gathering.
 
 ## How to use it
 
@@ -26,11 +28,15 @@ Auctionator is optional but strongly recommended: without it only vendor prices 
 
 ## Known limits
 
-This is an early release, tested mostly on Alliance. The skill needed to learn some trainer recipes is not in the game files, so a few are estimates (the tooltip says when). Smelting is not covered yet.
+This is an early release, tested on Alliance and Horde. The skill needed to learn some trainer recipes is not in the game files, so a few are estimates (the tooltip says when). The skill each fish needs is a rough guess, and Skinning is not covered yet.
 
 ## Helping with data
 
 The addon notes what profession trainers teach and what supply vendors sell when you open their windows. Nothing about your character is recorded beyond its faction, and it can be switched off in the options. Type /ci export to copy that data and share it on the GitHub page, which is also the place for bug reports: https://github.com/MannixaDev/Craftinator
+
+## Made with AI help
+
+I develop Craftinator with help from AI: much of the code was written by Claude, an AI assistant made by Anthropic, working under my direction. I decide what goes in and test it in game.
 
 ## Credits
 

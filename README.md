@@ -13,9 +13,11 @@ auction data from your realm, so you can pick the cheapest or the quickest way t
 - **Shopping list:** hover the footer to see what is left to buy; one click sends it to Auctionator.
 - **Where to go:** names the trainer and supply vendors in your city and places a map pin on the trainer (TomTom if installed).
 - **Recipe filters:** trainer, vendor and dropped recipes can each be switched on or off.
+- **Gathering:** for Herbalism, Mining and Fishing, where to go at your skill, what you can gather there,
+  and what each item sells for raw or crafted.
 
 Professions covered: Alchemy, Blacksmithing, Cooking, Enchanting, Engineering, First Aid,
-Leatherworking and Tailoring.
+Leatherworking and Tailoring, plus Herbalism, Mining and Fishing for gathering.
 
 ## Install
 
@@ -41,13 +43,13 @@ Open a profession and the panel appears beside it. Click a step to select that r
 
 ## Known limits
 
-- Tested on an Alliance character only so far.
+- Tested on Alliance and Horde characters.
 - The skill needed to learn some trainer recipes is not in the game files. Where no source
   has it, the addon assumes the recipe's yellow threshold and says so in the tooltip.
   Visiting a trainer records the real values (see Helping with data).
-- Trainer positions are the Classic ones; most have not been checked on Forever.
-- Supply vendors are named but cannot be pinned (no position data).
-- Smelting (Mining) is not covered.
+- Trainer positions are the Classic ones until a player records them; many are still unchecked.
+- Supply vendors can only be pinned once a player has recorded them.
+- Skinning is not covered. The skill each fish needs is a rough guess from its cooking recipe.
 
 ## Helping with data
 
@@ -58,6 +60,11 @@ is recorded beyond its faction, and it can be switched off in `/ci config`.
 To share it: type `/ci export`, press Ctrl+C, and paste the text into a
 [Submit data](https://github.com/MannixaDev/Craftinator/issues/new/choose) issue.
 Horde trainers and vendors are the biggest gap.
+
+## Made with AI help
+
+I develop Craftinator with help from AI: much of the code was written by Claude, an AI assistant made by
+Anthropic, working under my direction. I decide what goes in and test it in game.
 
 ## Data and credits
 
