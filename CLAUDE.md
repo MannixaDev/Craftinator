@@ -131,6 +131,10 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
   Fish skill is guessed (owner chose this, 15 Nov 2026): the lowest start of a Cooking recipe using
   the fish, else the first fishing band whose zones match its location; fish from a later band are
   listed as "later" (`Gathering.FishSkill`).
+- Gathering cap hint (within 5 of the cap): capital Herbalism/Mining trainers (to Artisan) and Fishing
+  trainers (to 150) in `Data/NPCs.lua`, positions from warcraft.wiki.gg, unchecked. Fishing 150 is the
+  book from Old Man Heming (Booty Bay; the owner bought it in game, 16 Nov 2026), 225 is Nat Pagle's quest (`RankBooks.Fishing`, `quest` entry);
+  wow-professions.com had not tested the quest on Forever.
 
 ## Decisions made without sign-off
 

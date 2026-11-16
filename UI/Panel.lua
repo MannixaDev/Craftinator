@@ -488,7 +488,8 @@ local function locationLine(plan)
       or (". %d point%s from your cap."):format(left, left == 1 and "" or "s"))
   end
   local shops, pinnable = {}, nil
-  for _, vendor in ipairs(ns.Navigation.Supplies(plan.profession, faction, location.mapID)) do
+  local vendors = plan.kind == "gathering" and {} or ns.Navigation.Supplies(plan.profession, faction, location.mapID)
+  for _, vendor in ipairs(vendors) do
     if #shops < 2 then shops[#shops + 1] = vendor.name end
     if vendor.x and not pinnable then pinnable = vendor end
   end
@@ -513,6 +514,10 @@ local function locationLine(plan)
   -- No listed trainer goes past this cap: some ranks come from a book instead.
   local book = ns.Data.RankBooks and ns.Data.RankBooks[plan.profession] and ns.Data.RankBooks[plan.profession][cap]
   local seller = book and book[faction]
+  if seller and book.quest then
+    return ("%s\nPast %d: do the quest \"%s\" from %s in %s (level %d).%s"):format(where, cap, book.quest,
+      seller[1], seller[2], book.needsLevel or 1, supplies), nil
+  end
   if seller then
     return ("%s\nPast %d: buy %s (%s) from %s in %s.%s"):format(where, cap, book.item,
       Pricing.FormatMoney(book.cost), seller[1], seller[2], supplies), nil
@@ -597,9 +602,15 @@ function Panel.RefreshGathering(plan)
   local text = ("Where to go for skill %d-%d:\n%s."):format(plan.bracket.from, plan.bracket.to,
     #zones > 0 and table.concat(zones, ", ") or "no zones listed")
   if inZone then text = text .. "\nYou are in one of them." end
+  -- Near the cap, how to raise it comes first (trainer, book or quest).
+  if plan.target - plan.skill <= 5 and plan.target < 300 then
+    local capText, npc = locationLine(plan)
+    text = capText .. "\n" .. text
+    frame.location.npc = npc
+  end
   frame.location.text:SetText(text)
   -- Fit the zone box to its text and start the list just below it.
-  local height = math.min(96, math.max(30, math.ceil(frame.location.text:GetStringHeight()) + 4))
+  local height = math.min(120, math.max(30, math.ceil(frame.location.text:GetStringHeight()) + 4))
   frame.location:SetHeight(height)
   frame.scrollBox:SetPoint("TOPLEFT", 12, -68 - height - 6)
 

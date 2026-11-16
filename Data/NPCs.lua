@@ -38,6 +38,14 @@ ns.Data.RankBooks = {
     [150] = { item = "Expert First Aid - Under Wraps", itemID = 16084, cost = 10000, needsSkill = 125,
               Alliance = { "Deneb Walker", "Arathi Highlands" }, Horde = { "Balai Lok'Wein", "Dustwallow Marsh" } },
   },
+  -- Fishing trainers stop at Journeyman (wow-professions.com's Forever guide). Expert is a book
+  -- sold in Booty Bay; Artisan is Nat Pagle's quest, which that guide had not yet tested on Forever.
+  Fishing = {
+    [150] = { item = "Expert Fishing - The Bass and You", itemID = 16083, cost = 10000, needsSkill = 125,
+              Alliance = { "Old Man Heming", "Stranglethorn Vale" }, Horde = { "Old Man Heming", "Stranglethorn Vale" } },
+    [225] = { quest = "Nat Pagle, Angler Extreme", needsSkill = 225, needsLevel = 35,
+              Alliance = { "Nat Pagle", "Dustwallow Marsh" }, Horde = { "Nat Pagle", "Dustwallow Marsh" } },
+  },
 }
 
 -- Each entry: name, rank letter, city code, x, y (map percentages), and optionally the skill
@@ -122,6 +130,29 @@ trainers("First Aid", {
   { "Dannelor", "T", "DN", 51.7, 12.5 },
   { "Arnok", "T", "OG", 34.3, 84.5 }, { "Pand Stonebinder", "T", "TB", 29.5, 21.6 },
   { "Mary Edras", "T", "UC", 73.4, 55.8 },
+})
+
+-- Gathering trainers. Names: Zockify and wow-professions.com Forever guides; positions:
+-- warcraft.wiki.gg (unchecked on Forever). City trainers teach Herbalism and Mining to Artisan.
+trainers("Herbalism", {
+  { "Tannysa", "A", "SW", 54.5, 84.0 }, { "Reyna Stonebranch", "A", "IF", 55.7, 58.8 },
+  { "Firodren Mooncaller", "A", "DN", 48.0, 68.4 },
+  { "Jandi", "A", "OG", 34.7, 63.1 }, { "Komin Winterhoof", "A", "TB", 49.9, 39.9 },
+  { "Martha Alliestar", "A", "UC", 54.2, 49.8 },
+})
+
+trainers("Mining", {
+  { "Gelman Stonehand", "A", "SW", 59.2, 37.7 }, { "Geofram Bouldertoe", "A", "IF", 53.0, 26.0 },
+  { "Foreman Pernic", "A", "DN", 50.6, 33.8 },
+  { "Makaru", "A", "OG", 73.1, 26.5 }, { "Brek Stonehoof", "A", "TB", 34.0, 57.0 },
+  { "Brom Killian", "A", "UC", 55.8, 37.0 },
+})
+
+trainers("Fishing", {
+  { "Arnold Leland", "J", "SW", 55.1, 69.5 }, { "Grimnur Stonebrand", "J", "IF", 48.5, 6.5 },
+  { "Astaia", "J", "DN", 47.6, 56.7 },
+  { "Lumak", "J", "OG", 66.6, 41.6 }, { "Kah Mistrunner", "J", "TB", 56.1, 47.0 },
+  { "Armand Cromwell", "J", "UC", 80.9, 31.2 },
 })
 
 -- Each entry: name, title, city code, profession (nil = general trade goods).
