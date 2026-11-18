@@ -360,6 +360,16 @@ local function create()
     end
   end)
 
+  -- The box can cut its text off: hovering shows all of it.
+  frame.location:SetScript("OnEnter", function(self)
+    local full = self.text:GetText()
+    if not full or full == "" then return end
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(full, 1, 1, 1, true)
+    GameTooltip:Show()
+  end)
+  frame.location:SetScript("OnLeave", function() GameTooltip:Hide() end)
+
   -- Mode buttons: Cheapest / Balanced / Fastest
   frame.modeButtons = {}
   local modes = { { "cheapest", "Cheapest" }, { "balanced", "Balanced" }, { "fastest", "Fastest" } }
@@ -555,8 +565,8 @@ local function locationLine(plan)
   local book = ns.Data.RankBooks and ns.Data.RankBooks[plan.profession] and ns.Data.RankBooks[plan.profession][cap]
   local seller = book and book[faction]
   if seller and book.quest then
-    return ("%s\nPast %d: do the quest \"%s\" from %s in %s (level %d).%s"):format(where, cap, book.quest,
-      seller[1], seller[2], book.needsLevel or 1, supplies), nil
+    return ("%s\nPast %d: do the quest \"%s\" from %s in %s (level %d).%s%s"):format(where, cap, book.quest,
+      seller[1], seller[2], book.needsLevel or 1, book.note and (" " .. book.note) or "", supplies), nil
   end
   if seller then
     return ("%s\nPast %d: buy %s (%s) from %s in %s.%s"):format(where, cap, book.item,
@@ -605,7 +615,9 @@ function Panel.Refresh()
   setRows(entries)
 
   if plan.skill >= plan.target then
-    frame.message:SetText(("You are at your skill cap (%d). The line above says how to raise it."):format(plan.target))
+    -- The box above is too small for the whole hint, so repeat it here (without the "where you are" line).
+    local advice = text:match("^[^\n]*\n(.*)$") or ""
+    frame.message:SetText(("You are at your skill cap (%d).\n\n%s"):format(plan.target, advice))
   elseif #route.steps == 0 then
     frame.message:SetText("No usable recipe found for your current skill.")
   else

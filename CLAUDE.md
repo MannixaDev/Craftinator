@@ -121,7 +121,9 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
   so the "train here" hint can be wrong until that trainer is recorded.
 - Zockify has not been asked for permission to use its data. The owner knows; it is credited in
   the README and on CurseForge.
-- Not covered: how Cooking and First Aid go past 225, Poisons, camping recipes, Skinning.
+- Cooking and First Aid past 225 are quests in `RankBooks` (Clamlette Surprise from Dirge Quikcleave in
+  Tanaris; Triage), from web guides, unchecked in game.
+- Not covered: Poisons, camping recipes, Skinning.
 - Gathering view (Herbalism, Mining, Fishing; owner chose docked, web data only, raw vs crafted):
   herbs, veins, zones per skill band and a partial fish list are transcribed from Zockify's Forever
   guides. Gaps: the three new Forever herbs, Silver/Gold/Truesilver zones (shown with the band's

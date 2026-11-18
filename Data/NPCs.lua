@@ -33,10 +33,18 @@ ns.Data.RankBooks = {
   Cooking = {
     [150] = { item = "Expert Cookbook", itemID = 16072, cost = 10000, needsSkill = 125,
               Alliance = { "Shandrina", "Ashenvale" }, Horde = { "Wulan", "Desolace" } },
+    -- Artisan: a quest in the Gadgetzan inn (wow-professions.com, icy-veins Forever guides; unchecked in game).
+    [225] = { quest = "Clamlette Surprise", needsSkill = 225, needsLevel = 35,
+              note = "Bring 12 Giant Eggs, 10 Zesty Clam Meat and 20 Alterac Swiss.",
+              Alliance = { "Dirge Quikcleave", "Tanaris" }, Horde = { "Dirge Quikcleave", "Tanaris" } },
   },
   ["First Aid"] = {
     [150] = { item = "Expert First Aid - Under Wraps", itemID = 16084, cost = 10000, needsSkill = 125,
               Alliance = { "Deneb Walker", "Arathi Highlands" }, Horde = { "Balai Lok'Wein", "Dustwallow Marsh" } },
+    -- Artisan: the Triage quest (Classic givers; the Forever guide had not tested it).
+    [225] = { quest = "Triage", needsSkill = 225, needsLevel = 35,
+              Alliance = { "Doctor Gustaf VanHowzen", "Dustwallow Marsh" },
+              Horde = { "Doctor Gregory Victor", "Arathi Highlands" } },
   },
   -- Fishing trainers stop at Journeyman (wow-professions.com's Forever guide). Expert is a book
   -- sold in Booty Bay; Artisan is Nat Pagle's quest (level 35). Both confirmed in game, Nov 2026.
