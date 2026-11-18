@@ -39,7 +39,7 @@ ns.Data.RankBooks = {
               Alliance = { "Deneb Walker", "Arathi Highlands" }, Horde = { "Balai Lok'Wein", "Dustwallow Marsh" } },
   },
   -- Fishing trainers stop at Journeyman (wow-professions.com's Forever guide). Expert is a book
-  -- sold in Booty Bay; Artisan is Nat Pagle's quest, which that guide had not yet tested on Forever.
+  -- sold in Booty Bay; Artisan is Nat Pagle's quest (level 35). Both confirmed in game, Nov 2026.
   Fishing = {
     [150] = { item = "Expert Fishing - The Bass and You", itemID = 16083, cost = 10000, needsSkill = 125,
               Alliance = { "Old Man Heming", "Stranglethorn Vale" }, Horde = { "Old Man Heming", "Stranglethorn Vale" } },

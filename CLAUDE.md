@@ -133,8 +133,8 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
   listed as "later" (`Gathering.FishSkill`).
 - Gathering cap hint (within 5 of the cap): capital Herbalism/Mining trainers (to Artisan) and Fishing
   trainers (to 150) in `Data/NPCs.lua`, positions from warcraft.wiki.gg, unchecked. Fishing 150 is the
-  book from Old Man Heming (Booty Bay; the owner bought it in game, 16 Nov 2026), 225 is Nat Pagle's quest (`RankBooks.Fishing`, `quest` entry);
-  wow-professions.com had not tested the quest on Forever.
+  book from Old Man Heming (Booty Bay; the owner bought it in game, 16 Nov 2026), 225 is Nat Pagle's quest (`RankBooks.Fishing`, `quest` entry;
+  the owner did it at level 35 and reached cap 300, Nov 2026). Both shown correctly in game.
 
 ## Decisions made without sign-off
 
