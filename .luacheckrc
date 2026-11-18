@@ -17,7 +17,7 @@ globals = {
 -- WoW API and other addons' globals the addon reads. Add to this as adapters are written.
 read_globals = {
   "CreateFrame", "GetBuildInfo", "WOW_PROJECT_ID", "WOW_PROJECT_CAMELOT", "date",
-  "UnitFactionGroup", "C_Map", "GetZoneText", "GetSubZoneText", "GetRealZoneText",
+  "UnitFactionGroup", "C_Map", "GetZoneText", "GetTime", "GetSubZoneText", "GetRealZoneText",
   "C_TradeSkillUI", "Enum",
   "GetNumTradeSkills", "GetTradeSkillInfo", "GetTradeSkillLine", "GetProfessions", "GetNumSkillLines",
   "Auctionator", "TSM_API",

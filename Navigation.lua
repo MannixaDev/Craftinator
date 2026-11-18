@@ -138,6 +138,23 @@ function Navigation.BestTrainer(trainers, cap)
   return best
 end
 
+--- The nearest recorded station of a kind (see Capture.lua) on the player's continent.
+-- Returns the record and its distance in yards, or nil.
+function Navigation.NearestStation(station)
+  local list = CraftinatorDB and CraftinatorDB.stations and CraftinatorDB.stations[station]
+  if not list or not ns.Capture then return nil end
+  local instance, wx, wy = ns.Capture.WorldPosition()
+  if not instance then return nil end
+  local best, bestDistance
+  for _, seen in ipairs(list) do
+    if seen.instance == instance then
+      local distance = math.sqrt((seen.wx - wx) ^ 2 + (seen.wy - wy) ^ 2)
+      if not bestDistance or distance < bestDistance then best, bestDistance = seen, distance end
+    end
+  end
+  return best, bestDistance
+end
+
 function Navigation.CityName(mapID)
   local info = C_Map.GetMapInfo(mapID)
   return info and info.name or (ns.Data.Cities and ns.Data.Cities[mapID]) or ("map " .. tostring(mapID))

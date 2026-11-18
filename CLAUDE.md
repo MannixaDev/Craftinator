@@ -136,6 +136,13 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
   book from Old Man Heming (Booty Bay; the owner bought it in game, 16 Nov 2026), 225 is Nat Pagle's quest (`RankBooks.Fishing`, `quest` entry;
   the owner did it at level 35 and reached cap 300, Nov 2026). Both shown correctly in game.
 
+- Vendor recipes: the tooltip lists Zockify's vendors with zones (`vendors` in the recipe data). The route
+  plans with the vendor price; the auction price is only shown (owner chose this, 18 Nov 2026).
+- Cooking Fire: no web source lists fire positions, so the tooltip suggests a Basic Campfire and notes that
+  inns and Cooking trainers usually have one. Stations are recorded where you craft (owner chose this,
+  18 Nov 2026): `CraftinatorDB.stations`, skipped for 5 min after making your own campfire; the tooltip
+  names the nearest. Account-local only, not in `/ci export`. Uses `C_Map.GetWorldPosFromMapPos` (works on Forever).
+
 ## Decisions made without sign-off
 
 These work, but the owner never explicitly agreed to them. Raise them if they become relevant.

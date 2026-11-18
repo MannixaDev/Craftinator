@@ -113,6 +113,58 @@ ns.RegisterEvent("MERCHANT_SHOW", function()
   end
 end)
 
+-- Craft stations -------------------------------------------------------------------
+-- No source lists where cooking fires and other stations stand, so each time you craft a
+-- recipe that needs one, where you stood is kept (in CraftinatorDB.stations, this account only).
+-- Crafting soon after making your own campfire is skipped: that fire burns out.
+
+local stationOf     -- [spellID] = station name, for every recipe that needs one
+local campfireSpell -- [spellID] = true for the Basic Campfire recipes
+local lastCampfire = -math.huge
+local SAME_SPOT = 15 -- yards: a closer record is the same station
+local OWN_FIRE = 300 -- seconds after making a campfire during which crafting is not recorded
+
+local function stationIndex()
+  if stationOf then return stationOf end
+  stationOf, campfireSpell = {}, {}
+  for _, recipes in pairs(ns.Data.Recipes) do
+    for spellID, recipe in pairs(recipes) do
+      if recipe.station then stationOf[spellID] = recipe.station end
+      if recipe.name == "Basic Campfire" then campfireSpell[spellID] = true end
+    end
+  end
+  return stationOf
+end
+
+--- Where the player stands in world terms: instance, x, y (yards), or nil.
+function Capture.WorldPosition()
+  local mapID = C_Map.GetBestMapForUnit("player")
+  local position = mapID and C_Map.GetPlayerMapPosition(mapID, "player")
+  if not (position and C_Map.GetWorldPosFromMapPos) then return nil end
+  local ok, instance, world = pcall(C_Map.GetWorldPosFromMapPos, mapID, position)
+  if not (ok and instance and world) then return nil end
+  return instance, world.x, world.y, mapID, position
+end
+
+ns.RegisterEvent("UNIT_SPELLCAST_SUCCEEDED", function(unit, _, spellID)
+  if unit ~= "player" or not (CraftinatorDB and CraftinatorDB.capture) then return end
+  local station = stationIndex()[spellID]
+  if campfireSpell[spellID] then lastCampfire = GetTime() return end
+  if not station or GetTime() - lastCampfire < OWN_FIRE then return end
+  local instance, wx, wy, mapID, position = Capture.WorldPosition()
+  if not instance then return end
+  CraftinatorDB.stations = CraftinatorDB.stations or {}
+  local list = CraftinatorDB.stations[station] or {}
+  CraftinatorDB.stations[station] = list
+  for _, seen in ipairs(list) do
+    if seen.instance == instance and (seen.wx - wx) ^ 2 + (seen.wy - wy) ^ 2 < SAME_SPOT ^ 2 then return end
+  end
+  list[#list + 1] = {
+    instance = instance, wx = wx, wy = wy, mapID = mapID, x = position.x, y = position.y,
+    zone = GetZoneText(), subzone = GetSubZoneText(),
+  }
+end)
+
 -- Export -----------------------------------------------------------------------
 -- One record per line, fields separated by ";". Read by tools/import_scans.py.
 

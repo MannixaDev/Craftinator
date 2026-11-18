@@ -55,6 +55,19 @@ local function showStepTooltip(row)
   end
   if recipe.station then
     GameTooltip:AddLine("Craft at: " .. recipe.station, 1, 0.82, 0)
+    local seen, distance = ns.Navigation.NearestStation(recipe.station)
+    if seen then
+      local place = (seen.subzone and seen.subzone ~= "" and seen.subzone ~= seen.zone)
+        and (seen.subzone .. ", " .. seen.zone) or seen.zone
+      GameTooltip:AddLine(distance < 20 and "You crafted here before: there is one beside you."
+        or ("Nearest you have used: %s, about %d yards away."):format(place, math.floor(distance + 0.5)), 1, 1, 1, true)
+    end
+    if recipe.station == "Cooking Fire" then
+      -- Simple Wood 4470, Flint and Tinder 4471.
+      GameTooltip:AddLine(("No fire nearby? Make a Basic Campfire (Camping section): Flint and Tinder%s"
+        .. " and Simple Wood (you have %d). In towns, inns and Cooking trainers usually have a fire."):format(
+        ns.Inventory.Count(4471) > 0 and " (you have it)" or "", ns.Inventory.Count(4470)), 0.6, 0.6, 0.6, true)
+    end
   end
   for _, itemID in ipairs(recipe.tools or {}) do
     local have = ns.Inventory.Count(itemID) > 0
@@ -72,6 +85,13 @@ local function showStepTooltip(row)
     GameTooltip:AddLine(("Not learned yet. Source: %s"):format(how), 1, 0.82, 0, true)
     if step.oneOffCost > 0 then
       GameTooltip:AddLine("Recipe cost: " .. Pricing.FormatMoney(step.oneOffCost), 1, 1, 1)
+    end
+    -- The route plans with the vendor price; the auction house can be cheaper.
+    local auction = recipe.source == "vendor" and recipe.recipeItem and plan.book.PriceOf(recipe.recipeItem)
+    if auction then
+      local cheaper = recipe.sourceCost and auction < recipe.sourceCost
+      GameTooltip:AddLine(("On the auction house: %s%s"):format(Pricing.FormatMoney(auction),
+        cheaper and " (cheaper than the vendor)" or ""), cheaper and 0.25 or 1, 1, cheaper and 0.25 or 1)
     end
     local vendor, price, limited = nil, nil, false
     if recipe.recipeItem then vendor, price, limited = ns.Navigation.VendorFor(recipe.recipeItem, ns.Player.Faction()) end
