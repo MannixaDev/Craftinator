@@ -564,13 +564,22 @@ local function locationLine(plan)
   -- No listed trainer goes past this cap: some ranks come from a book instead.
   local book = ns.Data.RankBooks and ns.Data.RankBooks[plan.profession] and ns.Data.RankBooks[plan.profession][cap]
   local seller = book and book[faction]
+  -- Who to visit, for the click-to-pin: a position recorded in game first, then the data's own.
+  local target
+  if seller then
+    target = { name = seller[1], mapID = seller[3], x = seller[4] and seller[4] / 100, y = seller[5] and seller[5] / 100 }
+    for _, recorded in ipairs(ns.Data.NPCs) do
+      if recorded.name == seller[1] and recorded.x then target = recorded break end
+    end
+  end
+  local pin = target and target.x and " Click for a map pin." or ""
   if seller and book.quest then
-    return ("%s\nPast %d: do the quest \"%s\" from %s in %s (level %d).%s%s"):format(where, cap, book.quest,
-      seller[1], seller[2], book.needsLevel or 1, book.note and (" " .. book.note) or "", supplies), nil
+    return ("%s\nPast %d: do the quest \"%s\" from %s in %s (level %d).%s%s%s"):format(where, cap, book.quest,
+      seller[1], seller[2], book.needsLevel or 1, book.note and (" " .. book.note) or "", pin, supplies), target
   end
   if seller then
-    return ("%s\nPast %d: buy %s (%s) from %s in %s.%s"):format(where, cap, book.item,
-      Pricing.FormatMoney(book.cost), seller[1], seller[2], supplies), nil
+    return ("%s\nPast %d: buy %s (%s) from %s in %s.%s%s"):format(where, cap, book.item,
+      Pricing.FormatMoney(book.cost), seller[1], seller[2], pin, supplies), target
   end
   return ("%s\nNo trainer is known to raise your cap past %d.%s"):format(where, cap, supplies), nil
 end
@@ -616,7 +625,8 @@ function Panel.Refresh()
 
   if plan.skill >= plan.target then
     -- The box above is too small for the whole hint, so repeat it here (without the "where you are" line).
-    local advice = text:match("^[^\n]*\n(.*)$") or ""
+    local advice = (text:match("^[^\n]*\n(.*)$") or ""):gsub("Click for", "Click the box at the top for")
+      :gsub("Right%-click to pin", "Right-click the box at the top to pin")
     frame.message:SetText(("You are at your skill cap (%d).\n\n%s"):format(plan.target, advice))
   elseif #route.steps == 0 then
     frame.message:SetText("No usable recipe found for your current skill.")

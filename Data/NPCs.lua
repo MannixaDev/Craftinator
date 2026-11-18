@@ -29,30 +29,37 @@ ns.Data.NPCs = {}
 
 -- Ranks that are learned from a book, not a trainer: [profession][cap the book raises you from].
 -- Sellers as listed for Forever by foreverdb.net ("seen in WoW Forever"); cost in copper.
+-- Each seller: name, zone, map ID, and x, y (map percentages) where a source gives them:
+-- Dirge Quikcleave from wow-professions.com, Nat Pagle and Doctor Gregory Victor from
+-- warcraft.wiki.gg. A position recorded in game for the same name is used first.
 ns.Data.RankBooks = {
   Cooking = {
     [150] = { item = "Expert Cookbook", itemID = 16072, cost = 10000, needsSkill = 125,
-              Alliance = { "Shandrina", "Ashenvale" }, Horde = { "Wulan", "Desolace" } },
+              Alliance = { "Shandrina", "Ashenvale", 1440 }, Horde = { "Wulan", "Desolace", 1443 } },
     -- Artisan: a quest in the Gadgetzan inn (wow-professions.com, icy-veins Forever guides; unchecked in game).
     [225] = { quest = "Clamlette Surprise", needsSkill = 225, needsLevel = 35,
               note = "Bring 12 Giant Eggs, 10 Zesty Clam Meat and 20 Alterac Swiss.",
-              Alliance = { "Dirge Quikcleave", "Tanaris" }, Horde = { "Dirge Quikcleave", "Tanaris" } },
+              Alliance = { "Dirge Quikcleave", "Tanaris", 1446, 52.6, 28.0 },
+              Horde = { "Dirge Quikcleave", "Tanaris", 1446, 52.6, 28.0 } },
   },
   ["First Aid"] = {
     [150] = { item = "Expert First Aid - Under Wraps", itemID = 16084, cost = 10000, needsSkill = 125,
-              Alliance = { "Deneb Walker", "Arathi Highlands" }, Horde = { "Balai Lok'Wein", "Dustwallow Marsh" } },
+              Alliance = { "Deneb Walker", "Arathi Highlands", 1417 },
+              Horde = { "Balai Lok'Wein", "Dustwallow Marsh", 1445 } },
     -- Artisan: the Triage quest (Classic givers; the Forever guide had not tested it).
     [225] = { quest = "Triage", needsSkill = 225, needsLevel = 35,
-              Alliance = { "Doctor Gustaf VanHowzen", "Dustwallow Marsh" },
-              Horde = { "Doctor Gregory Victor", "Arathi Highlands" } },
+              Alliance = { "Doctor Gustaf VanHowzen", "Dustwallow Marsh", 1445 },
+              Horde = { "Doctor Gregory Victor", "Arathi Highlands", 1417, 73.0, 36.0 } },
   },
   -- Fishing trainers stop at Journeyman (wow-professions.com's Forever guide). Expert is a book
   -- sold in Booty Bay; Artisan is Nat Pagle's quest (level 35). Both confirmed in game, Nov 2026.
   Fishing = {
     [150] = { item = "Expert Fishing - The Bass and You", itemID = 16083, cost = 10000, needsSkill = 125,
-              Alliance = { "Old Man Heming", "Stranglethorn Vale" }, Horde = { "Old Man Heming", "Stranglethorn Vale" } },
+              Alliance = { "Old Man Heming", "Stranglethorn Vale", 1434 },
+              Horde = { "Old Man Heming", "Stranglethorn Vale", 1434 } },
     [225] = { quest = "Nat Pagle, Angler Extreme", needsSkill = 225, needsLevel = 35,
-              Alliance = { "Nat Pagle", "Dustwallow Marsh" }, Horde = { "Nat Pagle", "Dustwallow Marsh" } },
+              Alliance = { "Nat Pagle", "Dustwallow Marsh", 1445, 58.6, 60.2 },
+              Horde = { "Nat Pagle", "Dustwallow Marsh", 1445, 58.6, 60.2 } },
   },
 }
 
