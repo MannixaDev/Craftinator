@@ -162,8 +162,8 @@ These work, but the owner never explicitly agreed to them. Raise them if they be
 
 - Spec items: step-detail pane, "what you can do in this city" list, nearest-station hints,
   a price-source choice in options.
-- Never tested: the panel on a Horde character (its data has been imported); a long session with
-  BugSack and BugGrabber.
+- Never tested: the panel on a Horde character (its data has been imported).
+- BugGrabber ran for several sessions (to 18 Nov 2026): 75 errors logged, none from Craftinator.
 - Recorded vendors (pins, "seen for sale" lines) have not been checked in game yet.
 - Faction-specific recipes are mostly not flagged. The client marks only the two Faction Banners
   (`SkillLineAbility.RaceMasks`); recipe items have no race limits, and Zockify only mentions
