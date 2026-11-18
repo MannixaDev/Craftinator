@@ -72,6 +72,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 2318, qty = 8 }, { itemID = 4231, qty = 1 }, { itemID = 2320, qty = 3 } },
     learn = 30, orange = 30, yellow = 40, green = 45, grey = 50,
     source = "vendor", sourceCost = 150, recipeItem = 277716, faction = nil,
+    vendors = { { "Saenorion", "Darnassus", 1457 } },
     sourceNote = "Vendor ( Saenorion ) Quest: Beasts of Thunder Ridge",
   },
   [2149] = { -- 2x Light Leather, 1x Coarse Thread
@@ -531,7 +532,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 2313, qty = 1 }, { itemID = 10940, qty = 2 }, { itemID = 2454, qty = 2 } },
     learn = 80, orange = 80, yellow = 95, green = 102, grey = 110,
     source = "vendor", sourceCost = 500, recipeItem = 252784, faction = nil,
-    sourceNote = "7 vendors Bombus Finespindle , Jangdor Swiftstrider , Jillian Tanner , Joseph Moore , Mahu , Saen...",
+    vendors = { { "Bombus Finespindle", "Ironforge", 1455 }, { "Jangdor Swiftstrider", "Feralas", 1444 }, { "Jillian Tanner", "Stormwind City", 1453 }, { "Joseph Moore", "Undercity", 1458 }, { "Mahu", "Thunder Bluff", 1456 }, { "Saenorion", "Darnassus", 1457 }, { "Tamar", "Orgrimmar", 1454 } },
   },
   [1255124] = { -- 1x Medium Armor Kit, 2x Strange Dust, 2x Minor Mana Potion
     name = "Mystic Medium Armor Kit", skillLineAbilityID = 55185,
@@ -539,7 +540,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 2313, qty = 1 }, { itemID = 10940, qty = 2 }, { itemID = 2455, qty = 2 } },
     learn = 80, orange = 80, yellow = 95, green = 102, grey = 110,
     source = "vendor", sourceCost = 500, recipeItem = 252783, faction = nil,
-    sourceNote = "7 vendors Bombus Finespindle , Jangdor Swiftstrider , Jillian Tanner , Joseph Moore , Mahu , Saen...",
+    vendors = { { "Bombus Finespindle", "Ironforge", 1455 }, { "Jangdor Swiftstrider", "Feralas", 1444 }, { "Jillian Tanner", "Stormwind City", 1453 }, { "Joseph Moore", "Undercity", 1458 }, { "Mahu", "Thunder Bluff", 1456 }, { "Saenorion", "Darnassus", 1457 }, { "Tamar", "Orgrimmar", 1454 } },
   },
   [2158] = { -- 7x Light Leather, 2x Coarse Thread
     name = "Fine Leather Boots", skillLineAbilityID = 1359,
@@ -555,6 +556,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 5784, qty = 8 }, { itemID = 2318, qty = 6 }, { itemID = 2321, qty = 1 } },
     learn = 65, orange = 65, yellow = 95, green = 110, grey = 125,
     source = "vendor", sourceCost = 550, recipeItem = 5786, faction = nil,
+    vendors = { { "Theramore Marine", "The Barrens", 1413 }, { "Andrew Hilbert", "Silverpine Forest", 1421 }, { "Gina MacGregor", "Westfall", 1436 }, { "Mavralyn", "Darkshore", 1439 } },
     sourceNote = "Drop: The Deadmines ( Defias Squallshaper ) Drop: The Barrens ( Theramore Marine ) Vendor ( Andre...",
   },
   [7953] = { -- 8x Deviate Scale, 1x Cured Light Hide, 1x Fine Thread
@@ -563,6 +565,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 6470, qty = 8 }, { itemID = 4231, qty = 1 }, { itemID = 2321, qty = 1 } },
     learn = 65, orange = 65, yellow = 95, green = 110, grey = 125,
     source = "vendor", sourceCost = 550, recipeItem = 6474, faction = nil,
+    vendors = { { "Kalldan Felmoon", "The Barrens", 1413 } },
     sourceNote = "Vendor ( Kalldan Felmoon )",
   },
   [2167] = { -- 4x Medium Leather, 2x Fine Thread, 1x Gray Dye
@@ -594,6 +597,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 7286, qty = 12 }, { itemID = 2319, qty = 4 }, { itemID = 2321, qty = 1 } },
     learn = 75, orange = 75, yellow = 100, green = 112, grey = 125,
     source = "vendor", sourceCost = 650, recipeItem = 7289, faction = nil,
+    vendors = { { "Clyde Ranthal", "Redridge Mountains", 1433 } },
     sourceNote = "Vendor ( Clyde Ranthal )",
   },
   [24940] = { -- 8x Medium Leather, 8x Black Whelp Scale, 1x Cured Light Hide, 2x Fine Thread
@@ -602,6 +606,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 2319, qty = 8 }, { itemID = 7286, qty = 8 }, { itemID = 4231, qty = 1 }, { itemID = 2321, qty = 2 } },
     learn = 75, orange = 75, yellow = 100, green = 112, grey = 125,
     source = "vendor", sourceCost = 1400, recipeItem = 20576, faction = nil,
+    vendors = { { "Amy Davenport", "Redridge Mountains", 1433 } },
     sourceNote = "Vendor ( Amy Davenport )",
   },
   [1255125] = { -- 12x Light Leather, 3x Cured Light Hide, 2x Pristine Leather, 1x Fine Thread, 2x Small Lustrous Pearl
@@ -658,6 +663,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 5784, qty = 12 }, { itemID = 4231, qty = 1 }, { itemID = 2318, qty = 8 }, { itemID = 2321, qty = 1 } },
     learn = 70, orange = 70, yellow = 100, green = 115, grey = 130,
     source = "vendor", sourceCost = 600, recipeItem = 5787, faction = nil,
+    vendors = { { "Theramore Preserver", "The Barrens", 1413 }, { "Andrew Hilbert", "Silverpine Forest", 1421 }, { "Gina MacGregor", "Westfall", 1436 }, { "Mavralyn", "Darkshore", 1439 } },
     sourceNote = "Drop: The Deadmines ( Defias Pirate ) Drop: The Barrens ( Theramore Preserver ) Vendor ( Andrew H...",
   },
   [9068] = { -- 10x Light Leather, 1x Cured Light Hide, 1x Fine Thread
@@ -729,6 +735,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 6471, qty = 2 }, { itemID = 6470, qty = 6 }, { itemID = 2321, qty = 2 } },
     learn = 80, orange = 80, yellow = 105, green = 117, grey = 130,
     source = "vendor", sourceCost = 1500, recipeItem = 6475, faction = nil,
+    vendors = { { "Kalldan Felmoon", "The Barrens", 1413 } },
     sourceNote = "Vendor ( Kalldan Felmoon )",
   },
   [2168] = { -- 8x Medium Leather, 1x Fine Thread, 1x Gray Dye
@@ -814,6 +821,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 7287, qty = 6 }, { itemID = 2319, qty = 4 }, { itemID = 2321, qty = 1 } },
     learn = 95, orange = 95, yellow = 120, green = 132, grey = 145,
     source = "vendor", sourceCost = 1600, recipeItem = 7290, faction = nil,
+    vendors = { { "Wenna Silkbeard", "Wetlands", 1437 } },
     sourceNote = "Vendor ( Wenna Silkbeard )",
   },
   [9074] = { -- 1x Elixir of Minor Agility, 6x Medium Leather, 1x Fine Thread
@@ -844,6 +852,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4234, qty = 2 }, { itemID = 2321, qty = 1 } },
     learn = 125, orange = 125, yellow = 125, green = 130, grey = 135,
     source = "vendor", sourceCost = 2000, recipeItem = 18731, faction = nil,
+    vendors = { { "Bombus Finespindle", "Ironforge", 1455 }, { "Tamar", "Orgrimmar", 1454 } },
     sourceNote = "Vendor ( Bombus Finespindle , Tamar )",
   },
   [3766] = { -- 1x Fine Leather Belt, 1x Cured Medium Hide, 2x Fine Thread, 1x Gray Dye
@@ -991,6 +1000,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 2319, qty = 8 }, { itemID = 3356, qty = 4 }, { itemID = 2321, qty = 2 } },
     learn = 110, orange = 110, yellow = 135, green = 147, grey = 160,
     source = "vendor", sourceCost = 1800, recipeItem = 7361, faction = nil,
+    vendors = { { "Harlown Darkweave", "Ashenvale", 1440 } },
     sourceNote = "Vendor ( Harlown Darkweave )",
   },
   [9147] = { -- 6x Medium Leather, 1x Elemental Earth, 2x Fine Thread
@@ -999,6 +1009,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 2319, qty = 6 }, { itemID = 7067, qty = 1 }, { itemID = 2321, qty = 2 } },
     learn = 110, orange = 110, yellow = 135, green = 147, grey = 160,
     source = "vendor", sourceCost = 2000, recipeItem = 7362, faction = nil,
+    vendors = { { "Zixil", "Hillsbrad Foothills", 1424 } },
     sourceNote = "Vendor ( Zixil )",
   },
   [1255097] = { -- 10x Medium Leather, 3x Cured Medium Hide, 6x Pristine Leather, 3x Fine Thread, 6x Small Lustrous Pearl
@@ -1138,6 +1149,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4234, qty = 9 }, { itemID = 2605, qty = 2 }, { itemID = 2321, qty = 4 } },
     learn = 130, orange = 130, yellow = 150, green = 160, grey = 170,
     source = "vendor", sourceCost = 2000, recipeItem = 7613, faction = nil,
+    vendors = { { "George Candarte", "Hillsbrad Foothills", 1424 }, { "Wenna Silkbeard", "Wetlands", 1437 } },
     sourceNote = "Vendor ( George Candarte , Wenna Silkbeard )",
   },
   [1255082] = { -- 12x Medium Leather, 4x Cured Medium Hide, 8x Pristine Leather, 3x Fine Thread, 8x Small Lustrous Pearl
@@ -1271,6 +1283,7 @@ ns.Data.Recipes["Leatherworking"] = {
     learn = 130, orange = 130, yellow = 155, green = 165, grey = 175,
     source = "vendor", sourceCost = 2000, recipeItem = 18949, faction = nil,
     station = "Tanning Rack",
+    vendors = { { "Joseph Moore", "Undercity", 1458 }, { "Saenorion", "Darnassus", 1457 } },
     sourceNote = "Vendor ( Joseph Moore , Saenorion )",
   },
   [1255095] = { -- 1x Heavy Armor Kit, 2x Soul Dust, 2x Elixir of Giant Growth
@@ -1279,6 +1292,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4265, qty = 1 }, { itemID = 11083, qty = 2 }, { itemID = 6662, qty = 2 } },
     learn = 135, orange = 135, yellow = 155, green = 165, grey = 175,
     source = "vendor", sourceCost = 2000, recipeItem = 252812, faction = nil,
+    vendors = { { "Jangdor Swiftstrider", "Feralas", 1444 }, { "Mahu", "Thunder Bluff", 1456 }, { "Saenorion", "Darnassus", 1457 } },
     sourceNote = "Vendor ( Jangdor Swiftstrider , Mahu , Saenorion )",
   },
   [1255096] = { -- 1x Heavy Armor Kit, 2x Soul Dust, 2x Lesser Mana Potion
@@ -1287,6 +1301,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4265, qty = 1 }, { itemID = 11083, qty = 2 }, { itemID = 3385, qty = 2 } },
     learn = 135, orange = 135, yellow = 155, green = 165, grey = 175,
     source = "vendor", sourceCost = 2000, recipeItem = 252811, faction = nil,
+    vendors = { { "Jangdor Swiftstrider", "Feralas", 1444 }, { "Mahu", "Thunder Bluff", 1456 }, { "Saenorion", "Darnassus", 1457 } },
     sourceNote = "Vendor ( Jangdor Swiftstrider , Mahu , Saenorion )",
   },
   [4096] = { -- 6x Raptor Hide, 4x Heavy Leather, 2x Fine Thread
@@ -1295,6 +1310,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4461, qty = 6 }, { itemID = 4234, qty = 4 }, { itemID = 2321, qty = 2 } },
     learn = 140, orange = 140, yellow = 160, green = 170, grey = 180,
     source = "vendor", sourceCost = 2500, recipeItem = 13287, faction = nil,
+    vendors = { { "Tunkk", "Arathi Highlands", 1417 } },
     sourceNote = "Vendor ( Tunkk )",
   },
   [4097] = { -- 4x Raptor Hide, 4x Heavy Leather, 2x Fine Thread
@@ -1303,6 +1319,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4461, qty = 4 }, { itemID = 4234, qty = 4 }, { itemID = 2321, qty = 2 } },
     learn = 140, orange = 140, yellow = 160, green = 170, grey = 180,
     source = "vendor", sourceCost = 2500, recipeItem = 13288, faction = nil,
+    vendors = { { "Androd Fadran", "Arathi Highlands", 1417 } },
     sourceNote = "Vendor ( Androd Fadran )",
   },
   [9195] = { -- 10x Heavy Leather, 1x Black Dye, 2x Fine Thread
@@ -1327,6 +1344,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 5785, qty = 12 }, { itemID = 4236, qty = 1 }, { itemID = 4234, qty = 10 }, { itemID = 2321, qty = 3 } },
     learn = 145, orange = 145, yellow = 165, green = 175, grey = 185,
     source = "vendor", sourceCost = 650, recipeItem = 5788, faction = nil,
+    vendors = { { "Kurzen Commando", "Stranglethorn Vale", 1434 }, { "Captain Halyndor", "Wetlands", 1437 }, { "Blixrez Goodstitch", "Stranglethorn Vale", 1434 }, { "Christoph Jeffcoat", "Hillsbrad Foothills", 1424 }, { "Micha Yance", "Hillsbrad Foothills", 1424 } },
     sourceNote = "Drop: Stranglethorn Vale ( Kurzen Commando ) Drop: Wetlands ( Captain Halyndor ) Vendor ( Blixrez...",
   },
   [7149] = { -- 10x Heavy Leather, 2x Fine Thread, 1x Moss Agate
@@ -1335,7 +1353,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4234, qty = 10 }, { itemID = 2321, qty = 2 }, { itemID = 1206, qty = 1 } },
     learn = 145, orange = 145, yellow = 165, green = 175, grey = 185,
     source = "vendor", sourceCost = 650, recipeItem = 5973, faction = nil,
-    sourceNote = "4 vendors Hammon Karwn , Jandia , Keena , Lardan",
+    vendors = { { "Hammon Karwn", "Arathi Highlands", 1417 }, { "Jandia", "Thousand Needles", 1441 }, { "Keena", "Arathi Highlands", 1417 }, { "Lardan", "Ashenvale", 1440 } },
   },
   [3773] = { -- 2x Cured Heavy Hide, 12x Heavy Leather, 1x Shadow Oil, 2x Fine Thread
     name = "Guardian Armor", skillLineAbilityID = 2182,
@@ -1404,6 +1422,7 @@ ns.Data.Recipes["Leatherworking"] = {
     learn = 160, orange = 160, yellow = 180, green = 190, grey = 200,
     source = "vendor", sourceCost = 3000, recipeItem = 14635, faction = nil,
     station = "Tanning Rack",
+    vendors = { { "Rikqiz", "Stranglethorn Vale", 1434 } },
     sourceNote = "Vendor ( Rikqiz )",
   },
   [7153] = { -- 14x Heavy Leather, 2x Bolt of Silk Cloth, 2x Silken Thread
@@ -1427,6 +1446,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4234, qty = 15 }, { itemID = 4236, qty = 3 }, { itemID = 8343, qty = 1 }, { itemID = 2324, qty = 8 } },
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276978, faction = nil,
+    vendors = { { "Sutara Plainstalker", "Mulgore", 1412 } },
     sourceNote = "Vendor ( Sutara Plainstalker )",
   },
   [1301529] = { -- 12x Heavy Leather, 2x Cured Heavy Hide, 1x Heavy Silken Thread, 6x Bleach
@@ -1435,6 +1455,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4234, qty = 12 }, { itemID = 4236, qty = 2 }, { itemID = 8343, qty = 1 }, { itemID = 2324, qty = 6 } },
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276979, faction = nil,
+    vendors = { { "Sutara Plainstalker", "Mulgore", 1412 } },
     sourceNote = "Vendor ( Sutara Plainstalker )",
   },
   [1301530] = { -- 15x Heavy Leather, 3x Cured Heavy Hide, 1x Heavy Silken Thread, 8x Bleach
@@ -1443,6 +1464,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4234, qty = 15 }, { itemID = 4236, qty = 3 }, { itemID = 8343, qty = 1 }, { itemID = 2324, qty = 8 } },
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276980, faction = nil,
+    vendors = { { "Sutara Plainstalker", "Mulgore", 1412 } },
     sourceNote = "Vendor ( Sutara Plainstalker )",
   },
   [1301531] = { -- 12x Heavy Leather, 2x Cured Heavy Hide, 1x Heavy Silken Thread, 6x Bleach
@@ -1451,6 +1473,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4234, qty = 12 }, { itemID = 4236, qty = 2 }, { itemID = 8343, qty = 1 }, { itemID = 2324, qty = 6 } },
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276981, faction = nil,
+    vendors = { { "Sutara Plainstalker", "Mulgore", 1412 } },
     sourceNote = "Vendor ( Sutara Plainstalker )",
   },
   [1301536] = { -- 15x Heavy Leather, 3x Cured Heavy Hide, 1x Heavy Silken Thread, 4x Blue Dye
@@ -1459,6 +1482,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4234, qty = 15 }, { itemID = 4236, qty = 3 }, { itemID = 8343, qty = 1 }, { itemID = 6260, qty = 4 } },
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276986, faction = nil,
+    vendors = { { "Archmage Alvareaux", "Alterac Mountains", 1416 } },
     sourceNote = "Vendor ( Archmage Alvareaux )",
   },
   [1301537] = { -- 12x Heavy Leather, 2x Cured Heavy Hide, 1x Heavy Silken Thread, 3x Blue Dye
@@ -1467,6 +1491,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4234, qty = 12 }, { itemID = 4236, qty = 2 }, { itemID = 8343, qty = 1 }, { itemID = 6260, qty = 3 } },
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276987, faction = nil,
+    vendors = { { "Archmage Alvareaux", "Alterac Mountains", 1416 } },
     sourceNote = "Vendor ( Archmage Alvareaux )",
   },
   [1301538] = { -- 15x Heavy Leather, 3x Cured Heavy Hide, 1x Heavy Silken Thread, 4x Blue Dye
@@ -1475,6 +1500,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4234, qty = 15 }, { itemID = 4236, qty = 3 }, { itemID = 8343, qty = 1 }, { itemID = 6260, qty = 4 } },
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276988, faction = nil,
+    vendors = { { "Archmage Alvareaux", "Alterac Mountains", 1416 } },
     sourceNote = "Vendor ( Archmage Alvareaux )",
   },
   [1301539] = { -- 12x Heavy Leather, 2x Cured Heavy Hide, 1x Heavy Silken Thread, 3x Blue Dye
@@ -1483,6 +1509,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4234, qty = 12 }, { itemID = 4236, qty = 2 }, { itemID = 8343, qty = 1 }, { itemID = 6260, qty = 3 } },
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276989, faction = nil,
+    vendors = { { "Archmage Alvareaux", "Alterac Mountains", 1416 } },
     sourceNote = "Vendor ( Archmage Alvareaux )",
   },
   [6661] = { -- 14x Heavy Leather, 2x Fine Thread, 1x Iron Buckle
@@ -1498,6 +1525,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 5785, qty = 16 }, { itemID = 4236, qty = 1 }, { itemID = 4234, qty = 14 }, { itemID = 4291, qty = 1 } },
     learn = 165, orange = 165, yellow = 185, green = 195, grey = 205,
     source = "vendor", sourceCost = 2800, recipeItem = 5789, faction = nil,
+    vendors = { { "Bloodsail Raider", "Stranglethorn Vale", 1434 }, { "Blackwater Deckhand", "Arathi Highlands", 1417 }, { "Blixrez Goodstitch", "Stranglethorn Vale", 1434 }, { "Helenia Olden", "Dustwallow Marsh", 1445 } },
     sourceNote = "Drop: Stranglethorn Vale ( Bloodsail Raider ) Drop: Arathi Highlands ( Blackwater Deckhand ) Vend...",
   },
   [7156] = { -- 4x Heavy Leather, 1x Cured Heavy Hide, 1x Silken Thread
@@ -1513,6 +1541,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 7392, qty = 6 }, { itemID = 4234, qty = 8 }, { itemID = 4291, qty = 2 } },
     learn = 165, orange = 165, yellow = 185, green = 195, grey = 205,
     source = "vendor", sourceCost = 2800, recipeItem = 7451, faction = nil,
+    vendors = { { "Jangdor Swiftstrider", "Feralas", 1444 }, { "Pratt McGrubben", "Feralas", 1444 }, { "Saenorion", "Darnassus", 1457 } },
     sourceNote = "Vendor ( Jangdor Swiftstrider , Pratt McGrubben , Saenorion )",
   },
   [21943] = { -- 8x Heavy Leather, 4x Elemental Earth, 1x Silken Thread
@@ -1530,6 +1559,7 @@ ns.Data.Recipes["Leatherworking"] = {
     learn = 175, orange = 175, yellow = 185, green = 195, grey = 205,
     source = "vendor", sourceCost = 3500, recipeItem = 18239, faction = nil,
     station = "Tanning Rack",
+    vendors = { { "Rikqiz", "Stranglethorn Vale", 1434 } },
     sourceNote = "Vendor ( Rikqiz )",
   },
   [3777] = { -- 6x Heavy Leather, 2x Cured Heavy Hide, 1x Silken Thread
@@ -1669,6 +1699,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4304, qty = 6 }, { itemID = 8167, qty = 8 }, { itemID = 8343, qty = 1 } },
     learn = 180, orange = 180, yellow = 200, green = 210, grey = 220,
     source = "vendor", sourceCost = 3500, recipeItem = 8385, faction = nil,
+    vendors = { { "Jangdor Swiftstrider", "Feralas", 1444 }, { "Pratt McGrubben", "Feralas", 1444 } },
     sourceNote = "World drop (level 35–50) Vendor ( Jangdor Swiftstrider , Pratt McGrubben )",
   },
   [435819] = { -- 1x Cured Thick Hide, 5x Irradiated Leather Scraps
@@ -1772,6 +1803,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 4304, qty = 8 }, { itemID = 4338, qty = 6 }, { itemID = 4291, qty = 3 } },
     learn = 185, orange = 185, yellow = 205, green = 215, grey = 225,
     source = "vendor", sourceCost = 4000, recipeItem = 8409, faction = nil,
+    vendors = { { "Jangdor Swiftstrider", "Feralas", 1444 }, { "Nioma", "The Hinterlands", 1425 } },
     sourceNote = "Vendor ( Jangdor Swiftstrider , Nioma )",
   },
   [10518] = { -- 8x Thick Leather, 12x Turtle Scale, 1x Heavy Silken Thread
@@ -1795,6 +1827,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8173, qty = 1 }, { itemID = 11137, qty = 2 }, { itemID = 3827, qty = 2 } },
     learn = 185, orange = 185, yellow = 205, green = 215, grey = 225,
     source = "vendor", sourceCost = 3500, recipeItem = 252833, faction = nil,
+    vendors = { { "Gorhak", "Desolace", 1443 } },
     sourceNote = "Vendor ( Gorhak ) Quest: Leather Technique",
   },
   [10520] = { -- 10x Thick Leather, 4x Flask of Mojo, 1x Heavy Silken Thread
@@ -2123,6 +2156,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 15564, qty = 1 }, { itemID = 11176, qty = 2 }, { itemID = 9206, qty = 2 }, { itemID = 249429, qty = 1 }, { itemID = 248824, qty = 1 } },
     learn = 235, orange = 235, yellow = 235, green = 245, grey = 255,
     source = "vendor", sourceCost = 5500, recipeItem = 252942, faction = nil,
+    vendors = { { "Jangdor Swiftstrider", "Feralas", 1444 } },
     sourceNote = "Vendor ( Jangdor Swiftstrider )",
   },
   [1254966] = { -- 1x Rugged Armor Kit, 2x Dream Dust, 2x Major Mana Potion, 1x Pristine Scale, 1x Fel Hide
@@ -2246,6 +2280,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 4 }, { itemID = 15408, qty = 4 }, { itemID = 14341, qty = 1 } },
     learn = 255, orange = 255, yellow = 250, green = 260, grey = 270,
     source = "vendor", sourceCost = 12000, recipeItem = 15724, faction = nil,
+    vendors = { { "Zannok Hidepiercer", "Silithus", 1451 } },
     sourceNote = "Vendor ( Zannok Hidepiercer )",
   },
   [1254998] = { -- 6x Rugged Leather, 6x Heavy Scorpid Scale, 1x Rune Thread
@@ -2342,6 +2377,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 8 }, { itemID = 2325, qty = 1 }, { itemID = 14341, qty = 1 } },
     learn = 235, orange = 235, yellow = 255, green = 265, grey = 275,
     source = "vendor", sourceCost = 12000, recipeItem = 15725, faction = nil,
+    vendors = { { "Leonard Porter", "Western Plaguelands", 1422 }, { "Werg Thickblade", "Tirisfal Glades", 1420 } },
     sourceNote = "Vendor ( Leonard Porter , Werg Thickblade )",
   },
   [19050] = { -- 20x Rugged Leather, 25x Green Dragonscale, 2x Rune Thread
@@ -2351,6 +2387,7 @@ ns.Data.Recipes["Leatherworking"] = {
     learn = 235, orange = 235, yellow = 255, green = 265, grey = 275,
     source = "vendor", sourceCost = 12000, recipeItem = 15726, faction = nil,
     station = "Tanning Rack",
+    vendors = { { "Masat T'andr", "Swamp of Sorrows", 1435 } },
     sourceNote = "Vendor ( Masat T'andr )",
   },
   [1254994] = { -- 16x Thick Leather, 2x Cured Thick Hide, 8x Pristine Hide, 2x Heavy Silken Thread, 6x Iridescent Pearl, 4x Pristine Leather
@@ -2463,6 +2500,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 6 }, { itemID = 15423, qty = 6 }, { itemID = 14341, qty = 1 } },
     learn = 240, orange = 240, yellow = 260, green = 270, grey = 280,
     source = "vendor", sourceCost = 12000, recipeItem = 15729, faction = nil,
+    vendors = { { "Blimo Gadgetspring", "Azshara", 1447 } },
     sourceNote = "Vendor ( Blimo Gadgetspring )",
   },
   [1254992] = { -- 4x Rugged Leather, 6x Heavy Scorpid Scale, 1x Rune Thread, 2x Elemental Air
@@ -2535,6 +2573,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 12 }, { itemID = 12803, qty = 4 }, { itemID = 14341, qty = 1 } },
     learn = 245, orange = 245, yellow = 265, green = 275, grey = 285,
     source = "vendor", sourceCost = 14000, recipeItem = 15734, faction = nil,
+    vendors = { { "Jangdor Swiftstrider", "Feralas", 1444 }, { "Pratt McGrubben", "Feralas", 1444 } },
     sourceNote = "Vendor ( Jangdor Swiftstrider , Pratt McGrubben )",
   },
   [19062] = { -- 24x Rugged Leather, 80x Ironfeather, 2x Jade, 1x Rune Thread
@@ -2543,6 +2582,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 24 }, { itemID = 15420, qty = 80 }, { itemID = 1529, qty = 2 }, { itemID = 14341, qty = 1 } },
     learn = 245, orange = 245, yellow = 265, green = 275, grey = 285,
     source = "vendor", sourceCost = 14000, recipeItem = 15735, faction = nil,
+    vendors = { { "Gigget Zipcoil", "The Hinterlands", 1425 } },
     sourceNote = "Vendor ( Gigget Zipcoil )",
   },
   [19063] = { -- 4x Rugged Leather, 8x Chimera Leather, 1x Rune Thread
@@ -2575,6 +2615,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 4 }, { itemID = 15422, qty = 6 }, { itemID = 14341, qty = 1 } },
     learn = 250, orange = 250, yellow = 270, green = 280, grey = 290,
     source = "vendor", sourceCost = 16000, recipeItem = 15740, faction = nil,
+    vendors = { { "Qia", "Winterspring", 1452 } },
     sourceNote = "Vendor ( Qia )",
   },
   [19067] = { -- 16x Rugged Leather, 2x Essence of Water, 2x Essence of Air, 1x Rune Thread
@@ -2583,6 +2624,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 16 }, { itemID = 7080, qty = 2 }, { itemID = 7082, qty = 2 }, { itemID = 14341, qty = 1 } },
     learn = 250, orange = 250, yellow = 270, green = 280, grey = 290,
     source = "vendor", sourceCost = 16000, recipeItem = 15741, faction = nil,
+    vendors = { { "Leonard Porter", "Western Plaguelands", 1422 }, { "Werg Thickblade", "Tirisfal Glades", 1420 } },
     sourceNote = "Vendor ( Leonard Porter , Werg Thickblade )",
   },
   [19068] = { -- 28x Rugged Leather, 12x Warbear Leather, 1x Rune Thread
@@ -2591,6 +2633,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 28 }, { itemID = 15419, qty = 12 }, { itemID = 14341, qty = 1 } },
     learn = 250, orange = 250, yellow = 270, green = 280, grey = 290,
     source = "vendor", sourceCost = 16000, recipeItem = 15742, faction = nil,
+    vendors = { { "Arena Treasure Chest", "Stranglethorn Vale", 1434 }, { "Meilosh", "Felwood", 1448 } },
     sourceNote = "World drop (level 46–60) Drop: Stranglethorn Vale ( Arena Treasure Chest ) Vendor ( Meilosh )",
   },
   [1254982] = { -- 12x Rugged Leather, 4x Cured Thick Hide, 10x Pristine Hide, 2x Heavy Silken Thread, 8x Iridescent Pearl, 5x Pristine Leather
@@ -2772,6 +2815,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 16 }, { itemID = 14341, qty = 1 }, { itemID = 6261, qty = 3 }, { itemID = 15407, qty = 2 }, { itemID = 13423, qty = 6 } },
     learn = 255, orange = 255, yellow = 275, green = 285, grey = 295,
     source = "vendor", sourceCost = 100000, recipeItem = 252877, faction = nil,
+    vendors = { { "Pexmit", "Mount Hyjal", 2482 } },
     sourceNote = "Vendor ( Pexmit ) Quest: Leather for Inclement Weather",
   },
   [19074] = { -- 6x Rugged Leather, 8x Frostsaber Leather, 1x Rune Thread
@@ -2804,6 +2848,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 28 }, { itemID = 15415, qty = 30 }, { itemID = 15407, qty = 1 }, { itemID = 14341, qty = 1 } },
     learn = 260, orange = 260, yellow = 280, green = 290, grey = 300,
     source = "vendor", sourceCost = 20000, recipeItem = 15751, faction = nil,
+    vendors = { { "Blimo Gadgetspring", "Azshara", 1447 } },
     sourceNote = "Vendor ( Blimo Gadgetspring )",
   },
   [19078] = { -- 16x Rugged Leather, 6x Living Essence, 1x Cured Rugged Hide, 1x Rune Thread
@@ -2828,6 +2873,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 24 }, { itemID = 15419, qty = 14 }, { itemID = 14341, qty = 1 } },
     learn = 260, orange = 260, yellow = 280, green = 290, grey = 300,
     source = "vendor", sourceCost = 20000, recipeItem = 20254, faction = nil,
+    vendors = { { "Meilosh", "Felwood", 1448 } },
     sourceNote = "Vendor ( Meilosh )",
   },
   [1254975] = { -- 6x Rugged Leather, 12x Heavy Scorpid Scale, 1x Rune Thread, 2x Elemental Air
@@ -2890,6 +2936,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 14 }, { itemID = 14047, qty = 10 }, { itemID = 14341, qty = 1 } },
     learn = 265, orange = 265, yellow = 285, green = 295, grey = 305,
     source = "vendor", sourceCost = 22000, recipeItem = 15756, faction = nil,
+    vendors = { { "Jase Farlane", "Eastern Plaguelands", 1423 } },
     sourceNote = "Vendor ( Jase Farlane )",
   },
   [19083] = { -- 16x Rugged Leather, 1x Cured Rugged Hide, 3x Black Dye, 1x Rune Thread
@@ -2906,6 +2953,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 30 }, { itemID = 15417, qty = 8 }, { itemID = 14341, qty = 1 } },
     learn = 265, orange = 265, yellow = 285, green = 295, grey = 305,
     source = "vendor", sourceCost = 22000, recipeItem = 15758, faction = nil,
+    vendors = { { "Nergal", "Un'Goro Crater", 1449 } },
     sourceNote = "Vendor ( Nergal )",
   },
   [19085] = { -- 40x Rugged Leather, 60x Black Dragonscale, 1x Cured Rugged Hide, 2x Rune Thread
@@ -2930,6 +2978,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 12 }, { itemID = 7076, qty = 3 }, { itemID = 12803, qty = 3 }, { itemID = 14341, qty = 1 } },
     learn = 265, orange = 265, yellow = 285, green = 295, grey = 305,
     source = "vendor", sourceCost = 22000, recipeItem = 19202, faction = nil,
+    vendors = { { "Meilosh", "Felwood", 1448 } },
     sourceNote = "Vendor ( Meilosh )",
   },
   [23703] = { -- 30x Rugged Leather, 2x Powerful Mojo, 4x Living Essence, 2x Cured Rugged Hide, 2x Rune Thread
@@ -2938,6 +2987,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 30 }, { itemID = 12804, qty = 2 }, { itemID = 12803, qty = 4 }, { itemID = 15407, qty = 2 }, { itemID = 14341, qty = 2 } },
     learn = 265, orange = 265, yellow = 285, green = 295, grey = 305,
     source = "vendor", sourceCost = 22000, recipeItem = 19326, faction = nil,
+    vendors = { { "Meilosh", "Felwood", 1448 } },
     sourceNote = "Vendor ( Meilosh )",
   },
   [23705] = { -- 30x Rugged Leather, 2x Guardian Stone, 4x Essence of Water, 2x Cured Rugged Hide, 2x Rune Thread
@@ -2946,6 +2996,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 30 }, { itemID = 12809, qty = 2 }, { itemID = 7080, qty = 4 }, { itemID = 15407, qty = 2 }, { itemID = 14341, qty = 2 } },
     learn = 265, orange = 265, yellow = 285, green = 295, grey = 305,
     source = "vendor", sourceCost = 22000, recipeItem = 19328, faction = nil,
+    vendors = { { "Argent Quartermaster Hasana", "Tirisfal Glades", 1420 }, { "Argent Quartermaster Lightspark", "Western Plaguelands", 1422 }, { "Quartermaster Miranda Breechlock", "Eastern Plaguelands", 1423 } },
     sourceNote = "Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Br...",
   },
   [1255024] = { -- 14x Rugged Leather, 2x Cured Rugged Hide, 2x Rune Thread, 4x Blue Dye, 6x Blue Dragonscale
@@ -3002,6 +3053,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 20 }, { itemID = 12810, qty = 4 }, { itemID = 7080, qty = 4 }, { itemID = 12361, qty = 4 }, { itemID = 14341, qty = 1 } },
     learn = 270, orange = 270, yellow = 290, green = 300, grey = 310,
     source = "vendor", sourceCost = 40000, recipeItem = 12703, faction = nil,
+    vendors = { { "Magnus Frostwake", "Western Plaguelands", 1422 } },
     sourceNote = "World drop (level 52–61) Vendor ( Magnus Frostwake )",
   },
   [16728] = { -- 40x Rugged Leather, 4x Enchanted Leather, 60x Jet Black Feather, 6x Large Opal, 2x Huge Emerald, 1x Rune Thread
@@ -3026,6 +3078,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 8 }, { itemID = 15408, qty = 12 }, { itemID = 15407, qty = 1 }, { itemID = 14341, qty = 1 } },
     learn = 270, orange = 270, yellow = 290, green = 300, grey = 310,
     source = "vendor", sourceCost = 25000, recipeItem = 15762, faction = nil,
+    vendors = { { "Zannok Hidepiercer", "Silithus", 1451 } },
     sourceNote = "Vendor ( Zannok Hidepiercer )",
   },
   [19089] = { -- 28x Rugged Leather, 30x Blue Dragonscale, 2x Enchanted Leather, 1x Cured Rugged Hide, 1x Rune Thread
@@ -3058,6 +3111,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 8170, qty = 20 }, { itemID = 15408, qty = 10 }, { itemID = 14341, qty = 1 } },
     learn = 270, orange = 270, yellow = 290, green = 300, grey = 310,
     source = "vendor", sourceCost = 100000, recipeItem = 252933, faction = nil,
+    vendors = { { "Pexmit", "Mount Hyjal", 2482 } },
     sourceNote = "Vendor ( Pexmit ) Quest: Leather for Inclement Weather",
   },
   [1255021] = { -- 14x Rugged Leather, 1x Rune Thread, 2x Blue Dye
@@ -3224,6 +3278,7 @@ ns.Data.Recipes["Leatherworking"] = {
     learn = 295, orange = 295, yellow = 300, green = 310, grey = 320,
     source = "vendor", sourceCost = 40000, recipeItem = 19204, faction = nil,
     station = "Sewing Machine",
+    vendors = { { "Meilosh", "Felwood", 1448 } },
     sourceNote = "Vendor ( Meilosh )",
   },
   [1254971] = { -- 12x Rugged Leather, 14x Heavy Scorpid Scale, 1x Rune Thread, 2x Elemental Air
@@ -3489,6 +3544,7 @@ ns.Data.Recipes["Leatherworking"] = {
     learn = 295, orange = 295, yellow = 315, green = 325, grey = 335,
     source = "vendor", sourceCost = 40000, recipeItem = 19327, faction = nil,
     station = "Sewing Machine",
+    vendors = { { "Meilosh", "Felwood", 1448 } },
     sourceNote = "Vendor ( Meilosh )",
   },
   [23706] = { -- 8x Enchanted Leather, 4x Living Essence, 4x Guardian Stone, 2x Cured Rugged Hide, 2x Rune Thread
@@ -3498,6 +3554,7 @@ ns.Data.Recipes["Leatherworking"] = {
     learn = 295, orange = 295, yellow = 315, green = 325, grey = 335,
     source = "vendor", sourceCost = 40000, recipeItem = 19329, faction = nil,
     station = "Sewing Machine",
+    vendors = { { "Argent Quartermaster Hasana", "Tirisfal Glades", 1420 }, { "Argent Quartermaster Lightspark", "Western Plaguelands", 1422 }, { "Quartermaster Miranda Breechlock", "Eastern Plaguelands", 1423 } },
     sourceNote = "Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Br...",
   },
   [1299914] = { -- 5x Malleable Essence of Nature, 4x Cured Rugged Hide, 24x Fel Leather, 8x Rune Thread
@@ -3507,6 +3564,7 @@ ns.Data.Recipes["Leatherworking"] = {
     learn = 300, orange = 300, yellow = 320, green = 325, grey = 330,
     source = "vendor", sourceCost = 0, recipeItem = 276542, faction = nil,
     station = "Sewing Machine",
+    vendors = { { "Aisarra Nightmeadow", "Mount Hyjal", 2482 } },
     sourceNote = "Vendor ( Aisarra Nightmeadow )",
   },
   [1299915] = { -- 3x Malleable Essence of Nature, 2x Cured Rugged Hide, 18x Fel Leather, 8x Rune Thread
@@ -3516,6 +3574,7 @@ ns.Data.Recipes["Leatherworking"] = {
     learn = 300, orange = 300, yellow = 320, green = 325, grey = 330,
     source = "vendor", sourceCost = 0, recipeItem = 276543, faction = nil,
     station = "Sewing Machine",
+    vendors = { { "Aisarra Nightmeadow", "Mount Hyjal", 2482 } },
     sourceNote = "Vendor ( Aisarra Nightmeadow )",
   },
   [1299916] = { -- 3x Malleable Essence of Nature, 2x Cured Rugged Hide, 18x Fel Leather, 8x Rune Thread
@@ -3525,6 +3584,7 @@ ns.Data.Recipes["Leatherworking"] = {
     learn = 300, orange = 300, yellow = 320, green = 325, grey = 330,
     source = "vendor", sourceCost = 0, recipeItem = 276544, faction = nil,
     station = "Sewing Machine",
+    vendors = { { "Aisarra Nightmeadow", "Mount Hyjal", 2482 } },
     sourceNote = "Vendor ( Aisarra Nightmeadow )",
   },
   [1299917] = { -- 3x Malleable Essence of Nature, 2x Cured Rugged Hide, 18x Fel Leather, 8x Rune Thread
@@ -3534,6 +3594,7 @@ ns.Data.Recipes["Leatherworking"] = {
     learn = 300, orange = 300, yellow = 320, green = 325, grey = 330,
     source = "vendor", sourceCost = 0, recipeItem = 276545, faction = nil,
     station = "Sewing Machine",
+    vendors = { { "Aisarra Nightmeadow", "Mount Hyjal", 2482 } },
     sourceNote = "Vendor ( Aisarra Nightmeadow )",
   },
   [19093] = { -- 1x Scale of Onyxia, 1x Cindercloth Cloak, 1x Rune Thread
@@ -3641,6 +3702,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 19767, qty = 14 }, { itemID = 15407, qty = 5 }, { itemID = 12803, qty = 4 }, { itemID = 14341, qty = 4 } },
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 50000, recipeItem = 19769, faction = nil,
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Vendor ( Rin'wosho the Trader )",
   },
   [24122] = { -- 10x Primal Bat Leather, 4x Cured Rugged Hide, 4x Living Essence, 3x Rune Thread
@@ -3649,6 +3711,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 19767, qty = 10 }, { itemID = 15407, qty = 4 }, { itemID = 12803, qty = 4 }, { itemID = 14341, qty = 3 } },
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 50000, recipeItem = 19770, faction = nil,
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Vendor ( Rin'wosho the Trader )",
   },
   [24123] = { -- 8x Primal Bat Leather, 3x Cured Rugged Hide, 4x Living Essence, 3x Rune Thread
@@ -3657,6 +3720,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 19767, qty = 8 }, { itemID = 15407, qty = 3 }, { itemID = 12803, qty = 4 }, { itemID = 14341, qty = 3 } },
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 50000, recipeItem = 19771, faction = nil,
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Vendor ( Rin'wosho the Trader )",
   },
   [24124] = { -- 35x Primal Tiger Leather, 2x Bloodvine, 3x Cured Rugged Hide, 3x Rune Thread
@@ -3665,6 +3729,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 19768, qty = 35 }, { itemID = 19726, qty = 2 }, { itemID = 15407, qty = 3 }, { itemID = 14341, qty = 3 } },
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 50000, recipeItem = 19772, faction = nil,
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Vendor ( Rin'wosho the Trader )",
   },
   [24125] = { -- 25x Primal Tiger Leather, 2x Bloodvine, 3x Cured Rugged Hide, 3x Rune Thread
@@ -3673,6 +3738,7 @@ ns.Data.Recipes["Leatherworking"] = {
     reagents = { { itemID = 19768, qty = 25 }, { itemID = 19726, qty = 2 }, { itemID = 15407, qty = 3 }, { itemID = 14341, qty = 3 } },
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 50000, recipeItem = 19773, faction = nil,
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Vendor ( Rin'wosho the Trader )",
   },
   [24703] = { -- 12x Enchanted Leather, 6x Dreamscale, 4x Living Essence, 4x Cured Rugged Hide, 6x Ironweb Spider Silk

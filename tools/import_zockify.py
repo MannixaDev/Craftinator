@@ -38,6 +38,9 @@ NAME = re.compile(r'z-icon-link__name">(.*?)</span>', re.S)
 SKILL = re.compile(r'z-datatable__skill--(orange|yellow|green|grey)"[^>]*>(\d+)<')
 CELL = re.compile(r"<td[^>]*>(.*?)</td>", re.S)
 TAG = re.compile(r"<[^>]+>")
+# A vendor in the source cell: its map preview (UiMap ID), zone name, then its name.
+VENDOR = re.compile(r'data-z-wow-npc-map="[^"]*/preview/(\d+)\.webp[^"]*"[^>]*'
+                    r'data-z-wow-npc-map-name="([^"]*)"[^>]*>([^<]+)</span>')
 
 
 def fetch(profession):
@@ -74,6 +77,8 @@ def parse(page):
             "grey": skills.get("grey"),
             "source": source,                       # e.g. trainer, vendor, drop, "drop vendor"
             "sourceText": text(cells[-1]) if cells else "",
+            "vendors": [{"name": html.unescape(n).strip(), "zone": html.unescape(z), "mapID": int(m)}
+                        for m, z, n in VENDOR.findall(cells[-1])] if cells and "vendor" in source else [],
         })
     return recipes
 

@@ -133,6 +133,9 @@ def apply_overrides(profession, recipes):
                 stats["zockify source"] += 1
             note = re.sub(r"^(Pattern|Blueprint): .*? (?=Vendor|World drop|Drop:|Quest:|\d+ vendors)", "",
                           match["sourceText"])
+            if match.get("vendors"):
+                r["vendors"] = match["vendors"]
+                note = re.sub(r"\d+ vendors .*$", "", note).strip()
             if known and note not in ("Trainer", "With the profession"):
                 r["sourceNote"] = note if len(note) <= 100 else note[:97] + "..."
 
@@ -336,6 +339,9 @@ def write_lua(build, profession, recipes, skipped, skill_line):
         if r.get("tools"):
             lines.append("    tools = { %s }, -- %s" % (", ".join(str(i) for i, _ in r["tools"]),
                                                       ", ".join(n for _, n in r["tools"])))
+        if r.get("vendors"):
+            lines.append("    vendors = { %s }," % ", ".join(
+                "{ %s, %s, %d }" % (lua_string(v["name"]), lua_string(v["zone"]), v["mapID"]) for v in r["vendors"]))
         if r.get("sourceNote"):
             lines.append(f"    sourceNote = {lua_string(r['sourceNote'])},")
         lines += [

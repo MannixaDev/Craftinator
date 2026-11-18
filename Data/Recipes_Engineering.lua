@@ -441,6 +441,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 1000, recipeItem = 13309, faction = nil,
     station = "Anvil",
     tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
+    vendors = { { "Fradd Swiftgear", "Wetlands", 1437 }, { "Jinky Twizzlefixxit", "Thousand Needles", 1441 } },
     sourceNote = "Schematic: Lovingly Crafted Boomstick Vendor ( Fradd Swiftgear , Jinky Twizzlefixxit )",
   },
   [3940] = { -- 4x Medium Leather, 2x Shadowgem
@@ -476,6 +477,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 140, orange = 140, yellow = 150, green = 155, grey = 160,
     source = "vendor", sourceCost = 3000, recipeItem = 269903, faction = nil,
     tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
+    vendors = { { "Gorhak", "Desolace", 1443 } },
     sourceNote = "Schematic: Hoof-Shaped Foot Pedal Vendor ( Gorhak ) Quest: Gizmo for Warug",
   },
   [9271] = { -- 2x Bronze Bar, 1x Nightcrawlers, 1x Coarse Blasting Powder
@@ -502,6 +504,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 1200, recipeItem = 7560, faction = nil,
     station = "Anvil",
     tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
+    vendors = { { "Gearcutter Cogspinner", "Ironforge", 1455 }, { "Jinky Twizzlefixxit", "Thousand Needles", 1441 } },
     sourceNote = "Schematic: Gnomish Universal Remote Drop: Gnomeregan ( Mekgineer Thermaplugg ) Vendor ( Gearcutte...",
   },
   [23066] = { -- 1x Heavy Blasting Powder, 1x Heavy Leather
@@ -510,6 +513,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 4377, qty = 1 }, { itemID = 4234, qty = 1 } },
     learn = 150, orange = 150, yellow = 150, green = 162, grey = 175,
     source = "vendor", sourceCost = 1800, recipeItem = 18647, faction = nil,
+    vendors = { { "Sovik", "Orgrimmar", 1454 } },
     sourceNote = "Schematic: Red Firework Vendor ( Sovik )",
   },
   [23067] = { -- 1x Heavy Blasting Powder, 1x Heavy Leather
@@ -518,6 +522,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 4377, qty = 1 }, { itemID = 4234, qty = 1 } },
     learn = 150, orange = 150, yellow = 150, green = 162, grey = 175,
     source = "vendor", sourceCost = 1800, recipeItem = 18649, faction = nil,
+    vendors = { { "Darian Singh", "Stormwind City", 1453 }, { "Gearcutter Cogspinner", "Ironforge", 1455 } },
     sourceNote = "Schematic: Blue Firework Vendor ( Darian Singh , Gearcutter Cogspinner )",
   },
   [23068] = { -- 1x Heavy Blasting Powder, 1x Heavy Leather
@@ -526,6 +531,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 4377, qty = 1 }, { itemID = 4234, qty = 1 } },
     learn = 150, orange = 150, yellow = 150, green = 162, grey = 175,
     source = "vendor", sourceCost = 1800, recipeItem = 18648, faction = nil,
+    vendors = { { "Crazk Sparks", "Stranglethorn Vale", 1434 }, { "Gagsprocket", "The Barrens", 1413 } },
     sourceNote = "Schematic: Green Firework Vendor ( Crazk Sparks , Gagsprocket )",
   },
   [12584] = { -- 1x Gold Bar
@@ -571,6 +577,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 3575, qty = 6 }, { itemID = 4375, qty = 2 }, { itemID = 814, qty = 2 }, { itemID = 4306, qty = 2 }, { itemID = 1210, qty = 2 }, { itemID = 7191, qty = 1 } },
     learn = 165, orange = 165, yellow = 160, green = 180, grey = 200,
     source = "vendor", sourceCost = 2000, recipeItem = 7561, faction = nil,
+    vendors = { { "Daggerspine Siren", "Hillsbrad Foothills", 1424 }, { "Kzixx", "Duskwood", 1431 }, { "Veenix", "Stonetalon Mountains", 1442 }, { "Zixil", "Hillsbrad Foothills", 1424 } },
     sourceNote = "Schematic: Goblin Jumper Cables Drop: Hillsbrad Foothills ( Daggerspine Siren ) Drop: Gnomeregan ...",
   },
   [3952] = { -- 1x Bronze Tube, 2x Whirring Bronze Gizmo, 2x Medium Leather, 1x Moss Agate
@@ -579,6 +586,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 4371, qty = 1 }, { itemID = 4375, qty = 2 }, { itemID = 2319, qty = 2 }, { itemID = 1206, qty = 1 } },
     learn = 140, orange = 140, yellow = 165, green = 177, grey = 190,
     source = "vendor", sourceCost = 1500, recipeItem = 14639, faction = nil,
+    vendors = { { "Fradd Swiftgear", "Wetlands", 1437 }, { "Gagsprocket", "The Barrens", 1413 }, { "Namdo Bizzfizzle", "Dun Morogh", 1426 } },
     sourceNote = "Schematic: Minor Recombobulator Vendor ( Fradd Swiftgear , Gagsprocket , Namdo Bizzfizzle )",
   },
   [1317959] = { -- 20x Big Bronze Bomb, 6x Medium Leather, 1x Whirring Bronze Gizmo
@@ -628,6 +636,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 1800, recipeItem = 13308, faction = nil,
     station = "Anvil",
     tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
+    vendors = { { "Rizz Loosebolt", "Alterac Mountains", 1416 } },
     sourceNote = "Schematic: Ice Deflector Vendor ( Rizz Loosebolt , Super-Seller 680 )",
   },
   [12585] = { -- 2x Solid Stone
@@ -823,6 +832,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 3000, recipeItem = 269901, faction = nil,
     station = "Anvil",
     tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
+    vendors = { { "Gorhak", "Desolace", 1443 } },
     sourceNote = "Schematic: Centaur Banner Deployment Device Vendor ( Gorhak ) Quest: Gizmo for Warug",
   },
   [3967] = { -- 3x Iron Bar, 3x Heavy Blasting Powder, 1x Silver Contact
@@ -871,6 +881,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 180, orange = 180, yellow = 200, green = 210, grey = 220,
     source = "vendor", sourceCost = 2000, recipeItem = 13310, faction = nil,
     tools = { 6219, 10498 }, -- Arclight Spanner, Gyromatic Micro-Adjustor
+    vendors = { { "Mazk Snipeshot", "Stranglethorn Vale", 1434 } },
     sourceNote = "Schematic: Accurate Scope Vendor ( Mazk Snipeshot )",
   },
   [23069] = { -- 1x Solid Blasting Powder, 1x Silk Cloth, 1x EZ-Thro Fireproof Fuse
@@ -879,6 +890,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 10505, qty = 1 }, { itemID = 4306, qty = 1 }, { itemID = 260801, qty = 1 } },
     learn = 200, orange = 200, yellow = 200, green = 210, grey = 220,
     source = "vendor", sourceCost = 5000, recipeItem = 18650, faction = nil,
+    vendors = { { "Blizrik Buckshot", "Tanaris", 1446 }, { "Fizzix Boomshot", "Riverglades", 2548 } },
     sourceNote = "Schematic: EZ-Thro Dynamite II Vendor ( Blizrik Buckshot , Fizzix Boomshot )",
   },
   [435956] = { -- 1x Truesilver Bar, 5x Pile of Tarnished Gears
@@ -1136,6 +1148,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 10000, recipeItem = 13311, faction = nil,
     station = "Anvil",
     tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
+    vendors = { { "Gnaz Blunderflame", "Stranglethorn Vale", 1434 } },
     sourceNote = "Schematic: Mechanical Dragonling Vendor ( Gnaz Blunderflame )",
   },
   [3971] = { -- 4x Gyrochronatom, 2x Jade, 2x Lesser Moonstone, 2x Citrine, 1x Fused Wiring
@@ -1146,6 +1159,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 2400, recipeItem = 7742, faction = nil,
     station = "Anvil",
     tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
+    vendors = { { "Zan Shivsproket", "Alterac Mountains", 1416 } },
     sourceNote = "Schematic: Gnomish Cloaking Device Drop: Gnomeregan (Mekgineer Thermaplugg) Vendor ( Zan Shivspro...",
   },
   [12594] = { -- 1x Green Tinted Goggles, 2x Citrine, 2x Elemental Fire, 4x Heavy Leather
@@ -1264,6 +1278,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 3000, recipeItem = 10602, faction = nil,
     station = "Anvil",
     tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
+    vendors = { { "Knaz Blunderflame", "Stranglethorn Vale", 1434 }, { "Yuka Screwspigot", "Burning Steppes", 1428 } },
     sourceNote = "Schematic: Deadly Scope Vendor ( Knaz Blunderflame , Yuka Screwspigot )",
   },
   [12897] = { -- 1x Fire Goggles, 1x Mithril Tube, 2x Gold Power Core, 2x Flask of Mojo, 2x Heavy Leather
@@ -1456,6 +1471,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 3600, recipeItem = 10607, faction = nil,
     station = "Anvil",
     tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
+    vendors = { { "Jubie Gadgetspring", "Azshara", 1447 } },
     sourceNote = "Schematic: Deepdive Helmet Vendor ( Jubie Gadgetspring )",
   },
   [12618] = { -- 6x Thick Leather, 2x Star Ruby
@@ -1490,6 +1506,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 15992, qty = 2 }, { itemID = 14047, qty = 2 }, { itemID = 8150, qty = 1 } },
     learn = 250, orange = 250, yellow = 250, green = 260, grey = 270,
     source = "vendor", sourceCost = 5000, recipeItem = 19027, faction = nil,
+    vendors = { { "Zorbin Fandazzle", "Feralas", 1444 } },
     sourceNote = "Schematic: Snake Burst Firework Vendor ( Zorbin Fandazzle )",
   },
   [1228088] = { -- 1x Thorium Widget, 1x Unstable Trigger, 1x Bronze Framework
@@ -1573,6 +1590,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 12000, recipeItem = 18651, faction = nil,
     station = "Anvil",
     tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
+    vendors = { { "Mazk Snipeshot", "Stranglethorn Vale", 1434 } },
     sourceNote = "Schematic: Truesilver Transformer Vendor ( Mazk Snipeshot )",
   },
   [12624] = { -- 14x Mithril Bar, 4x Heart of Fire, 4x Truesilver Bar, 2x Inlaid Mithril Cylinder, 2x Goblin Rocket Fuel, 2x Star Ruby
@@ -1583,6 +1601,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 4000, recipeItem = 10609, faction = nil,
     station = "Anvil",
     tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
+    vendors = { { "Ruppo Zipcoil", "The Hinterlands", 1425 } },
     sourceNote = "Schematic: Mithril Mechanical Dragonling Vendor ( Ruppo Zipcoil )",
   },
   [19567] = { -- 1x Mithril Casing, 6x Thorium Bar, 1x Gold Power Core, 4x Unstable Trigger
@@ -1681,6 +1700,7 @@ ns.Data.Recipes["Engineering"] = {
     reagents = { { itemID = 15994, qty = 2 }, { itemID = 15992, qty = 3 }, { itemID = 8170, qty = 2 }, { itemID = 159, qty = 1 } },
     learn = 275, orange = 275, yellow = 275, green = 285, grey = 295,
     source = "vendor", sourceCost = 16000, recipeItem = 18656, faction = nil,
+    vendors = { { "Xizzer Fizzbolt", "Winterspring", 1452 } },
     sourceNote = "Schematic: Powerful Seaforium Charge Vendor ( Xizzer Fizzbolt )",
   },
   [1266927] = { -- 2x Dense Blasting Powder, 3x Runecloth, 1x SAF-T Tube
@@ -1700,6 +1720,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 12000, recipeItem = 16041, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Gearcutter Cogspinner", "Ironforge", 1455 } },
     sourceNote = "Schematic: Thorium Grenade Vendor ( Gearcutter Cogspinner )",
   },
   [19791] = { -- 3x Thorium Bar, 1x Runecloth
@@ -1710,6 +1731,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 12000, recipeItem = 16042, faction = nil,
     station = "Anvil",
     tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
+    vendors = { { "Gearcutter Cogspinner", "Ironforge", 1455 } },
     sourceNote = "Schematic: Thorium Widget Vendor ( Gearcutter Cogspinner )",
   },
   [19792] = { -- 2x Mithril Tube, 2x Mithril Casing, 2x Thorium Widget, 4x Thorium Bar, 1x Deadly Scope
@@ -1730,6 +1752,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 12000, recipeItem = 18652, faction = nil,
     station = "Anvil",
     tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
+    vendors = { { "Xizzer Fizzbolt", "Winterspring", 1452 } },
     sourceNote = "Schematic: Gyrofreeze Ice Reflector Vendor ( Xizzer Fizzbolt )",
   },
   [1317270] = { -- 1x Truesilver Transformer, 2x Enchanted Thorium Bar, 3x Dense Blasting Powder, 2x Runecloth
@@ -1832,6 +1855,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 16000, recipeItem = 16047, faction = nil,
     station = "Anvil",
     tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
+    vendors = { { "Kor'gar", "Riverglades", 2548 }, { "Xizzer Fizzbolt", "Winterspring", 1452 } },
     sourceNote = "Schematic: Thorium Tube Vendor ( Kor'gar , Xizzer Fizzbolt )",
   },
   [19796] = { -- 2x Thorium Tube, 6x Dark Iron Bar, 2x Deadly Scope, 2x Blue Sapphire, 2x Large Opal, 4x Rugged Leather
@@ -1852,6 +1876,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 16000, recipeItem = 16046, faction = nil,
     station = "Anvil",
     tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
+    vendors = { { "Kor'gar", "Riverglades", 2548 }, { "Xizzer Fizzbolt", "Winterspring", 1452 } },
     sourceNote = "Schematic: Masterwork Target Dummy Vendor ( Kor'gar , Xizzer Fizzbolt )",
   },
   [26443] = { -- 3x Inlaid Mithril Cylinder, 3x Goblin Rocket Fuel, 1x Truesilver Transformer, 1x Mithril Casing
@@ -1906,6 +1931,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 20000, recipeItem = 16050, faction = nil,
     station = "Anvil",
     tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
+    vendors = { { "Xizzer Fizzbolt", "Winterspring", 1452 } },
     sourceNote = "Schematic: Delicate Arcanite Converter Vendor ( Xizzer Fizzbolt )",
   },
   [1293849] = { -- 8x Heavy Thorium Bar, 5x Light Feather, 1x Elemental Air
@@ -2054,6 +2080,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 120000, recipeItem = 20000, faction = nil,
     tools = { 10498, 6219 }, -- Gyromatic Micro-Adjustor, Arclight Spanner
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Schematic: Bloodvine Goggles Vendor ( Rin'wosho the Trader )",
   },
   [24357] = { -- 5x Bloodvine, 5x Souldarite, 1x Delicate Arcanite Converter, 8x Powerful Mojo, 4x Enchanted Leather
@@ -2063,6 +2090,7 @@ ns.Data.Recipes["Engineering"] = {
     learn = 300, orange = 300, yellow = 320, green = 330, grey = 340,
     source = "vendor", sourceCost = 50000, recipeItem = 20001, faction = nil,
     tools = { 10498, 6219 }, -- Gyromatic Micro-Adjustor, Arclight Spanner
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Schematic: Bloodvine Lens Vendor ( Rin'wosho the Trader )",
   },
   [26011] = { -- 1x Cured Rugged Hide, 4x Thorium Widget, 2x Globe of Water, 2x Truesilver Transformer, 1x Gold Power Core
@@ -2140,6 +2168,7 @@ ns.Data.Recipes["Engineering"] = {
     source = "vendor", sourceCost = 100000, recipeItem = 264233, faction = nil,
     station = "Anvil",
     tools = { 5956, 6219 }, -- Blacksmith Hammer, Arclight Spanner
+    vendors = { { "Pexmit", "Mount Hyjal", 2482 } },
     sourceNote = "Schematic: Dimensional Transporter: Mt. Hyjal Vendor ( Pexmit ) Quest: Itching for a Fixing",
   },
   [1266937] = { -- 10x Illusion Dust, 2x Large Brilliant Shard, 2x Azerothium Bar, 2x Legionite Bar

@@ -1,7 +1,7 @@
 {
  "credit": "Learn skills and recipe sources from Zockify (zockify.com)",
  "url": "https://www.zockify.com/forever/professions/first-aid/recipes/",
- "fetched": "2026-11-14",
+ "fetched": "2026-11-18",
  "recipes": [
   {
    "name": "Powerful Anti-Venom",
@@ -10,7 +10,24 @@
    "green": 330,
    "grey": 360,
    "source": "vendor",
-   "sourceText": "Formula: Powerful Anti-Venom Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Breechlock )"
+   "sourceText": "Formula: Powerful Anti-Venom Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Breechlock )",
+   "vendors": [
+    {
+     "name": "Argent Quartermaster Hasana",
+     "zone": "Tirisfal Glades",
+     "mapID": 1420
+    },
+    {
+     "name": "Argent Quartermaster Lightspark",
+     "zone": "Western Plaguelands",
+     "mapID": 1422
+    },
+    {
+     "name": "Quartermaster Miranda Breechlock",
+     "zone": "Eastern Plaguelands",
+     "mapID": 1423
+    }
+   ]
   },
   {
    "name": "Plague Doctor's Laboratory",
@@ -19,7 +36,8 @@
    "green": 300,
    "grey": 300,
    "source": "not-known-yet",
-   "sourceText": "Blueprint: Plague Doctor's Laboratory Source not known yet"
+   "sourceText": "Blueprint: Plague Doctor's Laboratory Source not known yet",
+   "vendors": []
   },
   {
    "name": "Powerful Poultice",
@@ -28,7 +46,8 @@
    "green": 325,
    "grey": 355,
    "source": "quest",
-   "sourceText": "Manual: Powerful Poultice Quest: Transmuted Tincture"
+   "sourceText": "Manual: Powerful Poultice Quest: Transmuted Tincture",
+   "vendors": []
   },
   {
    "name": "Major Healing Potion",
@@ -37,7 +56,14 @@
    "green": 310,
    "grey": 330,
    "source": "vendor quest",
-   "sourceText": "Manual: Major Healing Potion Vendor ( Pexmit ) Quest: A Rest Without Pain"
+   "sourceText": "Manual: Major Healing Potion Vendor ( Pexmit ) Quest: A Rest Without Pain",
+   "vendors": [
+    {
+     "name": "Pexmit",
+     "zone": "Mount Hyjal",
+     "mapID": 2482
+    }
+   ]
   },
   {
    "name": "Surgical Tourniquet",
@@ -46,7 +72,8 @@
    "green": 310,
    "grey": 340,
    "source": "drop",
-   "sourceText": "Manual: Surgical Tourniquet Drop: Scarlet Monastery ( Scarlet Trainee )"
+   "sourceText": "Manual: Surgical Tourniquet Drop: Scarlet Monastery ( Scarlet Trainee )",
+   "vendors": []
   },
   {
    "name": "Superior Healing Potion",
@@ -55,7 +82,8 @@
    "green": 250,
    "grey": 270,
    "source": "drop",
-   "sourceText": "Manual: Superior Healing Potion Drop: Feralas ( Gordunni Shaman )"
+   "sourceText": "Manual: Superior Healing Potion Drop: Feralas ( Gordunni Shaman )",
+   "vendors": []
   },
   {
    "name": "Potent Anti-Venom",
@@ -64,7 +92,8 @@
    "green": 260,
    "grey": 290,
    "source": "drop",
-   "sourceText": "Manual: Potent Anti-Venom Drop: Swamp of Sorrows ( Lost One Muckdweller )"
+   "sourceText": "Manual: Potent Anti-Venom Drop: Swamp of Sorrows ( Lost One Muckdweller )",
+   "vendors": []
   },
   {
    "name": "Mageweave Bandage",
@@ -73,7 +102,19 @@
    "green": 240,
    "grey": 270,
    "source": "vendor",
-   "sourceText": "Manual: Mageweave Bandage Vendor ( Balai Lok'Wein , Deneb Walker )"
+   "sourceText": "Manual: Mageweave Bandage Vendor ( Balai Lok'Wein , Deneb Walker )",
+   "vendors": [
+    {
+     "name": "Balai Lok'Wein",
+     "zone": "Dustwallow Marsh",
+     "mapID": 1445
+    },
+    {
+     "name": "Deneb Walker",
+     "zone": "Arathi Highlands",
+     "mapID": 1417
+    }
+   ]
   },
   {
    "name": "Superior Poultice",
@@ -82,7 +123,8 @@
    "green": 255,
    "grey": 285,
    "source": "drop",
-   "sourceText": "Manual: Superior Poultice Drop: Alterac Mountains ( Syndicate Sentry )"
+   "sourceText": "Manual: Superior Poultice Drop: Alterac Mountains ( Syndicate Sentry )",
+   "vendors": []
   },
   {
    "name": "Leather Tourniquet",
@@ -91,7 +133,8 @@
    "green": 250,
    "grey": 280,
    "source": "drop",
-   "sourceText": "Manual: Leather Tourniquet Drop: Badlands ( Shadowforge Tunneler )"
+   "sourceText": "Manual: Leather Tourniquet Drop: Badlands ( Shadowforge Tunneler )",
+   "vendors": []
   },
   {
    "name": "Heavy Silk Bandage",
@@ -100,7 +143,19 @@
    "green": 210,
    "grey": 240,
    "source": "vendor",
-   "sourceText": "Manual: Heavy Silk Bandage Vendor ( Balai Lok'Wein , Deneb Walker )"
+   "sourceText": "Manual: Heavy Silk Bandage Vendor ( Balai Lok'Wein , Deneb Walker )",
+   "vendors": [
+    {
+     "name": "Balai Lok'Wein",
+     "zone": "Dustwallow Marsh",
+     "mapID": 1445
+    },
+    {
+     "name": "Deneb Walker",
+     "zone": "Arathi Highlands",
+     "mapID": 1417
+    }
+   ]
   },
   {
    "name": "Greater Healing Potion",
@@ -109,7 +164,8 @@
    "green": 195,
    "grey": 215,
    "source": "drop",
-   "sourceText": "Manual: Greater Healing Potion Drop: Arathi Highlands ( Syndicate Mercenary )"
+   "sourceText": "Manual: Greater Healing Potion Drop: Arathi Highlands ( Syndicate Mercenary )",
+   "vendors": []
   },
   {
    "name": "Silk Bandage",
@@ -118,7 +174,8 @@
    "green": 180,
    "grey": 210,
    "source": "trainer",
-   "sourceText": "Trainer"
+   "sourceText": "Trainer",
+   "vendors": []
   },
   {
    "name": "Clever Poultice",
@@ -127,7 +184,8 @@
    "green": 190,
    "grey": 220,
    "source": "drop",
-   "sourceText": "Manual: Clever Poultice Drop: Duskwood ( Defias Enchanter )"
+   "sourceText": "Manual: Clever Poultice Drop: Duskwood ( Defias Enchanter )",
+   "vendors": []
   },
   {
    "name": "Toxin Study",
@@ -136,7 +194,8 @@
    "green": 140,
    "grey": 140,
    "source": "drop",
-   "sourceText": "Blueprint: Toxin Study Drop: Shadowfang Keep (Commander Springvale)"
+   "sourceText": "Blueprint: Toxin Study Drop: Shadowfang Keep (Commander Springvale)",
+   "vendors": []
   },
   {
    "name": "Strong Anti-Venom",
@@ -145,7 +204,8 @@
    "green": 165,
    "grey": 200,
    "source": "drop",
-   "sourceText": "Manual: Strong Anti-Venom World drop (level 21–35)"
+   "sourceText": "Manual: Strong Anti-Venom World drop (level 21–35)",
+   "vendors": []
   },
   {
    "name": "Woolen Tourniquet",
@@ -154,7 +214,8 @@
    "green": 155,
    "grey": 190,
    "source": "trainer",
-   "sourceText": "Trainer"
+   "sourceText": "Trainer",
+   "vendors": []
   },
   {
    "name": "Heavy Wool Bandage",
@@ -163,7 +224,8 @@
    "green": 150,
    "grey": 185,
    "source": "trainer",
-   "sourceText": "Trainer"
+   "sourceText": "Trainer",
+   "vendors": []
   },
   {
    "name": "Healing Potion",
@@ -172,7 +234,8 @@
    "green": 155,
    "grey": 175,
    "source": "trainer",
-   "sourceText": "Trainer"
+   "sourceText": "Trainer",
+   "vendors": []
   },
   {
    "name": "Simple Poultice",
@@ -181,7 +244,8 @@
    "green": 125,
    "grey": 160,
    "source": "trainer",
-   "sourceText": "Trainer"
+   "sourceText": "Trainer",
+   "vendors": []
   },
   {
    "name": "Wool Bandage",
@@ -190,7 +254,8 @@
    "green": 115,
    "grey": 150,
    "source": "trainer",
-   "sourceText": "Trainer"
+   "sourceText": "Trainer",
+   "vendors": []
   },
   {
    "name": "Anti-Venom",
@@ -199,7 +264,8 @@
    "green": 115,
    "grey": 150,
    "source": "trainer",
-   "sourceText": "Trainer"
+   "sourceText": "Trainer",
+   "vendors": []
   },
   {
    "name": "Lesser Healing Potion",
@@ -208,7 +274,8 @@
    "green": 105,
    "grey": 125,
    "source": "trainer",
-   "sourceText": "Trainer"
+   "sourceText": "Trainer",
+   "vendors": []
   },
   {
    "name": "Heavy Linen Bandage",
@@ -217,7 +284,8 @@
    "green": 75,
    "grey": 100,
    "source": "trainer",
-   "sourceText": "Trainer"
+   "sourceText": "Trainer",
+   "vendors": []
   },
   {
    "name": "First Aid Kit",
@@ -226,7 +294,8 @@
    "green": 20,
    "grey": 20,
    "source": "quest",
-   "sourceText": "Quest: Camping 101: First Aid"
+   "sourceText": "Quest: Camping 101: First Aid",
+   "vendors": []
   },
   {
    "name": "Linen Bandage",
@@ -235,7 +304,8 @@
    "green": 45,
    "grey": 60,
    "source": "with-the-profession",
-   "sourceText": "With the profession"
+   "sourceText": "With the profession",
+   "vendors": []
   },
   {
    "name": "Minor Healing Potion",
@@ -244,7 +314,8 @@
    "green": 75,
    "grey": 95,
    "source": "trainer",
-   "sourceText": "Trainer"
+   "sourceText": "Trainer",
+   "vendors": []
   },
   {
    "name": "Heavy Mageweave Bandage",
@@ -253,7 +324,8 @@
    "green": 270,
    "grey": 300,
    "source": "trainer",
-   "sourceText": "Trainer"
+   "sourceText": "Trainer",
+   "vendors": []
   },
   {
    "name": "Runecloth Bandage",
@@ -262,7 +334,8 @@
    "green": 290,
    "grey": 320,
    "source": "trainer",
-   "sourceText": "Trainer"
+   "sourceText": "Trainer",
+   "vendors": []
   },
   {
    "name": "Heavy Runecloth Bandage",
@@ -271,7 +344,8 @@
    "green": 320,
    "grey": 350,
    "source": "trainer",
-   "sourceText": "Trainer"
+   "sourceText": "Trainer",
+   "vendors": []
   },
   {
    "name": "Crystal Infused Bandage",
@@ -280,7 +354,8 @@
    "green": 330,
    "grey": 360,
    "source": "not-known-yet",
-   "sourceText": "Not known yet"
+   "sourceText": "Not known yet",
+   "vendors": []
   }
  ]
 }

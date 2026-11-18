@@ -1265,6 +1265,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 3000, recipeItem = 10858, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Jannos Ironwill", "Arathi Highlands", 1417 }, { "Jazzrik", "Badlands", 1418 }, { "Muuran", "Desolace", 1443 } },
     sourceNote = "Plans: Solid Iron Maul Vendor ( Jannos Ironwill , Jazzrik , Muuran )",
   },
   [3506] = { -- 8x Iron Bar, 1x Heavy Grinding Stone, 1x Green Dye
@@ -1393,6 +1394,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 3000, recipeItem = 12162, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Jutak", "Stranglethorn Vale", 1434 }, { "Kaita Deepforge", "Stormwind City", 1453 }, { "Sumi", "Orgrimmar", 1454 } },
     sourceNote = "Plans: Hardened Iron Shortsword Vendor ( Jutak , Kaita Deepforge , Sumi )",
   },
   [3504] = { -- 7x Iron Bar, 1x Heavy Grinding Stone, 1x Green Dye
@@ -1574,6 +1576,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 4400, recipeItem = 12163, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Zarena Cromwind", "Stranglethorn Vale", 1434 } },
     sourceNote = "Plans: Moonsteel Broadsword Vendor ( Zarena Cromwind )",
   },
   [3508] = { -- 20x Iron Bar, 4x Heavy Grinding Stone, 2x Jade, 2x Moss Agate, 1x Green Leather Armor
@@ -1612,6 +1615,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 100000, recipeItem = 276976, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Sutara Plainstalker", "Mulgore", 1412 } },
     sourceNote = "Plans: Cloudy Skyforged Helm Vendor ( Sutara Plainstalker )",
   },
   [1301527] = { -- 14x Iron Bar, 3x Heavy Grinding Stone, 1x Small Lustrous Pearl
@@ -1622,6 +1626,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 100000, recipeItem = 276977, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Sutara Plainstalker", "Mulgore", 1412 } },
     sourceNote = "Plans: Cloudy Skyforged Pauldrons Vendor ( Sutara Plainstalker )",
   },
   [1301534] = { -- 18x Iron Bar, 5x Heavy Grinding Stone, 1x Aquamarine
@@ -1632,6 +1637,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 100000, recipeItem = 276984, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Archmage Alvareaux", "Alterac Mountains", 1416 } },
     sourceNote = "Plans: Azure Skyforged Helm Vendor ( Archmage Alvareaux )",
   },
   [1301535] = { -- 14x Iron Bar, 3x Heavy Grinding Stone, 1x Aquamarine
@@ -1642,6 +1648,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 100000, recipeItem = 276985, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Archmage Alvareaux", "Alterac Mountains", 1416 } },
     sourceNote = "Plans: Azure Skyforged Pauldrons Vendor ( Archmage Alvareaux )",
   },
   [3498] = { -- 14x Iron Bar, 2x Strong Flux, 2x Heavy Grinding Stone, 4x Gold Bar, 2x Heavy Leather
@@ -1652,6 +1659,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 4400, recipeItem = 12164, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Jaquilina Dramet", "Stranglethorn Vale", 1434 }, { "Vharr", "Stranglethorn Vale", 1434 } },
     sourceNote = "Plans: Massive Iron Axe Vendor ( Jaquilina Dramet , Vharr )",
   },
   [3513] = { -- 8x Steel Bar, 1x Citrine, 1x Lesser Moonstone, 2x Heavy Grinding Stone
@@ -1711,6 +1719,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 4400, recipeItem = 6047, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Krinkle Goodsteel", "Tanaris", 1446 } },
     sourceNote = "Plans: Golden Scale Coif Vendor ( Krinkle Goodsteel )",
   },
   [7224] = { -- 8x Steel Bar, 2x Heavy Grinding Stone, 4x Heavy Leather
@@ -1761,6 +1770,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 6000, recipeItem = 251458, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Gorhak", "Desolace", 1443 } },
     sourceNote = "Plans: Iron Morningstar Vendor ( Gorhak ) Quest: Big, No, MASSIVE Iron Axes",
   },
   [3511] = { -- 12x Steel Bar, 2x Gold Bar, 4x Heavy Grinding Stone, 2x Jade
@@ -1895,6 +1905,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 6250, recipeItem = 251390, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Gorhak", "Desolace", 1443 } },
     sourceNote = "Plans: Hard Gold Gauntlet Vendor ( Gorhak ) Quest: Big, No, MASSIVE Iron Axes",
   },
   [1252288] = { -- 8x Gold Bar, 2x Steel Bar, 2x Heavy Grinding Stone
@@ -2043,6 +2054,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 6000, recipeItem = 7995, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Gharash", "Swamp of Sorrows", 1435 }, { "Harggan", "The Hinterlands", 1425 } },
     sourceNote = "Plans: Mithril Plate Bracers Vendor ( Gharash , Harggan )",
   },
   [9939] = { -- 4x Mithril Bar, 2x Truesilver Bar, 4x Solid Grinding Stone
@@ -2063,6 +2075,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 7500, recipeItem = 251460, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Martha Wellsworth", "Riverglades", 2548 } },
     sourceNote = "Plans: Mithril Warhammer Vendor ( Martha Wellsworth ) Quest: Step Two: More Rock",
   },
   [9993] = { -- 12x Mithril Bar, 2x Citrine, 1x Solid Grinding Stone, 4x Heavy Leather
@@ -2664,6 +2677,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 10000, recipeItem = 8030, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Magnus Frostwake", "Western Plaguelands", 1422 } },
     sourceNote = "Plans: Ebon Shiv Vendor ( Magnus Frostwake )",
   },
   [15292] = { -- 18x Dark Iron Bar, 4x Heart of Fire
@@ -3007,6 +3021,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 16000, recipeItem = 12819, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Magnus Frostwake", "Western Plaguelands", 1422 } },
     sourceNote = "Plans: Ornate Thorium Handaxe Vendor ( Magnus Frostwake )",
   },
   [16970] = { -- 30x Thorium Bar, 4x Enchanted Thorium Bar, 4x Star Ruby, 4x Blue Sapphire, 2x Dense Grinding Stone, 4x Rugged Leather
@@ -3047,6 +3062,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 20000, recipeItem = 12823, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Magnus Frostwake", "Western Plaguelands", 1422 } },
     sourceNote = "Plans: Huge Thorium Battleaxe Vendor ( Magnus Frostwake )",
   },
   [16973] = { -- 20x Thorium Bar, 6x Enchanted Thorium Bar, 2x Huge Emerald, 4x Powerful Mojo, 4x Rugged Leather
@@ -3115,6 +3131,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 22000, recipeItem = 19203, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Argent Quartermaster Hasana", "Tirisfal Glades", 1420 }, { "Argent Quartermaster Lightspark", "Western Plaguelands", 1422 }, { "Quartermaster Miranda Breechlock", "Eastern Plaguelands", 1423 } },
     sourceNote = "Plans: Girdle of the Dawn Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark ...",
   },
   [16983] = { -- 6x Enchanted Thorium Bar, 2x Arcanite Bar, 4x Powerful Mojo, 2x Large Opal, 2x Blue Sapphire, 1x Huge Emerald
@@ -3135,6 +3152,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 75000, recipeItem = 275598, faction = nil,
     station = "Master Forge",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Vargus", "Silithus", 1451 } },
     sourceNote = "Plans: Goregasher Grips Vendor ( Vargus )",
   },
   [1297141] = { -- 7x Thorium Bar, 5x Enchanted Thorium Bar, 3x Essence of Earth, 1x Elemental Flux
@@ -3145,6 +3163,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 75000, recipeItem = 275601, faction = nil,
     station = "Master Forge",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Vargus", "Silithus", 1451 } },
     sourceNote = "Plans: Clutchlord's Grips Vendor ( Vargus )",
   },
   [16657] = { -- 34x Thorium Bar, 1x Star Ruby, 1x Aquamarine
@@ -3225,6 +3244,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 100000, recipeItem = 251468, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Pexmit", "Mount Hyjal", 2482 } },
     sourceNote = "Plans: Bold Dirk Vendor ( Pexmit ) Quest: Back to the Grind",
   },
   [16984] = { -- 30x Thorium Bar, 4x Heart of Fire, 4x Star Ruby, 4x Rugged Leather
@@ -3255,6 +3275,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 75000, recipeItem = 275599, faction = nil,
     station = "Master Forge",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Vargus", "Silithus", 1451 } },
     sourceNote = "Plans: Goregasher Support Vendor ( Vargus )",
   },
   [1297140] = { -- 9x Thorium Bar, 5x Enchanted Thorium Bar, 3x Essence of Fire, 1x Elemental Flux
@@ -3265,6 +3286,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 75000, recipeItem = 275600, faction = nil,
     station = "Master Forge",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Vargus", "Silithus", 1451 } },
     sourceNote = "Plans: Goregasher Stompers Vendor ( Vargus )",
   },
   [1297142] = { -- 11x Thorium Bar, 5x Enchanted Thorium Bar, 3x Essence of Earth, 1x Elemental Flux
@@ -3275,6 +3297,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 75000, recipeItem = 275602, faction = nil,
     station = "Master Forge",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Vargus", "Silithus", 1451 } },
     sourceNote = "Plans: Clutchlord's Support Vendor ( Vargus )",
   },
   [1297143] = { -- 9x Thorium Bar, 5x Enchanted Thorium Bar, 3x Essence of Earth, 1x Elemental Flux
@@ -3285,6 +3308,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 75000, recipeItem = 275603, faction = nil,
     station = "Master Forge",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Vargus", "Silithus", 1451 } },
     sourceNote = "Plans: Clutchlord's Stompers Vendor ( Vargus )",
   },
   [16662] = { -- 26x Thorium Bar, 4x Red Power Crystal
@@ -3670,6 +3694,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 40000, recipeItem = 19205, faction = nil,
     station = "Master Forge",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Argent Quartermaster Hasana", "Tirisfal Glades", 1420 }, { "Argent Quartermaster Lightspark", "Western Plaguelands", 1422 }, { "Quartermaster Miranda Breechlock", "Eastern Plaguelands", 1423 } },
     sourceNote = "Plans: Gloves of the Dawn Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark ...",
   },
   [23636] = { -- 4x Lava Core, 2x Fiery Core, 4x Dark Iron Bar
@@ -3720,6 +3745,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 50000, recipeItem = 19776, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Plans: Bloodsoul Breastplate Vendor ( Rin'wosho the Trader )",
   },
   [24137] = { -- 16x Thorium Bar, 8x Souldarite, 2x Bloodvine, 1x Star Ruby
@@ -3730,6 +3756,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 50000, recipeItem = 19777, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Plans: Bloodsoul Shoulders Vendor ( Rin'wosho the Trader )",
   },
   [24138] = { -- 12x Thorium Bar, 6x Souldarite, 2x Bloodvine, 4x Enchanted Leather
@@ -3740,6 +3767,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 50000, recipeItem = 19778, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Plans: Bloodsoul Gauntlets Vendor ( Rin'wosho the Trader )",
   },
   [24139] = { -- 20x Thorium Bar, 14x Souldarite, 2x Large Opal
@@ -3750,6 +3778,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 50000, recipeItem = 19779, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Plans: Darksoul Breastplate Vendor ( Rin'wosho the Trader )",
   },
   [24140] = { -- 18x Thorium Bar, 12x Souldarite, 2x Large Opal
@@ -3760,6 +3789,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 50000, recipeItem = 19780, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Plans: Darksoul Leggings Vendor ( Rin'wosho the Trader )",
   },
   [24141] = { -- 16x Thorium Bar, 10x Souldarite, 1x Large Opal
@@ -3770,6 +3800,7 @@ ns.Data.Recipes["Blacksmithing"] = {
     source = "vendor", sourceCost = 50000, recipeItem = 19781, faction = nil,
     station = "Anvil",
     tools = { 5956 }, -- Blacksmith Hammer
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Plans: Darksoul Shoulders Vendor ( Rin'wosho the Trader )",
   },
   [24399] = { -- 3x Lava Core, 3x Fiery Core, 4x Core Leather, 6x Dark Iron Bar

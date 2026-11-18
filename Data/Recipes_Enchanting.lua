@@ -63,7 +63,8 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 5, orange = 5, yellow = 30, green = 47, grey = 65,
     source = "vendor", sourceCost = 500, recipeItem = 20758, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
-    sourceNote = "Formula: Minor Wizard Oil 10 vendors Jessara Cordell , Kania , Kithas , Leo Sarn , Lilly , Nasala...",
+    vendors = { { "Jessara Cordell", "Stormwind City", 1453 }, { "Kania", "Silithus", 1451 }, { "Kithas", "Orgrimmar", 1454 }, { "Leo Sarn", "Silverpine Forest", 1421 }, { "Lilly", "Silverpine Forest", 1421 }, { "Nasalanna Windsinger", "Zephras Isle", 2521 }, { "Nata Dawnstrider", "Thunder Bluff", 1456 }, { "Thaddeus Webb", "Undercity", 1458 }, { "Tilli Thistlefuzz", "Ironforge", 1455 }, { "Vaean", "Darnassus", 1457 } },
+    sourceNote = "Formula: Minor Wizard Oil",
   },
   [7420] = { -- 1x Strange Dust
     name = "Enchant Chest - Inferior Stamina", skillLineAbilityID = 4290,
@@ -97,7 +98,8 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 20, orange = 20, yellow = 80, green = 100, grey = 120,
     source = "vendor", sourceCost = 300, recipeItem = 6342, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
-    sourceNote = "Formula: Enchant Chest – Minor Intellect World drop (level 16–16) 11 vendors Eaysaa Brightgust , ...",
+    vendors = { { "Eaysaa Brightgust", "Zephras Isle", 2521 }, { "Jessara Cordell", "Stormwind City", 1453 }, { "Kania", "Silithus", 1451 }, { "Kithas", "Orgrimmar", 1454 }, { "Leo Sarn", "Silverpine Forest", 1421 }, { "Lilly", "Silverpine Forest", 1421 }, { "Nasalanna Windsinger", "Zephras Isle", 2521 }, { "Nata Dawnstrider", "Thunder Bluff", 1456 }, { "Thaddeus Webb", "Undercity", 1458 }, { "Tilli Thistlefuzz", "Ironforge", 1455 }, { "Vaean", "Darnassus", 1457 } },
+    sourceNote = "Formula: Enchant Chest – Minor Intellect World drop (level 16–16)",
   },
   [7426] = { -- 1x Lesser Magic Essence
     name = "Enchant Chest - Minor Absorption", skillLineAbilityID = 4292,
@@ -176,6 +178,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 80, orange = 80, yellow = 115, green = 135, grey = 155,
     source = "vendor", sourceCost = 400, recipeItem = 6346, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
+    vendors = { { "Kithas", "Orgrimmar", 1454 }, { "Lilly", "Silverpine Forest", 1421 } },
     sourceNote = "Formula: Enchant Chest – Lesser Intellect Vendor ( Kithas , Lilly )",
   },
   [7779] = { -- 1x Strange Dust, 2x Lesser Magic Essence
@@ -247,6 +250,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 100, orange = 100, yellow = 130, green = 150, grey = 170,
     source = "vendor", sourceCost = 500, recipeItem = 6349, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
+    vendors = { { "Kithas", "Orgrimmar", 1454 }, { "Nata Dawnstrider", "Thunder Bluff", 1456 }, { "Tilli Thistlefuzz", "Ironforge", 1455 } },
     sourceNote = "Formula: Enchant 2H Weapon – Lesser Intellect Vendor ( Kithas , Nata Dawnstrider , Tilli Thistlef...",
   },
   [7795] = { -- 1x Silver Rod, 3x Strange Dust, 4x Lesser Magic Essence, 1x Shadowgem
@@ -281,6 +285,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 110, orange = 110, yellow = 135, green = 155, grey = 175,
     source = "vendor", sourceCost = 800, recipeItem = 11039, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
+    vendors = { { "Borand", "Stonetalon Mountains", 1442 }, { "Dalria", "Ashenvale", 1440 }, { "Kulwia", "Stonetalon Mountains", 1442 } },
     sourceNote = "Formula: Enchant Cloak – Minor Agility World drop (level 16–30) Vendor ( Borand , Dalria , Kulwia )",
   },
   [1263056] = { -- 2x Vision Dust, 1x Lesser Nether Essence
@@ -442,6 +447,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 125, orange = 125, yellow = 150, green = 170, grey = 190,
     source = "vendor", sourceCost = 1000, recipeItem = 6377, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
+    vendors = { { "Nata Dawnstrider", "Thunder Bluff", 1456 }, { "Zixil", "Hillsbrad Foothills", 1424 } },
     sourceNote = "Formula: Enchant Boots – Minor Agility Vendor ( Nata Dawnstrider , Zixil )",
   },
   [13485] = { -- 1x Lesser Astral Essence, 2x Strange Dust
@@ -469,7 +475,8 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 150, orange = 150, yellow = 160, green = 170, grey = 180,
     source = "vendor", sourceCost = 3000, recipeItem = 20752, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
-    sourceNote = "Formula: Minor Mana Oil 10 vendors Jessara Cordell , Kania , Kithas , Leo Sarn , Lilly , Nasalann...",
+    vendors = { { "Jessara Cordell", "Stormwind City", 1453 }, { "Kania", "Silithus", 1451 }, { "Kithas", "Orgrimmar", 1454 }, { "Leo Sarn", "Silverpine Forest", 1421 }, { "Lilly", "Silverpine Forest", 1421 }, { "Nasalanna Windsinger", "Zephras Isle", 2521 }, { "Nata Dawnstrider", "Thunder Bluff", 1456 }, { "Thaddeus Webb", "Undercity", 1458 }, { "Tilli Thistlefuzz", "Ironforge", 1455 }, { "Vaean", "Darnassus", 1457 } },
+    sourceNote = "Formula: Minor Mana Oil",
   },
   [13522] = { -- 1x Lesser Astral Essence, 1x Shadow Protection Potion
     name = "Enchant Cloak - Lesser Shadow Resistance", skillLineAbilityID = 7436,
@@ -496,6 +503,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 140, orange = 140, yellow = 165, green = 185, grey = 205,
     source = "vendor", sourceCost = 2500, recipeItem = 11101, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
+    vendors = { { "Borand", "Stonetalon Mountains", 1442 }, { "Dalria", "Ashenvale", 1440 }, { "Kulwia", "Stonetalon Mountains", 1442 } },
     sourceNote = "Formula: Enchant Bracer – Lesser Strength Vendor ( Borand , Dalria , Kulwia )",
   },
   [13538] = { -- 1x Strange Dust, 1x Lesser Astral Essence, 1x Large Glimmering Shard
@@ -514,6 +522,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 140, orange = 140, yellow = 165, green = 185, grey = 205,
     source = "vendor", sourceCost = 10000, recipeItem = 249486, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
+    vendors = { { "Gorhak", "Desolace", 1443 } },
     sourceNote = "Formula: Enchant Bracer – Lesser Agility Vendor ( Gorhak ) Quest: Mysterious Mysticism",
   },
   [13529] = { -- 1x Soul Dust, 1x Large Glimmering Shard
@@ -656,6 +665,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 170, orange = 170, yellow = 190, green = 210, grey = 230,
     source = "vendor", sourceCost = 3000, recipeItem = 11163, faction = nil,
     tools = { 11130 }, -- Runed Golden Rod
+    vendors = { { "Keena", "Arathi Highlands", 1417 }, { "Micha Yance", "Hillsbrad Foothills", 1424 } },
     sourceNote = "Formula: Enchant Bracer – Lesser Deflection Vendor ( Keena , Micha Yance )",
   },
   [13648] = { -- 3x Soul Dust
@@ -771,7 +781,8 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 200, orange = 200, yellow = 210, green = 220, grey = 230,
     source = "vendor", sourceCost = 4000, recipeItem = 20753, faction = nil,
     tools = { 11130 }, -- Runed Golden Rod
-    sourceNote = "Formula: Lesser Wizard Oil 10 vendors Jessara Cordell , Kania , Kithas , Leo Sarn , Lilly , Nasal...",
+    vendors = { { "Jessara Cordell", "Stormwind City", 1453 }, { "Kania", "Silithus", 1451 }, { "Kithas", "Orgrimmar", 1454 }, { "Leo Sarn", "Silverpine Forest", 1421 }, { "Lilly", "Silverpine Forest", 1421 }, { "Nasalanna Windsinger", "Zephras Isle", 2521 }, { "Nata Dawnstrider", "Thunder Bluff", 1456 }, { "Thaddeus Webb", "Undercity", 1458 }, { "Tilli Thistlefuzz", "Ironforge", 1455 }, { "Vaean", "Darnassus", 1457 } },
+    sourceNote = "Formula: Lesser Wizard Oil",
   },
   [13687] = { -- 2x Lesser Mystic Essence
     name = "Enchant Boots - Lesser Spirit", skillLineAbilityID = 7524,
@@ -886,6 +897,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 205, orange = 205, yellow = 225, green = 245, grey = 265,
     source = "vendor", sourceCost = 10000, recipeItem = 249489, faction = nil,
     tools = { 11145 }, -- Runed Truesilver Rod
+    vendors = { { "Gorhak", "Desolace", 1443 }, { "Molkar", "Desolace", 1443 } },
     sourceNote = "Formula: Enchant Bracer – Lesser Healing Power Vendor ( Gorhak , Molkar ) Quest: Mysterious Mysti...",
   },
   [1248974] = { -- 2x Large Radiant Shard, 4x Greater Nether Essence, 6x Dream Dust, 2x Magenta Dye, 1x Cerulean Dye, 1x Star Wood
@@ -1183,6 +1195,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 235, orange = 235, yellow = 255, green = 275, grey = 295,
     source = "vendor", sourceCost = 5800, recipeItem = 11223, faction = nil,
     tools = { 11145 }, -- Runed Truesilver Rod
+    vendors = { { "Banalash", "Swamp of Sorrows", 1435 }, { "Mythrin'dir", "Darnassus", 1457 } },
     sourceNote = "Formula: Enchant Bracer – Deflection Vendor ( Banalash , Mythrin'dir )",
   },
   [13933] = { -- 1x Large Radiant Shard, 1x Frost Oil
@@ -1210,6 +1223,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 250, orange = 250, yellow = 260, green = 270, grey = 280,
     source = "vendor", sourceCost = 10000, recipeItem = 20754, faction = nil,
     tools = { 11145 }, -- Runed Truesilver Rod
+    vendors = { { "Kania", "Silithus", 1451 } },
     sourceNote = "Formula: Lesser Mana Oil Vendor ( Kania )",
   },
   [13937] = { -- 1x Large Radiant Shard, 1x Dream Dust
@@ -1317,6 +1331,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 280, orange = 280, yellow = 280, green = 290, grey = 300,
     source = "vendor", sourceCost = 6200, recipeItem = 289560, faction = nil,
     tools = { 11145 }, -- Runed Truesilver Rod
+    vendors = { { "Alynsia", "Redridge Mountains", 1433 }, { "Beneris", "The Barrens", 1413 } },
     sourceNote = "Formula: Enchant Boots – Speed Vendor ( Alynsia , Beneris )",
   },
   [20020] = { -- 6x Dream Dust
@@ -1335,6 +1350,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 275, orange = 275, yellow = 285, green = 295, grey = 305,
     source = "vendor", sourceCost = 20000, recipeItem = 20755, faction = nil,
     tools = { 11145 }, -- Runed Truesilver Rod
+    vendors = { { "Kania", "Silithus", 1451 } },
     sourceNote = "Formula: Wizard Oil Vendor ( Kania )",
   },
   [463869] = { -- 2x Illusion Dust, 1x Firebloom, 1x Crystal Vial
@@ -1378,6 +1394,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 265, orange = 265, yellow = 285, green = 305, grey = 325,
     source = "vendor", sourceCost = 12000, recipeItem = 16217, faction = nil,
     tools = { 11145 }, -- Runed Truesilver Rod
+    vendors = { { "Daniel Bartlett", "Undercity", 1458 }, { "Mythrin'dir", "Darnassus", 1457 } },
     sourceNote = "Formula: Enchant Shield – Greater Stamina Vendor ( Daniel Bartlett , Mythrin'dir )",
   },
   [1249107] = { -- 1x Blood of the Mountain, 1x Essence of Undeath, 3x Small Brilliant Shard
@@ -1455,6 +1472,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 275, orange = 275, yellow = 295, green = 315, grey = 335,
     source = "vendor", sourceCost = 16000, recipeItem = 16221, faction = nil,
     tools = { 11145 }, -- Runed Truesilver Rod
+    vendors = { { "Qia", "Winterspring", 1452 } },
     sourceNote = "Formula: Enchant Chest – Major Stamina Vendor ( Qia )",
   },
   [1263082] = { -- 1x Maker's Spark, 2x Large Brilliant Shard, 4x Greater Eternal Essence
@@ -1520,6 +1538,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 285, orange = 285, yellow = 305, green = 325, grey = 345,
     source = "vendor", sourceCost = 20000, recipeItem = 16224, faction = nil,
     tools = { 11145 }, -- Runed Truesilver Rod
+    vendors = { { "Lorelae Wintersong", "Moonglade", 1450 } },
     sourceNote = "Formula: Enchant Cloak – Superior Defense Vendor ( Lorelae Wintersong )",
   },
   [20029] = { -- 4x Small Brilliant Shard, 1x Essence of Water, 1x Essence of Air, 1x Icecap
@@ -1586,6 +1605,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 300, orange = 300, yellow = 310, green = 320, grey = 330,
     source = "vendor", sourceCost = 40000, recipeItem = 20756, faction = nil,
     tools = { 16207 }, -- Runed Arcanite Rod
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Formula: Brilliant Wizard Oil Vendor ( Rin'wosho the Trader )",
   },
   [25130] = { -- 2x Large Brilliant Shard, 3x Purple Lotus, 1x Imbued Vial
@@ -1595,6 +1615,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 300, orange = 300, yellow = 310, green = 320, grey = 330,
     source = "vendor", sourceCost = 40000, recipeItem = 20757, faction = nil,
     tools = { 16207 }, -- Runed Arcanite Rod
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Formula: Brilliant Mana Oil Vendor ( Rin'wosho the Trader )",
   },
   [471400] = { -- 3x Flask of Mojo, 3x Flask of Big Mojo, 2x Large Brilliant Shard, 1x Imbued Vial
@@ -1620,6 +1641,7 @@ ns.Data.Recipes["Enchanting"] = {
     reagents = { { itemID = 16206, qty = 1 }, { itemID = 13926, qty = 1 }, { itemID = 16204, qty = 10 }, { itemID = 16203, qty = 4 }, { itemID = 14343, qty = 4 }, { itemID = 14344, qty = 2 } },
     learn = 290, orange = 290, yellow = 310, green = 330, grey = 350,
     source = "vendor", sourceCost = 22000, recipeItem = 16243, faction = nil,
+    vendors = { { "Lorelae Wintersong", "Moonglade", 1450 } },
     sourceNote = "Formula: Runed Arcanite Rod Vendor ( Lorelae Wintersong )",
   },
   [23799] = { -- 6x Large Brilliant Shard, 6x Greater Eternal Essence, 4x Illusion Dust, 2x Essence of Earth
@@ -1638,6 +1660,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 290, orange = 290, yellow = 310, green = 330, grey = 350,
     source = "vendor", sourceCost = 30000, recipeItem = 19445, faction = nil,
     tools = { 16207 }, -- Runed Arcanite Rod
+    vendors = { { "Meilosh", "Felwood", 1448 } },
     sourceNote = "Formula: Enchant Weapon – Agility Vendor ( Meilosh )",
   },
   [23801] = { -- 16x Illusion Dust, 4x Greater Eternal Essence, 2x Essence of Water
@@ -1647,6 +1670,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 290, orange = 290, yellow = 310, green = 330, grey = 350,
     source = "vendor", sourceCost = 30000, recipeItem = 19446, faction = nil,
     tools = { 16207 }, -- Runed Arcanite Rod
+    vendors = { { "Argent Quartermaster Hasana", "Tirisfal Glades", 1420 }, { "Argent Quartermaster Lightspark", "Western Plaguelands", 1422 }, { "Quartermaster Miranda Breechlock", "Eastern Plaguelands", 1423 } },
     sourceNote = "Formula: Enchant Bracer – Mana Regeneration Vendor ( Argent Quartermaster Hasana , Argent Quarter...",
   },
   [27837] = { -- 10x Large Brilliant Shard, 6x Greater Eternal Essence, 14x Illusion Dust, 4x Essence of Air
@@ -1656,6 +1680,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 290, orange = 290, yellow = 310, green = 330, grey = 350,
     source = "vendor", sourceCost = 25000, recipeItem = 22392, faction = nil,
     tools = { 16207 }, -- Runed Arcanite Rod
+    vendors = { { "Meilosh", "Felwood", 1448 } },
     sourceNote = "Formula: Enchant 2H Weapon – Agility Vendor ( Meilosh )",
   },
   [20010] = { -- 6x Illusion Dust, 6x Greater Eternal Essence
@@ -1797,6 +1822,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 300, orange = 300, yellow = 320, green = 340, grey = 360,
     source = "vendor", sourceCost = 60000, recipeItem = 19447, faction = nil,
     tools = { 16207 }, -- Runed Arcanite Rod
+    vendors = { { "Argent Quartermaster Hasana", "Tirisfal Glades", 1420 }, { "Argent Quartermaster Lightspark", "Western Plaguelands", 1422 }, { "Quartermaster Miranda Breechlock", "Eastern Plaguelands", 1423 } },
     sourceNote = "Formula: Enchant Bracer – Healing Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lig...",
   },
   [23803] = { -- 10x Large Brilliant Shard, 8x Greater Eternal Essence, 15x Illusion Dust
@@ -1873,6 +1899,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 300, orange = 300, yellow = 320, green = 340, grey = 360,
     source = "vendor", sourceCost = 100000, recipeItem = 20732, faction = nil,
     tools = { 16207 }, -- Runed Arcanite Rod
+    vendors = { { "Kania", "Silithus", 1451 } },
     sourceNote = "Formula: Enchant Cloak – Greater Fire Resistance Formula: Enchant Cloak – Greater Fire Resistance...",
   },
   [25082] = { -- 2x Nexus Crystal, 8x Large Brilliant Shard, 4x Living Essence
@@ -1882,6 +1909,7 @@ ns.Data.Recipes["Enchanting"] = {
     learn = 300, orange = 300, yellow = 320, green = 340, grey = 360,
     source = "vendor", sourceCost = 100000, recipeItem = 20733, faction = nil,
     tools = { 16207 }, -- Runed Arcanite Rod
+    vendors = { { "Kania", "Silithus", 1451 } },
     sourceNote = "Formula: Enchant Cloak – Greater Nature Resistance Formula: Enchant Cloak – Greater Nature Resist...",
   },
   [25083] = { -- 3x Nexus Crystal, 8x Large Brilliant Shard, 2x Black Lotus

@@ -139,6 +139,7 @@ ns.Data.Recipes["First Aid"] = {
     reagents = { { itemID = 4306, qty = 2 } },
     learn = 180, orange = 180, yellow = 180, green = 210, grey = 240,
     source = "vendor", sourceCost = 2200, recipeItem = 16112, faction = nil,
+    vendors = { { "Balai Lok'Wein", "Dustwallow Marsh", 1445 }, { "Deneb Walker", "Arathi Highlands", 1417 } },
     sourceNote = "Manual: Heavy Silk Bandage Vendor ( Balai Lok'Wein , Deneb Walker )",
   },
   [10840] = { -- 1x Mageweave Cloth
@@ -147,6 +148,7 @@ ns.Data.Recipes["First Aid"] = {
     reagents = { { itemID = 4338, qty = 1 } },
     learn = 210, orange = 210, yellow = 210, green = 240, grey = 270,
     source = "vendor", sourceCost = 5000, recipeItem = 16113, faction = nil,
+    vendors = { { "Balai Lok'Wein", "Dustwallow Marsh", 1445 }, { "Deneb Walker", "Arathi Highlands", 1417 } },
     sourceNote = "Manual: Mageweave Bandage Vendor ( Balai Lok'Wein , Deneb Walker )",
   },
   [1259348] = { -- 2x Thick Leather, 2x Silken Thread
@@ -211,6 +213,7 @@ ns.Data.Recipes["First Aid"] = {
     reagents = { { itemID = 8925, qty = 1 }, { itemID = 3713, qty = 3 }, { itemID = 13464, qty = 1 } },
     learn = 275, orange = 275, yellow = 290, green = 310, grey = 330,
     source = "vendor", sourceCost = 80000, recipeItem = 255729, faction = nil,
+    vendors = { { "Pexmit", "Mount Hyjal", 2482 } },
     sourceNote = "Manual: Major Healing Potion Vendor ( Pexmit ) Quest: A Rest Without Pain",
   },
   [18630] = { -- 2x Runecloth
@@ -242,6 +245,7 @@ ns.Data.Recipes["First Aid"] = {
     reagents = { { itemID = 19441, qty = 1 } },
     learn = 300, orange = 300, yellow = 300, green = 330, grey = 360,
     source = "vendor", sourceCost = 100000, recipeItem = 19442, faction = nil,
+    vendors = { { "Argent Quartermaster Hasana", "Tirisfal Glades", 1420 }, { "Argent Quartermaster Lightspark", "Western Plaguelands", 1422 }, { "Quartermaster Miranda Breechlock", "Eastern Plaguelands", 1423 } },
     sourceNote = "Formula: Powerful Anti-Venom Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspa...",
   },
   [30021] = { -- 1x DEPRECATED ITEM, 10x Runecloth

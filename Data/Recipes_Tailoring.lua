@@ -53,7 +53,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 2996, qty = 6 }, { itemID = 2320, qty = 6 } },
     learn = 5, orange = 5, yellow = 30, green = 47, grey = 65,
     source = "vendor", sourceCost = 150, recipeItem = 253665, faction = nil,
-    sourceNote = "36 vendors Alexandra Bolero , Angela Ward , Antonio Bolero , Boramu , Borya , Brienna Starglow , ...",
+    vendors = { { "Alexandra Bolero", "Stormwind City", 1453 }, { "Angela Ward", "Undercity", 1458 }, { "Antonio Bolero", "Stormwind City", 1453 }, { "Boramu", "Thunder Bluff", 1456 }, { "Borya", "Orgrimmar", 1454 }, { "Brienna Starglow", "Feralas", 1444 }, { "Captured Servant of Azora", "Redridge Mountains", 1433 }, { "Dani'ill", "Darnassus", 1457 }, { "Danielle Zipstitch", "Duskwood", 1431 }, { "Darah", "Orgrimmar", 1454 }, { "Darnall", "Moonglade", 1450 }, { "Dominique Stefano", "Alterac Mountains", 1416 }, { "Ellie Stonebrow", "Ironforge", 1455 }, { "Elynna", "Darnassus", 1457 }, { "Franklin Hamar", "Redridge Mountains", 1433 }, { "Ghok'kah", "Dustwallow Marsh", 1445 }, { "Jennabink Powerseam", "Wetlands", 1437 }, { "Jun'ha", "Arathi Highlands", 1417 }, { "Lohgan Eva", "Duskwood", 1431 }, { "Mahu", "Thunder Bluff", 1456 }, { "Mallen Swain", "Hillsbrad Foothills", 1424 }, { "Millie Gregorian", "Undercity", 1458 }, { "Othesia Evengale", "Zephras Isle", 2521 }, { "Outfitter Eric", "Ironforge", 1455 }, { "Poranna Snowbraid", "Ironforge", 1455 }, { "Rann Flamespinner", "Loch Modan", 1432 }, { "Sheri Zipstitch", "Duskwood", 1431 }, { "Stitch Pinwizzle", "Riverglades", 2548 }, { "Taleen Shimmerthread", "Zephras Isle", 2521 }, { "Valdaron", "Darkshore", 1439 }, { "Vizzklick", "Tanaris", 1446 }, { "Wrahk", "The Barrens", 1413 }, { "Xizk Goodstitch", "Stranglethorn Vale", 1434 }, { "Yonada", "The Barrens", 1413 } },
   },
   [2387] = { -- 1x Bolt of Linen Cloth, 1x Coarse Thread
     name = "Linen Cloak", skillLineAbilityID = 2360,
@@ -259,7 +259,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 2996, qty = 3 }, { itemID = 2320, qty = 1 }, { itemID = 6260, qty = 1 } },
     learn = 35, orange = 35, yellow = 60, green = 77, grey = 95,
     source = "vendor", sourceCost = 200, recipeItem = 6270, faction = nil,
-    sourceNote = "5 vendors Borya , Constance Brisboise , Tharynn Bouden , Valdaron , Wrahk",
+    vendors = { { "Borya", "Orgrimmar", 1454 }, { "Constance Brisboise", "Tirisfal Glades", 1420 }, { "Tharynn Bouden", "Elwynn Forest", 1429 }, { "Valdaron", "Darkshore", 1439 }, { "Wrahk", "The Barrens", 1413 } },
   },
   [1301439] = { -- 5x Bolt of Linen Cloth, 2x Coarse Thread
     name = "Cloudy Stormsewn Vest", skillLineAbilityID = 58751,
@@ -330,7 +330,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 2996, qty = 4 }, { itemID = 2320, qty = 2 }, { itemID = 6260, qty = 2 } },
     learn = 45, orange = 45, yellow = 70, green = 87, grey = 105,
     source = "vendor", sourceCost = 300, recipeItem = 6272, faction = nil,
-    sourceNote = "5 vendors Andrew Hilbert , Drake Lindgren , Elynna , Ranik , Wrahk",
+    vendors = { { "Andrew Hilbert", "Silverpine Forest", 1421 }, { "Drake Lindgren", "Elwynn Forest", 1429 }, { "Elynna", "Darnassus", 1457 }, { "Ranik", "The Barrens", 1413 }, { "Wrahk", "The Barrens", 1413 } },
   },
   [3757] = { -- 3x Bolt of Woolen Cloth, 1x Fine Thread
     name = "Woolen Bag", skillLineAbilityID = 4002,
@@ -345,7 +345,8 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 2996, qty = 4 }, { itemID = 2321, qty = 1 }, { itemID = 2604, qty = 1 } },
     learn = 50, orange = 50, yellow = 75, green = 92, grey = 110,
     source = "vendor", sourceCost = 200, recipeItem = 5771, faction = nil,
-    sourceNote = "Drop: Westfall ( Defias Looter ) Drop: Silverpine Forest ( Pyrewood Tailor , Moonrage Tailor ) 4 ...",
+    vendors = { { "Defias Looter", "Westfall", 1436 }, { "Pyrewood Tailor", "Silverpine Forest", 1421 }, { "Moonrage Tailor", "Silverpine Forest", 1421 }, { "Andrew Hilbert", "Silverpine Forest", 1421 }, { "Gina MacGregor", "Westfall", 1436 }, { "Mahu", "Thunder Bluff", 1456 }, { "Valdaron", "Darkshore", 1439 } },
+    sourceNote = "Drop: Westfall ( Defias Looter ) Drop: Silverpine Forest ( Pyrewood Tailor , Moonrage Tailor )",
   },
   [12046] = { -- 4x Bolt of Linen Cloth, 1x Fine Thread
     name = "Simple Kilt", skillLineAbilityID = 6578,
@@ -360,7 +361,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 2997, qty = 3 }, { itemID = 2321, qty = 1 }, { itemID = 249409, qty = 1 } },
     learn = 70, orange = 70, yellow = 75, green = 92, grey = 110,
     source = "vendor", sourceCost = 250, recipeItem = 253668, faction = nil,
-    sourceNote = "36 vendors Alexandra Bolero , Angela Ward , Antonio Bolero , Boramu , Borya , Brienna Starglow , ...",
+    vendors = { { "Alexandra Bolero", "Stormwind City", 1453 }, { "Angela Ward", "Undercity", 1458 }, { "Antonio Bolero", "Stormwind City", 1453 }, { "Boramu", "Thunder Bluff", 1456 }, { "Borya", "Orgrimmar", 1454 }, { "Brienna Starglow", "Feralas", 1444 }, { "Captured Servant of Azora", "Redridge Mountains", 1433 }, { "Dani'ill", "Darnassus", 1457 }, { "Danielle Zipstitch", "Duskwood", 1431 }, { "Darah", "Orgrimmar", 1454 }, { "Darnall", "Moonglade", 1450 }, { "Dominique Stefano", "Alterac Mountains", 1416 }, { "Ellie Stonebrow", "Ironforge", 1455 }, { "Elynna", "Darnassus", 1457 }, { "Franklin Hamar", "Redridge Mountains", 1433 }, { "Ghok'kah", "Dustwallow Marsh", 1445 }, { "Jennabink Powerseam", "Wetlands", 1437 }, { "Jun'ha", "Arathi Highlands", 1417 }, { "Lohgan Eva", "Duskwood", 1431 }, { "Mahu", "Thunder Bluff", 1456 }, { "Mallen Swain", "Hillsbrad Foothills", 1424 }, { "Millie Gregorian", "Undercity", 1458 }, { "Othesia Evengale", "Zephras Isle", 2521 }, { "Outfitter Eric", "Ironforge", 1455 }, { "Poranna Snowbraid", "Ironforge", 1455 }, { "Rann Flamespinner", "Loch Modan", 1432 }, { "Sheri Zipstitch", "Duskwood", 1431 }, { "Stitch Pinwizzle", "Riverglades", 2548 }, { "Taleen Shimmerthread", "Zephras Isle", 2521 }, { "Valdaron", "Darkshore", 1439 }, { "Vizzklick", "Tanaris", 1446 }, { "Wrahk", "The Barrens", 1413 }, { "Xizk Goodstitch", "Stranglethorn Vale", 1434 }, { "Yonada", "The Barrens", 1413 } },
   },
   [1257376] = { -- 8x Bolt of Woolen Cloth, 4x Fine Thread, 2x Cerulean Dye, 2x Pristine Leather
     name = "Filigreed Pristine Gown", skillLineAbilityID = 55431,
@@ -544,7 +545,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 2997, qty = 4 }, { itemID = 2321, qty = 2 }, { itemID = 6260, qty = 2 } },
     learn = 75, orange = 75, yellow = 100, green = 117, grey = 135,
     source = "vendor", sourceCost = 400, recipeItem = 6274, faction = nil,
-    sourceNote = "5 vendors Alexandra Bolero , Borya , Gina MacGregor , Mallen Swain , Yonada",
+    vendors = { { "Alexandra Bolero", "Stormwind City", 1453 }, { "Borya", "Orgrimmar", 1454 }, { "Gina MacGregor", "Westfall", 1436 }, { "Mallen Swain", "Hillsbrad Foothills", 1424 }, { "Yonada", "The Barrens", 1413 } },
   },
   [1257382] = { -- 6x Bolt of Woolen Cloth, 4x Fine Thread, 3x Cerulean Dye, 2x Pristine Leather
     name = "Pristine Gloves", skillLineAbilityID = 55437,
@@ -747,7 +748,8 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 2997, qty = 5 }, { itemID = 2604, qty = 1 }, { itemID = 2321, qty = 1 } },
     learn = 90, orange = 90, yellow = 115, green = 132, grey = 150,
     source = "vendor", sourceCost = 500, recipeItem = 5772, faction = nil,
-    sourceNote = "Drop: Westfall ( Defias Renegade Mage ) Drop: Hillsbrad Foothills ( Hillsbrad Tailor ) 11 vendors...",
+    vendors = { { "Defias Renegade Mage", "Westfall", 1436 }, { "Hillsbrad Tailor", "Hillsbrad Foothills", 1424 }, { "Amy Davenport", "Redridge Mountains", 1433 }, { "Borya", "Orgrimmar", 1454 }, { "Jennabink Powerseam", "Wetlands", 1437 }, { "Kiknikle", "The Barrens", 1413 }, { "Mahu", "Thunder Bluff", 1456 }, { "Millie Gregorian", "Undercity", 1458 }, { "Rann Flamespinner", "Loch Modan", 1432 }, { "Valdaron", "Darkshore", 1439 }, { "Wrahk", "The Barrens", 1413 }, { "Yonada", "The Barrens", 1413 }, { "Zixil", "Hillsbrad Foothills", 1424 } },
+    sourceNote = "Drop: Westfall ( Defias Renegade Mage ) Drop: Hillsbrad Foothills ( Hillsbrad Tailor )",
   },
   [7643] = { -- 5x Bolt of Woolen Cloth, 3x Fine Thread, 3x Red Dye
     name = "Greater Adept's Robe", skillLineAbilityID = 4311,
@@ -755,7 +757,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 2997, qty = 5 }, { itemID = 2321, qty = 3 }, { itemID = 2604, qty = 3 } },
     learn = 90, orange = 90, yellow = 115, green = 132, grey = 150,
     source = "vendor", sourceCost = 800, recipeItem = 6275, faction = nil,
-    sourceNote = "5 vendors Elynna , Jennabink Powerseam , Millie Gregorian , Rann Flamespinner , Sheri Zipstitch",
+    vendors = { { "Elynna", "Darnassus", 1457 }, { "Jennabink Powerseam", "Wetlands", 1437 }, { "Millie Gregorian", "Undercity", 1458 }, { "Rann Flamespinner", "Loch Modan", 1432 }, { "Sheri Zipstitch", "Duskwood", 1431 } },
   },
   [3869] = { -- 1x Bolt of Silk Cloth, 1x Yellow Dye, 1x Fine Thread
     name = "Bright Yellow Shirt", skillLineAbilityID = 2403,
@@ -763,6 +765,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4305, qty = 1 }, { itemID = 4341, qty = 1 }, { itemID = 2321, qty = 1 } },
     learn = 110, orange = 110, yellow = 120, green = 125, grey = 130,
     source = "vendor", sourceCost = 800, recipeItem = 14627, faction = nil,
+    vendors = { { "Danielle Zipstitch", "Duskwood", 1431 } },
     sourceNote = "Vendor ( Danielle Zipstitch )",
   },
   [3849] = { -- 6x Bolt of Woolen Cloth, 2x Medium Leather, 2x Fine Thread
@@ -929,6 +932,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4305, qty = 2 }, { itemID = 4340, qty = 2 }, { itemID = 2321, qty = 1 } },
     learn = 120, orange = 120, yellow = 130, green = 135, grey = 140,
     source = "vendor", sourceCost = 1100, recipeItem = 6401, faction = nil,
+    vendors = { { "Mallen Swain", "Hillsbrad Foothills", 1424 }, { "Sheri Zipstitch", "Duskwood", 1431 } },
     sourceNote = "Vendor ( Mallen Swain , Sheri Zipstitch )",
   },
   [8760] = { -- 2x Bolt of Silk Cloth, 2x Blue Dye, 1x Fine Thread
@@ -999,6 +1003,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4305, qty = 3 }, { itemID = 4234, qty = 2 }, { itemID = 2321, qty = 3 }, { itemID = 249409, qty = 3 } },
     learn = 125, orange = 125, yellow = 135, green = 137, grey = 140,
     source = "vendor", sourceCost = 1000, recipeItem = 253974, faction = nil,
+    vendors = { { "Gorhak", "Desolace", 1443 } },
     sourceNote = "Vendor ( Gorhak ) Quest: I Need a Tailor",
   },
   [8483] = { -- 3x Bolt of Silk Cloth, 2x Bleach, 1x Silken Thread
@@ -1051,6 +1056,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4305, qty = 3 }, { itemID = 4234, qty = 2 }, { itemID = 6260, qty = 2 }, { itemID = 2321, qty = 2 } },
     learn = 120, orange = 120, yellow = 140, green = 155, grey = 170,
     source = "vendor", sourceCost = 1000, recipeItem = 7114, faction = nil,
+    vendors = { { "Kireena", "Desolace", 1443 }, { "Wenna Silkbeard", "Wetlands", 1437 } },
     sourceNote = "Vendor ( Kireena , Wenna Silkbeard )",
   },
   [8780] = { -- 3x Bolt of Silk Cloth, 2x Heavy Leather, 2x Shadow Protection Potion, 2x Fine Thread
@@ -1129,6 +1135,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4339, qty = 5 }, { itemID = 8343, qty = 3 }, { itemID = 2324, qty = 1 } },
     learn = 140, orange = 140, yellow = 145, green = 150, grey = 155,
     source = "vendor", sourceCost = 10000, recipeItem = 10325, faction = nil,
+    vendors = { { "Alexandra Bolero", "Stormwind City", 1453 }, { "Mahu", "Thunder Bluff", 1456 } },
     sourceNote = "Vendor ( Alexandra Bolero , Mahu )",
   },
   [3813] = { -- 3x Bolt of Silk Cloth, 2x Heavy Leather, 3x Fine Thread
@@ -1228,6 +1235,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4305, qty = 3 }, { itemID = 2321, qty = 2 }, { itemID = 4337, qty = 2 } },
     learn = 130, orange = 130, yellow = 150, green = 165, grey = 180,
     source = "vendor", sourceCost = 1000, recipeItem = 14630, faction = nil,
+    vendors = { { "Xizk Goodstitch", "Stranglethorn Vale", 1434 } },
     sourceNote = "Vendor ( Xizk Goodstitch )",
   },
   [8784] = { -- 5x Bolt of Silk Cloth, 2x Green Dye, 1x Silken Thread
@@ -1259,6 +1267,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4339, qty = 5 }, { itemID = 8343, qty = 3 } },
     learn = 140, orange = 140, yellow = 155, green = 170, grey = 185,
     source = "vendor", sourceCost = 5000, recipeItem = 10326, faction = nil,
+    vendors = { { "Millie Gregorian", "Undercity", 1458 }, { "Outfitter Eric", "Ironforge", 1455 } },
     sourceNote = "Vendor ( Millie Gregorian , Outfitter Eric )",
   },
   [3872] = { -- 4x Bolt of Silk Cloth, 1x Purple Dye, 1x Silken Thread
@@ -1305,6 +1314,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4305, qty = 3 }, { itemID = 6260, qty = 2 }, { itemID = 2321, qty = 2 } },
     learn = 140, orange = 140, yellow = 160, green = 175, grey = 190,
     source = "vendor", sourceCost = 1500, recipeItem = 7089, faction = nil,
+    vendors = { { "Brienna Starglow", "Feralas", 1444 }, { "Jun'ha", "Arathi Highlands", 1417 }, { "Norvin Alderman", "Alterac Mountains", 1416 } },
     sourceNote = "Vendor ( Brienna Starglow , Jun'ha , Norvin Alderman )",
   },
   [1257425] = { -- 4x Bolt of Silk Cloth, 1x Elemental Earth, 2x Fine Thread
@@ -1344,6 +1354,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4305, qty = 5 }, { itemID = 2604, qty = 2 }, { itemID = 6371, qty = 2 }, { itemID = 4291, qty = 1 } },
     learn = 145, orange = 145, yellow = 165, green = 180, grey = 195,
     source = "vendor", sourceCost = 1200, recipeItem = 7087, faction = nil,
+    vendors = { { "Norvin Alderman", "Alterac Mountains", 1416 }, { "Xizk Goodstitch", "Stranglethorn Vale", 1434 } },
     sourceNote = "Vendor ( Norvin Alderman , Xizk Goodstitch )",
   },
   [1257432] = { -- 4x Bolt of Silk Cloth, 1x Elemental Earth, 2x Fine Thread, 2x Heavy Leather
@@ -1404,6 +1415,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4305, qty = 5 }, { itemID = 2325, qty = 1 }, { itemID = 4291, qty = 1 } },
     learn = 165, orange = 165, yellow = 175, green = 180, grey = 185,
     source = "vendor", sourceCost = 1500, recipeItem = 10728, faction = nil,
+    vendors = { { "Narkk", "Stranglethorn Vale", 1434 } },
     sourceNote = "Vendor ( Narkk )",
   },
   [8770] = { -- 2x Bolt of Mageweave, 2x Elemental Earth, 2x Elemental Water, 2x Elemental Fire, 2x Elemental Air, 2x Silken Thread
@@ -1459,6 +1471,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4305, qty = 7 }, { itemID = 11134, qty = 2 }, { itemID = 8343, qty = 1 }, { itemID = 2324, qty = 8 } },
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276982, faction = nil,
+    vendors = { { "Sutara Plainstalker", "Mulgore", 1412 } },
     sourceNote = "Vendor ( Sutara Plainstalker )",
   },
   [1301533] = { -- 5x Bolt of Silk Cloth, 1x Lesser Mystic Essence, 1x Heavy Silken Thread, 6x Bleach
@@ -1467,6 +1480,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4305, qty = 5 }, { itemID = 11134, qty = 1 }, { itemID = 8343, qty = 1 }, { itemID = 2324, qty = 6 } },
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276983, faction = nil,
+    vendors = { { "Sutara Plainstalker", "Mulgore", 1412 } },
     sourceNote = "Vendor ( Sutara Plainstalker )",
   },
   [1301540] = { -- 7x Bolt of Silk Cloth, 2x Lesser Mystic Essence, 1x Heavy Silken Thread, 4x Blue Dye
@@ -1475,6 +1489,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4305, qty = 7 }, { itemID = 11134, qty = 2 }, { itemID = 8343, qty = 1 }, { itemID = 6260, qty = 4 } },
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276990, faction = nil,
+    vendors = { { "Archmage Alvareaux", "Alterac Mountains", 1416 } },
     sourceNote = "Vendor ( Archmage Alvareaux )",
   },
   [1301541] = { -- 5x Bolt of Silk Cloth, 1x Lesser Mystic Essence, 1x Heavy Silken Thread, 3x Blue Dye
@@ -1483,6 +1498,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4305, qty = 5 }, { itemID = 11134, qty = 1 }, { itemID = 8343, qty = 1 }, { itemID = 6260, qty = 3 } },
     learn = 175, orange = 175, yellow = 185, green = 187, grey = 190,
     source = "vendor", sourceCost = 100000, recipeItem = 276991, faction = nil,
+    vendors = { { "Archmage Alvareaux", "Alterac Mountains", 1416 } },
     sourceNote = "Vendor ( Archmage Alvareaux )",
   },
   [12059] = { -- 1x Bolt of Mageweave, 1x Bleach, 1x Heavy Silken Thread
@@ -1507,6 +1523,7 @@ ns.Data.Recipes["Tailoring"] = {
     learn = 165, orange = 165, yellow = 185, green = 200, grey = 215,
     source = "vendor", sourceCost = 1500, recipeItem = 4355, faction = nil,
     station = "Spinning Wheel",
+    vendors = { { "Ghok'kah", "Dustwallow Marsh", 1445 }, { "Micha Yance", "Hillsbrad Foothills", 1424 } },
     sourceNote = "Vendor ( Ghok'kah , Micha Yance )",
   },
   [3864] = { -- 4x Bolt of Mageweave, 4x Heavy Leather, 1x Citrine, 1x Iron Buckle, 1x Silken Thread
@@ -1523,6 +1540,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4305, qty = 8 }, { itemID = 7068, qty = 4 }, { itemID = 3827, qty = 2 }, { itemID = 2604, qty = 4 }, { itemID = 4291, qty = 1 } },
     learn = 170, orange = 170, yellow = 185, green = 200, grey = 215,
     source = "vendor", sourceCost = 5000, recipeItem = 7088, faction = nil,
+    vendors = { { "Stitch Pinwizzle", "Riverglades", 2548 }, { "Vizzklick", "Tanaris", 1446 } },
     sourceNote = "Vendor ( Stitch Pinwizzle , Vizzklick )",
   },
   [12048] = { -- 2x Bolt of Mageweave, 3x Silken Thread
@@ -1615,6 +1633,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4339, qty = 2 }, { itemID = 6261, qty = 2 }, { itemID = 8343, qty = 1 } },
     learn = 185, orange = 185, yellow = 190, green = 195, grey = 200,
     source = "vendor", sourceCost = 3000, recipeItem = 10311, faction = nil,
+    vendors = { { "Elynna", "Darnassus", 1457 }, { "Mahu", "Thunder Bluff", 1456 } },
     sourceNote = "Vendor ( Elynna , Mahu )",
   },
   [8804] = { -- 6x Bolt of Silk Cloth, 2x Elemental Fire, 2x Fire Oil, 2x Thick Leather, 4x Red Dye, 2x Silken Thread
@@ -1699,6 +1718,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4339, qty = 2 }, { itemID = 4342, qty = 2 }, { itemID = 8343, qty = 2 } },
     learn = 190, orange = 190, yellow = 195, green = 200, grey = 205,
     source = "vendor", sourceCost = 4000, recipeItem = 10314, faction = nil,
+    vendors = { { "Borya", "Orgrimmar", 1454 }, { "Outfitter Eric", "Ironforge", 1455 } },
     sourceNote = "Vendor ( Borya , Outfitter Eric )",
   },
   [12053] = { -- 2x Bolt of Mageweave, 2x Heavy Silken Thread
@@ -1746,6 +1766,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4339, qty = 3 }, { itemID = 10290, qty = 1 }, { itemID = 8343, qty = 1 } },
     learn = 195, orange = 195, yellow = 200, green = 205, grey = 210,
     source = "vendor", sourceCost = 4000, recipeItem = 10317, faction = nil,
+    vendors = { { "Borya", "Orgrimmar", 1454 }, { "Outfitter Eric", "Ironforge", 1455 } },
     sourceNote = "Vendor ( Borya , Outfitter Eric )",
   },
   [435827] = { -- 2x Bolt of Mageweave, 5x Unstable Microfilament, 5x Heavy Silken Thread
@@ -1768,6 +1789,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4339, qty = 3 }, { itemID = 7079, qty = 2 }, { itemID = 8343, qty = 2 } },
     learn = 185, orange = 185, yellow = 200, green = 215, grey = 230,
     source = "vendor", sourceCost = 6875, recipeItem = 254682, faction = nil,
+    vendors = { { "Gorhak", "Desolace", 1443 } },
     sourceNote = "Vendor ( Gorhak ) Quest: I Need a Tailor",
   },
   [12085] = { -- 4x Bolt of Mageweave, 2x Heavy Silken Thread
@@ -1776,6 +1798,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4339, qty = 4 }, { itemID = 8343, qty = 2 } },
     learn = 200, orange = 200, yellow = 205, green = 210, grey = 215,
     source = "vendor", sourceCost = 4500, recipeItem = 10321, faction = nil,
+    vendors = { { "Millie Gregorian", "Undercity", 1458 }, { "Outfitter Eric", "Ironforge", 1455 } },
     sourceNote = "Vendor ( Millie Gregorian , Outfitter Eric )",
   },
   [12089] = { -- 4x Bolt of Mageweave, 3x Heavy Silken Thread
@@ -1784,6 +1807,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4339, qty = 4 }, { itemID = 8343, qty = 3 } },
     learn = 140, orange = 140, yellow = 205, green = 210, grey = 215,
     source = "vendor", sourceCost = 4500, recipeItem = 10323, faction = nil,
+    vendors = { { "Millie Gregorian", "Undercity", 1458 }, { "Outfitter Eric", "Ironforge", 1455 } },
     sourceNote = "Vendor ( Millie Gregorian , Outfitter Eric )",
   },
   [1257443] = { -- 4x Bolt of Mageweave, 2x Heavy Silken Thread, 1x Magenta Dye, 1x Cerulean Dye
@@ -1877,7 +1901,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4339, qty = 4 }, { itemID = 11137, qty = 4 }, { itemID = 8343, qty = 2 } },
     learn = 190, orange = 190, yellow = 205, green = 220, grey = 235,
     source = "vendor", sourceCost = 6000, recipeItem = 22307, faction = nil,
-    sourceNote = "10 vendors Jessara Cordell , Kania , Kithas , Leo Sarn , Lilly , Nasalanna Windsinger , Nata Dawn...",
+    vendors = { { "Jessara Cordell", "Stormwind City", 1453 }, { "Kania", "Silithus", 1451 }, { "Kithas", "Orgrimmar", 1454 }, { "Leo Sarn", "Silverpine Forest", 1421 }, { "Lilly", "Silverpine Forest", 1421 }, { "Nasalanna Windsinger", "Zephras Isle", 2521 }, { "Nata Dawnstrider", "Thunder Bluff", 1456 }, { "Thaddeus Webb", "Undercity", 1458 }, { "Tilli Thistlefuzz", "Ironforge", 1455 }, { "Vaean", "Darnassus", 1457 } },
   },
   [18401] = { -- 5x Runecloth
     name = "Bolt of Runecloth", skillLineAbilityID = 10396,
@@ -1971,6 +1995,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 4339, qty = 3 }, { itemID = 4589, qty = 6 }, { itemID = 8343, qty = 2 } },
     learn = 200, orange = 200, yellow = 215, green = 230, grey = 245,
     source = "vendor", sourceCost = 7000, recipeItem = 10318, faction = nil,
+    vendors = { { "Cowardly Crosby", "Stranglethorn Vale", 1434 } },
     sourceNote = "Vendor ( Cowardly Crosby )",
   },
   [12082] = { -- 6x Bolt of Mageweave, 6x Shadow Silk, 3x Heavy Silken Thread, 2x Thick Leather
@@ -2136,6 +2161,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14048, qty = 5 }, { itemID = 8170, qty = 2 }, { itemID = 14341, qty = 1 }, { itemID = 249430, qty = 4 }, { itemID = 249409, qty = 2 } },
     learn = 215, orange = 215, yellow = 230, green = 245, grey = 260,
     source = "vendor", sourceCost = 12000, recipeItem = 14468, faction = nil,
+    vendors = { { "Qia", "Winterspring", 1452 } },
     sourceNote = "Vendor ( Qia )",
   },
   [18406] = { -- 5x Bolt of Runecloth, 1x Ironweb Spider Silk, 1x Rune Thread
@@ -2144,6 +2170,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14048, qty = 5 }, { itemID = 14227, qty = 1 }, { itemID = 14341, qty = 1 } },
     learn = 215, orange = 215, yellow = 230, green = 245, grey = 260,
     source = "vendor", sourceCost = 12000, recipeItem = 14469, faction = nil,
+    vendors = { { "Darnall", "Moonglade", 1450 } },
     sourceNote = "Vendor ( Darnall )",
   },
   [18407] = { -- 5x Bolt of Runecloth, 1x Ironweb Spider Silk, 1x Rune Thread
@@ -2176,6 +2203,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14048, qty = 6 }, { itemID = 8170, qty = 4 }, { itemID = 7972, qty = 2 }, { itemID = 14341, qty = 1 } },
     learn = 215, orange = 215, yellow = 230, green = 245, grey = 260,
     source = "vendor", sourceCost = 12000, recipeItem = 21358, faction = nil,
+    vendors = { { "Stitch Pinwizzle", "Riverglades", 2548 }, { "Vizzklick", "Tanaris", 1446 } },
     sourceNote = "Vendor ( Stitch Pinwizzle , Vizzklick )",
   },
   [1257462] = { -- 4x Bolt of Runecloth, 1x Ghost Dye, 1x Ironweb Spider Silk, 1x Rune Thread
@@ -2332,6 +2360,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14048, qty = 4 }, { itemID = 14227, qty = 1 }, { itemID = 14341, qty = 1 } },
     learn = 220, orange = 220, yellow = 240, green = 255, grey = 270,
     source = "vendor", sourceCost = 12000, recipeItem = 14472, faction = nil,
+    vendors = { { "Darnall", "Moonglade", 1450 } },
     sourceNote = "Vendor ( Darnall )",
   },
   [18412] = { -- 4x Bolt of Runecloth, 3x Heart of Fire, 1x Rune Thread
@@ -2388,6 +2417,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14048, qty = 4 }, { itemID = 8170, qty = 4 }, { itemID = 14341, qty = 1 } },
     learn = 230, orange = 230, yellow = 245, green = 260, grey = 275,
     source = "vendor", sourceCost = 16000, recipeItem = 14481, faction = nil,
+    vendors = { { "Qia", "Winterspring", 1452 } },
     sourceNote = "Vendor ( Qia )",
   },
   [18418] = { -- 5x Bolt of Runecloth, 1x Essence of Fire, 1x Rune Thread
@@ -2404,6 +2434,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14048, qty = 5 }, { itemID = 14256, qty = 4 }, { itemID = 14341, qty = 1 } },
     learn = 230, orange = 230, yellow = 245, green = 260, grey = 275,
     source = "vendor", sourceCost = 16000, recipeItem = 14483, faction = nil,
+    vendors = { { "Lorelae Wintersong", "Moonglade", 1450 } },
     sourceNote = "Vendor ( Lorelae Wintersong )",
   },
   [18420] = { -- 4x Bolt of Runecloth, 2x Gold Bar, 1x Rune Thread
@@ -2428,6 +2459,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14048, qty = 5 }, { itemID = 16203, qty = 2 }, { itemID = 14341, qty = 2 } },
     learn = 230, orange = 230, yellow = 245, green = 260, grey = 275,
     source = "vendor", sourceCost = 20000, recipeItem = 22308, faction = nil,
+    vendors = { { "Kania", "Silithus", 1451 } },
     sourceNote = "Vendor ( Kania )",
   },
   [27724] = { -- 5x Bolt of Runecloth, 10x Purple Lotus, 8x Morrowgrain, 2x Rune Thread
@@ -2436,6 +2468,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14048, qty = 5 }, { itemID = 8831, qty = 10 }, { itemID = 11040, qty = 8 }, { itemID = 14341, qty = 2 } },
     learn = 230, orange = 230, yellow = 245, green = 260, grey = 275,
     source = "vendor", sourceCost = 20000, recipeItem = 22310, faction = nil,
+    vendors = { { "Mishta", "Silithus", 1451 } },
     sourceNote = "Vendor ( Mishta )",
   },
   [44950] = { -- 4x Bolt of Runecloth, 1x Bolt of Woolen Cloth, 2x Green Dye, 1x Rune Thread
@@ -2467,6 +2500,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14048, qty = 4 }, { itemID = 14227, qty = 2 }, { itemID = 8170, qty = 4 }, { itemID = 14341, qty = 1 } },
     learn = 235, orange = 235, yellow = 250, green = 265, grey = 280,
     source = "vendor", sourceCost = 20000, recipeItem = 14488, faction = nil,
+    vendors = { { "Darnall", "Moonglade", 1450 } },
     sourceNote = "Vendor ( Darnall )",
   },
   [18424] = { -- 6x Bolt of Runecloth, 1x Essence of Water, 1x Rune Thread
@@ -2640,6 +2674,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14048, qty = 5 }, { itemID = 14227, qty = 1 }, { itemID = 14341, qty = 1 } },
     learn = 250, orange = 250, yellow = 265, green = 280, grey = 295,
     source = "vendor", sourceCost = 100000, recipeItem = 254124, faction = nil,
+    vendors = { { "Pexmit", "Mount Hyjal", 2482 } },
     sourceNote = "Vendor ( Pexmit ) Quest: Threading a Solution",
   },
   [1257489] = { -- 5x Bolt of Runecloth, 3x Ghost Dye, 1x Ironweb Spider Silk, 1x Rune Thread
@@ -2688,6 +2723,7 @@ ns.Data.Recipes["Tailoring"] = {
     learn = 230, orange = 230, yellow = 270, green = 285, grey = 300,
     source = "vendor", sourceCost = 20000, recipeItem = 14526, faction = nil,
     station = "Moonwell",
+    vendors = { { "Qia", "Winterspring", 1452 } },
     sourceNote = "Vendor ( Qia )",
   },
   [23662] = { -- 8x Bolt of Runecloth, 3x Essence of Earth, 3x Living Essence, 2x Ironweb Spider Silk
@@ -2697,6 +2733,7 @@ ns.Data.Recipes["Tailoring"] = {
     learn = 255, orange = 255, yellow = 270, green = 285, grey = 300,
     source = "vendor", sourceCost = 22000, recipeItem = 19215, faction = nil,
     station = "Spinning Wheel",
+    vendors = { { "Meilosh", "Felwood", 1448 } },
     sourceNote = "Vendor ( Meilosh )",
   },
   [23664] = { -- 6x Bolt of Runecloth, 4x Enchanted Leather, 2x Golden Pearl, 2x Guardian Stone, 2x Ironweb Spider Silk
@@ -2706,6 +2743,7 @@ ns.Data.Recipes["Tailoring"] = {
     learn = 255, orange = 255, yellow = 270, green = 285, grey = 300,
     source = "vendor", sourceCost = 22000, recipeItem = 19216, faction = nil,
     station = "Spinning Wheel",
+    vendors = { { "Argent Quartermaster Hasana", "Tirisfal Glades", 1420 }, { "Argent Quartermaster Lightspark", "Western Plaguelands", 1422 }, { "Quartermaster Miranda Breechlock", "Eastern Plaguelands", 1423 } },
     sourceNote = "Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Br...",
   },
   [27660] = { -- 6x Bolt of Runecloth, 4x Large Brilliant Shard, 4x Enchanted Leather, 4x Ironweb Spider Silk
@@ -2722,6 +2760,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14048, qty = 6 }, { itemID = 14342, qty = 2 }, { itemID = 13468, qty = 1 }, { itemID = 14227, qty = 4 } },
     learn = 255, orange = 255, yellow = 270, green = 285, grey = 300,
     source = "vendor", sourceCost = 50000, recipeItem = 22312, faction = nil,
+    vendors = { { "Mishta", "Silithus", 1451 } },
     sourceNote = "Vendor ( Mishta )",
   },
   [1257491] = { -- 5x Bolt of Runecloth, 1x Essence of Earth, 1x Rune Thread
@@ -2819,6 +2858,7 @@ ns.Data.Recipes["Tailoring"] = {
     learn = 285, orange = 285, yellow = 290, green = 292, grey = 295,
     source = "vendor", sourceCost = 75000, recipeItem = 275580, faction = nil,
     station = "Loom",
+    vendors = { { "Mishta", "Silithus", 1451 } },
     sourceNote = "Vendor ( Mishta )",
   },
   [1297123] = { -- 4x Bolt of Runecloth, 1x Small Brilliant Shard, 3x Essence of Water, 6x Rune Thread
@@ -2828,6 +2868,7 @@ ns.Data.Recipes["Tailoring"] = {
     learn = 285, orange = 285, yellow = 290, green = 292, grey = 295,
     source = "vendor", sourceCost = 75000, recipeItem = 275583, faction = nil,
     station = "Loom",
+    vendors = { { "Mishta", "Silithus", 1451 } },
     sourceNote = "Vendor ( Mishta )",
   },
   [18448] = { -- 5x Bolt of Runecloth, 5x Mooncloth, 1x Rune Thread
@@ -2855,6 +2896,7 @@ ns.Data.Recipes["Tailoring"] = {
     learn = 290, orange = 290, yellow = 295, green = 297, grey = 300,
     source = "vendor", sourceCost = 75000, recipeItem = 275581, faction = nil,
     station = "Loom",
+    vendors = { { "Mishta", "Silithus", 1451 } },
     sourceNote = "Vendor ( Mishta )",
   },
   [1297122] = { -- 5x Bolt of Runecloth, 1x Small Brilliant Shard, 3x Essence of Air, 6x Rune Thread
@@ -2864,6 +2906,7 @@ ns.Data.Recipes["Tailoring"] = {
     learn = 295, orange = 295, yellow = 295, green = 297, grey = 300,
     source = "vendor", sourceCost = 75000, recipeItem = 275582, faction = nil,
     station = "Loom",
+    vendors = { { "Mishta", "Silithus", 1451 } },
     sourceNote = "Vendor ( Mishta )",
   },
   [1297124] = { -- 6x Bolt of Runecloth, 1x Small Brilliant Shard, 3x Essence of Water, 6x Rune Thread
@@ -2873,6 +2916,7 @@ ns.Data.Recipes["Tailoring"] = {
     learn = 290, orange = 290, yellow = 295, green = 297, grey = 300,
     source = "vendor", sourceCost = 75000, recipeItem = 275584, faction = nil,
     station = "Loom",
+    vendors = { { "Mishta", "Silithus", 1451 } },
     sourceNote = "Vendor ( Mishta )",
   },
   [1297125] = { -- 5x Bolt of Runecloth, 1x Small Brilliant Shard, 3x Essence of Water, 6x Rune Thread
@@ -2882,6 +2926,7 @@ ns.Data.Recipes["Tailoring"] = {
     learn = 295, orange = 295, yellow = 295, green = 297, grey = 300,
     source = "vendor", sourceCost = 75000, recipeItem = 275585, faction = nil,
     station = "Loom",
+    vendors = { { "Mishta", "Silithus", 1451 } },
     sourceNote = "Vendor ( Mishta )",
   },
   [18452] = { -- 4x Bolt of Runecloth, 6x Mooncloth, 1x Azerothian Diamond, 2x Enchanted Leather, 2x Rune Thread
@@ -2977,6 +3022,7 @@ ns.Data.Recipes["Tailoring"] = {
     learn = 290, orange = 290, yellow = 305, green = 319, grey = 334,
     source = "vendor", sourceCost = 40000, recipeItem = 19218, faction = nil,
     station = "Loom",
+    vendors = { { "Meilosh", "Felwood", 1448 } },
     sourceNote = "Vendor ( Meilosh )",
   },
   [23665] = { -- 5x Mooncloth, 2x Guardian Stone, 2x Ironweb Spider Silk
@@ -2986,6 +3032,7 @@ ns.Data.Recipes["Tailoring"] = {
     learn = 290, orange = 290, yellow = 305, green = 320, grey = 335,
     source = "vendor", sourceCost = 40000, recipeItem = 19217, faction = nil,
     station = "Loom",
+    vendors = { { "Argent Quartermaster Hasana", "Tirisfal Glades", 1420 }, { "Argent Quartermaster Lightspark", "Western Plaguelands", 1422 }, { "Quartermaster Miranda Breechlock", "Eastern Plaguelands", 1423 } },
     sourceNote = "Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightspark , Quartermaster Miranda Br...",
   },
   [1306540] = { -- 3x Malleable Essence of Nature, 3x Mooncloth, 9x Bolt of Runecloth
@@ -3131,6 +3178,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14342, qty = 3 }, { itemID = 19726, qty = 5 }, { itemID = 12804, qty = 4 }, { itemID = 14048, qty = 4 }, { itemID = 14227, qty = 2 } },
     learn = 300, orange = 300, yellow = 315, green = 330, grey = 345,
     source = "vendor", sourceCost = 50000, recipeItem = 19764, faction = nil,
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Vendor ( Rin'wosho the Trader )",
   },
   [24092] = { -- 4x Mooncloth, 4x Bloodvine, 4x Powerful Mojo, 4x Bolt of Runecloth, 2x Ironweb Spider Silk
@@ -3139,6 +3187,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14342, qty = 4 }, { itemID = 19726, qty = 4 }, { itemID = 12804, qty = 4 }, { itemID = 14048, qty = 4 }, { itemID = 14227, qty = 2 } },
     learn = 300, orange = 300, yellow = 315, green = 330, grey = 345,
     source = "vendor", sourceCost = 50000, recipeItem = 19765, faction = nil,
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Vendor ( Rin'wosho the Trader )",
   },
   [24093] = { -- 3x Mooncloth, 3x Bloodvine, 4x Enchanted Leather, 4x Bolt of Runecloth, 4x Ironweb Spider Silk
@@ -3147,6 +3196,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14342, qty = 3 }, { itemID = 19726, qty = 3 }, { itemID = 12810, qty = 4 }, { itemID = 14048, qty = 4 }, { itemID = 14227, qty = 4 } },
     learn = 300, orange = 300, yellow = 315, green = 330, grey = 345,
     source = "vendor", sourceCost = 50000, recipeItem = 19766, faction = nil,
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Vendor ( Rin'wosho the Trader )",
   },
   [26087] = { -- 20x Felcloth, 16x Core Leather, 8x Bloodvine, 4x Essence of Fire, 4x Ironweb Spider Silk
@@ -3190,6 +3240,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 19726, qty = 1 }, { itemID = 14342, qty = 2 }, { itemID = 12803, qty = 4 }, { itemID = 14227, qty = 4 } },
     learn = 300, orange = 300, yellow = 315, green = 330, grey = 345,
     source = "vendor", sourceCost = 90000, recipeItem = 22683, faction = nil,
+    vendors = { { "Mishta", "Silithus", 1451 } },
     sourceNote = "Vendor ( Mishta )",
   },
   [28480] = { -- 4x Bolt of Runecloth, 2x Bloodvine, 2x Living Essence, 2x Ironweb Spider Silk
@@ -3198,6 +3249,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14048, qty = 4 }, { itemID = 19726, qty = 2 }, { itemID = 12803, qty = 2 }, { itemID = 14227, qty = 2 } },
     learn = 300, orange = 300, yellow = 315, green = 330, grey = 345,
     source = "vendor", sourceCost = 50000, recipeItem = 22774, faction = nil,
+    vendors = { { "Mishta", "Silithus", 1451 } },
     sourceNote = "Vendor ( Mishta )",
   },
   [28481] = { -- 4x Bolt of Runecloth, 2x Mooncloth, 2x Living Essence, 2x Ironweb Spider Silk
@@ -3206,6 +3258,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14048, qty = 4 }, { itemID = 14342, qty = 2 }, { itemID = 12803, qty = 2 }, { itemID = 14227, qty = 2 } },
     learn = 300, orange = 300, yellow = 315, green = 330, grey = 345,
     source = "vendor", sourceCost = 50000, recipeItem = 22773, faction = nil,
+    vendors = { { "Mishta", "Silithus", 1451 } },
     sourceNote = "Vendor ( Mishta )",
   },
   [28482] = { -- 2x Bolt of Runecloth, 4x Living Essence, 2x Ironweb Spider Silk
@@ -3214,6 +3267,7 @@ ns.Data.Recipes["Tailoring"] = {
     reagents = { { itemID = 14048, qty = 2 }, { itemID = 12803, qty = 4 }, { itemID = 14227, qty = 2 } },
     learn = 300, orange = 300, yellow = 315, green = 330, grey = 345,
     source = "vendor", sourceCost = 50000, recipeItem = 22772, faction = nil,
+    vendors = { { "Mishta", "Silithus", 1451 } },
     sourceNote = "Vendor ( Mishta )",
   },
   [461727] = { -- 5x Bolt of Runecloth, 2x Rugged Leather, 1x Rune Thread, 1x Cured Rugged Hide

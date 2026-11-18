@@ -101,7 +101,8 @@ ns.Data.Recipes["Cooking"] = {
     learn = 1, orange = 1, yellow = 45, green = 65, grey = 85,
     source = "vendor", sourceCost = 40, recipeItem = 6325, faction = nil,
     station = "Cooking Fire",
-    sourceNote = "Recipe: Brilliant Smallfish 10 vendors Catherine Leland , Gretta Ganter , Harn Longcast , Khara D...",
+    vendors = { { "Catherine Leland", "Stormwind City", 1453 }, { "Gretta Ganter", "Dun Morogh", 1426 }, { "Harn Longcast", "Mulgore", 1412 }, { "Khara Deepwater", "Loch Modan", 1432 }, { "Lizbeth Cromwell", "Undercity", 1458 }, { "Martine Tramblay", "Tirisfal Glades", 1420 }, { "Nyalah Brightfire", "Zephras Isle", 2521 }, { "Nyoma", "Teldrassil", 1438 }, { "Sewa Mistrunner", "Thunder Bluff", 1456 }, { "Tharynn Bouden", "Elwynn Forest", 1429 } },
+    sourceNote = "Recipe: Brilliant Smallfish",
   },
   [7752] = { -- 1x Raw Slitherskin Mackerel
     name = "Slitherskin Mackerel", skillLineAbilityID = 4354,
@@ -110,7 +111,8 @@ ns.Data.Recipes["Cooking"] = {
     learn = 1, orange = 1, yellow = 45, green = 65, grey = 85,
     source = "vendor", sourceCost = 40, recipeItem = 6326, faction = nil,
     station = "Cooking Fire",
-    sourceNote = "Recipe: Slitherskin Mackerel 6 vendors Kriggon Talsone , Martine Tramblay , Nessa Shadowsong , Ny...",
+    vendors = { { "Kriggon Talsone", "Westfall", 1436 }, { "Martine Tramblay", "Tirisfal Glades", 1420 }, { "Nessa Shadowsong", "Teldrassil", 1438 }, { "Nyalah Brightfire", "Zephras Isle", 2521 }, { "Tansy Puddlefizz", "Ironforge", 1455 }, { "Zansoa", "Durotar", 1411 } },
+    sourceNote = "Recipe: Slitherskin Mackerel",
   },
   [8604] = { -- 1x Small Egg, 1x Mild Spices
     name = "Herb Baked Egg", skillLineAbilityID = 4786,
@@ -127,6 +129,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 1, orange = 1, yellow = 45, green = 65, grey = 85,
     source = "vendor", sourceCost = 25, recipeItem = 12226, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Abigail Shiel", "Tirisfal Glades", 1420 } },
     sourceNote = "Recipe: Crispy Bat Wing Vendor ( Abigail Shiel )",
   },
   [21143] = { -- 1x Small Egg, 1x Holiday Spices
@@ -136,7 +139,8 @@ ns.Data.Recipes["Cooking"] = {
     learn = 1, orange = 1, yellow = 45, green = 65, grey = 85,
     source = "vendor", sourceCost = 25, recipeItem = 17200, faction = nil,
     station = "Cooking Fire",
-    sourceNote = "Recipe: Gingerbread Cookie 5 vendors Khole Jinglepocket , Nardstrum Copperpinch , Penney Copperpi...",
+    vendors = { { "Khole Jinglepocket", "Stormwind City", 1453 }, { "Nardstrum Copperpinch", "Undercity", 1458 }, { "Penney Copperpinch", "Orgrimmar", 1454 }, { "Seersa Copperpinch", "Thunder Bluff", 1456 }, { "Wulmort Jinglepocket", "Ironforge", 1455 } },
+    sourceNote = "Recipe: Gingerbread Cookie",
   },
   [2539] = { -- 1x Stringy Wolf Meat, 1x Mild Spices
     name = "Spiced Wolf Meat", skillLineAbilityID = 1536,
@@ -162,6 +166,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 25, orange = 25, yellow = 60, green = 80, grey = 100,
     source = "vendor", sourceCost = 240, recipeItem = 2889, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Kendor Kabonka", "Stormwind City", 1453 } },
     sourceNote = "Recipe: Beer Basted Boar Ribs Vendor ( Kendor Kabonka ) Quest: Beer Basted Boar Ribs",
   },
   [6413] = { -- 1x Scorpid Stinger
@@ -171,6 +176,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 20, orange = 20, yellow = 60, green = 80, grey = 100,
     source = "vendor", sourceCost = 140, recipeItem = 5483, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Grimtak", "Durotar", 1411 }, { "Naluk", "Riverglades", 2548 } },
     sourceNote = "Recipe: Scorpid Surprise Vendor ( Grimtak , Naluk )",
   },
   [6414] = { -- 1x Kodo Meat, 1x Mild Spices
@@ -180,6 +186,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 35, orange = 35, yellow = 75, green = 95, grey = 115,
     source = "vendor", sourceCost = 240, recipeItem = 5484, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Wunna Darkmane", "Mulgore", 1412 } },
     sourceNote = "Recipe: Roasted Kodo Meat Vendor ( Wunna Darkmane )",
   },
   [21144] = { -- 1x Small Egg, 1x Ice Cold Milk, 1x Holiday Spirits, 1x Holiday Spices
@@ -189,7 +196,8 @@ ns.Data.Recipes["Cooking"] = {
     learn = 35, orange = 35, yellow = 75, green = 95, grey = 115,
     source = "vendor", sourceCost = 240, recipeItem = 17201, faction = nil,
     station = "Cooking Fire",
-    sourceNote = "Recipe: Egg Nog 5 vendors Khole Jinglepocket , Nardstrum Copperpinch , Penney Copperpinch , Seers...",
+    vendors = { { "Khole Jinglepocket", "Stormwind City", 1453 }, { "Nardstrum Copperpinch", "Undercity", 1458 }, { "Penney Copperpinch", "Orgrimmar", 1454 }, { "Seersa Copperpinch", "Thunder Bluff", 1456 }, { "Wulmort Jinglepocket", "Ironforge", 1455 } },
+    sourceNote = "Recipe: Egg Nog",
   },
   [1250157] = { -- 1x Small Egg, 4x Mild Spices
     name = "Breakfast Omelette", skillLineAbilityID = 54505,
@@ -207,6 +215,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 40, orange = 40, yellow = 80, green = 100, grey = 120,
     source = "vendor", sourceCost = 250, recipeItem = 6892, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Andrew Hilbert", "Silverpine Forest", 1421 }, { "Drac Roughcut", "Loch Modan", 1432 } },
     sourceNote = "Recipe: Smoked Bear Meat Vendor ( Andrew Hilbert , Drac Roughcut )",
   },
   [2541] = { -- 1x Coyote Meat
@@ -224,6 +233,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 50, orange = 50, yellow = 90, green = 110, grey = 130,
     source = "vendor", sourceCost = 400, recipeItem = 2697, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Kendor Kabonka", "Stormwind City", 1453 } },
     sourceNote = "Recipe: Goretusk Liver Pie Vendor ( Kendor Kabonka ) Quest: Goretusk Liver Pie",
   },
   [6415] = { -- 1x Soft Frenzy Flesh, 1x Mild Spices
@@ -233,6 +243,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 50, orange = 50, yellow = 90, green = 110, grey = 130,
     source = "vendor", sourceCost = 400, recipeItem = 5485, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Laird", "Darkshore", 1439 } },
     sourceNote = "Recipe: Fillet of Frenzy Vendor ( Laird )",
   },
   [6416] = { -- 1x Strider Meat, 1x Shiny Red Apple
@@ -242,6 +253,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 50, orange = 50, yellow = 90, green = 110, grey = 130,
     source = "vendor", sourceCost = 440, recipeItem = 5486, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Tari'qa", "The Barrens", 1413 } },
     sourceNote = "Recipe: Strider Stew Vendor ( Tari'qa ) Quest: Easy Strider Living",
   },
   [6499] = { -- 1x Clam Meat, 1x Refreshing Spring Water
@@ -259,7 +271,8 @@ ns.Data.Recipes["Cooking"] = {
     learn = 50, orange = 50, yellow = 90, green = 110, grey = 130,
     source = "vendor", sourceCost = 400, recipeItem = 6328, faction = nil,
     station = "Cooking Fire",
-    sourceNote = "Recipe: Longjaw Mud Snapper 9 vendors Harn Longcast , Khara Deepwater , Killian Sanatha , Lizbeth...",
+    vendors = { { "Harn Longcast", "Mulgore", 1412 }, { "Khara Deepwater", "Loch Modan", 1432 }, { "Killian Sanatha", "Silverpine Forest", 1421 }, { "Lizbeth Cromwell", "Undercity", 1458 }, { "Naal Mistrunner", "Thunder Bluff", 1456 }, { "Nyalah Brightfire", "Zephras Isle", 2521 }, { "Nyoma", "Teldrassil", 1438 }, { "Tansy Puddlefizz", "Ironforge", 1455 }, { "Tharynn Bouden", "Elwynn Forest", 1429 } },
+    sourceNote = "Recipe: Longjaw Mud Snapper",
   },
   [7754] = { -- 1x Raw Loch Frenzy, 1x Mild Spices
     name = "Loch Frenzy Delight", skillLineAbilityID = 4356,
@@ -268,6 +281,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 50, orange = 50, yellow = 90, green = 110, grey = 130,
     source = "vendor", sourceCost = 400, recipeItem = 6329, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Khara Deepwater", "Loch Modan", 1432 } },
     sourceNote = "Recipe: Loch Frenzy Delight Vendor ( Khara Deepwater )",
   },
   [7827] = { -- 1x Raw Rainbow Fin Albacore
@@ -277,7 +291,8 @@ ns.Data.Recipes["Cooking"] = {
     learn = 50, orange = 50, yellow = 90, green = 110, grey = 130,
     source = "vendor", sourceCost = 400, recipeItem = 6368, faction = nil,
     station = "Cooking Fire",
-    sourceNote = "Recipe: Rainbow Fin Albacore 11 vendors Catherine Leland , Gritta Chumwater , Heldan Galesong , K...",
+    vendors = { { "Catherine Leland", "Stormwind City", 1453 }, { "Gritta Chumwater", "Riverglades", 2548 }, { "Heldan Galesong", "Darkshore", 1439 }, { "Killian Sanatha", "Silverpine Forest", 1421 }, { "Kilxx", "The Barrens", 1413 }, { "Kriggon Talsone", "Westfall", 1436 }, { "Nessa Shadowsong", "Teldrassil", 1438 }, { "Ronald Burch", "Undercity", 1458 }, { "Shankys", "Orgrimmar", 1454 }, { "Stuart Fleming", "Wetlands", 1437 }, { "Zansoa", "Durotar", 1411 } },
+    sourceNote = "Recipe: Rainbow Fin Albacore",
   },
   [1283400] = { -- 1x Star Wood
     name = "Journeyman Campfire", skillLineAbilityID = 57200,
@@ -295,6 +310,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 60, orange = 60, yellow = 100, green = 120, grey = 140,
     source = "vendor", sourceCost = 400, recipeItem = 3679, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Kendor Kabonka", "Stormwind City", 1453 } },
     sourceNote = "Recipe: Blood Sausage Vendor ( Kendor Kabonka ) Quest: Thelsamar Blood Sausages",
   },
   [9513] = { -- 1x Swiftthistle, 1x Refreshing Spring Water
@@ -304,6 +320,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 60, orange = 60, yellow = 100, green = 120, grey = 140,
     source = "vendor", sourceCost = 200, recipeItem = 7678, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Smudge Thunderwood", "Alterac Mountains", 1416 } },
     sourceNote = "Recipe: Thistle Tea Recipe: Thistle Tea Vendor ( Smudge Thunderwood ) Quest: Klaven's Tower Quest...",
   },
   [1249964] = { -- 1x Ice Cold Milk, 2x Mild Spices, 1x Spider Ichor
@@ -340,6 +357,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 75, orange = 75, yellow = 115, green = 135, grey = 155,
     source = "vendor", sourceCost = 200, recipeItem = 728, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Kendor Kabonka", "Stormwind City", 1453 } },
     sourceNote = "Recipe: Westfall Stew Vendor ( Kendor Kabonka ) Quest: Westfall Stew",
   },
   [2544] = { -- 1x Crawler Meat, 1x Mild Spices
@@ -365,6 +383,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 80, orange = 80, yellow = 120, green = 140, grey = 160,
     source = "vendor", sourceCost = 400, recipeItem = 3678, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Kendor Kabonka", "Stormwind City", 1453 } },
     sourceNote = "Recipe: Crocolisk Steak Vendor ( Kendor Kabonka ) Quest: Crocolisk Hunting",
   },
   [25704] = { -- 1x Raw Sagefish, 1x Mild Spices
@@ -374,7 +393,8 @@ ns.Data.Recipes["Cooking"] = {
     learn = 80, orange = 80, yellow = 120, green = 140, grey = 160,
     source = "vendor", sourceCost = 500, recipeItem = 21099, faction = nil,
     station = "Cooking Fire",
-    sourceNote = "Recipe: Smoked Sagefish 24 vendors Aza'bek , Derak Nightfall , Derek Odds , Emrul Riknussun , Eri...",
+    vendors = { { "Aza'bek", "The Barrens", 1413 }, { "Derak Nightfall", "Hillsbrad Foothills", 1424 }, { "Derek Odds", "Alterac Mountains", 1416 }, { "Emrul Riknussun", "Ironforge", 1455 }, { "Erika Tate", "Stormwind City", 1453 }, { "Fimbo Greasemitz", "Riverglades", 2548 }, { "Fyldan", "Darnassus", 1457 }, { "Gloria Femmel", "Redridge Mountains", 1433 }, { "Kalsey Sanden", "Redridge Mountains", 1433 }, { "Kelsey Yance", "Stranglethorn Vale", 1434 }, { "Micha Yance", "Hillsbrad Foothills", 1424 }, { "Miranda Turner", "Riverglades", 2548 }, { "Naal Mistrunner", "Thunder Bluff", 1456 }, { "Nyoma", "Teldrassil", 1438 }, { "Otho Moji'ko", "The Hinterlands", 1425 }, { "Paige", "Alterac Mountains", 1416 }, { "Qujo", "The Hinterlands", 1425 }, { "Ronald Burch", "Undercity", 1458 }, { "Tarban Hearthgrain", "The Barrens", 1413 }, { "Wulan", "Desolace", 1443 }, { "Xen'to", "Orgrimmar", 1454 }, { "Zerril Softbreeze", "Zephras Isle", 2521 } },
+    sourceNote = "Recipe: Smoked Sagefish",
   },
   [2545] = { -- 1x Crawler Claw, 1x Mild Spices
     name = "Cooked Crab Claw", skillLineAbilityID = 1544,
@@ -383,6 +403,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 85, orange = 85, yellow = 125, green = 145, grey = 165,
     source = "vendor", sourceCost = 400, recipeItem = 2698, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Kendor Kabonka", "Stormwind City", 1453 } },
     sourceNote = "Recipe: Cooked Crab Claw World drop (level 10–20) Vendor ( Kendor Kabonka )",
   },
   [8238] = { -- 1x Deviate Fish, 1x Mild Spices
@@ -410,6 +431,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 110, orange = 110, yellow = 130, green = 150, grey = 170,
     source = "vendor", sourceCost = 400, recipeItem = 2700, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Kendor Kabonka", "Stormwind City", 1453 } },
     sourceNote = "Recipe: Succulent Pork Ribs World drop (level 10–25) Vendor ( Kendor Kabonka )",
   },
   [3372] = { -- 2x Murloc Fin, 1x Hot Spices
@@ -419,6 +441,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 90, orange = 90, yellow = 130, green = 150, grey = 170,
     source = "vendor", sourceCost = 1600, recipeItem = 3680, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Kendor Kabonka", "Stormwind City", 1453 } },
     sourceNote = "Recipe: Murloc Fin Soup Vendor ( Kendor Kabonka ) Quest: Selling Fish",
   },
   [6417] = { -- 1x Dig Rat
@@ -437,6 +460,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 90, orange = 90, yellow = 130, green = 150, grey = 170,
     source = "vendor", sourceCost = 800, recipeItem = 5528, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Heldan Galesong", "Darkshore", 1439 }, { "Kriggon Talsone", "Westfall", 1436 } },
     sourceNote = "Recipe: Clam Chowder Vendor ( Heldan Galesong , Kriggon Talsone )",
   },
   [1249965] = { -- 1x Melon Juice, 2x Hot Spices, 1x Murloc Fin
@@ -455,6 +479,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 100, orange = 100, yellow = 135, green = 155, grey = 175,
     source = "vendor", sourceCost = 800, recipeItem = 2699, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Kendor Kabonka", "Stormwind City", 1453 } },
     sourceNote = "Recipe: Redridge Goulash Vendor ( Kendor Kabonka ) Quest: Redridge Goulash",
   },
   [2549] = { -- 2x Lean Wolf Flank, 1x Mild Spices
@@ -464,6 +489,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 100, orange = 100, yellow = 140, green = 160, grey = 180,
     source = "vendor", sourceCost = 1600, recipeItem = 2701, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Kendor Kabonka", "Stormwind City", 1453 } },
     sourceNote = "Recipe: Seasoned Wolf Kabob Vendor ( Kendor Kabonka ) Quest: Seasoned Wolf Kabobs",
   },
   [6418] = { -- 1x Thunder Lizard Tail, 1x Hot Spices
@@ -473,6 +499,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 100, orange = 100, yellow = 140, green = 160, grey = 180,
     source = "vendor", sourceCost = 400, recipeItem = 5488, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Tari'qa", "The Barrens", 1413 } },
     sourceNote = "Recipe: Crispy Lizard Tail Vendor ( Tari'qa )",
   },
   [7755] = { -- 1x Raw Bristle Whisker Catfish
@@ -482,7 +509,8 @@ ns.Data.Recipes["Cooking"] = {
     learn = 100, orange = 100, yellow = 140, green = 160, grey = 180,
     source = "vendor", sourceCost = 1200, recipeItem = 6330, faction = nil,
     station = "Cooking Fire",
-    sourceNote = "Recipe: Bristle Whisker Catfish 8 vendors Catherine Leland , Derak Nightfall , Gritta Chumwater ,...",
+    vendors = { { "Catherine Leland", "Stormwind City", 1453 }, { "Derak Nightfall", "Hillsbrad Foothills", 1424 }, { "Gritta Chumwater", "Riverglades", 2548 }, { "Kilxx", "The Barrens", 1413 }, { "Lindea Rabonne", "Hillsbrad Foothills", 1424 }, { "Naal Mistrunner", "Thunder Bluff", 1456 }, { "Ronald Burch", "Undercity", 1458 }, { "Sewa Mistrunner", "Thunder Bluff", 1456 } },
+    sourceNote = "Recipe: Bristle Whisker Catfish",
   },
   [1262978] = { -- 2x Mystery Meat, 1x Heavy Kodo Meat, 1x Soothing Spices
     name = "Cookie's Feast", skillLineAbilityID = 57021,
@@ -499,6 +527,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 110, orange = 110, yellow = 150, green = 170, grey = 190,
     source = "vendor", sourceCost = 1600, recipeItem = 3683, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Kendor Kabonka", "Stormwind City", 1453 } },
     sourceNote = "Recipe: Gooey Spider Cake Vendor ( Kendor Kabonka ) Quest: Dusky Crab Cakes",
   },
   [3397] = { -- 1x Big Bear Meat, 1x Hot Spices
@@ -508,6 +537,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 110, orange = 110, yellow = 150, green = 170, grey = 190,
     source = "vendor", sourceCost = 1600, recipeItem = 3734, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Ulthaan", "Ashenvale", 1440 } },
     sourceNote = "Recipe: Big Bear Steak Vendor ( Super-Seller 680 , Ulthaan ) Quest: The Rescue",
   },
   [6419] = { -- 1x Stag Meat, 4x Mild Spices
@@ -517,6 +547,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 110, orange = 110, yellow = 150, green = 170, grey = 190,
     source = "vendor", sourceCost = 1200, recipeItem = 5489, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Ulthaan", "Ashenvale", 1440 } },
     sourceNote = "Recipe: Lean Venison Vendor ( Ulthaan , Vendor-Tron 1000 )",
   },
   [1249959] = { -- 1x Melon Juice, 2x Liferoot
@@ -535,6 +566,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 120, orange = 120, yellow = 160, green = 180, grey = 200,
     source = "vendor", sourceCost = 1600, recipeItem = 3681, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Kendor Kabonka", "Stormwind City", 1453 } },
     sourceNote = "Recipe: Crocolisk Gumbo Vendor ( Kendor Kabonka ) Quest: Apprentice's Duties",
   },
   [24418] = { -- 2x Tender Crocolisk Meat, 1x Soothing Spices
@@ -544,6 +576,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 150, orange = 150, yellow = 160, green = 180, grey = 200,
     source = "vendor", sourceCost = 2000, recipeItem = 20075, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Ogg'marr", "Dustwallow Marsh", 1445 } },
     sourceNote = "Recipe: Heavy Crocolisk Stew Vendor ( Ogg'marr )",
   },
   [6500] = { -- 1x Tangy Clam Meat, 1x Hot Spices
@@ -570,6 +603,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 130, orange = 130, yellow = 170, green = 190, grey = 210,
     source = "vendor", sourceCost = 1600, recipeItem = 3682, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Keena", "Arathi Highlands", 1417 }, { "Kendor Kabonka", "Stormwind City", 1453 }, { "Nerrist", "Stranglethorn Vale", 1434 } },
     sourceNote = "Recipe: Curiously Tasty Omelet Vendor ( Keena , Kendor Kabonka , Nerrist ) Quest: Ormer's Revenge",
   },
   [3398] = { -- 1x Lion Meat, 1x Hot Spices
@@ -579,6 +613,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 125, orange = 125, yellow = 175, green = 195, grey = 215,
     source = "vendor", sourceCost = 1800, recipeItem = 3735, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Zargh", "The Barrens", 1413 } },
     sourceNote = "Recipe: Hot Lion Chops Vendor ( Vendor-Tron 1000 , Zargh ) Quest: Elixir of Pain",
   },
   [1249966] = { -- 1x Sweet Nectar, 3x Hot Spices, 1x Large Fang
@@ -606,7 +641,8 @@ ns.Data.Recipes["Cooking"] = {
     learn = 175, orange = 175, yellow = 190, green = 210, grey = 230,
     source = "vendor", sourceCost = 2200, recipeItem = 6369, faction = nil,
     station = "Cooking Fire",
-    sourceNote = "Recipe: Rockscale Cod 9 vendors Heldan Galesong , Kelsey Yance , Lindea Rabonne , Lizbeth Cromwel...",
+    vendors = { { "Heldan Galesong", "Darkshore", 1439 }, { "Kelsey Yance", "Stranglethorn Vale", 1434 }, { "Lindea Rabonne", "Hillsbrad Foothills", 1424 }, { "Lizbeth Cromwell", "Undercity", 1458 }, { "Shankys", "Orgrimmar", 1454 }, { "Stuart Fleming", "Wetlands", 1437 }, { "Tansy Puddlefizz", "Ironforge", 1455 }, { "Wik'Tar", "Ashenvale", 1440 }, { "Wulan", "Desolace", 1443 } },
+    sourceNote = "Recipe: Rockscale Cod",
   },
   [1250155] = { -- 2x Giant Egg, 4x Hot Spices
     name = "Giant Scrambled Eggs", skillLineAbilityID = 54503,
@@ -642,6 +678,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 185, orange = 185, yellow = 200, green = 215, grey = 230,
     source = "vendor", sourceCost = 2000, recipeItem = 274977, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Martha Wellsworth", "Riverglades", 2548 } },
     sourceNote = "Recipe: Plain Ol' Paletusk Vendor ( Martha Wellsworth ) Quest: Paletusk Harvesting",
   },
   [1291341] = { -- 1x Thick Logs
@@ -687,6 +724,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 175, orange = 175, yellow = 215, green = 235, grey = 255,
     source = "vendor", sourceCost = 1000, recipeItem = 4609, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Narj Deepslice", "Arathi Highlands", 1417 } },
     sourceNote = "Recipe: Barbecued Buzzard Wing Vendor ( Narj Deepslice , Super-Seller 680 ) Quest: Barbecued Buzz...",
   },
   [7213] = { -- 1x Giant Clam Meat, 1x Hot Spices
@@ -696,6 +734,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 175, orange = 175, yellow = 215, green = 235, grey = 255,
     source = "vendor", sourceCost = 5000, recipeItem = 6039, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Kelsey Yance", "Stranglethorn Vale", 1434 } },
     sourceNote = "Recipe: Giant Clam Scorcho Vendor ( Kelsey Yance )",
   },
   [13028] = { -- 1x Goldthorn, 1x Refreshing Spring Water
@@ -714,7 +753,8 @@ ns.Data.Recipes["Cooking"] = {
     learn = 175, orange = 175, yellow = 215, green = 235, grey = 255,
     source = "vendor", sourceCost = 5000, recipeItem = 12228, faction = nil,
     station = "Cooking Fire",
-    sourceNote = "Recipe: Roast Raptor 7 vendors Corporal Bluth , Hammon Karwn , Helenia Olden , Keena , Nerrist , ...",
+    vendors = { { "Corporal Bluth", "Stranglethorn Vale", 1434 }, { "Hammon Karwn", "Arathi Highlands", 1417 }, { "Helenia Olden", "Dustwallow Marsh", 1445 }, { "Keena", "Arathi Highlands", 1417 }, { "Nerrist", "Stranglethorn Vale", 1434 }, { "Ogg'marr", "Dustwallow Marsh", 1445 } },
+    sourceNote = "Recipe: Roast Raptor",
   },
   [15856] = { -- 1x Red Wolf Meat, 1x Hot Spices
     name = "Hot Wolf Ribs", skillLineAbilityID = 8619,
@@ -723,6 +763,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 175, orange = 175, yellow = 215, green = 235, grey = 255,
     source = "vendor", sourceCost = 5000, recipeItem = 12229, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Sheendra Tallgrass", "Feralas", 1444 }, { "Vivianna", "Feralas", 1444 } },
     sourceNote = "Recipe: Hot Wolf Ribs Vendor ( Sheendra Tallgrass , Super-Seller 680 , Vivianna )",
   },
   [15861] = { -- 1x Tiger Meat, 1x Refreshing Spring Water, 2x Shiny Red Apple
@@ -732,6 +773,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 175, orange = 175, yellow = 215, green = 235, grey = 255,
     source = "vendor", sourceCost = 3000, recipeItem = 12231, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Corporal Bluth", "Stranglethorn Vale", 1434 }, { "Nerrist", "Stranglethorn Vale", 1434 } },
     sourceNote = "Recipe: Jungle Stew Vendor ( Corporal Bluth , Nerrist , Vendor-Tron 1000 )",
   },
   [15863] = { -- 1x Mystery Meat, 1x Hot Spices
@@ -741,7 +783,8 @@ ns.Data.Recipes["Cooking"] = {
     learn = 175, orange = 175, yellow = 215, green = 235, grey = 255,
     source = "vendor", sourceCost = 5000, recipeItem = 12232, faction = nil,
     station = "Cooking Fire",
-    sourceNote = "Recipe: Carrion Surprise 4 vendors Banalash , Kireena , Ogg'marr , Vendor-Tron 1000",
+    vendors = { { "Banalash", "Swamp of Sorrows", 1435 }, { "Kireena", "Desolace", 1443 }, { "Ogg'marr", "Dustwallow Marsh", 1445 } },
+    sourceNote = "Recipe: Carrion Surprise",
   },
   [15865] = { -- 1x Mystery Meat, 1x Skin of Dwarven Stout
     name = "Mystery Stew", skillLineAbilityID = 8622,
@@ -750,6 +793,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 175, orange = 175, yellow = 215, green = 235, grey = 255,
     source = "vendor", sourceCost = 3000, recipeItem = 12233, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Helenia Olden", "Dustwallow Marsh", 1445 }, { "Janet Hommers", "Desolace", 1443 } },
     sourceNote = "Recipe: Mystery Stew Vendor ( Helenia Olden , Janet Hommers , Super-Seller 680 )",
   },
   [20916] = { -- 1x Raw Mithril Head Trout
@@ -759,7 +803,8 @@ ns.Data.Recipes["Cooking"] = {
     learn = 175, orange = 175, yellow = 215, green = 235, grey = 255,
     source = "vendor", sourceCost = 2200, recipeItem = 17062, faction = nil,
     station = "Cooking Fire",
-    sourceNote = "Recipe: Mithril Head Trout 9 vendors Heldan Galesong , Kelsey Yance , Lindea Rabonne , Lizbeth Cr...",
+    vendors = { { "Heldan Galesong", "Darkshore", 1439 }, { "Kelsey Yance", "Stranglethorn Vale", 1434 }, { "Lindea Rabonne", "Hillsbrad Foothills", 1424 }, { "Lizbeth Cromwell", "Undercity", 1458 }, { "Shankys", "Orgrimmar", 1454 }, { "Stuart Fleming", "Wetlands", 1437 }, { "Tansy Puddlefizz", "Ironforge", 1455 }, { "Wik'Tar", "Ashenvale", 1440 }, { "Wulan", "Desolace", 1443 } },
+    sourceNote = "Recipe: Mithril Head Trout",
   },
   [25954] = { -- 1x Raw Greater Sagefish, 1x Hot Spices
     name = "Sagefish Delight", skillLineAbilityID = 13375,
@@ -768,7 +813,8 @@ ns.Data.Recipes["Cooking"] = {
     learn = 175, orange = 175, yellow = 215, green = 235, grey = 255,
     source = "vendor", sourceCost = 5000, recipeItem = 21219, faction = nil,
     station = "Cooking Fire",
-    sourceNote = "Recipe: Sagefish Delight 24 vendors Aza'bek , Derak Nightfall , Derek Odds , Emrul Riknussun , Er...",
+    vendors = { { "Aza'bek", "The Barrens", 1413 }, { "Derak Nightfall", "Hillsbrad Foothills", 1424 }, { "Derek Odds", "Alterac Mountains", 1416 }, { "Emrul Riknussun", "Ironforge", 1455 }, { "Erika Tate", "Stormwind City", 1453 }, { "Fimbo Greasemitz", "Riverglades", 2548 }, { "Fyldan", "Darnassus", 1457 }, { "Gloria Femmel", "Redridge Mountains", 1433 }, { "Kalsey Sanden", "Redridge Mountains", 1433 }, { "Kelsey Yance", "Stranglethorn Vale", 1434 }, { "Micha Yance", "Hillsbrad Foothills", 1424 }, { "Miranda Turner", "Riverglades", 2548 }, { "Naal Mistrunner", "Thunder Bluff", 1456 }, { "Nyoma", "Teldrassil", 1438 }, { "Otho Moji'ko", "The Hinterlands", 1425 }, { "Paige", "Alterac Mountains", 1416 }, { "Qujo", "The Hinterlands", 1425 }, { "Ronald Burch", "Undercity", 1458 }, { "Tarban Hearthgrain", "The Barrens", 1413 }, { "Wulan", "Desolace", 1443 }, { "Xen'to", "Orgrimmar", 1454 }, { "Zerril Softbreeze", "Zephras Isle", 2521 } },
+    sourceNote = "Recipe: Sagefish Delight",
   },
   [1295805] = { -- 2x Murloc Eye, 1x Tender Crab Meat, 1x Hot Spices
     name = "Briny Seafood Stew", skillLineAbilityID = 58468,
@@ -812,6 +858,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 200, orange = 200, yellow = 240, green = 260, grey = 280,
     source = "vendor", sourceCost = 7000, recipeItem = 12239, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Helenia Olden", "Dustwallow Marsh", 1445 }, { "Ogg'marr", "Dustwallow Marsh", 1445 } },
     sourceNote = "Recipe: Dragonbreath Chili Vendor ( Helenia Olden , Ogg'marr , Super-Seller 680 )",
   },
   [15910] = { -- 2x Heavy Kodo Meat, 1x Soothing Spices, 1x Refreshing Spring Water
@@ -821,6 +868,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 200, orange = 200, yellow = 240, green = 260, grey = 280,
     source = "vendor", sourceCost = 7000, recipeItem = 12240, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Janet Hommers", "Desolace", 1443 }, { "Kireena", "Desolace", 1443 } },
     sourceNote = "Recipe: Heavy Kodo Stew Vendor ( Janet Hommers , Kireena , Vendor-Tron 1000 )",
   },
   [21175] = { -- 2x White Spider Meat
@@ -888,6 +936,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 225, orange = 225, yellow = 265, green = 285, grey = 305,
     source = "vendor", sourceCost = 12000, recipeItem = 16111, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Banalash", "Swamp of Sorrows", 1435 }, { "Kriggon Talsone", "Westfall", 1436 }, { "Uthok", "Stranglethorn Vale", 1434 } },
     sourceNote = "Recipe: Spiced Chili Crab Vendor ( Banalash , Kriggon Talsone , Uthok )",
   },
   [15933] = { -- 1x Giant Egg, 2x Soothing Spices
@@ -897,6 +946,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 225, orange = 225, yellow = 265, green = 285, grey = 305,
     source = "vendor", sourceCost = 12000, recipeItem = 16110, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Bale", "Felwood", 1448 }, { "Himmik", "Winterspring", 1452 }, { "Malygen", "Felwood", 1448 } },
     sourceNote = "Recipe: Monster Omelet Vendor ( Bale , Himmik , Malygen )",
   },
   [18238] = { -- 1x Raw Spotted Yellowtail
@@ -906,6 +956,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 225, orange = 225, yellow = 265, green = 285, grey = 305,
     source = "vendor", sourceCost = 16000, recipeItem = 13939, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Gikkix", "Tanaris", 1446 } },
     sourceNote = "Recipe: Spotted Yellowtail Vendor ( Gikkix )",
   },
   [18239] = { -- 1x Raw Glossy Mightfish, 1x Soothing Spices
@@ -915,6 +966,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 225, orange = 225, yellow = 265, green = 285, grey = 305,
     source = "vendor", sourceCost = 16000, recipeItem = 13940, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Kelsey Yance", "Stranglethorn Vale", 1434 } },
     sourceNote = "Recipe: Cooked Glossy Mightfish Vendor ( Kelsey Yance )",
   },
   [18241] = { -- 1x Raw Redgill
@@ -924,6 +976,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 225, orange = 225, yellow = 265, green = 285, grey = 305,
     source = "vendor", sourceCost = 16000, recipeItem = 13941, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Kelsey Yance", "Stranglethorn Vale", 1434 } },
     sourceNote = "Recipe: Filet of Redgill Vendor ( Kelsey Yance )",
   },
   [20626] = { -- 2x Zesty Clam Meat, 1x Hot Spices, 1x Ice Cold Milk
@@ -933,6 +986,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 225, orange = 225, yellow = 265, green = 285, grey = 305,
     source = "vendor", sourceCost = 3000, recipeItem = 16767, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Grizzek", "Riverglades", 2548 }, { "Jabbey", "Tanaris", 1446 } },
     sourceNote = "Recipe: Undermine Clam Chowder Vendor ( Grizzek , Jabbey )",
   },
   [22480] = { -- 1x Tender Wolf Meat, 1x Soothing Spices
@@ -942,7 +996,8 @@ ns.Data.Recipes["Cooking"] = {
     learn = 225, orange = 225, yellow = 265, green = 285, grey = 305,
     source = "vendor", sourceCost = 12000, recipeItem = 18046, faction = nil,
     station = "Cooking Fire",
-    sourceNote = "Recipe: Tender Wolf Steak 4 vendors Dirge Quikcleave , Innkeeper Fizzgrimble , Innkeeper Zizplink...",
+    vendors = { { "Dirge Quikcleave", "Tanaris", 1446 }, { "Innkeeper Fizzgrimble", "Tanaris", 1446 }, { "Innkeeper Zizplink", "Riverglades", 2548 }, { "Truk Wildbeard", "The Hinterlands", 1425 } },
+    sourceNote = "Recipe: Tender Wolf Steak",
   },
   [1294014] = { -- 3x Hyjal Berries, 1x Soothing Spices
     name = "Sweetpaw Jam", skillLineAbilityID = 58426,
@@ -1036,6 +1091,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 240, orange = 240, yellow = 280, green = 300, grey = 320,
     source = "vendor", sourceCost = 16000, recipeItem = 13942, faction = nil,
     station = "Iron Oven",
+    vendors = { { "Gikkix", "Tanaris", 1446 } },
     sourceNote = "Recipe: Grilled Squid Vendor ( Gikkix )",
   },
   [18242] = { -- 1x Raw Summer Bass, 2x Hot Spices
@@ -1045,6 +1101,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 240, orange = 240, yellow = 280, green = 300, grey = 320,
     source = "vendor", sourceCost = 16000, recipeItem = 13943, faction = nil,
     station = "Iron Oven",
+    vendors = { { "Kelsey Yance", "Stranglethorn Vale", 1434 } },
     sourceNote = "Recipe: Hot Smoked Bass Vendor ( Kelsey Yance )",
   },
   [1250146] = { -- 3x Red Wolf Meat, 3x Soothing Spices
@@ -1078,6 +1135,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 250, orange = 250, yellow = 290, green = 310, grey = 330,
     source = "vendor", sourceCost = 20000, recipeItem = 13945, faction = nil,
     station = "Cooking Fire",
+    vendors = { { "Gikkix", "Tanaris", 1446 } },
     sourceNote = "Recipe: Nightfin Soup Vendor ( Gikkix )",
   },
   [18244] = { -- 1x Raw Sunscale Salmon
@@ -1087,6 +1145,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 250, orange = 250, yellow = 290, green = 310, grey = 330,
     source = "vendor", sourceCost = 20000, recipeItem = 13946, faction = nil,
     station = "Iron Oven",
+    vendors = { { "Gikkix", "Tanaris", 1446 } },
     sourceNote = "Recipe: Poached Sunscale Salmon Vendor ( Gikkix )",
   },
   [1263067] = { -- 10x Simple Flour, 5x Refreshing Spring Water, 4x Soothing Spices
@@ -1103,6 +1162,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 275, orange = 275, yellow = 315, green = 335, grey = 355,
     source = "vendor", sourceCost = 20000, recipeItem = 13947, faction = nil,
     station = "Iron Oven",
+    vendors = { { "Sheendra Tallgrass", "Feralas", 1444 }, { "Vivianna", "Feralas", 1444 } },
     sourceNote = "Recipe: Lobster Stew Vendor ( Sheendra Tallgrass , Vivianna )",
   },
   [18246] = { -- 1x Large Raw Mightfish, 1x Hot Spices, 1x Soothing Spices
@@ -1112,6 +1172,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 275, orange = 275, yellow = 315, green = 335, grey = 355,
     source = "vendor", sourceCost = 20000, recipeItem = 13948, faction = nil,
     station = "Iron Oven",
+    vendors = { { "Sheendra Tallgrass", "Feralas", 1444 }, { "Vivianna", "Feralas", 1444 } },
     sourceNote = "Recipe: Mightfish Steak Vendor ( Sheendra Tallgrass , Vivianna )",
   },
   [18247] = { -- 1x Raw Whitescale Salmon, 1x Soothing Spices
@@ -1121,6 +1182,7 @@ ns.Data.Recipes["Cooking"] = {
     learn = 275, orange = 275, yellow = 315, green = 335, grey = 355,
     source = "vendor", sourceCost = 20000, recipeItem = 13949, faction = nil,
     station = "Iron Oven",
+    vendors = { { "Sheendra Tallgrass", "Feralas", 1444 }, { "Vivianna", "Feralas", 1444 } },
     sourceNote = "Recipe: Baked Salmon Vendor ( Sheendra Tallgrass , Vivianna )",
   },
   [22761] = { -- 1x Runn Tum Tuber, 1x Soothing Spices

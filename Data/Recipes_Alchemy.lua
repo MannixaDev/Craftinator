@@ -228,7 +228,8 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 5635, qty = 1 }, { itemID = 2450, qty = 1 }, { itemID = 3371, qty = 1 } },
     learn = 60, orange = 60, yellow = 90, green = 110, grey = 130,
     source = "vendor", sourceCost = 100, recipeItem = 5640, faction = nil,
-    sourceNote = "Recipe: Rage Potion 4 vendors Defias Profiteer , Hagrus , Ranik , Xandar Goodbeard",
+    vendors = { { "Defias Profiteer", "Westfall", 1436 }, { "Hagrus", "Orgrimmar", 1454 }, { "Ranik", "The Barrens", 1413 }, { "Xandar Goodbeard", "Loch Modan", 1432 } },
+    sourceNote = "Recipe: Rage Potion",
   },
   [1251736] = { -- 1x Briarthorn, 2x Earthroot, 1x Empty Vial
     name = "Lesser Frenzy Potion", skillLineAbilityID = 54662,
@@ -305,6 +306,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 2453, qty = 1 }, { itemID = 2452, qty = 1 }, { itemID = 3371, qty = 1 } },
     learn = 100, orange = 100, yellow = 130, green = 150, grey = 170,
     source = "vendor", sourceCost = 800, recipeItem = 6053, faction = nil,
+    vendors = { { "Hula'mahi", "The Barrens", 1413 }, { "Kzixx", "Duskwood", 1431 }, { "Xandar Goodbeard", "Loch Modan", 1432 } },
     sourceNote = "Recipe: Holy Protection Potion Vendor ( Hula'mahi , Kzixx , Xandar Goodbeard )",
   },
   [7841] = { -- 1x Swiftthistle, 1x Blackmouth Oil, 1x Empty Vial
@@ -436,6 +438,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 3369, qty = 1 }, { itemID = 3356, qty = 1 }, { itemID = 3372, qty = 1 } },
     learn = 135, orange = 135, yellow = 160, green = 180, grey = 200,
     source = "vendor", sourceCost = 900, recipeItem = 6054, faction = nil,
+    vendors = { { "Christoph Jeffcoat", "Hillsbrad Foothills", 1424 }, { "Harklan Moongrove", "Ashenvale", 1440 } },
     sourceNote = "Recipe: Shadow Protection Potion Vendor ( Christoph Jeffcoat , Harklan Moongrove )",
   },
   [2333] = { -- 1x Wild Steelbloom, 1x Swiftthistle, 1x Leaded Vial
@@ -475,6 +478,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 6370, qty = 2 }, { itemID = 3820, qty = 1 }, { itemID = 3372, qty = 1 } },
     learn = 150, orange = 150, yellow = 175, green = 195, grey = 215,
     source = "vendor", sourceCost = 1800, recipeItem = 5642, faction = nil,
+    vendors = { { "Kor'geld", "Orgrimmar", 1454 }, { "Soolie Berryfizz", "Ironforge", 1455 }, { "Ulthir", "Darnassus", 1457 } },
     sourceNote = "Recipe: Free Action Potion Vendor ( Kor'geld , Soolie Berryfizz , Ulthir )",
   },
   [1244647] = { -- 1x Leaded Vial, 1x Kingsblood, 1x Murloc Eye
@@ -523,6 +527,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 3356, qty = 2 }, { itemID = 3818, qty = 1 }, { itemID = 3372, qty = 1 } },
     learn = 185, orange = 185, yellow = 190, green = 192, grey = 195,
     source = "vendor", sourceCost = 0, recipeItem = 250979, faction = nil,
+    vendors = { { "Gorhak", "Desolace", 1443 } },
     sourceNote = "Recipe: Greater Spellblasting Potion Vendor ( Gorhak ) Quest: A New Need for Shadow Protection",
   },
   [3449] = { -- 4x Fadeleaf, 4x Grave Moss, 1x Leaded Vial
@@ -532,6 +537,7 @@ ns.Data.Recipes["Alchemy"] = {
     learn = 165, orange = 165, yellow = 190, green = 210, grey = 230,
     source = "vendor", sourceCost = 1500, recipeItem = 6068, faction = nil,
     station = "Fermenter",
+    vendors = { { "Bliztik", "Duskwood", 1431 }, { "Montarr", "Thousand Needles", 1441 } },
     sourceNote = "Recipe: Shadow Oil Vendor ( Bliztik , Montarr )",
   },
   [11447] = { -- 1x Blackmouth Oil, 1x Liferoot, 1x Leaded Vial
@@ -547,6 +553,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 4625, qty = 3 }, { itemID = 3818, qty = 2 }, { itemID = 3372, qty = 1 } },
     learn = 190, orange = 190, yellow = 195, green = 197, grey = 200,
     source = "vendor", sourceCost = 0, recipeItem = 250985, faction = nil,
+    vendors = { { "Gorhak", "Desolace", 1443 } },
     sourceNote = "Recipe: Greater Frenzy Potion Vendor ( Gorhak ) Quest: A New Need for Shadow Protection",
   },
   [3450] = { -- 1x Wild Steelbloom, 1x Goldthorn, 1x Leaded Vial
@@ -563,6 +570,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 5637, qty = 1 }, { itemID = 3356, qty = 1 }, { itemID = 3372, qty = 1 } },
     learn = 175, orange = 175, yellow = 195, green = 215, grey = 235,
     source = "vendor", sourceCost = 2000, recipeItem = 5643, faction = nil,
+    vendors = { { "Hagrus", "Orgrimmar", 1454 }, { "Ulthir", "Darnassus", 1457 } },
     sourceNote = "Recipe: Great Rage Potion Vendor ( Hagrus , Ulthir )",
   },
   [1250776] = { -- 2x Fadeleaf, 2x Goldthorn, 1x Leaded Vial
@@ -603,6 +611,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 3819, qty = 1 }, { itemID = 3821, qty = 1 }, { itemID = 3372, qty = 1 } },
     learn = 190, orange = 190, yellow = 205, green = 225, grey = 245,
     source = "vendor", sourceCost = 2000, recipeItem = 6056, faction = nil,
+    vendors = { { "Drovnar Strongbrew", "Arathi Highlands", 1417 }, { "Glyx Brewright", "Stranglethorn Vale", 1434 } },
     sourceNote = "Recipe: Frost Protection Potion Vendor ( Drovnar Strongbrew , Glyx Brewright )",
   },
   [11449] = { -- 1x Stranglekelp, 1x Goldthorn, 1x Leaded Vial
@@ -626,6 +635,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 4402, qty = 1 }, { itemID = 6371, qty = 1 }, { itemID = 3372, qty = 1 } },
     learn = 165, orange = 165, yellow = 210, green = 230, grey = 250,
     source = "vendor", sourceCost = 1500, recipeItem = 6055, faction = nil,
+    vendors = { { "Jeeda", "Stonetalon Mountains", 1442 }, { "Nandar Branson", "Hillsbrad Foothills", 1424 } },
     sourceNote = "Recipe: Fire Protection Potion Vendor ( Jeeda , Nandar Branson )",
   },
   [7259] = { -- 1x Liferoot, 1x Stranglekelp, 1x Leaded Vial
@@ -634,7 +644,8 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 3357, qty = 1 }, { itemID = 3820, qty = 1 }, { itemID = 3372, qty = 1 } },
     learn = 190, orange = 190, yellow = 210, green = 230, grey = 250,
     source = "vendor", sourceCost = 2000, recipeItem = 6057, faction = nil,
-    sourceNote = "Recipe: Nature Protection Potion 4 vendors Alchemist Pestlezugg , Bronk , Glyx Brewright , Logannas",
+    vendors = { { "Alchemist Pestlezugg", "Tanaris", 1446 }, { "Bronk", "Feralas", 1444 }, { "Glyx Brewright", "Stranglethorn Vale", 1434 }, { "Logannas", "Feralas", 1444 } },
+    sourceNote = "Recipe: Nature Protection Potion",
   },
   [21923] = { -- 2x Wintersbite, 1x Khadgar's Whisker, 1x Leaded Vial
     name = "Elixir of Frost Power", skillLineAbilityID = 12137,
@@ -667,6 +678,7 @@ ns.Data.Recipes["Alchemy"] = {
     learn = 200, orange = 200, yellow = 220, green = 240, grey = 260,
     source = "vendor", sourceCost = 2500, recipeItem = 14634, faction = nil,
     station = "Fermenter",
+    vendors = { { "Bro'kin", "Alterac Mountains", 1416 } },
     sourceNote = "Recipe: Frost Oil Vendor ( Bro'kin )",
   },
   [11448] = { -- 1x Khadgar's Whisker, 1x Goldthorn, 1x Leaded Vial
@@ -780,6 +792,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 3575, qty = 4 }, { itemID = 9262, qty = 1 }, { itemID = 8831, qty = 4 }, { itemID = 4625, qty = 4 } },
     learn = 225, orange = 225, yellow = 240, green = 260, grey = 280,
     source = "vendor", sourceCost = 8000, recipeItem = 9303, faction = nil,
+    vendors = { { "Alchemist Pestlezugg", "Tanaris", 1446 } },
     sourceNote = "Recipe: Philosopher's Stone Vendor ( Alchemist Pestlezugg )",
   },
   [11479] = { -- 1x Iron Bar
@@ -789,6 +802,7 @@ ns.Data.Recipes["Alchemy"] = {
     learn = 225, orange = 225, yellow = 240, green = 260, grey = 280,
     source = "vendor", sourceCost = 8000, recipeItem = 9304, faction = nil,
     tools = { 9149 }, -- Philosopher's Stone
+    vendors = { { "Alchemist Pestlezugg", "Tanaris", 1446 } },
     sourceNote = "Recipe: Transmute Iron to Gold Vendor ( Alchemist Pestlezugg )",
   },
   [11480] = { -- 1x Mithril Bar
@@ -798,6 +812,7 @@ ns.Data.Recipes["Alchemy"] = {
     learn = 225, orange = 225, yellow = 240, green = 260, grey = 280,
     source = "vendor", sourceCost = 8000, recipeItem = 9305, faction = nil,
     tools = { 9149 }, -- Philosopher's Stone
+    vendors = { { "Alchemist Pestlezugg", "Tanaris", 1446 } },
     sourceNote = "Recipe: Transmute Mithril to Truesilver Vendor ( Alchemist Pestlezugg )",
   },
   [1251739] = { -- 3x Blindweed, 2x Firebloom, 1x Crystal Vial
@@ -919,6 +934,7 @@ ns.Data.Recipes["Alchemy"] = {
     learn = 245, orange = 245, yellow = 260, green = 280, grey = 300,
     source = "vendor", sourceCost = 9000, recipeItem = 9302, faction = nil,
     station = "Fermenter",
+    vendors = { { "Bronk", "Feralas", 1444 }, { "Logannas", "Feralas", 1444 } },
     sourceNote = "Recipe: Ghost Dye Vendor ( Bronk , Logannas )",
   },
   [11476] = { -- 3x Ghost Mushroom, 1x Crystal Vial
@@ -927,6 +943,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 8845, qty = 3 }, { itemID = 8925, qty = 1 } },
     learn = 250, orange = 250, yellow = 265, green = 285, grey = 305,
     source = "vendor", sourceCost = 10000, recipeItem = 9301, faction = nil,
+    vendors = { { "Algernon", "Undercity", 1458 }, { "Maria Lumere", "Stormwind City", 1453 } },
     sourceNote = "Recipe: Elixir of Shadow Power Vendor ( Algernon , Maria Lumere )",
   },
   [11477] = { -- 1x Gromsblood, 1x Ghost Mushroom, 1x Crystal Vial
@@ -935,6 +952,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 8846, qty = 1 }, { itemID = 8845, qty = 1 }, { itemID = 8925, qty = 1 } },
     learn = 250, orange = 250, yellow = 265, green = 285, grey = 305,
     source = "vendor", sourceCost = 10000, recipeItem = 9300, faction = nil,
+    vendors = { { "Nina Lightbrew", "Blasted Lands", 1419 }, { "Rartar", "Swamp of Sorrows", 1435 } },
     sourceNote = "Recipe: Potion of Demon Slaying Vendor ( Nina Lightbrew , Rartar )",
   },
   [11478] = { -- 2x Gromsblood, 1x Crystal Vial
@@ -976,6 +994,7 @@ ns.Data.Recipes["Alchemy"] = {
     learn = 275, orange = 275, yellow = 275, green = 282, grey = 290,
     source = "vendor", sourceCost = 50000, recipeItem = 12958, faction = nil,
     tools = { 9149 }, -- Philosopher's Stone
+    vendors = { { "Alchemist Pestlezugg", "Tanaris", 1446 } },
     sourceNote = "Recipe: Transmute Arcanite Vendor ( Alchemist Pestlezugg )",
   },
   [17559] = { -- 1x Essence of Air
@@ -985,6 +1004,7 @@ ns.Data.Recipes["Alchemy"] = {
     learn = 275, orange = 275, yellow = 275, green = 282, grey = 290,
     source = "vendor", sourceCost = 15000, recipeItem = 13482, faction = nil,
     tools = { 9149 }, -- Philosopher's Stone
+    vendors = { { "Argent Quartermaster Hasana", "Tirisfal Glades", 1420 }, { "Argent Quartermaster Lightspark", "Western Plaguelands", 1422 }, { "Quartermaster Miranda Breechlock", "Eastern Plaguelands", 1423 } },
     sourceNote = "Recipe: Transmute Air to Fire Vendor ( Argent Quartermaster Hasana , Argent Quartermaster Lightsp...",
   },
   [17560] = { -- 1x Essence of Fire
@@ -1012,6 +1032,7 @@ ns.Data.Recipes["Alchemy"] = {
     learn = 275, orange = 275, yellow = 275, green = 282, grey = 290,
     source = "vendor", sourceCost = 15000, recipeItem = 13485, faction = nil,
     tools = { 9149 }, -- Philosopher's Stone
+    vendors = { { "Magnus Frostwake", "Western Plaguelands", 1422 } },
     sourceNote = "Recipe: Transmute Water to Air Vendor ( Magnus Frostwake )",
   },
   [17563] = { -- 1x Essence of Undeath
@@ -1073,6 +1094,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 8838, qty = 2 }, { itemID = 8839, qty = 2 }, { itemID = 8925, qty = 1 } },
     learn = 260, orange = 260, yellow = 275, green = 295, grey = 315,
     source = "vendor", sourceCost = 12000, recipeItem = 13477, faction = nil,
+    vendors = { { "Algernon", "Undercity", 1458 }, { "Ulthir", "Darnassus", 1457 } },
     sourceNote = "Recipe: Superior Mana Potion Vendor ( Algernon , Ulthir )",
   },
   [1250777] = { -- 3x Dreamfoil, 2x Gromsblood, 1x Crystal Vial
@@ -1121,6 +1143,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 13423, qty = 2 }, { itemID = 8838, qty = 1 }, { itemID = 8925, qty = 1 } },
     learn = 265, orange = 265, yellow = 280, green = 300, grey = 320,
     source = "vendor", sourceCost = 13000, recipeItem = 13478, faction = nil,
+    vendors = { { "Kor'geld", "Orgrimmar", 1454 }, { "Soolie Berryfizz", "Ironforge", 1455 } },
     sourceNote = "Recipe: Elixir of Superior Defense Vendor ( Kor'geld , Soolie Berryfizz )",
   },
   [1250786] = { -- 4x Dreamfoil, 2x Mountain Silversage, 1x Imbued Vial
@@ -1201,6 +1224,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 13463, qty = 1 }, { itemID = 13466, qty = 2 }, { itemID = 8925, qty = 1 } },
     learn = 275, orange = 275, yellow = 290, green = 310, grey = 330,
     source = "vendor", sourceCost = 50000, recipeItem = 20011, faction = nil,
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Recipe: Mageblood Elixir Vendor ( Rin'wosho the Trader )",
   },
   [24366] = { -- 2x Dreamfoil, 1x Golden Sansam, 1x Crystal Vial
@@ -1209,6 +1233,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 13463, qty = 2 }, { itemID = 13464, qty = 1 }, { itemID = 8925, qty = 1 } },
     learn = 275, orange = 275, yellow = 290, green = 310, grey = 330,
     source = "vendor", sourceCost = 50000, recipeItem = 20012, faction = nil,
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Recipe: Greater Dreamless Sleep Vendor ( Rin'wosho the Trader )",
   },
   [1231583] = { -- 1x Crystal Vial, 1x Plaguebloom, 1x Murloc Eye
@@ -1271,6 +1296,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 13467, qty = 2 }, { itemID = 13465, qty = 2 }, { itemID = 10286, qty = 2 }, { itemID = 8925, qty = 1 } },
     learn = 285, orange = 285, yellow = 300, green = 320, grey = 340,
     source = "vendor", sourceCost = 50000, recipeItem = 20013, faction = nil,
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Recipe: Living Action Potion Vendor ( Rin'wosho the Trader )",
   },
   [25146] = { -- 1x Heart of Fire
@@ -1343,6 +1369,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 8846, qty = 1 }, { itemID = 13466, qty = 2 }, { itemID = 8925, qty = 1 } },
     learn = 290, orange = 290, yellow = 305, green = 325, grey = 345,
     source = "vendor", sourceCost = 50000, recipeItem = 20014, faction = nil,
+    vendors = { { "Rin'wosho the Trader", "Stranglethorn Vale", 1434 } },
     sourceNote = "Recipe: Major Troll's Blood Elixir Vendor ( Rin'wosho the Trader )",
   },
   [22732] = { -- 1x Heart of the Wild, 4x Golden Sansam, 4x Dreamfoil, 1x Imbued Vial
@@ -1358,6 +1385,7 @@ ns.Data.Recipes["Alchemy"] = {
     reagents = { { itemID = 13463, qty = 3 }, { itemID = 13467, qty = 2 }, { itemID = 8925, qty = 1 } },
     learn = 295, orange = 295, yellow = 310, green = 330, grey = 350,
     source = "vendor", sourceCost = 30000, recipeItem = 13501, faction = nil,
+    vendors = { { "Magnus Frostwake", "Western Plaguelands", 1422 } },
     sourceNote = "Recipe: Major Mana Potion Drop: Scholomance (Darkmaster Gandling) Vendor ( Magnus Frostwake )",
   },
   [17632] = { -- 8x Essence of Fire, 8x Essence of Earth, 8x Essence of Air, 8x Essence of Water, 8x Living Essence, 2x Black Vitriol, 4x Black Lotus

@@ -79,6 +79,26 @@ local function showStepTooltip(row)
       GameTooltip:AddLine(("Seen for sale: %s in %s, %s%s."):format(vendor.name, vendor.zone or ns.Navigation.CityName(vendor.mapID),
         Pricing.FormatMoney(price), limited and ", limited stock" or ""), 1, 1, 1, true)
     end
+    -- Vendors from Zockify: { name, zone, mapID }. Your zone first; the other side's capitals left out.
+    if recipe.vendors then
+      local here, faction = ns.Player.Location(), ns.Player.Faction()
+      local enemyCapital = faction == "Alliance" and { [1454] = true, [1456] = true, [1458] = true }
+        or faction == "Horde" and { [1453] = true, [1455] = true, [1457] = true } or {}
+      local near, far = {}, {}
+      for _, v in ipairs(recipe.vendors) do
+        if v[3] == here.mapID or v[2] == here.mapName or v[2] == here.zone then
+          near[#near + 1] = ("|cff40ff40%s (%s, you are here)|r"):format(v[1], v[2])
+        elseif not enemyCapital[v[3]] then
+          far[#far + 1] = ("%s (%s)"):format(v[1], v[2])
+        end
+      end
+      for _, line in ipairs(far) do near[#near + 1] = line end
+      if #near > 0 then
+        GameTooltip:AddLine("Sold by:", 1, 0.82, 0)
+        for index = 1, math.min(6, #near) do GameTooltip:AddLine("  " .. near[index], 1, 1, 1) end
+        if #near > 6 then GameTooltip:AddLine(("  and %d more"):format(#near - 6), 0.6, 0.6, 0.6) end
+      end
+    end
   end
   if recipe.learnEstimated and not plan.known[step.spellID] then
     GameTooltip:AddLine(("The skill needed to learn this is not known; assumed %d. It may be available earlier.")
