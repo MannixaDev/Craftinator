@@ -198,11 +198,11 @@ function ns.BuildPlan()
     trainer = db.sources.trainer, vendor = db.sources.vendor,
     drop = db.sources.drop, quest = db.sources.drop, item = db.sources.drop, unknown = db.sources.drop,
   }
-  local function build(priceOf)
-    return Optimiser.BuildBestRoute(recipes, {
+  local ownedOf = db.useOwned and function(itemID) return (ns.Inventory.Count(itemID)) end or nil
+  local route = Optimiser.BuildWithOwned(recipes, {
       from = profession.skill,
       to = profession.max,
-      priceOf = priceOf,
+      priceOf = book.PriceOf,
       recipeCostOf = recipeCostOf(book),
       faction = ns.Player.Faction(),
       sources = sources,
@@ -211,21 +211,7 @@ function ns.BuildPlan()
       timeFactorOf = db.mode == "fastest" and fastestTimeFactor or nil,
       useResale = db.useResale,
       resaleOf = book.PriceOf,
-    })
-  end
-
-  local route = build(book.PriceOf)
-  local ownedOf = db.useOwned and function(itemID) return (ns.Inventory.Count(itemID)) end or nil
-  if ownedOf then
-    -- Second pass: mats already owned make their recipes cheaper, which can change the route.
-    -- Each reagent is discounted by the share of the first route's need that is already owned.
-    local needs = Optimiser.Materials(recipes, route)
-    route = build(function(itemID)
-      local price, need = book.PriceOf(itemID), needs[itemID]
-      if not price or not need or need <= 0 then return price end
-      return price * math.max(0, need - ownedOf(itemID)) / need
-    end)
-  end
+    }, ownedOf)
 
   local shopping, matsToBuy, unpriced = Optimiser.ShoppingList(Optimiser.Materials(recipes, route), ownedOf, book.PriceOf)
   local recipeCosts, resale = 0, 0

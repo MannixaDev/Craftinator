@@ -228,6 +228,30 @@ describe("Optimiser", function()
     end)
   end)
 
+  describe("BuildWithOwned", function()
+    -- Cooking at 163 holding 50 catfish: catfish greys at 180, cod is learned at 175.
+    local COOK = {
+      [1] = { name = "Catfish", output = { itemID = 21, qty = 1 }, reagents = { { itemID = 5, qty = 1 } },
+              learn = 100, orange = 100, yellow = 140, green = 160, grey = 180, source = "vendor", sourceCost = 1200 },
+      [2] = { name = "Cod", output = { itemID = 22, qty = 1 }, reagents = { { itemID = 6, qty = 1 } },
+              learn = 175, orange = 175, yellow = 190, green = 210, grey = 230, source = "vendor", sourceCost = 2200 },
+    }
+    local fishPrice = function(itemID) return ({ [5] = 30, [6] = 40 })[itemID] end
+    local owned = function(itemID) return itemID == 5 and 50 or 0 end
+    local o = { from = 163, to = 225, priceOf = fishPrice, lambda = 1, known = { [1] = true } }
+
+    it("does not stretch an owned reagent's recipe into its grey range", function()
+      local route = O.BuildWithOwned(COOK, o, owned)
+      assert.equals(1, route.steps[1].spellID)
+      assert.is_true(route.steps[1].toSkill <= 176)
+      assert.is_true(O.RealCost(COOK, route, o, owned) <= O.RealCost(COOK, O.BuildBestRoute(COOK, o), o, owned))
+    end)
+
+    it("without owned counts, matches BuildBestRoute", function()
+      assert.equals(summary(O.BuildBestRoute(COOK, o)), summary(O.BuildWithOwned(COOK, o, nil)))
+    end)
+  end)
+
   describe("BuildRoute (greedy)", function()
     it("cheapest mode picks the lowest expected cost per point", function()
       local route = O.BuildRoute(RECIPES, opts())

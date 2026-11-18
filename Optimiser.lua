@@ -321,6 +321,43 @@ function Optimiser.BuildBestRoute(recipes, opts)
   return finishRoute(recipes, points, from, to, reach)
 end
 
+--- What a route really costs when owned reagents are used first: reagents still to buy,
+-- recipe costs and craft time, less resale when that is on. Unpriced reagents count as zero.
+function Optimiser.RealCost(recipes, route, opts, ownedOf)
+  local _, total = Optimiser.ShoppingList(Optimiser.Materials(recipes, route), ownedOf, opts.priceOf)
+  for _, step in ipairs(route.steps) do
+    local recipe = recipes[step.spellID]
+    total = total + step.oneOffCost + step.crafts * Optimiser.TimeCost(step.spellID, recipe, opts)
+    if opts.useResale and opts.resaleOf and recipe.output then
+      total = total - (opts.resaleOf(recipe.output.itemID) or 0) * (recipe.output.qty or 1) * step.crafts
+    end
+  end
+  return total
+end
+
+--- BuildBestRoute, counting reagents you own as free. A second pass prices each reagent by
+-- the share of the first route's need still to buy. That can make a recipe look free well past
+-- what you own (and stretch it into its grey range), so both routes are scored at their real
+-- cost and the cheaper is kept; the second must also reach at least as far.
+function Optimiser.BuildWithOwned(recipes, opts, ownedOf)
+  local first = Optimiser.BuildBestRoute(recipes, opts)
+  if not ownedOf then return first end
+  local needs = Optimiser.Materials(recipes, first)
+  local discounted = {}
+  for key, value in pairs(opts) do discounted[key] = value end
+  discounted.priceOf = function(itemID)
+    local price, need = opts.priceOf(itemID), needs[itemID]
+    if not price or not need or need <= 0 then return price end
+    return price * math.max(0, need - (ownedOf(itemID) or 0)) / need
+  end
+  local second = Optimiser.BuildBestRoute(recipes, discounted)
+  if second.reachedSkill >= first.reachedSkill
+      and Optimiser.RealCost(recipes, second, opts, ownedOf) < Optimiser.RealCost(recipes, first, opts, ownedOf) then
+    return second
+  end
+  return first
+end
+
 --- Total reagents for a route: { [itemID] = quantity }, using each step's rounded-up craft count.
 function Optimiser.Materials(recipes, route)
   local needs = {}
