@@ -5,7 +5,7 @@ Interface 16001, build 1.60.1.70938). It docks a panel to the profession window 
 levelling route priced with Auctionator data. Owner: Jack Smith-Morse (GitHub `MannixaDev`).
 The addon was first called ProfPlanner; `SPEC.md` is the original spec and still uses that name.
 
-Current version: **0.6.1** (see `## Version` in `Craftinator.toc`).
+Current version: **0.6.4** (see `## Version` in `Craftinator.toc`).
 
 ## How the owner wants to work
 

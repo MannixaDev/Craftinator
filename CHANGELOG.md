@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.6.4
+
+- Fixed: with "Owned" ticked, materials already in your bags could stretch a recipe far into its
+  grey range (for example Bristle Whisker Catfish all the way to 180 in 138 crafts). The route now
+  uses what you own, then switches to the next recipe when that really is cheaper.
+- Hovering a recipe you have not learned lists the vendors who sell it and their zones, yours first
+  in green, and shows its auction house price, marked when it is cheaper than the vendor.
+- Recipes cooked at a fire suggest making a Basic Campfire, and name the nearest fire or other
+  crafting station you have used before, with the distance. The addon remembers where you craft
+  (not fires you build yourself).
+- Herbalism, Mining and Fishing: near your skill cap, the panel says how to raise it: the trainer,
+  or for Fishing the book from Old Man Heming in Booty Bay (past 150) and Nat Pagle's quest in
+  Dustwallow Marsh (past 225, level 35). Both checked in game.
+
 ## 0.6.3
 
 - New: Herbalism, Mining and Fishing get their own view in the panel. It lists the zones to go to
