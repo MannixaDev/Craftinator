@@ -36,7 +36,7 @@ ns.Data.RankBooks = {
   Cooking = {
     [150] = { item = "Expert Cookbook", itemID = 16072, cost = 10000, needsSkill = 125,
               Alliance = { "Shandrina", "Ashenvale", 1440 }, Horde = { "Wulan", "Desolace", 1443 } },
-    -- Artisan: a quest in the Gadgetzan inn (wow-professions.com, icy-veins Forever guides; unchecked in game).
+    -- Artisan: a quest in the Gadgetzan inn (wow-professions.com, icy-veins guides). Quest and giver seen in game, Nov 2026.
     [225] = { quest = "Clamlette Surprise", needsSkill = 225, needsLevel = 35,
               note = "Bring 12 Giant Eggs, 10 Zesty Clam Meat and 20 Alterac Swiss.",
               Alliance = { "Dirge Quikcleave", "Tanaris", 1446, 52.6, 28.0 },

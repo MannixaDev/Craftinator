@@ -146,11 +146,7 @@ function Capture.WorldPosition()
   return instance, world.x, world.y, mapID, position
 end
 
-ns.RegisterEvent("UNIT_SPELLCAST_SUCCEEDED", function(unit, _, spellID)
-  if unit ~= "player" or not (CraftinatorDB and CraftinatorDB.capture) then return end
-  local station = stationIndex()[spellID]
-  if campfireSpell[spellID] then lastCampfire = GetTime() return end
-  if not station or GetTime() - lastCampfire < OWN_FIRE then return end
+local function recordStation(station)
   local instance, wx, wy, mapID, position = Capture.WorldPosition()
   if not instance then return end
   CraftinatorDB.stations = CraftinatorDB.stations or {}
@@ -163,7 +159,41 @@ ns.RegisterEvent("UNIT_SPELLCAST_SUCCEEDED", function(unit, _, spellID)
     instance = instance, wx = wx, wy = wy, mapID = mapID, x = position.x, y = position.y,
     zone = GetZoneText(), subzone = GetSubZoneText(),
   }
+end
+
+ns.RegisterEvent("UNIT_SPELLCAST_SUCCEEDED", function(unit, _, spellID)
+  if unit ~= "player" or not (CraftinatorDB and CraftinatorDB.capture) then return end
+  local station = stationIndex()[spellID]
+  if campfireSpell[spellID] then lastCampfire = GetTime() return end
+  if not station or GetTime() - lastCampfire < OWN_FIRE then return end
+  recordStation(station)
 end)
+
+-- With a profession window open, the game says whether each recipe's station is in reach
+-- (the red or white "Requires Cooking Fire" line). A station in reach is recorded without
+-- crafting anything. Called from the panel's poll; checks every few seconds at most.
+local lastCheck = -math.huge
+local CHECK_SECONDS = 3
+
+function Capture.CheckNearbyStations()
+  if not (CraftinatorDB and CraftinatorDB.capture and C_TradeSkillUI.GetRecipeRequirements) then return end
+  local now = GetTime()
+  if now - lastCheck < CHECK_SECONDS or now - lastCampfire < OWN_FIRE then return end
+  lastCheck = now
+  local stations, checked = stationIndex(), {}
+  for _, recipeID in ipairs(C_TradeSkillUI.GetAllRecipeIDs() or {}) do
+    local station = stations[recipeID]
+    if station and not checked[station] then
+      local info = C_TradeSkillUI.GetRecipeInfo(recipeID)
+      if info and info.learned then
+        checked[station] = true
+        for _, requirement in ipairs(C_TradeSkillUI.GetRecipeRequirements(recipeID) or {}) do
+          if requirement.name == station and requirement.met then recordStation(station) end
+        end
+      end
+    end
+  end
+end
 
 -- Export -----------------------------------------------------------------------
 -- One record per line, fields separated by ";". Read by tools/import_scans.py.

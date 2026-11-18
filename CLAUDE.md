@@ -122,7 +122,7 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
 - Zockify has not been asked for permission to use its data. The owner knows; it is credited in
   the README and on CurseForge.
 - Cooking and First Aid past 225 are quests in `RankBooks` (Clamlette Surprise from Dirge Quikcleave in
-  Tanaris; Triage), from web guides, unchecked in game.
+  Tanaris, seen in game 18 Nov 2026 with Giant Egg, Zesty Clam Meat, Alterac Swiss; Triage unchecked), from web guides.
 - Not covered: Poisons, camping recipes, Skinning.
 - Gathering view (Herbalism, Mining, Fishing; owner chose docked, web data only, raw vs crafted):
   herbs, veins, zones per skill band and a partial fish list are transcribed from Zockify's Forever
@@ -143,7 +143,9 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
 - Cooking Fire: no web source lists fire positions, so the tooltip suggests a Basic Campfire and notes that
   inns and Cooking trainers usually have one. Stations are recorded where you craft (owner chose this,
   18 Nov 2026): `CraftinatorDB.stations`, skipped for 5 min after making your own campfire; the tooltip
-  names the nearest. Account-local only, not in `/ci export`. Uses `C_Map.GetWorldPosFromMapPos` (works on Forever).
+  names the nearest. Also recorded with the window open next to one, via `C_TradeSkillUI.GetRecipeRequirements`
+  (`met`); not yet confirmed to work on Forever. The owner wants no manual marking (no `/ci fire`).
+  Account-local only, not in `/ci export`. Uses `C_Map.GetWorldPosFromMapPos` (works on Forever).
 
 ## Decisions made without sign-off
 

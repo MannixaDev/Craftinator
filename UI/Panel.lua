@@ -305,6 +305,7 @@ local function create()
     sinceCheck = sinceCheck + elapsed
     if sinceCheck < POLL_SECONDS then return end
     sinceCheck = 0
+    pcall(ns.Capture.CheckNearbyStations)
     local profession = ns.Player.OpenProfession()
     local signature = profession and (profession.id .. ":" .. profession.skill .. ":" .. profession.max) or "none"
     if signature ~= self.signature then
@@ -581,6 +582,7 @@ local function locationLine(plan)
     return ("%s\nPast %d: buy %s (%s) from %s in %s.%s%s"):format(where, cap, book.item,
       Pricing.FormatMoney(book.cost), seller[1], seller[2], pin, supplies), target
   end
+  if cap >= 300 then return where .. supplies, nil end -- 300 is the highest rank
   return ("%s\nNo trainer is known to raise your cap past %d.%s"):format(where, cap, supplies), nil
 end
 
