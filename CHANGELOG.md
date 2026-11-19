@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.6.5
+
+- Cooking and First Aid past 225: at the cap, the panel names the quest that raises it (Clamlette
+  Surprise from Dirge Quikcleave in Tanaris for Cooking, Triage for First Aid) and what to bring.
+- The skill cap hint is now readable in full: it shows in the message area at the cap and in a
+  tooltip when you hover it. Left-click it to put a map pin on the trainer, book seller or quest
+  giver, where their position is known. At 300 it no longer shows.
+- Enchanting: when a step needs a rod you do not have (such as a Runed Copper Rod), the route adds
+  a "Make first" step for it.
+- Recipes sold only by vendors of the other faction are planned with their auction house price
+  instead, or skipped if none is listed, and those vendors are hidden from the tooltip.
+- Fires and other crafting stations are also remembered when you open the profession window
+  next to one, not only when you craft there.
+
 ## 0.6.4
 
 - Fixed: with "Owned" ticked, materials already in your bags could stretch a recipe far into its
