@@ -112,7 +112,12 @@ end)
 
 -- A recipe pattern with no auction price cannot be planned for.
 local function recipeCostOf(book)
+  local faction = ns.Player.Faction()
   return function(_, recipe)
+    -- Sold only by the other side's vendors: what it costs on the auction house, if it is there.
+    if recipe.source == "vendor" and ns.Navigation.OtherSideOnly(recipe, faction) then
+      return recipe.recipeItem and book.PriceOf(recipe.recipeItem) or math.huge
+    end
     if recipe.sourceCost then return recipe.sourceCost end
     if recipe.source == "trainer" then return 0 end      -- trainer fee not known: counted as free
     if recipe.source == "vendor" then return math.huge end -- sold for a currency, not gold: not planned

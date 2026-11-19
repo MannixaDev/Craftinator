@@ -27,6 +27,19 @@ local RANK = { J = { "Journeyman", 150 }, E = { "Expert", 225 }, A = { "Artisan"
 
 ns.Data.NPCs = {}
 
+-- Zones (Classic map IDs) whose towns all belong to one side, so a vendor there serves only
+-- that side. Zones with towns of both sides or a neutral town (Booty Bay, Ratchet, Gadgetzan)
+-- are left out and treated as open to everyone.
+ns.Data.ZoneFaction = {
+  [1453] = "Alliance", [1455] = "Alliance", [1457] = "Alliance", -- Stormwind, Ironforge, Darnassus
+  [1429] = "Alliance", [1426] = "Alliance", [1438] = "Alliance", -- Elwynn, Dun Morogh, Teldrassil
+  [1439] = "Alliance", [1436] = "Alliance", [1432] = "Alliance", -- Darkshore, Westfall, Loch Modan
+  [1433] = "Alliance", [1431] = "Alliance", [1437] = "Alliance", -- Redridge, Duskwood, Wetlands
+  [1454] = "Horde", [1456] = "Horde", [1458] = "Horde",          -- Orgrimmar, Thunder Bluff, Undercity
+  [1411] = "Horde", [1412] = "Horde", [1420] = "Horde",          -- Durotar, Mulgore, Tirisfal Glades
+  [1421] = "Horde",                                              -- Silverpine Forest
+}
+
 -- Ranks that are learned from a book, not a trainer: [profession][cap the book raises you from].
 -- Sellers as listed for Forever by foreverdb.net ("seen in WoW Forever"); cost in copper.
 -- Each seller: name, zone, map ID, and x, y (map percentages) where a source gives them:

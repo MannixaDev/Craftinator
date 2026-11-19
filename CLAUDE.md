@@ -139,7 +139,9 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
   the owner did it at level 35 and reached cap 300, Nov 2026). Both shown correctly in game.
 
 - Vendor recipes: the tooltip lists Zockify's vendors with zones (`vendors` in the recipe data). The route
-  plans with the vendor price; the auction price is only shown (owner chose this, 18 Nov 2026).
+  plans with the vendor price; the auction price is only shown (owner chose this, 18 Nov 2026). When every
+  vendor is in a zone wholly of the other side (`ns.Data.ZoneFaction`, a hand list), the route uses the
+  auction price instead, or skips the recipe (owner chose this, 19 Nov 2026). 35 of 312 vendor recipes.
 - Cooking Fire: no web source lists fire positions, so the tooltip suggests a Basic Campfire and notes that
   inns and Cooking trainers usually have one. Stations are recorded where you craft (owner chose this,
   18 Nov 2026): `CraftinatorDB.stations`, skipped for 5 min after making your own campfire; the tooltip

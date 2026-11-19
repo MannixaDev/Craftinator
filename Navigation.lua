@@ -84,6 +84,24 @@ function Navigation.VendorFor(itemID, faction)
   end
 end
 
+--- Can the player's faction buy from a Zockify vendor entry { name, zone, mapID }?
+-- False only when the vendor's zone belongs wholly to the other side (Data/NPCs.lua ZoneFaction).
+function Navigation.VendorServes(vendor, faction)
+  local side = ns.Data.ZoneFaction and ns.Data.ZoneFaction[vendor[3]]
+  return not side or not faction or side == faction
+end
+
+--- True when every known vendor of a recipe serves only the other side, so buying it means the
+-- auction house. A vendor recorded in game for the player's own faction counts against it.
+function Navigation.OtherSideOnly(recipe, faction)
+  if not recipe.vendors or #recipe.vendors == 0 then return false end
+  if recipe.recipeItem and Navigation.VendorFor(recipe.recipeItem, faction) then return false end
+  for _, vendor in ipairs(recipe.vendors) do
+    if Navigation.VendorServes(vendor, faction) then return false end
+  end
+  return true
+end
+
 --- Trainers for a profession on the player's faction.
 -- Returns here, elsewhere: trainers on the given map, and the rest.
 function Navigation.Trainers(profession, faction, mapID)

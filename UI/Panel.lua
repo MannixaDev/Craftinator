@@ -103,16 +103,19 @@ local function showStepTooltip(row)
       GameTooltip:AddLine(("Seen for sale: %s in %s, %s%s."):format(vendor.name, vendor.zone or ns.Navigation.CityName(vendor.mapID),
         Pricing.FormatMoney(price), limited and ", limited stock" or ""), 1, 1, 1, true)
     end
-    -- Vendors from Zockify: { name, zone, mapID }. Your zone first; the other side's capitals left out.
+    -- Vendors from Zockify: { name, zone, mapID }. Your zone first; the other side's zones left out.
     if recipe.vendors then
       local here, faction = ns.Player.Location(), ns.Player.Faction()
-      local enemyCapital = faction == "Alliance" and { [1454] = true, [1456] = true, [1458] = true }
-        or faction == "Horde" and { [1453] = true, [1455] = true, [1457] = true } or {}
+      if ns.Navigation.OtherSideOnly(recipe, faction) then
+        GameTooltip:AddLine("Only the other side's vendors sell this, so it is priced at the auction house.",
+          1, 0.5, 0.25, true)
+      end
       local near, far = {}, {}
       for _, v in ipairs(recipe.vendors) do
-        if v[3] == here.mapID or v[2] == here.mapName or v[2] == here.zone then
+        if not ns.Navigation.VendorServes(v, faction) then -- luacheck: ignore 542
+        elseif v[3] == here.mapID or v[2] == here.mapName or v[2] == here.zone then
           near[#near + 1] = ("|cff40ff40%s (%s, you are here)|r"):format(v[1], v[2])
-        elseif not enemyCapital[v[3]] then
+        else
           far[#far + 1] = ("%s (%s)"):format(v[1], v[2])
         end
       end
