@@ -48,7 +48,7 @@ Run from the repo root. On the owner's Windows machine the Lua tools need this f
 
 ```
 export PATH="$LOCALAPPDATA/Programs/LuaJIT/bin:$HOME/.luarocks/bin:$PATH"
-cmd //c busted.bat          # 48 tests
+cmd //c busted.bat          # 50 tests
 cmd //c luacheck.bat .      # must be 0 warnings
 ```
 

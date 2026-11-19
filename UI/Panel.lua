@@ -40,9 +40,13 @@ local function showStepTooltip(row)
 
   GameTooltip:SetOwner(row, "ANCHOR_RIGHT")
   GameTooltip:AddLine(recipe.name, colour[1], colour[2], colour[3])
-  GameTooltip:AddLine(("Skill %d to %d"):format(step.fromSkill, step.toSkill), 1, 1, 1)
-  GameTooltip:AddLine(("Skill-up chance at %d: %d%%"):format(
-    step.fromSkill, math.floor(Optimiser.SkillUpChance(recipe, step.fromSkill) * 100 + 0.5)), 1, 1, 1)
+  if step.tool then
+    GameTooltip:AddLine("The next step's recipes need this in your bags. Make one and keep it.", 1, 1, 1, true)
+  else
+    GameTooltip:AddLine(("Skill %d to %d"):format(step.fromSkill, step.toSkill), 1, 1, 1)
+    GameTooltip:AddLine(("Skill-up chance at %d: %d%%"):format(
+      step.fromSkill, math.floor(Optimiser.SkillUpChance(recipe, step.fromSkill) * 100 + 0.5)), 1, 1, 1)
+  end
   GameTooltip:AddLine(" ")
   GameTooltip:AddLine(("Reagents for about %d crafts:"):format(step.crafts))
   for _, reagent in ipairs(recipe.reagents) do
@@ -222,10 +226,12 @@ local function initRow(row, entry)
   -- The crafted item's icon: on Forever every recipe spell shares one generic icon.
   row.icon:SetTexture((recipe.output and ns.Inventory.ItemIcon(recipe.output.itemID))
     or ns.Player.SpellIcon(step.spellID) or "Interface\\Icons\\INV_Misc_QuestionMark")
-  row.title:SetText(("%d-%d  %s"):format(step.fromSkill, step.toSkill, recipe.name))
+  row.title:SetText(step.tool and ("Make first: %s"):format(recipe.name)
+    or ("%d-%d  %s"):format(step.fromSkill, step.toSkill, recipe.name))
   row.title:SetTextColor(colour[1], colour[2], colour[3])
 
-  local detail = ("Craft about %d  -  %s"):format(step.crafts, Pricing.FormatMoney(step.cost))
+  local detail = step.tool and ("A tool the next step needs  -  %s"):format(Pricing.FormatMoney(step.cost))
+    or ("Craft about %d  -  %s"):format(step.crafts, Pricing.FormatMoney(step.cost))
   if step.unknown then detail = detail .. " + ?" end -- short, so "(learn first)" still fits; the footer explains
   if not plan.known[step.spellID] then detail = detail .. "  (learn first)" end
   row.detail:SetText(detail)

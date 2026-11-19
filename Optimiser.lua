@@ -358,6 +358,53 @@ function Optimiser.BuildWithOwned(recipes, opts, ownedOf)
   return first
 end
 
+--- Put a "make this tool first" step before any step whose recipe needs a tool you lack
+-- (an Enchanting rod, say), when a recipe in this profession makes it and is usable there.
+-- hasTool(itemID) -> true when the tool is owned. A tool step is one craft with no skill
+-- points and tool = true. A tool made by an earlier step counts as owned.
+function Optimiser.AddToolSteps(recipes, route, opts, hasTool)
+  local makers = {}
+  for spellID, recipe in pairs(recipes) do
+    if recipe.output then
+      local list = makers[recipe.output.itemID] or {}
+      makers[recipe.output.itemID] = list
+      list[#list + 1] = spellID
+    end
+  end
+  local have, steps = {}, {}
+  for _, step in ipairs(route.steps) do
+    for _, tool in ipairs(recipes[step.spellID].tools or {}) do
+      if not have[tool] and not (hasTool and hasTool(tool)) then
+        have[tool] = true
+        local best
+        for _, spellID in ipairs(makers[tool] or {}) do
+          if Optimiser.IsAvailable(spellID, recipes[spellID], step.fromSkill, opts) and (not best or spellID < best) then
+            best = spellID
+          end
+        end
+        local recipe = best and recipes[best]
+        local oneOff = recipe and purchaseCost(best, recipe, opts)
+        if recipe and oneOff < huge then
+          local cost, unknown = Optimiser.MatCost(recipe, opts.priceOf)
+          steps[#steps + 1] = {
+            spellID = best, tool = true, fromSkill = step.fromSkill, toSkill = step.fromSkill, points = 0,
+            expectedCrafts = 1, crafts = 1, craftsMin = 1, craftCost = cost, oneOffCost = oneOff,
+            cost = cost + oneOff, unknown = unknown, difficulty = Optimiser.Difficulty(recipe, step.fromSkill),
+          }
+          route.crafts = route.crafts + 1
+          route.cost = route.cost + cost + oneOff
+          if unknown then route.incomplete = true end
+        end
+      end
+    end
+    steps[#steps + 1] = step
+    local output = recipes[step.spellID].output
+    if output then have[output.itemID] = true end
+  end
+  route.steps = steps
+  return route
+end
+
 --- Total reagents for a route: { [itemID] = quantity }, using each step's rounded-up craft count.
 function Optimiser.Materials(recipes, route)
   local needs = {}

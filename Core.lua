@@ -199,7 +199,7 @@ function ns.BuildPlan()
     drop = db.sources.drop, quest = db.sources.drop, item = db.sources.drop, unknown = db.sources.drop,
   }
   local ownedOf = db.useOwned and function(itemID) return (ns.Inventory.Count(itemID)) end or nil
-  local route = Optimiser.BuildWithOwned(recipes, {
+  local routeOpts = {
       from = profession.skill,
       to = profession.max,
       priceOf = book.PriceOf,
@@ -211,14 +211,17 @@ function ns.BuildPlan()
       timeFactorOf = db.mode == "fastest" and fastestTimeFactor or nil,
       useResale = db.useResale,
       resaleOf = book.PriceOf,
-    }, ownedOf)
+    }
+  local route = Optimiser.BuildWithOwned(recipes, routeOpts, ownedOf)
+  -- Tools the route needs but you lack (Enchanting rods) get a "make it first" step.
+  route = Optimiser.AddToolSteps(recipes, route, routeOpts, function(itemID) return ns.Inventory.Count(itemID) > 0 end)
 
   local shopping, matsToBuy, unpriced = Optimiser.ShoppingList(Optimiser.Materials(recipes, route), ownedOf, book.PriceOf)
   local recipeCosts, resale = 0, 0
   for _, step in ipairs(route.steps) do
     recipeCosts = recipeCosts + step.oneOffCost
     local output = recipes[step.spellID].output
-    local price = db.useResale and output and book.PriceOf(output.itemID)
+    local price = db.useResale and output and not step.tool and book.PriceOf(output.itemID) -- tools are kept
     if price then resale = resale + price * (output.qty or 1) * step.crafts end
   end
 

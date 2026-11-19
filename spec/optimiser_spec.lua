@@ -252,6 +252,37 @@ describe("Optimiser", function()
     end)
   end)
 
+  describe("AddToolSteps", function()
+    -- Rod (spell 1) makes item 50; Glow (spell 2) needs rod 50 as a tool; the rod needs item 51.
+    local ENCH = {
+      [1] = { name = "Rod", output = { itemID = 50, qty = 1 }, reagents = { { itemID = 51, qty = 1 } },
+              learn = 1, orange = 1, yellow = 5, green = 7, grey = 10, source = "trainer", sourceCost = 0 },
+      [2] = { name = "Glow", output = { itemID = 52, qty = 1 }, reagents = { { itemID = 1, qty = 1 } },
+              learn = 1, orange = 1, yellow = 20, green = 25, grey = 30, source = "trainer", sourceCost = 0,
+              tools = { 50 } },
+    }
+    local price = function(itemID) return ({ [1] = 10, [51] = 100 })[itemID] end
+    local function route(steps) return { steps = steps, crafts = 0, cost = 0 } end
+    local glow = { spellID = 2, fromSkill = 12, toSkill = 20, crafts = 8, cost = 80 }
+
+    it("adds a make-the-tool step before the step that needs it", function()
+      local r = O.AddToolSteps(ENCH, route({ glow }), { priceOf = price }, function() return false end)
+      assert.equals(2, #r.steps)
+      assert.is_true(r.steps[1].tool)
+      assert.equals(1, r.steps[1].spellID)
+      assert.equals(100, r.steps[1].cost)
+      assert.equals(1, r.crafts)
+    end)
+
+    it("adds nothing when the tool is owned or made earlier in the route", function()
+      local owned = O.AddToolSteps(ENCH, route({ glow }), { priceOf = price }, function(id) return id == 50 end)
+      assert.equals(1, #owned.steps)
+      local rod = { spellID = 1, fromSkill = 1, toSkill = 12, crafts = 11, cost = 1100 }
+      local made = O.AddToolSteps(ENCH, route({ rod, glow }), { priceOf = price }, function() return false end)
+      assert.equals(2, #made.steps)
+    end)
+  end)
+
   describe("BuildRoute (greedy)", function()
     it("cheapest mode picks the lowest expected cost per point", function()
       local route = O.BuildRoute(RECIPES, opts())
