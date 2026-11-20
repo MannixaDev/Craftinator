@@ -373,6 +373,45 @@ describe("Optimiser", function()
       assert.equals("101:1-5 102:5-10", summary(O.BuildRoute(RECIPES, fast)))
     end)
 
+  describe("Profits", function()
+    local recipes = {
+      [1] = { name = "Good", output = { itemID = 50, qty = 1 }, reagents = { { itemID = 1, qty = 2 } } },
+      [2] = { name = "Loss", output = { itemID = 51, qty = 1 }, reagents = { { itemID = 1, qty = 5 } } },
+      [3] = { name = "Unknown", output = { itemID = 52, qty = 1 }, reagents = { { itemID = 1, qty = 1 } } },
+      [4] = { name = "Mystery", output = { itemID = 53, qty = 2 }, reagents = { { itemID = 9, qty = 1 } } },
+    }
+    local known = { [1] = true, [2] = true, [4] = true }
+    local price = { [1] = 10 }
+    local sale = { [50] = 30, [51] = 40, [52] = 100, [53] = 7 }
+    local buyOf = function(id) return price[id] end
+    local saleOf = function(id) return sale[id] end
+
+    it("lists known recipes that make money, best first", function()
+      local list = O.Profits(recipes, known, buyOf, saleOf, nil, 10)
+      assert.equals(1, #list)
+      assert.equals(1, list[1].spellID)
+      assert.equals(10, list[1].profit)     -- 30 - 2 x 10
+      assert.equals(10, list[1].fullProfit)
+      assert.equals(0, list[1].canMake)
+    end)
+
+    it("counts materials you have as free", function()
+      local owned = { [1] = 5, [9] = 3 }
+      local list = O.Profits(recipes, known, buyOf, saleOf, function(id) return owned[id] end, 10)
+      assert.equals(3, #list)
+      assert.equals(2, list[1].spellID)     -- 40, all five owned
+      assert.equals(40, list[1].profit)
+      assert.equals(-10, list[1].fullProfit)
+      assert.equals(1, list[1].canMake)
+      assert.equals(30, list[2].profit)     -- Good: 30, both owned
+      assert.equals(2, list[2].canMake)
+      assert.equals(4, list[3].spellID)     -- 2 x 7, reagent owned but unpriced
+      assert.equals(14, list[3].profit)
+      assert.is_nil(list[3].fullProfit)
+      assert.equals(2, #O.Profits(recipes, known, buyOf, saleOf, function(id) return owned[id] end, 2))
+    end)
+  end)
+
     it("returns an empty route when already at the target (best route too)", function()
       local route = O.BuildBestRoute(RECIPES, opts({ from = 20 }))
       assert.equals(0, #route.steps)

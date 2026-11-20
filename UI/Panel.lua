@@ -189,6 +189,47 @@ local function initGatherRow(row, entry)
   row.current:SetShown(false)
 end
 
+-- Profit rows (at 300): a known recipe, what it makes per craft.
+local function showProfitTooltip(row)
+  local item, plan = row.entry.profit, row.entry.plan
+  local recipe = plan.recipes[item.spellID]
+  GameTooltip:SetOwner(row, "ANCHOR_RIGHT")
+  GameTooltip:AddLine(recipe.name, 1, 1, 1)
+  GameTooltip:AddDoubleLine("Sells for, less the 5% cut", Pricing.FormatMoney(item.sale), 1, 0.82, 0, 1, 1, 1)
+  GameTooltip:AddDoubleLine("Profit each, using what you have", Pricing.FormatMoney(item.profit),
+    1, 0.82, 0, 0.25, 0.75, 0.25)
+  local full = item.fullProfit
+  GameTooltip:AddDoubleLine("Profit each, buying everything", full and Pricing.FormatMoney(full) or "unknown",
+    1, 0.82, 0, full and full < 0 and 1 or 0.25, full and full < 0 and 0.25 or 0.75, 0.25)
+  GameTooltip:AddLine(" ")
+  for _, reagent in ipairs(recipe.reagents or {}) do
+    local have = ns.Inventory.Count(reagent.itemID)
+    local price = plan.book.PriceOf(reagent.itemID)
+    GameTooltip:AddDoubleLine(("%dx %s  (you have %d)"):format(reagent.qty, ns.Inventory.ItemName(reagent.itemID), have),
+      price and Pricing.FormatMoney(price * reagent.qty) or "no price", 1, 1, 1, 1, 1, 1)
+  end
+  if item.canMake > 0 then
+    GameTooltip:AddLine(" ")
+    GameTooltip:AddLine(("What you have covers %d craft%s. After that, profit is the buying-everything figure.")
+      :format(item.canMake, item.canMake == 1 and "" or "s"), 0.6, 0.6, 0.6, true)
+  end
+  GameTooltip:AddLine("Click to select this recipe in the profession window.", 0.6, 0.6, 0.6, true)
+  GameTooltip:Show()
+end
+
+local function initProfitRow(row, entry)
+  local item, plan = entry.profit, entry.plan
+  local recipe = plan.recipes[item.spellID]
+  row.icon:SetTexture((recipe.output and ns.Inventory.ItemIcon(recipe.output.itemID))
+    or "Interface\\Icons\\INV_Misc_QuestionMark")
+  row.title:SetText(recipe.name)
+  row.title:SetTextColor(1, 1, 1)
+  local detail = ("Profit %s each"):format(Pricing.FormatMoney(item.profit))
+  if item.canMake > 0 then detail = detail .. ("  -  enough for %d"):format(item.canMake) end
+  row.detail:SetText(detail)
+  row.current:SetShown(false)
+end
+
 local function initRow(row, entry)
   if not row.title then
     row.icon = row:CreateTexture(nil, "ARTWORK")
@@ -210,11 +251,19 @@ local function initRow(row, entry)
     row:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
     row:SetScript("OnEnter", function(self)
       if not self.entry then return end
-      if self.entry.gather then showGatherTooltip(self) else showStepTooltip(self) end
+      if self.entry.gather then
+        showGatherTooltip(self)
+      elseif self.entry.profit then
+        showProfitTooltip(self)
+      else
+        showStepTooltip(self)
+      end
     end)
     row:SetScript("OnLeave", function() GameTooltip:Hide() end)
     row:SetScript("OnClick", function(self)
-      if self.entry and self.entry.step and not ns.Player.SelectRecipe(self.entry.step.spellID) then
+      local clicked = self.entry
+      local spellID = clicked and (clicked.step and clicked.step.spellID or clicked.profit and clicked.profit.spellID)
+      if spellID and not ns.Player.SelectRecipe(spellID) then
         say("could not select that recipe. Is the profession window open, and is the recipe learned?")
       end
     end)
@@ -222,6 +271,7 @@ local function initRow(row, entry)
 
   row.entry = entry
   if entry.gather then return initGatherRow(row, entry) end
+  if entry.profit then return initProfitRow(row, entry) end
   local step, plan = entry.step, entry.plan
   local recipe = plan.recipes[step.spellID]
   local colour = COLOURS[step.difficulty] or COLOURS.orange
@@ -629,6 +679,15 @@ function Panel.Refresh()
 
   local route = plan.route
   local entries = {}
+  if plan.profits then
+    for index, item in ipairs(plan.profits) do entries[index] = { index = index, profit = item, plan = plan } end
+    setRows(entries)
+    frame.message:SetText(#entries == 0 and "You are at 300. None of the recipes you know makes a profit at"
+      .. " current auction prices." or "")
+    frame.total:SetText("Most profitable crafts you know\n(materials you have count as free)")
+    frame.prices:SetText(priceLine(plan.book) .. (plan.fromCache and "  (skill from your last visit)" or ""))
+    return
+  end
   for index, step in ipairs(route.steps) do
     entries[index] = { index = index, step = step, plan = plan }
   end

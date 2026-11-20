@@ -221,6 +221,14 @@ function ns.BuildPlan()
   -- Tools the route needs but you lack (Enchanting rods) get a "make it first" step.
   route = Optimiser.AddToolSteps(recipes, route, routeOpts, function(itemID) return ns.Inventory.Count(itemID) > 0 end)
 
+  -- At 300 there is nothing left to level: list the most profitable crafts you know instead.
+  -- Materials in your bags and bank count as free (owner chose this, 20 Nov 2026).
+  local profits
+  if profession.skill >= profession.max and profession.max >= 300 then
+    profits = Optimiser.Profits(recipes, known, book.PriceOf, book.SaleValueOf,
+      function(itemID) return (ns.Inventory.Count(itemID)) end, 10)
+  end
+
   local shopping, matsToBuy, unpriced = Optimiser.ShoppingList(Optimiser.Materials(recipes, route), ownedOf, book.PriceOf)
   local recipeCosts, resale = 0, 0
   for _, step in ipairs(route.steps) do
@@ -246,6 +254,7 @@ function ns.BuildPlan()
     recipes = recipes,
     known = known,
     route = route,
+    profits = profits,
     book = book,
     fromCache = fromCache,
     milliseconds = debugprofilestop() - started,

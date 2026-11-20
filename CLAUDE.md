@@ -48,7 +48,7 @@ Run from the repo root. On the owner's Windows machine the Lua tools need this f
 
 ```
 export PATH="$LOCALAPPDATA/Programs/LuaJIT/bin:$HOME/.luarocks/bin:$PATH"
-cmd //c busted.bat          # 51 tests
+cmd //c busted.bat          # 53 tests
 cmd //c luacheck.bat .      # must be 0 warnings
 ```
 
@@ -148,6 +148,11 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
   names the nearest. Also recorded with the window open next to one, via `C_TradeSkillUI.GetRecipeRequirements`
   (`met`); not yet confirmed to work on Forever. The owner wants no manual marking (no `/ci fire`).
   Account-local only, not in `/ci export`. Uses `C_Map.GetWorldPosFromMapPos` (works on Forever).
+
+- At 300 (skill and cap) the panel lists the 10 most profitable known recipes instead of a route
+  (owner chose this, 20 Nov 2026): sale value less the 5% cut, materials in bags and bank free,
+  with "buying everything" profit and how many crafts your materials cover in the tooltip
+  (`Optimiser.Profits`). Recipes without a crafted item (enchants) are left out. Checked in game 20 Nov 2026.
 
 ## Decisions made without sign-off
 

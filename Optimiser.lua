@@ -405,6 +405,48 @@ function Optimiser.AddToolSteps(recipes, route, opts, hasTool)
   return route
 end
 
+--- At the top skill: the known recipes that make money, best first.
+-- priceOf(itemID): what buying one costs, or nil. saleOf(itemID): what selling one pays (after the
+-- auction house cut), or nil. ownedOf(itemID): how many you have, or nil.
+-- Materials you have are free: profit is the sale less what you would still buy for one craft.
+-- Returns up to `limit` entries { spellID, profit, fullProfit, canMake, sale }, where fullProfit
+-- (nil when a reagent has no price) is the profit when buying everything, and canMake is how
+-- many crafts the materials you have cover.
+function Optimiser.Profits(recipes, known, priceOf, saleOf, ownedOf, limit)
+  local list = {}
+  for spellID, recipe in pairs(recipes) do
+    local sale = known[spellID] and recipe.output and saleOf(recipe.output.itemID)
+    if sale then
+      sale = sale * (recipe.output.qty or 1)
+      local buy, full, canMake, usable = 0, 0, nil, true
+      for _, reagent in ipairs(recipe.reagents or {}) do
+        local have = ownedOf and ownedOf(reagent.itemID) or 0
+        local covers = math.floor(have / reagent.qty)
+        canMake = canMake and math.min(canMake, covers) or covers
+        local price = priceOf(reagent.itemID)
+        if price then
+          if full then full = full + price * reagent.qty end
+          buy = buy + price * math.max(0, reagent.qty - have)
+        else
+          full = nil
+          if have < reagent.qty then usable = false end -- would have to buy something with no price
+        end
+      end
+      local profit = sale - buy
+      if usable and profit > 0 then
+        list[#list + 1] = { spellID = spellID, profit = profit, fullProfit = full and sale - full,
+          canMake = canMake or 0, sale = sale }
+      end
+    end
+  end
+  table.sort(list, function(a, b)
+    if a.profit ~= b.profit then return a.profit > b.profit end
+    return a.spellID < b.spellID
+  end)
+  for index = #list, (limit or #list) + 1, -1 do list[index] = nil end
+  return list
+end
+
 --- Total reagents for a route: { [itemID] = quantity }, using each step's rounded-up craft count.
 function Optimiser.Materials(recipes, route)
   local needs = {}
