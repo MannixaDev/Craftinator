@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.6.6
+
+- New: at skill 300 the panel lists the 10 most profitable crafts you know. Materials in your bags
+  and bank count as free, so each row shows what one craft earns and how many your materials cover.
+  Hover a row for the profit if you bought everything, and the materials with what you have.
+  Click it to select the recipe.
+- Resale and the new profit list take off the auction house's 5% cut, so they show what a sale
+  really pays you.
+
 ## 0.6.5
 
 - Cooking and First Aid past 225: at the cap, the panel names the quest that raises it (Clamlette
