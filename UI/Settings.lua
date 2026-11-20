@@ -90,7 +90,8 @@ local function build()
     "Reagents in your bags and bank cost nothing. The bank is read when you open it.",
     function() return db().useOwned end, function(on) db().useOwned = on end)
   addCheck(panel, -282, "Subtract what the crafted items sell for",
-    "Uses the auction price of each crafted item. Items that do not really sell can make a route look cheaper than it is.",
+    "Uses the auction price of each crafted item, less the auction house's 5% cut."
+      .. " Items that do not really sell can make a route look cheaper than it is.",
     function() return db().useResale end, function(on) db().useResale = on end)
 
   addHeading(panel, -320, "Reminders")

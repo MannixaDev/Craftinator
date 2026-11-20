@@ -79,8 +79,8 @@ local function showStepTooltip(row)
       1, 0.82, 0)
   end
   if plan.useResale and recipe.output then
-    local price = plan.book.PriceOf(recipe.output.itemID)
-    GameTooltip:AddLine(price and ("Each craft sells for about %s."):format(
+    local price = plan.book.SaleValueOf(recipe.output.itemID)
+    GameTooltip:AddLine(price and ("Each craft sells for about %s after the auction house's 5%% cut."):format(
       Pricing.FormatMoney(price * (recipe.output.qty or 1))) or "No auction price for the crafted item.", 0.6, 0.6, 0.6)
   end
   if not plan.known[step.spellID] then
@@ -416,7 +416,7 @@ local function create()
       function() return CraftinatorDB.sources.drop end, function(on) CraftinatorDB.sources.drop = on end },
     { "Owned", "Count reagents in your bags and bank as free. The bank is read when you open it.",
       function() return CraftinatorDB.useOwned end, function(on) CraftinatorDB.useOwned = on end },
-    { "Resale", "Subtract the auction price of what you craft from each recipe's cost. Items that do not"
+    { "Resale", "Subtract what you craft sells for (auction price less the 5% cut) from each recipe's cost. Items that do not"
         .. " really sell can make a route look cheaper than it is.",
       function() return CraftinatorDB.useResale end, function(on) CraftinatorDB.useResale = on end },
   }
@@ -718,7 +718,7 @@ function Panel.ShowShoppingTooltip(owner)
     GameTooltip:AddDoubleLine("Recipes to buy", Pricing.FormatMoney(plan.recipeCosts), 1, 0.82, 0, 1, 1, 1)
   end
   if plan.useResale then
-    GameTooltip:AddDoubleLine("What you craft sells for about", Pricing.FormatMoney(plan.resale), 0.25, 0.75, 0.25, 1, 1, 1)
+    GameTooltip:AddDoubleLine("What you craft sells for (less 5% cut)", Pricing.FormatMoney(plan.resale), 0.25, 0.75, 0.25, 1, 1, 1)
   end
   local vendorLines = 0
   for _, line in ipairs(plan.shopping) do

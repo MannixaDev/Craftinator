@@ -48,7 +48,7 @@ Run from the repo root. On the owner's Windows machine the Lua tools need this f
 
 ```
 export PATH="$LOCALAPPDATA/Programs/LuaJIT/bin:$HOME/.luarocks/bin:$PATH"
-cmd //c busted.bat          # 50 tests
+cmd //c busted.bat          # 51 tests
 cmd //c luacheck.bat .      # must be 0 warnings
 ```
 
@@ -154,7 +154,7 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
 These work, but the owner never explicitly agreed to them. Raise them if they become relevant.
 
 - Fastest mode treats each extra kind of reagent as 5% slower and a craft station as 10% slower.
-- Resale uses the raw auction price with no auction-house cut, and a route's net cost can go negative.
+- A route's net cost can go negative with resale on.
 - Recipes with an unknown reagent price are still usable but always lose to fully priced ones.
 - Recipes the character already knows ignore the source filters.
 - Trainer fees that are unknown count as zero; vendor recipes sold for a currency are never planned.

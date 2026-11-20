@@ -215,7 +215,7 @@ function ns.BuildPlan()
       lambda = lambdaFor(db.mode),
       timeFactorOf = db.mode == "fastest" and fastestTimeFactor or nil,
       useResale = db.useResale,
-      resaleOf = book.PriceOf,
+      resaleOf = book.SaleValueOf,
     }
   local route = Optimiser.BuildWithOwned(recipes, routeOpts, ownedOf)
   -- Tools the route needs but you lack (Enchanting rods) get a "make it first" step.
@@ -226,7 +226,7 @@ function ns.BuildPlan()
   for _, step in ipairs(route.steps) do
     recipeCosts = recipeCosts + step.oneOffCost
     local output = recipes[step.spellID].output
-    local price = db.useResale and output and not step.tool and book.PriceOf(output.itemID) -- tools are kept
+    local price = db.useResale and output and not step.tool and book.SaleValueOf(output.itemID) -- tools are kept
     if price then resale = resale + price * (output.qty or 1) * step.crafts end
   end
 

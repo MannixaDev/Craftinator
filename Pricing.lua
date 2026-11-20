@@ -8,6 +8,13 @@ local Pricing = {}
 if type(ns) == "table" then ns.Pricing = Pricing end
 
 Pricing.STALE_DAYS = 3
+Pricing.AH_CUT = 0.05 -- the auction house keeps 5% of a sale
+
+--- What selling an item at the auction house pays you: its price less the house's cut.
+function Pricing.SaleValue(price)
+  if not price then return nil end
+  return price * (1 - Pricing.AH_CUT)
+end
 
 --- Create a price book.
 -- config.vendorPrices: { [itemID] = copper } for vendor-sold reagents (always used first)
@@ -65,6 +72,11 @@ function Pricing.New(config)
     end
     summary.stale = summary.oldestAge ~= nil and summary.oldestAge > Pricing.STALE_DAYS
     return summary
+  end
+
+  --- What selling one at the auction house pays, after the cut; nil when unpriced.
+  function book.SaleValueOf(itemID)
+    return Pricing.SaleValue(book.PriceOf(itemID))
   end
 
   return book
