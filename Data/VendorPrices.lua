@@ -45,16 +45,21 @@ ns.Data.VendorPrices = {
   [10647] = 2000, -- Engineer's Ink
   [10648] = 500, -- Blank Parchment
   [6530] = 100, -- Nightcrawlers
+  [247786] = 10, -- Mote of Magic
+  [2723] = 50, -- Bottle of Dalaran Noir
+  [2594] = 1500, -- Flagon of Dwarven Honeymead
   [1205] = 100, -- Melon Juice (500 for 5)
   [1708] = 200, -- Sweet Nectar (1000 for 5)
   [1645] = 400, -- Moonberry Juice (2000 for 5)
   [8766] = 800, -- Morning Glory Dew (4000 for 5)
   [10284] = 200, -- Simple Flour
   [272941] = 200000, -- Thick Logs
-  [18567] = 150000, -- Elemental Flux
   [17034] = 200, -- Maple Seed
   [17035] = 400, -- Stranglethorn Seed
   [16583] = 10000, -- Demonic Figurine
+  [3030] = 1.5, -- Razor Arrow (300 for 200)
+  [18567] = 150000, -- Elemental Flux
+  [4605] = 25, -- Red-speckled Mushroom (125 for 5)
 }
 
 ns.Data.VendorPricesBuild = "1.60.1.70938"

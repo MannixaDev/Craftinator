@@ -21,8 +21,7 @@ ns.Data.Recipes["Mining"] = {
     output = { itemID = 279960, qty = 1 },
     reagents = { { itemID = 2835, qty = 1 }, { itemID = 2840, qty = 1 } },
     learn = 20, orange = 20, yellow = 20, green = 20, grey = 20,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    source = "trainer", sourceCost = 100, recipeItem = nil, faction = nil,
   },
   [2657] = { -- 1x Copper Ore
     name = "Smelt Copper", skillLineAbilityID = 3324,
@@ -36,9 +35,8 @@ ns.Data.Recipes["Mining"] = {
     name = "Smelt Tin", skillLineAbilityID = 1848,
     output = { itemID = 3576, qty = 1 },
     reagents = { { itemID = 2771, qty = 1 } },
-    learn = 50, orange = 50, yellow = 50, green = 62, grey = 75,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 65, orange = 65, yellow = 50, green = 62, grey = 75,
+    source = "trainer", sourceCost = 50, recipeItem = nil, faction = nil,
     station = "Forge",
   },
   [2659] = { -- 1x Copper Bar, 1x Tin Bar
@@ -46,26 +44,23 @@ ns.Data.Recipes["Mining"] = {
     output = { itemID = 2841, qty = 2 },
     reagents = { { itemID = 2840, qty = 1 }, { itemID = 3576, qty = 1 } },
     learn = 65, orange = 65, yellow = 65, green = 90, grey = 115,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    source = "trainer", sourceCost = 200, recipeItem = nil, faction = nil,
     station = "Forge",
   },
   [2658] = { -- 1x Silver Ore
     name = "Smelt Silver", skillLineAbilityID = 1599,
     output = { itemID = 2842, qty = 1 },
     reagents = { { itemID = 2775, qty = 1 } },
-    learn = 100, orange = 100, yellow = 100, green = 112, grey = 125,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 75, orange = 75, yellow = 100, green = 112, grey = 125,
+    source = "trainer", sourceCost = 200, recipeItem = nil, faction = nil,
     station = "Forge",
   },
   [3307] = { -- 1x Iron Ore
     name = "Smelt Iron", skillLineAbilityID = 1847,
     output = { itemID = 3575, qty = 1 },
     reagents = { { itemID = 2772, qty = 1 } },
-    learn = 130, orange = 130, yellow = 130, green = 135, grey = 140,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 125, orange = 125, yellow = 130, green = 135, grey = 140,
+    source = "trainer", sourceCost = 500, recipeItem = nil, faction = nil,
     station = "Forge",
   },
   [1262975] = { -- 2x Heavy Stone, 1x Iron Ore, 1x Silver Bar
@@ -80,17 +75,15 @@ ns.Data.Recipes["Mining"] = {
     output = { itemID = 3859, qty = 1 },
     reagents = { { itemID = 3575, qty = 1 }, { itemID = 3857, qty = 1 } },
     learn = 165, orange = 165, yellow = 165, green = 165, grey = 165,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    source = "trainer", sourceCost = 2500, recipeItem = nil, faction = nil,
     station = "Forge",
   },
   [3308] = { -- 1x Gold Ore
     name = "Smelt Gold", skillLineAbilityID = 1846,
     output = { itemID = 3577, qty = 1 },
     reagents = { { itemID = 2776, qty = 1 } },
-    learn = 170, orange = 170, yellow = 170, green = 177, grey = 185,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 155, orange = 155, yellow = 170, green = 177, grey = 185,
+    source = "trainer", sourceCost = 2500, recipeItem = nil, faction = nil,
     station = "Forge",
   },
   [10097] = { -- 1x Mithril Ore
@@ -98,8 +91,7 @@ ns.Data.Recipes["Mining"] = {
     output = { itemID = 3860, qty = 1 },
     reagents = { { itemID = 3858, qty = 1 } },
     learn = 175, orange = 175, yellow = 175, green = 175, grey = 175,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    source = "trainer", sourceCost = 5000, recipeItem = nil, faction = nil,
     station = "Forge",
   },
   [10098] = { -- 1x Truesilver Ore
@@ -107,8 +99,7 @@ ns.Data.Recipes["Mining"] = {
     output = { itemID = 6037, qty = 1 },
     reagents = { { itemID = 7911, qty = 1 } },
     learn = 230, orange = 230, yellow = 230, green = 230, grey = 230,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    source = "trainer", sourceCost = 10000, recipeItem = nil, faction = nil,
     station = "Forge",
   },
   [14891] = { -- 8x Dark Iron Ore
@@ -125,8 +116,7 @@ ns.Data.Recipes["Mining"] = {
     output = { itemID = 12359, qty = 1 },
     reagents = { { itemID = 10620, qty = 1 } },
     learn = 250, orange = 250, yellow = 250, green = 250, grey = 250,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    source = "trainer", sourceCost = 20000, recipeItem = nil, faction = nil,
     station = "Forge",
   },
   [1249637] = { -- 2x Pitchblende, 1x Coal
@@ -134,8 +124,7 @@ ns.Data.Recipes["Mining"] = {
     output = { itemID = 249726, qty = 1 },
     reagents = { { itemID = 249426, qty = 2 }, { itemID = 3857, qty = 1 } },
     learn = 275, orange = 275, yellow = 275, green = 275, grey = 275,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    source = "trainer", sourceCost = 50000, recipeItem = nil, faction = nil,
     station = "Forge",
   },
   [1263071] = { -- 5x Thorium Bar, 2x Dense Stone, 1x Truesilver Bar
@@ -150,8 +139,7 @@ ns.Data.Recipes["Mining"] = {
     output = { itemID = 251291, qty = 1 },
     reagents = { { itemID = 248815, qty = 1 } },
     learn = 300, orange = 300, yellow = 300, green = 307, grey = 315,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    source = "trainer", sourceCost = 50000, recipeItem = nil, faction = nil,
     station = "Molten Foundry",
   },
   [22967] = { -- 1x Elementium Ore, 10x Arcanite Bar, 1x Fiery Core, 3x Elemental Flux

@@ -196,6 +196,184 @@
     }
    ]
   },
+  "1317": {
+   "name": "Lucan Cordell",
+   "role": "trainer",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "The Canals",
+   "x": 0.5279,
+   "y": 0.7402,
+   "build": "70959",
+   "professions": [
+    "Enchanting"
+   ],
+   "ranks": [
+    "Apprentice",
+    "Journeyman"
+   ],
+   "maxSkill": 150
+  },
+  "1318": {
+   "name": "Jessara Cordell",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "The Canals",
+   "x": 0.5297,
+   "y": 0.7395,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 6217,
+     "price": 112,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 247786,
+     "price": 9,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10940,
+     "price": 720,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 4470,
+     "price": 35,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 11291,
+     "price": 4050,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 20758,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 20752,
+     "price": 2700,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 20753,
+     "price": 3600,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6342,
+     "price": 270,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 22307,
+     "price": 5400,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "1328": {
+   "name": "Elly Langston",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "Old Town",
+   "x": 0.7644,
+   "y": 0.5446,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 2723,
+     "price": 45,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2596,
+     "price": 108,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2594,
+     "price": 1350,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 159,
+     "price": 23,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 113,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 450,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 900,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 1800,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8766,
+     "price": 3600,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
   "1346": {
    "name": "Georgio Bolero",
    "role": "trainer",
@@ -215,6 +393,152 @@
     "Expert"
    ],
    "maxSkill": 225
+  },
+  "1347": {
+   "name": "Alexandra Bolero",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "Mage Quarter",
+   "x": 0.5315,
+   "y": 0.8156,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 6274,
+     "price": 360,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10325,
+     "price": 9000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2320,
+     "price": 9,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2321,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4291,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8343,
+     "price": 1800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 14341,
+     "price": 4500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2324,
+     "price": 23,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2604,
+     "price": 45,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6260,
+     "price": 45,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2605,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4341,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4340,
+     "price": 315,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6261,
+     "price": 900,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2325,
+     "price": 900,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4342,
+     "price": 2250,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10290,
+     "price": 2250,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 253665,
+     "price": 135,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 253668,
+     "price": 225,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
   },
   "2327": {
    "name": "Shaina Fuller",
@@ -242,8 +566,8 @@
    "mapID": 1424,
    "zone": "Hillsbrad Foothills",
    "subzone": "Southshore",
-   "x": 0.5126,
-   "y": 0.5885,
+   "x": 0.5113,
+   "y": 0.5897,
    "build": "70938",
    "items": [
     {
@@ -485,6 +809,267 @@
     }
    ]
   },
+  "2482": {
+   "name": "Zarena Cromwind",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1434,
+   "zone": "Stranglethorn Vale",
+   "subzone": "The Old Port Authority",
+   "x": 0.2836,
+   "y": 0.7541,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 12163,
+     "price": 4400,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "2626": {
+   "name": "Old Man Heming",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1434,
+   "zone": "Stranglethorn Vale",
+   "subzone": "Booty Bay",
+   "x": 0.2742,
+   "y": 0.7712,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 6530,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "2663": {
+   "name": "Narkk",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1434,
+   "zone": "Stranglethorn Vale",
+   "subzone": "The Old Port Authority",
+   "x": 0.2821,
+   "y": 0.7442,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 10728,
+     "price": 1500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "2664": {
+   "name": "Kelsey Yance",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1434,
+   "zone": "Stranglethorn Vale",
+   "subzone": "The Old Port Authority",
+   "x": 0.2821,
+   "y": 0.7437,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2678,
+     "price": 10,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2692,
+     "price": 40,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3713,
+     "price": 160,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10284,
+     "price": 200,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4470,
+     "price": 38,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 11291,
+     "price": 4500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 272941,
+     "price": 200000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 21099,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 21219,
+     "price": 5000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4536,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6039,
+     "price": 5000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6369,
+     "price": 2200,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 17062,
+     "price": 2200,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 13940,
+     "price": 16000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 13941,
+     "price": 16000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 13943,
+     "price": 16000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "2683": {
+   "name": "Namdo Bizzfizzle",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1415,
+   "zone": "Gnomeregan",
+   "subzone": "Train Depot",
+   "x": 0.434,
+   "y": 0.5279,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 4399,
+     "price": 180,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4400,
+     "price": 1800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2880,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3466,
+     "price": 1800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10648,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10647,
+     "price": 1800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4357,
+     "price": 15,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 4364,
+     "price": 44,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    }
+   ]
+  },
   "2798": {
    "name": "Pand Stonebinder",
    "role": "trainer",
@@ -503,6 +1088,268 @@
     "Apprentice"
    ],
    "maxSkill": 150
+  },
+  "2805": {
+   "name": "Deneb Walker",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1417,
+   "zone": "Arathi Highlands",
+   "subzone": "Stromgarde Keep",
+   "x": 0.271,
+   "y": 0.5892,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 16112,
+     "price": 1980,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 16113,
+     "price": 4500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 17034,
+     "price": 180,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 17035,
+     "price": 360,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 16583,
+     "price": 9000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8925,
+     "price": 2250,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3372,
+     "price": 180,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3371,
+     "price": 18,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "2839": {
+   "name": "Haren Kanmae",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1434,
+   "zone": "Stranglethorn Vale",
+   "subzone": "The Old Port Authority",
+   "x": 0.2827,
+   "y": 0.7459,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 3030,
+     "price": 300,
+     "stack": 200,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "2846": {
+   "name": "Blixrez Goodstitch",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1434,
+   "zone": "Stranglethorn Vale",
+   "subzone": "Booty Bay",
+   "x": 0.2824,
+   "y": 0.7755,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 4289,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2320,
+     "price": 10,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2321,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4291,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8343,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 14341,
+     "price": 5000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2325,
+     "price": 1000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6260,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2604,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2605,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4340,
+     "price": 350,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4341,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6261,
+     "price": 1000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4342,
+     "price": 2500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10290,
+     "price": 2500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 5788,
+     "price": 650,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 5789,
+     "price": 2800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "2847": {
+   "name": "Jansen Underwood",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1434,
+   "zone": "Stranglethorn Vale",
+   "subzone": "Booty Bay",
+   "x": 0.2905,
+   "y": 0.7546,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 2880,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3466,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3857,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 18567,
+     "price": 150000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
   },
   "2999": {
    "name": "Taur Stonehoof",
@@ -806,6 +1653,241 @@
     }
    ]
   },
+  "3700": {
+   "name": "Jadenvis Seawatcher",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1444,
+   "zone": "Feralas",
+   "subzone": "Feathermoon Stronghold",
+   "x": 0.3094,
+   "y": 0.4203,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 17034,
+     "price": 180,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 17035,
+     "price": 360,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 16583,
+     "price": 9000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "3955": {
+   "name": "Shandrina",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1440,
+   "zone": "Ashenvale",
+   "subzone": "Silverwind Refuge",
+   "x": 0.4951,
+   "y": 0.6708,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 6217,
+     "price": 112,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2320,
+     "price": 9,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2321,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4291,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8343,
+     "price": 1800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2678,
+     "price": 9,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2692,
+     "price": 36,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3713,
+     "price": 144,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2880,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3466,
+     "price": 1800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3857,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2604,
+     "price": 45,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2325,
+     "price": 900,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4341,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4342,
+     "price": 2250,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4340,
+     "price": 315,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3371,
+     "price": 18,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3372,
+     "price": 180,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8925,
+     "price": 2250,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4289,
+     "price": 45,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4399,
+     "price": 180,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4400,
+     "price": 1800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6530,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "3960": {
+   "name": "Ulthaan",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1440,
+   "zone": "Ashenvale",
+   "subzone": "Silverwind Refuge",
+   "x": 0.5005,
+   "y": 0.6672,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 3734,
+     "price": 1440,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 5489,
+     "price": 1080,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
   "4083": {
    "name": "Jeeda",
    "role": "vendor",
@@ -861,35 +1943,16 @@
     }
    ]
   },
-  "5482": {
-   "name": "Stephen Ryback",
-   "role": "trainer",
-   "faction": "Alliance",
-   "mapID": 1453,
-   "zone": "Stormwind City",
-   "subzone": "Old Town",
-   "x": 0.7824,
-   "y": 0.5321,
-   "build": "70938",
-   "professions": [
-    "Cooking"
-   ],
-   "ranks": [
-    "Apprentice",
-    "Journeyman"
-   ],
-   "maxSkill": 150
-  },
-  "5483": {
-   "name": "Erika Tate",
+  "4223": {
+   "name": "Fyldan",
    "role": "vendor",
    "faction": "Alliance",
-   "mapID": 1453,
-   "zone": "Stormwind City",
-   "subzone": "Old Town",
-   "x": 0.7849,
-   "y": 0.5298,
-   "build": "70938",
+   "mapID": 1457,
+   "zone": "Darnassus",
+   "subzone": "Craftsmen's Terrace",
+   "x": 0.4868,
+   "y": 0.2096,
+   "build": "70959",
    "items": [
     {
      "itemID": 159,
@@ -965,6 +2028,385 @@
      "itemID": 4536,
      "price": 23,
      "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "4897": {
+   "name": "Helenia Olden",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1445,
+   "zone": "Dustwallow Marsh",
+   "subzone": "Theramore Isle",
+   "x": 0.6639,
+   "y": 0.5151,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 6217,
+     "price": 124,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2320,
+     "price": 10,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2321,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4291,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8343,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2678,
+     "price": 10,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2692,
+     "price": 40,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3713,
+     "price": 160,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2880,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3466,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3857,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2604,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2325,
+     "price": 1000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4341,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4342,
+     "price": 2500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4340,
+     "price": 350,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3371,
+     "price": 20,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3372,
+     "price": 200,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8925,
+     "price": 2500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4289,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4399,
+     "price": 200,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4400,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6530,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 12228,
+     "price": 5000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 12233,
+     "price": 3000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 5789,
+     "price": 2800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "5110": {
+   "name": "Barim Jurgenstaad",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1455,
+   "zone": "Ironforge",
+   "subzone": "Ironforge",
+   "x": 0.1956,
+   "y": 0.5625,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 17034,
+     "price": 180,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 17035,
+     "price": 360,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 16583,
+     "price": 9000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "5482": {
+   "name": "Stephen Ryback",
+   "role": "trainer",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "Old Town",
+   "x": 0.7808,
+   "y": 0.5321,
+   "build": "70959",
+   "professions": [
+    "Cooking"
+   ],
+   "ranks": [
+    "Apprentice",
+    "Journeyman"
+   ],
+   "maxSkill": 150
+  },
+  "5483": {
+   "name": "Erika Tate",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "Old Town",
+   "x": 0.7845,
+   "y": 0.5288,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 23,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2678,
+     "price": 9,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2692,
+     "price": 36,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3713,
+     "price": 144,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10284,
+     "price": 180,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4470,
+     "price": 35,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 11291,
+     "price": 4050,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 272941,
+     "price": 180000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 21099,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 21219,
+     "price": 4500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4536,
+     "price": 23,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "5494": {
+   "name": "Catherine Leland",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "The Canals",
+   "x": 0.5507,
+   "y": 0.696,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 6530,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6325,
+     "price": 36,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6368,
+     "price": 360,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6330,
+     "price": 1080,
+     "stack": 1,
      "limited": false,
      "notGold": false
     }
@@ -1158,6 +2600,295 @@
    ],
    "maxSkill": 75
   },
+  "6272": {
+   "name": "Innkeeper Janene",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1445,
+   "zone": "Dustwallow Marsh",
+   "subzone": "Theramore Isle",
+   "x": 0.6648,
+   "y": 0.4526,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 125,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 1000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 2000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8766,
+     "price": 4000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "6300": {
+   "name": "Elisa Steelhand",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1439,
+   "zone": "Darkshore",
+   "subzone": "Auberdine",
+   "x": 0.3818,
+   "y": 0.4106,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 2880,
+     "price": 90,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3466,
+     "price": 1800,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3857,
+     "price": 450,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 18567,
+     "price": 135000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "6495": {
+   "name": "Riznek",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1441,
+   "zone": "Thousand Needles",
+   "subzone": "Mirage Raceway",
+   "x": 0.8064,
+   "y": 0.7606,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 125,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 1000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 2000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8766,
+     "price": 4000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "6740": {
+   "name": "Innkeeper Allison",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "Trade District",
+   "x": 0.6045,
+   "y": 0.7514,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 23,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 113,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 450,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 900,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 1800,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8766,
+     "price": 3600,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "6807": {
+   "name": "Innkeeper Skindle",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1434,
+   "zone": "Stranglethorn Vale",
+   "subzone": "The Salty Sailor Tavern",
+   "x": 0.2708,
+   "y": 0.7733,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 125,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 1000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 2000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8766,
+     "price": 4000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6303,
+     "price": 20,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 6289,
+     "price": 20,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 6308,
+     "price": 40,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 8959,
+     "price": 3200,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    }
+   ]
+  },
   "7714": {
    "name": "Innkeeper Byula",
    "role": "vendor",
@@ -1227,9 +2958,9 @@
    "mapID": 1442,
    "zone": "Stonetalon Mountains",
    "subzone": "Sun Rock Retreat",
-   "x": 0.4753,
+   "x": 0.4751,
    "y": 0.6209,
-   "build": "70938",
+   "build": "70959",
    "items": [
     {
      "itemID": 159,
@@ -1274,6 +3005,432 @@
      "notGold": false
     }
    ]
+  },
+  "7942": {
+   "name": "Faralorn",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1444,
+   "zone": "Feralas",
+   "subzone": "Feathermoon Stronghold",
+   "x": 0.3064,
+   "y": 0.4336,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 23,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 113,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 450,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 11291,
+     "price": 4050,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4470,
+     "price": 35,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3030,
+     "price": 270,
+     "stack": 200,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 900,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 1800,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "8125": {
+   "name": "Dirge Quikcleave",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1446,
+   "zone": "Tanaris",
+   "subzone": "Gadgetzan",
+   "x": 0.5258,
+   "y": 0.281,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 125,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 1000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 2000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8766,
+     "price": 4000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 18046,
+     "price": 12000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "8137": {
+   "name": "Gikkix",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1446,
+   "zone": "Tanaris",
+   "subzone": "Steamwheedle Port",
+   "x": 0.6665,
+   "y": 0.2217,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 125,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 1000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 2000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8766,
+     "price": 4000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 13939,
+     "price": 16000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 13942,
+     "price": 16000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 13946,
+     "price": 20000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 13945,
+     "price": 20000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6303,
+     "price": 20,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 6289,
+     "price": 20,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 6308,
+     "price": 40,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 6362,
+     "price": 80,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 4603,
+     "price": 80,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 8959,
+     "price": 3200,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    }
+   ]
+  },
+  "8139": {
+   "name": "Jabbey",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1446,
+   "zone": "Tanaris",
+   "subzone": "Steamwheedle Port",
+   "x": 0.6699,
+   "y": 0.2205,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 1000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 2000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3030,
+     "price": 300,
+     "stack": 200,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 11291,
+     "price": 4500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4470,
+     "price": 38,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 125,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 16767,
+     "price": 3000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "8150": {
+   "name": "Janet Hommers",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1443,
+   "zone": "Desolace",
+   "subzone": "Nijel's Point",
+   "x": 0.662,
+   "y": 0.0674,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 4605,
+     "price": 113,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 159,
+     "price": 23,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 113,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 450,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 900,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 1800,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8766,
+     "price": 3600,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 12233,
+     "price": 2700,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 12240,
+     "price": 6300,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "11068": {
+   "name": "Betty Quin",
+   "role": "trainer",
+   "faction": "Alliance",
+   "mapID": 1453,
+   "zone": "Stormwind City",
+   "subzone": "The Canals",
+   "x": 0.5297,
+   "y": 0.7402,
+   "build": "70959",
+   "professions": [
+    "Enchanting"
+   ],
+   "ranks": [
+    "Apprentice"
+   ],
+   "maxSkill": 75
   },
   "11084": {
    "name": "Tarn",
@@ -1398,6 +3555,757 @@
     }
    ]
   },
+  "32424": {
+   "name": "Laire Brewgold",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1416,
+   "zone": "City of Dalaran",
+   "subzone": "A Hero's Welcome",
+   "x": 0.099,
+   "y": 0.6593,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 2723,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2596,
+     "price": 120,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2594,
+     "price": 1500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "32426": {
+   "name": "Coira Longrifle",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1416,
+   "zone": "City of Dalaran",
+   "subzone": "A Hero's Welcome",
+   "x": 0.1026,
+   "y": 0.6573,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 2723,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2596,
+     "price": 120,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2594,
+     "price": 1500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "32631": {
+   "name": "Alfred Copperworth",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1416,
+   "zone": "City of Dalaran",
+   "subzone": "The Purple Parlor",
+   "x": 0.1539,
+   "y": 0.566,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 125,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 1000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 2000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8766,
+     "price": 4000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2723,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2596,
+     "price": 120,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2594,
+     "price": 1500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "252040": {
+   "name": "Hagatha Moorehead",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1416,
+   "zone": "City of Dalaran",
+   "subzone": "Sisters Sorcerous",
+   "x": 0.1397,
+   "y": 0.6344,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 17034,
+     "price": 200,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 17035,
+     "price": 400,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 16583,
+     "price": 10000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "252083": {
+   "name": "Derek Odds",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1416,
+   "zone": "City of Dalaran",
+   "subzone": "A Hero's Welcome",
+   "x": 0.1249,
+   "y": 0.6595,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2678,
+     "price": 10,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2692,
+     "price": 40,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3713,
+     "price": 160,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10284,
+     "price": 200,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4470,
+     "price": 38,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 11291,
+     "price": 4500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 272941,
+     "price": 200000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 21099,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 21219,
+     "price": 5000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4536,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "253139": {
+   "name": "Gorhak",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 1443,
+   "zone": "Desolace",
+   "subzone": "Magram Village",
+   "x": 0.6619,
+   "y": 0.7934,
+   "build": "70938",
+   "items": [
+    {
+     "itemID": 250979,
+     "price": 0,
+     "stack": 1,
+     "limited": false,
+     "notGold": true
+    },
+    {
+     "itemID": 250985,
+     "price": 0,
+     "stack": 1,
+     "limited": false,
+     "notGold": true
+    },
+    {
+     "itemID": 251390,
+     "price": 0,
+     "stack": 1,
+     "limited": false,
+     "notGold": true
+    },
+    {
+     "itemID": 251458,
+     "price": 0,
+     "stack": 1,
+     "limited": false,
+     "notGold": true
+    },
+    {
+     "itemID": 269903,
+     "price": 0,
+     "stack": 1,
+     "limited": false,
+     "notGold": true
+    },
+    {
+     "itemID": 269901,
+     "price": 0,
+     "stack": 1,
+     "limited": false,
+     "notGold": true
+    },
+    {
+     "itemID": 249486,
+     "price": 0,
+     "stack": 1,
+     "limited": false,
+     "notGold": true
+    },
+    {
+     "itemID": 249489,
+     "price": 0,
+     "stack": 1,
+     "limited": false,
+     "notGold": true
+    },
+    {
+     "itemID": 253974,
+     "price": 0,
+     "stack": 1,
+     "limited": false,
+     "notGold": true
+    },
+    {
+     "itemID": 254682,
+     "price": 0,
+     "stack": 1,
+     "limited": false,
+     "notGold": true
+    },
+    {
+     "itemID": 252833,
+     "price": 0,
+     "stack": 1,
+     "limited": false,
+     "notGold": true
+    }
+   ]
+  },
+  "255701": {
+   "name": "Maralus",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 2652,
+   "zone": "Shen'dralas",
+   "subzone": "",
+   "x": 0.4288,
+   "y": 0.7878,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 6217,
+     "price": 124,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2320,
+     "price": 10,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2321,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4291,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8343,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2678,
+     "price": 10,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2692,
+     "price": 40,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3713,
+     "price": 160,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2880,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3466,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3857,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2604,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2325,
+     "price": 1000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4341,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4342,
+     "price": 2500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4340,
+     "price": 350,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3371,
+     "price": 20,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3372,
+     "price": 200,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8925,
+     "price": 2500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4289,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4399,
+     "price": 200,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4400,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6530,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "255703": {
+   "name": "Naria",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 2652,
+   "zone": "Shen'dralas",
+   "subzone": "",
+   "x": 0.5158,
+   "y": 0.7236,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 4536,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "255704": {
+   "name": "Arondel",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 2652,
+   "zone": "Shen'dralas",
+   "subzone": "",
+   "x": 0.5158,
+   "y": 0.7236,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 125,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 1000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 2000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8766,
+     "price": 4000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "255721": {
+   "name": "Jarael",
+   "role": "trainer",
+   "faction": "Alliance",
+   "mapID": 2652,
+   "zone": "Shen'dralas",
+   "subzone": "",
+   "x": 0.4257,
+   "y": 0.778,
+   "build": "70959",
+   "professions": [
+    "Leatherworking"
+   ],
+   "ranks": [
+    "Apprentice",
+    "Journeyman",
+    "Expert"
+   ],
+   "maxSkill": 225
+  },
+  "255724": {
+   "name": "Melanori",
+   "role": "trainer",
+   "faction": "Alliance",
+   "mapID": 2652,
+   "zone": "Shen'dralas",
+   "subzone": "",
+   "x": 0.4354,
+   "y": 0.7792,
+   "build": "70959",
+   "professions": [
+    "Tailoring"
+   ],
+   "ranks": [
+    "Apprentice",
+    "Journeyman",
+    "Expert"
+   ],
+   "maxSkill": 225
+  },
+  "255891": {
+   "name": "Grungle",
+   "role": "trainer",
+   "faction": "Alliance",
+   "mapID": 2548,
+   "zone": "Riverglades",
+   "subzone": "Powderfuse Port",
+   "x": 0.7776,
+   "y": 0.5194,
+   "build": "70959",
+   "professions": [
+    "Mining"
+   ],
+   "ranks": [
+    "Apprentice",
+    "Journeyman",
+    "Expert",
+    "Artisan"
+   ],
+   "maxSkill": 300
+  },
+  "255897": {
+   "name": "Friz Frazzlespark",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 2548,
+   "zone": "Riverglades",
+   "subzone": "Powderfuse Port",
+   "x": 0.7718,
+   "y": 0.5292,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 1000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 2000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3030,
+     "price": 300,
+     "stack": 200,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 11291,
+     "price": 4500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4470,
+     "price": 38,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3371,
+     "price": 20,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3372,
+     "price": 200,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8925,
+     "price": 2500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
   "258466": {
    "name": "Boramu",
    "role": "vendor",
@@ -1419,6 +4327,744 @@
     {
      "itemID": 253668,
      "price": 250,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "259766": {
+   "name": "Mika Darby",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 2548,
+   "zone": "Riverglades",
+   "subzone": "Powderfuse Port",
+   "x": 0.7776,
+   "y": 0.5194,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 2880,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3466,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3857,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 18567,
+     "price": 150000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "259860": {
+   "name": "Martha Wellsworth",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 2548,
+   "zone": "Riverglades",
+   "subzone": "Farholde Keep",
+   "x": 0.6424,
+   "y": 0.8407,
+   "build": "71037",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 1000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 2000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3030,
+     "price": 300,
+     "stack": 200,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 11291,
+     "price": 4500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4470,
+     "price": 38,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 125,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 251460,
+     "price": 7500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 274977,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "259863": {
+   "name": "Cassandra Wheeler",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 2548,
+   "zone": "Riverglades",
+   "subzone": "Farholde Keep",
+   "x": 0.6471,
+   "y": 0.8284,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 4536,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 125,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 1000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 2000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8766,
+     "price": 4000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "259962": {
+   "name": "Fimbo Greasemitz",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 2548,
+   "zone": "Riverglades",
+   "subzone": "Powderfuse Port",
+   "x": 0.7898,
+   "y": 0.5417,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2678,
+     "price": 10,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2692,
+     "price": 40,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3713,
+     "price": 160,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10284,
+     "price": 200,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4470,
+     "price": 38,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 11291,
+     "price": 4500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 272941,
+     "price": 200000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 21099,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 21219,
+     "price": 5000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4536,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "260487": {
+   "name": "Gritta Chumwater",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 2548,
+   "zone": "Riverglades",
+   "subzone": "Powderfuse Port",
+   "x": 0.7838,
+   "y": 0.5497,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 6330,
+     "price": 1200,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6368,
+     "price": 400,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6303,
+     "price": 20,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 6289,
+     "price": 20,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 6308,
+     "price": 40,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 6362,
+     "price": 80,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 4603,
+     "price": 80,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 8959,
+     "price": 3200,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 6530,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "260559": {
+   "name": "Gilliwigs",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 2548,
+   "zone": "Riverglades",
+   "subzone": "Powderfuse Port",
+   "x": 0.7928,
+   "y": 0.5473,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 6217,
+     "price": 124,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2320,
+     "price": 10,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2321,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4291,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8343,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2678,
+     "price": 10,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2692,
+     "price": 40,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3713,
+     "price": 160,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2880,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3466,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3857,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2604,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2325,
+     "price": 1000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4341,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4342,
+     "price": 2500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4340,
+     "price": 350,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3371,
+     "price": 20,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3372,
+     "price": 200,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8925,
+     "price": 2500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4289,
+     "price": 50,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4399,
+     "price": 200,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4400,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 6530,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "260565": {
+   "name": "Kor'gar",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 2548,
+   "zone": "Riverglades",
+   "subzone": "Powderfuse Port",
+   "x": 0.7763,
+   "y": 0.5095,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 4399,
+     "price": 200,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4400,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 2880,
+     "price": 100,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 3466,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10648,
+     "price": 500,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 10647,
+     "price": 2000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 4357,
+     "price": 16,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 4364,
+     "price": 48,
+     "stack": 1,
+     "limited": true,
+     "notGold": false
+    },
+    {
+     "itemID": 16046,
+     "price": 16000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 16047,
+     "price": 16000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "260566": {
+   "name": "Fizzix Boomshot",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 2548,
+   "zone": "Riverglades",
+   "subzone": "Powderfuse Port",
+   "x": 0.7856,
+   "y": 0.5354,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 18650,
+     "price": 5000,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "268663": {
+   "name": "Penny Pinderton",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 2548,
+   "zone": "Riverglades",
+   "subzone": "Farholde Keep",
+   "x": 0.6206,
+   "y": 0.8119,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 4536,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "271005": {
+   "name": "Burt Lazlo",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 2548,
+   "zone": "Elk's Horn Inn",
+   "subzone": "Farholde Keep",
+   "x": 0.6458,
+   "y": 0.8416,
+   "build": "71037",
+   "items": [
+    {
+     "itemID": 159,
+     "price": 25,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1179,
+     "price": 125,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1205,
+     "price": 500,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1708,
+     "price": 1000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 1645,
+     "price": 2000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 8766,
+     "price": 4000,
+     "stack": 5,
+     "limited": false,
+     "notGold": false
+    }
+   ]
+  },
+  "272437": {
+   "name": "Marla Bell",
+   "role": "vendor",
+   "faction": "Alliance",
+   "mapID": 2548,
+   "zone": "Riverglades",
+   "subzone": "Farholde Keep",
+   "x": 0.6222,
+   "y": 0.8597,
+   "build": "70959",
+   "items": [
+    {
+     "itemID": 17034,
+     "price": 200,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 17035,
+     "price": 400,
+     "stack": 1,
+     "limited": false,
+     "notGold": false
+    },
+    {
+     "itemID": 16583,
+     "price": 10000,
      "stack": 1,
      "limited": false,
      "notGold": false

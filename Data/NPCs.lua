@@ -120,14 +120,32 @@ trainers("Blacksmithing", {
   { "Basil Frye", "J", "UC", 60.1, 28.7 }, { "James Van Brunt", "E", "UC", 61.1, 30.2 },
 })
 
+-- Enchanting: city trainers stop at Journeyman (Lucan Cordell recorded at 150, Nov 2026; the
+-- Forever guides list every city "Expert" enchanter under Journeyman). Expert is taught outside the
+-- cities; see the list after this one.
 trainers("Enchanting", {
-  { "Betty Quin", "J", "SW", 53.0, 73.8 }, { "Lucan Cordell", "E", "SW", 53.1, 74.3 },
-  { "Thonys Pillarstone", "J", "IF", 60.5, 44.8 }, { "Gimble Thistlefuzz", "E", "IF", 59.8, 45.4 },
-  { "Lalina Summermoon", "J", "DN", 59.0, 12.9 }, { "Taladan", "E", "DN", 58.4, 13.1 },
-  { "Jhag", "J", "OG", 53.6, 38.3 }, { "Godan", "E", "OG", 53.7, 38.3 },
-  { "Mot Dawnstrider", "J", "TB", 45.2, 38.7 }, { "Teg Dawnstrider", "E", "TB", 44.9, 37.5 },
-  { "Malcomb Wynn", "J", "UC", 62.1, 60.3 }, { "Lavinia Crowe", "E", "UC", 62.3, 61.7 },
+  { "Betty Quin", "J", "SW", 53.0, 73.8, 75 }, { "Lucan Cordell", "E", "SW", 53.1, 74.3, 150 },
+  { "Thonys Pillarstone", "J", "IF", 60.5, 44.8, 75 }, { "Gimble Thistlefuzz", "E", "IF", 59.8, 45.4, 150 },
+  { "Lalina Summermoon", "J", "DN", 59.0, 12.9, 75 }, { "Taladan", "E", "DN", 58.4, 13.1, 150 },
+  { "Jhag", "J", "OG", 53.6, 38.3, 75 }, { "Godan", "E", "OG", 53.7, 38.3, 150 },
+  { "Mot Dawnstrider", "J", "TB", 45.2, 38.7, 75 }, { "Teg Dawnstrider", "E", "TB", 44.9, 37.5, 150 },
+  { "Malcomb Wynn", "J", "UC", 62.1, 60.3, 75 }, { "Lavinia Crowe", "E", "UC", 62.3, 61.7, 150 },
 })
+
+-- Trainers outside the cities: name, profession, rank, cap, faction, zone mapID, x, y.
+-- Expert Enchanting from warcrafttavern.com's and wow-professions.com's Forever trainer lists
+-- (Nov 2026), positions unchecked in game. Artisan is Annora in Uldaman (no position given).
+for _, t in ipairs({
+  { "Kitta Firewind", "Enchanting", "Expert", 225, "Alliance", 1429, 64.9, 70.7 },  -- Elwynn, Tower of Azora
+  { "Vanessa Sellers", "Enchanting", "Expert", 225, "Alliance", 1416, 16.8, 62.4 }, -- Alterac Mountains, Dalaran
+  { "Melanie Sable", "Enchanting", "Expert", 225, "Alliance", 2548, 66.2, 83.3 },   -- Riverglades, Farholde Keep
+  { "Hgarth", "Enchanting", "Expert", 225, "Horde", 1442, 49.2, 57.2 },             -- Stonetalon, above Sun Rock Retreat
+}) do
+  ns.Data.NPCs[#ns.Data.NPCs + 1] = {
+    name = t[1], role = "trainer", profession = t[2], rank = t[3], maxSkill = t[4],
+    faction = t[5], mapID = t[6], x = t[7] / 100, y = t[8] / 100,
+  }
+end
 
 trainers("Engineering", {
   { "Sprite Jumpsprocket", "J", "SW", 61.9, 30.9 }, { "Lilliam Sparkspindle", "E", "SW", 62.1, 30.6 },

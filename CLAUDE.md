@@ -117,6 +117,9 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
   price: imports keep the highest fee seen, and vendor recipe prices never go below `BuyPrice`.
 - `ItemSparse.BuyPrice` is the price of the vendor's bundle (`VendorStackCount` items, e.g. 5 vials);
   `build_vendor_prices.py` divides it down to one item. Before 0.6.2 it did not.
+- Enchanting: Lucan Cordell (Stormwind "Expert") recorded at cap 150, 21 Nov 2026; all city enchanters
+  are set to Journeyman (150). Expert is outside the cities (Kitta Firewind, Vanessa Sellers, Melanie Sable;
+  Horde Hgarth), Artisan is Annora in Uldaman (not in the data: no position). From web trainer lists; the hint pointing to Kitta was seen in game 22 Nov 2026, positions unchecked.
 - Every other trainer in `Data/NPCs.lua` has a Classic position and an assumed Classic skill cap,
   so the "train here" hint can be wrong until that trainer is recorded.
 - Zockify has not been asked for permission to use its data. The owner knows; it is credited in

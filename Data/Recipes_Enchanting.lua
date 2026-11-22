@@ -44,8 +44,7 @@ ns.Data.Recipes["Enchanting"] = {
     output = { itemID = 279976, qty = 1 },
     reagents = { { itemID = 4470, qty = 1 }, { itemID = 10940, qty = 1 } },
     learn = 20, orange = 20, yellow = 20, green = 20, grey = 20,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    source = "trainer", sourceCost = 90, recipeItem = nil, faction = nil,
     sourceNote = "Quest: Camping 101: Enchanting",
   },
   [7418] = { -- 1x Mote of Magic
@@ -70,9 +69,8 @@ ns.Data.Recipes["Enchanting"] = {
     name = "Enchant Chest - Inferior Stamina", skillLineAbilityID = 4290,
     output = nil,
     reagents = { { itemID = 10940, qty = 1 } },
-    learn = 70, orange = 70, yellow = 70, green = 90, grey = 110,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 15, orange = 15, yellow = 70, green = 90, grey = 110,
+    source = "trainer", sourceCost = 45, recipeItem = nil, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
   },
   [14293] = { -- 1x Simple Wood, 1x Lesser Magic Essence
@@ -80,7 +78,7 @@ ns.Data.Recipes["Enchanting"] = {
     output = { itemID = 11287, qty = 1 },
     reagents = { { itemID = 4470, qty = 1 }, { itemID = 10938, qty = 1 } },
     learn = 10, orange = 10, yellow = 75, green = 95, grey = 115,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 45, recipeItem = nil, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
   },
   [7428] = { -- 1x Lesser Magic Essence
@@ -105,36 +103,32 @@ ns.Data.Recipes["Enchanting"] = {
     name = "Enchant Chest - Minor Absorption", skillLineAbilityID = 4292,
     output = nil,
     reagents = { { itemID = 10938, qty = 1 } },
-    learn = 90, orange = 90, yellow = 90, green = 110, grey = 130,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 40, orange = 40, yellow = 90, green = 110, grey = 130,
+    source = "trainer", sourceCost = 90, recipeItem = nil, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
   },
   [7454] = { -- 1x Strange Dust, 1x Lesser Magic Essence
     name = "Enchant Cloak - Minor Resistance", skillLineAbilityID = 4300,
     output = nil,
     reagents = { { itemID = 10940, qty = 1 }, { itemID = 10938, qty = 1 } },
-    learn = 95, orange = 95, yellow = 95, green = 115, grey = 135,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 45, orange = 45, yellow = 95, green = 115, grey = 135,
+    source = "trainer", sourceCost = 90, recipeItem = nil, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
   },
   [7457] = { -- 2x Strange Dust
     name = "Enchant Bracer - Minor Stamina", skillLineAbilityID = 4301,
     output = nil,
     reagents = { { itemID = 10940, qty = 2 } },
-    learn = 100, orange = 100, yellow = 100, green = 120, grey = 140,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 50, orange = 50, yellow = 100, green = 120, grey = 140,
+    source = "trainer", sourceCost = 225, recipeItem = nil, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
   },
   [7748] = { -- 1x Strange Dust, 1x Lesser Magic Essence
     name = "Enchant Chest - Lesser Stamina", skillLineAbilityID = 4352,
     output = nil,
     reagents = { { itemID = 10940, qty = 1 }, { itemID = 10938, qty = 1 } },
-    learn = 105, orange = 105, yellow = 105, green = 125, grey = 145,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 60, orange = 60, yellow = 105, green = 125, grey = 145,
+    source = "trainer", sourceCost = 225, recipeItem = nil, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
   },
   [7766] = { -- 1x Lesser Magic Essence
@@ -150,8 +144,8 @@ ns.Data.Recipes["Enchanting"] = {
     name = "Enchant Cloak - Minor Protection", skillLineAbilityID = 4362,
     output = nil,
     reagents = { { itemID = 10940, qty = 2 } },
-    learn = 90, orange = 90, yellow = 110, green = 130, grey = 150,
-    source = "item", sourceCost = nil, recipeItem = 6345, faction = nil,
+    learn = 70, orange = 70, yellow = 110, green = 130, grey = 150,
+    source = "item", sourceCost = 180, recipeItem = 6345, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
   },
   [14807] = { -- 1x Simple Wood, 2x Lesser Magic Essence
@@ -159,7 +153,7 @@ ns.Data.Recipes["Enchanting"] = {
     output = { itemID = 11288, qty = 1 },
     reagents = { { itemID = 4470, qty = 1 }, { itemID = 10938, qty = 2 } },
     learn = 70, orange = 70, yellow = 110, green = 130, grey = 150,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 180, recipeItem = nil, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
   },
   [1248458] = { -- 1x Lesser Magic Essence
@@ -185,9 +179,8 @@ ns.Data.Recipes["Enchanting"] = {
     name = "Enchant Bracer - Minor Agility", skillLineAbilityID = 4364,
     output = nil,
     reagents = { { itemID = 10940, qty = 1 }, { itemID = 10938, qty = 2 } },
-    learn = 115, orange = 115, yellow = 115, green = 135, grey = 155,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 80, orange = 80, yellow = 115, green = 135, grey = 155,
+    source = "trainer", sourceCost = 360, recipeItem = nil, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
   },
   [7782] = { -- 3x Strange Dust
@@ -212,9 +205,8 @@ ns.Data.Recipes["Enchanting"] = {
     name = "Enchant Weapon - Minor Striking", skillLineAbilityID = 4367,
     output = nil,
     reagents = { { itemID = 10940, qty = 1 }, { itemID = 10938, qty = 1 }, { itemID = 10978, qty = 1 } },
-    learn = 120, orange = 120, yellow = 120, green = 140, grey = 160,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 90, orange = 90, yellow = 120, green = 140, grey = 160,
+    source = "trainer", sourceCost = 450, recipeItem = nil, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
   },
   [448624] = { -- 1x Simple Wood, 4x Strange Dust
@@ -238,9 +230,8 @@ ns.Data.Recipes["Enchanting"] = {
     name = "Enchant 2H Weapon - Minor Impact", skillLineAbilityID = 4368,
     output = nil,
     reagents = { { itemID = 10940, qty = 1 }, { itemID = 10978, qty = 1 } },
-    learn = 130, orange = 130, yellow = 130, green = 150, grey = 170,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 100, orange = 100, yellow = 130, green = 150, grey = 170,
+    source = "trainer", sourceCost = 450, recipeItem = nil, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
   },
   [7793] = { -- 4x Lesser Magic Essence
@@ -258,15 +249,14 @@ ns.Data.Recipes["Enchanting"] = {
     output = { itemID = 6339, qty = 1 },
     reagents = { { itemID = 6338, qty = 1 }, { itemID = 10940, qty = 3 }, { itemID = 10938, qty = 4 }, { itemID = 1210, qty = 1 } },
     learn = 100, orange = 100, yellow = 130, green = 150, grey = 170,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 900, recipeItem = nil, faction = nil,
   },
   [13378] = { -- 1x Lesser Astral Essence, 1x Strange Dust
     name = "Enchant Shield - Minor Stamina", skillLineAbilityID = 7356,
     output = nil,
     reagents = { { itemID = 10998, qty = 1 }, { itemID = 10940, qty = 1 } },
-    learn = 130, orange = 130, yellow = 130, green = 150, grey = 170,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 105, orange = 105, yellow = 130, green = 150, grey = 170,
+    source = "trainer", sourceCost = 540, recipeItem = nil, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
   },
   [13380] = { -- 1x Lesser Astral Essence, 3x Strange Dust
@@ -301,9 +291,8 @@ ns.Data.Recipes["Enchanting"] = {
     name = "Enchant Cloak - Lesser Protection", skillLineAbilityID = 7377,
     output = nil,
     reagents = { { itemID = 10940, qty = 3 }, { itemID = 10978, qty = 1 } },
-    learn = 140, orange = 140, yellow = 140, green = 160, grey = 180,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 115, orange = 115, yellow = 140, green = 160, grey = 180,
+    source = "trainer", sourceCost = 720, recipeItem = nil, faction = nil,
     tools = { 6218 }, -- Runed Copper Rod
   },
   [13464] = { -- 1x Strange Dust, 1x Small Glimmering Shard
@@ -409,9 +398,8 @@ ns.Data.Recipes["Enchanting"] = {
     name = "Enchant Chest - Stamina", skillLineAbilityID = 4399,
     output = nil,
     reagents = { { itemID = 10940, qty = 2 }, { itemID = 10998, qty = 1 } },
-    learn = 145, orange = 145, yellow = 145, green = 165, grey = 185,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 120, orange = 120, yellow = 145, green = 165, grey = 185,
+    source = "trainer", sourceCost = 900, recipeItem = nil, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
   },
   [7859] = { -- 1x Lesser Astral Essence
@@ -427,9 +415,8 @@ ns.Data.Recipes["Enchanting"] = {
     name = "Enchant Cloak - Lesser Fire Resistance", skillLineAbilityID = 4401,
     output = nil,
     reagents = { { itemID = 6371, qty = 1 }, { itemID = 10998, qty = 1 } },
-    learn = 150, orange = 150, yellow = 150, green = 170, grey = 190,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 125, orange = 125, yellow = 150, green = 170, grey = 190,
+    source = "trainer", sourceCost = 1125, recipeItem = nil, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
   },
   [7863] = { -- 4x Strange Dust
@@ -437,7 +424,7 @@ ns.Data.Recipes["Enchanting"] = {
     output = nil,
     reagents = { { itemID = 10940, qty = 4 } },
     learn = 125, orange = 125, yellow = 150, green = 170, grey = 190,
-    source = "item", sourceCost = nil, recipeItem = 6376, faction = nil,
+    source = "item", sourceCost = 1260, recipeItem = 6376, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
   },
   [7867] = { -- 3x Strange Dust, 1x Lesser Astral Essence
@@ -454,18 +441,16 @@ ns.Data.Recipes["Enchanting"] = {
     name = "Enchant Shield - Lesser Spirit", skillLineAbilityID = 7422,
     output = nil,
     reagents = { { itemID = 10998, qty = 1 }, { itemID = 10940, qty = 2 } },
-    learn = 155, orange = 155, yellow = 155, green = 175, grey = 195,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 130, orange = 130, yellow = 155, green = 175, grey = 195,
+    source = "trainer", sourceCost = 1350, recipeItem = nil, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
   },
   [13501] = { -- 1x Soul Dust
     name = "Enchant Bracer - Lesser Stamina", skillLineAbilityID = 7425,
     output = nil,
     reagents = { { itemID = 11083, qty = 1 } },
-    learn = 155, orange = 155, yellow = 155, green = 175, grey = 195,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 130, orange = 130, yellow = 155, green = 175, grey = 195,
+    source = "trainer", sourceCost = 1350, recipeItem = nil, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
   },
   [25125] = { -- 1x Soul Dust, 2x Maple Seed, 1x Leaded Vial
@@ -491,9 +476,8 @@ ns.Data.Recipes["Enchanting"] = {
     name = "Enchant Weapon - Lesser Striking", skillLineAbilityID = 7426,
     output = nil,
     reagents = { { itemID = 11083, qty = 1 }, { itemID = 11084, qty = 1 } },
-    learn = 165, orange = 165, yellow = 165, green = 185, grey = 205,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 140, orange = 140, yellow = 165, green = 185, grey = 205,
+    source = "trainer", sourceCost = 1800, recipeItem = nil, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
   },
   [13536] = { -- 1x Soul Dust
@@ -510,9 +494,8 @@ ns.Data.Recipes["Enchanting"] = {
     name = "Enchant Chest - Lesser Absorption", skillLineAbilityID = 7457,
     output = nil,
     reagents = { { itemID = 10940, qty = 1 }, { itemID = 10998, qty = 1 }, { itemID = 11084, qty = 1 } },
-    learn = 165, orange = 165, yellow = 165, green = 185, grey = 205,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 140, orange = 140, yellow = 165, green = 185, grey = 205,
+    source = "trainer", sourceCost = 2250, recipeItem = nil, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
   },
   [1248460] = { -- 1x Lesser Mystic Essence
@@ -529,18 +512,16 @@ ns.Data.Recipes["Enchanting"] = {
     name = "Enchant 2H Weapon - Lesser Impact", skillLineAbilityID = 7437,
     output = nil,
     reagents = { { itemID = 11083, qty = 1 }, { itemID = 11084, qty = 1 } },
-    learn = 170, orange = 170, yellow = 170, green = 190, grey = 210,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 145, orange = 145, yellow = 170, green = 190, grey = 210,
+    source = "trainer", sourceCost = 2160, recipeItem = nil, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
   },
   [13607] = { -- 1x Greater Astral Essence
     name = "Enchant Chest - Intellect", skillLineAbilityID = 7496,
     output = nil,
     reagents = { { itemID = 11082, qty = 1 } },
-    learn = 170, orange = 170, yellow = 170, green = 190, grey = 210,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 145, orange = 145, yellow = 170, green = 190, grey = 210,
+    source = "trainer", sourceCost = 2160, recipeItem = nil, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
   },
   [13612] = { -- 1x Soul Dust, 1x Iron Ore
@@ -574,18 +555,16 @@ ns.Data.Recipes["Enchanting"] = {
     name = "Enchant Bracer - Lesser Intellect", skillLineAbilityID = 7500,
     output = nil,
     reagents = { { itemID = 11082, qty = 1 } },
-    learn = 175, orange = 175, yellow = 175, green = 195, grey = 215,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 150, orange = 150, yellow = 175, green = 195, grey = 215,
+    source = "trainer", sourceCost = 2250, recipeItem = nil, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
   },
   [13626] = { -- 1x Lesser Astral Essence, 1x Soul Dust, 1x Large Glimmering Shard
     name = "Enchant Chest - Minor Stats", skillLineAbilityID = 7501,
     output = nil,
     reagents = { { itemID = 10998, qty = 1 }, { itemID = 11083, qty = 1 }, { itemID = 11084, qty = 1 } },
-    learn = 175, orange = 175, yellow = 175, green = 195, grey = 215,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    learn = 150, orange = 150, yellow = 175, green = 195, grey = 215,
+    source = "trainer", sourceCost = 2250, recipeItem = nil, faction = nil,
     tools = { 6339 }, -- Runed Silver Rod
   },
   [13628] = { -- 1x Golden Rod, 1x Iridescent Pearl, 1x Greater Astral Essence, 1x Soul Dust
@@ -593,7 +572,7 @@ ns.Data.Recipes["Enchanting"] = {
     output = { itemID = 11130, qty = 1 },
     reagents = { { itemID = 11128, qty = 1 }, { itemID = 5500, qty = 1 }, { itemID = 11082, qty = 1 }, { itemID = 11083, qty = 1 } },
     learn = 150, orange = 150, yellow = 175, green = 195, grey = 215,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 2250, recipeItem = nil, faction = nil,
   },
   [13631] = { -- 1x Lesser Mystic Essence
     name = "Enchant Shield - Lesser Stamina", skillLineAbilityID = 7503,

@@ -1267,14 +1267,14 @@ ns.Data.Recipes["Leatherworking"] = {
     output = { itemID = 4257, qty = 1 },
     reagents = { { itemID = 4236, qty = 1 }, { itemID = 4234, qty = 5 }, { itemID = 2321, qty = 1 }, { itemID = 2605, qty = 1 }, { itemID = 7071, qty = 1 } },
     learn = 135, orange = 135, yellow = 155, green = 165, grey = 175,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 1000, recipeItem = nil, faction = nil,
   },
   [7147] = { -- 12x Heavy Leather, 2x Bolt of Silk Cloth, 2x Fine Thread
     name = "Guardian Pants", skillLineAbilityID = 4160,
     output = { itemID = 5962, qty = 1 },
     reagents = { { itemID = 4234, qty = 12 }, { itemID = 4305, qty = 2 }, { itemID = 2321, qty = 2 } },
     learn = 135, orange = 135, yellow = 155, green = 165, grey = 175,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 1000, recipeItem = nil, faction = nil,
   },
   [23399] = { -- 8x Heavy Leather, 2x Cured Heavy Hide, 4x Small Lustrous Pearl, 1x Raptor Hide, 4x Large Fang
     name = "Barbaric Bracers", skillLineAbilityID = 12559,
@@ -1368,14 +1368,14 @@ ns.Data.Recipes["Leatherworking"] = {
     output = { itemID = 5964, qty = 1 },
     reagents = { { itemID = 4234, qty = 8 }, { itemID = 4236, qty = 1 }, { itemID = 2321, qty = 2 } },
     learn = 150, orange = 150, yellow = 170, green = 180, grey = 190,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 1200, recipeItem = nil, faction = nil,
   },
   [9196] = { -- 10x Heavy Leather, 1x Shadow Oil, 2x Fine Thread
     name = "Dusky Leather Armor", skillLineAbilityID = 5050,
     output = { itemID = 7374, qty = 1 },
     reagents = { { itemID = 4234, qty = 10 }, { itemID = 3824, qty = 1 }, { itemID = 2321, qty = 2 } },
     learn = 150, orange = 150, yellow = 170, green = 180, grey = 190,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 1500, recipeItem = nil, faction = nil,
   },
   [9197] = { -- 4x Green Whelp Scale, 10x Heavy Leather, 2x Fine Thread
     name = "Green Whelp Armor", skillLineAbilityID = 5051,
@@ -1390,30 +1390,28 @@ ns.Data.Recipes["Leatherworking"] = {
     output = { itemID = 8172, qty = 1 },
     reagents = { { itemID = 8169, qty = 1 }, { itemID = 8150, qty = 1 } },
     learn = 175, orange = 175, yellow = 175, green = 175, grey = 175,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    source = "trainer", sourceCost = 2000, recipeItem = nil, faction = nil,
   },
   [20650] = { -- 6x Heavy Leather
     name = "Thick Leather", skillLineAbilityID = 11758,
     output = { itemID = 4304, qty = 1 },
     reagents = { { itemID = 4234, qty = 6 } },
     learn = 175, orange = 175, yellow = 175, green = 177, grey = 180,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
-    learnEstimated = true, -- learn skill unknown: assumed to be the yellow threshold
+    source = "trainer", sourceCost = 4000, recipeItem = nil, faction = nil,
   },
   [3776] = { -- 2x Cured Heavy Hide, 6x Heavy Leather, 1x Green Dye, 1x Fine Thread
     name = "Green Leather Bracers", skillLineAbilityID = 2185,
     output = { itemID = 4259, qty = 1 },
     reagents = { { itemID = 4236, qty = 2 }, { itemID = 4234, qty = 6 }, { itemID = 2605, qty = 1 }, { itemID = 2321, qty = 1 } },
     learn = 155, orange = 155, yellow = 175, green = 185, grey = 195,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 1200, recipeItem = nil, faction = nil,
   },
   [9198] = { -- 6x Heavy Leather, 2x Elemental Earth, 2x Elemental Water, 2x Fine Thread
     name = "Frost Leather Cloak", skillLineAbilityID = 5052,
     output = { itemID = 7377, qty = 1 },
     reagents = { { itemID = 4234, qty = 6 }, { itemID = 7067, qty = 2 }, { itemID = 7070, qty = 2 }, { itemID = 2321, qty = 2 } },
     learn = 155, orange = 155, yellow = 175, green = 185, grey = 195,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 2000, recipeItem = nil, faction = nil,
   },
   [3778] = { -- 4x Cured Heavy Hide, 2x Iridescent Pearl, 2x Jade, 1x Citrine, 1x Fine Thread
     name = "Gem-studded Leather Belt", skillLineAbilityID = 2187,
@@ -1438,7 +1436,7 @@ ns.Data.Recipes["Leatherworking"] = {
     output = { itemID = 7378, qty = 1 },
     reagents = { { itemID = 4234, qty = 16 }, { itemID = 2325, qty = 1 }, { itemID = 4291, qty = 2 } },
     learn = 160, orange = 160, yellow = 180, green = 190, grey = 200,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 2000, recipeItem = nil, faction = nil,
   },
   [1301528] = { -- 15x Heavy Leather, 3x Cured Heavy Hide, 1x Heavy Silken Thread, 8x Bleach
     name = "Cloudy Gustwoven Hood", skillLineAbilityID = 58743,
@@ -1517,7 +1515,7 @@ ns.Data.Recipes["Leatherworking"] = {
     output = { itemID = 5739, qty = 1 },
     reagents = { { itemID = 4234, qty = 14 }, { itemID = 2321, qty = 2 }, { itemID = 7071, qty = 1 } },
     learn = 165, orange = 165, yellow = 185, green = 195, grey = 205,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 2000, recipeItem = nil, faction = nil,
   },
   [6705] = { -- 16x Thick Murloc Scale, 1x Cured Heavy Hide, 14x Heavy Leather, 1x Silken Thread
     name = "Murloc Scale Bracers", skillLineAbilityID = 4027,
@@ -1533,7 +1531,7 @@ ns.Data.Recipes["Leatherworking"] = {
     output = { itemID = 5966, qty = 1 },
     reagents = { { itemID = 4234, qty = 4 }, { itemID = 4236, qty = 1 }, { itemID = 4291, qty = 1 } },
     learn = 165, orange = 165, yellow = 185, green = 195, grey = 205,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 2400, recipeItem = nil, faction = nil,
   },
   [9202] = { -- 6x Green Whelp Scale, 8x Heavy Leather, 2x Silken Thread
     name = "Green Whelp Bracers", skillLineAbilityID = 5054,
@@ -1575,7 +1573,7 @@ ns.Data.Recipes["Leatherworking"] = {
     output = { itemID = 7387, qty = 1 },
     reagents = { { itemID = 4234, qty = 10 }, { itemID = 4305, qty = 2 }, { itemID = 2325, qty = 2 }, { itemID = 7071, qty = 1 } },
     learn = 170, orange = 170, yellow = 190, green = 200, grey = 210,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 2500, recipeItem = nil, faction = nil,
   },
   [3779] = { -- 6x Heavy Leather, 2x Cured Heavy Hide, 2x Coarse Gorilla Hair, 1x Great Rage Potion, 1x Silken Thread, 1x Iron Buckle
     name = "Barbaric Belt", skillLineAbilityID = 2188,
@@ -1606,7 +1604,7 @@ ns.Data.Recipes["Leatherworking"] = {
     output = { itemID = 8173, qty = 1 },
     reagents = { { itemID = 4304, qty = 5 }, { itemID = 4291, qty = 1 } },
     learn = 175, orange = 175, yellow = 195, green = 205, grey = 215,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 2000, recipeItem = nil, faction = nil,
   },
   [10490] = { -- 12x Heavy Leather, 2x Cured Heavy Hide, 2x Silken Thread
     name = "Comfortable Leather Hat", skillLineAbilityID = 5668,
@@ -1684,14 +1682,14 @@ ns.Data.Recipes["Leatherworking"] = {
     output = { itemID = 8175, qty = 1 },
     reagents = { { itemID = 4304, qty = 7 }, { itemID = 4291, qty = 2 } },
     learn = 180, orange = 180, yellow = 200, green = 210, grey = 220,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 3000, recipeItem = nil, faction = nil,
   },
   [10507] = { -- 5x Thick Leather, 2x Silken Thread
     name = "Nightscape Headband", skillLineAbilityID = 5670,
     output = { itemID = 8176, qty = 1 },
     reagents = { { itemID = 4304, qty = 5 }, { itemID = 4291, qty = 2 } },
     learn = 180, orange = 180, yellow = 200, green = 210, grey = 220,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 3000, recipeItem = nil, faction = nil,
   },
   [10509] = { -- 6x Thick Leather, 8x Turtle Scale, 1x Heavy Silken Thread
     name = "Turtle Scale Gloves", skillLineAbilityID = 5671,
@@ -1795,7 +1793,7 @@ ns.Data.Recipes["Leatherworking"] = {
     output = { itemID = 8189, qty = 1 },
     reagents = { { itemID = 4304, qty = 6 }, { itemID = 8167, qty = 12 }, { itemID = 8343, qty = 1 } },
     learn = 185, orange = 185, yellow = 205, green = 215, grey = 225,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 3000, recipeItem = nil, faction = nil,
   },
   [10516] = { -- 8x Thick Leather, 6x Mageweave Cloth, 3x Silken Thread
     name = "Nightscape Shoulders", skillLineAbilityID = 5673,
@@ -1811,7 +1809,7 @@ ns.Data.Recipes["Leatherworking"] = {
     output = { itemID = 8198, qty = 1 },
     reagents = { { itemID = 4304, qty = 8 }, { itemID = 8167, qty = 12 }, { itemID = 8343, qty = 1 } },
     learn = 185, orange = 185, yellow = 205, green = 215, grey = 225,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 3500, recipeItem = nil, faction = nil,
   },
   [1255073] = { -- 1x Thick Armor Kit, 2x Vision Dust, 2x Elixir of Ogre Strength
     name = "Forceful Thick Armor Kit", skillLineAbilityID = 55134,
@@ -1917,14 +1915,14 @@ ns.Data.Recipes["Leatherworking"] = {
     output = { itemID = 8217, qty = 1 },
     reagents = { { itemID = 4304, qty = 12 }, { itemID = 8172, qty = 1 }, { itemID = 8949, qty = 1 }, { itemID = 4291, qty = 4 } },
     learn = 200, orange = 200, yellow = 220, green = 230, grey = 240,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 3600, recipeItem = nil, faction = nil,
   },
   [14932] = { -- 10x Thick Leather, 1x Cured Thick Hide, 1x Elixir of Defense, 6x Silken Thread
     name = "Thick Leather Ammo Pouch", skillLineAbilityID = 8057,
     output = { itemID = 8218, qty = 1 },
     reagents = { { itemID = 4304, qty = 10 }, { itemID = 8172, qty = 1 }, { itemID = 8951, qty = 1 }, { itemID = 4291, qty = 6 } },
     learn = 200, orange = 200, yellow = 220, green = 230, grey = 240,
-    source = "trainer", sourceCost = nil, recipeItem = nil, faction = nil,
+    source = "trainer", sourceCost = 3600, recipeItem = nil, faction = nil,
   },
   [1255000] = { -- 12x Thick Leather, 4x Cured Heavy Hide, 6x Pristine Hide, 2x Heavy Silken Thread, 4x Iridescent Pearl, 3x Pristine Leather
     name = "Mender's Mail Bracers", skillLineAbilityID = 55061,
