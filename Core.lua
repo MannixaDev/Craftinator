@@ -30,6 +30,12 @@ end)
 
 ns.RegisterEvent("ADDON_LOADED", function(name)
   if name ~= addonName then return end
+  -- The CurseForge copy ("Craftinator") and the test copy ("Craftinator-Dev") must not run together.
+  if CraftinatorLoadedCopy and CraftinatorLoadedCopy ~= addonName then
+    print(("|cffff4040Craftinator: two copies are enabled (%s and %s). Disable one in the AddOns list"
+      .. " and reload.|r"):format(CraftinatorLoadedCopy, addonName))
+  end
+  CraftinatorLoadedCopy = addonName
   CraftinatorDB = CraftinatorDB or {}
   CraftinatorCharDB = CraftinatorCharDB or {}
   local db, char = CraftinatorDB, CraftinatorCharDB

@@ -53,7 +53,10 @@ cmd //c luacheck.bat .      # must be 0 warnings
 ```
 
 - Install into the game for testing: `bash tools/install.sh "<WoW>/_forever_/Interface/AddOns"`.
-  It replaces the `Craftinator` folder there. Lua changes load with `/reload`; a new file or a
+  It installs a separate addon, `Craftinator-Dev` (title "Craftinator (dev)"), so the CurseForge
+  release can stay in `Craftinator`; the owner enables one of the two (both enabled prints a warning).
+  The dev copy saves to `SavedVariables/Craftinator-Dev.lua` (seeded from `Craftinator.lua`, 22 Nov 2026):
+  import from whichever copy was enabled. Lua changes load with `/reload`; a new file or a
   `.toc` change needs a full game restart.
 - Rebuild data: `python tools/build_recipes.py --build 1.60.1.70938 --profession "<name>"`,
   `python tools/build_vendor_prices.py --build 1.60.1.70938`, `python tools/build_npcs.py`,

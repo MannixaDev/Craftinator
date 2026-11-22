@@ -6,6 +6,7 @@ exclude_files = { ".luarocks", "lua_modules", "dist", "build" }
 globals = {
   "Craftinator",
   "CraftinatorDB",
+  "CraftinatorLoadedCopy",
   "CraftinatorCharDB",
   "SlashCmdList",
   "SLASH_CRAFTINATOR1",
