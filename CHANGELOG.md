@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.6.7
+
+- New: below a skill cap of 300, a line above the total shows roughly what it costs to go all the
+  way to 300. Hover it to see the cost for each rank, the crafts and the recipes to buy on the way.
+  It is a rough guide: later materials may have old or no auction prices, and training fees for the
+  next ranks are not included.
+- Fixed: Enchanting trainers in the cities (such as Lucan Cordell in Stormwind) only teach up to
+  150 on Forever. Past 150 the panel now sends you to an Expert trainer: Kitta Firewind in Elwynn
+  Forest, Vanessa Sellers in Dalaran or Melanie Sable in Riverglades for Alliance, Hgarth above
+  Sun Rock Retreat for Horde.
+- More trainers, vendors and recipe details recorded in game.
+
 ## 0.6.6
 
 - New: at skill 300 the panel lists the 10 most profitable crafts you know. Materials in your bags
