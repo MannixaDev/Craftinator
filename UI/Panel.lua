@@ -469,11 +469,16 @@ local function create()
     { "Resale", "Subtract what you craft sells for (auction price less the 5% cut) from each recipe's cost. Items that do not"
         .. " really sell can make a route look cheaper than it is.",
       function() return CraftinatorDB.useResale end, function(on) CraftinatorDB.useResale = on end },
+    { "To 300", "Plan the whole way to 300 instead of stopping at your current cap. The shopping list and"
+        .. " \"To Auctionator\" then cover everything. Later materials may have old or no prices, and"
+        .. " training fees for the next ranks are left out.",
+      function() return CraftinatorDB.toMax end, function(on) CraftinatorDB.toMax = on end },
   }
+  local nextX = 12 -- tick boxes sit side by side, each as wide as its label
   for index, spec in ipairs(checks) do
     local check = CreateFrame("CheckButton", nil, frame, "UICheckButtonTemplate")
     check:SetSize(22, 22)
-    check:SetPoint("TOPLEFT", 12 + (index - 1) * 67, -142)
+    check:SetPoint("TOPLEFT", nextX, -142)
     local label = check.Text or check.text
     if not label then
       label = check:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
@@ -481,6 +486,8 @@ local function create()
     end
     label:SetFontObject("GameFontHighlightSmall")
     label:SetText(spec[1])
+    nextX = nextX + 22 + math.ceil(label:GetStringWidth()) + 4
+    check:SetHitRectInsets(0, -math.ceil(label:GetStringWidth()), 0, 0)
     check.get, check.set = spec[3], spec[4]
     check:SetScript("OnClick", function(self)
       self.set(self:GetChecked() and true or false)
@@ -745,7 +752,7 @@ function Panel.Refresh()
   end
   setRows(entries)
 
-  if plan.skill >= plan.target then
+  if plan.skill >= plan.target and not plan.toMax then
     -- The box above is too small for the whole hint, so repeat it here (without the "where you are" line).
     local advice = (text:match("^[^\n]*\n(.*)$") or ""):gsub("Click for", "Click the box at the top for")
       :gsub("Right%-click to pin", "Right-click the box at the top to pin")

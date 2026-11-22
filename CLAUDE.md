@@ -159,7 +159,7 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
 
 - Below a cap of 300 the footer shows "All the way to 300: about X" (owner chose a line, not a toggle,
   22 Nov 2026); hover splits it by rank (`Optimiser.CostByRank`). Same settings as the route; owned
-  materials used once in order; no rank training fees, no resale. A "To 300" list toggle was offered for later. Checked in game 22 Nov 2026.
+  materials used once in order; no rank training fees, no resale. Checked in game 22 Nov 2026. The "To 300" tick box (`db.toMax`, owner asked, 22 Nov 2026) plans the main route to 300 instead and hides that line; checked in game 22 Nov 2026.
 
 ## Decisions made without sign-off
 

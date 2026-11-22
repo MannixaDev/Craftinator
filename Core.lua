@@ -39,6 +39,7 @@ ns.RegisterEvent("ADDON_LOADED", function(name)
   if db.toasts == nil then db.toasts = true end
   if db.capture == nil then db.capture = true end                   -- record trainers and vendors you visit
   if db.useResale == nil then db.useResale = false end              -- subtract what the crafted item sells for
+  if db.toMax == nil then db.toMax = false end                      -- plan the whole way to 300, past the cap
   db.sources = db.sources or { trainer = true, vendor = true, drop = false }
   char.bank = char.bank or {}
   char.dismissedToasts = char.dismissedToasts or {}
@@ -206,7 +207,7 @@ function ns.BuildPlan()
   local ownedOf = db.useOwned and function(itemID) return (ns.Inventory.Count(itemID)) end or nil
   local routeOpts = {
       from = profession.skill,
-      to = profession.max,
+      to = (db.toMax and profession.skill < 300) and 300 or profession.max,
       priceOf = book.PriceOf,
       recipeCostOf = recipeCostOf(book),
       faction = ns.Player.Faction(),
@@ -232,7 +233,7 @@ function ns.BuildPlan()
   -- Below a cap of 300: what the whole way to 300 would cost, shown as one line (owner chose this,
   -- 22 Nov 2026). Same settings as the route; trainer fees for the next ranks are not known.
   local full
-  if profession.max < 300 and profession.skill < 300 then
+  if profession.max < 300 and profession.skill < 300 and not db.toMax then
     local fullOpts = {}
     for name, value in pairs(routeOpts) do fullOpts[name] = value end
     fullOpts.to = 300
@@ -266,6 +267,7 @@ function ns.BuildPlan()
     resale = resale,
     unpriced = unpriced,
     useOwned = db.useOwned,
+    toMax = routeOpts.to > profession.max,
     profession = key,
     displayName = profession.name,
     skill = profession.skill,
