@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.9
+
+- The panel is a little wider, so the "To 300" tick box is no longer cut off at the edge.
+
 ## 0.6.8
 
 - New: a "To 300" tick box next to Owned and Resale. Tick it to plan the whole way to 300 instead of

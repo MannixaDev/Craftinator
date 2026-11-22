@@ -1,7 +1,7 @@
 ## Interface: 16001
 ## Title: Craftinator
 ## Notes: Profession levelling planner priced with live auction data.
-## Version: 0.6.8
+## Version: 0.6.9
 ## Author: Jack Smith-Morse
 ## OptionalDeps: Auctionator, TomTom
 ## SavedVariables: CraftinatorDB
