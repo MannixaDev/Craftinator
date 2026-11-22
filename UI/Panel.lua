@@ -522,6 +522,17 @@ local function create()
   frame.total:SetPoint("BOTTOMLEFT", 14, 32)
   frame.total:SetPoint("RIGHT", -14, 0)
   frame.total:SetJustifyH("LEFT")
+  frame.fullText = frame:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
+  frame.fullText:SetPoint("BOTTOMLEFT", frame.total, "TOPLEFT", 0, 3)
+  frame.fullText:SetPoint("RIGHT", -14, 0)
+  frame.fullText:SetJustifyH("LEFT")
+  frame.fullText:SetWordWrap(false)
+  frame.full = CreateFrame("Button", nil, frame)
+  frame.full:SetPoint("TOPLEFT", frame.fullText, "TOPLEFT", -2, 3)
+  frame.full:SetPoint("BOTTOMRIGHT", frame.fullText, "BOTTOMRIGHT", 2, -2)
+  frame.full:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
+  frame.full:SetScript("OnEnter", function(self) Panel.ShowFullTooltip(self) end)
+  frame.full:SetScript("OnLeave", function() GameTooltip:Hide() end)
   frame.shopping = CreateFrame("Button", nil, frame)
   frame.shopping:SetPoint("BOTTOMLEFT", 12, 28)
   frame.shopping:SetPoint("BOTTOMRIGHT", -12, 28)
@@ -645,6 +656,45 @@ local function locationLine(plan)
   return ("%s\nNo trainer is known to raise your cap past %d.%s"):format(where, cap, supplies), nil
 end
 
+-- The "all the way to 300" line above the total. twoLines: the total has a second line.
+local function showFull(plan, twoLines)
+  local full = plan and plan.full
+  local shown = full ~= nil and #full.bands > 0
+  frame.fullText:SetShown(shown)
+  frame.full:SetShown(shown)
+  frame.scrollBox:SetPoint("BOTTOMRIGHT", -30, 56 + (shown and 16 or 0) + (twoLines and 14 or 0))
+  if not shown then return end
+  local text = ("All the way to %d: about %s"):format(full.reached, Pricing.FormatMoney(full.cost))
+  if full.unknown > 0 then text = text .. " + unknown prices" end
+  frame.fullText:SetText(text .. "  (hover)")
+end
+
+function Panel.ShowFullTooltip(owner)
+  local full = frame and frame.plan and frame.plan.full
+  if not full then return end
+  GameTooltip:SetOwner(owner, "ANCHOR_TOPLEFT")
+  GameTooltip:AddLine(("The whole way to %d"):format(full.reached))
+  for _, band in ipairs(full.bands) do
+    local left = ("%d-%d  (%d crafts%s)"):format(band.from, band.reached, band.crafts,
+      band.learn > 0 and (", %d recipe%s to buy"):format(band.learn, band.learn == 1 and "" or "s") or "")
+    GameTooltip:AddDoubleLine(left, Pricing.FormatMoney(band.cost) .. (band.unknown > 0 and " + ?" or ""),
+      1, 1, 1, 1, 1, 1)
+  end
+  GameTooltip:AddDoubleLine("Total", Pricing.FormatMoney(full.cost), 1, 0.82, 0, 1, 1, 1)
+  if not full.complete then
+    GameTooltip:AddLine(("No usable recipe beyond %d with your current settings."):format(full.reached), 1, 0.25, 0.25, true)
+  end
+  GameTooltip:AddLine(" ")
+  if full.toLearn > 0 then
+    GameTooltip:AddLine(("Includes %d recipe%s you have not learned yet."):format(full.toLearn,
+      full.toLearn == 1 and "" or "s"), 0.6, 0.6, 0.6, true)
+  end
+  GameTooltip:AddLine("A rough guide: it uses today's prices, which can be old or missing for later materials,"
+    .. " and leaves out the fees for training the next ranks." .. (frame.plan.useOwned
+    and " What you own now is used once, in order." or ""), 0.6, 0.6, 0.6, true)
+  GameTooltip:Show()
+end
+
 function Panel.Refresh()
   if not frame or not frame:IsShown() then return end
   local plan, problem = ns.BuildPlan()
@@ -661,6 +711,7 @@ function Panel.Refresh()
     frame.prices:SetText("")
     layoutFor(nil, false)
     setRows({})
+    showFull(nil)
     return
   end
 
@@ -686,6 +737,7 @@ function Panel.Refresh()
       .. " current auction prices." or "")
     frame.total:SetText("Most profitable crafts you know\n(materials you have count as free)")
     frame.prices:SetText(priceLine(plan.book) .. (plan.fromCache and "  (skill from your last visit)" or ""))
+    showFull(nil, true)
     return
   end
   for index, step in ipairs(route.steps) do
@@ -712,10 +764,12 @@ function Panel.Refresh()
   end
   frame.total:SetText(total)
   frame.prices:SetText(priceLine(plan.book) .. (plan.fromCache and "  (skill from your last visit)" or ""))
+  showFull(plan, not route.complete and #route.steps > 0)
 end
 
 function Panel.RefreshGathering(plan)
   frame.plan = nil
+  showFull(nil)
   layoutFor(nil, false, true)
   frame.header:SetText(("%s  %d / %d"):format(plan.displayName, plan.skill, plan.target))
   frame.bar:SetMinMaxValues(0, math.max(1, plan.target))

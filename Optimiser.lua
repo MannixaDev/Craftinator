@@ -447,6 +447,40 @@ function Optimiser.Profits(recipes, known, priceOf, saleOf, ownedOf, limit)
   return list
 end
 
+--- What a route costs, split at the rank boundaries (75, 150, 225, 300).
+-- Materials you own (ownedOf, may be nil) are used up in route order. A step belongs to the band
+-- it starts in. Returns total, unknown, bands: a list of { from, to, reached, cost, crafts,
+-- unknown, learn }; learn counts recipes bought in that band (their price is in cost), unknown
+-- counts reagent lines with no price (left out of cost).
+function Optimiser.CostByRank(recipes, route, ownedOf, priceOf)
+  local used, bands, total, unknown = {}, {}, 0, 0
+  for _, step in ipairs(route.steps) do
+    local top = math.min(300, (math.floor(step.fromSkill / 75) + 1) * 75)
+    local band = bands[#bands]
+    if not band or band.to ~= top then
+      band = { from = step.fromSkill, to = top, cost = 0, crafts = 0, unknown = 0, learn = 0 }
+      bands[#bands + 1] = band
+    end
+    band.reached = step.toSkill
+    band.crafts = band.crafts + step.crafts
+    local oneOff = step.oneOffCost or 0
+    band.cost = band.cost + oneOff
+    if oneOff > 0 then band.learn = band.learn + 1 end
+    for _, reagent in ipairs(recipes[step.spellID].reagents or {}) do
+      local need = reagent.qty * step.crafts
+      local owned = ownedOf and ownedOf(reagent.itemID) or 0
+      local have = math.max(0, math.min(need, owned - (used[reagent.itemID] or 0)))
+      used[reagent.itemID] = (used[reagent.itemID] or 0) + have
+      if need > have then
+        local price = priceOf(reagent.itemID)
+        if price then band.cost = band.cost + price * (need - have) else band.unknown = band.unknown + 1 end
+      end
+    end
+  end
+  for _, band in ipairs(bands) do total, unknown = total + band.cost, unknown + band.unknown end
+  return total, unknown, bands
+end
+
 --- Total reagents for a route: { [itemID] = quantity }, using each step's rounded-up craft count.
 function Optimiser.Materials(recipes, route)
   local needs = {}

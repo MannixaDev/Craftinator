@@ -229,6 +229,25 @@ function ns.BuildPlan()
       function(itemID) return (ns.Inventory.Count(itemID)) end, 10)
   end
 
+  -- Below a cap of 300: what the whole way to 300 would cost, shown as one line (owner chose this,
+  -- 22 Nov 2026). Same settings as the route; trainer fees for the next ranks are not known.
+  local full
+  if profession.max < 300 and profession.skill < 300 then
+    local fullOpts = {}
+    for name, value in pairs(routeOpts) do fullOpts[name] = value end
+    fullOpts.to = 300
+    local fullRoute = Optimiser.BuildWithOwned(recipes, fullOpts, ownedOf)
+    fullRoute = Optimiser.AddToolSteps(recipes, fullRoute, fullOpts,
+      function(itemID) return ns.Inventory.Count(itemID) > 0 end)
+    local cost, unknown, bands = Optimiser.CostByRank(recipes, fullRoute, ownedOf, book.PriceOf)
+    local toLearn = 0
+    for _, step in ipairs(fullRoute.steps) do
+      if not step.tool and not known[step.spellID] then toLearn = toLearn + 1 end
+    end
+    full = { cost = cost, unknown = unknown + (fullRoute.incomplete and 1 or 0), bands = bands,
+      reached = fullRoute.reachedSkill, complete = fullRoute.complete, crafts = fullRoute.crafts, toLearn = toLearn }
+  end
+
   local shopping, matsToBuy, unpriced = Optimiser.ShoppingList(Optimiser.Materials(recipes, route), ownedOf, book.PriceOf)
   local recipeCosts, resale = 0, 0
   for _, step in ipairs(route.steps) do
@@ -255,6 +274,7 @@ function ns.BuildPlan()
     known = known,
     route = route,
     profits = profits,
+    full = full,
     book = book,
     fromCache = fromCache,
     milliseconds = debugprofilestop() - started,

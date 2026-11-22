@@ -48,7 +48,7 @@ Run from the repo root. On the owner's Windows machine the Lua tools need this f
 
 ```
 export PATH="$LOCALAPPDATA/Programs/LuaJIT/bin:$HOME/.luarocks/bin:$PATH"
-cmd //c busted.bat          # 53 tests
+cmd //c busted.bat          # 54 tests
 cmd //c luacheck.bat .      # must be 0 warnings
 ```
 
@@ -156,6 +156,10 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
   (owner chose this, 20 Nov 2026): sale value less the 5% cut, materials in bags and bank free,
   with "buying everything" profit and how many crafts your materials cover in the tooltip
   (`Optimiser.Profits`). Recipes without a crafted item (enchants) are left out. Checked in game 20 Nov 2026.
+
+- Below a cap of 300 the footer shows "All the way to 300: about X" (owner chose a line, not a toggle,
+  22 Nov 2026); hover splits it by rank (`Optimiser.CostByRank`). Same settings as the route; owned
+  materials used once in order; no rank training fees, no resale. A "To 300" list toggle was offered for later. Checked in game 22 Nov 2026.
 
 ## Decisions made without sign-off
 

@@ -373,6 +373,31 @@ describe("Optimiser", function()
       assert.equals("101:1-5 102:5-10", summary(O.BuildRoute(RECIPES, fast)))
     end)
 
+  describe("CostByRank", function()
+    local recipes = {
+      [1] = { reagents = { { itemID = 1, qty = 2 } } },
+      [2] = { reagents = { { itemID = 1, qty = 1 }, { itemID = 2, qty = 1 } } },
+    }
+    local route = { steps = {
+      { spellID = 1, fromSkill = 140, toSkill = 150, crafts = 10, oneOffCost = 0 },
+      { spellID = 2, fromSkill = 150, toSkill = 170, crafts = 5, oneOffCost = 300 },
+    } }
+    local buy = function(id) return id == 1 and 10 or nil end
+
+    it("splits the cost at rank boundaries and uses owned materials once", function()
+      local total, unknown, bands = O.CostByRank(recipes, route, function(id) return id == 1 and 22 or 0 end, buy)
+      assert.equals(2, #bands)
+      assert.same({ 140, 150, 150, 0, 10 }, { bands[1].from, bands[1].to, bands[1].reached, bands[1].cost, bands[1].crafts })
+      -- 2 of item 1 left over from the 22 owned, so 3 bought; item 2 has no price.
+      assert.equals(300 + 30, bands[2].cost)
+      assert.equals(225, bands[2].to)
+      assert.equals(1, bands[2].learn)
+      assert.equals(1, bands[2].unknown)
+      assert.equals(330, total)
+      assert.equals(1, unknown)
+    end)
+  end)
+
   describe("Profits", function()
     local recipes = {
       [1] = { name = "Good", output = { itemID = 50, qty = 1 }, reagents = { { itemID = 1, qty = 2 } } },
