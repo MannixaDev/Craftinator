@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.8
+
+- New: a "To 300" tick box next to Owned and Resale. Tick it to plan the whole way to 300 instead of
+  stopping at your current cap; the shopping list and "To Auctionator" then cover everything, so you
+  can buy it all at once. Later materials may have old or no prices, and training fees for the next
+  ranks are not included.
+
 ## 0.6.7
 
 - New: below a skill cap of 300, a line above the total shows roughly what it costs to go all the
