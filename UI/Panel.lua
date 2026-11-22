@@ -16,7 +16,7 @@ local COLOURS = {
   white = { 1.00, 1.00, 1.00 },
 }
 local ROW_HEIGHT = 38
-local WIDTH, HEIGHT = 360, 500
+local WIDTH, HEIGHT = 380, 500
 local DOCK_OFFSET = 50   -- clears the profession tabs on the window's right edge
 local LIST_TOP, SLIDER_ROW = -172, 22 -- top of the route list; extra room the Balanced slider takes
 local POLL_SECONDS = 0.5 -- how often the open panel checks for a profession or skill change
