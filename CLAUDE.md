@@ -99,6 +99,10 @@ The CurseForge project was created on 14 Nov 2026 and approved by moderators on 
 - Trainers on Forever stop a rank lower than their Classic titles suggest: Stormwind's "Artisan"
   tailor teaches up to Expert (225), the "Expert" one up to Journeyman (150). Cooking and First Aid
   trainers stop at 150; the next rank is a book (see `ns.Data.RankBooks` in `Data/NPCs.lua`).
+  Since 25 Nov 2026 every crafting trainer in `Data/NPCs.lua` defaults to one rank below its title
+  (Journeyman 75, Expert 150, Artisan 225; owner agreed). Seen for Tailoring (Lawrence Schneider stops
+  at 75, Sellandus teaches Journeyman), Leatherworking and Enchanting; the rest are assumed. Nobody in
+  the data teaches past 225 yet, so the hint says no trainer is known there.
 - Forever adds craft stations for professions that had none in Classic (Loom, Tanning Rack and so on).
 
 ## Data sources and gaps

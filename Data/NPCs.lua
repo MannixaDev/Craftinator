@@ -2,7 +2,9 @@
 -- Hand-curated: spawn positions are not in the client data.
 -- Capital-city profession trainers. Names and coordinates are the Classic locations as
 -- listed by foreverdb.net. Checked in game: Georgio Bolero, Sellandus, Stephen Ryback, Shaina Fuller.
--- maxSkill is the Classic cap each rank trains to (Journeyman 150, Expert 225, Artisan 300).
+-- maxSkill is the Classic cap each rank trains to (Journeyman 150, Expert 225, Artisan 300), except
+-- crafting trainers: on Forever they stop a rank below their title (Journeyman 75, Expert 150,
+-- Artisan 225; seen in game for Tailoring, Leatherworking and Enchanting, Nov 2026).
 -- Cooking and First Aid trainers are listed at 150: in Classic the higher ranks come from books.
 -- Specialisation trainers (armoursmith, weaponsmith, gnomish/goblin engineering) are left out.
 -- Supply vendors: names and titles as listed for Forever by foreverdb.net (vendors by zone).
@@ -78,25 +80,29 @@ ns.Data.RankBooks = {
 
 -- Each entry: name, rank letter, city code, x, y (map percentages), and optionally the skill
 -- cap the trainer was seen to train to in game, which on Forever can be lower than the rank suggests.
+local CRAFTING = { Alchemy = true, Blacksmithing = true, Enchanting = true, Engineering = true,
+  Leatherworking = true, Tailoring = true }
+local CRAFT_CAP = { J = 75, E = 150, A = 225 }
 local function trainers(profession, list)
   for _, t in ipairs(list) do
     local rank, city = RANK[t[2]], CITY[t[3]]
     ns.Data.NPCs[#ns.Data.NPCs + 1] = {
-      name = t[1], role = "trainer", profession = profession, rank = rank[1], maxSkill = t[6] or rank[2],
+      name = t[1], role = "trainer", profession = profession, rank = rank[1],
+      maxSkill = t[6] or (CRAFTING[profession] and CRAFT_CAP[t[2]]) or rank[2],
       faction = city[2], mapID = city[1], x = t[4] / 100, y = t[5] / 100,
     }
   end
 end
 
 trainers("Tailoring", {
-  { "Lawrence Schneider", "J", "SW", 53.5, 81.6 }, { "Sellandus", "E", "SW", 52.3, 83.3, 150 },
+  { "Lawrence Schneider", "J", "SW", 53.5, 81.6, 75 }, { "Sellandus", "E", "SW", 52.3, 83.3, 150 },
   { "Georgio Bolero", "A", "SW", 53.2, 81.4, 225 },
-  { "Uthrar Threx", "J", "IF", 43.6, 27.9 }, { "Jormund Stonebrow", "E", "IF", 43.2, 29.0 },
-  { "Trianna", "J", "DN", 63.5, 21.2 }, { "Me'lynn", "E", "DN", 63.6, 22.4 },
-  { "Snang", "J", "OG", 63.0, 49.7 }, { "Magar", "E", "OG", 63.4, 50.0 },
-  { "Vhan", "J", "TB", 44.1, 45.1 }, { "Tepa", "E", "TB", 44.1, 45.1 },
-  { "Victor Ward", "J", "UC", 70.4, 29.7 }, { "Rhiannon Davis", "E", "UC", 70.2, 30.1 },
-  { "Josef Gregorian", "A", "UC", 70.8, 30.7 },
+  { "Uthrar Threx", "J", "IF", 43.6, 27.9, 75 }, { "Jormund Stonebrow", "E", "IF", 43.2, 29.0, 150 },
+  { "Trianna", "J", "DN", 63.5, 21.2, 75 }, { "Me'lynn", "E", "DN", 63.6, 22.4, 150 },
+  { "Snang", "J", "OG", 63.0, 49.7, 75 }, { "Magar", "E", "OG", 63.4, 50.0, 150 },
+  { "Vhan", "J", "TB", 44.1, 45.1, 75 }, { "Tepa", "E", "TB", 44.1, 45.1, 150 },
+  { "Victor Ward", "J", "UC", 70.4, 29.7, 75 }, { "Rhiannon Davis", "E", "UC", 70.2, 30.1, 150 },
+  { "Josef Gregorian", "A", "UC", 70.8, 30.7, 225 },
 })
 
 trainers("Alchemy", {
